@@ -1,0 +1,26 @@
+# Technos a check
+
+- PWA / Service workers
+- web assembly
+- tailwind css / materialize css / bulma css
+- svelte
+- server side rendering / static site generator
+  - gatsby    // React
+  - gridsome  // VueJs
+- headless cms
+  - contentful !!! / [https://www.contentful.com/](https://www.contentful.com/)
+  - [https://prismic.io/](https://prismic.io/) !!
+  - sanity cms // react
+  - strapi // NodeJs
+  - flutter
+- kotlin !!!
+- Kuzzle
+- clipboard.js
+- [https://matthew.wagerfield.com/parallax/](https://matthew.wagerfield.com/parallax/)
+- node express
+- Netflix Titus
+- codeship
+- axios
+- Tuto serveur node complet [ici](https://www.youtube.com/watch?v=XCgCjasqEFo&list=PLQlWzK5tU-gDyxC1JTpyC2avvJlt3hrIh&index=2)
+- [https://www.form.io/](https://www.form.io/)
+- PROJEQTOR
