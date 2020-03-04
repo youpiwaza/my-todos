@@ -14,7 +14,7 @@
 - Cleaner environnement de développement VIA projet install-dev-env
   - Si possible via différents ansible
     - Mettre en place une image docker dédiée
-    - Mise en place du terminal + différentes conneries (tmux, etc.)
+    - Mise en place du terminal + différentes conneries (tmux, zsh, etc.)
 
 - Récupérer la gestion des linters en global pour l'appliquer sur l'environnement de developpement
   - .md
