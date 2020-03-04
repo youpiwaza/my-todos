@@ -12,7 +12,7 @@ Supprimer les terminés ✅ à chaque début/fin de semaine.
 
 ## Priorisation, simple
 
-1. 🚀 Clean environnement de dev sommaire : versionner les todos
+1. ✅ Clean environnement de dev sommaire : versionner les todos
 2. Mettre en place le nouveau serveur
    1. Linters
       1. ✅ VSC (tabs, etc.)
@@ -25,11 +25,11 @@ Supprimer les terminés ✅ à chaque début/fin de semaine.
 
 ## Priorisation, détails tâche courante
 
-✅ Récupérer les trucs de formattage des éditeurs de textes et en faire un fucking repo
+### 2. 1. 3. Linter ansible
 
----
+[Official documentation](https://docs.ansible.com/ansible-lint/)
 
-Mettre en place la sécurité
+### 2. 2. Mettre en place la sécurité
 
 - 🔍 Grafikart concernant ansible / [https://www.grafikart.fr/formations](https://www.grafikart.fr/formations)
 - 🔍 Grafikart concernant la mise en place d'un serveur web
