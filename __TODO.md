@@ -20,6 +20,12 @@ Supprimer les terminés ✅ à chaque début/fin de semaine.
       2. ✅ .md
       3. 📌 ansible
    2. VIA Ansible, mettre en place la sécurité
+      1. ✅ Corriger correction SSH + documenter
+      2. 🚀 Prise en main ansible, repomper commandes grafikart ♻️ Grafikart Ansible + doc
+      3. ⏩ Rangement en recette clean (arborescence)
+      4. ✅ Tâche : Mise à jour du système, des dépendances et reboot si nécessaire
+      5. ⏩ Création d'un utilisateur dédié
+      6. ⏩ Installation des logiciels de base sur le serveur
    3. Installation de docker
    4. Installation de traefik
    5. Mettre en place un nginx hello world sur un DNS
@@ -28,7 +34,7 @@ Supprimer les terminés ✅ à chaque début/fin de semaine.
 
 ### 2. 2. Mettre en place la sécurité
 
-- 🚀🔍 Grafikart concernant ansible / [https://www.grafikart.fr/formations](https://www.grafikart.fr/formations)
+- ✅ Grafikart concernant ansible / [https://www.grafikart.fr/formations](https://www.grafikart.fr/formations)
 - 🔍 Grafikart concernant la mise en place d'un serveur web
 - ♻️ Reprendre la vidéo de cocadmin sur la sécurité
 
