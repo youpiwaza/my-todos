@@ -18,7 +18,7 @@ Supprimer les terminés ✅ à chaque début/fin de semaine.
    1. Linters
       1. ✅ VSC (tabs, etc.)
       2. ✅ .md
-      3. 📌 ansible
+      3. ✅ ansible
    2. VIA Ansible, mettre en place la sécurité
       1. ✅ Corriger correction SSH + documenter
       2. 🚀 Prise en main ansible, repomper commandes grafikart ♻️ Grafikart Ansible + doc
