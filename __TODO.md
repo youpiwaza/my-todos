@@ -22,8 +22,9 @@ Supprimer les terminés ✅ à chaque début/fin de semaine.
    2. VIA Ansible, mettre en place la sécurité
       1. ✅ Corriger correction SSH + documenter
       2. 🚀 Prise en main ansible, repomper commandes grafikart ♻️ Grafikart Ansible + doc
-      3. 🚀 Rangement en recette clean (arborescence)
-         1. 🚀🚀🚀🚀🚀 En cours : Exporter les variables dans un fichier dédié
+      3. 🚀 Rangement en recette clean (arborescence) > Création des roles
+         1. ✅ Exporter les variables dans un fichier dédié
+         2. ⏩ Importer les variables depuis un repo / privé ?
       4. ✅ Tâche : Mise à jour du système, des dépendances et reboot si nécessaire
       5. ⏩ Installation des logiciels de base sur le serveur
    3. Installation de docker
