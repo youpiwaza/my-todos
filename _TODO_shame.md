@@ -19,3 +19,10 @@
 - Récupérer la gestion des linters en global pour l'appliquer sur l'environnement de developpement
   - .md
   - ansible
+
+- Mettre en place l'envoi d'emails > 1 serveur ou 1 conteneur par site ?
+
+## Setup serveur
+
+🌱 Configuration du SSH / A la mano pour le moment / https://www.grafikart.fr/tutoriels/ssh-686
+🌱 Backup via rsync / https://www.grafikart.fr/tutoriels/rsync-1012

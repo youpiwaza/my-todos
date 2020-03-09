@@ -10,7 +10,10 @@ Légende :
 - 🔍  Lecture/Vidéos
 - 🌱 TODO
 
-Supprimer les terminés ✅ à chaque début/fin de semaine.
+**Tâches récurrentes** :
+
+- Supprimer les terminés ✅ à chaque début/fin de semaine.
+- Déplacer les TODO 🌱 dans _TODO_shame.md
 
 ## Priorisation, simple
 
@@ -29,10 +32,25 @@ Mettre en place le nouveau serveur
    2. ✅ Create a repo for Ansible role template
    3. ✅ Installation des logiciels de base sur le serveur
    4. ✅ Installation d'un utilisateur sur le serveur
-   5. 🔍🚀 Grafikart concernant la mise en place d'un serveur web
+      1. 🌱 Génération de la clé SSH de manière automatique (ansible > local_action)
+      2. 🌱 Template de génération d'utilisateurs
+   5. 🔍 Grafikart / Mise en place d'un serveur web
+      1. ✅ Configration de VIM
+      2. 🚀 CRONs / https://www.grafikart.fr/tutoriels/cron-tache-recurrente-1013
+         1. ⏩ Faire un utilisateur dédié pour les crons
+         2. Retirer les droits aux autres utilisateurs "cron.allow / cron.deny"
+         3. Tester avec un cron cf. grafikart
    6. 🔍♻️ Reprendre la vidéo de cocadmin sur la sécurité
 3. Installation de docker
 4. Installation de traefik
 5. Mettre en place un nginx hello world sur un DNS
 
 ## Priorisation, détails tâche courante
+
+Grafikart
+
+- CRON / https://www.grafikart.fr/tutoriels/cron-tache-recurrente-1013
+- Shell / https://www.grafikart.fr/tutoriels/pimp-my-shell-750
+- Iptables / https://www.grafikart.fr/tutoriels/iptables-694
+- firewall / https://www.grafikart.fr/tutoriels/ufw-696
+- fail2ban / https://www.grafikart.fr/tutoriels/fail2ban-698
