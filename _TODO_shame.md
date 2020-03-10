@@ -22,6 +22,12 @@
 
 - Mettre en place l'envoi d'emails > 1 serveur ou 1 conteneur par site ?
 
+- Oh my zeh > plugins docker++
+
+- [Pimper vim](https://github.com/amix/vimrc) > awesome vim (fonts, etc.)
+
+- [Pimper terminal avec tmux](https://www.grafikart.fr/tutoriels/pimp-my-shell-750) // zsh + omz faits
+
 ## Setup serveur
 
 🌱 Configuration du SSH / A la mano pour le moment / https://www.grafikart.fr/tutoriels/ssh-686
