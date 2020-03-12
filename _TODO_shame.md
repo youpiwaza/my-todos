@@ -12,10 +12,6 @@
     - Mettre en place une image docker dédiée
     - Mise en place du terminal + différentes conneries (tmux, zsh, etc.)
 
-- Récupérer la gestion des linters en global pour l'appliquer sur l'environnement de developpement
-  - .md
-  - ansible
-
 - Mettre en place l'envoi d'emails > 1 serveur ou 1 conteneur par site ?
 
 - Oh my zeh > plugins docker++
@@ -26,10 +22,9 @@
 
 ## Setup serveur
 
-🐛 Fix system updates > auto upgrade (update-manager-core > do-release-upgrade) KO ?
 🐛 Clean system updates > Retours utilisateurs
-🌱 Utiliser *the_builder* pour installation des packages // besoin acl ? / https://docs.ansible.com/ansible/latest/user_guide/become.html#becoming-an-unprivileged-user
+✅ Utiliser *the_builder* pour installation des packages // besoin acl ? / https://docs.ansible.com/ansible/latest/user_guide/become.html#becoming-an-unprivileged-user
 🌱 Importer des variables depuis un repo privé
-🌱 Configuration du SSH / A la mano pour le moment / https://www.grafikart.fr/tutoriels/ssh-686
-  Use the [fetch](https://docs.ansible.com/ansible/latest/modules/fetch_module.html#fetch-module) module to copy files from remote locations to the local box.
 🌱 Backup via rsync / https://www.grafikart.fr/tutoriels/rsync-1012
+
+✅ zsh > gives root his own zsh + omz & remove tweak (root's $HOME is /root, other user's are /home/$USER)

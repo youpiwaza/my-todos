@@ -30,14 +30,14 @@ Mettre en place le nouveau serveur
 2. Mettre en place la sécurité du serveur
    1. ✅ Create server repo & obfuscate vars
    2. ✅ Create a repo for Ansible role template
-   3. 🚀 Gestion de la connexion
+   3. ✅ Gestion de la connexion
       1. ✅ Création des clés SSH publiques et privées
       2. ✅ Implémentation des clés en local (.sh)
          1. ✅ Définition de l'agent ssh
          2. ✅ Ajout des clés
       3. ✅ Implémentation des clés sur le serveur
-      4. ⏩ Changement du port SSH
-      5. ⏩ Reconnexion avec *the_builder_guy* avec le bon port
+      4. ✅ Changement du port SSH
+      5. ✅ Reconnexion avec *the_builder_guy* avec le bon port
    4. ✅ Installation des logiciels de base sur le serveur
    5. ✅ [Installation d'un utilisateur](https://www.grafikart.fr/tutoriels/ansible-753) sur le serveur et [bases SSH](https://www.grafikart.fr/tutoriels/ssh-686)
       1. ✅ Template de génération d'utilisateurs
@@ -51,7 +51,7 @@ Mettre en place le nouveau serveur
          2. ✅ Retirer les droits aux autres utilisateurs "cron.allow / cron.deny"
       3. ✅ [Shell](https://www.grafikart.fr/tutoriels/pimp-my-shell-750)
       4. 🌱 Envoi de mail / [Postfix](https://www.grafikart.fr/tutoriels/postfix-sendonly-695) ou [autre](https://www.ubuntupit.com/best-linux-mail-server-software-and-solutions/), necessaire pour envoi de mails depuis le serveur (erreurs, logs, etc.)
-      5. 🚧 [Iptables](https://www.grafikart.fr/tutoriels/iptables-694)
+      5. 🚀🚧 [Iptables](https://www.grafikart.fr/tutoriels/iptables-694)
          1. Autoriser [apt-get](https://www.grafikart.fr/tutoriels/iptables-694#c44945)
          2. Autoriser [monitoring ovh](https://www.grafikart.fr/tutoriels/iptables-694#c42917)
          3. Autoriser Mise à l'heure du serveur [NTP](https://www.google.com/search?q=ntp)
@@ -76,7 +76,9 @@ Grafikart
 - ✅ Accès machine locale
 - ✅ Génération complète de première clé SSH
 - ✅ Génération automatique des clés SSH des autres utilisateurs (sans ajout à l'agent)
-  - 🚀🚀🚀 Générer le fichier users/README_secret.md automatiquement, comme pour root
-- Changement du port SSH custom avant reco
-- Accès root avec nouvel utilisateur généré *the_builder_guy*
-- 🐛FIXer auto update OS
+  - ✅ Générer le fichier users/README_secret.md automatiquement, comme pour root
+- ✅ Fix installation zsh : une pour root, une pour les autres utilisateurs
+- ✅ Accès root avec nouvel utilisateur généré *the_builder_guy*
+- ✅ Changement du port SSH custom avant reco
+  - ✅ !!! Ajout nouvel utilisateur a l'agent local
+- ✅ FIXer auto update OS
