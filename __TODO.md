@@ -50,25 +50,42 @@ Mettre en place le nouveau serveur
          1. ✅ Faire un utilisateur dédié pour les crons
          2. ✅ Retirer les droits aux autres utilisateurs "cron.allow / cron.deny"
       3. ✅ [Shell](https://www.grafikart.fr/tutoriels/pimp-my-shell-750)
-      4. 🌱 Envoi de mail / [Postfix](https://www.grafikart.fr/tutoriels/postfix-sendonly-695) ou [autre](https://www.ubuntupit.com/best-linux-mail-server-software-and-solutions/), necessaire pour envoi de mails depuis le serveur (erreurs, logs, etc.)
-      5. 🚀🚧 [Iptables](https://www.grafikart.fr/tutoriels/iptables-694)
-         1. Autoriser [apt-get](https://www.grafikart.fr/tutoriels/iptables-694#c44945)
-         2. Autoriser [monitoring ovh](https://www.grafikart.fr/tutoriels/iptables-694#c42917)
-         3. Autoriser Mise à l'heure du serveur [NTP](https://www.google.com/search?q=ntp)
-         4. Avec un validate
-   7. 🔍♻️ Reprendre la vidéo de cocadmin sur la sécurité
+      4. 🌱 Envoi de mail / [Postfix](https://www.grafikart.fr/tutoriels/postfix-sendonly-695) ou [autre](https://www.ubuntupit.com/best-linux-mail-server-software-and-solutions/),
+         1. // Necessaire pour envoi de mails depuis le serveur (erreurs, logs, etc.)
+         2. Config fail2ban pour envoi de mail approprié
+         3. fail2ban config > ban_action : action_mwl (mail with logs en cas de ban)
+   7. [Iptables](https://www.grafikart.fr/tutoriels/iptables-694)
+      1. ✅ Règles de base
+      2. ✅ Autoriser [apt-get](https://www.grafikart.fr/tutoriels/iptables-694#c44945)
+      3. ✅ Autoriser [monitoring ovh](https://docs.ovh.com/fr/dedicated/monitoring-ip-ovh/)
+      4. 🌱 Avec un validate
+   8. 🚧♻️ Mise à l'heure du serveur
+      1. Ubuntu [doc officielle](https://help.ubuntu.com/lts/serverguide/NTP.html)
+      2. 🚧 Firewall / Autoriser Mise à l'heure du serveur [NTP](https://www.google.com/search?q=ntp)
+   9. ✅ [fail2ban](https://www.grafikart.fr/tutoriels/fail2ban-698)
+      3. ✅ Recos grafikart
+      4. ✅ Recos archi linux
+   10. 🔍♻️ Reprendre la vidéo de cocadmin sur la sécurité
 3. Installation de docker
    1. iptables firewall > docker [needs update](https://github.com/nickjj/ansible-iptables/blob/master/tasks/main.yml)
 4. Installation de traefik
 5. Mettre en place un nginx hello world sur un DNS
-6. HTTPS Automatique
+   1. HTTPS Automatique / Let's Encrypt
+
+## 🚧 WIP 🚧
+
+**Mise en place de la synchro du temps** > changer la timezone ET qu'elle persiste au reboot
+
+- [Ubuntu Time Synchronization](https://help.ubuntu.com/lts/serverguide/NTP.html)
+- [Tuto > How To Set Up Time Synchronization on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-time-synchronization-on-ubuntu-18-04)
+- [Tuto > Keep Your Clock Sync with Internet Time Servers in Ubuntu 18.04](https://vitux.com/keep-your-clock-sync-with-internet-time-servers-in-ubuntu/)
+- [Ansible timezone module](https://docs.ansible.com/ansible/latest/modules/timezone_module.html)
+- [Ansible cookbook > ansible-clock](https://github.com/fabiocorneti/ansible-clock)
+
 
 ## Priorisation, détails tâche courante
 
-Grafikart
-
-- [ftp](https://www.grafikart.fr/tutoriels/proftpd-755) ?
-- [fail2ban](https://www.grafikart.fr/tutoriels/fail2ban-698)
+- 🌱 fail2ban > [securité++](https://wiki.archlinux.org/index.php/Fail2ban#Service_hardening)
 
 ## Tests
 
@@ -82,3 +99,5 @@ Grafikart
 - ✅ Changement du port SSH custom avant reco
   - ✅ !!! Ajout nouvel utilisateur a l'agent local
 - ✅ FIXer auto update OS
+
+- fail2ban [autoriser nginx port 80](https://unihost.com/help/how-to-protect-a-server-with-fail2ban/)
