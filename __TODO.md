@@ -47,10 +47,8 @@ REMPLACER NTP PAR CHRONY ???
 
 - [Chrony faq](https://chrony.tuxfamily.org/faq.html)
 - [Comparaison chrony vs ntp](https://chrony.tuxfamily.org/comparison.html)
-
-http://manpages.ubuntu.com/manpages/cosmic/man5/timesyncd.conf.5.html
-
-https://vitux.com/keep-your-clock-sync-with-internet-time-servers-in-ubuntu/
+- [timesyncd.conf](http://manpages.ubuntu.com/manpages/cosmic/man5/timesyncd.conf.5.html)
+- [keep-your-clock-sync-with-internet-time-servers-in-ubuntu](https://vitux.com/keep-your-clock-sync-with-internet-time-servers-in-ubuntu/)
 
 > Fin du comparatif : tester si implémentation rapide ( sudo nano /etc/systemd/timesyncd.conf ou mieux can be stored in /etc/systemd/timesyncd.conf.d/ ) sinon oseb go ntp
 > Commenter ntp au cas ou
