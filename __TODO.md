@@ -5,11 +5,11 @@ Légende :
 - 🚀  En cours / **1 MAX A LA FOIS**
 - ✅  Terminé
 - ⏩  Suite
-- 📌 A tester
+- 📌  A tester
 - ♻️  Contenus/notes dans TODO_details_shame.md
 - 🔍  Lecture/Vidéos
-- 🌱 TODO
-- 🚧 WIP / Work In Progress
+- 🌱  TODO
+- 🚧  WIP / Work In Progress
 
 **Tâches récurrentes** :
 
@@ -19,43 +19,74 @@ Légende :
 ## Priorisation, simple
 
 1. Mettre en place la sécurité du serveur
-   1. 🔍 Grafikart / Mise en place d'un serveur web
-      1. 🌱 Envoi de mail / [Postfix](https://www.grafikart.fr/tutoriels/postfix-sendonly-695) ou [autre](https://www.ubuntupit.com/best-linux-mail-server-software-and-solutions/),
-         1. // Necessaire pour envoi de mails depuis le serveur (erreurs, logs, etc.)
-         2. Config fail2ban pour envoi de mail approprié
-         3. fail2ban config > ban_action : action_mwl (mail with logs en cas de ban)
-   2. [Iptables](https://www.grafikart.fr/tutoriels/iptables-694)
-      1. 🌱 Avec un validate
-   3. 🚧♻️ Mise à l'heure du serveur
-      1. 🚨 systemctl status systemd-timesyncd > inactive dead
-         1. [doc](https://www.digitalocean.com/community/tutorials/how-to-set-up-time-synchronization-on-ubuntu-18-04#controlling-timesyncd-with-timedatectl)
-      2. 🚧 Firewall / Autoriser Mise à l'heure du serveur [NTP](https://www.google.com/search?q=ntp)
-   4. 🔍♻️ Reprendre la vidéo de cocadmin sur la sécurité
-2. Installation de docker
-   1. iptables firewall > docker [needs update](https://github.com/nickjj/ansible-iptables/blob/master/tasks/main.yml)
-3. Installation de traefik
-4. Mettre en place un nginx hello world sur un DNS
-   1. HTTPS Automatique / Let's Encrypt
+   1. 🌱 Envoi de mail
+      1. ✅🔍 Docs
+         - [Ubuntu](https://help.ubuntu.com/lts/serverguide/postfix.html)
+         - [Grafikart Postfix](https://www.grafikart.fr/tutoriels/postfix-sendonly-695)
+         - [How to Setup Postfix as Send-only Mail Server on an Ubuntu 18.04 Dedicated Server or VPS](https://hostadvice.com/how-to/how-to-setup-postfix-as-send-only-mail-server-on-an-ubuntu-18-04-dedicated-server-or-vps/)
+         - // Necessaire pour envoi de mails depuis le serveur (erreurs, logs, etc.)
+      2. ✅ Config iptables pour envoi de mail approprié
+      3. 🌱 NDD > Ajout SPF            / Sender Policy Framework
+      4. 🌱 NDD & mail() > Ajout DKIM  / DomainKeys Identified Mail
+      5. 🌱 DMARC                      / Domain-Based Message Authentication, Reporting, and Conformance
+      6. ✅ fail2ban config > ban_action : action_mwl (mail with logs en cas de ban)
+   2. ✅ Mise à l'heure du serveur
+      1. ✅🔍 Docs
+         - [Chrony faq](https://chrony.tuxfamily.org/faq.html)
+         - [Comparaison chrony vs ntp](https://chrony.tuxfamily.org/comparison.html)
+         - [timesyncd.conf](http://manpages.ubuntu.com/manpages/cosmic/man5/timesyncd.conf.5.html)
+         - [keep-your-clock-sync-with-internet-time-servers-in-ubuntu](https://vitux.com/keep-your-clock-sync-with-internet-time-servers-in-ubuntu/)
+      2. ✅ Remplacer NTP par Chrony
+      3. ✅ systemctl status systemd-timesyncd > inactive dead
+         1. [doc](https://unix.stackexchange.com/questions/504381/chrony-vs-systemd-timesyncd-what-are-the-differences-and-use-cases-as-ntp-cli)
+      4. ✅ Firewall / Autoriser Mise à l'heure du serveur [NTP](https://www.google.com/search?q=ntp)
+   3. ✅ Sécurité
+      1. ✅🔍 cocadmin / [sécurité serveur](https://www.youtube.com/watch?v=UmbndsZFIUE)
+2. Environnement de dev propre
+   1. Docs
+      1. 🚀🔍 [cocadmin](https://www.youtube.com/watch?v=yqLPUOsy-8M)
+   2. Avoir une image docker pour faire tourner ansible (installation un poil plus complexe avec manip de docker)
+   3. Utiliser docker pour monter un ubuntu (serveur) et faire tourner les scripts ansible dessus
+3. Installation de docker
+   1. Note: Rootless Docker
+      1. is experimental
+      2. features are not supported : Overlay network
+      3. > Installation classique
+   2. 🔍 Docs
+      - [Docker / Installation officielle](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-repository)
+        - [Post-installation steps for Linux](https://docs.docker.com/install/linux/linux-postinstall/)
+        - [Run your app in production](https://docs.docker.com/get-started/orchestration/)
+      - [Ansible Docker guide](https://docs.ansible.com/ansible/latest/scenario_guides/guide_docker.html)
+      - [Digital ocean > Automate Docker install on ubuntu](https://www.digitalocean.com/community/tutorials/how-to-use-ansible-to-install-and-set-up-docker-on-ubuntu-18-04)
+        - [+ playbook de base <3](https://github.com/do-community/ansible-playbooks/tree/master/docker_ubuntu1804)
+   3. iptables firewall > docker [needs update](https://github.com/nickjj/ansible-iptables/blob/master/tasks/main.yml)
+4. Mettre en place un conteneur nginx hello world sur l'ip du serveur
+5. Recos [Faire tourner Docker pour la production](https://docs.docker.com/get-started/orchestration/)
+6. Installation de traefik
+7. ♻️(tests) Mettre en place un nginx hello world sur un DNS, gestion du reverse proxy via traefik
+   1. +1 Caddy
+   2. 📌 Test des performances > Choix
+      1. Si choix Nginx Mettre en place HTTPS Automatique via Let's Encrypt
+8. Monitoring
+9. ♻️ Optimiser Dockerfiles
 
 ## 🚧 WIP 🚧
 
-hey
+Bureau > doc installation docker via ansible
 
 ## Priorisation, détails tâche courante
 
-REMPLACER NTP PAR CHRONY ???
-
-- [Chrony faq](https://chrony.tuxfamily.org/faq.html)
-- [Comparaison chrony vs ntp](https://chrony.tuxfamily.org/comparison.html)
-- [timesyncd.conf](http://manpages.ubuntu.com/manpages/cosmic/man5/timesyncd.conf.5.html)
-- [keep-your-clock-sync-with-internet-time-servers-in-ubuntu](https://vitux.com/keep-your-clock-sync-with-internet-time-servers-in-ubuntu/)
-
-> Fin du comparatif : tester si implémentation rapide ( sudo nano /etc/systemd/timesyncd.conf ou mieux can be stored in /etc/systemd/timesyncd.conf.d/ ) sinon oseb go ntp
-> Commenter ntp au cas ou
-
-- Si zsh déjà installé, l'utiliser (afin de ne pas le virer en cas de reinstallation)
-- Forcer la version d'ansible dans les fichiers de conf
+1. Ansible > virer le warning python
+   1. ansible_python_interpreter / [Forcer choix python pour ansible](https://docs.ansible.com/ansible/latest/reference_appendices/python_3_support.html)
 
 ## Tests
 
-hey
+- ✅ Changer d'utilisateur en cours de playbook
+
+- [Caddy](https://caddyserver.com/) vs [Nginx](https://www.nginx.com/)
+  - [stackshare](https://stackshare.io/stackups/caddy-vs-nginx)
+  - [rex](https://medium.com/@torch2424/my-experience-of-switching-from-nginx-to-caddy-79bc8cd627c0)
+    - Caddy
+      - HTTPS automatique
+      - Configuration réduite et plus simple
+      - Moins bonnes performances
