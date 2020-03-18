@@ -1,44 +1,88 @@
 # Shame / Vider la tête sans rien oublier
 
+## Rangement
+
 - **Ranger notes-install.../TODO.md**
-- Séparer Ansible de Docker de Serveur
+- Ranger notes-install... > Séparer Ansible de Docker de Serveur
 
+## Environnement de dev
+
+- Automatiser l'installation de l'environnement de developpement VIA projet install-dev-env
+  - Full WSL
+  - Bash > Installation d'ansible
+  - Ansible > Mise en place du terminal + différentes conneries (tmux, zsh, etc.)
+  - DCompose dédié pour image Ansible et tests des scripts sur image ubuntu, cf. [cocadmin](https://www.youtube.com/watch?v=yqLPUOsy-8M)
+  - Installation et configuration de Docker
+- Possibilité d'en faire un conteneur ? Ex: Alpine > avec interface graphique
+- Docker GUI / [Kitematic](https://kitematic.com/) > Docker GUI
 - [Packer](https://www.packer.io/) / Image build/vm/container automation
+- Images basiques dédiées
+  - Site statique
+    - Caddy ?
+    - L'autre truc de blog, cf. cocadmin
+  - Serveur PHP (nginx ou apache)
+  - Serveur Node
 
-- Vérifier le bon fonctionnement de docker en local depuis la réinstallation
+## Divers
 
-- Cleaner environnement de développement VIA projet install-dev-env
-  - Si possible via différents ansible
-    - Mettre en place une image docker dédiée
-    - Mise en place du terminal + différentes conneries (tmux, zsh, etc.)
-
-- Mettre en place l'envoi d'emails > 1 serveur ou 1 conteneur par site ?
-
+- Mettre en place l'envoi d'emails > 1 conteneur par site
 - Oh my zsh > plugins docker++
-
 - [Pimper vim](https://github.com/amix/vimrc) > awesome vim (fonts, etc.)
-
 - [Pimper terminal avec tmux](https://www.grafikart.fr/tutoriels/pimp-my-shell-750) // zsh + omz faits
+- Tester les [rôles ansible en local](https://www.youtube.com/watch?v=yqLPUOsy-8M) sur des conteneurs docker
 
 ## Setup serveur
 
-🐛 Clean system updates > Retours utilisateurs
-🌱 Importer des variables depuis un repo privé
-🌱 [Backup via rsync](https://www.grafikart.fr/tutoriels/rsync-1012)
+- 🐛 Clean system updates > Retours utilisateurs
+- 🌱 Importer des variables depuis un repo privé
+- Si zsh déjà installé, l'utiliser (afin de ne pas le virer en cas de reinstallation)
+- Mails
+  - Configurer pour le nouveau serveur / [grafikart](https://www.grafikart.fr/tutoriels/email-dns-dkim-spf-551)
+    - SPF
+    - DKIM
+    - DMARC
+  - Changer l'expéditeur > jax_the_mail_guy_WHATAVER@masamune.fr
+  - Maj expediteur de fail2ban (rechercher 'fail2ban_sender')
+  - Tester envoi
+  - Tester envoi fail2ban
+  - [Tester spam](https://www.mail-tester.com/)
+- 🌱 [Backup via rsync](https://www.grafikart.fr/tutoriels/rsync-1012)
+- [Users quota](https://www.digitalocean.com/community/tutorials/how-to-set-filesystem-quotas-on-ubuntu-18-04)
+- Warning ubuntu : Canonical Livepatch is available for installation.
+  - Reduce system reboots and improve kernel security. [Activate at](https://ubuntu.com/livepatch)
+- Mise en place des CRONs
+- ♻️ Sécurité
+  - remove unused
+    - packages
+    - process
+  - 🌱 [Ubuntu recommandations](https://help.ubuntu.com/lts/serverguide/serverguide.pdf) / Chapter 9, page 179
+     1. 🌱 Users home default rights
+     2. 🌱 AppArmor package
+- ♻️ Bonne pratiques
+- [Customisable theme built to enhance the experience of browsing web directories](https://github.com/oupala/apaxy)
 
-docker > client ftp pour les sites client : [ftp](https://www.grafikart.fr/tutoriels/proftpd-755) ?
+### Images docker
 
-ansible > optimisation, utilisation systématique de changed
+- ♻️ Toujours utiliser un utilsateur dédié ! cf. cocadmin / Docker Hacké
+- ♻️ Healthcheck
+- ♻️ Limitation de la RAM
+- [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+- Conteneurs montés a la volée en fonction des besoins, données persistées via *volumes*
+- docker > client ftp pour les sites client : [ftp](https://www.grafikart.fr/tutoriels/proftpd-755) ?
+- nginx > Prevent Flood/DDOS avec la configuration, [tuto grafikart](https://www.grafikart.fr/tutoriels/flood-ddos-fail2ban-884)
 
-- tâche 1 > `register: resultat`
-- tâche 2 dépendante : `when: resultat.changed`
+## Ansible
 
-ansible > validate sur templates
+- Forcer la version d'ansible dans les fichiers de conf
+- optimisation, utilisation systématique de changed
+  - tâche 1 > `register: resultat`
+  - tâche 2 dépendante : `when: resultat.changed`
+- validate sur templates
+  - [Iptables](https://www.grafikart.fr/tutoriels/iptables-694)
+- variables
+  - Utiliser defaults/vars/main.yml
+  - Véritables variables à importer depuis un repo privé
 
-nginx > Prevent Flood/DDOS avec la configuration, [tuto grafikart](https://www.grafikart.fr/tutoriels/flood-ddos-fail2ban-884)
+## Done
 
-- ansible local > playbook rename all *_not_so_real to* (/vars/main_not_so_real.yml)
-  - Utiliser main.yml par défaut, sinon remplacer par importdepuis repo privé
-    - A placer dans defaults/vars/main.yml
-
-Tuto complet [installation de serveur](https://www.howtoforge.com/perfect-server-debian-10-buster-apache-bind-dovecot-ispconfig-3-1/) a l'ancienne, voir s'il n'ya pas des outils a recup
+- ✅ Vérifier le bon fonctionnement de docker en local depuis la réinstallation
