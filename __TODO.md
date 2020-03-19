@@ -43,15 +43,23 @@ Légende :
    3. ✅ Sécurité
       1. ✅🔍 cocadmin / [sécurité serveur](https://www.youtube.com/watch?v=UmbndsZFIUE)
 2. Environnement de dev propre
-   1. Docs
-      1. 🚀🔍 [cocadmin](https://www.youtube.com/watch?v=yqLPUOsy-8M)
-   2. Avoir une image docker pour faire tourner ansible (installation un poil plus complexe avec manip de docker)
-   3. Utiliser docker pour monter un ubuntu (serveur) et faire tourner les scripts ansible dessus
+   1. ✅🔍 Docs
+      1. [cocadmin](https://www.youtube.com/watch?v=yqLPUOsy-8M)
+         1. Avoir une image docker pour faire tourner ansible (installation un poil plus complexe avec manip de docker)
+         2. Utiliser docker pour monter un ubuntu (serveur) et faire tourner les scripts ansible dessus
+   2. ✅ Faire tourner l'exemple
+   3. ✅ Update > ansible:alpine & ubuntu:18.04
+   4. ✅ Faire tourner un nginx (install via ansible) alakon sur 8080
+      1. ✅ Vérif via ~~[curl](https://www.ansible.com/blog/six-ways-ansible-makes-docker-compose-better)~~ [uri](https://docs.ansible.com/ansible/latest/modules/uri_module.html)
+   5. 🚀Installer docker et y monter un container nginx alakon
+      1. Vérif via curl
 3. Installation de docker
    1. Note: Rootless Docker
       1. is experimental
       2. features are not supported : Overlay network
       3. > Installation classique
+      4. Note: App armor pas dispo dans docker rootless, SEL Linux?
+      5. Note: **Véritable besoin de réseau overlay ?**
    2. 🔍 Docs
       - [Docker / Installation officielle](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-repository)
         - [Post-installation steps for Linux](https://docs.docker.com/install/linux/linux-postinstall/)
@@ -67,8 +75,13 @@ Légende :
    1. +1 Caddy
    2. 📌 Test des performances > Choix
       1. Si choix Nginx Mettre en place HTTPS Automatique via Let's Encrypt
-8. Monitoring
-9. ♻️ Optimiser Dockerfiles
+8. Mettre en place la sécurité en vérifiant que tout roule toujours
+   1. 🔍 Docs
+      - [Docker security](https://docs.docker.com/engine/security/security/)
+      - [Docker Post-installation steps for Linux](https://docs.docker.com/install/linux/linux-postinstall/)
+9. Installer les containers de base grâce à [ansible](https://www.ansible.com/blog/six-ways-ansible-makes-docker-compose-better)
+10. Monitoring
+11. ♻️ Optimiser Dockerfiles
 
 ## 🚧 WIP 🚧
 

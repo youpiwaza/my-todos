@@ -66,6 +66,7 @@
 - ♻️ Toujours utiliser un utilsateur dédié ! cf. cocadmin / Docker Hacké
 - ♻️ Healthcheck
 - ♻️ Limitation de la RAM
+- MAINTAINER
 - [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 - Conteneurs montés a la volée en fonction des besoins, données persistées via *volumes*
 - docker > client ftp pour les sites client : [ftp](https://www.grafikart.fr/tutoriels/proftpd-755) ?
