@@ -65,6 +65,8 @@
 
 - ♻️ Toujours utiliser un utilsateur dédié ! cf. cocadmin / Docker Hacké
 - ♻️ Healthcheck
+  - [Doc docker](https://docs.docker.com/engine/reference/builder/#healthcheck)
+  - Possibilité de mise en place [via Ansible](https://docs.ansible.com/ansible/latest/modules/docker_container_module.html#parameter-healthcheck)
 - ♻️ Limitation de la RAM
 - MAINTAINER
 - [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
