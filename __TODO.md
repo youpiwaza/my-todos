@@ -20,24 +20,29 @@ Légende :
 ## Priorisation, simple
 
 1. Installation de docker
-   1. (Déjà fait)
-   2. 🔍✅ Docs
+   1. 🔍✅ Docs
       1. [Reco ansible](https://www.ansible.com/blog/six-ways-ansible-makes-docker-compose-better)
       2. [Ansible docker guide](https://docs.ansible.com/ansible/latest/scenario_guides/guide_docker.html)
       3. [Ansible docker_image module](https://docs.ansible.com/ansible/latest/modules/docker_image_module.html)
       4. [Ansible docker_container module](https://docs.ansible.com/ansible/latest/modules/docker_container_module.html)
       5. [Ansible docker_compose module](https://docs.ansible.com/ansible/latest/modules/docker_compose_module.html), également utilisé pour swarm
-   3. Utiliser Docker compose & swarm pour faire la même chose
+   2. ✅ Utiliser Docker compose & swarm pour faire la même chose
       1. ✅ Installation des [plugins recommandés](https://docs.ansible.com/ansible/latest/modules/docker_compose_module.html#requirements)
       2. ✅ Faire tourner un projet compose
-         1. 🚀🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧Nope, ça down pas
+         1. ✅🐛 **Attention**, si un nom de projet est spécifié au lancement, il doit également être spécifié lors de l'arrêt
       3. Faire tourner des services via swarm
-         1. 🔍 Docs ansible
+         1. 🔍✅ Docs ansible
             - [Créer un swarm](https://docs.ansible.com/ansible/latest/modules/docker_swarm_module.html)
             - [Gérer les services](https://docs.ansible.com/ansible/latest/modules/docker_swarm_service_module.html)
-   4. Mettre en place la sécurité docker en vérifiant que tout roule toujours
+            - [Docker stack](https://docs.ansible.com/ansible/latest/modules/docker_stack_module.html#examples)
+         2. ✅ Initialiser swarm
+            1. Conditionnel (pas péter prod avec tests)
+         3. ✅ Lancer et tester un service
+         4. ✅ Supprimer le swarm
+         5. ✅ Idem `docker stack`
+   3. 🚀 Mettre en place la sécurité docker en vérifiant que tout roule toujours
       1. 🔍 Docs
-         - 🚧 iptables firewall > docker [needs update](https://github.com/nickjj/ansible-iptables/blob/master/tasks/main.yml)
+         - ✅ iptables firewall > docker [needs update](https://github.com/nickjj/ansible-iptables/blob/master/tasks/main.yml)
          - [Docker Post-installation steps for Linux](https://docs.docker.com/install/linux/linux-postinstall/)
          - [Run your app in production](https://docs.docker.com/get-started/orchestration/)
          - [Docker security](https://docs.docker.com/engine/security/security/)
@@ -45,8 +50,15 @@ Légende :
          - [Docker doc on capabilities](https://docs.docker.com/engine/reference/run/#runtime-privilege-and-linux-capabilities) defauts & dispos
          - Utilisateur dédié pour docker / *the_docker_guy*
          - SELinux + automatiser
-   5. ♻️ Images optimisées
-   6. ♻️ Images saines
+      2. Docker Post-installation steps for Linux
+         1. ✅ [Manage Docker as a non-root user](https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user)
+         2. ✅ Configure Docker to start on boot
+         3. 🚀 Proper docker [logs](https://docs.docker.com/config/containers/logging/) [configuration](https://docs.docker.com/config/containers/logging/configure/)
+            1. 🔍 Vérifier vite fait comparaison des plugins de logs / Splunk or Syslog
+            2. Compatibilité avec les outils de management de [docker swarm rocks > swarmprom](https://dockerswarm.rocks/swarmprom/)
+            3. Sinon spécifier une [taille max](https://docs.docker.com/config/containers/logging/configure/#configure-the-default-logging-driver)
+   4. ♻️ Images optimisées
+   5. ♻️ Images saines
 2. Installer les containers de l'architecture de base via ansible
    1. Installation de traefik
    2. Test avec 2 urls pour 2 sites
@@ -75,6 +87,12 @@ hey
 ## Priorisation, détails tâche courante
 
 1. Refacto cookbooks > 1 rôle pour chaque tâche, ne pas grouper (préfixer rôles, ex: *security-noRootPw*)
+2. Refacto variables
+   1. Tri variables indispensables
+   2. Non indispensables > Déplacer main_not_so_real dans defaults/main.yml
+   3. Indispensables
+      1. Fichier à la racine avec valeurs d'exemple
+      2. Chargement des variables réelles depuis repo privé
 
 ## Tests
 

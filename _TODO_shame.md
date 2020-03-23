@@ -68,6 +68,7 @@
 - Conteneurs montés a la volée en fonction des besoins, données persistées via *volumes*
 - docker > client ftp pour les sites client : [ftp](https://www.grafikart.fr/tutoriels/proftpd-755) ?
 - nginx > Prevent Flood/DDOS avec la configuration, [tuto grafikart](https://www.grafikart.fr/tutoriels/flood-ddos-fail2ban-884)
+- Gestion personnalisée des [logs](https://docs.docker.com/config/containers/logging/)
 
 ## Ansible
 
