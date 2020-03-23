@@ -29,7 +29,6 @@
 - Oh my zsh > plugins docker++
 - [Pimper vim](https://github.com/amix/vimrc) > awesome vim (fonts, etc.)
 - [Pimper terminal avec tmux](https://www.grafikart.fr/tutoriels/pimp-my-shell-750) // zsh + omz faits
-- Tester les [rôles ansible en local](https://www.youtube.com/watch?v=yqLPUOsy-8M) sur des conteneurs docker
 
 ## Setup serveur
 
@@ -37,10 +36,6 @@
 - 🌱 Importer des variables depuis un repo privé
 - Si zsh déjà installé, l'utiliser (afin de ne pas le virer en cas de reinstallation)
 - Mails
-  - Configurer pour le nouveau serveur / [grafikart](https://www.grafikart.fr/tutoriels/email-dns-dkim-spf-551)
-    - SPF
-    - DKIM
-    - DMARC
   - Changer l'expéditeur > jax_the_mail_guy_WHATAVER@masamune.fr
   - Maj expediteur de fail2ban (rechercher 'fail2ban_sender')
   - Tester envoi
@@ -76,7 +71,6 @@
 
 ## Ansible
 
-- Forcer la version d'ansible dans les fichiers de conf
 - optimisation, utilisation systématique de changed
   - tâche 1 > `register: resultat`
   - tâche 2 dépendante : `when: resultat.changed`
