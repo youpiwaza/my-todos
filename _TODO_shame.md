@@ -5,8 +5,13 @@
 - **Ranger notes-install.../TODO.md**
 - Ranger notes-install... > Séparer Ansible de Docker de Serveur
 
+## Prio
+
+- 🚨🚨🚨 [Docker object labels](https://docs.docker.com/config/labels-custom-metadata/) 🚨🚨🚨
+
 ## Environnement de dev
 
+- [Sanitize Ansible](https://docs.ansible.com/ansible/2.3/dev_guide/testing_sanity.html)
 - Automatiser l'installation de l'environnement de developpement VIA projet install-dev-env
   - Full WSL
   - Bash > Installation d'ansible
@@ -46,6 +51,7 @@
 - Warning ubuntu : Canonical Livepatch is available for installation.
   - Reduce system reboots and improve kernel security. [Activate at](https://ubuntu.com/livepatch)
 - Mise en place des CRONs
+  - [docker system prune](https://docs.docker.com/config/pruning/)
 - ♻️ Sécurité
   - remove unused
     - packages
@@ -55,6 +61,7 @@
      2. 🌱 AppArmor package
 - ♻️ Bonne pratiques
 - [Customisable theme built to enhance the experience of browsing web directories](https://github.com/oupala/apaxy)
+- Docker tests > if fail, remove test related containers/compose/services
 
 ### Images docker
 
@@ -68,7 +75,6 @@
 - Conteneurs montés a la volée en fonction des besoins, données persistées via *volumes*
 - docker > client ftp pour les sites client : [ftp](https://www.grafikart.fr/tutoriels/proftpd-755) ?
 - nginx > Prevent Flood/DDOS avec la configuration, [tuto grafikart](https://www.grafikart.fr/tutoriels/flood-ddos-fail2ban-884)
-- Gestion personnalisée des [logs](https://docs.docker.com/config/containers/logging/)
 
 ## Ansible
 

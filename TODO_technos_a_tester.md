@@ -24,3 +24,5 @@
 - Tuto serveur node complet [ici](https://www.youtube.com/watch?v=XCgCjasqEFo&list=PLQlWzK5tU-gDyxC1JTpyC2avvJlt3hrIh&index=2)
 - [https://www.form.io/](https://www.form.io/)
 - PROJEQTOR
+- [Flutter](https://flutter.dev/) / Google Native app UI
+  - [Tutos](https://dev.to/baksman/how-to-learn-flutter-for-free-in-2020-gil) recos
