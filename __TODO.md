@@ -65,13 +65,21 @@ Légende :
                2. Note: docker a **besoin de restart** pour prendre en compte la nouvelle configuration des logs
       3. 🚀 Run your app in production
          1. ✅ Modification de la conf du *docker daemon*
-         2. 🔍🔍🔍 Security
+         2. 🔍🔍🔍 Security, cf. `ansible\roles\docker-installation\tasks\run-your-app-in-production.yml`
+         3. Remove *the_docker_peon* privileges, so he can access only his own `/home`
+         4. Add restriction to docker volumes (via *the_docker_guy* ?) > volumes only mounted in *the_docker_peon* `/home`
    4. ♻️ Images optimisées
    5. ♻️ Images saines
    6. 🔍 [Docker and permission management](https://blog.ippon.tech/docker-and-permission-management/)
    7. 🔍 [Docker security basics](https://innablr.com.au/blog/docker-security-basics/)
+   8. 🔍 [App armor recommandations & profiles](https://www.nccgroup.trust/uk/our-research/abusing-privileged-and-unprivileged-linux-containers/)
+   9. 🔍 [Understanding and Hardening Linux Containers](https://www.nccgroup.trust/uk/our-research/understanding-and-hardening-linux-containers/)
 2. Installer les containers de l'architecture de base via ansible
-   1. Installation de traefik
+   1. Reverse Proxy
+      1. Installation de [traefik pour Docker](https://docs.traefik.io/providers/docker/)
+         1. Besoin de l'accès a la socket ! (même via un conteneur proxy)
+         2. Ou [Nginx](https://hub.docker.com/r/jwilder/nginx-proxy/) ? / [proxy_pass](https://medium.com/@mannycodes/create-an-nginx-reverse-proxy-with-docker-a1c0aa9078f1)
+         3. Véritable besoin de reverse proxy ? ou conf. de nginx directement ?
    2. Test avec 2 urls pour 2 sites
 3. Installation du Monitoring
    1. 🔍 Docs
@@ -111,7 +119,9 @@ hey
       2. Chargement des variables réelles depuis repo privé
 3. Lint users
    1. Replace {{ users.0.name }} & {{ users.2.name }} par les vrais users
+      1. Rechercher {{ users. et {{users.
    2. Créer liste dynamique populée à partir des utilisateurs dédiés
+   3. ansible\roles\docker-installation\templates\etc-docker-daemon-json.j2
 
 ## Tests
 
