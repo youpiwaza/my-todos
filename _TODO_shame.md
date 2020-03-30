@@ -66,6 +66,7 @@
 
 ### Images docker
 
+- [Docker / How to Improve your Docker Image Builds](https://www.youtube.com/watch?v=npC0W2CW_as)
 - ♻️ Toujours utiliser un utilsateur dédié ! cf. cocadmin / Docker Hacké
 - ♻️ Healthcheck
   - [Doc docker](https://docs.docker.com/engine/reference/builder/#healthcheck)

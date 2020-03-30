@@ -20,27 +20,7 @@ Légende :
 ## Priorisation, simple
 
 1. Installation de docker
-   1. 🔍✅ Docs
-      1. [Reco ansible](https://www.ansible.com/blog/six-ways-ansible-makes-docker-compose-better)
-      2. [Ansible docker guide](https://docs.ansible.com/ansible/latest/scenario_guides/guide_docker.html)
-      3. [Ansible docker_image module](https://docs.ansible.com/ansible/latest/modules/docker_image_module.html)
-      4. [Ansible docker_container module](https://docs.ansible.com/ansible/latest/modules/docker_container_module.html)
-      5. [Ansible docker_compose module](https://docs.ansible.com/ansible/latest/modules/docker_compose_module.html), également utilisé pour swarm
-   2. ✅ Utiliser Docker compose & swarm pour faire la même chose
-      1. ✅ Installation des [plugins recommandés](https://docs.ansible.com/ansible/latest/modules/docker_compose_module.html#requirements)
-      2. ✅ Faire tourner un projet compose
-         1. ✅🐛 **Attention**, si un nom de projet est spécifié au lancement, il doit également être spécifié lors de l'arrêt
-      3. Faire tourner des services via swarm
-         1. 🔍✅ Docs ansible
-            - [Créer un swarm](https://docs.ansible.com/ansible/latest/modules/docker_swarm_module.html)
-            - [Gérer les services](https://docs.ansible.com/ansible/latest/modules/docker_swarm_service_module.html)
-            - [Docker stack](https://docs.ansible.com/ansible/latest/modules/docker_stack_module.html#examples)
-         2. ✅ Initialiser swarm
-            1. Conditionnel (pas péter prod avec tests)
-         3. ✅ Lancer et tester un service
-         4. ✅ Supprimer le swarm
-         5. ✅ Idem `docker stack`
-   3. 🚀 Mettre en place la sécurité docker en vérifiant que tout roule toujours
+   1. 🚀 Mettre en place la sécurité docker en vérifiant que tout roule toujours
       1. 🔍 Docs
          - ✅ iptables firewall > docker [needs update](https://github.com/nickjj/ansible-iptables/blob/master/tasks/main.yml)
          - ✅ [Docker Post-installation steps for Linux](https://docs.docker.com/install/linux/linux-postinstall/)
@@ -68,18 +48,19 @@ Légende :
          2. 🔍🔍🔍 Security, cf. `ansible\roles\docker-installation\tasks\run-your-app-in-production.yml`
          3. Remove *the_docker_peon* privileges, so he can access only his own `/home`
          4. Add restriction to docker volumes (via *the_docker_guy* ?) > volumes only mounted in *the_docker_peon* `/home`
-   4. ♻️ Images optimisées
-   5. ♻️ Images saines
-   6. 🔍 [Docker and permission management](https://blog.ippon.tech/docker-and-permission-management/)
-   7. 🔍 [Docker security basics](https://innablr.com.au/blog/docker-security-basics/)
-   8. 🔍 [App armor recommandations & profiles](https://www.nccgroup.trust/uk/our-research/abusing-privileged-and-unprivileged-linux-containers/)
-   9. 🔍 [Understanding and Hardening Linux Containers](https://www.nccgroup.trust/uk/our-research/understanding-and-hardening-linux-containers/)
+   2. ♻️ Images optimisées
+   3. ♻️ Images saines
+   4. 🔍 [Docker and permission management](https://blog.ippon.tech/docker-and-permission-management/)
+   5. 🔍 [Docker security basics](https://innablr.com.au/blog/docker-security-basics/)
+   6. 🔍 [App armor recommandations & profiles](https://www.nccgroup.trust/uk/our-research/abusing-privileged-and-unprivileged-linux-containers/)
+   7. 🔍 [Understanding and Hardening Linux Containers](https://www.nccgroup.trust/uk/our-research/understanding-and-hardening-linux-containers/)
 2. Installer les containers de l'architecture de base via ansible
    1. Reverse Proxy
       1. Installation de [traefik pour Docker](https://docs.traefik.io/providers/docker/)
          1. Besoin de l'accès a la socket ! (même via un conteneur proxy)
          2. Ou [Nginx](https://hub.docker.com/r/jwilder/nginx-proxy/) ? / [proxy_pass](https://medium.com/@mannycodes/create-an-nginx-reverse-proxy-with-docker-a1c0aa9078f1)
          3. Véritable besoin de reverse proxy ? ou conf. de nginx directement ?
+         4. Exemple avec conf a part au lancement
    2. Test avec 2 urls pour 2 sites
 3. Installation du Monitoring
    1. 🔍 Docs
@@ -110,14 +91,13 @@ hey
 
 ## Priorisation, détails tâche courante
 
-1. ✅ Refacto cookbooks > 1 rôle pour chaque tâche, ne pas grouper (préfixer rôles, ex: *security-noRootPw*)
-2. Refacto variables
+1. Refacto variables
    1. Tri variables indispensables
    2. Non indispensables > Déplacer main_not_so_real dans defaults/main.yml
    3. Indispensables
       1. Fichier à la racine avec valeurs d'exemple
       2. Chargement des variables réelles depuis repo privé
-3. Lint users
+2. Lint users
    1. Replace {{ users.0.name }} & {{ users.2.name }} par les vrais users
       1. Rechercher {{ users. et {{users.
    2. Créer liste dynamique populée à partir des utilisateurs dédiés
