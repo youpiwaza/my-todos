@@ -20,7 +20,7 @@ Légende :
 ## Priorisation, simple
 
 1. Installation de docker
-   1. 🚀 Mettre en place la sécurité docker en vérifiant que tout roule toujours
+   1. Mettre en place la sécurité docker en vérifiant que tout roule toujours
       1. 🔍 Docs
          - ✅ iptables firewall > docker [needs update](https://github.com/nickjj/ansible-iptables/blob/master/tasks/main.yml)
          - ✅ [Docker Post-installation steps for Linux](https://docs.docker.com/install/linux/linux-postinstall/)
@@ -42,28 +42,32 @@ Légende :
                1. ✅ Note: Le fichier /etc/docker/daemon.json n'existe pas par défaut.
                2. ✅ Note: docker a **besoin de restart** pour prendre en compte la nouvelle configuration des logs
       3. 🚀 Run your app in production
-         1. ✅ Modification de la conf du *docker daemon*
-         2. 🔍🚀 Security, cf. `ansible\roles\docker-installation\tasks\run-your-app-in-production.yml`
-         3. ⏩ Remove *the_docker_peon* privileges, so he can access only his own `/home`
-         4. ⏩ Add restriction to docker volumes (via *the_docker_guy* ?) > volumes only mounted in *the_docker_peon* `/home`
-         5. Restrict possibility to create a container from inside a container
-         6. Use traditional UNIX permission checks to limit access to the control socket
-         7. Limit docker functions
+         1. 🚧🔍 MAJ `ansible/roles/docker-installation/tasks/run-your-app-in-production.yml`
+         2. ✅ Modification de la conf du *docker daemon*
+            1. ✅ Template (json) + doc .MD
+         3. 🚀🔍 [Doc utilisateurs ubuntu](https://help.ubuntu.com/lts/serverguide/serverguide.pdf#page=185&zoom=100,72,96)
+         4. ⏩ Remove *the_docker_peon* privileges, so he can access only his own `/home`
+         5. ⏩ Add restriction to docker volumes (via *the_docker_guy* ?) > volumes only mounted in *the_docker_peon* `/home`
+         6. Restrict possibility to create a container from inside a container
+         7. Use traditional UNIX permission checks to limit access to the control socket
+         8. Limit docker functions
             1. docker load
             2. docker pull
-         8. AppArmor
+         9. 🔍 [AppArmor](https://help.ubuntu.com/lts/serverguide/serverguide.pdf)
             1. Install
             2. Apply to docker daemon
             3. Apply to containers, default profile (for now)
             4. 🔍 [App armor recommandations & profiles](https://www.nccgroup.trust/uk/our-research/abusing-privileged-and-unprivileged-linux-containers/)
-      4. ✅ [Docker_Security_Cheat_Sheet.md](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md#rule-10---set-the-logging-level-to-at-least-info)
+      4. grsec
+      5. egress
+      6. ✅ [Docker_Security_Cheat_Sheet.md](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet)
+      7. [Ubuntu CVE / Common Vulnerabilities and Exposures](https://www.google.com/search?q=ubuntu+CVEs)md#rule-10---set-the-logging-level-to-at-least-info)
 2. Installer les containers de l'architecture de base via ansible
    1. Reverse Proxy
       1. Installation de [traefik pour Docker](https://docs.traefik.io/providers/docker/)
          1. Besoin de l'accès a la socket ! (même via un conteneur proxy)
          2. Ou [Nginx](https://hub.docker.com/r/jwilder/nginx-proxy/) ? / [proxy_pass](https://medium.com/@mannycodes/create-an-nginx-reverse-proxy-with-docker-a1c0aa9078f1)
-         3. Véritable besoin de reverse proxy ? ou conf. de nginx directement ?
-         4. Exemple avec conf a part au lancement
+         3. Exemple avec conf dans un container alakon avec un label traefik ?
    2. Test avec 2 urls pour 2 sites
 3. Installation du Monitoring
    1. 🔍 Docs
@@ -90,7 +94,9 @@ Légende :
 
 ## 🚧 WIP 🚧
 
-Faire plusieurs templates yaml (un pour chaque docker container/compose/swarm) comportant les attributs suivants
+Faire plusieurs templates ansible (un de chaque pour lancer docker container/compose/swarm) comportant les attributs suivants
+
+[cocadmin / templates yaml](https://www.youtube.com/watch?v=7gmW6vxgsRQ)
 
 - [Forcer l'utilisateur](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md#rule-2---set-a-user)
 - [capabilities drop all, puis autoriser celles nécessaires](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md#rule-3---limit-capabilities-grant-only-specific-capabilities-needed-by-a-container)
@@ -108,11 +114,10 @@ Faire plusieurs templates yaml (un pour chaque docker container/compose/swarm) c
 ## Priorisation, détails tâche courante
 
 1. Refacto variables
-   1. Tri variables indispensables
-   2. Non indispensables > Déplacer main_not_so_real dans defaults/main.yml
-   3. Indispensables
-      1. Fichier à la racine avec valeurs d'exemple
-      2. Chargement des variables réelles depuis repo privé
+   1. Tout mettre dans */defaults/main.yml
+   2. Fichier à la racine avec valeurs par défaut, toutes commentées
+      1. ~conflits noms identiques
+   3. Chargement de mes variables réelles depuis repo privé
 2. Lint users
    1. Replace {{ users.0.name }} & {{ users.2.name }} par les vrais users
       1. Rechercher {{ users. et {{users.

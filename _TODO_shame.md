@@ -2,12 +2,9 @@
 
 ## Rangement
 
-- **Ranger notes-install.../TODO.md**
 - Ranger notes-install... > Séparer Ansible de Docker de Serveur
 
 ## Prio
-
-- 🚨🚨🚨 [Docker object labels](https://docs.docker.com/config/labels-custom-metadata/) 🚨🚨🚨
 
 ## Environnement de dev
 
@@ -22,9 +19,6 @@
 - Docker GUI / [Kitematic](https://kitematic.com/) > Docker GUI
 - [Packer](https://www.packer.io/) / Image build/vm/container automation
 - Images basiques dédiées
-  - Site statique
-    - Caddy ?
-    - L'autre truc de blog, cf. cocadmin
   - Serveur PHP (nginx ou apache)
   - Serveur Node
   - Docker GUI [Portainer](https://blog.ippon.tech/tips-and-reminders-for-using-docker-daily/#tip3portainerftw)
@@ -57,9 +51,6 @@
   - remove unused
     - packages
     - process
-  - 🌱 [Ubuntu recommandations](https://help.ubuntu.com/lts/serverguide/serverguide.pdf) / Chapter 9, page 179
-     1. 🌱 Users home default rights
-     2. 🌱 AppArmor package
 - ♻️ Bonne pratiques
 - [Customisable theme built to enhance the experience of browsing web directories](https://github.com/oupala/apaxy)
 - Docker tests > if fail, remove test related containers/compose/services
@@ -67,7 +58,6 @@
 ### Images docker
 
 - [Docker / How to Improve your Docker Image Builds](https://www.youtube.com/watch?v=npC0W2CW_as)
-- ♻️ Toujours utiliser un utilsateur dédié ! cf. cocadmin / Docker Hacké
 - ♻️ Healthcheck
   - [Doc docker](https://docs.docker.com/engine/reference/builder/#healthcheck)
   - Possibilité de mise en place [via Ansible](https://docs.ansible.com/ansible/latest/modules/docker_container_module.html#parameter-healthcheck)
@@ -87,9 +77,6 @@
   - tâche 2 dépendante : `when: resultat.changed`
 - validate sur templates
   - [Iptables](https://www.grafikart.fr/tutoriels/iptables-694)
-- variables
-  - Utiliser defaults/vars/main.yml
-  - Véritables variables à importer depuis un repo privé
 
 ## Done
 
