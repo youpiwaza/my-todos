@@ -26,34 +26,37 @@ Légende :
          - ✅ [Docker Post-installation steps for Linux](https://docs.docker.com/install/linux/linux-postinstall/)
          - ✅ [Run your app in production](https://docs.docker.com/get-started/orchestration/)
            - 🚀 [Docker security](https://docs.docker.com/engine/security/security/)
-         - Security > capabilites. [Dedicated article](https://opensource.com/business/15/3/docker-security-tuning) as ansible official doc sucks
-         - [Docker doc on capabilities](https://docs.docker.com/engine/reference/run/#runtime-privilege-and-linux-capabilities) defauts & dispos
-         - Utilisateur dédié pour docker / *the_docker_guy* > UNIX cap drop (remove `> cd /`)
+         - ✅ Security > capabilites. [Dedicated article](https://opensource.com/business/15/3/docker-security-tuning) as ansible official doc sucks
+           - ✅ [Docker doc on capabilities](https://docs.docker.com/engine/reference/run/#runtime-privilege-and-linux-capabilities) defauts & dispos
+           - ✅ [Docker and permission management](https://blog.ippon.tech/docker-and-permission-management/)
+           - ✅ [Docker security basics](https://innablr.com.au/blog/docker-security-basics/)
       2. Docker Post-installation steps for Linux
          1. ✅ [Manage Docker as a non-root user](https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user)
          2. ✅ Configure Docker to start on boot
          3. ✅ Proper docker [logs](https://docs.docker.com/config/containers/logging/) [configuration](https://docs.docker.com/config/containers/logging/configure/)
             1. 🔍✅ Docs
-               - [Sponso / Docker logging best practices](https://www.datadoghq.com/blog/docker-logging/)
+               - ✅ [Sponso / Docker logging best practices](https://www.datadoghq.com/blog/docker-logging/)
                  - Reco: json-log default driver, avec quelques options + configurer logs par défaut + UI datadog (eq. grafana)
-            2. 🔍✅ Choix
-               1. Vérifier vite fait comparaison des plugins de logs / Splunk (~payant avec version gratuite) or Syslog (Peu d'interêt)
-               2. Compatibilité avec les outils de management de [docker swarm rocks > swarmprom](https://dockerswarm.rocks/swarmprom/)
-                  1. A priori grafana s'en occupe, a tester. Tâche rajoutée au monitoring
+            2. 🔍✅ Choix : Grafana (cf. [docker swarm rocks > swarmprom](https://dockerswarm.rocks/swarmprom/) )
             3. ✅ Spécifier une [taille max](https://docs.docker.com/config/containers/logging/configure/#configure-the-default-logging-driver)
-               1. Note: Le fichier /etc/docker/daemon.json n'existe pas par défaut.
-               2. Note: docker a **besoin de restart** pour prendre en compte la nouvelle configuration des logs
+               1. ✅ Note: Le fichier /etc/docker/daemon.json n'existe pas par défaut.
+               2. ✅ Note: docker a **besoin de restart** pour prendre en compte la nouvelle configuration des logs
       3. 🚀 Run your app in production
          1. ✅ Modification de la conf du *docker daemon*
-         2. 🔍🔍🔍 Security, cf. `ansible\roles\docker-installation\tasks\run-your-app-in-production.yml`
-         3. Remove *the_docker_peon* privileges, so he can access only his own `/home`
-         4. Add restriction to docker volumes (via *the_docker_guy* ?) > volumes only mounted in *the_docker_peon* `/home`
-   2. ♻️ Images optimisées
-   3. ♻️ Images saines
-   4. 🔍 [Docker and permission management](https://blog.ippon.tech/docker-and-permission-management/)
-   5. 🔍 [Docker security basics](https://innablr.com.au/blog/docker-security-basics/)
-   6. 🔍 [App armor recommandations & profiles](https://www.nccgroup.trust/uk/our-research/abusing-privileged-and-unprivileged-linux-containers/)
-   7. 🔍 [Understanding and Hardening Linux Containers](https://www.nccgroup.trust/uk/our-research/understanding-and-hardening-linux-containers/)
+         2. 🔍🚀 Security, cf. `ansible\roles\docker-installation\tasks\run-your-app-in-production.yml`
+         3. ⏩ Remove *the_docker_peon* privileges, so he can access only his own `/home`
+         4. ⏩ Add restriction to docker volumes (via *the_docker_guy* ?) > volumes only mounted in *the_docker_peon* `/home`
+         5. Restrict possibility to create a container from inside a container
+         6. Use traditional UNIX permission checks to limit access to the control socket
+         7. Limit docker functions
+            1. docker load
+            2. docker pull
+         8. AppArmor
+            1. Install
+            2. Apply to docker daemon
+            3. Apply to containers, default profile (for now)
+            4. 🔍 [App armor recommandations & profiles](https://www.nccgroup.trust/uk/our-research/abusing-privileged-and-unprivileged-linux-containers/)
+      4. ✅ [Docker_Security_Cheat_Sheet.md](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md#rule-10---set-the-logging-level-to-at-least-info)
 2. Installer les containers de l'architecture de base via ansible
    1. Reverse Proxy
       1. Installation de [traefik pour Docker](https://docs.traefik.io/providers/docker/)
@@ -87,7 +90,20 @@ Légende :
 
 ## 🚧 WIP 🚧
 
-hey
+Faire plusieurs templates yaml (un pour chaque docker container/compose/swarm) comportant les attributs suivants
+
+- [Forcer l'utilisateur](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md#rule-2---set-a-user)
+- [capabilities drop all, puis autoriser celles nécessaires](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md#rule-3---limit-capabilities-grant-only-specific-capabilities-needed-by-a-container)
+  - [Docker doc on capabilities](https://docs.docker.com/engine/reference/run/#runtime-privilege-and-linux-capabilities)
+  - [Docker security tuning](https://opensource.com/business/15/3/docker-security-tuning)
+    - De manière générale, à l'intérieur du conteneur, pas droits pour ssh, cron, logs, hardware, network
+- [No new privileges flag](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md#rule-4---add-no-new-privileges-flag)
+- [AppArmor > Profil de sécurité](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md#rule-6---use-linux-security-module-seccomp-apparmor-or-selinux)
+- [read-only flag](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md#rule-8---set-filesystem-and-volumes-to-read-only)
+  - Également sur les volumes (ex: un front qui va taper dans la bdd)
+- [Ajouter des labels](https://docs.docker.com/config/labels-custom-metadata/)
+- Start containers automatically
+- Resources allocations
 
 ## Priorisation, détails tâche courante
 
