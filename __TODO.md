@@ -45,23 +45,32 @@ Légende :
          1. 🚧🔍 MAJ `ansible/roles/docker-installation/tasks/run-your-app-in-production.yml`
          2. ✅ Modification de la conf du *docker daemon*
             1. ✅ Template (json) + doc .MD
-         3. 🚀🔍 [Doc utilisateurs ubuntu](https://help.ubuntu.com/lts/serverguide/serverguide.pdf#page=185&zoom=100,72,96)
-         4. ⏩ Remove *the_docker_peon* privileges, so he can access only his own `/home`
+         3. 🔍✅ [Ubuntu server](https://help.ubuntu.com/lts/serverguide/serverguide.pdf)
+         4. Remove *the_docker_peon* privileges, so he can access only his own `/home`
+            1. ✅ [Ubuntu doc / Restrict /home_da_user access to only himself](https://help.ubuntu.com/lts/serverguide/serverguide.pdf#page=188)
+            2. 🚀 SSH prison ?
          5. ⏩ Add restriction to docker volumes (via *the_docker_guy* ?) > volumes only mounted in *the_docker_peon* `/home`
-         6. Restrict possibility to create a container from inside a container
-         7. Use traditional UNIX permission checks to limit access to the control socket
-         8. Limit docker functions
+         6. ⏩ Restrict possibility to create a container from inside a container
+         7. ⏩ Use traditional UNIX permission checks to limit access to the control socket
+         8. ⏩ Limit docker functions
             1. docker load
             2. docker pull
-         9. 🔍 [AppArmor](https://help.ubuntu.com/lts/serverguide/serverguide.pdf)
-            1. Install
-            2. Apply to docker daemon
-            3. Apply to containers, default profile (for now)
-            4. 🔍 [App armor recommandations & profiles](https://www.nccgroup.trust/uk/our-research/abusing-privileged-and-unprivileged-linux-containers/)
+         9. [Ubuntu user privileges list](https://wiki.ubuntu.com/Security/Privileges)
+         10. ✅ AppArmor
+             1. 🔍✅ Docs
+                1. [Ubuntu / AppArmor](https://help.ubuntu.com/lts/serverguide/serverguide.pdf#page=200)
+                2. [AppArmor](https://apparmor.net/) & [Main commands](https://gitlab.com/apparmor/apparmor/-/wikis/Documentation)
+             2. ✅ Install
+             3. ✅ Load profile/s
+                1. ✅ Nginx example profile load
+             4. ✅ Apply to docker daemon / already done by docker
+             5. 🔍✅ ~~[App armor recommandations & profiles](https://www.nccgroup.trust/uk/our-research/abusing-privileged-and-unprivileged-linux-containers/)~~
       4. grsec
       5. egress
       6. ✅ [Docker_Security_Cheat_Sheet.md](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet)
       7. [Ubuntu CVE / Common Vulnerabilities and Exposures](https://www.google.com/search?q=ubuntu+CVEs)md#rule-10---set-the-logging-level-to-at-least-info)
+      8. Check TODO_shame for security stuff
+      9. Close this fucking topic
 2. Installer les containers de l'architecture de base via ansible
    1. Reverse Proxy
       1. Installation de [traefik pour Docker](https://docs.traefik.io/providers/docker/)
@@ -105,6 +114,9 @@ Faire plusieurs templates ansible (un de chaque pour lancer docker container/com
     - De manière générale, à l'intérieur du conteneur, pas droits pour ssh, cron, logs, hardware, network
 - [No new privileges flag](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md#rule-4---add-no-new-privileges-flag)
 - [AppArmor > Profil de sécurité](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md#rule-6---use-linux-security-module-seccomp-apparmor-or-selinux)
+  - Generated new profile with [apparmor tools](https://github.com/docker/labs/tree/master/security/apparmor#step-5-extra-for-experts)
+  - Load them thanks to `/ansible/roles/security-apparmor/tasks/main.yml`
+  - Use with `docker run --security-opt "apparmor=docker-nginx"` where docker-nginx is the wanted profile
 - [read-only flag](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md#rule-8---set-filesystem-and-volumes-to-read-only)
   - Également sur les volumes (ex: un front qui va taper dans la bdd)
 - [Ajouter des labels](https://docs.docker.com/config/labels-custom-metadata/)
@@ -123,6 +135,8 @@ Faire plusieurs templates ansible (un de chaque pour lancer docker container/com
       1. Rechercher {{ users. et {{users.
    2. Créer liste dynamique populée à partir des utilisateurs dédiés
    3. ansible\roles\docker-installation\templates\etc-docker-daemon-json.j2
+3. Ubuntu reco : Canonical Livepatch is available for installation.
+    - Reduce system reboots and improve kernel security. [Activate at](https://ubuntu.com/livepatch)
 
 ## Tests
 
