@@ -34,7 +34,7 @@
 
 - 🐛 Clean system updates > Retours utilisateurs
 - 🌱 Importer des variables depuis un repo privé
-- Si zsh déjà installé, l'utiliser (afin de ne pas le virer en cas de reinstallation)
+- Si zsh déjà installé, l'utiliser (afin de ne pas le virer en cas de reinstallation) (etape 2 re-création d'users)
 - Mails
   - Changer l'expéditeur > jax_the_mail_guy_WHATAVER@masamune.fr
   - Maj expediteur de fail2ban (rechercher 'fail2ban_sender')
@@ -47,6 +47,8 @@
   - Reduce system reboots and improve kernel security. [Activate at](https://ubuntu.com/livepatch)
 - Mise en place des CRONs
   - [docker system prune](https://docs.docker.com/config/pruning/)
+  - package update > upgrade > auto remove > auto clean
+  - auditd once a week auto ? mail si problem
 - ♻️ Sécurité
   - remove unused
     - packages
@@ -57,6 +59,7 @@
 
 ### Images docker
 
+- Linter [hadolint](https://github.com/hadolint/hadolint) + [ext vscode](https://marketplace.visualstudio.com/items?itemName=exiasr.hadolint)
 - [Docker / How to Improve your Docker Image Builds](https://www.youtube.com/watch?v=npC0W2CW_as)
 - ♻️ Healthcheck
   - [Doc docker](https://docs.docker.com/engine/reference/builder/#healthcheck)
@@ -68,7 +71,7 @@
 - docker > client ftp pour les sites client : [ftp](https://www.grafikart.fr/tutoriels/proftpd-755) ?
 - nginx > Prevent Flood/DDOS avec la configuration, [tuto grafikart](https://www.grafikart.fr/tutoriels/flood-ddos-fail2ban-884)
 - [Analyser les configurations](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md#rule-9---use-static-analysis-tools)
-- 🔍 [Understanding and Hardening Linux Containers](https://www.nccgroup.trust/uk/our-research/understanding-and-hardening-linux-containers/)
+  - Soft qui identifie les failles sécurités au build et lors de l'execution, avec un plan gratuit [Snyk](https://snyk.io/)
 
 ## Ansible
 
@@ -79,5 +82,3 @@
   - [Iptables](https://www.grafikart.fr/tutoriels/iptables-694)
 
 ## Done
-
-- ✅ Vérifier le bon fonctionnement de docker en local depuis la réinstallation
