@@ -42,11 +42,8 @@
   - Tester envoi fail2ban
   - [Tester spam](https://www.mail-tester.com/)
 - 🌱 [Backup via rsync](https://www.grafikart.fr/tutoriels/rsync-1012)
-- [Users quota](https://www.digitalocean.com/community/tutorials/how-to-set-filesystem-quotas-on-ubuntu-18-04)
-- Warning ubuntu : Canonical Livepatch is available for installation.
-  - Reduce system reboots and improve kernel security. [Activate at](https://ubuntu.com/livepatch)
 - Mise en place des CRONs
-  - [docker system prune](https://docs.docker.com/config/pruning/)
+  - [docker system prune -f](https://docs.docker.com/config/pruning/)
   - package update > upgrade > auto remove > auto clean
   - auditd once a week auto ? mail si problem
 - ♻️ Sécurité
@@ -61,15 +58,13 @@
 
 - Linter [hadolint](https://github.com/hadolint/hadolint) + [ext vscode](https://marketplace.visualstudio.com/items?itemName=exiasr.hadolint)
 - [Docker / How to Improve your Docker Image Builds](https://www.youtube.com/watch?v=npC0W2CW_as)
-- ♻️ Healthcheck
-  - [Doc docker](https://docs.docker.com/engine/reference/builder/#healthcheck)
-  - Possibilité de mise en place [via Ansible](https://docs.ansible.com/ansible/latest/modules/docker_container_module.html#parameter-healthcheck)
-- ♻️ Limitation de la RAM
-- MAINTAINER
+- MAINTAINER > [DEPRECATED](https://docs.docker.com/engine/reference/builder/#maintainer-deprecated) > Use LABEL
 - [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
-- Conteneurs montés a la volée en fonction des besoins, données persistées via *volumes*
 - docker > client ftp pour les sites client : [ftp](https://www.grafikart.fr/tutoriels/proftpd-755) ?
 - nginx > Prevent Flood/DDOS avec la configuration, [tuto grafikart](https://www.grafikart.fr/tutoriels/flood-ddos-fail2ban-884)
+  - ✅ Aussi via docker
+    - http://dockerlabs.collabnix.com/advanced/security/cgroups/#step-6-preventing-a-fork-bomb
+    - --pids-limit 200
 - [Analyser les configurations](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md#rule-9---use-static-analysis-tools)
   - Soft qui identifie les failles sécurités au build et lors de l'execution, avec un plan gratuit [Snyk](https://snyk.io/)
 
