@@ -41,10 +41,29 @@ Légende :
           7. ✅ Ansible task template > Utiliser [module_defaults](https://docs.ansible.com/ansible/latest/user_guide/playbooks_module_defaults.html)
              1. ✅ cf. server-related-tutorials/02-ansible/13-ansible-task-template-w-module-defaults
           8. ✅ Compose containers recos (docker compose)
-          9. 🚀 Via ansible
-          10. ⏩ Services recos (docker swarm & docker stack)
-          11. ⏩ Via ansible
-      2. Close this fucking topic
+          9. ✅ Via ansible
+          10. Maj anciens exemples
+              1. ✅ Dossier des projets (docker_peon)
+              2. ✅ Curated dcompose
+          11. ⏩ Services recos (docker swarm & docker stack)
+              1. Tester service simple (1 image)
+                 1. ✅ Docker Security Bench > Ligne de commande
+                 2. 🔍 Docs
+                    1. 🚀[Swarm tutorial](https://docs.docker.com/engine/swarm/swarm-tutorial/)
+                    2. [Swarm admin guide](https://docs.docker.com/engine/swarm/admin_guide/)
+                 3. Docs recos > Ligne de commande
+                    1. Replicas
+                    2. [Update behavior](https://docs.docker.com/engine/swarm/services/#configure-a-services-update-behavior)
+                    3. [Rollback](https://docs.docker.com/engine/swarm/services/#roll-back-to-the-previous-version-of-a-service)
+                    4. [All options](https://docs.docker.com/engine/reference/commandline/service_create/#usage)
+                    5. (Labels)
+                 4. [Ansible](https://docs.ansible.com/ansible/latest/modules/docker_swarm_service_module.html)
+              2. Tester service composé (stack) + network
+                 1. Ligne de commande
+                 2. Ansible
+          12. ⏩ Via ansible
+      2. Clean syslogs > sudo nano /var/log/syslog
+      3. Close this fucking topic
 2. Installer les containers de l'architecture de base via ansible
    1. Reverse Proxy
       1. Installation de [traefik pour Docker](https://docs.traefik.io/providers/docker/)

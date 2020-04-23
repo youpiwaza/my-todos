@@ -46,6 +46,8 @@
   - [docker system prune -f](https://docs.docker.com/config/pruning/)
   - package update > upgrade > auto remove > auto clean
   - auditd once a week auto ? mail si problem
+  - docker > [Rotate swarm CA certificates](https://docs.docker.com/engine/swarm/how-swarm-mode-works/pki/)
+    - Usefull wehn having multiple managers/workers
 - ♻️ Sécurité
   - remove unused
     - packages
