@@ -49,18 +49,30 @@ Légende :
               1. Tester service simple (1 image)
                  1. ✅ Docker Security Bench > Ligne de commande
                  2. 🔍 Docs
-                    1. 🚀[Swarm tutorial](https://docs.docker.com/engine/swarm/swarm-tutorial/)
-                    2. [Swarm admin guide](https://docs.docker.com/engine/swarm/admin_guide/)
+                    1. ✅ [Swarm tutorial](https://docs.docker.com/engine/swarm/swarm-tutorial/)
+                    2. ✅ [Swarm admin guide](https://docs.docker.com/engine/swarm/admin_guide/)
+                    3. ✅ [Ansible docker swarm service](https://docs.ansible.com/ansible/latest/modules/docker_swarm_service_module.html)
                  3. Docs recos > Ligne de commande
-                    1. Replicas
-                    2. [Update behavior](https://docs.docker.com/engine/swarm/services/#configure-a-services-update-behavior)
-                    3. [Rollback](https://docs.docker.com/engine/swarm/services/#roll-back-to-the-previous-version-of-a-service)
-                    4. [All options](https://docs.docker.com/engine/reference/commandline/service_create/#usage)
-                    5. (Labels)
-                 4. [Ansible](https://docs.ansible.com/ansible/latest/modules/docker_swarm_service_module.html)
-              2. Tester service composé (stack) + network
-                 1. Ligne de commande
-                 2. Ansible
+                    1. ✅ Replicas & [max replicas](https://docs.docker.com/engine/reference/commandline/service_create/#specify-maximum-replicas-per-node---replicas-max-per-node)
+                    2. ✅ [Update behavior](https://docs.docker.com/engine/swarm/services/#configure-a-services-update-behavior)
+                    3. ✅ [Rollback behavior](https://docs.docker.com/engine/swarm/services/#roll-back-to-the-previous-version-of-a-service)
+                    4. ✅ [Labels](https://docs.docker.com/engine/reference/commandline/service_create/#set-metadata-on-a-service--l---label)
+                    5. ✅ [Check all options](https://docs.docker.com/engine/reference/commandline/service_create/#usage)
+                 4. ✅ [Ansible](https://docs.ansible.com/ansible/latest/modules/docker_swarm_service_module.html)
+              2. 🚀 Tester service composé (stack) + network
+                 1. 🔍 Docs
+                    1. ✅ [Tuto](https://docs.docker.com/engine/swarm/stack-deploy/#set-up-a-docker-registry)
+                    2. ✅ [stack deploy](https://docs.docker.com/engine/reference/commandline/stack_deploy/)
+                    3. ✅ [The Difference Between Docker Compose And Docker Stack](https://vsupalov.com/difference-docker-compose-and-docker-stack/)
+                       1. ✅ [Différences between compose & stack > chercher 'ignore' dans la page](https://docs.docker.com/compose/compose-file/)
+                       2. ✅ [Dstack deploy not available stuff](https://docs.docker.com/compose/compose-file/#not-supported-for-docker-stack-deploy)
+                       3. 💥 NOTE IMPORTANTE: 1 seul fichier compose pour dev et prod : Dcompose pour dev et Dstack pour prod
+                    4. [Ansible stack](https://docs.ansible.com/ansible/latest/modules/docker_stack_module.html)
+                 2. Nouveau repo [Dcompose-curated-example](https://github.com/youpiwaza/docker-compose-curated-example/blob/master/docker-compose.yml)
+                    1. 🚀🚀🚀🚀🚀🚀🚀 OU Modification avec deploy, ca serait moins con
+                    2. Pour le moment problème de network bridge incompatible (overlay uniquement)
+                 3. Ligne de commande
+                 4. Ansible
           12. ⏩ Via ansible
       2. Clean syslogs > sudo nano /var/log/syslog
       3. Close this fucking topic
@@ -70,7 +82,8 @@ Légende :
          1. Besoin de l'accès a la socket ! (même via un conteneur proxy)
          2. Ou [Nginx](https://hub.docker.com/r/jwilder/nginx-proxy/) ? / [proxy_pass](https://medium.com/@mannycodes/create-an-nginx-reverse-proxy-with-docker-a1c0aa9078f1)
          3. Exemple avec conf dans un container alakon avec un label traefik ?
-   2. Test avec 2 urls pour 2 sites
+   2. Utiliser des [fichiers de configs](https://docs.docker.com/engine/swarm/configs/) plutôt que mount/bind pour Nginx example
+   3. Test avec 2 urls pour 2 sites
 3. Installation du Monitoring
    1. 🔍 Docs
       - [Docker swarm rocks > monitoring w. swarprom](https://dockerswarm.rocks/swarmprom/)
@@ -93,6 +106,7 @@ Légende :
       1. Sans reverse proxy ni dns ni style ni js > 1er affichage [70-120ms], suivants [35-45ms, pics a 70ms]
    5. 📌 Test des performances > Choix
       1. Si choix Nginx Mettre en place HTTPS Automatique via Let's Encrypt
+   6. 💥 /!\ Attention pour bdd et contenus, utiliser [volumes NOMMÉS pour Dstack](https://docs.docker.com/compose/compose-file/#volumes-for-services-swarms-and-stack-files), ou DESTRUCTION lors de la fin du service (si V anonyme)
 
 128> Docker certification [175€](https://success.docker.com/certification)
 
@@ -103,33 +117,37 @@ Faire plusieurs templates ansible (un de chaque pour lancer docker container/com
 [cocadmin / templates yaml](https://youtu.be/7gmW6vxgsRQ?t=360)
 
 Legend:
-✅             / Standalone containers OK
-✅✅           / + Standalone Ansible
-✅✅✅         / + Compose containers
-✅✅✅✅       / + Compose containers Ansible
-✅✅✅✅✅     / + Services
-✅✅✅✅✅✅   / + Services Ansible
+✅                    / Standalone containers OK
+✅✅                  / + Standalone Ansible
+✅✅✅               / + Compose containers
+✅✅✅✅             / + Compose containers Ansible
+✅✅✅✅✅          / + Services
+✅✅✅✅✅✅       / + Services Ansible
+✅✅✅✅✅✅✅    / + Stack
+✅✅✅✅✅✅✅✅  / + Stack Ansible
 
-- ✅✅✅ [Forcer l'utilisateur](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md#rule-2---set-a-user)
+- ✅✅✅✅✅❌☐☐ [Forcer l'utilisateur](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md#rule-2---set-a-user)
   - [Voir n°2](https://snyk.io/blog/10-docker-image-security-best-practices/)
-- ✅✅✅ [No new privileges flag](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md#rule-4---add-no-new-privileges-flag)
+  - Can't use a specific user for nginx on port 80 as it requires unprivileged ports & sysctl param does not exist in ansible docker_swarm_service
+- ✅✅✅✅❌❌☐☐ [No new privileges flag](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md#rule-4---add-no-new-privileges-flag)
   - --security-opt=no-new-privileges, [see](https://www.stackrox.com/post/2017/08/hardening-docker-containers-and-hosts-against-vulnerabilities-a-security-toolkit/#restrict-a-container-from-acquiring-new-privileges)
   - Also in daemon.json
-- ✅✅✅ [Ajouter des labels](https://docs.docker.com/config/labels-custom-metadata/)
-  - ✅✅✅ And to networks
-  - ✅✅🚀🚀🚀🚀🚀🚀🚀🚀🚀 And to volumes
-- ✅✅✅ Start containers automatically
-- ✅✅❌ Resources allocations
-  - Memory soft & hard limit, disable swap
-  - CPU shares
-  - Restrict process (pids limit)
-  - *Note: Not available for docker-compose in v3. Only v2 or swarm*
-- ✅✅✅ Working directory
-- ✅✅✅ Volumes, mounted in /home/the_docker_peon/
-  - ✅✅✅ [read-only flag](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md#rule-8---set-filesystem-and-volumes-to-read-only)
-- ✅✅✅ No vars or ENV > use secrets
-- ✅✅✅ Health checks
-- ✅✅✅ [capabilities drop all, puis autoriser celles nécessaires](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md#rule-3---limit-capabilities-grant-only-specific-capabilities-needed-by-a-container)
+- ✅✅✅✅🚀✅☐☐ [Ajouter des labels](https://docs.docker.com/config/labels-custom-metadata/)
+  - ✅✅✅✅🚀✅☐☐ And to networks
+  - ✅✅🌱🌱🌱🌱🌱🌱 And to volumes
+- ✅✅✅✅✅✅☐☐ Start containers automatically
+- Resources allocations, explications sur la [doc Dcompose](https://docs.docker.com/compose/compose-file/#resources) uniquement
+  - ✅✅❌❌✅✅☐☐ Memory soft & hard limit, disable swap
+  - ✅✅❌❌🏷️🏷️☐☐ CPU shares
+  - ✅✅❌❌❌❌☐☐ Restrict process (pids limit)
+  - *Note: Not available for docker-compose in v3. Only v2 or swarm/stack ?*
+- ✅✅✅✅✅✅☐☐ Working directory
+- ✅✅✅✅✅✅☐☐ Volumes, mounted in /home/the_docker_peon/
+  - ✅✅✅✅✅✅☐☐ [read-only flag](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md#rule-8---set-filesystem-and-volumes-to-read-only)
+- 🌱🌱🌱🌱🌱🌱🌱🌱 No vars or ENV > use secrets
+  - Specific stuff for [Dstack secrets](https://docs.docker.com/compose/compose-file/#secrets)
+- ✅✅✅✅✅✅☐☐ Health checks
+- ✅✅✅✅❌❌☐☐ [capabilities drop all, puis autoriser celles nécessaires](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md#rule-3---limit-capabilities-grant-only-specific-capabilities-needed-by-a-container)
   - [Docker doc on capabilities](https://docs.docker.com/engine/reference/run/#runtime-privilege-and-linux-capabilities)
     - deny all “mount” operations;
     - deny access to raw sockets (to prevent packet spoofing);
@@ -138,13 +156,20 @@ Legend:
     - and many others.
     - De manière générale, à l'intérieur du conteneur, pas droits pour ssh, cron, logs, hardware, network, NETCAT
   - [Docker security tuning](https://opensource.com/business/15/3/docker-security-tuning)
-- ✅✅✅ [AppArmor > Profil de sécurité](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md#rule-6---use-linux-security-module-seccomp-apparmor-or-selinux)
+- ✅✅✅✅❌❌☐☐ [AppArmor > Profil de sécurité](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md#rule-6---use-linux-security-module-seccomp-apparmor-or-selinux)
   - default docker profile : --security-opt apparmor=docker-default
   - Generated new profile with [apparmor tools](https://github.com/docker/labs/tree/master/security/apparmor#step-5-extra-for-experts)
   - Load them thanks to `/ansible/roles/security-apparmor/tasks/main.yml`
   - Use with `docker run --security-opt "apparmor=docker-nginx"` where docker-nginx is the wanted profile
-- ✅✅✅ Seccomp / Utiliser le profile par defaut [seccomp](https://docs.docker.com/engine/security/seccomp/)
+- ✅✅✅✅❌❌☐☐ Seccomp / Utiliser le profile par defaut [seccomp](https://docs.docker.com/engine/security/seccomp/)
   - --security-opt seccomp=/etc/docker/seccomp-profiles/default-docker-profile.json
+- Specific to swarm
+  - 🔒🔒🔒🔒✅✅☐☐ Replicas & [max replicas](https://docs.docker.com/engine/reference/commandline/service_create/
+    - max replicas not available in ansible docker_swarm_service
+  - #specify-maximum-replicas-per-node---replicas-max-per-node)
+  - 🔒🔒🔒🔒✅✅☐☐ [Update behavior](https://docs.docker.com/engine/swarm/services/#configure-a-services-update-behavior)
+  - 🔒🔒🔒🔒✅✅☐☐ [Rollback behavior](https://docs.docker.com/engine/swarm/services/#roll-back-to-the-previous-version-of-a-service)
+  - 🔒🔒🔒🔒✅✅☐☐ [Labels](https://docs.docker.com/engine/reference/commandline/service_create/#set-metadata-on-a-service--l---label)
 
 ## Priorisation, détails tâche courante
 
