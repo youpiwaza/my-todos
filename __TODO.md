@@ -19,10 +19,20 @@ Légende :
 
 ## Priorisation, simple
 
-1. Installation de docker
-   1. Mettre en place la sécurité docker en vérifiant que tout roule toujours
-      1. Update to [Ubuntu 20](https://ubuntu.com/blog/ubuntu-20-04-lts-arrives)
-      2. Close this fucking topic
+1. Clean ansible before pursuing
+   1. 🚀Refacto variables
+      1. Tout mettre dans */defaults/main.yml
+      2. Fichier à la racine avec valeurs par défaut, toutes commentées
+         1. ~conflits noms identiques
+      3. Chargement de mes variables réelles depuis repo privé
+   2. Lint users
+      1. Replace {{ users.0.name }} & {{ users.2.name }} par les vrais users
+         1. Rechercher {{ users. et {{users.
+      2. Créer liste dynamique populée à partir des utilisateurs dédiés
+      3. ansible\roles\docker-installation\templates\etc-docker-daemon-json.j2
+   3. Ubuntu reco : Canonical Livepatch is available for installation.
+       - Reduce system reboots and improve kernel security. [Activate at](https://ubuntu.com/livepatch)
+   4. Réinstallation complète pour vérifier le déroulement complet
 2. Installer les containers de l'architecture de base via ansible
    1. Reverse Proxy
       1. Installation de [traefik pour Docker](https://docs.traefik.io/providers/docker/)
@@ -62,21 +72,6 @@ Légende :
 .
 
 ## Priorisation, détails tâche courante
-
-1. Refacto variables
-   1. Tout mettre dans */defaults/main.yml
-   2. Fichier à la racine avec valeurs par défaut, toutes commentées
-      1. ~conflits noms identiques
-   3. Chargement de mes variables réelles depuis repo privé
-2. Lint users
-   1. Replace {{ users.0.name }} & {{ users.2.name }} par les vrais users
-      1. Rechercher {{ users. et {{users.
-   2. Créer liste dynamique populée à partir des utilisateurs dédiés
-   3. ansible\roles\docker-installation\templates\etc-docker-daemon-json.j2
-3. Ubuntu reco : Canonical Livepatch is available for installation.
-    - Upgrade to ubuntu 20
-    - Reduce system reboots and improve kernel security. [Activate at](https://ubuntu.com/livepatch)
-4. Réinstallation complète pour vérifier le déroulement complet
 
 Sécurités SSL/TLS (Transport Layer Security / https) >
    Privilégier TLS 1.3 (le reste **deprecated** a part TLS 1.2)
