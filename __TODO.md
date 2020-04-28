@@ -19,35 +19,22 @@ Légende :
 
 ## Priorisation, simple
 
-1. Clean ansible before pursuing
-   1. 🚀Refacto variables
-      1. Tout mettre dans */defaults/main.yml
-      2. Fichier à la racine avec valeurs par défaut, toutes commentées
-         1. ~conflits noms identiques
-      3. Chargement de mes variables réelles depuis repo privé
-   2. Lint users
-      1. Replace {{ users.0.name }} & {{ users.2.name }} par les vrais users
-         1. Rechercher {{ users. et {{users.
-      2. Créer liste dynamique populée à partir des utilisateurs dédiés
-      3. ansible\roles\docker-installation\templates\etc-docker-daemon-json.j2
-   3. Ubuntu reco : Canonical Livepatch is available for installation.
-       - Reduce system reboots and improve kernel security. [Activate at](https://ubuntu.com/livepatch)
-   4. Réinstallation complète pour vérifier le déroulement complet
-2. Installer les containers de l'architecture de base via ansible
-   1. Reverse Proxy
+1. Installer les containers de l'architecture de base via ansible
+   1. Mettre en place les noms de domaine pour les tests & services publics de base
+   2. Reverse Proxy
       1. Installation de [traefik pour Docker](https://docs.traefik.io/providers/docker/)
          1. Besoin de l'accès a la socket ! (même via un conteneur proxy)
          2. Ou [Nginx](https://hub.docker.com/r/jwilder/nginx-proxy/) ? / [proxy_pass](https://medium.com/@mannycodes/create-an-nginx-reverse-proxy-with-docker-a1c0aa9078f1)
          3. Exemple avec conf dans un container alakon avec un label traefik ?
-   2. Utiliser des [fichiers de configs](https://docs.docker.com/engine/swarm/configs/) plutôt que mount/bind pour Nginx example
-   3. Test avec 2 urls pour 2 sites
-3. Installation du Monitoring
+   3. Utiliser des [fichiers de configs](https://docs.docker.com/engine/swarm/configs/) plutôt que mount/bind pour Nginx example
+   4. Test avec 2 urls pour 2 sites
+2. Installation du Monitoring
    1. 🔍 Docs
       - [Docker swarm rocks > monitoring w. swarprom](https://dockerswarm.rocks/swarmprom/)
         - [Docker / Prometheus setup](https://docs.docker.com/config/daemon/prometheus/)
         - [Swarmprom - Prometheus Monitoring for Docker Swarm](https://www.weave.works/blog/swarmprom-prometheus-monitoring-for-docker-swarm)
    2. UI pour afficher les logs docker de chaque service (~eq datadog)
-4. Choix du serveur web par défaut
+3. Choix du serveur web par défaut
    1. Docs
       - [Caddy](https://caddyserver.com/) vs [Nginx](https://www.nginx.com/)
         - [stackshare](https://stackshare.io/stackups/caddy-vs-nginx)
