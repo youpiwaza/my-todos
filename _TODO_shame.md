@@ -32,7 +32,6 @@
 
 ## Setup serveur
 
-- 🐛 Clean system updates > Retours utilisateurs
 - 🌱 Importer des variables depuis un repo privé
 - Si zsh déjà installé, l'utiliser (afin de ne pas le virer en cas de reinstallation) (etape 2 re-création d'users)
 - Mails
@@ -43,24 +42,20 @@
   - [Tester spam](https://www.mail-tester.com/)
 - 🌱 [Backup via rsync](https://www.grafikart.fr/tutoriels/rsync-1012)
 - Mise en place des CRONs
+  - Backups sites !
   - [docker system prune -f](https://docs.docker.com/config/pruning/)
   - package update > upgrade > auto remove > auto clean
   - auditd once a week auto ? mail si problem
   - docker > [Rotate swarm CA certificates](https://docs.docker.com/engine/swarm/how-swarm-mode-works/pki/)
     - Usefull wehn having multiple managers/workers
-- ♻️ Sécurité
-  - remove unused
-    - packages
-    - process
-- ♻️ Bonne pratiques
 - [Customisable theme built to enhance the experience of browsing web directories](https://github.com/oupala/apaxy)
-- Docker tests > if fail, remove test related containers/compose/services
+- Ansible Docker tests > if fail, remove test related containers/compose/services
+- ♻️ Client FTP qui tape sur le même volume [Go](https://forums.docker.com/t/shared-web-hosting-with-docker-best-practices/7893/4)
 
 ### Images docker
 
 - Linter [hadolint](https://github.com/hadolint/hadolint) + [ext vscode](https://marketplace.visualstudio.com/items?itemName=exiasr.hadolint)
 - [Docker / How to Improve your Docker Image Builds](https://www.youtube.com/watch?v=npC0W2CW_as)
-- MAINTAINER > [DEPRECATED](https://docs.docker.com/engine/reference/builder/#maintainer-deprecated) > Use LABEL
 - [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 - docker > client ftp pour les sites client : [ftp](https://www.grafikart.fr/tutoriels/proftpd-755) ?
 - nginx > Prevent Flood/DDOS avec la configuration, [tuto grafikart](https://www.grafikart.fr/tutoriels/flood-ddos-fail2ban-884)
