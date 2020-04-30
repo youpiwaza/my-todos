@@ -19,24 +19,34 @@ Légende :
 
 ## Priorisation, simple
 
-1. Créer 2 playboks supplémentaires
-   1. 98-Maintenance    > Opération usuelles, ~os & package update, docker system prune
-   2. 99-Crafts & tests > Playbook dédié à la création, pour éviter de tout commenter/décommenter/oublier
-2. Installer les containers de l'architecture de base via ansible
-   1. 🚀 Mettre en place les noms de domaine pour les tests & services publics de base
+1. ✅ Créer 2 playboks supplémentaires
+   1. ✅ 98-Maintenance    > Opération usuelles, ~os & package update, docker system prune
+      1. Piocher dans les rôles d'installation
+   2. ✅ 99-Crafts & tests > Playbook dédié à la création, pour éviter de tout commenter/décommenter/oublier
+   3. ✅ 97-Punctal-task   > Playbook pour éxécuter une (ou plusieurs) tâches ponctuelles
+2. 🚀 Installer les containers de l'architecture de base via ansible
+   1. ✅ Mettre en place les noms de domaine pour les tests & services publics de base
       1. test        .DOMAIN.COM   // basic nginx
       2. prometheus  .DOMAIN.COM   // metrics database
       3. grafana     .DOMAIN.COM   // visualize metrics
       4. alertmanager.DOMAIN.COM   // alerts dispatcher
       5. unsee       .DOMAIN.COM   // alert manager dashboard
-   2. Informer l'utilisateur via debug, en fin de playbook 3.
-   3. Reverse Proxy
+   2. ✅ Informer l'utilisateur via debug, en fin de playbook 3.
+   3. ✅ docker maintenance
+      1. System prune
+      2. Images removal
+   4. ✅ Initialiser la stack
+   5. ✅ Vérifier que l'utilisateur the_docker_guy peut lancer des stacks
+      1. ✅ Utiliser la version curated
+      2. ✅ Resoudre les problèmes de droits
+      3. 🚧 Cleaner et mettre en place (99e playbook > 4eme playbook)
+   6. Reverse Proxy
       1. Installation de [traefik pour Docker](https://docs.traefik.io/providers/docker/)
          1. Besoin de l'accès a la socket ! (même via un conteneur proxy)
          2. Ou [Nginx](https://hub.docker.com/r/jwilder/nginx-proxy/) ? / [proxy_pass](https://medium.com/@mannycodes/create-an-nginx-reverse-proxy-with-docker-a1c0aa9078f1)
          3. Exemple avec conf dans un container alakon avec un label traefik ?
-   4. Utiliser des [fichiers de configs](https://docs.docker.com/engine/swarm/configs/) plutôt que mount/bind pour Nginx example
-   5. Test avec 2 urls pour 2 sites
+   7. Utiliser des [fichiers de configs](https://docs.docker.com/engine/swarm/configs/) plutôt que mount/bind pour Nginx example
+   8. Test avec 2 urls pour 2 sites
 3. Installation du Monitoring
    1. 🔍 Docs
       - [Docker swarm rocks > monitoring w. swarprom](https://dockerswarm.rocks/swarmprom/)

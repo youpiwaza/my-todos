@@ -29,6 +29,7 @@
 - Oh my zsh > plugins docker++
 - [Pimper vim](https://github.com/amix/vimrc) > awesome vim (fonts, etc.)
 - [Pimper terminal avec tmux](https://www.grafikart.fr/tutoriels/pimp-my-shell-750) // zsh + omz faits
+- OVH manager > Cleaner sous domaines persos
 
 ## Setup serveur
 
