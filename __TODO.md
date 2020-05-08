@@ -39,14 +39,38 @@ Légende :
    5. ✅ Vérifier que l'utilisateur the_docker_guy peut lancer des stacks
       1. ✅ Utiliser la version curated
       2. ✅ Resoudre les problèmes de droits
-      3. 🚧 Cleaner et mettre en place (99e playbook > 4eme playbook)
-   6. Reverse Proxy
+      3. ✅ Cleaner et mettre en place (99e playbook > 4eme playbook)
+   6. 🚀 Reverse Proxy
       1. Installation de [traefik pour Docker](https://docs.traefik.io/providers/docker/)
-         1. Besoin de l'accès a la socket ! (même via un conteneur proxy)
-         2. Ou [Nginx](https://hub.docker.com/r/jwilder/nginx-proxy/) ? / [proxy_pass](https://medium.com/@mannycodes/create-an-nginx-reverse-proxy-with-docker-a1c0aa9078f1)
-         3. Exemple avec conf dans un container alakon avec un label traefik ?
-   7. Utiliser des [fichiers de configs](https://docs.docker.com/engine/swarm/configs/) plutôt que mount/bind pour Nginx example
-   8. Test avec 2 urls pour 2 sites
+         1. ✅ Docs
+            1. [Traefik > Docker swarm discovery](https://docs.traefik.io/providers/docker/)
+            2. [Traefik > Docker swarm routing](https://docs.traefik.io/routing/providers/docker/)
+            3. [Traefik > Docker basic example](https://docs.traefik.io/user-guides/docker-compose/basic-example/)
+            4. [Traefik > Docker TLS example](https://docs.traefik.io/user-guides/docker-compose/acme-tls/)
+            5. [Traefik v2.2 notes](https://containo.us/blog/traefik-2-2-ingress/)
+         2. Exemples en local
+            1. ✅ Base stacks traefik + hello world
+            2. Linted
+               1. ✅ Toutes la doc
+               2. 🐛✅ Problème avec sous domaines > Ressources statiques non trouvées (image tutum)
+               3. ✅ Socket > [conteneur proxy pour accès à la socket](https://chriswiegman.com/2019/11/protecting-your-docker-socket-with-traefik-2/)
+            3. ✅ Curated > Add my Dcompose recos (DBS, Labels, etc.)
+            4. ✅ En faire des projets docker compose pour utilisation avec stack
+               1. ✅ Ajout de l'utilisateur
+               2. ✅ +1 pour site de test
+            5. 🚀 Tests en ligne , cf. server-related-tutorials/01-docker/04-my-tests/09-traefik-curated/06-prod-traefik-curated
+               1. ✅ Faire marcher, déjà
+               2. ✅ Linter README & versionner tests cancer
+               3. Terminer TODO server-related-tutorials/01-docker/04-my-tests/09-traefik-curated/06-prod-traefik-curated/README.md et déplacer/remplacer ici 
+            6. Récupérer nomenclature server-related-tutorials/01-docker/04-my-tests/09-traefik-curated/06-prod-traefik-curated/Nomenclatures.md
+            7. Via ansible
+               1. Sur host > Mettre dans un endroit correct ( docker_peon/core/ ?)
+         3. Mettre en place traefik + config via [fichiers de configs](https://docs.docker.com/engine/swarm/configs/)
+            1. Vérifier que l'accès est bien bloqué en ligne [http://localhost:2375/version](http://localhost:2375/version) avec l'IP du serveur
+            2. Exemple config complexe : server-related-tutorials\01-docker\04-my-tests\08-swarmprom-monitoring\swarmpromWSomeEdits\docker-compose.yml
+         4. Tester routing via 1 conteneur alakon > test.DOMAIN.COM
+         5. Accès en HTTPS (Port 443)
+         6. Gérer les logs de Traefik
 3. Installation du Monitoring
    1. 🔍 Docs
       - [Docker swarm rocks > monitoring w. swarprom](https://dockerswarm.rocks/swarmprom/)

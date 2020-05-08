@@ -52,6 +52,11 @@
 - [Customisable theme built to enhance the experience of browsing web directories](https://github.com/oupala/apaxy)
 - Ansible Docker tests > if fail, remove test related containers/compose/services
 - ♻️ Client FTP qui tape sur le même volume [Go](https://forums.docker.com/t/shared-web-hosting-with-docker-best-practices/7893/4)
+- Traefik reverse proxy > Configure containers healthchecks
+  - cf. server-related-tutorials/01-docker/04-my-tests/09-traefik-curated/03-curated-traefik-swarm-w-proxy-container/README.md
+- [docker compose curated example](https://github.com/youpiwaza/docker-compose-curated-example/blob/master/docker-compose.yml)
+  - Utiliser config plutôt que volumes
+- [Bret fisher security recos](https://github.com/BretFisher/ama/issues/17)
 
 ### Images docker
 
