@@ -63,18 +63,25 @@ Légende :
                2. ✅ Linter README & versionner tests cancer
                3. Terminer TODO server-related-tutorials/01-docker/04-my-tests/09-traefik-curated/06-prod-traefik-curated/README.md et déplacer/remplacer ici 
             6. Récupérer nomenclature server-related-tutorials/01-docker/04-my-tests/09-traefik-curated/06-prod-traefik-curated/Nomenclatures.md
-            7. Via ansible
+               1. Fixer arborescence également > docs pour logs dans name container 'logs-traefik' > /home/traefik.log
+            7. Host / Via ansible
                1. Sur host > Mettre dans un endroit correct ( docker_peon/core/ ?)
-         3. Mettre en place traefik + config via [fichiers de configs](https://docs.docker.com/engine/swarm/configs/)
-            1. Vérifier que l'accès est bien bloqué en ligne [http://localhost:2375/version](http://localhost:2375/version) avec l'IP du serveur
-            2. Exemple config complexe : server-related-tutorials\01-docker\04-my-tests\08-swarmprom-monitoring\swarmpromWSomeEdits\docker-compose.yml
-         4. Tester routing via 1 conteneur alakon > test.DOMAIN.COM
+               2. Pas oublier network
+               3. Pas oublier volume pour logs
+         3. Vérifier que l'accès est bien bloqué en ligne [http://localhost:2375/version](http://localhost:2375/version) avec l'IP du serveur
+         4. Tester routing via 3 conteneurs alakon > test.DOMAIN.COM, grafana.DOMAIN.COM & test.DOMAIN.COM/sub
          5. Accès en HTTPS (Port 443)
-         6. Gérer les logs de Traefik
 3. Installation du Monitoring
    1. 🔍 Docs
       - [Docker swarm rocks > monitoring w. swarprom](https://dockerswarm.rocks/swarmprom/)
         - [Docker / Prometheus setup](https://docs.docker.com/config/daemon/prometheus/)
+          - Traefik config
+            - [Official doc](https://docs.traefik.io/observability/metrics/prometheus/)
+            - [Example](https://community.containo.us/t/502-bad-gateway-solved/2947) >
+            - "--metrics.prometheus=true"
+            - "--entryPoints.metrics.address=:8082"
+            - "--metrics.prometheus.entryPoint=metrics"
+            - "--metrics.prometheus.buckets=0.1,0.3,1.2,5.0"
         - [Swarmprom - Prometheus Monitoring for Docker Swarm](https://www.weave.works/blog/swarmprom-prometheus-monitoring-for-docker-swarm)
    2. UI pour afficher les logs docker de chaque service (~eq datadog)
 4. Choix du serveur web par défaut
