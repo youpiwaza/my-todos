@@ -61,13 +61,67 @@ Légende :
             5. 🚀 Tests en ligne , cf. server-related-tutorials/01-docker/04-my-tests/09-traefik-curated/06-prod-traefik-curated
                1. ✅ Faire marcher, déjà
                2. ✅ Linter README & versionner tests cancer
-               3. Terminer TODO server-related-tutorials/01-docker/04-my-tests/09-traefik-curated/06-prod-traefik-curated/README.md et déplacer/remplacer ici 
-            6. Récupérer nomenclature server-related-tutorials/01-docker/04-my-tests/09-traefik-curated/06-prod-traefik-curated/Nomenclatures.md
-               1. Fixer arborescence également > docs pour logs dans name container 'logs-traefik' > /home/traefik.log
-            7. Host / Via ansible
-               1. Sur host > Mettre dans un endroit correct ( docker_peon/core/ ?)
-               2. Pas oublier network
-               3. Pas oublier volume pour logs
+               3. ✅ Faire marcher, déjà
+                  1. Bad gateway 502 / connection refused / connect: permission denied / mes couilles
+                     1. Rajouter au service Traefik
+            6. 🌱 Résoudre les éventuels problèmes dans les logs
+            7. ✅ Alpha reorder
+            8. ✅ Comments
+            9. ✅ Proper renaming
+               1. ✅ Nomenclature ports exterieurs services (pas de doublons) / Regarder pour gestion automatique
+                  1. Pas besoin de spécifier explicitement le port de sortie
+               2. ✅ Nomenclature clients pour services et autres conneries traefik
+                  1. Tester conflits de noms si services muliples
+                  2. traefik_1            | {"level":"error","msg":"Router defined multiple times with different configurations in [hello-helloworld-ziecuama7f13gx12pg8vh11jt helloDeux-helloworld-g79k1r85gyzcuxv3v33k7lwnq]","providerName":"docker","routerName":"helloworld","time":"2020-05-08T14:37:31Z"}
+                  3. > Cf. nomenclature
+            10. ✅ Minor linting/tweaks
+                1. ✅ Force bridge driver for socket network
+                2. ✅ socket volume > force read only
+                3. ✅ Activer l'encryptage du réseau d'accès à la socket [bret fisher stack example](https://github.com/BretFisher/dogvscat/blob/master/stack-proxy-global.yml)
+                4. ✅ Lancer traefik as read only, cf bret ^
+                5. ✅ Cap drop all + Cap_ADD "CAP_NET_BIND_SERVICE"
+                6. ✅ Specific user > docker peon
+                   1. command traefik error: error while building entryPoint web: error preparing server: error opening listener: listen tcp :80: bind: permission denied
+                   2. // Specific unprivileged user needs access to ports < 1024
+                     - sysctls:
+                       - net.ipv4.ip_unprivileged_port_start: 0
+                7. ✅ Traefik stats > Stats collection is disabled. Help us improve Traefik by turning this feature on :). More details [here](https://docs.traefik.io/contributing/data-collection/)
+            11. ✅ Résoudre problèmes divers
+                1. ✅ healthcheck traefik > OK direct
+                2. ✅ "traefik.http.routers.helloworld.entrypoints=web" ???
+                   1. WARN > No entryPoint defined for this router, using the default one(s) instead: [web]
+                   2. Vérifier pour https
+                   3. > Plus de trace dans les logs
+            12. ✅ Rajouter mes recos de sécurité
+                1. ✅ Proxy
+                2. ✅ Traefik
+                3. ✅ Tests hello
+            13. 🌱 Répliques
+                1. ✅ Tests hello
+                2. ✅ Proxy
+                3. ❌ Traefik / Published port 80 can be allocated to one container only (traefik + replicas = 2 containers)
+                   1. TODO: Fix ?
+            14. ✅ Test avec 2 services
+            15. ✅ Test sur sous dossier
+            16. ✅ Gestion des logs traefik (json + volumes > fichiers sur host)
+                1. Docs
+                    1. [Official docs](https://docs.traefik.io/observability/logs/)
+                    2. [exemple](https://community.containo.us/t/502-bad-gateway-solved/2947)
+                    3. [Access logs](https://docs.traefik.io/observability/access-logs/)
+                2. ~~/var/log/*~~
+                3. Traefik's container > /home/traefik.log
+                4. Stored inside a named volume 'logs-traefik' in /home/traefik.log
+            17. ✅ [Manage access logs](https://docs.traefik.io/observability/access-logs/)
+            18. 🚀 HTTPS stuff
+            19. Récupérer nomenclature server-related-tutorials\01-docker\04-my-tests\09-traefik-curated\Nomenclatures.md
+                1. Fixer arborescence prod
+                2. Logs traefik > nammed volume 'logs-traefik'
+                   1. /home/traefik-debug.log
+                   2. /home/traefik-access.log
+            20. Host / Via ansible
+                1. Sur host > Mettre dans un endroit correct ( docker_peon/core/ ?)
+                2. Pas oublier network
+                3. Pas oublier volume pour logs
          3. Vérifier que l'accès est bien bloqué en ligne [http://localhost:2375/version](http://localhost:2375/version) avec l'IP du serveur
          4. Tester routing via 3 conteneurs alakon > test.DOMAIN.COM, grafana.DOMAIN.COM & test.DOMAIN.COM/sub
          5. Accès en HTTPS (Port 443)
