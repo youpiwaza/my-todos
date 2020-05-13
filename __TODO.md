@@ -27,10 +27,11 @@ Légende :
 2. 🚀 Installer les containers de l'architecture de base via ansible
    1. ✅ Mettre en place les noms de domaine pour les tests & services publics de base
       1. test        .DOMAIN.COM   // basic nginx
-      2. prometheus  .DOMAIN.COM   // metrics database
-      3. grafana     .DOMAIN.COM   // visualize metrics
-      4. alertmanager.DOMAIN.COM   // alerts dispatcher
-      5. unsee       .DOMAIN.COM   // alert manager dashboard
+      2. traefik     .DOMAIN.COM   // traefik dashboard
+      3. prometheus  .DOMAIN.COM   // metrics database
+      4. grafana     .DOMAIN.COM   // visualize metrics
+      5. alertmanager.DOMAIN.COM   // alerts dispatcher
+      6. unsee       .DOMAIN.COM   // alert manager dashboard
    2. ✅ Informer l'utilisateur via debug, en fin de playbook 3.
    3. ✅ docker maintenance
       1. System prune
@@ -112,19 +113,38 @@ Légende :
                 3. Traefik's container > /home/traefik.log
                 4. Stored inside a named volume 'logs-traefik' in /home/traefik.log
             17. ✅ [Manage access logs](https://docs.traefik.io/observability/access-logs/)
-            18. 🚀 HTTPS stuff
-            19. Récupérer nomenclature server-related-tutorials\01-docker\04-my-tests\09-traefik-curated\Nomenclatures.md
-                1. Fixer arborescence prod
-                2. Logs traefik > nammed volume 'logs-traefik'
-                   1. /home/traefik-debug.log
-                   2. /home/traefik-access.log
-            20. Host / Via ansible
-                1. Sur host > Mettre dans un endroit correct ( docker_peon/core/ ?)
-                2. Pas oublier network
-                3. Pas oublier volume pour logs
+            18. ✅ HTTPS stuff
+                 1. Docs
+                    1. [Let's encrypt](https://letsencrypt.org/fr/docs/)
+                    2. [Traefik > Automated](https://docs.traefik.io/https/acme/)
+                    3. [Traefik > TLS > Routers](https://docs.traefik.io/routing/routers/#tls)
+                    4. 💚 [Traefik HTTPS tutorial](https://containo.us/blog/traefik-2-0-docker-101-fc2893944b9d/#i-need-https)
+                    5. 💚 [Another tutorial](https://chriswiegman.com/2019/10/serving-your-docker-apps-with-https-and-traefik-2/)
+                 2. ✅ Enable in traefik container
+                 3. ✅ Enable on stack ~[hello https://test.masamune.fr/](https://test.masamune.fr/)
+                 4. ✅ Automatic redirect http to https
+                 5. ✅ Switch from Let's encrypt staging (for test purposes)
+                    1. 🎉 Works
+                 6. 🌱 Implement 1 [certificate per domain (for all sub domains)](https://docs.traefik.io/https/acme/#domain-definition), cf. SANs (Subject Alternative Name)
+                    1. Need main DOMAIN.com to point toward the same server
+                 7. 🌱 Test on helloDeux & HelloSub
+            19. ✅ basic auth
+            20. 💩 💩Traefik💩 💩dashboard💩
+                1. KO AF, nothing works (routes / https / /dashboard)
+                2. The documentation and examples are pure garbage and fucking waste of time
+            21. 💩 Problème heure logs traefik (-2)
+                1. [Dispo en 1.7](https://docs.traefik.io/v1.7/configuration/logs/#time-zones)
+                2. Mais pas en [v2+](https://docs.traefik.io/observability/logs/)
+            22. 🌱 Traefik [log rotation](https://docs.traefik.io/observability/logs/#log-rotation)
+            23. Récupérer nomenclature server-related-tutorials/01-docker/04-my-tests/09-traefik-curated/Nomenclatures.md
+                1. Fixer arborescence prod ( docker_peon/core/ )
+            24. Host / Automation via ansible
+                2. Sur host > Mettre dans un endroit correct ( docker_peon/core/ ?)
+                3. Pas oublier network
+                4. Pas oublier volume pour logs
+                5. Set back traefik logs on ERROR only
          3. Vérifier que l'accès est bien bloqué en ligne [http://localhost:2375/version](http://localhost:2375/version) avec l'IP du serveur
          4. Tester routing via 3 conteneurs alakon > test.DOMAIN.COM, grafana.DOMAIN.COM & test.DOMAIN.COM/sub
-         5. Accès en HTTPS (Port 443)
 3. Installation du Monitoring
    1. 🔍 Docs
       - [Docker swarm rocks > monitoring w. swarprom](https://dockerswarm.rocks/swarmprom/)

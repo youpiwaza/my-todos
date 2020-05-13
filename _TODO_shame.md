@@ -49,6 +49,8 @@
   - auditd once a week auto ? mail si problem
   - docker > [Rotate swarm CA certificates](https://docs.docker.com/engine/swarm/how-swarm-mode-works/pki/)
     - Usefull wehn having multiple managers/workers
+  - Traefik [log rotation](https://docs.traefik.io/observability/logs/#log-rotation)
+    - in named volumes "core-traefik-logs" > /home/logs/*.log
 - [Customisable theme built to enhance the experience of browsing web directories](https://github.com/oupala/apaxy)
 - Ansible Docker tests > if fail, remove test related containers/compose/services
 - ♻️ Client FTP qui tape sur le même volume [Go](https://forums.docker.com/t/shared-web-hosting-with-docker-best-practices/7893/4)
