@@ -59,7 +59,7 @@ Légende :
             4. ✅ En faire des projets docker compose pour utilisation avec stack
                1. ✅ Ajout de l'utilisateur
                2. ✅ +1 pour site de test
-            5. 🚀 Tests en ligne , cf. server-related-tutorials/01-docker/04-my-tests/09-traefik-curated/06-prod-traefik-curated
+            5. ✅ Tests en ligne , cf. server-related-tutorials/01-docker/04-my-tests/09-traefik-curated/06-prod-traefik-curated
                1. ✅ Faire marcher, déjà
                2. ✅ Linter README & versionner tests cancer
                3. ✅ Faire marcher, déjà
@@ -136,15 +136,27 @@ Légende :
                 1. [Dispo en 1.7](https://docs.traefik.io/v1.7/configuration/logs/#time-zones)
                 2. Mais pas en [v2+](https://docs.traefik.io/observability/logs/)
             22. 🌱 Traefik [log rotation](https://docs.traefik.io/observability/logs/#log-rotation)
-            23. Récupérer nomenclature server-related-tutorials/01-docker/04-my-tests/09-traefik-curated/Nomenclatures.md
-                1. Fixer arborescence prod ( docker_peon/core/ )
-            24. Host / Automation via ansible
-                2. Sur host > Mettre dans un endroit correct ( docker_peon/core/ ?)
-                3. Pas oublier network
-                4. Pas oublier volume pour logs
-                5. Set back traefik logs on ERROR only
-         3. Vérifier que l'accès est bien bloqué en ligne [http://localhost:2375/version](http://localhost:2375/version) avec l'IP du serveur
-         4. Tester routing via 3 conteneurs alakon > test.DOMAIN.COM, grafana.DOMAIN.COM & test.DOMAIN.COM/sub
+            23. ✅ Récupérer nomenclature server-related-tutorials/01-docker/04-my-tests/09-traefik-curated/Nomenclatures.md
+                1. ✅ Fixer arborescence prod ( docker_peon/core/ )
+         3. Host / Automation via ansible
+            1. ✅ Sur host > Mettre dans un endroit correct ( docker_peon/core/reverse-proxy/traefik )
+            2. ✅ Pas oublier network
+            3. ✅ Pas oublier volume pour logs & https
+            4. ✅ Set back traefik logs on ERROR only
+         4. 🚀 Vérifier que l'accès est bien bloqué en ligne [http://localhost:2375/version](http://localhost:2375/version) avec l'IP du serveur
+         5. Tester routing via 3 conteneurs alakon > test.DOMAIN.COM, grafana.DOMAIN.COM & test.DOMAIN.COM/sub
+            1. Lint user & attention network prefixe + "core-"
+            2. test..../sub // auth
+         6. Vérifier logs après une nuit à tourner a vide
+         7. & logs erreurs présentes
+            - {"entryPointName":"websecure","level":"error","msg":"close tcp [::]:443: use of closed network connection","time":"2020-05-14T16:16:19Z"}
+            - {"entryPointName":"web","level":"error","msg":"accept tcp [::]:80: use of closed network connection","time":"2020-05-14T16:16:19Z"}
+            - {"entryPointName":"traefik","level":"error","msg":"close tcp [::]:8080: use of closed network connection","time":"2020-05-14T16:16:19Z"}
+            - {"entryPointName":"traefik","level":"error","msg":"accept tcp [::]:8080: use of closed network connection","time":"2020-05-14T16:16:19Z"}
+            - {"entryPointName":"websecure","level":"error","msg":"accept tcp [::]:443: use of closed network connection","time":"2020-05-14T16:16:19Z"}
+            - {"entryPointName":"web","level":"error","msg":"close tcp [::]:80: use of closed network connection","time":"2020-05-14T16:16:19Z"}
+         8. Tâche ponctuelle couper traefik (dc down ko)
+         9. Tâche ponctuelle clean logs (en attendant automatisation > traefik.log > 200514-traefik.log)
 3. Installation du Monitoring
    1. 🔍 Docs
       - [Docker swarm rocks > monitoring w. swarprom](https://dockerswarm.rocks/swarmprom/)
@@ -168,12 +180,14 @@ Légende :
             - Configuration réduite et plus simple
             - Moins bonnes performances
    2. ♻️(tests) Mettre en place un nginx hello world sur un DNS, gestion du reverse proxy via traefik
+      1. lel
    3. [Nginx](https://hub.docker.com/_/nginx)
       1. Sans reverse proxy ni dns ni style ni js > 1er affichage [80-120ms], suivants [30-40ms, pics a 60ms]
    4. +1 [Caddy](https://hub.docker.com/r/yobasystems/alpine-caddy/)
       1. Sans reverse proxy ni dns ni style ni js > 1er affichage [70-120ms], suivants [35-45ms, pics a 70ms]
    5. 📌 Test des performances > Choix
       1. Si choix Nginx Mettre en place HTTPS Automatique via Let's Encrypt
+      2. Edit: HTTPS mis en place via Traefik
    6. 💥 /!\ Attention pour bdd et contenus, utiliser [volumes NOMMÉS pour Dstack](https://docs.docker.com/compose/compose-file/#volumes-for-services-swarms-and-stack-files), ou DESTRUCTION lors de la fin du service (si V anonyme)
 
 128> Docker certification [175€](https://success.docker.com/certification)
@@ -184,12 +198,7 @@ Légende :
 
 ## Priorisation, détails tâche courante
 
-Sécurités SSL/TLS (Transport Layer Security / https) >
-   Privilégier TLS 1.3 (le reste **deprecated** a part TLS 1.2)
-   Doit être enregistré auprès d'une autorité de confiance > [liste française](https://webgate.ec.europa.eu/tl-browser/#/tl/FR)
-   Privilégier les certificats courts (1 a 3 mois) au cas ou le serveur serait compromis (et possibilité de résilier un certif manuellement)
-   Favoriser le mutual Auth
-   Automatiser avec Let's encrypt
+.
 
 ## Tests
 

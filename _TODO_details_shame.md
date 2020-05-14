@@ -28,4 +28,14 @@ Docker for web hosting
 - [Utiliser ARG pour stocker les versions](https://www.udemy.com/course/docker-essentials/learn/lecture/12339826#overview)
 - [Utiliser ENV](https://www.udemy.com/course/docker-essentials/learn/lecture/12339842#overview)
 - Utiliser Config
+
 ---
+
+## Sécurité
+
+Sécurités SSL/TLS (Transport Layer Security / https) >
+   Privilégier TLS 1.3 (le reste **deprecated** a part TLS 1.2)
+   Doit être enregistré auprès d'une autorité de confiance > [liste française](https://webgate.ec.europa.eu/tl-browser/#/tl/FR)
+   Privilégier les certificats courts (1 a 3 mois) au cas ou le serveur serait compromis (et possibilité de résilier un certif manuellement)
+   Favoriser le mutual Auth
+   Automatiser avec Let's encrypt
