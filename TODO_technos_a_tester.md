@@ -1,5 +1,7 @@
 # Technos a check
 
+- DevOps > SonarQube > Qualité du code (vulnérabilités, couverture des tests, duplication, etc.) (après TU)
+  - CodeClimate
 - PWA / Service workers
 - web assembly
 - tailwind css / materialize css / bulma css

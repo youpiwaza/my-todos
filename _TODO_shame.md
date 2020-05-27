@@ -4,10 +4,36 @@
 
 - Ranger notes-install... > Séparer Ansible de Docker de Serveur
 
+## Shame
+
+4. Choix du serveur web par défaut
+   1. Docs
+      - [Caddy](https://caddyserver.com/) vs [Nginx](https://www.nginx.com/)
+        - [stackshare](https://stackshare.io/stackups/caddy-vs-nginx)
+        - [rex](https://medium.com/@torch2424/my-experience-of-switching-from-nginx-to-caddy-79bc8cd627c0)
+          - Caddy
+            - HTTPS automatique
+            - Configuration réduite et plus simple
+            - Moins bonnes performances
+   2. ♻️(tests) Mettre en place un nginx hello world sur un DNS, gestion du reverse proxy via traefik
+      1. lel
+   3. [Nginx](https://hub.docker.com/_/nginx)
+      1. Sans reverse proxy ni dns ni style ni js > 1er affichage [80-120ms], suivants [30-40ms, pics a 60ms]
+   4. +1 [Caddy](https://hub.docker.com/r/yobasystems/alpine-caddy/)
+      1. Sans reverse proxy ni dns ni style ni js > 1er affichage [70-120ms], suivants [35-45ms, pics a 70ms]
+   5. 📌 Test des performances > Choix
+      1. Si choix Nginx Mettre en place HTTPS Automatique via Let's Encrypt
+      2. Edit: HTTPS mis en place via Traefik
+   6. 💥 /!\ Attention pour bdd et contenus, utiliser [volumes NOMMÉS pour Dstack](https://docs.docker.com/compose/compose-file/#volumes-for-services-swarms-and-stack-files), ou DESTRUCTION lors de la fin du service (si V anonyme)
+
 ## Prio
+
+- [Abo litige](https://www.economie.gouv.fr/mediation-conso/vous-etes-professionnel)
 
 ## Environnement de dev
 
+- [WLS 2](https://dev.to/twiddlewakka/20x-faster-speeds-by-updating-to-the-new-wsl-2-a-user-s-installation-guide-57n4)
+- [Tara / Alternative Jira](https://www.blogdumoderateur.com/tara-outil-gestion-projet/)
 - [Sanitize Ansible](https://docs.ansible.com/ansible/2.3/dev_guide/testing_sanity.html)
 - Automatiser l'installation de l'environnement de developpement VIA projet install-dev-env
   - Full WSL
