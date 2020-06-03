@@ -95,6 +95,9 @@ X. ✅🐛 Traefik doesn't restart on host reboot
             - "--metrics.prometheus.buckets=0.1,0.3,1.2,5.0"
         - [Swarmprom - Prometheus Monitoring for Docker Swarm](https://www.weave.works/blog/swarmprom-prometheus-monitoring-for-docker-swarm)
    2. UI pour afficher les logs docker de chaque service (~eq datadog)
+   3. Swarm WebUi Portainer
+      1. [doc](https://portainer.readthedocs.io/en/stable/deployment.html)
+      2. [DS rocks](https://dockerswarm.rocks/portainer/)
 
 128> Docker certification [175€](https://success.docker.com/certification)
 
@@ -104,8 +107,35 @@ X. ✅🐛 Traefik doesn't restart on host reboot
 
 ## Priorisation, détails tâche courante
 
-.
+- cf. [Bret F / Taking Docker to Production: What You Need to Know and Decide](https://youtu.be/6jT83lT6TU8?t=781)
+  - Images tags > fixes
+  - Éviter les fichiers de configuration, préférer les variables d'environnement avec des valeurs par défaut
+  - DockerFile ~specific
+    - Si build avec apt-get > version en variables d'environnement (ex: NGINX_VERSION: '1.12')
+    - Overload default vars & conf files with default values through ENV vars
+      - *Éviter les modifications non souhaitées lors des mises à jour*
+      - MYSQL_LOGSIZE: 512M
+      - MYSQL_CONFIG: /etc/mysql/mysqld.cnf
+- [Healthcheck++](https://blog.sixeyed.com/docker-healthchecks-why-not-to-use-curl-or-iwr/)
+  - Healthcheck sur traefik proxy container, stat un fichier de conf (voir lequel via D exec bash)
+- Optimiser docker container ls, cf. [D con 17](https://youtu.be/1vgi51f0tCk?t=227) & [doc](https://docs.docker.com/engine/reference/commandline/ps/#formatting).
+  - Possibilité de le balancer dans D daemon.json
 
 ## Tests
 
-hey
+- Optimize DC files with blocks templates, remove redundancy, cf. [docker con 19](https://youtu.be/woBI466WMR8?t=481).
+- Service > Docker prune toutes les heures, cf. [docker con 19](https://youtu.be/woBI466WMR8?t=209).
+- Check logging driver : local
+  - Update docker daemon.json, cf. [D con 19](https://youtu.be/woBI466WMR8?t=537).
+- Prevent network collisions > D daemon default adress pool, , cf. [D con 19](https://youtu.be/woBI466WMR8?t=657).
+- Ranger: recap [recos sécurité D con 17](https://youtu.be/1vgi51f0tCk?t=1671).
+- Ranger: Docker w GUI ! [D con 17](https://youtu.be/1vgi51f0tCk?t=2117).
+  - Article dédié[Docker Containers on the Desktop](https://blog.jessfraz.com/post/docker-containers-on-the-desktop/)
+- Veille, mauvaises pratiques docker : [12 Fractured Apps](https://medium.com/@kelseyhightower/12-fractured-apps-1080c73d481c)
+- ~Docker utils : [gosu](https://github.com/tianon/gosu)
+
+CLEANER: Liste vidéos docker con D captains tips and tricks 16 - 20
+
+- [17](https://youtu.be/1vgi51f0tCk?t=227)
+- ~~[18 europe](https://www.youtube.com/watch?v=fdB31LScQzY)~~ doublon
+- [19](https://youtu.be/woBI466WMR8?t=657)
