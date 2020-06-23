@@ -1,5 +1,6 @@
 # Technos a check
 
+- [Orga, outil all in 1](https://www.notion.so/)
 - DevOps > SonarQube > Qualité du code (vulnérabilités, couverture des tests, duplication, etc.) (après TU)
   - CodeClimate
 - PWA / Service workers
