@@ -4,9 +4,45 @@
 
 - Ranger notes-install... > Séparer Ansible de Docker de Serveur
 
+## idées accès fichiers bloqués conteneur bitnamiwp
+
+Tant que j'y pense, pour modifier les fichiers alakon du wp
+
+- Se connecter au conteneur en forcant un utilisateur++ ? mais pas viable
+- Sinon créer un (ou plusieurs) volume/s dédiés aux modifications spécifiques (ex racine du site servi pr .htaccess, robots.txt, etc.)
+  - Voir si possibilité de conflits si plusieurs volumes tapent sur les mêmes fichiers d'un conteneur....
+    - A priori non, le volume de base tape sur wp-config & wp-content, pas sur les fichiers serveurs, donc pas de soucis
+
+- [Doc maj conteneur](https://onepagezen.com/add-expires-headers-wordpress-bitnami/)
+
+Note : en passant par volume & connexion via conteneur anonyme > connecté en tant que root, avec lecture des bons droits (possibilité de chown derrière )
+
+```bash
+docker run \
+   -it \
+   --mount \
+      source=client--dev-champagne-didier-lapie-com--wordpress--files,target=/home \
+   --rm \
+   --workdir /home \
+   alpine \
+   /bin/ash
+
+> /home # whoami
+**root**
+
+> /home # ls -la
+total 20
+drwxrwxr-x    3 root     root          4096 Jun 23 13:19 .
+drwxr-xr-x    1 root     root          4096 Nov 11 15:11 ..
+-rw-r--r--    1 **1001**     root             0 Jun 23 13:14 .initialized
+-rw-r--r--    1 1001     root             0 Nov  9 17:57 .restored
+-r--r-----    1 1001     root          4201 Jun 23 13:54 wp-config.php
+drwxr-xr-x   14 1001     root          4096 Nov  3 15:42 wp-content
+```
+
 ## Shame
 
-4. Choix du serveur web par défaut
+1. Choix du serveur web par défaut
    1. Docs
       - [Caddy](https://caddyserver.com/) vs [Nginx](https://www.nginx.com/)
         - [stackshare](https://stackshare.io/stackups/caddy-vs-nginx)
@@ -15,6 +51,7 @@
             - HTTPS automatique
             - Configuration réduite et plus simple
             - Moins bonnes performances
+      - NEED HTTP3 > Nginx (patch) / Caddy / Litespeed
    2. ♻️(tests) Mettre en place un nginx hello world sur un DNS, gestion du reverse proxy via traefik
       1. lel
    3. [Nginx](https://hub.docker.com/_/nginx)

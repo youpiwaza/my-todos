@@ -1,23 +1,7 @@
-# Taf en cours
+# Serveur
 
-Légende :
-
-- 🚀  En cours / **1 MAX A LA FOIS**
-- ✅  Terminé
-- ⏩  Suite
-- 📌  A tester
-- ♻️  Contenus/notes dans TODO_details_shame.md
-- 🔍  Lecture/Vidéos
-- 🌱  TODO
-- 🚧  WIP / Work In Progress
-- 💩  KO
-
-**Tâches récurrentes** :
-
-- Déplacer les terminés ✅ à chaque début de semaine dans README.
-- Déplacer les TODO 🌱 dans _TODO_shame.md
-
-## Priorisation, simple
+1. Note : Vu que ça fait un bail, peut être se repasser les vidéos recos en fin de ce fichier.
+2. Faire un README sur le REX d'avoir le serveur depuis presque 1 an
 
 X. ✅🐛 Traefik doesn't restart on host reboot
 
@@ -122,8 +106,9 @@ X. ✅🐛 Traefik doesn't restart on host reboot
                            1. Besoin de création d'un compte
                         2. All in One SEO Pack
                            1. Régler le schéma (Infos fournies moteurs de recherche)
-                        3. AMP / "Accelerated Mobile Pages"
+                        3. 💩 AMP / "Accelerated Mobile Pages"
                            1. Passer en mode standard
+                           2. 📌 Flingue pagespeed > Confirmé ça explose les résultats 💩 (100 > 65 en mobile)
                         4. MonsterInsights - Google Analytics pour WordPress
                            1. Besoin d'un compte GA et surement d'autres manip
                         5. Simple Tags
@@ -131,9 +116,11 @@ X. ✅🐛 Traefik doesn't restart on host reboot
                            1. Besoin de modifier wp-config.php ! (fait avec docker run alpine /bin/ash), cf. fin de  ce fichier
                            2. Performances > Paramètres généraux > Activer tous les systèmes de cache nécessaires (! CDN & Reverse proxy & Tracking)
                               1. [Recos](https://onlinemediamasters.com/w3-total-cache-settings/)
+                              2. Ne pas mettre le lazy loading, il déconne
+                              3. Performances > Minifier > JS > Defer (plutôt que async)
                            3. Performances > Mise en cache objet > Activer pour wp-admin/
-                           4. Besoin de repasser sur chaque putaind e catégorie > Faire une fois & exporter, puis importer nouvelles install
-                           5. 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Les règles de caches sont ~KO, a revoir
+                           4. Les règles de caches sont ~KO, a revoir
+                           5. Besoin de repasser sur chaque putain de catégorie > Faire une fois & exporter, puis importer nouvelles install
                      3. Installer les plugins requis
                         1. Check Email
                            1. Vérifier le bon envoi des emails depuis WP
@@ -145,18 +132,21 @@ X. ✅🐛 Traefik doesn't restart on host reboot
                            1. Disable all
                         4. Wordfence security plugin
                            1. Wordfence > Scan > Start new scan > tout goude
+                        5. Html sitemaps / Simple Sitemap – Create a Responsive HTML Sitemap
+                        6. RGPD
                      4. MAJ tous les plugins
                3. Utilisateurs > Votre profil > Prénom Nom
                4. Réglages > Général > Langue > Français
-               5. 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Create clients' admin redactors
+               5. Create clients' admin redactors
                   1. Manage Admin display (remove menus theme/plugins, etc.)
                6. Supprimer page et articles d'exemple
-               7. 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Create secondary pages
+               7. Create secondary pages
                   1. Mentions légales
                   2. Crédits
                   3. Sitemap
                   4. Politique de confidentialité, [exemple WP](https://dev.champagne-didier-lapie.com/wp-admin/privacy-policy-guide.php)
-               8. 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Create secondary menu
+                  5. Boite à outils (liste balises pour tester rendu)
+               8. Create secondary menu
                   1. Affect secondary pages
                9. ~~Réglages > Permaliens~~
                10. Outils > Santé du site [ex](https://dev.champagne-didier-lapie.com/wp-admin/site-health.php)
@@ -166,6 +156,8 @@ X. ✅🐛 Traefik doesn't restart on host reboot
                    1. Trop rien a faire une fois AMP & W3 Total Cache activés ET configurés
                12. Recos Slow admins
                    1. Heartbeat Control
+               13. Virer/Opti police alakon theme
+               14. Virer footer "propulsé par WordPress"
 3. 💥💥💥Tâche ponctuelle clean logs (en attendant automatisation > traefik.log > 200514-traefik.log)
 4. Mettre en place un conteneur SFTP ?
 5. Mettre en place un conteneur Accès bdd ?
@@ -192,16 +184,7 @@ X. ✅🐛 Traefik doesn't restart on host reboot
 
 128> Docker certification [175€](https://success.docker.com/certification)
 
-## 🚧 WIP 🚧
-
-.
-
 ## Priorisation, détails tâche courante
-
-- résa reims
-- Maj infos DNS nouvelle adresse reims
-- Maj adresse siret
-- CMNE
 
 ---
 
@@ -237,20 +220,3 @@ CLEANER: Liste vidéos docker con D captains tips and tricks 16 - 20
 - [17](https://youtu.be/1vgi51f0tCk?t=227)
 - ~~[18 europe](https://www.youtube.com/watch?v=fdB31LScQzY)~~ doublon
 - [19](https://youtu.be/woBI466WMR8?t=657)
-
-### WordPress > W3 Total Cache > Modifier wp-config.php
-
-```bash
-> docker run \
->    -it \
->    --mount \
->       source=client--dev-champagne-didier-lapie-com--wordpress--files,target=/home \
->    --rm \
->    --workdir /home \
->    alpine \
->    /bin/ash
-
->> chmod 777 wp-config.php
-# Admin Wp > W3 Total Cache
->> chmod 440 wp-config.php
-```
