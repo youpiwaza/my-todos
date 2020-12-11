@@ -40,6 +40,54 @@ drwxr-xr-x    1 root     root          4096 Nov 11 15:11 ..
 drwxr-xr-x   14 1001     root          4096 Nov  3 15:42 wp-content
 ```
 
+Note concernant la relance d'apache ou chp
+
+Accès direct au conteneur : sudo docker exec -it client--champagne-didier-lapie-com_wordpress.1.l03d43nwjhjgs5l93ebazmob5 bash
+
+> ls -l
+total 108
+-rw-r--r--   1 root   root    1251 Nov  5 18:10 apache-init.sh
+-rw-rw-r--   1 root   root     187 Nov  5 18:10 apache-inputs.json
+-rwxr-xr-x   1 root   root     337 Nov  5 18:10 app-entrypoint.sh
+
+il y a une paire de scripts .sh à la racine, voir si **la relance de php est pas dedans :)**
+
+Dossier racine du wordpress : (kek.php, .htaccess, etc.)
+
+/opt/bitnami/wordpress
+
+I have no name!@6f0bb1c8ecb1:/opt/bitnami/wordpress$ ls -la
+total 240
+drwxrwxr-x  1 root root  4096 Nov 12 10:21 .
+drwxrwxr-x  1 root root  4096 Nov  5 18:12 ..
+-rw-rw-r--  1 root root     0 Nov  5 17:12 .buildcomplete
+-rw-r--r--  1 1001 root   499 Nov 11 07:48 .htaccess
+-rw-rw-r--  1 root root   525 Nov  5 17:25 disablePingback.php
+drwxrwxr-x  3 root root  4096 Nov  5 18:12 extra-varnish
+-rw-rw-r--  1 root root   405 Nov  5 17:12 index.php
+-rw-r--r--  1 1001 root    69 Nov  9 17:57 kek.php
+-rw-rw-r--  1 root root 19915 Nov  5 17:12 license.txt
+drwxrwxr-x  2 root root  4096 Nov  5 18:12 licenses
+-rw-rw-r--  1 root root     0 Nov  9 17:57 readme.html
+drwxr-xr-x  2 1001 root  4096 Nov 13 08:24 tmp
+-rw-rw-r--  1 root root   711 Nov  5 17:12 wordpress-htaccess.conf
+-rw-rw-r--  1 root root  7101 Nov  5 17:12 wp-activate.php
+drwxrwxr-x  9 root root  4096 Nov  5 18:12 wp-admin
+-rw-rw-r--  1 root root   351 Nov  5 17:12 wp-blog-header.php
+-rw-rw-r--  1 root root  2332 Nov  5 17:12 wp-comments-post.php
+-rw-rw-r--  1 root root  2913 Nov  5 17:12 wp-config-sample.php
+lrwxrwxrwx  1 1001 root    32 Nov  9 17:57 wp-config.php -> /bitnami/wordpress/wp-config.php
+lrwxrwxrwx  1 1001 root    29 Nov  9 17:57 wp-content -> /bitnami/wordpress/wp-content
+-rw-rw-r--  1 root root  3940 Nov  5 17:12 wp-cron.php
+drwxrwxr-x 24 root root 12288 Nov  5 18:12 wp-includes
+-rw-rw-r--  1 root root  2496 Nov  5 17:12 wp-links-opml.php
+-rw-rw-r--  1 root root  3300 Nov  5 17:12 wp-load.php
+-rw-rw-r--  1 root root 48761 Nov  5 17:12 wp-login.php
+-rw-rw-r--  1 root root  8509 Nov  5 17:12 wp-mail.php
+-rw-rw-r--  1 root root 20181 Nov  5 17:12 wp-settings.php
+-rw-rw-r--  1 root root 31159 Nov  5 17:12 wp-signup.php
+-rw-rw-r--  1 root root  4755 Nov  5 17:12 wp-trackback.php
+-rw-rw-r--  1 root root  3236 Nov  5 17:12 xmlrpc.php
 ## Shame
 
 1. Choix du serveur web par défaut

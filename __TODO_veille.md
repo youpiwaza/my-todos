@@ -62,6 +62,8 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 
 #### Technos a check
 
+- go
+- kotlin !!!
 - [Orga, outil all in 1](https://www.notion.so/)
 - DevOps > SonarQube > Qualité du code (vulnérabilités, couverture des tests, duplication, etc.) (après TU)
   - CodeClimate
@@ -78,7 +80,6 @@ Essayer de faire un crash test par semaine, genre le vendredi.
   - sanity cms // react
   - strapi // NodeJs
   - flutter
-- kotlin !!!
 - Kuzzle
 - clipboard.js
 - [https://matthew.wagerfield.com/parallax/](https://matthew.wagerfield.com/parallax/)
