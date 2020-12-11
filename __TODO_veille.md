@@ -7,6 +7,12 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 ## ⚡️ Prio / Rapide
 
 - Récupérer les [outils d'analyse de liens](https://www.webdesignerdepot.com/2020/11/9-ways-to-boost-your-domain-authority/) + liste + fin de site
+- Extraire infos [github dev resources for frontend developper](https://github.com/mojpm/frontend-development)
+- Bonnes pratiques JS [vidéo 12mn](https://www.youtube.com/watch?v=Mus_vwhTCq0)
+- [JS++ OpenJs > S'inscrire](https://openjsf.org/)
+- [CSS++ / State of CSS](https://2020.stateofcss.com/en-US/)
+- [Google Make a better web](https://web.dev/)
+- [Spline 3D for the web](https://spline.design/)
 
 ## Liste de liens
 
@@ -27,6 +33,8 @@ Essayer de faire un crash test par semaine, genre le vendredi.
   - [Dockerhub](https://hub.docker.com/r/litespeedtech/openlitespeed)
   - [Dockerhub open ?](https://hub.docker.com/r/litespeedtech/litespeed)
 
+- PHP 8, compatibilité avec WordPress ? [lien](https://www.php.net/releases/8.0/fr.php?lang=fr)
+
 ### Environnement de dev
 
 - [Bundler / parcel](https://parceljs.org/)
@@ -35,6 +43,7 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 - [Learning To Be A Mouse-Less Web Developer In VS Code](https://dev.to/ansonlowzf/learning-to-be-a-mouse-less-web-developer-7em)
 - [Become a VS Code Ninja with these Extensions and Tools 2020](https://dev.to/vikrantnegi/become-a-vs-code-ninja-with-these-extensions-and-tools-2020-1119)
 - [iamdeveloper.com Logiciels & plugins](https://www.iamdeveloper.com/uses/)
+- [deno / A secure runtime for JavaScript and TypeScript](https://deno.land/)
 
 ### Frameworks
 
@@ -46,15 +55,28 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 
 - [matmoto alternative a GA](https://matomo.org/home/)
 
+### Compatibilité
+
+- [Modernizr](https://modernizr.com/) / Modernizr tells you what HTML, CSS and JavaScript features the user’s browser has to offer.
+
 ### WordPress
 
 #### WooCommerce
 
 - [Plugin payplug](https://fr.wordpress.org/plugins/woocommerce-payplug/)
 
-### Crash tests
+### Crash tests/courses
 
-.
+- [quarkly](https://quarkly.io/)
+- [Sanity.io Crash Course | Headless CMS](https://www.youtube.com/watch?v=32RP-sG1njE)
+
+### Tutos rapides
+
+- [Vidéo editing / WASM + React / 8mn](https://www.youtube.com/watch?v=-OTc0Ki7Sv0)
+
+### Docker stuff
+
+- [Docker Talks: Ben Potter - Develop Your Code in the Cloud](https://www.youtube.com/watch?v=cSy_Vyoqvj4)
 
 --- 
 
@@ -62,6 +84,7 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 
 #### Technos a check
 
+- [ressources houdini ?](https://houdini.how/) fonds css/svg/js très peu lourd, etc.
 - go
 - kotlin !!!
 - [Orga, outil all in 1](https://www.notion.so/)
