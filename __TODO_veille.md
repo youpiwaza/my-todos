@@ -6,16 +6,82 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 
 ## ⚡️ Prio / Rapide
 
+- [cheque vacances petites boites](https://www.ancv.com/pour-les-employeurs-de-moins-de-50-salaries-sans-comite-dentreprise)
+- [Changement indexation 2021](https://www.webrankinfo.com/dossiers/indexation/changement-crawl-google)
+- [Chrome find unused code 🔎](https://dev.to/dailydevtips1/chrome-find-unused-code-3g9c)
 - Récupérer les [outils d'analyse de liens](https://www.webdesignerdepot.com/2020/11/9-ways-to-boost-your-domain-authority/) + liste + fin de site
+- [css content visibility](https://web.dev/content-visibility/)
 - Extraire infos [github dev resources for frontend developper](https://github.com/mojpm/frontend-development)
 - Bonnes pratiques JS [vidéo 12mn](https://www.youtube.com/watch?v=Mus_vwhTCq0)
 - [JS++ OpenJs > S'inscrire](https://openjsf.org/)
 - [CSS++ / State of CSS](https://2020.stateofcss.com/en-US/)
 - [Google Make a better web](https://web.dev/)
 - [Spline 3D for the web](https://spline.design/)
-
-## Liste de liens
-
+- [Extraire/tester ressources](https://dev.to/rahxuls/free-ultimate-resources-for-front-end-development-in-2021-giveaway-3838)
+- [Git Tools - Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+- CL
+  - [How to Use Command Line Find](https://dev.to/iggredible/how-to-use-command-line-find-1p1e)
+  - [My command line cheatsheet](https://dev.to/anfibiacreativa/my-command-line-cheatsheet-17m2)
+- [FNAE guide AE](https://www.federation-auto-entrepreneur.fr/)
+- [hugo framework](https://gohugo.io/)
+- [Chrome Extensions Every Developer Should Have](https://dev.to/efereyank/chrome-extensions-every-developer-should-have-doh)
+- [Harijs Deksnis - Advanced TypeScript - JSworld 2021](https://www.youtube.com/watch?v=GDs76It5iGM)
+- [Tim Benniks - Introduction to Vite & Vitepress at Vuejs Global (Amsterdam)](https://www.youtube.com/watch?v=xz1ZGkeUqKM)
+- [Tutoriel Laravel/ViteJS : Utiliser ViteJS dans Laravel](https://www.youtube.com/watch?v=jyXCbtg743Y)
+- [Code a Discord Bot with JavaScript - Host for Free in the Cloud](https://www.youtube.com/watch?v=7rU_KyudGBY)
+- [Postman Beginner's Course - API Testing](https://www.youtube.com/watch?v=VywxIQ2ZXw4)
+- [jamstack.org](https://jamstack.org/)
+- [Why should type be fluid, anyway?](https://uxdesign.cc/why-should-type-be-fluid-anyway-f7f32f0d37a3)
+- [8 Common Website Layouts Built with CSS Grid](https://speckyboy.com/common-website-layouts-css-grid/)
+- [Docker Build: Working with Docker and VSCode](https://www.youtube.com/watch?v=wUUmRbXiIOo)
+- [JavaScript Pro Tips - Code This, NOT That](https://www.youtube.com/watch?v=Mus_vwhTCq0)
+- [My 5 Favorite Linux Shell Tricks for SPEEEEEED (and efficiency)](https://www.youtube.com/watch?v=V8EUdia_kOE)
+- [The Async Await Episode I Promised](https://www.youtube.com/watch?v=vn3tm0quoqE)
+- [Easy Hand-Drawn SVG Animation](https://www.youtube.com/watch?v=LuWdeuPMHps)
+- [Build a Music Player | Vanilla JavaScript](https://www.youtube.com/watch?v=QTHRWGn_sJw)
+- [5 nouveautés CSS qui vont tout changer à la mise en forme](https://blog.internet-formation.fr/2019/06/5-nouveautes-css-qui-vont-tout-changer-a-la-mise-en-forme/)
+- [skruv](https://skruv.io/) No-dependency, no-build, small JS framework.
+- [Insomnia Build APIs that work.](https://insomnia.rest/)
+- [WDD / GET READY FOR NEXT MONTH’S GOOGLE SHAKEUP](https://www.webdesignerdepot.com/2021/04/get-ready-for-next-months-google-shakeup/)
+- [WDD / GETTING STARTED WITH INCLUSIVE WEB DESIGN](https://www.webdesignerdepot.com/2021/03/getting-started-with-inclusive-web-design/)
+- [ghost](https://ghost.org/features/)
+- [Extraire ressources](https://dev.to/hulyakarakaya/ultimate-free-javascript-resources-2802)
+- [The Current State of Mobile UX (18 Common Pitfalls)](https://baymard.com/blog/2021-current-state-mobile-ecommerce)
+- [Responsive Web Design: 50 Examples and Best Practices](https://designmodo.com/responsive-design-examples/)
+- [Accessibility++](https://www.getstark.co/library/)
+- [10 GitHub Repositories every Developer should know](https://dev.to/pb/10-github-repositories-every-developer-should-know-ngm)
+- [What's your favorite Static Site Generator?](https://dev.to/madza/what-s-your-favorite-static-site-generator-5h74)
+- [400+ JavaScript Interview Questions 🎓 With Answers 🌠](https://dev.to/worldindev/400-javascript-interview-questions-with-answers-2fcj)
+- [My favorite CSS hack](https://dev.to/gajus/my-favorite-css-hack-32g3)
+- [My New Friends filter() and map()](https://dev.to/savagepixie/my-new-friends-filter-and-map-74a)
+- [learnyounode](https://github.com/workshopper/learnyounode)
+- [Roadmap for Frontend Developer](https://dev.to/nitishk72/roadmap-for-frontend-developer-4m1l)
+- [How to create your command-line program (CLI) with NodeJS and Commander.js](https://dev.to/ngduc/how-to-create-a-command-line-npm-module-cli-using-commander-js-ke4)
+- [Complete Production Grade Restaurant Billing App built in React NextJS GraphQL](https://dev.to/nabendu82/complete-production-grade-restaurant-billing-app-built-in-react-nextjs-graphql-p10)
+- [How to Get Freelance Web Development Prospects to Hurry Up!](https://dev.to/raddevon/how-to-get-freelance-web-development-prospects-to-hurry-up-2cn8)
+- [Optimizing images for the web - an in-depth guide](https://dev.to/prototyp/optimizing-images-for-the-web-an-in-depth-guide-4j7d)
+- [A11y-Friendly Documentation at Write the Docs Prague](https://dev.to/carolstran/a11y-friendly-documentation-at-write-the-docs-prague-174f)
+- [JavaScript Data Structures: Recap: Lists, Stack, Queue](https://dev.to/miku86/javascript-data-structures-recap-lists-stack-queue-2can)
+- [Intro To Web Crawlers & Scraping With Scrapy](https://www.youtube.com/watch?v=ALizgnSFTwQ)
+- [PWA service workers](https://serviceworke.rs/)
+- [Progressive Web Apps:Going Offline](https://developers.google.com/codelabs/pwa-training/pwa03--going-offline#0)
+- [promise-cookbook](https://github.com/mattdesl/promise-cookbook)
+- [JS loop](http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!)
+- [CSS3 in 10 days — Day 1](https://dev.to/nabendu82/css3-in-10-days-day-1-23da)
+- [CLI Tools for All the Things - Ruy Adorno @ Node+JS Interactive](https://www.youtube.com/watch?v=WaH4ccEBe3g)
+- [WDD / 6 BEST BROWSERS FOR DEVELOPERS IN 2020](https://www.webdesignerdepot.com/2020/02/6-best-browsers-for-developers-in-2020/)
+- [7 Amazing Developer Tools that you're not using yet](https://www.youtube.com/watch?v=U_gANjtv28g)
+- [Motion-controlled Fruit Ninja game using Three.js & Tensorflow.js](https://dev.to/devdevcharlie/motion-controlled-fruit-ninja-game-using-three-js-tensorflow-js-18de)
+- [Atomic CSS-in-JS](https://sebastienlorber.com/atomic-css-in-js)
+- [$0 Marketing Budget? Here Are 10 Creative Ways To Land Clients](https://www.markettap.com/how-to-find-clients/?ref=webdesignernews.com)
+- [7 best practices for highly relevant email automation](https://www.gosquared.com/blog/email-automation-best-practices)
+- [google / What’s new in speed tooling](https://www.youtube.com/watch?v=yDHfrhCGFQw)
+- [google / Optimize for Core Web Vitals](https://www.youtube.com/watch?v=AQqFZ5t8uNc)
+- [google / Building better in the world of build tools!](https://www.youtube.com/watch?v=vsMJiNtQWvw)
+- [Next Level GitHub Profile README (NEW) | How To Create An Amazing Profile ReadMe With GitHub Actions](https://www.youtube.com/watch?v=ECuqb5Tv9qI)
+- [CSS Grid Cheat Sheet Illustrated in 2021🎖️](https://dev.to/joyshaheb/css-grid-cheat-sheet-illustrated-in-2021-1a3)
+- [10 useful VS Code shortcuts you should know ()](https://dev.to/simonpaix/10-useful-vs-code-shortcuts-you-should-know-42m) + commentaires ! + compléter article
+- 
 ### Vidéos
 
 - [VSCode](https://www.youtube.com/watch?v=UTQp6mvhb0Y)
@@ -35,6 +101,8 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 
 - PHP 8, compatibilité avec WordPress ? [lien](https://www.php.net/releases/8.0/fr.php?lang=fr)
 
+- [Hexometer](https://joetechreviews.com/hexometer-2-0-monitor-website-issues-and-performance-actively/)
+
 ### Environnement de dev
 
 - [Bundler / parcel](https://parceljs.org/)
@@ -53,13 +121,18 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 
 ### SEO
 
+- [Alternatives GA](https://www.webdesignerdepot.com/2021/02/10-best-alternatives-to-google-analytics-in-2021/)
 - [matmoto alternative a GA](https://matomo.org/home/)
+- [Résolution de problèmes Web Vitals courants](https://www.youtube.com/watch?v=IB3e8SAdBaE)
+- [Core Web Vitals et optimisation pour les moteurs de recherche (SEO)](https://www.youtube.com/watch?v=ggpZA5U2rZk)
 
 ### Compatibilité
 
 - [Modernizr](https://modernizr.com/) / Modernizr tells you what HTML, CSS and JavaScript features the user’s browser has to offer.
 
 ### WordPress
+
+- [TOP NEW CMS PLUGINS, DECEMBER 2020](https://www.webdesignerdepot.com/2020/12/top-new-cms-plugins-december-2020/)
 
 #### WooCommerce
 
@@ -78,7 +151,7 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 
 - [Docker Talks: Ben Potter - Develop Your Code in the Cloud](https://www.youtube.com/watch?v=cSy_Vyoqvj4)
 
---- 
+---
 
 ### A ranger
 

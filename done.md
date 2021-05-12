@@ -2,19 +2,22 @@
 
 Les tâches terminées de la semaine précédente :)
 
-## ~07/12/2020
+## 10/05/21
 
-- ✅ Passer les post-its qui trainent en TODO
-- ✅ Demander fond de solidarité pour octobre 2020, formulaire en ligne le 20 novembre 2020
-- ✅ Demander fond de solidarité pour novembre 2020, formulaire en ligne le ~4 décembre 2020
-- Vérifier impôts sur espace
-  - Perso                                                            / ✅ 11 décembre 2020
-  - Pro                                                              / ✅ 11 décembre 2020
-- Nettoyer le fichier __TODO                                         / ✅
-
-## ~01/12/2020
-
-- ✅ Réparer deuxième DD de 1 ou 2 To parceque en vrai cay chiant.
-- ✅ CMNE > Signer en envoyer poste recommandé accusé receptin
-- ✅ Tel > Musique 2 sur DD taf
-- ✅ Décalaration Auto entrepreneur / Novembre pour Octobre 2020
+- ✅ Changer tous les mots de passe > aleatoire > dashlane
+- ✅ Cleaner edt portable dans fichier de merde
+- ✅ Fixer agenda ek pougnoutte
+- ✅ Théorie Terasse guy
+- ✅ Faire les comptes
+- ✅ Courses alakon
+- ✅ Pharmacie alakon
+- ✅ Répartir fichier edt de merde dans TODO.md
+- ✅ Vider Trello pour TODO.md
+- ✅ Lapie TVA 20% arrondi x1000 ?
+- ✅ Commande green stuff world
+- ✅ Mots de passes a changer cf. fichier chrome
+- ✅ Vider mails pour TODO.md
+  - ✅ Mails lapie dans drive > statut lapie
+- ✅ Vider onglets pour TODO/Liste de liens
+- ✅ Vider favoris pour TODO/Liste de liens
+- ✅ Contacter Nico cours
