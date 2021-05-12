@@ -4,6 +4,7 @@ Les tâches terminées de la semaine précédente :)
 
 ## 10/05/21
 
+- ✅ Tâches récurrentes
 - ✅ Changer tous les mots de passe > aleatoire > dashlane
 - ✅ Cleaner edt portable dans fichier de merde
 - ✅ Fixer agenda ek pougnoutte
@@ -21,3 +22,4 @@ Les tâches terminées de la semaine précédente :)
 - ✅ Vider onglets pour TODO/Liste de liens
 - ✅ Vider favoris pour TODO/Liste de liens
 - ✅ Contacter Nico cours
+- ✅ Déclaration revenus [2021](https://www.impots.gouv.fr/portail/)
