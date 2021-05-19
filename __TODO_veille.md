@@ -7,6 +7,7 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 ## ⚡️ Prio / Rapide
 
 - Cimentier node et express via [tuto](https://www.youtube.com/watch?v=Oe421EPjeBE)
+- [Async JS Crash Course - Callbacks, Promises, Async Await](https://www.youtube.com/watch?v=PoRJizFvM7s)
 - [Certificats 2021](https://dev.to/panx/50-free-awesome-certificates-to-earn-in-2021-2l7g)
 - [cheque vacances petites boites](https://www.ancv.com/pour-les-employeurs-de-moins-de-50-salaries-sans-comite-dentreprise)
 - [Changement indexation 2021](https://www.webrankinfo.com/dossiers/indexation/changement-crawl-google)
@@ -83,7 +84,8 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 - [Next Level GitHub Profile README (NEW) | How To Create An Amazing Profile ReadMe With GitHub Actions](https://www.youtube.com/watch?v=ECuqb5Tv9qI)
 - [CSS Grid Cheat Sheet Illustrated in 2021🎖️](https://dev.to/joyshaheb/css-grid-cheat-sheet-illustrated-in-2021-1a3)
 - [10 useful VS Code shortcuts you should know ()](https://dev.to/simonpaix/10-useful-vs-code-shortcuts-you-should-know-42m) + commentaires ! + compléter article
-- 
+- [Add a loader to your website](https://dev.to/clementgaudiniere/add-a-loader-to-your-website-eag)
+
 ### Vidéos
 
 - [VSCode](https://www.youtube.com/watch?v=UTQp6mvhb0Y)

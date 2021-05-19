@@ -1,5 +1,22 @@
 # Blog, idées d'articles
 
+1. Diviser TODO_blog > Garder TODO avec titres priorisés, mais créer un dossier avec un .md par article avec le contenu
+2. Articles
+   1. Bébé développer
+   2. Développeur en fin de formation
+   3. Développeur sur le long terme / dev++
+      1. Culture & curiosité
+         1. Hobby
+            1. Stages
+         2. Lectures
+         3. Films
+         4. Rencontres & discussions
+   4. Optimisation de la vie
+      1. Bilan compléments alimentaires tous les 3 mois
+   5. Process rituels vie courante
+
+## Vrac
+
 - Tuto arrondi TVA plus précis : [ici, très rapide](https://drive.google.com/drive/folders/1P_GQyKq5wK1u3-x8XttpHlUiYHJFIUai)
 - [check nl revue ?](https://www.getrevue.co/)
 - Retour 1 an devops > article blog
@@ -101,6 +118,10 @@ Alright les amis ! problème résolu ! Le git de mon ordi était connecté à un
 Vous cherchez Git dans la barre de recherche et vous supprimez les lignes correspondantes
 
 // Vérifier DES LE PREMIER JOUR que les technos nécessaires sont bien installées (php, phpmyadmin, mongodb, redis, etc.)
+
+- Akismet anti pub
+- Bloctel anti démarchage téléphonique
+- Sticker stop pub
 ```
 
 - Corriger/Prévenir problemes devs au fil des années
@@ -108,6 +129,7 @@ Vous cherchez Git dans la barre de recherche et vous supprimez les lignes corres
   - [Lunettes anti-lumières bleue](https://horus-x.com/products/package-nomade-gaming-horus-x) Horus x (attendre soldes)
   - Blessure mineur a la main > cycatril / crème hydratante / aloe / liquide vaiselle aleo vera mir
   - échaufement des doigts > rohan kishibe s1e3
+  - [5 aliments bons pour renforcer votre système immunitaire](https://www.cuisineaz.com/articles/5-aliments-bons-pour-renforcer-votre-systeme-immunitaire-1712.aspx)
   - bouffe
     - Mémoire
       - Pêche abricots
@@ -116,6 +138,26 @@ Vous cherchez Git dans la barre de recherche et vous supprimez les lignes corres
     - Thé de corée du sud / He Show Hu (fo ti) ( longevité) / harpagophytum + Prele ( reconstruction cartilage/anti arthrose)/ Spiruline,  , Curcuma  et  Coeur d'annanas (anti inflamatoire) / Huile de Nigel et huile de  foie de morrue (Omega 3)
     - Maigrir+bonne forme : Artichaut, fenouil, brocolis, betterave, choux rouge, kiwi
       - GRAINES DANS SALADE ! (cf. grand frais) + baies goji, cranberries, etc.
+    - Problèmes foie
+      - [Baies de goji](https://www.amazon.fr/Marque-Amazon-Happy-Belly-d%C3%A9shydrat%C3%A9es/dp/B082VSHLQ1/) (grand frais 19€90/kilo)
+      - (Han-hepa)
+        - [Site officiel](https://www.hanbiotech.com/confort-hepatique/8-han-hepa.html) 48€ pour 180 comprimés, 42.50€ (la boite) si 2 boites
+        - [Bio discount](https://monbiodiscount.fr/1474-han-hepa-180-comprimes-regeneration-des-fonctions-du-foie.html#/conditionnement-1_boite) 36.80€ la boite
+        - Composition
+          - fruits de kaki
+          - baies de lyciet (baies de goji)
+          - fruits de citron
+          - feuilles de thé vert
+          - d’écorces de citron
+          - graines de sarrasin
+          - L-bitartrate de choline ? cf. ci dessous
+          - Acide L-ascorbique (Vitamine C)
+    - L-bitartrate de choline ? cf. ci dessous
+      - [Truc de ouf apparement](https://www.google.com/search?q=L-bitartrate+de+choline&oq=L-bitartrate+de+choline)
+        - récupération musculaire, nerveuse
+        - contrôle de la mémoire et de l'humeur
+        - Ralentit Alzheimer ?
+        - Go Inositol (Vitamine B7)
     - navet
     - Huile de coco
     - Quinoa, pois chiches
@@ -141,9 +183,13 @@ Vous cherchez Git dans la barre de recherche et vous supprimez les lignes corres
     - Unmeboshi > foies engorgés
     - Makuri > vers intestinaux
     - Takuan
+  - Éviter eau du robinet (ou filtrer > Brita)
+    - Contrex (mineraux)
 - Dev++
   - Sonde colorimétrique
   - Lunettes anti lumière bleue
+  - Dual screen
+  - Dual boot / ubuntu & windows
 - Noter postures détente julien & divers
 - Restau
   - de ouf thailandais pas loin de la passerelle

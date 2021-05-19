@@ -220,3 +220,7 @@ CLEANER: Liste vidéos docker con D captains tips and tricks 16 - 20
 - [17](https://youtu.be/1vgi51f0tCk?t=227)
 - ~~[18 europe](https://www.youtube.com/watch?v=fdB31LScQzY)~~ doublon
 - [19](https://youtu.be/woBI466WMR8?t=657)
+
+## Shame
+
+- Mails SPF DKIM DMARC
