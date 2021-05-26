@@ -3,6 +3,7 @@
 - slurp cours [3wa](https://e.3wa.fr/user/profile.php?id=2257)
 - CV > xp pro > coquille > dates ergelis
 - CV > Ajouter NodeJs, Express & MongoDB
+- Zones DNS > Attribuer IPV6 (AAAA ?) cf. dns picard vers dev.champ
 - Vérifications de fin de site / Redéfinir Projet github (extraire de chaos front)
   - En faire un dédié pour Wordpress (fin & plugins recos)
 - Suisse ouverte aux [indépendants](https://www.indep-it.ch/fr/)

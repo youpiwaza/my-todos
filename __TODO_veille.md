@@ -25,6 +25,7 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 - CL
   - [How to Use Command Line Find](https://dev.to/iggredible/how-to-use-command-line-find-1p1e)
   - [My command line cheatsheet](https://dev.to/anfibiacreativa/my-command-line-cheatsheet-17m2)
+- [Parallax](https://www.webdesignerdepot.com/2021/05/6-ways-parallax-still-works-in-2021/)
 - [FNAE guide AE](https://www.federation-auto-entrepreneur.fr/)
 - [hugo framework](https://gohugo.io/)
 - [Chrome Extensions Every Developer Should Have](https://dev.to/efereyank/chrome-extensions-every-developer-should-have-doh)

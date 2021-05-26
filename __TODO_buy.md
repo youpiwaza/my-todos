@@ -7,6 +7,7 @@
 - Bar la maison du saké
 - [Épices](https://www.epices-roellinger.com/fr/taxons/melanges-epices)
 - gros méga bouquin sur la cuisine / poele coupées en deux et tt
+- [Huile de sésame](https://www.rizetco.com/taebaek-agricultural)
 - Meilleure sauce soja du monde [site ref](https://kinbue.jp/en_product) [ecommerce ?](https://www.nishikidori.com/en/25-soy-sauce) << retrouver les différentes sauces
   - [video](https://www.youtube.com/watch?v=P6bk_AGu5mw&feature=emb_logo)
   - [+ smoke](https://www.nishikidori.com/en/soy-sauce/383-smoked-soy-sauce-3701184001902.html)
@@ -54,6 +55,7 @@
 - [casing pinceaux](https://www.jacksonsart.com/fr-fr/idees-cadeaux/idees-cadeaux-pinceaux)
 - green stuff world
   - uv resin et lampe
+- Kickstarter darkest dungeon
 - [LED GSW / Mini lighting Set With switch and CR927 Battery](https://www.greenstuffworld.com/en/led-lights/1568-mini-lighting-set-with-switch-and-cr927-battery.html)
 - Night lords
 - p3

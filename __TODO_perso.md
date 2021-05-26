@@ -42,6 +42,7 @@ Sert à trier les trucs soit à faire rapidement soit à abandonner.
 - Devil May Cry
 - Blame
 - DDD
+- demonslayer
 - détroit metal city
 - docteur stone
 - dogs

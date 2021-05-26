@@ -2,6 +2,17 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 24/05/21
+
+1. Picard avec https
+   1. ✅ DNS corrects pour dev
+   2. ✅ Url wp corrects pour dev
+   3. ✅ Checkup complet
+2. ✅ Dématérialiser carte SNCF
+3. ✅ Commander / Livraison
+    1. 20/05
+       1. Han Hepa
+
 ## 17/05/21
 
 1. ✅ Labo Prise de sang
@@ -30,25 +41,20 @@ Les tâches terminées des semaines précédentes :)
    - [alan](https://alan.com/tns) 
    - [malt + axa](https://messolutionsplus.fr/msp/S/S/S/web-insure-quote/new-quote/productId/MALT_PREV?_ga=2.257990786.968299628.1601458302-2117978627.1601458301)
    - mercer cf. mails
-
-## 10/05/21
-
-- ✅ Tâches récurrentes
-- ✅ Changer tous les mots de passe > aleatoire > dashlane
-- ✅ Cleaner edt portable dans fichier de merde
-- ✅ Fixer agenda ek pougnoutte
-- ✅ Théorie Terasse guy
-- ✅ Faire les comptes
-- ✅ Courses alakon
-- ✅ Pharmacie alakon
-- ✅ Répartir fichier edt de merde dans TODO.md
-- ✅ Vider Trello pour TODO.md
-- ✅ Lapie TVA 20% arrondi x1000 ?
-- ✅ Commande green stuff world
-- ✅ Mots de passes a changer cf. fichier chrome
-- ✅ Vider mails pour TODO.md
-  - ✅ Mails lapie dans drive > statut lapie
-- ✅ Vider onglets pour TODO/Liste de liens
-- ✅ Vider favoris pour TODO/Liste de liens
-- ✅ Contacter Nico cours
-- ✅ Déclaration revenus [2021](https://www.impots.gouv.fr/portail/)
+7. ✅ ovh manager > Modifier adresse client
+8. Picard avec https
+   1. Backup site existant
+      1. ✅ All in one WP Migration
+   2. 💩 Problèmes de stabilité sur nouveau serveur > Commande hébergement kimsufi le temps de les régler
+   3. ✅ Attente mise en place de la commande
+   4. 💩📌 Mise en place du DNS dev. vers le nouveau serveur
+      1. Ok pour krépautak mais ko pour dev.champ -.-
+   5. ✅ Https
+   6. ✅ Import & maj de l'ancien site
+      1. [admin temp](http://krpauax.cluster029.hosting.ovh.net/wp-admin/)
+      2. ✅ BDD
+      3. ✅ Themes
+      4. ✅ Plugins
+      5. ✅ Mises a jour
+      6. ✅ Médias
+      7. ✅ Backups
