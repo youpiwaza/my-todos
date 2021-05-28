@@ -51,6 +51,10 @@ Les tâches terminées des semaines précédentes :)
    3. ✅ Devis Nico 14 au 18/06/21 (5 jours)
    4. ✅ Git > virer/sauv ce qui n'est pas versionné
    5. ✅ Cleaner/prioriser tâches serveur + OLD
+   6. Local
+      1. ✅ docs _secret > need versionné quand même sur github en repo privé
+         1. ✅ Virer les tests/non clients
+         2. ✅ Github privé en respectant arbo
 2. Perso
    1. ✅ Dématérialiser carte SNCF
    2. ✅ Commander / Livraison

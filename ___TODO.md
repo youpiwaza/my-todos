@@ -23,44 +23,56 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Trucs en **Local**
 
-1. docs _secret > need versionné quand même sur github en repo privé
-2. Mettre à jour la dashed notation partout (folders, files, containers, volumes, networks)
-3. /tmp/ un dossier par client et par site
+1. ✅ Mettre à jour la dashed notation partout (folders, files, containers, volumes, networks)
+   1. ✅ Update ~wp-generate & wp-setup
+   2. ✅ 20-setup-a-wordpress.yml
+2. ✅ /tmp/ un dossier par client et par site
+   1. ex: `'/home/{{ users.3.name }}/{{ project.type }}s/{{ project.client_name }}/{{ project.dashed_domain }}/wordpress-stack--generated.yml'`
+   2. cf. ansible-install-web-server/ansible/roles/wordpress-generate/vars/template.yml
+   3. ansible-install-web-server\ansible\roles\wordpress-generate\tasks\generate-ids-readme.yml
+   4. ansible-install-web-server\ansible\roles\wordpress-generate\tasks\generate-wordpress-stack-file.yml
+   5. & template files *.j2
+3. ✅📌 Tester les rôles sur un [wp masa](https://test-wordpress.masamune.fr/)
 
 Trucs sur le **Serveur**
 
-1. Mettre à jour la dashed notation partout (folders, containers, volumes, networks)
-2. Corriger 98-maintenance > faire vraiment les upgrades
+1. ✅ Mettre à jour la dashed notation partout (folders, containers, volumes, networks)
+2. BUG: Bitnami > Génération du wordpress : certaines variables font planter le lancement de mariaDB, voir pour trouver le mauvais caractère & l'exclure lors de la génération, cf. ansible-install-web-server/ansible/tmp/BUG VARIABLES client--picard--dev-champagne-pascal-picard-com--wordpress-stack--generated copy.yml > mariadb > environnement
+3. Corriger 98-maintenance > faire vraiment les upgrades
    1. ansible-install-web-server/ansible/roles/system-update/tasks/update-packages.yml, l. 8
-3. Rôles création d'un site
+4. Rôles création d'un site
    1. Mise en place & mise à jour
       1. most recent + daté (facilite mise en place, mise a jour & historique)
+      2. Création d'un rôle pour relancer/maj tous les rôles clients
    2. Arrêt de la stack
    3. Prévoir dev & prod > 1 seul script mais url change, même users & pass
    4. Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.), & suppression si fin de contrat
-4. Monitoring
+5. Monitoring
    1. Mettre en place
    2. Alerte si CPU/RAM > 75%
    3. Checker ce qui prend de la place sur le disque ~80Go ? 13% de 450 > `docker system df -v` ; cf. backup des volumes
-5. Bitnami
+6. Bitnami
    1. [Github issues](https://github.com/bitnami/bitnami-docker-mysql/issues/79#issuecomment-545477842) > Variable d'env afin d'augmenter le debug des conteneurs bitnami ! >> raisons explicites sur le problème de boot du conteneur
-   2. Cleaner ansible-install-web-server/ansible/roles/wordpress-generate/templates > original stack ?
-   3. BUG: Génération du wordpress : certaines variables font planter le lancement de mariaDB, voir pour trouver le mauvais caractère & l'exclure lors de la génération, cf. ansible-install-web-server\ansible\tmp\BUG VARIABLES client--picard--dev-champagne-pascal-picard-com--wordpress-stack--generated copy.yml > mariadb > environnement
-   4. Lourder si serveurs web classique stabilité 100%, +1 speed
-   5. Activer modules php
-   6. Http 2/3
-6. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
+   2. ✅ Cleaner ansible-install-web-server/ansible/roles/wordpress-generate/templates > original stack ?
+   3. MARIADB_ROOT_PASSWORD_FILE: 'secret.txt'
+   4. Gestion notes dans ansible-install-web-server/ansible/203-setup-wordpress-lapie_secret.yml
+   5. Lourder si serveurs web classique stabilité 100%, +1 speed
+   6. Activer modules php
+   7. Http 2/3
+7. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
    1. Apache
    2. Nginx
    3. Caddy
    4. Lightspeed
-7. Cleaner / Relancer clients actuels
+8. Cleaner / Relancer clients actuels
    1. Lapie
       1. Cleaner au niveau du serveur dashed-uri > .com ou .fr
    2. Nonore
       1. (wp généré et lancement depuis ansible), Pour le moment c'est un yml lancé a l'arrache sur le serveur
    3. Backups volumes
-8. 🌱 Automatisation des backups (volumes)
+      1. Maj ansible-install-web-server/commandes-backup-volumes-a-la-maing_secret.md (dashed notation)
+      2. Backup
+9. 🌱 Automatisation des backups (volumes)
    1. [Doc volumes](server-related-tutorials/01-docker/03-develop-with-docker/02-volumes/README.md) + notes dans .md à côté
    2. Ansible
       1. Création de l'arborescence, attention au répertoire année courante
@@ -68,6 +80,7 @@ Trucs sur le **Serveur**
       3. Génération d'un rôle lors de la création d'un site
    3. Ajout au CRON
    4. Envoi vers serveur de backup + rotation/sauvegarde incrémentielle
+10. ansible-install-web-server/README.md's 🌱
 
 ### Sinon, priorisation classique
 
