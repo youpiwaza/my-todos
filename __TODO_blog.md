@@ -185,6 +185,7 @@ Vous cherchez Git dans la barre de recherche et vous supprimez les lignes corres
     - Takuan
   - Éviter eau du robinet (ou filtrer > Brita)
     - Contrex (mineraux)
+  - Piments > digestion & anti stress (food wars s3e2)
 - Dev++
   - Sonde colorimétrique
   - Lunettes anti lumière bleue

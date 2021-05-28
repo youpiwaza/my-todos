@@ -21,8 +21,7 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 - Si besoin de focus, mettre une ou 2 tâches ici.
 
-1. Tâches serveur > Passe de 'done.md' au 'serveur > README.md'
-2. 🚀 Backup nouveau serveur (volumes containers)
+1. 🚀 Backup nouveau serveur (volumes containers)
    1. ✅ Lapie > All in one WP Migration
    2. ✅ Tests backup volume > .tar
       1. [Doc volumes](server-related-tutorials/01-docker/03-develop-with-docker/02-volumes/README.md)
@@ -30,7 +29,7 @@ Indiquer ici les *tâches à effectuer en priorité*
       1. Test sur fichier alakon
       2. Test sur fichier alakon dans volume
       3. KO / --listed-incremential not found dans `tar`
-   4. 🚀 Cleaner backup
+   4. ✅ Cleaner backup
       1. ✅ Mettre nom, date & heure dans le nom de fichier de la sauvegarde
          1. `nom-volume---backup---$(date +%Y-%m-%d--%H.%M.%S).tar`
       2. ✅ Contenu de l'archive propre : 1 seul dossier bien nommé
@@ -40,12 +39,15 @@ Indiquer ici les *tâches à effectuer en priorité*
          3. Mais, les noms de volumes ont de l'info, ex : `client---dev--masamune-fr---wordpress--db`, mais les sauvegardes seront récurrentes (vite le bordel si beaucoup de fichiers)
          4. `DOCKER_GUY/backups/volumes/ANNEE/TYPE/LE_CLIENT/SITE_COM/nom-volume---backup---$(date +%Y-%m-%d--%Hh%Mm%Ss).tar`
          5. Eg. `DOCKER_GUY/backups/volumes/2021/clients/masamune/dev--masamune--fr/client---dev--masamune--fr---wordpress--db---backup---2021-05-27--11h23m57s.tar`
-      4. 🚀 Documenter
+      4. ✅ Documenter
          1. ✅ Fichier de commandes usuelles, pour sauvegarde manuelle
-         2. 🚀 Maj de l'arborescence du serveur
-   5. Faire les backups des volumes en prod
-      1. SSH > récupérer les archives en local/github
-   6. Ajouter note/faire ansible
+         2. ✅ Arborescence du serveur
+            1. ✅ Maj de la notation dash
+            2. ✅ Ajout des backups
+   5. 🚀 Faire les backups des volumes en prod
+      1. 🚀 Faire les backups sur le serveur
+      2. SSH > récupérer les archives en local/github
+2. Cleaner/prioriser tâches serveur + OLD
 
 ### Sinon, priorisation classique
 
@@ -131,27 +133,35 @@ Indiquer ici les *tâches en dehors du flux général* (urgences, corrections pr
 3. Faire photos nouvel apart
 4. drive > clients > passer sur github
 5. Serveur
-   1. Création d'un site > création d'un utilisateur pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
-   2. Maj de la nomenclature des sites clients : sub-domain--da-domain--ext
+   1. 🌱 Automatisation des backups
+      1. [Doc volumes](server-related-tutorials/01-docker/03-develop-with-docker/02-volumes/README.md) + notes dans .md à côté
+      2. Ansible
+         1. Création de l'arborescence, attention au répertoire année courante
+         2. Role ponctuel
+         3. Génération d'un rôle lors de la création d'un site
+      3. Ajout au CRON
+   2. Mettre à jour la dashed notation partout (folders, containers, volumes, networks)
+   3. Création d'un site > création d'un utilisateur pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
+   4. Maj de la nomenclature des sites clients : sub-domain--da-domain--ext
       1. Nom des dossiers
       2. Noms des fichiers
       3. noms des volumes
-   3. Git > virer/sauv ce qui n'est pas versionné
-   4. Backup volumes automatiques
+   5. Git > virer/sauv ce qui n'est pas versionné
+   6. Backup volumes automatiques
       1. Attention, volumes avec bind limités au répertoire de DOCKER_PEON, sinon *permission denied*
-   5. Supprimer les conteneurs & volumes inutiles (bruno, devs)
-   6. [Github issues](https://github.com/bitnami/bitnami-docker-mysql/issues/79#issuecomment-545477842) > Variable d'env afin d'augmenter le debug des conteneurs bitnami ! >> raisons explicites sur le problème de boot du conteneur
-   7. Corriger 98-maintenance > faire vraiment les upgrades
+   7. Supprimer les conteneurs & volumes inutiles (bruno, devs)
+   8. [Github issues](https://github.com/bitnami/bitnami-docker-mysql/issues/79#issuecomment-545477842) > Variable d'env afin d'augmenter le debug des conteneurs bitnami ! >> raisons explicites sur le problème de boot du conteneur
+   9. Corriger 98-maintenance > faire vraiment les upgrades
       1. ansible-install-web-server/ansible/roles/system-update/tasks/update-packages.yml, l. 8
-   8. BUG: Génération du wordpress : certaines variables font planter le lancement de mariaDB, voir pour trouver le mauvais caractère & l'exclure lors de la génération
-      1. cf. ansible-install-web-server\ansible\tmp\BUG VARIABLES client--picard--dev-champagne-pascal-picard-com--wordpress-stack--generated copy.yml > mariadb > environnement
-   9. Checker ce qui prend de la place sur le disque ~80Go ? 13% de 450 > `docker system df -v`
-   10. Fixer ansible-install-web-server\ansible\roles\wordpress-generate\templates\ "original", doublons
-   11. Terminer ansible > wordpress generate > /tmp > donner des dossiers aux clients
-   12. Virer sites de tests et doublons
-   13. Cleaner génération d'un wordpress
-   14. Migrer sites > Liste ?
-   15. Régénérer sites déjà présents
+   10. BUG: Génération du wordpress : certaines variables font planter le lancement de mariaDB, voir pour trouver le mauvais caractère & l'exclure lors de la génération
+      2. cf. ansible-install-web-server\ansible\tmp\BUG VARIABLES client--picard--dev-champagne-pascal-picard-com--wordpress-stack--generated copy.yml > mariadb > environnement
+   11. Checker ce qui prend de la place sur le disque ~80Go ? 13% de 450 > `docker system df -v`
+   12. Fixer ansible-install-web-server\ansible\roles\wordpress-generate\templates\ "original", doublons
+   13. Terminer ansible > wordpress generate > /tmp > donner des dossiers aux clients
+   14. Virer sites de tests et doublons
+   15. Cleaner génération d'un wordpress
+   16. Migrer sites > Liste ?
+   17. Régénérer sites déjà présents
       - Passer nonore en cliente (wp généré et lancement depuis ansible), Pour le moment c'est un yml lancé a l'arrache sur le serveur
 6. Lapie > Traitement des tâches en souffrance
    1. Cleaner github dedié > client/url-site/
