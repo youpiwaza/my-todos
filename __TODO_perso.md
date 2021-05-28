@@ -22,7 +22,7 @@ Sert à trier les trucs soit à faire rapidement soit à abandonner.
    2. [express](https://www.expressvpn.com/order)
 8. Vidéos en souffrance
     1. [Citizen kitano](https://www.youtube.com/watch?v=-H1xBQ4exto)
-9.  Faire un backup du pc (BLACKSCREEN)
+9. Faire un backup du pc (BLACKSCREEN)
 10. Faire réparer guitare
 11. Faire réparer PC port HDMI
 12. Relancer boxe remboursement 2020-2021 500 balles

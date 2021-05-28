@@ -48,6 +48,9 @@ Les tâches terminées des semaines précédentes :)
          2. ✅ Faire les backups sur le serveur
          3. ✅ SSH > récupérer les archives en local/github
             1. ✅ Récupérer également les .yml temporaires (de nonore, etc.)
+   3. ✅ Devis Nico 14 au 18/06/21 (5 jours)
+   4. ✅ Git > virer/sauv ce qui n'est pas versionné
+   5. ✅ Cleaner/prioriser tâches serveur + OLD
 2. Perso
    1. ✅ Dématérialiser carte SNCF
    2. ✅ Commander / Livraison
@@ -82,7 +85,7 @@ Les tâches terminées des semaines précédentes :)
 5. ✅ Confirmer Maj adresse siret
 6. ✅ Assurance > Mercer / ou changer ? >> Alan FTW
    - FNAE [otherwise](https://www.federation-auto-entrepreneur.fr/sites/default/files/otherwise_-_guide_des_assurances_pour_les_auto-entrepreneurs_de_la_fnae_0.pdf)
-   - [alan](https://alan.com/tns) 
+   - [alan](https://alan.com/tns)
    - [malt + axa](https://messolutionsplus.fr/msp/S/S/S/web-insure-quote/new-quote/productId/MALT_PREV?_ga=2.257990786.968299628.1601458302-2117978627.1601458301)
    - mercer cf. mails
 7. ✅ ovh manager > Modifier adresse client
