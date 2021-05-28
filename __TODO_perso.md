@@ -149,7 +149,6 @@ Sert à trier les trucs soit à faire rapidement soit à abandonner.
 - Ghost dog
 - Grave
 - Gummo
-- hamburger film sandwich
 - Hand maiden
 - hard candy
 - Hardcore henry
@@ -212,7 +211,7 @@ Sert à trier les trucs soit à faire rapidement soit à abandonner.
 - the blade
 - The descent
 - The fighter (christian bale)
-- the founder / netflix
+- ✅ the founder / netflix / 4/5
 - The game (1997)
 - the gentlemen, de guy richie
 - the great wall
@@ -249,6 +248,7 @@ Sert à trier les trucs soit à faire rapidement soit à abandonner.
 - bunny the killer thing
 - Deathgasm
 - German Angst
+- hamburger film sandwich / voies redoublées
 - Howard the duck
 - killer beans
 - killer clown in space

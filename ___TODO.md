@@ -21,10 +21,31 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 - Si besoin de focus, mettre une ou 2 tâches ici.
 
-1. 🚀 Picard avec https
-   1. ⏳ Confirmation des picards que tout est good
-   2. Passer en prod
-   3. .fr KOs
+1. Tâches serveur > Passe de 'done.md' au 'serveur > README.md'
+2. 🚀 Backup nouveau serveur (volumes containers)
+   1. ✅ Lapie > All in one WP Migration
+   2. ✅ Tests backup volume > .tar
+      1. [Doc volumes](server-related-tutorials/01-docker/03-develop-with-docker/02-volumes/README.md)
+   3. 💩 Tests [archivage incrémentiel](https://doc.ubuntu-fr.org/tar#utilisation_en_archivage_incrementiel)
+      1. Test sur fichier alakon
+      2. Test sur fichier alakon dans volume
+      3. KO / --listed-incremential not found dans `tar`
+   4. 🚀 Cleaner backup
+      1. ✅ Mettre nom, date & heure dans le nom de fichier de la sauvegarde
+         1. `nom-volume---backup---$(date +%Y-%m-%d--%H.%M.%S).tar`
+      2. ✅ Contenu de l'archive propre : 1 seul dossier bien nommé
+      3. ✅ Bien le ranger sur l'hôte (emplacement à choisir + maj ansible-install-web-server/nomenclature-and-folder-tree.md)
+         1. Les volumes sont liés aux conteneurs, mais contenu sensible (!DOCKER_PEON) > dans le dossier de DOCKER_GUY/
+         2. Arbo logique ek details `DOCKER_GUY/backups/volumes/clients/LE_CLIENT/SITE_COM/ANNEE/nom-volume---backup---$(date +%Y-%m-%d--%H.%M.%S).tar`
+         3. Mais, les noms de volumes ont de l'info, ex : `client---dev--masamune-fr---wordpress--db`, mais les sauvegardes seront récurrentes (vite le bordel si beaucoup de fichiers)
+         4. `DOCKER_GUY/backups/volumes/ANNEE/TYPE/LE_CLIENT/SITE_COM/nom-volume---backup---$(date +%Y-%m-%d--%Hh%Mm%Ss).tar`
+         5. Eg. `DOCKER_GUY/backups/volumes/2021/clients/masamune/dev--masamune--fr/client---dev--masamune--fr---wordpress--db---backup---2021-05-27--11h23m57s.tar`
+      4. 🚀 Documenter
+         1. ✅ Fichier de commandes usuelles, pour sauvegarde manuelle
+         2. 🚀 Maj de l'arborescence du serveur
+   5. Faire les backups des volumes en prod
+      1. SSH > récupérer les archives en local/github
+   6. Ajouter note/faire ansible
 
 ### Sinon, priorisation classique
 
@@ -62,8 +83,8 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 - ✅ Vérifier impôts sur espace / Dernière vérif 19/05/2021
   - ✅ Perso
   - ✅ Pro
-- ✅ Maj serveur, script maintenance + connexion builder (apt update & upgrade) / Dernière vérif 15/02/2021
-  - ✅ `98-maintenance.yml & sudo apt-get upgrade & sudo apt upgrade & reboot si besoin`
+- ✅ Maj serveur, script maintenance
+  - ✅ `98-maintenance.yml & sudo apt-get update & sudo apt upgrade & reboot si besoin`
   - ✅ Maj Lapie HMAC
 - ⏳ Tout est Versionné, pas de WIP qui traîne
 
@@ -94,13 +115,7 @@ Si travail en cours, indiquer *les notes* ici
 
 Indiquer ici les *tâches en dehors du flux général* (urgences, corrections process, trucs qui perturbent et doivent être fait, tâches ultra rapides, etc.)
 
-1. Faire photos nouvel apart
-2. Backup nouveau serveur (volumes containers)
-   1. Lapie > All in one WP Migration
-   2. Doc volumes : server-related-tutorials\01-docker\03-develop-with-docker\02-volumes\README.md
-   3. Next, take a snapshot of the persistent volume /path/to/mariadb-persistence using:
-      1. `$ rsync -a /path/to/mariadb-persistence /path/to/mariadb-persistence.bkp.$(date +%Y%m%d-%H.%M.%S)`
-3. Migrer ancien serveur
+1. Migrer ancien serveur
    1. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
       1. Apache
       2. Nginx
@@ -112,36 +127,45 @@ Indiquer ici les *tâches en dehors du flux général* (urgences, corrections pr
          2. 📌📌📌📌📌📌📌 Fichiers
          3. BDD / Exports WordPress
       2. Basculer
-4. github > secrets > Rajouter tous les identifients du boulot
-5. drive > clients > passer sur github
-6. Serveur
-   1. [Github issues](https://github.com/bitnami/bitnami-docker-mysql/issues/79#issuecomment-545477842) > Variable d'env afin d'augmenter le debug des conteneurs bitnami ! >> raisons explicites sur le problème de boot du conteneur
-   2. Corriger 98-maintenance > faire vraiment les upgrades
-   3. BUG: Génération du wordpress : certaines variables font planter le lancement de mariaDB, voir pour trouver le mauvais caractère & l'exclure lors de la génération
+2. github > secrets > Rajouter tous les identifients du boulot
+3. Faire photos nouvel apart
+4. drive > clients > passer sur github
+5. Serveur
+   1. Création d'un site > création d'un utilisateur pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
+   2. Maj de la nomenclature des sites clients : sub-domain--da-domain--ext
+      1. Nom des dossiers
+      2. Noms des fichiers
+      3. noms des volumes
+   3. Git > virer/sauv ce qui n'est pas versionné
+   4. Backup volumes automatiques
+      1. Attention, volumes avec bind limités au répertoire de DOCKER_PEON, sinon *permission denied*
+   5. Supprimer les conteneurs & volumes inutiles (bruno, devs)
+   6. [Github issues](https://github.com/bitnami/bitnami-docker-mysql/issues/79#issuecomment-545477842) > Variable d'env afin d'augmenter le debug des conteneurs bitnami ! >> raisons explicites sur le problème de boot du conteneur
+   7. Corriger 98-maintenance > faire vraiment les upgrades
+   8. BUG: Génération du wordpress : certaines variables font planter le lancement de mariaDB, voir pour trouver le mauvais caractère & l'exclure lors de la génération
       1. cf. ansible-install-web-server\ansible\tmp\BUG VARIABLES client--picard--dev-champagne-pascal-picard-com--wordpress-stack--generated copy.yml > mariadb > environnement
-   4. Checker ce qui prend de la place sur le disque ~80Go ? 13% de 450
-   5. Fixer ansible-install-web-server\ansible\roles\wordpress-generate\templates\ "original", doublons
-   6. Terminer ansible
-      1. wordpress generate > /tmp > donner des dossiers aux clients
-   7. Virer sites de tests et doublons
-   8. Cleaner génération d'un wordpress
-   9. Migrer sites
-      1. Liste ?
-   10. Régénérer sites déjà présents
-       1. Passer nonore en cliente (wp généré et lancement depuis ansible), Pour le moment c'est un yml lancé a l'arrache sur le serveur
-7. Lapie > Traitement des tâches en souffrance
-   1. Lapie > Ranger chartes graphiques & lapie-web
-   2. Charte graphique > Faire les TODOs
-   3. 🚚(shame) > Lapie kek.php (Crédit agricole > génération d'un fichier kek.php à la racine lors de l'insertion de clé HMAC > détruit au reboot du conteneur)
-   4. Lapie, retours SEO
-   5. Lapie > 🚚([Statut](https://docs.google.com/spreadsheets/d/1zZUT0F4XMQyVAFbP7ihACnRz10pmog5KoYlcaiXOGIk/edit#gid=0))
-   6. ~Lapie > Maj traefik pour redirection www. > faire des tests alakon sur NDD masa avant, cf. critique
+   9. Checker ce qui prend de la place sur le disque ~80Go ? 13% de 450 > `docker system df -v`
+   10. Fixer ansible-install-web-server\ansible\roles\wordpress-generate\templates\ "original", doublons
+   11. Terminer ansible > wordpress generate > /tmp > donner des dossiers aux clients
+   12. Virer sites de tests et doublons
+   13. Cleaner génération d'un wordpress
+   14. Migrer sites > Liste ?
+   15. Régénérer sites déjà présents
+      - Passer nonore en cliente (wp généré et lancement depuis ansible), Pour le moment c'est un yml lancé a l'arrache sur le serveur
+6. Lapie > Traitement des tâches en souffrance
+   1. Cleaner github dedié > client/url-site/
+   2. Lapie > Ranger chartes graphiques & lapie-web
+   3. Charte graphique > Faire les TODOs
+   4. 🚚(shame) > Lapie kek.php (Crédit agricole > génération d'un fichier kek.php à la racine lors de l'insertion de clé HMAC > détruit au reboot du conteneur)
+   5. Lapie, retours SEO
+   6. Lapie > 🚚([Statut](https://docs.google.com/spreadsheets/d/1zZUT0F4XMQyVAFbP7ihACnRz10pmog5KoYlcaiXOGIk/edit#gid=0))
+   7. ~Lapie > Maj traefik pour redirection www. > faire des tests alakon sur NDD masa avant, cf. critique
        1. Maj Ansible
-   7. 🚚(shame) Accès fichiers bloqués conteneur bitnamiwp, modules php, passer en http2/3
-8. Truc baptiste guerechi
-9. Relancer impôts pro pour CFE
-10. Renvoi doc AE décla 0€ années passées [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgxmXKmkCGqSQkpPRbBrSKWcsbCpr)
-11. CPF > Langage des signes / Amazon AWS
+   8. 🚚(shame) Accès fichiers bloqués conteneur bitnamiwp, modules php, passer en http2/3
+7. Truc baptiste guerechi
+8. Relancer impôts pro pour CFE
+9. Renvoi doc AE décla 0€ années passées [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgxmXKmkCGqSQkpPRbBrSKWcsbCpr)
+10. CPF > Langage des signes / Amazon AWS
 
 ## 💩 Shame
 

@@ -4,10 +4,20 @@ Les tâches terminées des semaines précédentes :)
 
 ## 24/05/21
 
-1. Picard avec https
+1. ✅ Picard avec https
    1. ✅ DNS corrects pour dev
    2. ✅ Url wp corrects pour dev
    3. ✅ Checkup complet
+   4. ✅ Confirmation des picard que tout est good
+   5. ✅ Passer en prod
+      1. ✅ Url du wordpress changées dans les réglages
+      2. ✅ DNS changés
+         1. [Doc OVH](https://docs.ovh.com/fr/hosting/erreur-site-non-installe/)
+         2. Attendre ~15-20min > 17h20
+      3. ✅ HTTPS régénérés
+      4. ✅ Vérif fin de soirée
+      5. ✅ Vérif lendemain
+   6. ✅ .fr KOs > forcer redirection vers .com
 2. ✅ Dématérialiser carte SNCF
 3. ✅ Commander / Livraison
     1. 20/05
