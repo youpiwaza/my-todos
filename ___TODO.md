@@ -21,33 +21,7 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 - Si besoin de focus, mettre une ou 2 tâches ici.
 
-1. 🚀 Backup nouveau serveur (volumes containers)
-   1. ✅ Lapie > All in one WP Migration
-   2. ✅ Tests backup volume > .tar
-      1. [Doc volumes](server-related-tutorials/01-docker/03-develop-with-docker/02-volumes/README.md)
-   3. 💩 Tests [archivage incrémentiel](https://doc.ubuntu-fr.org/tar#utilisation_en_archivage_incrementiel)
-      1. Test sur fichier alakon
-      2. Test sur fichier alakon dans volume
-      3. KO / --listed-incremential not found dans `tar`
-   4. ✅ Cleaner backup
-      1. ✅ Mettre nom, date & heure dans le nom de fichier de la sauvegarde
-         1. `nom-volume---backup---$(date +%Y-%m-%d--%H.%M.%S).tar`
-      2. ✅ Contenu de l'archive propre : 1 seul dossier bien nommé
-      3. ✅ Bien le ranger sur l'hôte (emplacement à choisir + maj ansible-install-web-server/nomenclature-and-folder-tree.md)
-         1. Les volumes sont liés aux conteneurs, mais contenu sensible (!DOCKER_PEON) > dans le dossier de DOCKER_GUY/
-         2. Arbo logique ek details `DOCKER_GUY/backups/volumes/clients/LE_CLIENT/SITE_COM/ANNEE/nom-volume---backup---$(date +%Y-%m-%d--%H.%M.%S).tar`
-         3. Mais, les noms de volumes ont de l'info, ex : `client---dev--masamune-fr---wordpress--db`, mais les sauvegardes seront récurrentes (vite le bordel si beaucoup de fichiers)
-         4. `DOCKER_GUY/backups/volumes/ANNEE/TYPE/LE_CLIENT/SITE_COM/nom-volume---backup---$(date +%Y-%m-%d--%Hh%Mm%Ss).tar`
-         5. Eg. `DOCKER_GUY/backups/volumes/2021/clients/masamune/dev--masamune--fr/client---dev--masamune--fr---wordpress--db---backup---2021-05-27--11h23m57s.tar`
-      4. ✅ Documenter
-         1. ✅ Fichier de commandes usuelles, pour sauvegarde manuelle
-         2. ✅ Arborescence du serveur
-            1. ✅ Maj de la notation dash
-            2. ✅ Ajout des backups
-   5. 🚀 Faire les backups des volumes en prod
-      1. 🚀 Faire les backups sur le serveur
-      2. SSH > récupérer les archives en local/github
-2. Cleaner/prioriser tâches serveur + OLD
+1. 🚀 Cleaner/prioriser tâches serveur + OLD
 
 ### Sinon, priorisation classique
 
@@ -130,40 +104,42 @@ Indiquer ici les *tâches en dehors du flux général* (urgences, corrections pr
          3. BDD / Exports WordPress
       2. Basculer
 2. github > secrets > Rajouter tous les identifients du boulot
-3. Faire photos nouvel apart
-4. drive > clients > passer sur github
-5. Serveur
-   1. 🌱 Automatisation des backups
+3. drive > clients > passer sur github
+4. Serveur
+   1. Projet > secrets > need versionné quand même sur github en repo privé
+   2. Lapie > cleaner au niveau du serveur dashed-uri > .com ou .fr
+   3. 🌱 Automatisation des backups
       1. [Doc volumes](server-related-tutorials/01-docker/03-develop-with-docker/02-volumes/README.md) + notes dans .md à côté
       2. Ansible
          1. Création de l'arborescence, attention au répertoire année courante
          2. Role ponctuel
          3. Génération d'un rôle lors de la création d'un site
       3. Ajout au CRON
-   2. Mettre à jour la dashed notation partout (folders, containers, volumes, networks)
-   3. Création d'un site > création d'un utilisateur pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
-   4. Maj de la nomenclature des sites clients : sub-domain--da-domain--ext
+      4. Envoi vers serveur de backup + rotation/sauvegarde incrémentielle
+   4. Mettre à jour la dashed notation partout (folders, containers, volumes, networks)
+   5. Création d'un site > création d'un utilisateur pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
+   6. Maj de la nomenclature des sites clients : sub-domain--da-domain--ext
       1. Nom des dossiers
       2. Noms des fichiers
       3. noms des volumes
-   5. Git > virer/sauv ce qui n'est pas versionné
-   6. Backup volumes automatiques
+   7. Git > virer/sauv ce qui n'est pas versionné
+   8. Backup volumes automatiques
       1. Attention, volumes avec bind limités au répertoire de DOCKER_PEON, sinon *permission denied*
-   7. Supprimer les conteneurs & volumes inutiles (bruno, devs)
-   8. [Github issues](https://github.com/bitnami/bitnami-docker-mysql/issues/79#issuecomment-545477842) > Variable d'env afin d'augmenter le debug des conteneurs bitnami ! >> raisons explicites sur le problème de boot du conteneur
-   9. Corriger 98-maintenance > faire vraiment les upgrades
-      1. ansible-install-web-server/ansible/roles/system-update/tasks/update-packages.yml, l. 8
-   10. BUG: Génération du wordpress : certaines variables font planter le lancement de mariaDB, voir pour trouver le mauvais caractère & l'exclure lors de la génération
-      2. cf. ansible-install-web-server\ansible\tmp\BUG VARIABLES client--picard--dev-champagne-pascal-picard-com--wordpress-stack--generated copy.yml > mariadb > environnement
-   11. Checker ce qui prend de la place sur le disque ~80Go ? 13% de 450 > `docker system df -v`
-   12. Fixer ansible-install-web-server\ansible\roles\wordpress-generate\templates\ "original", doublons
-   13. Terminer ansible > wordpress generate > /tmp > donner des dossiers aux clients
-   14. Virer sites de tests et doublons
-   15. Cleaner génération d'un wordpress
-   16. Migrer sites > Liste ?
-   17. Régénérer sites déjà présents
+   9. Supprimer les conteneurs & volumes inutiles (bruno, devs)
+   10. [Github issues](https://github.com/bitnami/bitnami-docker-mysql/issues/79#issuecomment-545477842) > Variable d'env afin d'augmenter le debug des conteneurs bitnami ! >> raisons explicites sur le problème de boot du conteneur
+   11. Corriger 98-maintenance > faire vraiment les upgrades
+       - ansible-install-web-server/ansible/roles/system-update/tasks/update-packages.yml, l. 8
+   12. BUG: Génération du wordpress : certaines variables font planter le lancement de mariaDB, voir pour trouver le mauvais caractère & l'exclure lors de la génération
+       - cf. ansible-install-web-server\ansible\tmp\BUG VARIABLES client--picard--dev-champagne-pascal-picard-com--wordpress-stack--generated copy.yml > mariadb > environnement
+   13. Checker ce qui prend de la place sur le disque ~80Go ? 13% de 450 > `docker system df -v`
+   14. Fixer ansible-install-web-server\ansible\roles\wordpress-generate\templates\ "original", doublons
+   15. Terminer ansible > wordpress generate > /tmp > donner des dossiers aux clients
+   16. Virer sites de tests et doublons
+   17. Cleaner génération d'un wordpress
+   18. Migrer sites > Liste ?
+   19. Régénérer sites déjà présents
       - Passer nonore en cliente (wp généré et lancement depuis ansible), Pour le moment c'est un yml lancé a l'arrache sur le serveur
-6. Lapie > Traitement des tâches en souffrance
+5. Lapie > Traitement des tâches en souffrance
    1. Cleaner github dedié > client/url-site/
    2. Lapie > Ranger chartes graphiques & lapie-web
    3. Charte graphique > Faire les TODOs
@@ -173,10 +149,10 @@ Indiquer ici les *tâches en dehors du flux général* (urgences, corrections pr
    7. ~Lapie > Maj traefik pour redirection www. > faire des tests alakon sur NDD masa avant, cf. critique
        1. Maj Ansible
    8. 🚚(shame) Accès fichiers bloqués conteneur bitnamiwp, modules php, passer en http2/3
-7. Truc baptiste guerechi
-8. Relancer impôts pro pour CFE
-9. Renvoi doc AE décla 0€ années passées [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgxmXKmkCGqSQkpPRbBrSKWcsbCpr)
-10. CPF > Langage des signes / Amazon AWS
+6. Truc baptiste guerechi
+7. Relancer impôts pro pour CFE
+8. Renvoi doc AE décla 0€ années passées [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgxmXKmkCGqSQkpPRbBrSKWcsbCpr)
+9. CPF > Langage des signes / Amazon AWS
 
 ## 💩 Shame
 
