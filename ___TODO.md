@@ -142,6 +142,7 @@ Indiquer ici les *tâches en dehors du flux général* (urgences, corrections pr
    5. Supprimer les conteneurs & volumes inutiles (bruno, devs)
    6. [Github issues](https://github.com/bitnami/bitnami-docker-mysql/issues/79#issuecomment-545477842) > Variable d'env afin d'augmenter le debug des conteneurs bitnami ! >> raisons explicites sur le problème de boot du conteneur
    7. Corriger 98-maintenance > faire vraiment les upgrades
+      1. ansible-install-web-server/ansible/roles/system-update/tasks/update-packages.yml, l. 8
    8. BUG: Génération du wordpress : certaines variables font planter le lancement de mariaDB, voir pour trouver le mauvais caractère & l'exclure lors de la génération
       1. cf. ansible-install-web-server\ansible\tmp\BUG VARIABLES client--picard--dev-champagne-pascal-picard-com--wordpress-stack--generated copy.yml > mariadb > environnement
    9. Checker ce qui prend de la place sur le disque ~80Go ? 13% de 450 > `docker system df -v`
@@ -174,6 +175,49 @@ Parfois, l'entropie.
 Emplois du temps stockés sur mail, portable, favoris, bureau.
 
 Extraire ici puis ranger & prioriser. Doit rester vide.
+
+---
+
+## TODO / Corrections à l'arrache lors du travail sur les lapie
+
+### Opti scripts serveurs
+
+Afin d'avoir directement les commandes à lancer pr faire des trucs sans avoir a tout relire...
+Générer les roles ansible directement ?
+
+- Créer stack
+- Modifier/update stack
+- Supprimer stack
+
+#### Clients
+
+/tmp/ un dossier par client et par site
+
+### Opti scripts WP
+
+ansible-install-web-server\ansible\tmp\client--lapie--champagne-didier-lapie-com--wordpress-stack--retouche-a-la-maing.yml << mettre script a jour et full generated, to avoid **full degenerated**
+
+WP dev et prod > même users & pass > utiliser meme fichiers de génération
+
+Voir fin de "Statut" lapie, plein de trucs a corriger
+
+### Remettre access logs a treafik
+
+et voir si impact performances TTFB
+
+### Ranger
+
+[Bonnes pratiques](https://cloud.google.com/solutions/best-practices-for-building-containers?hl=fr)
+
+### CPU/RAM
+
+docker stats pour analyse (et autre commande ps & htop) > fine tuning
+
+En faire un article wordpress
+
+Alertes si dépasse 50% RAM
+
+### Si bitnami >activer modules php
 
 ---
 
