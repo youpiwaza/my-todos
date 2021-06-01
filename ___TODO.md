@@ -21,58 +21,38 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 - Si besoin de focus, mettre une ou 2 tâches ici.
 
-Trucs en **Local**
-
-1. ✅ Mettre à jour la dashed notation partout (folders, files, containers, volumes, networks)
-   1. ✅ Update ~wp-generate & wp-setup
-   2. ✅ 20-setup-a-wordpress.yml
-2. ✅ /tmp/ un dossier par client et par site
-   1. ex: `'/home/{{ users.3.name }}/{{ project.type }}s/{{ project.client_name }}/{{ project.dashed_domain }}/wordpress-stack--generated.yml'`
-   2. cf. ansible-install-web-server/ansible/roles/wordpress-generate/vars/template.yml
-   3. ansible-install-web-server\ansible\roles\wordpress-generate\tasks\generate-ids-readme.yml
-   4. ansible-install-web-server\ansible\roles\wordpress-generate\tasks\generate-wordpress-stack-file.yml
-   5. & template files *.j2
-3. ✅📌 Tester les rôles sur un [wp masa](https://test-wordpress.masamune.fr/)
-
 Trucs sur le **Serveur**
 
-1. ✅ Mettre à jour la dashed notation partout (folders, containers, volumes, networks)
-2. BUG: Bitnami > Génération du wordpress : certaines variables font planter le lancement de mariaDB, voir pour trouver le mauvais caractère & l'exclure lors de la génération, cf. ansible-install-web-server/ansible/tmp/BUG VARIABLES client--picard--dev-champagne-pascal-picard-com--wordpress-stack--generated copy.yml > mariadb > environnement
-3. Corriger 98-maintenance > faire vraiment les upgrades
+1. Corriger 98-maintenance > faire vraiment les upgrades
    1. ansible-install-web-server/ansible/roles/system-update/tasks/update-packages.yml, l. 8
+2. Mise en place d'une admin SQL
+3. BUG: Bitnami > Génération du wordpress : certaines variables font planter le lancement de mariaDB, voir pour trouver le mauvais caractère & l'exclure lors de la génération, cf. ansible-install-web-server/ansible/tmp/BUG VARIABLES client--picard--dev-champagne-pascal-picard-com--wordpress-stack--generated copy.yml > mariadb > environnement
 4. Rôles création d'un site
-   1. Mise en place & mise à jour
+   1. Génération des fichiers .yml usuels avec arbo clients/commandes ansible à cc/etc. !
+   2. Mise en place & mise à jour
       1. most recent + daté (facilite mise en place, mise a jour & historique)
       2. Création d'un rôle pour relancer/maj tous les rôles clients
-   2. Arrêt de la stack
-   3. Prévoir dev & prod > 1 seul script mais url change, même users & pass
-   4. Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.), & suppression si fin de contrat
+   3. Arrêt de la stack
+   4. Prévoir dev & prod > 1 seul script mais url change, même users & pass
+   5. Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.), & suppression si fin de contrat
 5. Monitoring
    1. Mettre en place
    2. Alerte si CPU/RAM > 75%
    3. Checker ce qui prend de la place sur le disque ~80Go ? 13% de 450 > `docker system df -v` ; cf. backup des volumes
-6. Bitnami
+6. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
+   1. 🚀 NDD
+   2. Apache
+   3. Nginx
+   4. Caddy
+   5. Lightspeed
+7. Bitnami
    1. [Github issues](https://github.com/bitnami/bitnami-docker-mysql/issues/79#issuecomment-545477842) > Variable d'env afin d'augmenter le debug des conteneurs bitnami ! >> raisons explicites sur le problème de boot du conteneur
-   2. ✅ Cleaner ansible-install-web-server/ansible/roles/wordpress-generate/templates > original stack ?
-   3. MARIADB_ROOT_PASSWORD_FILE: 'secret.txt'
-   4. Gestion notes dans ansible-install-web-server/ansible/203-setup-wordpress-lapie_secret.yml
-   5. Lourder si serveurs web classique stabilité 100%, +1 speed
-   6. Activer modules php
-   7. Http 2/3
-7. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
-   1. Apache
-   2. Nginx
-   3. Caddy
-   4. Lightspeed
-8. Cleaner / Relancer clients actuels
-   1. Lapie
-      1. Cleaner au niveau du serveur dashed-uri > .com ou .fr
-   2. Nonore
-      1. (wp généré et lancement depuis ansible), Pour le moment c'est un yml lancé a l'arrache sur le serveur
-   3. Backups volumes
-      1. Maj ansible-install-web-server/commandes-backup-volumes-a-la-maing_secret.md (dashed notation)
-      2. Backup
-9. 🌱 Automatisation des backups (volumes)
+   2. MARIADB_ROOT_PASSWORD_FILE: 'secret.txt'
+   3. Gestion notes dans ansible-install-web-server/ansible/203-setup-wordpress-lapie_secret.yml
+   4. Lourder si serveurs web classique stabilité 100%, +1 speed
+   5. Activer modules php
+   6. Http 2/3
+8. 🌱 Automatisation des backups (volumes)
    1. [Doc volumes](server-related-tutorials/01-docker/03-develop-with-docker/02-volumes/README.md) + notes dans .md à côté
    2. Ansible
       1. Création de l'arborescence, attention au répertoire année courante
@@ -80,7 +60,15 @@ Trucs sur le **Serveur**
       3. Génération d'un rôle lors de la création d'un site
    3. Ajout au CRON
    4. Envoi vers serveur de backup + rotation/sauvegarde incrémentielle
-10. ansible-install-web-server/README.md's 🌱
+9. ansible-install-web-server/README.md's 🌱
+10. Cleaner / Relancer clients actuels
+    1. Lapie
+       1. Cleaner au niveau du serveur dashed-uri > .com ou .fr
+    2. Nonore
+       1. (wp généré et lancement depuis ansible), Pour le moment c'est un yml lancé a l'arrache sur le serveur
+    3. Backups volumes
+       1. Maj ansible-install-web-server/commandes-backup-volumes-a-la-maing_secret.md (dashed notation)
+       2. Backup
 
 ### Sinon, priorisation classique
 
@@ -96,15 +84,14 @@ Trucs sur le **Serveur**
 Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel plus tard/exponentiel
 
 - ✅ Déplacer les terminés ✅ à chaque début de semaine dans done.md
-- x Déplacer les TODO 🌱 dans _TODO_shame.md
-
+- 💩 Déplacer les TODO 🌱 dans _TODO_shame.md
 - ✅ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur mails, edt portable, favoris, bureau. Si possible description + lien.
 - ✅ Nettoyer le fichier __TODO
   - ✅ Status
   - ✅ Ce fichier > ### Shame
     - ✅ Ranger dans fichiers TODO correspondant
     - ✅ Prioriser
-- ✅ Virer ce qui traine
+- ⏳ Virer ce qui traine
   - ✅ sur le bureau
   - 💩 dans le dossier _shame du bureau
   - 💩 Lel (local)/Mes documents/_dev/_shame
@@ -115,7 +102,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
 - ✅ Déclaration Auto entrepreneur
-- ✅ Vérifier impôts sur espace / Dernière vérif 19/05/2021
+- ✅ Vérifier impôts sur espace / Dernière vérif 01/06/2021
   - ✅ Perso
   - ✅ Pro
 - ✅ Maj serveur, script maintenance
@@ -125,7 +112,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 
 ## ⏳ En attente
 
-Rieng
+- Vérifier résilation red sfr une fois repassé chez soshs
 
 ### ⏳🌱 Vérifications sur la longueur
 
@@ -136,6 +123,7 @@ Rieng
   - Toujours rien au 12/05/21
   - Site KO au 15/05/21 (maintenance ?), toujours KO le 19/05/21
   - Toujours rien au 26/05/21
+  - Toujours rien au 01/06/21
 - 🌱 21/05/2021 > Commande d'un hébergement ovh dédié aux picards (ovh manager > bare metal ? kimsufi) > rebasculer sur le nouveau serveur quand il sera terminé
 
 ## 💥 Tâches critiques

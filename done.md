@@ -2,10 +2,15 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 31/05/21
+
+hey
+
 ## 24/05/21
 
 1. Taf
-   1. ✅ Picard avec https
+   1. ✅ Réparer baptiste guereschi
+   2. ✅ Picard avec https
       1. ✅ DNS corrects pour dev
       2. ✅ Url wp corrects pour dev
       3. ✅ Checkup complet
@@ -19,16 +24,17 @@ Les tâches terminées des semaines précédentes :)
          4. ✅ Vérif fin de soirée
          5. ✅ Vérif lendemain
       6. ✅ .fr KOs > forcer redirection vers .com
-   2. Serveurh
-      1. ✅ Backup nouveau serveur (volumes containers)
-      2. ✅ Lapie > All in one WP Migration
-      3. ✅ Tests backup volume > .tar
+   3. Serveurh
+      1. ✅ Cleaner ansible-install-web-server/ansible/roles/wordpress-generate/templates > original stack ?
+      2. ✅ Backup nouveau serveur (volumes containers)
+      3. ✅ Lapie > All in one WP Migration
+      4. ✅ Tests backup volume > .tar
          1. [Doc volumes](server-related-tutorials/01-docker/03-develop-with-docker/02-volumes/README.md)
-      4. 💩 Tests [archivage incrémentiel](https://doc.ubuntu-fr.org/tar#utilisation_en_archivage_incrementiel)
+      5. 💩 Tests [archivage incrémentiel](https://doc.ubuntu-fr.org/tar#utilisation_en_archivage_incrementiel)
          1. Test sur fichier alakon
          2. Test sur fichier alakon dans volume
          3. KO / --listed-incremential not found dans `tar`
-      5. ✅ Cleaner backup
+      6. ✅ Cleaner backup
          1. ✅ Mettre nom, date & heure dans le nom de fichier de la sauvegarde
             1. `nom-volume---backup---$(date +%Y-%m-%d--%H.%M.%S).tar`
          2. ✅ Contenu de l'archive propre : 1 seul dossier bien nommé
@@ -43,15 +49,25 @@ Les tâches terminées des semaines précédentes :)
             2. ✅ Arborescence du serveur
                1. ✅ Maj de la notation dash
                2. ✅ Ajout des backups
-      6. ✅ Faire les backups des volumes en prod
+      7. ✅ Faire les backups des volumes en prod
          1. ✅ Virer les stacks inutiles
          2. ✅ Faire les backups sur le serveur
          3. ✅ SSH > récupérer les archives en local/github
             1. ✅ Récupérer également les .yml temporaires (de nonore, etc.)
-   3. ✅ Devis Nico 14 au 18/06/21 (5 jours)
-   4. ✅ Git > virer/sauv ce qui n'est pas versionné
-   5. ✅ Cleaner/prioriser tâches serveur + OLD
-   6. Local
+      8. ✅ Mettre à jour la dashed notation partout (folders, files, containers, volumes, networks)
+         1. ✅ Update ~wp-generate & wp-setup
+         2. ✅ 20-setup-a-wordpress.yml
+      9. ✅ /tmp/ un dossier par client et par site
+         1. ex: `'/home/{{ users.3.name }}/{{ project.type }}s/{{ project.client_name }}/{{ project.dashed_domain }}/wordpress-stack--generated.yml'`
+         2. cf. ansible-install-web-server/ansible/roles/wordpress-generate/vars/template.yml
+         3. ansible-install-web-server\ansible\roles\wordpress-generate\tasks\generate-ids-readme.yml
+         4. ansible-install-web-server\ansible\roles\wordpress-generate\tasks\generate-wordpress-stack-file.yml
+         5. & template files *.j2
+      10. ✅📌 Tester les rôles sur un [wp masa](https://test-wordpress.masamune.fr/)
+   4. ✅ Devis Nico 14 au 18/06/21 (5 jours)
+   5. ✅ Git > virer/sauv ce qui n'est pas versionné
+   6. ✅ Cleaner/prioriser tâches serveur + OLD
+   7. Local
       1. ✅ docs _secret > need versionné quand même sur github en repo privé
          1. ✅ Virer les tests/non clients
          2. ✅ Github privé en respectant arbo

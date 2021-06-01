@@ -4,29 +4,30 @@ Sert à trier les trucs soit à faire rapidement soit à abandonner.
 
 ## _Priorité
 
-1. Rembourser 500 balles restants jean luc
-2. Compléments alimentaires Bidochons
+1. Je dois ~15 balles a margot (trop perçu NDD)
+2. Rembourser 500 balles restants jean luc
+3. Compléments alimentaires Bidochons
    - Arbi > sclérose en plaque
    - Hifiki > anémie
    - Unmeboshi > **foies engorgés**
    - Makuri > vers intestinaux
    - Takuan
-3. [Sticker stop pub](https://www.ecologie.gouv.fr/stop-pub)
-4. RDV Ophtalmologie express avenue de Laon
-5. Dentiste
-6. Check RIB
+4. [Sticker stop pub](https://www.ecologie.gouv.fr/stop-pub)
+5. RDV Ophtalmologie express avenue de Laon
+6. Dentiste
+7. Check RIB
    1. secu
    2. mutuelle
-7. Prendre un VPN
+8. Prendre un VPN
    1. [avast ?](https://store.avast.com/store/avast/fr_FR/buy/productID.5131300300/ThemeID.4871168000/Currency.EUR/OfferID.62893304010/campaignMarker.WDS~fr-fr~secureline-vpn~~~003_a5e/CustomID.VSOFF/clearCart.1/isGeoLocation.1?_ga=2.115364870.1811711959.1620808371-2071611292.1620808371)
    2. [express](https://www.expressvpn.com/order)
-8. Vidéos en souffrance
+9. Vidéos en souffrance
     1. [Citizen kitano](https://www.youtube.com/watch?v=-H1xBQ4exto)
-9. Faire un backup du pc (BLACKSCREEN)
-10. Faire réparer guitare
-11. Faire réparer PC port HDMI
-12. Relancer boxe remboursement 2020-2021 500 balles
-13. Historique frais banque découvert > contrat > illégal > remboursement
+10. Faire un backup du pc (BLACKSCREEN)
+11. Faire réparer guitare
+12. Faire réparer PC port HDMI
+13. Relancer boxe remboursement 2020-2021 500 balles
+14. Historique frais banque découvert > contrat > illégal > remboursement
 
 ## Animés
 
@@ -497,6 +498,7 @@ Une fois tout téléchargé, mettre à jour
 - Critical role
 - Dark (netflix)
 - designated survivor
+- Dinosaurs
 - Gravity falls
 - Hannibal
 - High maintenance !!!

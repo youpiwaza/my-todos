@@ -6,9 +6,16 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 
 ## ⚡️ Prio / Rapide
 
+- Adresse mail qui contient & ? genre max&max@gmail.com
 - Cimentier node et express via [tuto](https://www.youtube.com/watch?v=Oe421EPjeBE)
 - [Async JS Crash Course - Callbacks, Promises, Async Await](https://www.youtube.com/watch?v=PoRJizFvM7s)
 - [Certificats 2021](https://dev.to/panx/50-free-awesome-certificates-to-earn-in-2021-2l7g)
+- [Beautify Your GitHub Profile like a Pro](https://dev.to/ruppysuppy/beautify-your-github-profile-like-a-pro-5093)
+
+- [The new responsive: Web design in a component-driven world | Session](https://www.youtube.com/watch?v=jUQ2-C5ZNRc)
+- [Animation + légères et + mieux](https://lottiefiles.com/)
+- [6 GitHub Repos For Instant Knowledge Boost](https://dev.to/mfarajewicz/6-github-repos-for-instant-knowledge-boost-3mo0)
+- [D3.js /  Data-Driven Documents](https://d3js.org/)
 - [cheque vacances petites boites](https://www.ancv.com/pour-les-employeurs-de-moins-de-50-salaries-sans-comite-dentreprise)
 - [Changement indexation 2021](https://www.webrankinfo.com/dossiers/indexation/changement-crawl-google)
 - [Chrome find unused code 🔎](https://dev.to/dailydevtips1/chrome-find-unused-code-3g9c)
