@@ -4,7 +4,13 @@ Les tâches terminées des semaines précédentes :)
 
 ## 31/05/21
 
-hey
+Serveur
+
+- ✅ Update hello tests
+  - ✅ New dashed notation
+  - ✅ Separate from role 4, in order to be easier to start new services, make a BP
+  - Hello php
+    - ✅ Passer en https
 
 ## 24/05/21
 
