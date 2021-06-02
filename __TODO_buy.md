@@ -24,6 +24,7 @@
 ## Divers
 
 - [Bureau de ouf](https://www.autonomous.ai/standing-desks/smartdesk-2-home)
+- [SS](https://sexysushi.bandcamp.com/)
 
 ## Fringues
 
