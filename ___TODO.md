@@ -25,34 +25,63 @@ Trucs sur le **Serveur**
 
 1. ✅ Tâches > Ajout de la commande d'éxécution correspondante dans chaque fichier (et pas uniquement dans README.md)
 2. ✅ ansible-install-web-server/ansible/tmp/ > Transformer le dossier tmp/ en generated/
-3. Maj **locales** putaing
+3. ✅ Maj **locales** putaing
    1. ✅ WSL
    2. ✅ Terminal
    3. ✅ Docker Desktop
    4. Maj tuto environnement de dev
       1. ✅ Terminal
-      2. 🚀 Docker
-4. ansible-install-web-server/ansible/tmp/tests/masamune/test-wordpress--masamune--fr/generated
-   1. Transformer le dossier generated en var-files/
-5. Générer tous les fichiers en local dans generated/
+      2. ✅ [Video du gars](https://www.youtube.com/watch?v=idW-an99TAM)
+      3. ✅ Docker
+      4. ✅ Autres
+4. ✅ Connexion au serveur optimisée
+5. ⏳ Date bière élèves
+6. ✅ Libérer espace disque C
+7. ✅ ansible-install-web-server/ansible/tmp/tests/masamune/test-wordpress--masamune--fr/generated > Transformer le dossier generated en var-files/
+8. Uniformiser install/generate/init/setup
    1. core
    2. tutum/nginx
-   3. tout en fait
-6. Tutum
+   3. wordpress
+   4. Choix des mots :
+      1. Etape 1 : Fichiers générés en local, puis copiés en ligne
+      2. Etape 2 : Network & volumes, lancement/Mise à jour des stacks
+      3. Besoin de prefixes, ex:
+         1. core--reverse-proxy--traefik---step1-generate-and-upload
+         2. core--reverse-proxy--traefik---step2-setup-then-start-or-update
+         3. stack--wordpress--step1-generate-and-upload
+         4. stack--wordpress--step2-setup-then-start-or-update
+         5. stack--nginx--step1-generate-and-upload
+         6. stack--wordpress--step2-setup-then-start-or-update
+         7. 10-forge-a-nginx-stack # Create or modify
+         8. 20-forge-a-wordpress-stack
+9.  Générer tous les fichiers en local dans generated/
+   5. core
+      1. Maj traefik ?
+   6. tutum/nginx
+   7. tout en fait
+10. Dupliquer les générations : 1 avec le nom de base (qui tourne), 1 avec le timestamp (historique)
+11. `TASK [tests-init-hello : Edit 'test---hello--masamune--fr---tutum-hello---logs' volume content : create files & docker_peon chown 1003:1003] ***********************************************************
+[DEPRECATION WARNING]: The container_default_behavior option will change its default value from "compatibility" to "no_defaults" in community.docker 2.0.0. To remove this warning, please specify an
+explicit value for it now. This feature will be removed from community.docker in version 2.0.0. Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.`
+11. tests-install << Renommer nginx-generate & nginx-setup
+12. Clean noms containers (noms services fichiers yml :
+    1. OK / test---test-wordpress--masamune--fr_mariadb.1.6u0pzz5paqai596um2b22eu1c
+    2. NOK / test---hello-php--masamune--fr---tutum-hello-php_hello-php.1.
+    3. .                                             ^ retarded
+13. Tutum
    1. Remplacer les hardcoded par des VARIABLES, cf. wp-generate
    2. Remplacer les tutum par des nginx (afficher nom container ? :3)
       1. basique
       2. php avec un vrai exemple
-7. Créer / Maj un fichier ansible de template (volume, dash, etc.) avec .j2 lié afin de **générer la stack**
-   1. Avec des GROSSES_VARS genre UI_OU_PUBLIER et IMAGE_DOCKER_LOL et PORTS_PUTAINS
-   2. ^ doit être prêt a décliner pour nginx, caddy & autres : nouvelle techno sur un NDD : ~2min (image, dossier hôte, url publique)
-8. Mise en place d'une admin SQL > [phpmyadmin](https://hub.docker.com/_/phpmyadmin)
-   1. Objectif 1 : Go tutum/hello sur pma-test-wordpress.masamune.fr
+14. Créer / Maj un fichier ansible de template (volume, dash, etc.) avec .j2 lié afin de **générer la stack**
+   3. Avec des GROSSES_VARS genre UI_OU_PUBLIER et IMAGE_DOCKER_LOL et PORTS_PUTAINS
+   4. ^ doit être prêt a décliner pour nginx, caddy & autres : nouvelle techno sur un NDD : ~2min (image, dossier hôte, url publique)
+15. Mise en place d'une admin SQL > [phpmyadmin](https://hub.docker.com/_/phpmyadmin)
+   5. Objectif 1 : Go tutum/hello sur pma-test-wordpress.masamune.fr
       1. 🚀 .yml indépendant
       2. .yml de test-wordpress
-   2. Objectif 2 : Go pma sur pma-test-wordpress.masamune.fr
-9. BUG: Bitnami > Génération du wordpress : certaines variables font planter le lancement de mariaDB, voir pour trouver le mauvais caractère & l'exclure lors de la génération, cf. ansible-install-web-server/ansible/tmp/BUG VARIABLES client--picard--dev-champagne-pascal-picard-com--wordpress-stack--generated copy.yml > mariadb > environnement
-10. Rôles création d'un site
+   6. Objectif 2 : Go pma sur pma-test-wordpress.masamune.fr
+16. Rôles création d'un site
     1. Génération des fichiers .yml usuels avec arbo clients/commandes ansible à cc/etc. !
     2. Mise en place & mise à jour
        1. most recent + daté (facilite mise en place, mise a jour & historique)
@@ -60,28 +89,30 @@ Trucs sur le **Serveur**
     3. Arrêt de la stack
     4. Prévoir dev & prod > 1 seul script mais url change, même users & pass
     5. Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.), & suppression si fin de contrat
-11. Monitoring
-    1. Mettre en place via ansible-install-web-server/ansible/4-setup-core-services.yml
-    2. Alerte si CPU/RAM > 75%
-    3. Checker ce qui prend de la place sur le disque ~80Go ? 13% de 450 > `docker system df -v` ; cf. backup des volumes
-12. Gestion des mails propre
+17. Monitoring
+    1. Maj : ansible-install-web-server/ansible/3-utils-security-docker-setup.yml
+    2. Mettre en place via ansible-install-web-server/ansible/4-setup-core-services.yml
+    3. Alerte si CPU/RAM > 75%
+    4. Checker ce qui prend de la place sur le disque ~80Go ? 13% de 450 > `docker system df -v` ; cf. backup des volumes
+18. Gestion des mails propre
     1. [Conteneur postfix ?](https://hub.docker.com/_/postfixadmin)
-13. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
+19. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
     1. ✅ NDDs
     2. [Apache](https://hub.docker.com/_/httpd) / test-httpd.masamune.fr
     3. [Nginx](https://hub.docker.com/_/nginx) / test-nginx.masamune.fr
+       1. Tune server for [nginx performance](https://www.nginx.com/blog/10-tips-for-10x-application-performance/)
     4. [Caddy](https://hub.docker.com/_/caddy) / test-caddy.masamune.fr
     5. Litespeed : [open](https://hub.docker.com/r/litespeedtech/openlitespeed) / [payant ?](https://hub.docker.com/r/litespeedtech/litespeed)
        1. 2-3 trucs/plugins a regarder en plus pour WP : [doc](https://www.litespeedtech.com/open-source) & [site dédié](https://lscache.io/)
        2. test-litespeed.masamune.fr
-14. Bitnami
+20. Bitnami
     1. [Github issues](https://github.com/bitnami/bitnami-docker-mysql/issues/79#issuecomment-545477842) > Variable d'env afin d'augmenter le debug des conteneurs bitnami ! >> raisons explicites sur le problème de boot du conteneur
     2. MARIADB_ROOT_PASSWORD_FILE: 'secret.txt'
     3. Gestion notes dans ansible-install-web-server/ansible/203-setup-wordpress-lapie_secret.yml
     4. Lourder si serveurs web classique stabilité 100%, +1 speed
     5. Activer modules php
     6. Http 2/3
-15. 🌱 Automatisation des backups (volumes)
+21. 🌱 Automatisation des backups (volumes)
     1. [Doc volumes](server-related-tutorials/01-docker/03-develop-with-docker/02-volumes/README.md) + notes dans .md à côté
     2. Ansible
        1. Création de l'arborescence, attention au répertoire année courante
@@ -89,8 +120,8 @@ Trucs sur le **Serveur**
        3. Génération d'un rôle lors de la création d'un site
     3. Ajout au CRON
     4. Envoi vers serveur de backup + rotation/sauvegarde incrémentielle
-16. ansible-install-web-server/README.md's 🌱
-17. Cleaner / Relancer clients actuels
+22. ansible-install-web-server/README.md's 🌱
+23. Cleaner / Relancer clients actuels
     1. Lapie
        1. Cleaner au niveau du serveur dashed-uri > .com ou .fr
     2. Nonore
