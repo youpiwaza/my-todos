@@ -2,7 +2,7 @@
 
 Les tâches terminées des semaines précédentes :)
 
-## 31/05/21
+## 01/06/21
 
 Serveur
 
@@ -11,6 +11,39 @@ Serveur
   - ✅ Separate from role 4, in order to be easier to start new services, make a BP
   - Hello php
     - ✅ Passer en https
+- ✅ Tâches > Ajout de la commande d'éxécution correspondante dans chaque fichier (et pas uniquement dans README.md)
+- ✅ ansible-install-web-server/ansible/tmp/ > Transformer le dossier tmp/ en generated/
+- ✅ Maj **locales** putaing
+  - ✅ WSL
+  - ✅ Terminal
+  - ✅ Docker Desktop
+  - Maj tuto environnement de dev
+    - ✅ Terminal
+    - ✅ [Video du gars](https://ww-youtub-com/watch?v=idW-an99TAM)
+    - ✅ Docker
+    - ✅ Autres
+- ✅ Connexion au serveur optimisée
+- ✅ Libérer espace disque C
+- ✅ ansible-install-web-server/ansible/tmp/tests/masamune/test-wordpress--masamune--fr/generated > Transformer le dossier generated en var-files/
+- ✅ Uniformiser install/generate/init/setup
+  - ✅ core
+  - ✅ tutum/nginx
+  - ✅ wordpress
+  - Choix des mots :
+    - Etape 1 : Fichiers générés en local, puis copiés en ligne > generate
+    - Etape 2 : Network & volumes, lancement/Mise à jour des stacks > run
+    - Besoin de prefixes, ex:
+      - ✅ core-reverse-proxy-traefik--generate
+      - ✅ core-reverse-proxy-traefik--run
+      - core-monitoring-grafana-generate
+      - core-monitoring-grafana-run
+      - ✅ stack-web-nginx--configs
+      - ✅ stack-web-nginx--generate
+      - ✅ stack-web-nginx--run
+      - ✅  stack-web-wordpress--generate
+      - ✅  stack-web-wordpress--run
+      - ✅ 10-forge-a-nginx-stack # generate & run > setup network & volumes & < config, generate, upload, start/updat- Avec un README ça passe
+      - ✅ 20-forge-a-wordpress-stack
 
 ## 24/05/21
 

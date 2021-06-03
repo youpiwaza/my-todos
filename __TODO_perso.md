@@ -373,18 +373,19 @@ Sert à trier les trucs soit à faire rapidement soit à abandonner.
   - The Raid: Redemption
   - Wanted
 - parkway drive
-- prodigy
 - rob zombie
 - sceptic flesh
 - Skald
 - skalmold
 - the agonist premiers albums
+- the prodigy
 - tilopes
 - trollfest
 - unleash the archers
 - Walls of jericho
 - Wardruna
 - whispered metal
+- Wind rose
 - x RX
 - youtubes
 
