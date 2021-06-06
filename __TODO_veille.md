@@ -6,11 +6,14 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 
 ## ⚡️ Prio / Rapide
 
+- [tmux](https://nickjanetakis.com/blog/who-else-wants-to-boost-their-productivity-with-tmux)
+- [Use Javascript console like pro](https://dev.to/suprabhasupi/use-javascript-console-like-pro-3j1h?signin=true)
 - Adresse mail qui contient & ? genre max&max@gmail.com
 - Cimentier node et express via [tuto](https://www.youtube.com/watch?v=Oe421EPjeBE)
 - [Async JS Crash Course - Callbacks, Promises, Async Await](https://www.youtube.com/watch?v=PoRJizFvM7s)
 - [Certificats 2021](https://dev.to/panx/50-free-awesome-certificates-to-earn-in-2021-2l7g)
 - [Beautify Your GitHub Profile like a Pro](https://dev.to/ruppysuppy/beautify-your-github-profile-like-a-pro-5093)
+- [Grafikart PWA](https://www.youtube.com/watch?v=5f1M_cu2eDM)
 
 - [The new responsive: Web design in a component-driven world | Session](https://www.youtube.com/watch?v=jUQ2-C5ZNRc)
 - [Animation + légères et + mieux](https://lottiefiles.com/)
@@ -32,6 +35,8 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 - CL
   - [How to Use Command Line Find](https://dev.to/iggredible/how-to-use-command-line-find-1p1e)
   - [My command line cheatsheet](https://dev.to/anfibiacreativa/my-command-line-cheatsheet-17m2)
+  - [Taskwarrior is Free and Open Source Software that manages your TODO list from the command line.](https://taskwarrior.org/)
+  - [^ +1 time](https://timewarrior.net/)
 - [Parallax](https://www.webdesignerdepot.com/2021/05/6-ways-parallax-still-works-in-2021/)
 - [FNAE guide AE](https://www.federation-auto-entrepreneur.fr/)
 - [hugo framework](https://gohugo.io/)

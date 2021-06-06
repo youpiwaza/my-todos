@@ -218,7 +218,7 @@ Windows > En gros les outils windaube Visual C++ devkit machin mes couilles
 
 Ubuntu
   - > sudo apt install build-essential
-  - > sudo apt-get install manpages-dev
+  - > sudo apt install manpages-dev
   - > npm install -gf python
    - > npm install -gf make
 

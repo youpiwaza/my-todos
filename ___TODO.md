@@ -25,17 +25,18 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Trucs sur le **Serveur**
 
-1. 🚀🚀🚀🚀 Fusionner config dans generate
-2. 🚀🚀🚀 ET BALANCER CONFIG DANS DOSSIER SITE DIRECT
-3. 🚀🚀 Lint nginx folder & filenames > Renommer '/home/{{ users.3.name }}/configs/webserver/nginx/tutum--customUser-p8080-php--nginx.conf'
-    1. .                                      ^ wtf                ^ pitié
+1. ✅ Maj VLC
+2. 🚀🚀🚀🚀 Fusionner config dans generate
+3. 🚀🚀🚀 ET BALANCER CONFIG DANS DOSSIER SITE DIRECT
+4. 🚀🚀 Lint nginx folder & filenames > Renommer '/home/{{ users.3.name }}/configs/webserver/nginx/tutum--customUser-p8080-php--nginx.conf'
+    1. .                                     ^ wtf                ^ pitié
     2. ansible-install-web-server\ansible\roles\stack-web-nginx--config\tasks\main.yml
     3. ^ Attention à changer les chemins d'injection dans les .yml également
     4. ansible-install-web-server\nomenclature-and-folder-tree.md
-4. 🚀 stack-web-nginx--generate > vars comme wordpress
-5. Maj traefik ?
-6. ansible > \n KO
-7. `TASK [tests-init-hello : Edit 'test---hello--masamune--fr---tutum-hello---logs' volume content : create files & docker_peon chown 1003:1003] ***********************************************************
+5. 🚀 stack-web-nginx--generate > vars comme wordpress
+6. Maj traefik ?
+7. ansible > \n KO
+8. `TASK [tests-init-hello : Edit 'test---hello--masamune--fr---tutum-hello---logs' volume content : create files & docker_peon chown 1003:1003] ***********************************************************
 [DEPRECATION WARNING]: The container_default_behavior option will change its default value from "compatibility" to "no_defaults" in community.docker 2.0.0. To remove this warning, please specify an
 explicit value for it now. This feature will be removed from community.docker in version 2.0.0. Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.`
    1. ansible-install-web-server\ansible\roles\core-reverse-proxy-traefik--run\tasks\main.yml
@@ -44,7 +45,7 @@ explicit value for it now. This feature will be removed from community.docker in
 1. Clean noms containers (noms services fichiers yml :
     1. OK / test---test-wordpress--masamune--fr_mariadb.1.6u0pzz5paqai596um2b22eu1c
     2. NOK / test---hello-php--masamune--fr---tutum-hello-php_hello-php.1.
-    3. .                                         ^ retarded
+    3. .                                        ^ retarded
 2. Tutum
    4. Remplacer les tutum par des nginx (afficher nom container ? :3)
    5. Remplacer les hardcoded par des VARIABLES, cf. wp-generate
@@ -129,46 +130,47 @@ explicit value for it now. This feature will be removed from community.docker in
 
 Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel plus tard/exponentiel
 
-- 🚀 Déplacer les terminés ✅ à chaque début de semaine dans done.md
+- ✅ Déplacer les terminés ✅ à chaque début de semaine dans done.md
 - 💩 Déplacer les TODO 🌱 dans _TODO_shame.md
-- ⏳ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur mails, edt portable, favoris, bureau. Si possible description + lien.
-- ⏳ Nettoyer le fichier __TODO
-  - ⏳ Status
-  - ⏳ Ce fichier > ### Shame
-    - ⏳ Ranger dans fichiers TODO correspondant
-    - ⏳ Prioriser
-- ⏳ Virer ce qui traine
-  - ⏳ sur le bureau
+- ✅ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur mails, edt portable, favoris, bureau. Si possible description + lien.
+- ✅ Nettoyer le fichier __TODO
+  - ✅ Status
+  - ✅ Ce fichier > ### Shame
+    - ✅ Ranger dans fichiers TODO correspondant
+    - ✅ Prioriser
+- ✅ Virer ce qui traine
+  - ✅ sur le bureau
   - 💩 dans le dossier _shame du bureau
   - 💩 Lel (local)/Mes documents/_dev/_shame
-  - ⏳ Vider corbeille
-  - ⏳ Vider téléchargements
-  - ⏳ Dans les mails
-- ⏳ Déplacer veille onglets dans TODO_veille
+  - ✅ Vider corbeille
+  - ✅ Vider téléchargements
+  - ✅ Dans les mails
+- ✅ Déplacer veille onglets dans TODO_veille
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
-- ⏳ Déclaration Auto entrepreneur
-- ⏳ Vérifier impôts sur espace / Dernière vérif 01/06/2021
-  - ⏳ Perso
-  - ⏳ Pro
-- ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21
-  - ⏳ Windaube update
-  - ⏳ WSL
-    - ⏳ Version Ubuntu
+- ✅ Déclaration Auto entrepreneur
+- ✅ Vérifier impôts sur espace / Dernière vérif 01/06/2021
+  - ✅ Perso
+  - ✅ Pro
+- ✅ Maj locales / Environnement de dev / Dernière maj le 01/06/21
+  - ✅ Windaube update
+  - ✅ Docker desktop (tray > icône > RC > Check for updates)
+  - ✅ WSL
+    - ✅ Version Ubuntu
       - 🚀 Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
-    - ⏳ `sudo apt update && sudo apt upgrade`
-  - ⏳ Docker desktop
-- ⏳ Maj serveur, script maintenance
-  - ⏳ `98-maintenance.yml & sudo apt-get update & sudo apt upgrade & reboot si besoin`
-  - ⏳ Maj Lapie HMAC
-- ⏳ Tout est Versionné, pas de WIP qui traîne
+    - ✅ Packages & terminal, cf. ci dessous 1 liner
+- ✅ Maj serveur, script maintenance
+  - ✅ `98-maintenance.yml & sudo apt update && sudo apt -y upgrade & reboot si besoin`
+  - ✅ Maj Lapie HMAC
+- ✅ Tout est Versionné, pas de WIP qui traîne
+
+```bash
+sudo apt update && sudo apt -y upgrade && omz update && git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull
+```
 
 ## ⏳ En attente
 
 - Perso > Vérifier résilation red sfr une fois repassé chez soshs
-- Serveur > Corriger 98-maintenance > faire vraiment les upgrades
-   1. ansible-install-web-server/ansible/roles/system-update/tasks/update-packages.yml, l. 8
-   2. Besoin d'un maj de plugin pour constater le bug
 
 ### ⏳🌱 Vérifications sur la longueur
 
@@ -200,8 +202,11 @@ Indiquer ici les *tâches en dehors du flux général* (urgences, corrections pr
          1. Technos
          2. 📌📌📌📌📌📌📌 Fichiers
          3. BDD / Exports WordPress
-      2. Basculer
-2. Lapie > Traitement des tâches en souffrance
+         4. Basculer
+2. __TODO_shame.md > serveur
+3. 🔍 [tmux](https://nickjanetakis.com/blog/who-else-wants-to-boost-their-productivity-with-tmux)
+4. 🔍 [keys remap](https://nickjanetakis.com/blog/remap-and-set-global-hotkeys-on-windows-10-with-auto-hotkey)
+5. Lapie > Traitement des tâches en souffrance
    1. Cleaner github dedié > client/url-site/
    2. Lapie > Ranger chartes graphiques & lapie-web
    3. Charte graphique > Faire les TODOs
@@ -211,10 +216,10 @@ Indiquer ici les *tâches en dehors du flux général* (urgences, corrections pr
    7. ~Lapie > Maj traefik pour redirection www. > faire des tests alakon sur NDD masa avant, cf. critique
        1. Maj Ansible
    8. 🚚(shame) Accès fichiers bloqués conteneur bitnamiwp, modules php, passer en http2/3
-3. Relancer impôts pro pour CFE
-4. Renvoi doc AE décla 0€ années passées [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgxmXKmkCGqSQkpPRbBrSKWcsbCpr)
-5. CPF > Langage des signes / Amazon AWS
-6. Cleaner zone DNS masamune.fr
+6. Relancer impôts pro pour CFE
+7. Renvoi doc AE décla 0€ années passées [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgxmXKmkCGqSQkpPRbBrSKWcsbCpr)
+8. CPF > Langage des signes / Amazon AWS
+9. Cleaner zone DNS masamune.fr
 
 ## 💩 Shame
 

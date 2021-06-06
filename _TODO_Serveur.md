@@ -192,7 +192,7 @@ X. ✅🐛 Traefik doesn't restart on host reboot
   - Images tags > fixes
   - Éviter les fichiers de configuration, préférer les variables d'environnement avec des valeurs par défaut
   - DockerFile ~specific
-    - Si build avec apt-get > version en variables d'environnement (ex: NGINX_VERSION: '1.12')
+    - Si build avec apt > version en variables d'environnement (ex: NGINX_VERSION: '1.12')
     - Overload default vars & conf files with default values through ENV vars
       - *Éviter les modifications non souhaitées lors des mises à jour*
       - MYSQL_LOGSIZE: 512M

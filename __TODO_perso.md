@@ -31,6 +31,8 @@ Sert à trier les trucs soit à faire rapidement soit à abandonner.
 
 ## Animés
 
+Sites > crunchyroll / otakufr . co
+
 - Amer beton
 - angel cop
 - Asobi asobase
@@ -47,15 +49,18 @@ Sert à trier les trucs soit à faire rapidement soit à abandonner.
 - docteur stone
 - dogs
 - Ebichu
-- ✅ 5/5 / Elfen lied
+- ✅ Elfen lied / 5/5
 - Fade zero
 - Fate stay night Unlimited bladeworks
+- 🚀 Food wars / 4/5
+- ✅ Gambling school (Kakegurui) / 4/5
+  - 🌱 S3
 - Gates
 - god of high school
 - Guilty Crown
 - gungraves
 - hellsing & ultimate
-- ✅ 5/5 / jojo bizarre adventure
+- ✅ jojo bizarre adventure / 5/5
 - kaiji
 - [kamen rider X](https://www.youtube.com/watch?v=xBcJTVIxBak)
 - Kawaki wo Ameku
@@ -67,9 +72,9 @@ Sert à trier les trucs soit à faire rapidement soit à abandonner.
 - Nekomonogatari: Kuro
 - Ninja Scroll !!
 - [Saki (mahjong)](https://www.anime-planet.com/anime/saki/videos)
-- ✅ 5/5 wtf / sasami-san @ ganbaranai
+- ✅ sasami-san @ ganbaranai / 5/5 wtf
 - shigurui
-- ✅ 5/5 / Soul eater
+- ♻️🚀 Soul eater / 5/5
 - Steins;Gate / Fuka ryouiki no Déjà Vu
 - Steins gate / Saison 2 !
 - Steins gate films / Shisha no Teikoku
@@ -103,7 +108,7 @@ Sert à trier les trucs soit à faire rapidement soit à abandonner.
 - alabama monroe
 - angel heart avec micker rourk
 - August Underground
-
+- Army of the dead
 - Babylon babies
 - Bad lieutenant
 - battlefield baseball
@@ -151,7 +156,7 @@ Sert à trier les trucs soit à faire rapidement soit à abandonner.
 - Gummo
 - Hand maiden
 - hard candy
-- Hardcore henry
+- ✅ Hardcore henry / 5/5
 - harry brown (2009)
 - Hausu
 - hex, de kuei chih-hung
@@ -178,7 +183,7 @@ Sert à trier les trucs soit à faire rapidement soit à abandonner.
 - mise a prix
 - Moon
 - morse, let me in
-- Mother
+- 🚀 Mother
 - Nameless gangster
 - narc
 - pas un mot
@@ -189,6 +194,7 @@ Sert à trier les trucs soit à faire rapidement soit à abandonner.
 - red line expert
 - red is dead
 - Revanche
+- 🚀 Revolver, de Guy richie (netflix)
 - riley rewind
 - rigor mortis, de juno mak
 - [Robo vampire](https://www.youtube.com/watch?v=kPFYwKC_JDc) < sur yt
@@ -207,11 +213,12 @@ Sert à trier les trucs soit à faire rapidement soit à abandonner.
 - Sound of noise
 - stretch
 - Spectacle gaspard proust tapine
+- Sword of destiny
 - The ambassador
 - the blade
 - The descent
 - The fighter (christian bale)
-- ✅ the founder / netflix / 4/5
+- ✅ the founder / 4/5
 - The game (1997)
 - the gentlemen, de guy richie
 - the great wall
@@ -266,6 +273,7 @@ Sert à trier les trucs soit à faire rapidement soit à abandonner.
 - The room
 - Turbo Kid
 - Turkish spiderman
+- ✅ sigh/5 Undead
 - Violent Shit: The Movie
 - Zombie Ass: The Toilet of the Dead (2011)
 - zombi 3
@@ -282,6 +290,7 @@ Sert à trier les trucs soit à faire rapidement soit à abandonner.
 - dragon dogma
 - dropsy le clown
 - ✅ 5/5 / Electronic super joy
+- Hades
 - Light apprentice
 - megalovania
 - mirror edge catalyst
@@ -294,6 +303,7 @@ Sert à trier les trucs soit à faire rapidement soit à abandonner.
 - shadow of the colossus
 - sunless seas
 - Tactical ogre
+- Transistor
 - Witchers
 - wolfenstein new order
 

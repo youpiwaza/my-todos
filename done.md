@@ -63,6 +63,9 @@ Serveur
   - ✅  ansible-install-web-server\ansible\4-setup-core-services.yml
   - ✅  Extract config wtf l. ~75 📌📌📌 normalement c'est fait + generated mais tjr besoin de split nginx & nginx phpay
   - ✅  tout en fait
+- ✅ Serveur > Corriger 98-maintenance > faire vraiment les upgrades
+  - ansible-install-web-server/ansible/roles/system-update/tasks/update-packages.yml, l. 8
+  - 📌✅ Besoin d'un maj de plugin pour constater le bug > corrigé
 
 ## 24/05/21
 

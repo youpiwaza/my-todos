@@ -218,36 +218,9 @@ drwxrwxr-x 24 root root 12288 Nov  5 18:12 wp-includes
 -rw-rw-r--  1 root root 31159 Nov  5 17:12 wp-signup.php
 -rw-rw-r--  1 root root  4755 Nov  5 17:12 wp-trackback.php
 -rw-rw-r--  1 root root  3236 Nov  5 17:12 xmlrpc.php
-## Shame
-
-1. Choix du serveur web par défaut
-   1. Docs
-      - [Caddy](https://caddyserver.com/) vs [Nginx](https://www.nginx.com/)
-        - [stackshare](https://stackshare.io/stackups/caddy-vs-nginx)
-        - [rex](https://medium.com/@torch2424/my-experience-of-switching-from-nginx-to-caddy-79bc8cd627c0)
-          - Caddy
-            - HTTPS automatique
-            - Configuration réduite et plus simple
-            - Moins bonnes performances
-      - NEED HTTP3 > Nginx (patch) / Caddy / Litespeed
-   2. ♻️(tests) Mettre en place un nginx hello world sur un DNS, gestion du reverse proxy via traefik
-      1. lel
-   3. [Nginx](https://hub.docker.com/_/nginx)
-      1. Sans reverse proxy ni dns ni style ni js > 1er affichage [80-120ms], suivants [30-40ms, pics a 60ms]
-   4. +1 [Caddy](https://hub.docker.com/r/yobasystems/alpine-caddy/)
-      1. Sans reverse proxy ni dns ni style ni js > 1er affichage [70-120ms], suivants [35-45ms, pics a 70ms]
-   5. 📌 Test des performances > Choix
-      1. Si choix Nginx Mettre en place HTTPS Automatique via Let's Encrypt
-      2. Edit: HTTPS mis en place via Traefik
-   6. 💥 /!\ Attention pour bdd et contenus, utiliser [volumes NOMMÉS pour Dstack](https://docs.docker.com/compose/compose-file/#volumes-for-services-swarms-and-stack-files), ou DESTRUCTION lors de la fin du service (si V anonyme)
-
-## Prio
-
-- [Abo litige](https://www.economie.gouv.fr/mediation-conso/vous-etes-professionnel)
 
 ## Environnement de dev
 
-- [WLS 2](https://dev.to/twiddlewakka/20x-faster-speeds-by-updating-to-the-new-wsl-2-a-user-s-installation-guide-57n4)
 - [Tara / Alternative Jira](https://www.blogdumoderateur.com/tara-outil-gestion-projet/)
 - [Sanitize Ansible](https://docs.ansible.com/ansible/2.3/dev_guide/testing_sanity.html)
 - Automatiser l'installation de l'environnement de developpement VIA projet install-dev-env
@@ -266,7 +239,6 @@ drwxrwxr-x 24 root root 12288 Nov  5 18:12 wp-includes
 
 ## Divers
 
-- Mettre en place l'envoi d'emails > 1 conteneur par site
 - Oh my zsh > plugins docker++
 - [Pimper vim](https://github.com/amix/vimrc) > awesome vim (fonts, etc.)
 - [Pimper terminal avec tmux](https://www.grafikart.fr/tutoriels/pimp-my-shell-750) // zsh + omz faits
@@ -274,7 +246,8 @@ drwxrwxr-x 24 root root 12288 Nov  5 18:12 wp-includes
 
 ## Setup serveur
 
-- 🌱 Importer des variables depuis un repo privé
+- [Backup via rsync](https://www.grafikart.fr/tutoriels/rsync-1012)
+- Importer des variables depuis un repo privé
 - Si zsh déjà installé, l'utiliser (afin de ne pas le virer en cas de reinstallation) (etape 2 re-création d'users)
 - Mails
   - Changer l'expéditeur > jax_the_mail_guy_WHATAVER@masamune.fr
@@ -282,7 +255,6 @@ drwxrwxr-x 24 root root 12288 Nov  5 18:12 wp-includes
   - Tester envoi
   - Tester envoi fail2ban
   - [Tester spam](https://www.mail-tester.com/)
-- 🌱 [Backup via rsync](https://www.grafikart.fr/tutoriels/rsync-1012)
 - Mise en place des CRONs
   - Backups sites !
   - [docker system prune -f](https://docs.docker.com/config/pruning/)
@@ -294,7 +266,6 @@ drwxrwxr-x 24 root root 12288 Nov  5 18:12 wp-includes
     - in named volumes "core-traefik-logs" > /home/logs/*.log
 - [Customisable theme built to enhance the experience of browsing web directories](https://github.com/oupala/apaxy)
 - Ansible Docker tests > if fail, remove test related containers/compose/services
-- ♻️ Client FTP qui tape sur le même volume [Go](https://forums.docker.com/t/shared-web-hosting-with-docker-best-practices/7893/4)
 - Traefik reverse proxy > Configure containers healthchecks
   - cf. server-related-tutorials/01-docker/04-my-tests/09-traefik-curated/03-curated-traefik-swarm-w-proxy-container/README.md
 - [docker compose curated example](https://github.com/youpiwaza/docker-compose-curated-example/blob/master/docker-compose.yml)
@@ -322,5 +293,3 @@ drwxrwxr-x 24 root root 12288 Nov  5 18:12 wp-includes
   - tâche 2 dépendante : `when: resultat.changed`
 - validate sur templates
   - [Iptables](https://www.grafikart.fr/tutoriels/iptables-694)
-
-## Done
