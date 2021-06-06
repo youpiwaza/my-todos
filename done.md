@@ -44,6 +44,25 @@ Serveur
       - ✅  stack-web-wordpress--run
       - ✅ 10-forge-a-nginx-stack # generate & run > setup network & volumes & < config, generate, upload, start/updat- Avec un README ça passe
       - ✅ 20-forge-a-wordpress-stack
+- ✅ Séparer nginx & nginx php
+- ✅ Optimiser local/server, la seule diff c'est le début du chemin
+- Ajouter local & history partout, ref : ansible/roles/core-reverse-proxy-traefik--generate/tasks/main.yml
+  - ✅ stack-web-nginx--generate
+    - ✅ local
+    - ✅ history
+  - 💩 stack-web-nginx-php--generate
+    -💩 Refaire a partir de nginx, garder que la conf
+    - 🔥 Non, en fait ce sont les mêmes, les deux ont besoin de php
+  - ✅ stack-web-wordpress--generate
+    - ✅ generate id > local > history
+    - ✅ stack > history
+- ✅ nginx conf worker_connections  127; check diff entre normal et php << max perf : 1024
+- ✅ Générer tous les fichiers en local dans generated/
+  - ✅ core / reverse proxy
+  - ✅ tutum/nginx / test-hello & hello-php
+  - ✅  ansible-install-web-server\ansible\4-setup-core-services.yml
+  - ✅  Extract config wtf l. ~75 📌📌📌 normalement c'est fait + generated mais tjr besoin de split nginx & nginx phpay
+  - ✅  tout en fait
 
 ## 24/05/21
 

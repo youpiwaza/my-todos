@@ -25,36 +25,17 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Trucs sur le **Serveur**
 
-1. ✅ Séparer nginx & nginx php
-2. ✅ Optimiser local/server, la seule diff c'est le début du chemin
-3. Ajouter local & history partout, ref : ansible/roles/core-reverse-proxy-traefik--generate/tasks/main.yml
-   1. stack-web-nginx--generate
-      1. ✅ local
-      2. ✅ history
-   2. 💩 stack-web-nginx-php--generate
-      1. 💩 Refaire a partir de nginx, garder que la conf
-      2. 🔥 Non, en fait ce sont les mêmes, les deux ont besoin de php
-   3. ✅ stack-web-wordpress--generate
-      1. ✅ generate id > local > history
-      2. ✅ stack > history
-4. ✅ nginx conf worker_connections  127; check diff entre normal et php << max perf : 1024
-5. 🚀🚀🚀🚀 Fusionner config dans generate
-6. 🚀🚀🚀 ET BALANCER CONFIG DANS DOSSIER SITE DIRECT
-7. 🚀🚀 Lint nginx folder & filenames > Renommer '/home/{{ users.3.name }}/configs/webserver/nginx/tutum--customUser-p8080-php--nginx.conf'
+1. 🚀🚀🚀🚀 Fusionner config dans generate
+2. 🚀🚀🚀 ET BALANCER CONFIG DANS DOSSIER SITE DIRECT
+3. 🚀🚀 Lint nginx folder & filenames > Renommer '/home/{{ users.3.name }}/configs/webserver/nginx/tutum--customUser-p8080-php--nginx.conf'
     1. .                                      ^ wtf                ^ pitié
     2. ansible-install-web-server\ansible\roles\stack-web-nginx--config\tasks\main.yml
     3. ^ Attention à changer les chemins d'injection dans les .yml également
     4. ansible-install-web-server\nomenclature-and-folder-tree.md
-8. 🚀 stack-web-nginx--generate > vars comme wordpress
-9. ✅ Générer tous les fichiers en local dans generated/
-   1. ✅ core / reverse proxy
-      1. Maj traefik ? ansible-install-web-server/ansible/roles/core-reverse-proxy-traefik--generate/defaults/main.yml
-   2. ✅ tutum/nginx / test-hello & hello-php
-      1. ✅  ansible-install-web-server\ansible\4-setup-core-services.yml
-         1. ✅  Extract config wtf l. ~75 📌📌📌 normalement c'est fait + generated mais tjr besoin de split nginx & nginx phpay
-   3. ✅  tout en fait
-10. ansible > \n KO
-11. `TASK [tests-init-hello : Edit 'test---hello--masamune--fr---tutum-hello---logs' volume content : create files & docker_peon chown 1003:1003] ***********************************************************
+4. 🚀 stack-web-nginx--generate > vars comme wordpress
+5. Maj traefik ?
+6. ansible > \n KO
+7. `TASK [tests-init-hello : Edit 'test---hello--masamune--fr---tutum-hello---logs' volume content : create files & docker_peon chown 1003:1003] ***********************************************************
 [DEPRECATION WARNING]: The container_default_behavior option will change its default value from "compatibility" to "no_defaults" in community.docker 2.0.0. To remove this warning, please specify an
 explicit value for it now. This feature will be removed from community.docker in version 2.0.0. Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.`
    1. ansible-install-web-server\ansible\roles\core-reverse-proxy-traefik--run\tasks\main.yml
@@ -148,39 +129,39 @@ explicit value for it now. This feature will be removed from community.docker in
 
 Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel plus tard/exponentiel
 
-- ✅ Déplacer les terminés ✅ à chaque début de semaine dans done.md
+- 🚀 Déplacer les terminés ✅ à chaque début de semaine dans done.md
 - 💩 Déplacer les TODO 🌱 dans _TODO_shame.md
-- ✅ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur mails, edt portable, favoris, bureau. Si possible description + lien.
-- ✅ Nettoyer le fichier __TODO
-  - ✅ Status
-  - ✅ Ce fichier > ### Shame
-    - ✅ Ranger dans fichiers TODO correspondant
-    - ✅ Prioriser
-- ✅ Virer ce qui traine
-  - ✅ sur le bureau
+- ⏳ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur mails, edt portable, favoris, bureau. Si possible description + lien.
+- ⏳ Nettoyer le fichier __TODO
+  - ⏳ Status
+  - ⏳ Ce fichier > ### Shame
+    - ⏳ Ranger dans fichiers TODO correspondant
+    - ⏳ Prioriser
+- ⏳ Virer ce qui traine
+  - ⏳ sur le bureau
   - 💩 dans le dossier _shame du bureau
   - 💩 Lel (local)/Mes documents/_dev/_shame
-  - ✅ Vider corbeille
-  - ✅ Vider téléchargements
-  - ✅ Dans les mails
-- ✅ Déplacer veille onglets dans TODO_veille
+  - ⏳ Vider corbeille
+  - ⏳ Vider téléchargements
+  - ⏳ Dans les mails
+- ⏳ Déplacer veille onglets dans TODO_veille
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
-- ✅ Déclaration Auto entrepreneur
-- ✅ Vérifier impôts sur espace / Dernière vérif 01/06/2021
-  - ✅ Perso
-  - ✅ Pro
-- 🚀 Maj locales / Environnement de dev / Dernière maj le 01/06/21
-  - ✅ Windaube update
-  - ✅ WSL
-    - ✅ Version Ubuntu
+- ⏳ Déclaration Auto entrepreneur
+- ⏳ Vérifier impôts sur espace / Dernière vérif 01/06/2021
+  - ⏳ Perso
+  - ⏳ Pro
+- ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21
+  - ⏳ Windaube update
+  - ⏳ WSL
+    - ⏳ Version Ubuntu
       - 🚀 Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
-    - ✅ `sudo apt update && sudo apt upgrade`
-  - ✅ Docker desktop
-- ✅ Maj serveur, script maintenance
-  - ✅ `98-maintenance.yml & sudo apt-get update & sudo apt upgrade & reboot si besoin`
-  - ✅ Maj Lapie HMAC
-- ✅ Tout est Versionné, pas de WIP qui traîne
+    - ⏳ `sudo apt update && sudo apt upgrade`
+  - ⏳ Docker desktop
+- ⏳ Maj serveur, script maintenance
+  - ⏳ `98-maintenance.yml & sudo apt-get update & sudo apt upgrade & reboot si besoin`
+  - ⏳ Maj Lapie HMAC
+- ⏳ Tout est Versionné, pas de WIP qui traîne
 
 ## ⏳ En attente
 
