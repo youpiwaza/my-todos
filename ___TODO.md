@@ -28,9 +28,9 @@ Trucs sur le **Serveur**
 1. ✅ Fusionner config dans generate
 2. ✅ Plus de dossier /configs, directement dans le dossier client/etc/habituel/
 3. ✅ Lint nginx folder & filenames > Renommer '/home/{{ users.3.name }}/configs/webserver/nginx/tutum--customUser-p8080-php--nginx.conf'
-    1. ansible-install-web-server\ansible\roles\stack-web-nginx--config\tasks\main.yml
-    2. ^ Attention à changer les chemins d'injection dans les .yml également
-    3. ansible-install-web-server\nomenclature-and-folder-tree.md
+   1. ansible-install-web-server\ansible\roles\stack-web-nginx--config\tasks\main.yml
+   2. ^ Attention à changer les chemins d'injection dans les .yml également
+   3. ansible-install-web-server\nomenclature-and-folder-tree.md
 4. ✅ WordPress forge stack > WordPress forge role
    1. ✅ Playbook to generate .yml files: playbook & role 20X-forge---DASHED-URI---wordpress-stack-generated.yml
    2. ✅ Ajuster stack-web-wordpress--generate-stack
@@ -50,26 +50,23 @@ Trucs sur le **Serveur**
 11. ✅ Forge playbookS > At the end add a message to start the generated playbook
 12. ✅ Maj traefik ?
 13. ✅ Clean noms containers (noms services fichiers yml :
-   4. OK / test---test-wordpress--masamune--fr_mariadb.1.6u0pzz5paqai596um2b22eu1c
-   5. NOK / test---hello-php--masamune--fr---tutum-hello-php_hello-php.1.
-   6. .                                      ^ retarded
-14. 🚀 Tutum
-   7. Remplacer les tutum par des nginx (afficher nom container ? :3)
-   8. Remplacer les hardcoded par des VARIABLES, cf. wp-generate
-      1. basique
-      2. php avec un vrai exemple
-      3. Utiliser vars d'environnement pour refaire un tutum mayzon
-15. Deprecated ? Comparer au .j2 > ansible-install-web-server\ansible\roles\stack-web-wordpress--generate\templates\original---wordpress.yml
-16. YEAH UNE FOIS QUE LA MERDE EST CORRIGEE C'CA QUI EST IMPORTANT : UNE FORGE (tache + 3 role) Prête a repliquer afin de pouvoir ajouter les technos qu'on veux sans trop se faire chier, avec un bon readme pour config/network/volume, etc.
-   9. Créer / Maj un fichier ansible de template (volume, dash, etc.) avec .j2 lié afin de **générer la stack**
-   10. Avec des GROSSES_VARS genre UI_OU_PUBLIER et IMAGE_DOCKER_LOL et PORTS_PUTAINS
-   11. ^ doit être prêt a décliner pour nginx, caddy & autres : nouvelle techno sur un NDD : ~2min (image, dossier hôte, url publique)
-17. Mise en place d'une admin SQL > [phpmyadmin](https://hub.docker.com/_/phpmyadmin)
-   12. Objectif 1 : Go tutum/hello sur pma-test-wordpress.masamune.fr
-      1. 🚀 .yml indépendant
-      2. .yml de test-wordpress
-   13. Objectif 2 : Go pma sur pma-test-wordpress.masamune.fr
-18. Rôles création d'un site
+    1. OK / test---test-wordpress--masamune--fr_mariadb.1.6u0pzz5paqai596um2b22eu1c
+    2. NOK / test---hello-php--masamune--fr---tutum-hello-php_hello-php.1.
+14. ✅ Add docker images credits.docs
+15. 🚀 Tutum > remplacer par nginx
+    1. Faire tourner déjà ca serait bien, go ctrl + f "curated"
+    2. Utiliser vars d'environnement pour refaire un tutum mayzon: image + nom conteneur
+16. Deprecated ? Comparer au .j2 > ansible-install-web-server\ansible\roles\stack-web-wordpress--generate\templates\original---wordpress.yml
+17. YEAH UNE FOIS QUE LA MERDE EST CORRIGEE C'CA QUI EST IMPORTANT : UNE FORGE (tache + 3 role) Prête a repliquer afin de pouvoir ajouter les technos qu'on veux sans trop se faire chier, avec un bon readme pour config/network/volume, etc.
+    1. Créer / Maj un fichier ansible de template (volume, dash, etc.) avec .j2 lié afin de **générer la stack**
+    2. Avec des GROSSES_VARS genre UI_OU_PUBLIER et IMAGE_DOCKER_LOL et PORTS_PUTAINS
+    3. ^ doit être prêt a décliner pour nginx, caddy & autres : nouvelle techno sur un NDD : ~2min (image, dossier hôte, url publique)
+18. Mise en place d'une admin SQL > [phpmyadmin](https://hub.docker.com/_/phpmyadmin)
+    1. Objectif 1 : Go tutum/hello sur pma-test-wordpress.masamune.fr
+        1. 🚀 .yml indépendant
+        2. .yml de test-wordpress
+    2. Objectif 2 : Go pma sur pma-test-wordpress.masamune.fr
+19. Rôles création d'un site
     1. [ansible prompt](https://docs.ansible.com/ansible/latest/user_guide/playbooks_prompts.html)
     2. Génération des fichiers .yml usuels avec arbo clients/commandes ansible à cc/etc. !
     3. Mise en place & mise à jour
@@ -78,20 +75,20 @@ Trucs sur le **Serveur**
     4. Arrêt de la stack
     5. Prévoir dev & prod > 1 seul script mais url change, même users & pass
     6. Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.), & suppression si fin de contrat
-19. Monitoring
-    1.  Alternative ? [traefik pilot](https://doc.traefik.io/traefik-pilot/)
+20. Monitoring
+    1. Alternative ? [traefik pilot](https://doc.traefik.io/traefik-pilot/)
     2. Maj : ansible-install-web-server/ansible/3-utils-security-docker-setup.yml
     3. Mettre en place via ansible-install-web-server/ansible/4-setup-core-services.yml
     4. Alerte si CPU/RAM > 75%
     5. Checker ce qui prend de la place sur le disque ~80Go ? 13% de 450 > `docker system df -v` ; cf. backup des volumes
-20. Gestion des mails propre
+21. Gestion des mails propre
     1. [Conteneur postfix ?](https://hub.docker.com/_/postfixadmin)
     2. Maj lapie & nonore
-21. [Bonnes pratiques docker/compose](https://nickjanetakis.com/blog/best-practices-around-production-ready-web-apps-with-docker-compose)
-   14. Gestion dev/prod : 1 seul fichier
-   15. ENV vars ++
-   16. Volumes en fonction de l'environnement ¤_¤
-22. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
+22. [Bonnes pratiques docker/compose](https://nickjanetakis.com/blog/best-practices-around-production-ready-web-apps-with-docker-compose)
+    1. Gestion dev/prod : 1 seul fichier
+    2. ENV vars ++
+    3. Volumes en fonction de l'environnement ¤_¤
+23. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
     1. ✅ NDDs
     2. [Apache](https://hub.docker.com/_/httpd) / test-httpd.masamune.fr
     3. [Nginx](https://hub.docker.com/_/nginx) / test-nginx.masamune.fr
@@ -101,15 +98,15 @@ Trucs sur le **Serveur**
     5. Litespeed : [open](https://hub.docker.com/r/litespeedtech/openlitespeed) / [payant ?](https://hub.docker.com/r/litespeedtech/litespeed)
        1. 2-3 trucs/plugins a regarder en plus pour WP : [doc](https://www.litespeedtech.com/open-source) & [site dédié](https://lscache.io/)
        2. test-litespeed.masamune.fr
-23. Bitnami
+24. Bitnami
     1. [Github issues](https://github.com/bitnami/bitnami-docker-mysql/issues/79#issuecomment-545477842) > Variable d'env afin d'augmenter le debug des conteneurs bitnami ! >> raisons explicites sur le problème de boot du conteneur
     2. MARIADB_ROOT_PASSWORD_FILE: 'secret.txt'
     3. Gestion notes dans ansible-install-web-server/ansible/203-setup-wordpress-lapie_secret.yml
     4. Lourder si serveurs web classique stabilité 100%, +1 speed
     5. Activer modules php
     6. Http 2/3
-24. 🌱 20-forge-a-wordpress-playbook.yml > Generate more roles: stop stack, uninstall stack (rm volumes), save volumes
-25. 🌱 Automatisation des backups (volumes)
+25. 🌱 20-forge-a-wordpress-playbook.yml > Generate more roles: stop stack, uninstall stack (rm volumes), save volumes
+26. 🌱 Automatisation des backups (volumes)
     1. [Doc volumes](server-related-tutorials/01-docker/03-develop-with-docker/02-volumes/README.md) + notes dans .md à côté
     2. Ansible
        1. Création de l'arborescence, attention au répertoire année courante
@@ -117,8 +114,8 @@ Trucs sur le **Serveur**
        3. Génération d'un rôle lors de la création d'un site
     3. Ajout au CRON
     4. Envoi vers serveur de backup + rotation/sauvegarde incrémentielle
-26. ansible-install-web-server/README.md's 🌱
-27. Cleaner / Relancer clients actuels
+27. ansible-install-web-server/README.md's 🌱
+28. Cleaner / Relancer clients actuels
     1. Lapie
        1. Cleaner au niveau du serveur dashed-uri > .com ou .fr
     2. Nonore
@@ -126,7 +123,7 @@ Trucs sur le **Serveur**
     3. Backups volumes
        1. Maj ansible-install-web-server/commandes-backup-volumes-a-la-maing_secret.md (dashed notation)
        2. Backup
-28. Clean templating, variable [deprecated ansible_managed](https://docs.ansible.com/ansible/2.4/intro_configuration.html#ansible-managed)
+29. Clean templating, variable [deprecated ansible_managed](https://docs.ansible.com/ansible/2.4/intro_configuration.html#ansible-managed)
     1. [?](https://docs.ansible.com/ansible/latest/reference_appendices/config.html#default-managed-str)
 
 ### Sinon, priorisation classique
