@@ -2,7 +2,15 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 07/06/221
+
+Serveur
+
+- yay
+
 ## 01/06/21
+
+✅ Maj VLC
 
 Serveur
 
@@ -66,6 +74,7 @@ Serveur
 - ✅ Serveur > Corriger 98-maintenance > faire vraiment les upgrades
   - ansible-install-web-server/ansible/roles/system-update/tasks/update-packages.yml, l. 8
   - 📌✅ Besoin d'un maj de plugin pour constater le bug > corrigé
+- ✅ Changer message d'accueil KO
 
 ## 24/05/21
 
