@@ -6,7 +6,35 @@ Les tâches terminées des semaines précédentes :)
 
 Serveur
 
-- yay
+1. ✅ Fusionner config dans generate
+2. ✅ Plus de dossier /configs, directement dans le dossier client/etc/habituel/
+3. ✅ Lint nginx folder & filenames > Renommer '/home/{{ users.3.name }}/configs/webserver/nginx/tutum--customUser-p8080-php--nginx.conf'
+   1. ansible-install-web-server\ansible\roles\stack-web-nginx--config\tasks\main.yml
+   2. ^ Attention à changer les chemins d'injection dans les .yml également
+   3. ansible-install-web-server\nomenclature-and-folder-tree.md
+4. ✅ WordPress forge stack > WordPress forge role
+   1. ✅ Playbook to generate .yml files: playbook & role 20X-forge---DASHED-URI---wordpress-stack-generated.yml
+   2. ✅ Ajuster stack-web-wordpress--generate-stack
+5. ✅ Nginx forge stack > WordPress forge role
+   1. ✅ Créer fichier de variables de projet
+   2. ✅ Adapter generate stack
+6. ✅👥 stack-web-nginx--generate > vars comme wordpress
+7. ✅ Sur les fichiers générés
+   1. ✅ En-tête avec commentaire: "Généré avec ansible + timestamp + ref au fichier original + ref playbook original"
+   2. ✅ suffixe extension > ex "README.j2" devient "README.md.j2"
+8. ✅ ansible > \n KO
+9. ✅ Deprecated docker_container explicit default behavior stuff [container_default_behavior: compatibility](https://docs.ansible.com/ansible/latest/collections/community/docker/docker_container_module.html#parameter-container_default_behavior)
+   1. ✅ ansible-install-web-server\ansible\roles\core-reverse-proxy-traefik--run\tasks\main.yml
+   2. ✅ ansible-install-web-server\ansible\roles\stack-web-nginx--generate
+   3. ✅ ansible-install-web-server\ansible\roles\stack-web-nginx--deploy
+10. ✅ BUG: stack-web-nginx--deploy > can't update due to timestamp in .conf file
+11. ✅ Forge playbookS > At the end add a message to start the generated playbook
+12. ✅ Maj traefik ?
+13. ✅ Clean noms containers (noms services fichiers yml :
+    1. OK / test---test-wordpress--masamune--fr_mariadb.1.6u0pzz5paqai596um2b22eu1c
+    2. NOK / test---hello-php--masamune--fr---tutum-hello-php_hello-php.1.
+14. ✅ Add docker images credits.docs
+15. ✅✅✅ Clean cette TODO, enlever les doublons👥
 
 ## 01/06/21
 
@@ -47,9 +75,9 @@ Serveur
       - core-monitoring-grafana-run
       - ✅ stack-web-nginx--configs
       - ✅ stack-web-nginx--generate
-      - ✅ stack-web-nginx--run
+      - ✅ stack-web-nginx--deploy
       - ✅  stack-web-wordpress--generate
-      - ✅  stack-web-wordpress--run
+      - ✅  stack-web-wordpress--deploy
       - ✅ 10-forge-a-nginx-stack # generate & run > setup network & volumes & < config, generate, upload, start/updat- Avec un README ça passe
       - ✅ 20-forge-a-wordpress-stack
 - ✅ Séparer nginx & nginx php

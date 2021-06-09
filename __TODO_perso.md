@@ -149,6 +149,7 @@ Sites > crunchyroll / otakufr . co
 - Fu manchu
 - Funny game
 - Futari
+- 🚀 Galaxy Quest
 - gaspard noé > tout
 - Gattaca
 - Ghost dog
@@ -254,6 +255,7 @@ Sites > crunchyroll / otakufr . co
 - blood freak
 - bunny the killer thing
 - Deathgasm
+- Dogma
 - German Angst
 - hamburger film sandwich / voies redoublées
 - Howard the duck
@@ -261,14 +263,18 @@ Sites > crunchyroll / otakufr . co
 - killer clown in space
 - L'attaque de la moussaka géante
 - L'homme puma
+- La caravane du courage, film ewoks
+- Les ewoks 2 la bataille d'endors
 - Légion
 - Ninja Eliminator 4 : The French Connection
 - Ninja scroll
 - [Pac man le film](http://www.allocine.fr/film/fichefilm_gen_cfilm=211257.html)
 - Raw Force
+- Samuraïs
 - Samurai cop
 - Série [Japanese spiderman](https://www.youtube.com/watch?v=d5NCSx5HF8c)
 - sharknado
+- Short circuit (vieux, ui)
 - The legend of Simon conjurer
 - The room
 - Turbo Kid
@@ -507,7 +513,7 @@ Une fois tout téléchargé, mettre à jour
 - Candy or not candy
 - Chernobyl
 - Critical role
-- Dark (netflix)
+- ✅ 2/5 Dark (netflix) / Voyage dans le temps (sans spoil lel) mais c'est lent putain
 - designated survivor
 - Dinosaurs
 - Gravity falls
