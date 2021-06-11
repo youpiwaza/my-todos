@@ -21,13 +21,9 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 - Si besoin de focus, mettre une ou 2 tâches ici.
 
-- ⏳ Date bière élèves
-
 Trucs sur le **Serveur**
 
-1. 🌱 done.md > ansible-install-web-server README.MD // voir faire un done.md pour le serveur haha, may bien rangé
-2. Github bot dependalerts > Fix
-3. forge playbookS
+1. forge playbookS
     1. ✅ Tout dans dossier /generated
     2. ✅ History dans un sous dossier /history (sinon on va pas s'en sortir)
     3. ✅ Playbooks générés > Ne pas interpréter certaines variables (crrentDateTime & users)
@@ -43,51 +39,55 @@ Trucs sur le **Serveur**
        4. ✅ Kwaksé & technos
        5. ✅ Repo github & script principal
        6. ✅ Majs
-       7. 🚀 ! folder path
-       8. 🚀 ! template vars file > add techno & go common (afin de différencier les noms des scripts et des commandes, etc.)
-       9. 🚀 README sur serveur également, à la racine du projet
+       7. ✅ ! template vars file > add techno & go common (afin de différencier les noms des scripts et des commandes, etc.)
+       8. ✅ ! folder path
+       9. ✅ README sur serveur également, à la racine du projet
     6. playbooks supplémentaires
-       1. stop stack / ansible-install-web-server\ansible\51-stop-traefik-service.yml
-       2. uninstall stack (stop + rm volumes)
-       3. save volumes ponctuel
+       1. ✅ stop stack / ansible-install-web-server\ansible\51-stop-traefik-service.yml
+       2. ✅ Utiliser const_prefix pour la generation de starts
+          1. 100---hello--masamune--fr---nginx-stack--start--generated
+          2. la^
+       3. 🚀 uninstall stack (stop + rm volumes)
+       4. save volumes ponctuel
           1. Création de l'arborescence, attention au répertoire année courante
-       4. Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
+       5. Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
           1. Note: Probablement moyen de faire qu'un seul rôle, utilisé dans tous les playbooks webs
           2. Rôle ajout
           3. Rôle suppression
-       5. Prévoir dev & prod > 1 seul script mais url change, même users & pass
-          1. Check ansible > vars d'environnement afin de maj dev. ou prod
-          2. [Bonnes pratiques docker/compose](https://nickjanetakis.com/blog/best-practices-around-production-ready-web-apps-with-docker-compose)
+       6. Prévoir dev & prod > 1 seul script mais url change, même users & pass
+          1. [Bonnes pratiques docker/compose](https://nickjanetakis.com/blog/best-practices-around-production-ready-web-apps-with-docker-compose)
+             1. Variables d'environnement dans DC
+          2. Check ansible > vars d'environnement afin de maj dev. ou prod
           3. Gestion dev/prod : 1 seul fichier
           4. ENV vars ++
           5. Volumes en fonction de l'environnement ¤_¤
-4. harmoniser builder guy > tout THE_BUiLDER_GUY, idem autres XXX_GUY
-5. Tutum > remplacer par nginx
+2. harmoniser builder guy > tout THE_BUiLDER_GUY, idem autres XXX_GUY
+3. Tutum > remplacer par nginx
     1. Faire tourner déjà ca serait bien, go ctrl + f "curated"
     2. Utiliser vars d'environnement pour refaire un tutum mayzon: image + nom conteneur
-6. Bitnami
+4. Bitnami
     1. [Github issues](https://github.com/bitnami/bitnami-docker-mysql/issues/79#issuecomment-545477842) > Variable d'env afin d'augmenter le debug des conteneurs bitnami ! >> raisons explicites sur le problème de boot du conteneur
     2. Gestion notes dans ansible-install-web-server/ansible/203-setup-wordpress-lapie_secret.yml
     3. Lourder si serveurs web classique stabilité 100%, +1 speed
     4. Activer modules php
     5. Http 2/3
-7. Mise en place d'une admin SQL > [phpmyadmin](https://hub.docker.com/_/phpmyadmin)
+5. Mise en place d'une admin SQL > [phpmyadmin](https://hub.docker.com/_/phpmyadmin)
     1. Objectif 1 : Go nginx sur pma-test-wordpress.masamune.fr
         1. 🚀 .yml indépendant
         2. .yml de test-wordpress
     2. Objectif 2 : Go pma sur pma-test-wordpress.masamune.fr
        1. ^ Check DNS
-8. Monitoring > MOD: 4-setup-core-services.yml
+6. Monitoring > MOD: 4-setup-core-services.yml
     1. Alternative ? [traefik pilot](https://doc.traefik.io/traefik-pilot/)
     2. Alerte si CPU/RAM > 75%
     3. Alerte si space disque libre < 20%
     4. Checker ce qui prend de la place sur le disque ~80Go ? 13% de 450 > `docker system df -v` ; cf. backup des volumes
-9. Gestion des mails propre
+7. Gestion des mails propre
     1. Connexion au serveur SMPT du serveur ? cf. utils-emails
     2. [Conteneur postfix ?](https://hub.docker.com/_/postfixadmin)
     3. Ajout SPF/DKIM/DMARC
     4. Maj lapie & nonore
-10. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
+8. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
     1. ✅ NDDs
        1. Need modules de cache php activés
        2. HTTP 2/3 serait un vrai plus
@@ -101,7 +101,7 @@ Trucs sur le **Serveur**
        1. 2-3 trucs/plugins a regarder en plus pour WP : [doc](https://www.litespeedtech.com/open-source) & [site dédié](https://lscache.io/)
        2. test-litespeed.masamune.fr
     6. 🌱 Chaque serveur > Tester WP (install via wp-cli ?)
-11. Cleaner / Relancer clients actuels
+9.  Cleaner / Relancer clients actuels
     1. Lapie
        1. Cleaner au niveau du serveur dashed-uri > .com ou .fr
     2. Nonore
@@ -110,14 +110,15 @@ Trucs sur le **Serveur**
        1. Maj ansible-install-web-server/commandes-backup-volumes-a-la-maing_secret.md (dashed notation)
        2. (normalement d'ici la les roles de backups seront générés auto :3)
        3. Backup
-12. Gestion des backups
+10. Gestion des backups
     1. Ajout au CRON
     2. Envoi vers serveur de backup + rotation/sauvegarde incrémentielle
-13. Ansible convenience
+11. Lint done : ansible-install-web-server > README.MD
+12. Ansible convenience
     1. Clean templating, variable [deprecated ansible_managed](https://docs.ansible.com/ansible/2.4/intro_configuration.html#ansible-managed)
         1. [?](https://docs.ansible.com/ansible/latest/reference_appendices/config.html#default-managed-str)
     2. [ansible prompt](https://docs.ansible.com/ansible/latest/user_guide/playbooks_prompts.html)
-13.install-dev-env > docker-compose pour les principales technos : js & phpay
+13. install-dev-env > docker-compose pour les principales technos : js & phpay
 
 ### Sinon, priorisation classique
 
@@ -205,10 +206,11 @@ Indiquer ici les *tâches en dehors du flux général* (urgences, corrections pr
          2. 📌📌📌📌📌📌📌 Fichiers
          3. BDD / Exports WordPress
          4. Basculer
-2. __TODO_shame.md > serveur
-3. 🔍 [tmux](https://nickjanetakis.com/blog/who-else-wants-to-boost-their-productivity-with-tmux)
-4. 🔍 [keys remap](https://nickjanetakis.com/blog/remap-and-set-global-hotkeys-on-windows-10-with-auto-hotkey)
-5. Lapie > Traitement des tâches en souffrance
+2. Ranger liste de lien > première page + intro
+3. __TODO_shame.md > serveur
+4. 🔍 [tmux](https://nickjanetakis.com/blog/who-else-wants-to-boost-their-productivity-with-tmux)
+5. 🔍 [keys remap](https://nickjanetakis.com/blog/remap-and-set-global-hotkeys-on-windows-10-with-auto-hotkey)
+6. Lapie > Traitement des tâches en souffrance
    1. Cleaner github dedié > client/url-site/
    2. Lapie > Ranger chartes graphiques & lapie-web
    3. Charte graphique > Faire les TODOs
@@ -218,10 +220,10 @@ Indiquer ici les *tâches en dehors du flux général* (urgences, corrections pr
    7. ~Lapie > Maj traefik pour redirection www. > faire des tests alakon sur NDD masa avant, cf. critique
        1. Maj Ansible
    8. 🚚(shame) Accès fichiers bloqués conteneur bitnamiwp, modules php, passer en http2/3
-6. Relancer impôts pro pour CFE
-7. Renvoi doc AE décla 0€ années passées [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgxmXKmkCGqSQkpPRbBrSKWcsbCpr)
-8. CPF > Langage des signes / Amazon AWS
-9. Cleaner zone DNS masamune.fr
+7. Relancer impôts pro pour CFE
+8. Renvoi doc AE décla 0€ années passées [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgxmXKmkCGqSQkpPRbBrSKWcsbCpr)
+9. CPF > Langage des signes / Amazon AWS
+10. Cleaner zone DNS masamune.fr
 
 ## 💩 Shame
 

@@ -4,6 +4,8 @@ Les tâches terminées des semaines précédentes :)
 
 ## 07/06/221
 
+✅ Github bot dependalerts > Fix
+
 Serveur
 
 1. ✅ Fusionner config dans generate
