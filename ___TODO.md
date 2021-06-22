@@ -150,7 +150,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
   - ✅ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
   - ✅ WSL
     - ✅ Version Ubuntu
-      - 🚀 Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
+      - ✅ Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
     - ✅ Packages & terminal, `sudo apt -y update && sudo apt -y upgrade`
 - ✅ Maj serveur, script maintenance
   - ✅ `98-maintenance.yml & sudo apt -y update && sudo apt -y upgrade` & reboot si besoin
@@ -163,7 +163,7 @@ sudo apt update && sudo apt -y upgrade && omz update && git -C ${ZSH_CUSTOM:-$HO
 
 ## ⏳ En attente
 
-- Perso > Vérifier résilation red sfr une fois repassé chez soshs
+Rieng
 
 ### ⏳🌱 Vérifications sur la longueur
 

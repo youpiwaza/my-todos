@@ -6,6 +6,8 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 
 ## ⚡️ Prio / Rapide
 
+- [Advanced patterns for Progressive Web Apps (Spanish with English subtitles)](https://www.youtube.com/watch?v=PPJKljH1dn8)
+
 - [Fastify Crash Course | Node.js Framework](https://www.youtube.com/watch?v=Lk-uVEVGxOA)
 - [Paper.js](http://paperjs.org/about/)
 - [25 VS Code Productivity Tips and Speed Hacks](https://www.youtube.com/watch?v=ifTF3ags0XI)
