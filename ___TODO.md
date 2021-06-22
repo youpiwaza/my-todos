@@ -21,13 +21,14 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 - Si besoin de focus, mettre une ou 2 tâches ici.
 
-1. WP picard > spam (gérer akismet avec fabien)
-2. Mairie reims déménagement 10 07 21 > bloquer parking devant
-3. CPF
-4. Appeler damien pour aout
-5. Facture passerelle
-6. Inviter guillaume wawrhammers
-7. Je dois 30€ a sofia
+1. ✅ Deprecated all old react projects
+2. WP picard > spam (gérer akismet avec fabien)
+3. Mairie reims déménagement 10 07 21 > bloquer parking devant
+4. CPF
+5. Appeler damien pour aout
+6. Facture passerelle
+7. Inviter guillaume wawrhammers
+8. Je dois 30€ a sofia
 
 Trucs sur le **Serveur**
 

@@ -59,6 +59,7 @@
 - [casing pinceaux](https://www.jacksonsart.com/fr-fr/idees-cadeaux/idees-cadeaux-pinceaux)
 - green stuff world
   - uv resin et lampe
+  - [Liquid pigments](https://www.greenstuffworld.com/fr/261-pigments-liquides)
 - Kickstarter darkest dungeon
 - [LED GSW / Mini lighting Set With switch and CR927 Battery](https://www.greenstuffworld.com/en/led-lights/1568-mini-lighting-set-with-switch-and-cr927-battery.html)
 - Night lords
