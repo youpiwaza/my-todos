@@ -38,6 +38,28 @@ Serveur
 14. ✅ Add docker images credits.docs
 15. ✅✅✅ Clean cette TODO, enlever les doublons👥
 
+---
+
+1. forge playbookS
+    1. ✅ Tout dans dossier /generated
+    2. ✅ History dans un sous dossier /history (sinon on va pas s'en sortir)
+    3. ✅ Playbooks générés > Ne pas interpréter certaines variables (crrentDateTime & users)
+       1. ✅ Update timestamps, cf. ansible-install-web-server\ansible\10-forge-a-nginx.yml
+       2. ✅ Preserve vars string REMOVE-ME-TO-PRESERVE-VARS > ansible-install-web-server\ansible\roles\stack-web-nginx--generate-playbooks\templates\nginx-playbook-start.yml.j2
+       3. ✅ Remove string > ansible-install-web-server\ansible\roles\stack-web-nginx--generate-playbooks\tasks\main.yml
+    4. playbooks communs ? injectés depuis forge spécifiques dans 100 & 200 ?
+    5. Générer des README.md
+       1. ✅ Warning généré & Timestamp
+       2. ✅ Intro 1 liner
+       3. ✅ Principales commandes
+          1. ✅ Recos lancement depuis ansible
+       4. ✅ Kwaksé & technos
+       5. ✅ Repo github & script principal
+       6. ✅ Majs
+       7. ✅ ! template vars file > add techno & go common (afin de différencier les noms des scripts et des commandes, etc.)
+       8. ✅ ! folder path
+       9. ✅ README sur serveur également, à la racine du projet
+
 ## 01/06/21
 
 ✅ Maj VLC

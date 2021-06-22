@@ -21,28 +21,18 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 - Si besoin de focus, mettre une ou 2 tâches ici.
 
+1. WP picard > spam (gérer akismet avec fabien)
+2. Mairie reims déménagement 10 07 21 > bloquer parking devant
+3. CPF
+4. Appeler damien pour aout
+5. Facture passerelle
+6. Inviter guillaume wawrhammers
+7. Je dois 30€ a sofia
+
 Trucs sur le **Serveur**
 
 1. forge playbookS
-    1. ✅ Tout dans dossier /generated
-    2. ✅ History dans un sous dossier /history (sinon on va pas s'en sortir)
-    3. ✅ Playbooks générés > Ne pas interpréter certaines variables (crrentDateTime & users)
-       1. ✅ Update timestamps, cf. ansible-install-web-server\ansible\10-forge-a-nginx.yml
-       2. ✅ Preserve vars string REMOVE-ME-TO-PRESERVE-VARS > ansible-install-web-server\ansible\roles\stack-web-nginx--generate-playbooks\templates\nginx-playbook-start.yml.j2
-       3. ✅ Remove string > ansible-install-web-server\ansible\roles\stack-web-nginx--generate-playbooks\tasks\main.yml
-    4. playbooks communs ? injectés depuis forge spécifiques dans 100 & 200 ?
-    5. Générer des README.md
-       1. ✅ Warning généré & Timestamp
-       2. ✅ Intro 1 liner
-       3. ✅ Principales commandes
-          1. ✅ Recos lancement depuis ansible
-       4. ✅ Kwaksé & technos
-       5. ✅ Repo github & script principal
-       6. ✅ Majs
-       7. ✅ ! template vars file > add techno & go common (afin de différencier les noms des scripts et des commandes, etc.)
-       8. ✅ ! folder path
-       9. ✅ README sur serveur également, à la racine du projet
-    6. playbooks supplémentaires
+    1. playbooks supplémentaires
        1. ✅ stop stack / ansible-install-web-server\ansible\51-stop-traefik-service.yml
        2. ✅ Utiliser const_prefix pour la generation de starts
           1. 100---hello--masamune--fr---nginx-stack--start--generated
@@ -101,7 +91,7 @@ Trucs sur le **Serveur**
        1. 2-3 trucs/plugins a regarder en plus pour WP : [doc](https://www.litespeedtech.com/open-source) & [site dédié](https://lscache.io/)
        2. test-litespeed.masamune.fr
     6. 🌱 Chaque serveur > Tester WP (install via wp-cli ?)
-9.  Cleaner / Relancer clients actuels
+9. Cleaner / Relancer clients actuels
     1. Lapie
        1. Cleaner au niveau du serveur dashed-uri > .com ou .fr
     2. Nonore
@@ -152,18 +142,18 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
 - ✅ Déclaration Auto entrepreneur
-- ✅ Vérifier impôts sur espace / Dernière vérif 01/06/2021
+- ✅ Vérifier impôts sur espace / Dernière vérif 22/06/2021
   - ✅ Perso
   - ✅ Pro
 - ✅ Maj locales / Environnement de dev / Dernière maj le 01/06/21
   - ✅ Windaube update
-  - ✅ Docker desktop (tray > icône > RC > Check for updates)
+  - ✅ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
   - ✅ WSL
     - ✅ Version Ubuntu
       - 🚀 Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
-    - ✅ Packages & terminal, cf. ci dessous 1 liner
+    - ✅ Packages & terminal, `sudo apt -y update && sudo apt -y upgrade`
 - ✅ Maj serveur, script maintenance
-  - ✅ `98-maintenance.yml & sudo apt update && sudo apt -y upgrade & reboot si besoin`
+  - ✅ `98-maintenance.yml & sudo apt -y update && sudo apt -y upgrade` & reboot si besoin
   - ✅ Maj Lapie HMAC
 - ✅ Tout est Versionné, pas de WIP qui traîne
 
@@ -185,7 +175,8 @@ sudo apt update && sudo apt -y upgrade && omz update && git -C ${ZSH_CUSTOM:-$HO
   - Site KO au 15/05/21 (maintenance ?), toujours KO le 19/05/21
   - Toujours rien au 26/05/21
   - Toujours rien au 01/06/21
-- 🌱 21/05/2021 > Commande d'un hébergement ovh dédié aux picards (ovh manager > bare metal ? kimsufi) > rebasculer sur le nouveau serveur quand il sera terminé
+  - Toujours rien au 22/06/21
+- 🌱 21/05/2021 > Heberg picard > Basculer sur nouveau serveur & annuler
 
 ## 💥 Tâches critiques
 

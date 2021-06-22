@@ -110,6 +110,7 @@ Sites > crunchyroll / otakufr . co
 - August Underground
 - Army of the dead
 - Babylon babies
+- Bad cops
 - Bad lieutenant
 - battlefield baseball
 - bloody birthday
@@ -141,6 +142,7 @@ Sites > crunchyroll / otakufr . co
 - Enter the void
 - Eternal sunshine of the spotless mind
 - Exchange students
+- Ex Machina
 - Exit Through the Gift Shop
 - Fist of jesus
 - First love le dernier yakuza
@@ -191,7 +193,9 @@ Sites > crunchyroll / otakufr . co
 - Pandorum
 - Park_Chan-wook / filmo
 - Penelope
+- Pompidou / netflix
 - Primer
+- Re-Animator
 - red line expert
 - red is dead
 - Revanche
@@ -235,10 +239,12 @@ Sites > crunchyroll / otakufr . co
 - trainspotting
 - Triangle
 - un justicier dans la ville
+- Un poisson nommé wanda
 - under the skin
 - usual suspects
 - Varta
 - Vampire’s kiss
+- Videodrome
 - Vinyan
 - war dogs
 - Werner Herzog / réalisateur
@@ -275,12 +281,14 @@ Sites > crunchyroll / otakufr . co
 - Série [Japanese spiderman](https://www.youtube.com/watch?v=d5NCSx5HF8c)
 - sharknado
 - Short circuit (vieux, ui)
+- Street fighter la série US 1995
 - The legend of Simon conjurer
 - The room
 - Turbo Kid
 - Turkish spiderman
 - ✅ sigh/5 Undead
 - Violent Shit: The Movie
+- Who killed captain alex / 1st uganda action movie
 - Zombie Ass: The Toilet of the Dead (2011)
 - zombi 3
 
@@ -363,6 +371,7 @@ Sites > crunchyroll / otakufr . co
 - DevilDriver
 - dreadful silence
 - ensiferum
+- Epica > Design your universe
 - Faith no more
 - First Fragment
 - Ghost
@@ -378,6 +387,7 @@ Sites > crunchyroll / otakufr . co
 - Origin
 - ost
   - American beauty
+  - Attack on titan
   - Bleach ost > Precipice of Defeat
   - [Nero - Must Be The Feeling (Delta Heavy Remix)](https://www.youtube.com/watch?v=9W04IKR1E2M)
   - extra curicular
@@ -391,12 +401,14 @@ Sites > crunchyroll / otakufr . co
 - parkway drive
 - rob zombie
 - sceptic flesh
+- 🚀 Shaargot
 - Skald
 - skalmold
 - the agonist premiers albums
 - the prodigy
 - tilopes
 - trollfest
+- ultra vomit
 - unleash the archers
 - Walls of jericho
 - Wardruna
@@ -507,19 +519,20 @@ Une fois tout téléchargé, mettre à jour
 - and then they were none
 - Anihilation
 - Aphorism
+- black book
 - black list
 - black sail
 - britania
 - Candy or not candy
 - Chernobyl
 - Critical role
-- ✅ 2/5 Dark (netflix) / Voyage dans le temps (sans spoil lel) mais c'est lent putain
+- ✅ Dark (netflix) / 2/5 (leeennntt)  Vu la saison 1
 - designated survivor
 - Dinosaurs
 - Gravity falls
 - Hannibal
 - High maintenance !!!
-- mister pickles
+- ✅ mister pickles / 5/5 Vu jusqu'a la saison 4
 - Orphan black
 - oz
 - peep show
@@ -529,8 +542,9 @@ Une fois tout téléchargé, mettre à jour
 - see
 - Sense eight
 - Sexify
+- Spaced
 - The boyz
-- ✅ 5/5 the IT crew
+- ✅ the IT crew / 5/5
 - the square
 - The strain / guillermo del toro
 - top gears

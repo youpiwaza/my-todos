@@ -6,6 +6,9 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 
 ## ⚡️ Prio / Rapide
 
+- [Fastify Crash Course | Node.js Framework](https://www.youtube.com/watch?v=Lk-uVEVGxOA)
+- [Paper.js](http://paperjs.org/about/)
+- [25 VS Code Productivity Tips and Speed Hacks](https://www.youtube.com/watch?v=ifTF3ags0XI)
 - [tmux](https://nickjanetakis.com/blog/who-else-wants-to-boost-their-productivity-with-tmux)
 - [Use Javascript console like pro](https://dev.to/suprabhasupi/use-javascript-console-like-pro-3j1h?signin=true)
 - Adresse mail qui contient & ? genre max&max@gmail.com
