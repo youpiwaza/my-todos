@@ -21,7 +21,7 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 - Si besoin de focus, mettre une ou 2 tâches ici.
 
-1. ⏳ Virement remb emprunt
+1. ✅ Virement remb emprunt
 2. WP picard > spam (gérer akismet avec fabien)
 3. Picard > [Facture NDD](https://mail.google.com/mail/u/0/#inbox/FMfcgzGkXmXskZGnssdlnZBXTBWbFbzg)
 4. CPF
@@ -38,14 +38,14 @@ Trucs sur le **Serveur**
 2. forge playbookS
     1. playbooks supplémentaires
        1. ✅ stop stack / ansible-install-web-server\ansible\51-stop-traefik-service.yml
-          1. 🚀🚀🚀 Créer une rôle quand même, sinon la tâche ne sera dispo qu'après génération (pas de possibilité de ponctuel, etc.)
+          1. ✅ Créer une rôle quand même, sinon la tâche ne sera dispo qu'après génération (pas de possibilité de ponctuel, etc.)
        2. Generated doc
-          1. prefix 100-
-          2. à la racine également
-       3. ✅ Utiliser const_prefix pour la generation de starts
+          1. ✅ prefix 100-
+          2. ✅ à la racine également
+       3. ✅ Utiliser const_prefix pour les playbooks générés (vu qu'il va y en avoir 4+ pour chaque projet, cela permet l'alpha-order)
           1. 100---hello--masamune--fr---nginx-stack--start--generated
           2. la^
-       4. uninstall stack (stop + rm volumes)
+       4. 🚀 uninstall stack (stop + rm volumes)
           1. Création du rôle
           2. Génération playbook par site (se baser sur start > deploy)
        5. save volumes ponctuel
