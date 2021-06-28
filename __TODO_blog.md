@@ -254,6 +254,7 @@ Réinstaller le package défectueux :
 
 ## Vérifications de fin de site
 
+- Gestion des images : `<picture>` avec fallback avif > webp > jpg, cf. [LDL](https://docs.google.com/spreadsheets/d/1COXPrsJgAJyfXOT7aNZULCDMOYhctlzI5kXOxw7vE64/edit#gid=757921254)
 - [I Got a Perfect Lighthouse Score on My First Portfolio Website!](https://dev.to/prnvbirajdar/my-first-portfolio-website-using-next-tailwind-and-typescript-4lg3)
 - [Site bio / Opti / WDD / 3 EFFECTIVE WAYS TO IMPROVE YOUR SITE’S CARBON FOOTPRINT](https://www.webdesignerdepot.com/2021/04/3-effective-ways-to-improve-your-sites-carbon-footprint/)
 - [Simulating color vision deficiencies in the Blink Renderer](https://developer.chrome.com/blog/cvd/) / [vidéo](https://www.youtube.com/watch?v=34iDTeCNTz4)
