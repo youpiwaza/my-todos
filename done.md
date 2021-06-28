@@ -2,9 +2,31 @@
 
 Les tâches terminées des semaines précédentes :)
 
-## 21/06/21
+## 28/06/21
 
 hey
+
+## 21/06/21
+
+Perso
+
+- ✅ Mairie reims déménagement 10 07 21 > bloquer parking devant
+  - Fait le 23/06/2021
+- ✅ Je dois 30€ a sofia
+
+AE
+
+- ✅ Deprecated all old react projects
+- ✅ Facture passerelle juin 2021
+
+Serveur
+
+1. forge playbookS
+    1. playbooks supplémentaires
+       1. ✅ stop stack / ansible-install-web-server\ansible\51-stop-traefik-service.yml
+       2. ✅ Utiliser const_prefix pour la generation de starts
+          1. 100---hello--masamune--fr---nginx-stack--start--generated
+          2. la^
 
 ## 07/06/221
 

@@ -4,10 +4,14 @@ Noter et organiser les différents liens de veille à voir, sans encombrer le na
 
 Essayer de faire un crash test par semaine, genre le vendredi.
 
+- [Framework react > tailwindcss](https://tailwindcss.com/) / pour folio ?
+- [Browser polypane pour opti sites](https://polypane.app/)
+- [flutter dev mobile/desktop apps](https://flutter.dev/)
+
 ## ⚡️ Prio / Rapide
 
 - [Advanced patterns for Progressive Web Apps (Spanish with English subtitles)](https://www.youtube.com/watch?v=PPJKljH1dn8)
-
+- [flutter demo](https://www.youtube.com/watch?v=7JdcGBSWo50)
 - [Fastify Crash Course | Node.js Framework](https://www.youtube.com/watch?v=Lk-uVEVGxOA)
 - [Paper.js](http://paperjs.org/about/)
 - [25 VS Code Productivity Tips and Speed Hacks](https://www.youtube.com/watch?v=ifTF3ags0XI)
@@ -20,6 +24,8 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 - [Beautify Your GitHub Profile like a Pro](https://dev.to/ruppysuppy/beautify-your-github-profile-like-a-pro-5093)
 - [Grafikart PWA](https://www.youtube.com/watch?v=5f1M_cu2eDM)
 
+- [Tester différents bundlers](https://bundlers.tooling.report/)
+- [LT Browser- Mobile View Debugging On 50+ Screen Sizes](https://www.lambdatest.com/lt-browser/)
 - [The new responsive: Web design in a component-driven world | Session](https://www.youtube.com/watch?v=jUQ2-C5ZNRc)
 - [Animation + légères et + mieux](https://lottiefiles.com/)
 - [6 GitHub Repos For Instant Knowledge Boost](https://dev.to/mfarajewicz/6-github-repos-for-instant-knowledge-boost-3mo0)
@@ -137,7 +143,6 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 
 ### Frameworks
 
-- [tailwindcss](https://tailwindcss.com/)
 - [Next.js / React framework](https://nextjs.org/)
 - Preact
 

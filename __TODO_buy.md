@@ -16,6 +16,7 @@
 - ✅ Miel gelée royale
 - ✅ Huile de foie de morue
 - [Perilla_oil](https://en.wikipedia.org/wiki/Perilla_oil)
+- [Sauce otafuku](https://www.otafukusauce.com/e/)
 - [Sel d'icelande](https://www.amazon.fr/Saltverk-Pure-Flaky-Sea-salt/dp/B06XKSFW4P) / [Vidéo](https://www.youtube.com/watch?v=dgzwxRSJyfw)
 - Sucre muscovado
 - [Vodka rammstein](https://shop.rammstein.de/en/catalog/Menu/rammstein-vodka-feuer-wasser.html)

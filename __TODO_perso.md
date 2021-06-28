@@ -5,29 +5,27 @@ Sert à trier les trucs soit à faire rapidement soit à abandonner.
 ## _Priorité
 
 1. Je dois ~15 balles a margot (trop perçu NDD)
-2. Rembourser 500 balles restants jean luc
-3. Compléments alimentaires Bidochons
+2. Compléments alimentaires Bidochons
    - Arbi > sclérose en plaque
    - Hifiki > anémie
    - Unmeboshi > **foies engorgés**
    - Makuri > vers intestinaux
    - Takuan
-4. [Sticker stop pub](https://www.ecologie.gouv.fr/stop-pub)
-5. RDV Ophtalmologie express avenue de Laon
-6. Dentiste
-7. Check RIB
-   1. secu
-   2. mutuelle
-8. Prendre un VPN
+3. [Sticker stop pub](https://www.ecologie.gouv.fr/stop-pub)
+4. RDV Ophtalmologie express avenue de Laon
+5. Dentiste
+6. ✅ Check RIB
+   1. ✅ secu
+   2. ✅ mutuelle
+7. Prendre un VPN
    1. [avast ?](https://store.avast.com/store/avast/fr_FR/buy/productID.5131300300/ThemeID.4871168000/Currency.EUR/OfferID.62893304010/campaignMarker.WDS~fr-fr~secureline-vpn~~~003_a5e/CustomID.VSOFF/clearCart.1/isGeoLocation.1?_ga=2.115364870.1811711959.1620808371-2071611292.1620808371)
    2. [express](https://www.expressvpn.com/order)
-9. Vidéos en souffrance
+8. Vidéos en souffrance
     1. [Citizen kitano](https://www.youtube.com/watch?v=-H1xBQ4exto)
-10. Faire un backup du pc (BLACKSCREEN)
-11. Faire réparer guitare
-12. Faire réparer PC port HDMI
-13. Relancer boxe remboursement 2020-2021 500 balles
-14. Historique frais banque découvert > contrat > illégal > remboursement
+9. Faire un backup du pc (BLACKSCREEN)
+10. Faire réparer guitare
+11. Faire réparer PC port HDMI
+12. Relancer boxe remboursement 2020-2021 500 balles
 
 ## Animés
 
@@ -39,7 +37,7 @@ Sites > crunchyroll / otakufr . co
 - Attack of titan
 - baoh le visiteur
 - batman ninja
-- beserk
+- ✅ beserk
 - blue gender
 - Devil May Cry
 - Blame
@@ -52,7 +50,8 @@ Sites > crunchyroll / otakufr . co
 - ✅ Elfen lied / 5/5
 - Fade zero
 - Fate stay night Unlimited bladeworks
-- 🚀 Food wars / 4/5
+- ✅ Food wars / 4/5
+  - 🌱 S6
 - ✅ Gambling school (Kakegurui) / 4/5
   - 🌱 S3
 - Gates
@@ -61,6 +60,8 @@ Sites > crunchyroll / otakufr . co
 - gungraves
 - hellsing & ultimate
 - ✅ jojo bizarre adventure / 5/5
+  - 🌱 S5 Part 6
+- 🚀 How not to summon a demon lord / 3/5 / Bon scénar mais trop de boobs
 - kaiji
 - [kamen rider X](https://www.youtube.com/watch?v=xBcJTVIxBak)
 - Kawaki wo Ameku
@@ -74,7 +75,8 @@ Sites > crunchyroll / otakufr . co
 - [Saki (mahjong)](https://www.anime-planet.com/anime/saki/videos)
 - ✅ sasami-san @ ganbaranai / 5/5 wtf
 - shigurui
-- ♻️🚀 Soul eater / 5/5
+- ♻️ Soul eater / 4/5
+- ✅ Steins;Gate / 5/5
 - Steins;Gate / Fuka ryouiki no Déjà Vu
 - Steins gate / Saison 2 !
 - Steins gate films / Shisha no Teikoku
@@ -151,7 +153,7 @@ Sites > crunchyroll / otakufr . co
 - Fu manchu
 - Funny game
 - Futari
-- 🚀 Galaxy Quest
+- 📌 Galaxy Quest
 - gaspard noé > tout
 - Gattaca
 - Ghost dog
@@ -186,7 +188,7 @@ Sites > crunchyroll / otakufr . co
 - mise a prix
 - Moon
 - morse, let me in
-- 🚀 Mother
+- 📌 Mother
 - Nameless gangster
 - narc
 - pas un mot
@@ -199,7 +201,7 @@ Sites > crunchyroll / otakufr . co
 - red line expert
 - red is dead
 - Revanche
-- 🚀 Revolver, de Guy richie (netflix)
+- 📌 Revolver, de Guy richie (netflix)
 - riley rewind
 - rigor mortis, de juno mak
 - [Robo vampire](https://www.youtube.com/watch?v=kPFYwKC_JDc) < sur yt
@@ -286,7 +288,7 @@ Sites > crunchyroll / otakufr . co
 - The room
 - Turbo Kid
 - Turkish spiderman
-- ✅ sigh/5 Undead
+- ✅ Undead sigh/5
 - Violent Shit: The Movie
 - Who killed captain alex / 1st uganda action movie
 - Zombie Ass: The Toilet of the Dead (2011)
@@ -294,6 +296,7 @@ Sites > crunchyroll / otakufr . co
 
 ## Jeux
 
+- A plague tale
 - Alien Isolation
 - Bound by flame
 - Conker bad fur day
@@ -303,7 +306,7 @@ Sites > crunchyroll / otakufr . co
 - [Deus](https://www.youtube.com/watch?v=LyNIcM2Gqpc)
 - dragon dogma
 - dropsy le clown
-- ✅ 5/5 / Electronic super joy
+- ✅ Electronic super joy / 5/5
 - Hades
 - Light apprentice
 - megalovania
@@ -355,6 +358,7 @@ Sites > crunchyroll / otakufr . co
 ## Musiques
 
 - Tout les favoris /zik/peinture
+- Liens dans liste wtf
 - All that remains
 - amon amarth
 - arch enemy premiers albums
@@ -368,6 +372,7 @@ Sites > crunchyroll / otakufr . co
 - crossfaith
 - cruachan
 - Dark archive
+- [David Hasselhoff – The Passenger](https://www.youtube.com/watch?v=XKdKU6p78TQ)
 - DevilDriver
 - dreadful silence
 - ensiferum
@@ -388,6 +393,7 @@ Sites > crunchyroll / otakufr . co
 - ost
   - American beauty
   - Attack on titan
+  - Bioshock 2
   - Bleach ost > Precipice of Defeat
   - [Nero - Must Be The Feeling (Delta Heavy Remix)](https://www.youtube.com/watch?v=9W04IKR1E2M)
   - extra curicular
@@ -401,7 +407,7 @@ Sites > crunchyroll / otakufr . co
 - parkway drive
 - rob zombie
 - sceptic flesh
-- 🚀 Shaargot
+- 📌 Shaargot
 - Skald
 - skalmold
 - the agonist premiers albums
@@ -526,13 +532,15 @@ Une fois tout téléchargé, mettre à jour
 - Candy or not candy
 - Chernobyl
 - Critical role
-- ✅ Dark (netflix) / 2/5 (leeennntt)  Vu la saison 1
+- ✅ Dark (netflix) / 2/5 (leeennntt)
+  - 🚀 Saison 2
 - designated survivor
 - Dinosaurs
 - Gravity falls
 - Hannibal
 - High maintenance !!!
-- ✅ mister pickles / 5/5 Vu jusqu'a la saison 4
+- ✅ mister pickles  / 4/5
+  - 🌱 Saison 5
 - Orphan black
 - oz
 - peep show
@@ -548,6 +556,8 @@ Une fois tout téléchargé, mettre à jour
 - the square
 - The strain / guillermo del toro
 - top gears
+- Vikings
+  - 🌱 Saison 6, 2 eme partie
 - West World
 
 ## Visiter
