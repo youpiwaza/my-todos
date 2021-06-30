@@ -21,20 +21,16 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 - Si besoin de focus, mettre une ou 2 tâches ici.
 
-1. ✅ Virement remb emprunt
-2. WP picard > spam (gérer akismet avec fabien)
-3. Picard > [Facture NDD](https://mail.google.com/mail/u/0/#inbox/FMfcgzGkXmXskZGnssdlnZBXTBWbFbzg)
-4. CPF
-5. Appeler damien pour aout
+1. WP picard > spam (gérer akismet avec fabien)
+2. CPF
+3. Appeler damien pour aout
    1. Inviter guillaume wawrhammers
-6. Appeler parents > Lit vigi stocké dans ma chambre
-7. Gérer déménagement box sfr, voir avec Pierre
-8. ⏳ Réservation Black sheep 3 juillet 8 personnes
-   1. Attente confirmation
+4. Appeler parents > Lit vigi stocké dans ma chambre
+5. ⏳ Décla AE juin
 
 Trucs sur le **Serveur**
 
-1. Nouveau NDD masa > demo.masamune.fr afin de pouvoir montrer le déploiement
+1. ⏳ Maj WP 5.8 / Attente bitnami (5.7.2)
 2. forge playbookS
     1. playbooks supplémentaires
        1. ✅ stop stack / ansible-install-web-server\ansible\51-stop-traefik-service.yml
@@ -45,11 +41,18 @@ Trucs sur le **Serveur**
        3. ✅ Utiliser const_prefix pour les playbooks générés (vu qu'il va y en avoir 4+ pour chaque projet, cela permet l'alpha-order)
           1. 100---hello--masamune--fr---nginx-stack--start--generated
           2. la^
-       4. 🚀 uninstall stack (stop + rm volumes)
-          1. Création du rôle
-          2. Génération playbook par site (se baser sur start > deploy)
-       5. save volumes ponctuel
+       4. ✅ uninstall stack (stop + rm volumes)
+          1. ✅ Création du rôle *stack-web-nginx--uninstall* / se baser sur deploy)
+          2. ✅ Génération playbook par site `roles/stack-web-nginx--generate-playbooks/templates/original---nginx-playbook-start.yml`
+          3. ✅ rôle wordpress
+          4. ✅ playbook wordpress
+       5. 🚀 save volumes
           1. Création de l'arborescence, attention au répertoire année courante
+          2. ponctuel pour un volume souhaité
+          3. volumes nginx
+             1. Ajouter sauvegarde avant uninstall
+          4. volumes wordpress
+             1. Ajouter sauvegarde avant uninstall
        6. Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
           1. Note: Probablement moyen de faire qu'un seul rôle, utilisé dans tous les playbooks webs
           2. Rôle ajout

@@ -4,7 +4,20 @@ Les tâches terminées des semaines précédentes :)
 
 ## 28/06/21
 
-hey
+Perso
+
+- ✅ Virement remb emprunt juillet
+- ✅ Gérer déménagement box sfr, voir avec Pierre
+- ✅ Réservation Black sheep 3 juillet 8 personnes
+
+AE
+
+- ✅ Nouveau NDD masa > demo.masamune.fr afin de pouvoir montrer le déploiement
+- ✅ Clean noms de domaines masa
+
+Serveur
+
+- hey
 
 ## 21/06/21
 

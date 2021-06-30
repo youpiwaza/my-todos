@@ -250,6 +250,7 @@ Sites > crunchyroll / otakufr . co
 - Vinyan
 - war dogs
 - Werner Herzog / réalisateur
+- Westworld
 - Why don't you play in hell
 - your name
 - zodiac
@@ -290,7 +291,8 @@ Sites > crunchyroll / otakufr . co
 - Turkish spiderman
 - ✅ Undead sigh/5
 - Violent Shit: The Movie
-- Who killed captain alex / 1st uganda action movie
+- 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Who killed captain alex / 1st uganda action movie / sur youtube
+  - Bad black / Who killed captain alex 2 / 2st uganda action movie
 - Zombie Ass: The Toilet of the Dead (2011)
 - zombi 3
 

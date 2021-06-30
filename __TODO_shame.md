@@ -1,9 +1,10 @@
 # Shame / Vider la tête sans rien oublier
 
-1. Extraire vérifications de fin de site et en faire un github dédié
-2. Rappatrier [bundle graphisme](https://fr.humblebundle.com/downloads?key=8tsa2FBNH42sPcGY) et même tous les bundle !
+1. Récup [ancien blog](http://recup-blog.masamune.fr/) + bureau/shame/blog 1.0
+2. Extraire vérifications de fin de site et en faire un github dédié
+3. Rappatrier [bundle graphisme](https://fr.humblebundle.com/downloads?key=8tsa2FBNH42sPcGY) et même tous les bundle !
    1. ressources > dd boulow & drive ou github privé
-3. Ranger doc entreprise masa
+4. Ranger doc entreprise masa
    1. drive travail > docu
    2. Travail > masa > docu
 
