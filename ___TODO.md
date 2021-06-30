@@ -47,12 +47,18 @@ Trucs sur le **Serveur**
           3. ✅ rôle wordpress
           4. ✅ playbook wordpress
        5. 🚀 save volumes
-          1. Création de l'arborescence, attention au répertoire année courante
-          2. ponctuel pour un volume souhaité
+          1. ✅ Création de l'arborescence, attention au répertoire année courante, cf. nomenclature-and-folder-tree.md
+          2. 🚀 Ponctuel pour un volume souhaité, `cf. commandes-backup-volumes-a-la-maing_secret.md`
+             1. Variables : nom du volume & dossier de destination a l'intérieur
+             2. Automatiser arbo, nom & date de l'archive
           3. volumes nginx
-             1. Ajouter sauvegarde avant uninstall
+             1. role (besoin de rôles différents a cause des dossiers de destination différents)
+             2. playbook
+             3. Ajouter sauvegarde avant uninstall
           4. volumes wordpress
-             1. Ajouter sauvegarde avant uninstall
+             1. role
+             2. playbook
+             3. Ajouter sauvegarde avant uninstall
        6. Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
           1. Note: Probablement moyen de faire qu'un seul rôle, utilisé dans tous les playbooks webs
           2. Rôle ajout
