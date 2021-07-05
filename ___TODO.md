@@ -170,9 +170,9 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
   - ✅ WSL
     - ✅ Version Ubuntu
       - ✅ Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
-    - ✅ Packages & terminal, `omz update && git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt -y upgrade`
+    - ✅ Packages & terminal, `omz update && git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && apt --fix-broken install && sudo apt -y upgrade`
 - ✅ Maj serveur, script maintenance
-  - ✅ `98-maintenance.yml & sudo apt -y update && sudo apt -y upgrade` & reboot si besoin
+  - ✅ `98-maintenance.yml` & `sudo apt -y update && apt --fix-broken install && sudo apt -y upgrade` & reboot si besoin
   - ✅ Maj Lapie HMAC
 - ✅ Tout est Versionné, pas de WIP qui traîne
 
