@@ -25,51 +25,28 @@ Indiquer ici les *tâches à effectuer en priorité*
 2. CPF
 3. Appeler damien pour aout
    1. Inviter guillaume wawrhammers
-4. Appeler parents > Lit vigi stocké dans ma chambre
-5. ⏳ Décla AE juin
+4. 🚀 Re-commander compléments alimentaires
+5. Renouveler anti virus [eset](https://a7286.boutique-eset.com/renouveler-sa-licence?lic=EAV-0232681294&hash=yLLLFeMk6/TOqsPDgGPSeRsPxQgPBAtX0ZscRxHqkPC35cB7QkUa&utm_campaign=renew&utm_content=eav&utm_medium=ipm&utm_source=application&utm_term=_3_renew_4_fr_5_eav_6_30-26e_7_q3-2020)
+6. Site [taf indépendants](https://www.ouiboss.com/)
 
 Trucs sur le **Serveur**
 
 1. ⏳ Maj WP 5.8 / Attente bitnami (5.7.2)
 2. forge playbookS
-    1. playbooks supplémentaires
-       1. ✅ stop stack / ansible-install-web-server\ansible\51-stop-traefik-service.yml
-          1. ✅ Créer une rôle quand même, sinon la tâche ne sera dispo qu'après génération (pas de possibilité de ponctuel, etc.)
-       2. Generated doc
-          1. ✅ prefix 100-
-          2. ✅ à la racine également
-       3. ✅ Utiliser const_prefix pour les playbooks générés (vu qu'il va y en avoir 4+ pour chaque projet, cela permet l'alpha-order)
-          1. 100---hello--masamune--fr---nginx-stack--start--generated
-          2. la^
-       4. ✅ uninstall stack (stop + rm volumes)
-          1. ✅ Création du rôle *stack-web-nginx--uninstall* / se baser sur deploy)
-          2. ✅ Génération playbook par site `roles/stack-web-nginx--generate-playbooks/templates/original---nginx-playbook-start.yml`
-          3. ✅ rôle wordpress
-          4. ✅ playbook wordpress
-       5. 🚀 save volumes
-          1. ✅ Création de l'arborescence, attention au répertoire année courante, cf. nomenclature-and-folder-tree.md
-          2. 🚀 Ponctuel pour un volume souhaité, `cf. commandes-backup-volumes-a-la-maing_secret.md`
-             1. Variables : nom du volume & dossier de destination a l'intérieur
-             2. Automatiser arbo, nom & date de l'archive
-          3. volumes nginx
-             1. role (besoin de rôles différents a cause des dossiers de destination différents)
-             2. playbook
-             3. Ajouter sauvegarde avant uninstall
-          4. volumes wordpress
-             1. role
-             2. playbook
-             3. Ajouter sauvegarde avant uninstall
-       6. Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
-          1. Note: Probablement moyen de faire qu'un seul rôle, utilisé dans tous les playbooks webs
-          2. Rôle ajout
-          3. Rôle suppression
-       7. Prévoir dev & prod > 1 seul script mais url change, même users & pass
-          1. [Bonnes pratiques docker/compose](https://nickjanetakis.com/blog/best-practices-around-production-ready-web-apps-with-docker-compose)
-             1. Variables d'environnement dans DC
-          2. Check ansible > vars d'environnement afin de maj dev. ou prod
-          3. Gestion dev/prod : 1 seul fichier
-          4. ENV vars ++
-          5. Volumes en fonction de l'environnement ¤_¤
+    1. Manual > Restore backup
+    2. 🚀 Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
+       1. ~~Revoir [chroot jail](https://www.tecmint.com/restrict-ssh-user-to-directory-using-chrooted-jail/)~~
+       2. 🔍Utiliser SFTP: seulement autorisé aux file transfer, mieux pour les clients [hey](https://www.tecmint.com/restrict-sftp-user-home-directories-using-chroot/) / pas de bash ou autre
+       3. Note: Probablement moyen de faire qu'un seul rôle, utilisé dans tous les playbooks webs
+       4. Rôle ajout
+       5. Rôle suppression
+    3. Prévoir dev & prod > 1 seul script mais url change, même users & pass
+       1. Utiliser docker-compose.override.yml ? [Bonnes pratiques docker/compose](https://nickjanetakis.com/blog/best-practices-around-production-ready-web-apps-with-docker-compose)
+          1. Variables d'environnement dans DC
+       2. Check ansible > vars d'environnement afin de maj dev. ou prod
+       3. Gestion dev/prod : 1 seul fichier
+       4. ENV vars ++
+       5. Volumes en fonction de l'environnement ¤_¤
 3. harmoniser builder guy > tout THE_BUiLDER_GUY, idem autres XXX_GUY
 4. Tutum > remplacer par nginx
     1. Faire tourner déjà ca serait bien, go ctrl + f "curated"
@@ -128,6 +105,7 @@ Trucs sur le **Serveur**
         1. [?](https://docs.ansible.com/ansible/latest/reference_appendices/config.html#default-managed-str)
     2. [ansible prompt](https://docs.ansible.com/ansible/latest/user_guide/playbooks_prompts.html)
 14. install-dev-env > docker-compose pour les principales technos : js & phpay
+15. Mettre en place pour docker_peon [chroot jail](https://www.tecmint.com/restrict-ssh-user-to-directory-using-chrooted-jail/) et virer toutes les commandes
 
 ### Sinon, priorisation classique
 
@@ -161,20 +139,20 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
 - ✅ Déclaration Auto entrepreneur
-- ✅ Vérifier impôts sur espace / Dernière vérif 22/06/2021
+- ✅ Vérifier impôts sur espace / Dernière vérif 05/07/2021
   - ✅ Perso
   - ✅ Pro
-- ✅ Maj locales / Environnement de dev / Dernière maj le 01/06/21
+- ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21
   - ✅ Windaube update
   - ✅ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
-  - ✅ WSL
+  - ⏳ WSL
     - ✅ Version Ubuntu
       - ✅ Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
-    - ✅ Packages & terminal, `omz update && git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && apt --fix-broken install && sudo apt -y upgrade`
+    - ✅ Packages & terminal, `omz update && git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade`
 - ✅ Maj serveur, script maintenance
-  - ✅ `98-maintenance.yml` & `sudo apt -y update && apt --fix-broken install && sudo apt -y upgrade` & reboot si besoin
+  - ✅ `98-maintenance.yml` & `sudo apt -y update && sudo apt --fix-broken install && sudo apt -y upgrade` & reboot si besoin
   - ✅ Maj Lapie HMAC
-- ✅ Tout est Versionné, pas de WIP qui traîne
+- ⏳ Tout est Versionné, pas de WIP qui traîne
 
 ## ⏳ En attente
 

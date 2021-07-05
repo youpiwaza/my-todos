@@ -2,6 +2,10 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 05/07/21
+
+hey
+
 ## 28/06/21
 
 Perso
@@ -14,10 +18,48 @@ AE
 
 - ✅ Nouveau NDD masa > demo.masamune.fr afin de pouvoir montrer le déploiement
 - ✅ Clean noms de domaines masa
+- ✅ Décla AE juin
 
 Serveur
 
-- hey
+1. ✅ FIX: Ajouter la réaparation auto des dépendances
+   1. [state: fixed](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_module.html#parameter-state)
+   2. ✅ system-update > update-packages
+   3. ✅ package-installation
+2. forge playbookS
+    1. playbooks supplémentaires
+       1. ✅ stop stack / ansible-install-web-server\ansible\51-stop-traefik-service.yml
+          1. ✅ Créer une rôle quand même, sinon la tâche ne sera dispo qu'après génération (pas de possibilité de ponctuel, etc.)
+       2. Generated doc
+          1. ✅ prefix 100-
+          2. ✅ à la racine également
+       3. ✅ Utiliser const_prefix pour les playbooks générés (vu qu'il va y en avoir 4+ pour chaque projet, cela permet l'alpha-order)
+          1. 100---hello--masamune--fr---nginx-stack--start--generated
+          2. la^
+       4. ✅ uninstall stack (stop + rm volumes)
+          1. ✅ Création du rôle *stack-web-nginx--uninstall* / se baser sur deploy)
+          2. ✅ Génération playbook par site `roles/stack-web-nginx--generate-playbooks/templates/original---nginx-playbook-start.yml`
+          3. ✅ rôle wordpress
+          4. ✅ playbook wordpress
+       5. ✅ save volumes
+          1. ✅ Création de l'arborescence, attention au répertoire année courante, cf. nomenclature-and-folder-tree.md
+          2. ✅ Ponctuel pour un volume souhaité, `cf. commandes-backup-volumes-a-la-maing_secret.md`
+             1. ✅ Variables : nom du volume & dossier de destination a l'intérieur
+             2. ✅ Automatiser arbo, nom & date de l'archive
+             3. ✅ Sauvegarde en ligne
+                1. ✅ Extraire en rôle
+             4. ✅ Create a "latest" backup, to simplify the gathering
+             5. ✅ Rapatriement en local
+          3. ⛔🌱 Refacto création de volume
+             1. Créer un rôle avec variables nom de volume & dossier
+             2. Non, il y a également les labels, le type de volume, et les opérations particulières, pour le moment je préfère tout laisser groupé
+          4. ✅ volumes nginx
+             1. ✅ Générer playbookS sauvegarde
+             2. ✅ Ajouter sauvegarde avant uninstall
+          5. ✅ volumes wordpress
+             1. ✅✅ Générer playbookS sauvegarde
+             2. ✅ Ajouter sauvegarde avant uninstall
+          6. ✅ Revoir arbo des backups > Ajouter client & dashed-uri, avec des défauts dans les playbook 95-96
 
 ## 21/06/21
 

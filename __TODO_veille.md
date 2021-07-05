@@ -24,6 +24,9 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 - [Beautify Your GitHub Profile like a Pro](https://dev.to/ruppysuppy/beautify-your-github-profile-like-a-pro-5093)
 - [Grafikart PWA](https://www.youtube.com/watch?v=5f1M_cu2eDM)
 
+- [SVG Favicons](https://austingil.com/svg-favicons/)
+- [Amazon code guru](https://aws.amazon.com/fr/codeguru/)
+- [Optical size, the hidden superpower of variable fonts](https://pixelambacht.nl/2021/optical-size-hidden-superpower/)
 - [Tester différents bundlers](https://bundlers.tooling.report/)
 - [LT Browser- Mobile View Debugging On 50+ Screen Sizes](https://www.lambdatest.com/lt-browser/)
 - [The new responsive: Web design in a component-driven world | Session](https://www.youtube.com/watch?v=jUQ2-C5ZNRc)

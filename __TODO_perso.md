@@ -32,6 +32,7 @@ Sert à trier les trucs soit à faire rapidement soit à abandonner.
 Sites > crunchyroll / otakufr . co
 
 - Amer beton
+- ~ Ange vierge / 1/5
 - angel cop
 - Asobi asobase
 - Attack of titan
@@ -61,7 +62,8 @@ Sites > crunchyroll / otakufr . co
 - hellsing & ultimate
 - ✅ jojo bizarre adventure / 5/5
   - 🌱 S5 Part 6
-- 🚀 How not to summon a demon lord / 3/5 / Bon scénar mais trop de boobs
+- ✅ How not to summon a demon lord / 3/5 / Bon scénar mais trop de boobs
+  - 🌱 S3
 - kaiji
 - [kamen rider X](https://www.youtube.com/watch?v=xBcJTVIxBak)
 - Kawaki wo Ameku
@@ -81,6 +83,7 @@ Sites > crunchyroll / otakufr . co
 - Steins gate / Saison 2 !
 - Steins gate films / Shisha no Teikoku
 - Up
+- 🚀 Vinland saga / 5/5 ?
 - Zashiki warashi no tatami-chan
 - Zton Jingai Animation: A Beautiful Greed Nulu Nulu
 
@@ -405,6 +408,7 @@ Sites > crunchyroll / otakufr . co
   - [Legion of heroes](https://www.youtube.com/watch?v=4FchlZSwXvs&list=PLrgkfqG7JAcPQ6MzKZHwHn6o6GxxwIl5-)
   - nier automata & replicant
   - The Raid: Redemption
+  - Vinland saga
   - Wanted
 - parkway drive
 - rob zombie
