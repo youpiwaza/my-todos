@@ -21,20 +21,43 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 - Si besoin de focus, mettre une ou 2 tâches ici.
 
-1. WP picard > spam (gérer akismet avec fabien)
-2. CPF
-3. Appeler damien pour aout
+1. 💥 Musiques taf & portable
+2. WP picard > spam (gérer akismet avec fabien)
+3. CPF
+4. Appeler damien pour aout
    1. Inviter guillaume wawrhammers
-4. 🚀 Re-commander compléments alimentaires
-5. Renouveler anti virus [eset](https://a7286.boutique-eset.com/renouveler-sa-licence?lic=EAV-0232681294&hash=yLLLFeMk6/TOqsPDgGPSeRsPxQgPBAtX0ZscRxHqkPC35cB7QkUa&utm_campaign=renew&utm_content=eav&utm_medium=ipm&utm_source=application&utm_term=_3_renew_4_fr_5_eav_6_30-26e_7_q3-2020)
-6. Site [taf indépendants](https://www.ouiboss.com/)
+5. 🚀 Re-commander compléments alimentaires
+6. Renouveler anti virus [eset](https://a7286.boutique-eset.com/renouveler-sa-licence?lic=EAV-0232681294&hash=yLLLFeMk6/TOqsPDgGPSeRsPxQgPBAtX0ZscRxHqkPC35cB7QkUa&utm_campaign=renew&utm_content=eav&utm_medium=ipm&utm_source=application&utm_term=_3_renew_4_fr_5_eav_6_30-26e_7_q3-2020)
+7. Site [taf indépendants](https://www.ouiboss.com/)
 
 Trucs sur le **Serveur**
 
-1. ⏳ Maj WP 5.8 / Attente bitnami (5.7.2)
-2. forge playbookS
-    1. Manual > Restore backup
-    2. 🚀 Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
+1. forge playbookS
+    1. 🚀 Manual > Restore backup
+       1. ✅ manual > host
+       2. ✅ manual > local
+       3. ✅ nginx > host
+       4. ✅ nginx > local
+       5. ✅ wordpress > host
+       6. ✅ wordpress > local
+
+7. 🚀 Rajouter commande en dur pour vérifier contenu du volume, dans les playbooks de restauration de sauvegarde
+
+```bash
+docker run --rm -i -t  \
+    --mount source=NOM_DU_VOLUME_A_VERIFIER,destination=/home/whatever \
+    --userns=host \
+    -w /home/whatever \
+    alpine:latest \
+    /bin/ash
+
+# >> cd
+# >> ls
+```
+
+       7. nginx > add commands to readme
+       8. wordpress > add commands to readme
+    2. Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
        1. ~~Revoir [chroot jail](https://www.tecmint.com/restrict-ssh-user-to-directory-using-chrooted-jail/)~~
        2. 🔍Utiliser SFTP: seulement autorisé aux file transfer, mieux pour les clients [hey](https://www.tecmint.com/restrict-sftp-user-home-directories-using-chroot/) / pas de bash ou autre
        3. Note: Probablement moyen de faire qu'un seul rôle, utilisé dans tous les playbooks webs
@@ -47,33 +70,33 @@ Trucs sur le **Serveur**
        3. Gestion dev/prod : 1 seul fichier
        4. ENV vars ++
        5. Volumes en fonction de l'environnement ¤_¤
-3. harmoniser builder guy > tout THE_BUiLDER_GUY, idem autres XXX_GUY
-4. Tutum > remplacer par nginx
+2. harmoniser builder guy > tout THE_BUiLDER_GUY, idem autres XXX_GUY
+3. Tutum > remplacer par nginx
     1. Faire tourner déjà ca serait bien, go ctrl + f "curated"
     2. Utiliser vars d'environnement pour refaire un tutum mayzon: image + nom conteneur
-5. Bitnami
+4. Bitnami
     1. [Github issues](https://github.com/bitnami/bitnami-docker-mysql/issues/79#issuecomment-545477842) > Variable d'env afin d'augmenter le debug des conteneurs bitnami ! >> raisons explicites sur le problème de boot du conteneur
     2. Gestion notes dans ansible-install-web-server/ansible/203-setup-wordpress-lapie_secret.yml
     3. Lourder si serveurs web classique stabilité 100%, +1 speed
     4. Activer modules php
     5. Http 2/3
-6. Mise en place d'une admin SQL > [phpmyadmin](https://hub.docker.com/_/phpmyadmin)
+5. Mise en place d'une admin SQL > [phpmyadmin](https://hub.docker.com/_/phpmyadmin)
     1. Objectif 1 : Go nginx sur pma-test-wordpress.masamune.fr
         1. 🚀 .yml indépendant
         2. .yml de test-wordpress
     2. Objectif 2 : Go pma sur pma-test-wordpress.masamune.fr
        1. ^ Check DNS
-7. Monitoring > MOD: 4-setup-core-services.yml
+6. Monitoring > MOD: 4-setup-core-services.yml
     1. Alternative ? [traefik pilot](https://doc.traefik.io/traefik-pilot/)
     2. Alerte si CPU/RAM > 75%
     3. Alerte si space disque libre < 20%
     4. Checker ce qui prend de la place sur le disque ~80Go ? 13% de 450 > `docker system df -v` ; cf. backup des volumes
-8. Gestion des mails propre
+7. Gestion des mails propre
     1. Connexion au serveur SMPT du serveur ? cf. utils-emails
     2. [Conteneur postfix ?](https://hub.docker.com/_/postfixadmin)
     3. Ajout SPF/DKIM/DMARC
     4. Maj lapie & nonore
-9. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
+8. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
     1. ✅ NDDs
        1. Need modules de cache php activés
        2. HTTP 2/3 serait un vrai plus
@@ -87,7 +110,7 @@ Trucs sur le **Serveur**
        1. 2-3 trucs/plugins a regarder en plus pour WP : [doc](https://www.litespeedtech.com/open-source) & [site dédié](https://lscache.io/)
        2. test-litespeed.masamune.fr
     6. 🌱 Chaque serveur > Tester WP (install via wp-cli ?)
-10. Cleaner / Relancer clients actuels
+9. Cleaner / Relancer clients actuels
     1. Lapie
        1. Cleaner au niveau du serveur dashed-uri > .com ou .fr
     2. Nonore
@@ -96,16 +119,16 @@ Trucs sur le **Serveur**
        1. Maj ansible-install-web-server/commandes-backup-volumes-a-la-maing_secret.md (dashed notation)
        2. (normalement d'ici la les roles de backups seront générés auto :3)
        3. Backup
-11. Gestion des backups
+10. Gestion des backups
     1. Ajout au CRON
     2. Envoi vers serveur de backup + rotation/sauvegarde incrémentielle
-12. Lint done : ansible-install-web-server > README.MD
-13. Ansible convenience
+11. Lint done : ansible-install-web-server > README.MD
+12. Ansible convenience
     1. Clean templating, variable [deprecated ansible_managed](https://docs.ansible.com/ansible/2.4/intro_configuration.html#ansible-managed)
         1. [?](https://docs.ansible.com/ansible/latest/reference_appendices/config.html#default-managed-str)
     2. [ansible prompt](https://docs.ansible.com/ansible/latest/user_guide/playbooks_prompts.html)
-14. install-dev-env > docker-compose pour les principales technos : js & phpay
-15. Mettre en place pour docker_peon [chroot jail](https://www.tecmint.com/restrict-ssh-user-to-directory-using-chrooted-jail/) et virer toutes les commandes
+13. install-dev-env > docker-compose pour les principales technos : js & phpay
+14. Mettre en place pour docker_peon [chroot jail](https://www.tecmint.com/restrict-ssh-user-to-directory-using-chrooted-jail/) et virer toutes les commandes
 
 ### Sinon, priorisation classique
 
@@ -152,11 +175,11 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 - ✅ Maj serveur, script maintenance
   - ✅ `98-maintenance.yml` & `sudo apt -y update && sudo apt --fix-broken install && sudo apt -y upgrade` & reboot si besoin
   - ✅ Maj Lapie HMAC
-- ⏳ Tout est Versionné, pas de WIP qui traîne
+- ✅ Tout est Versionné, pas de WIP qui traîne
 
 ## ⏳ En attente
 
-Rieng
+1. ⏳ Serveur > Maj WP 5.8 / Attente bitnami (5.7.2)
 
 ### ⏳🌱 Vérifications sur la longueur
 
@@ -170,6 +193,7 @@ Rieng
   - Toujours rien au 01/06/21
   - Toujours rien au 22/06/21
   - Toujours rien au 28/06/21
+  - Toujours rien au 05/07/21
 - 🌱 21/05/2021 > Heberg picard > Basculer sur nouveau serveur & annuler
 
 ## 💥 Tâches critiques
