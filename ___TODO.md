@@ -33,37 +33,25 @@ Indiquer ici les *tâches à effectuer en priorité*
 Trucs sur le **Serveur**
 
 1. forge playbookS
-    1. 🚀 Manual > Restore backup
+    1. ✅ Manual > Restore backup
        1. ✅ manual > host
        2. ✅ manual > local
        3. ✅ nginx > host
        4. ✅ nginx > local
        5. ✅ wordpress > host
        6. ✅ wordpress > local
-
-7. 🚀 Rajouter commande en dur pour vérifier contenu du volume, dans les playbooks de restauration de sauvegarde
-
-```bash
-docker run --rm -i -t  \
-    --mount source=NOM_DU_VOLUME_A_VERIFIER,destination=/home/whatever \
-    --userns=host \
-    -w /home/whatever \
-    alpine:latest \
-    /bin/ash
-
-# >> cd
-# >> ls
-```
-
-       7. nginx > add commands to readme
-       8. wordpress > add commands to readme
-    2. Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
-       1. ~~Revoir [chroot jail](https://www.tecmint.com/restrict-ssh-user-to-directory-using-chrooted-jail/)~~
-       2. 🔍Utiliser SFTP: seulement autorisé aux file transfer, mieux pour les clients [hey](https://www.tecmint.com/restrict-sftp-user-home-directories-using-chroot/) / pas de bash ou autre
-       3. Note: Probablement moyen de faire qu'un seul rôle, utilisé dans tous les playbooks webs
-       4. Rôle ajout
-       5. Rôle suppression
-    3. Prévoir dev & prod > 1 seul script mais url change, même users & pass
+       7. ✅ Rajouter commande en dur pour vérifier contenu du volume, dans les playbooks de restauration de sauvegarde
+       8. ✅ nginx > add commands to readme
+       9. ✅ wordpress > add commands to readme
+    2. ✅ Optimisation > Passer les playbooks locaux en delegate 127.0.0.1 pour éviter les connexions inutiles
+    3. 🚀 Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
+       1. [add user ubuntu 20](https://manpages.ubuntu.com/manpages/focal/fr/man8/adduser.8.html)
+       2. ~~Revoir [chroot jail](https://www.tecmint.com/restrict-ssh-user-to-directory-using-chrooted-jail/)~~
+       3. 🔍Utiliser SFTP: seulement autorisé aux file transfer, mieux pour les clients [hey](https://www.tecmint.com/restrict-sftp-user-home-directories-using-chroot/) / pas de bash ou autre
+       4. Note: Probablement moyen de faire qu'un seul rôle, utilisé dans tous les playbooks webs
+       5. Rôle ajout
+       6. Rôle suppression
+    4. Prévoir dev & prod > 1 seul script mais url change, même users & pass
        1. Utiliser docker-compose.override.yml ? [Bonnes pratiques docker/compose](https://nickjanetakis.com/blog/best-practices-around-production-ready-web-apps-with-docker-compose)
           1. Variables d'environnement dans DC
        2. Check ansible > vars d'environnement afin de maj dev. ou prod

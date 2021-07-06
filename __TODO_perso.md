@@ -323,6 +323,7 @@ Sites > crunchyroll / otakufr . co
 - Pillar of eternity
 - Raymans
 - shadow of the colossus
+- Shadow warrior 1 2 3
 - sunless seas
 - Tactical ogre
 - Transistor
