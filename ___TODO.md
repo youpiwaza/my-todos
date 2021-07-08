@@ -22,36 +22,61 @@ Indiquer ici les *tâches à effectuer en priorité*
 - Si besoin de focus, mettre une ou 2 tâches ici.
 
 1. 💥 Musiques taf & portable
-2. WP picard > spam (gérer akismet avec fabien)
-3. CPF
-4. Appeler damien pour aout
-   1. Inviter guillaume wawrhammers
-5. 🚀 Re-commander compléments alimentaires
+2. 🚀 Re-commander compléments alimentaires
+3. Rdv médecins
+4. WP picard > spam (gérer akismet avec fabien)
+5. CPF
 6. Renouveler anti virus [eset](https://a7286.boutique-eset.com/renouveler-sa-licence?lic=EAV-0232681294&hash=yLLLFeMk6/TOqsPDgGPSeRsPxQgPBAtX0ZscRxHqkPC35cB7QkUa&utm_campaign=renew&utm_content=eav&utm_medium=ipm&utm_source=application&utm_term=_3_renew_4_fr_5_eav_6_30-26e_7_q3-2020)
 7. Site [taf indépendants](https://www.ouiboss.com/)
 
 Trucs sur le **Serveur**
 
 1. forge playbookS
-    1. ✅ Manual > Restore backup
-       1. ✅ manual > host
-       2. ✅ manual > local
-       3. ✅ nginx > host
-       4. ✅ nginx > local
-       5. ✅ wordpress > host
-       6. ✅ wordpress > local
-       7. ✅ Rajouter commande en dur pour vérifier contenu du volume, dans les playbooks de restauration de sauvegarde
-       8. ✅ nginx > add commands to readme
-       9. ✅ wordpress > add commands to readme
-    2. ✅ Optimisation > Passer les playbooks locaux en delegate 127.0.0.1 pour éviter les connexions inutiles
-    3. 🚀 Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
-       1. [add user ubuntu 20](https://manpages.ubuntu.com/manpages/focal/fr/man8/adduser.8.html)
-       2. ~~Revoir [chroot jail](https://www.tecmint.com/restrict-ssh-user-to-directory-using-chrooted-jail/)~~
-       3. 🔍Utiliser SFTP: seulement autorisé aux file transfer, mieux pour les clients [hey](https://www.tecmint.com/restrict-sftp-user-home-directories-using-chroot/) / pas de bash ou autre
-       4. Note: Probablement moyen de faire qu'un seul rôle, utilisé dans tous les playbooks webs
-       5. Rôle ajout
-       6. Rôle suppression
-    4. Prévoir dev & prod > 1 seul script mais url change, même users & pass
+   1. 🚀 Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
+      1. ✅🔍 Docs n' tests
+         1. Doc officielle
+            1. [ubuntu 20 adduser/addgroup](https://manpages.ubuntu.com/manpages/focal/fr/man8/adduser.8.html)
+            2. [Ubuntu 20 sshd_config](https://manpages.ubuntu.com/manpages/focal/man5/sshd_config.5.html)
+            3. [ansible users](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/user_module.html)
+         2. Tutos
+            1. [chroot jail](https://www.tecmint.com/restrict-ssh-user-to-directory-using-chrooted-jail/)
+            2. [User sftp restrict](https://www.tecmint.com/restrict-sftp-user-home-directories-using-chroot/) > #Restrict Users to a Specific Directory
+            3. [Only sftp](https://geraldonit.com/2018/05/02/enabling-sftp-only-access-on-linux/)
+      2. Tests
+         1. 💩 Tester tutos > Besoin de clés ssh privées/publiques pour connexion avec mon setup
+         2. ✅ Annuler toutes les commandes de test sur le serveur
+         3. ✅ Cleaner & prioriser tâches
+         4. Adapter rôle users (tester surcharger vars afin de créer un seul user)
+            1. ✅ Tester sshd configuration (avant reboot sshd)
+               1. `sudo sshd -t` > Si cela ne renvoit rien, c'est ok
+               2. Exemple de service sshd restart : ansible\roles\security-custom-ssh-port\tasks\main.yml
+               3. Mettre a jour partout, il y a ~verify pour ansible
+            2. 🌱 Cleaner ansible\roles\users\tasks\restrict-user.yml
+               1. Passer shell en nologin pour le peon
+               2. ✅ Cleaner les commentaires
+            3. 🚀 Création d'utlisateurs : ansible\roles\users\tasks\main.yml
+               1. 🔍 Utilisation de loop
+               2. ✅🔍 Surcharger la variable user qui alimente la boucle ?
+                  1. ansible\2-generate-users-and-change-ssh-port.yml
+                  2. Not in our favor [doc ansible variable precedence](https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable)
+                  3. [cheat](https://stackoverflow.com/questions/31310688/conditionally-define-variable-in-ansible#comment86310852_43403229)
+               3. 🚀 User default shell zsh if present
+               4. User > condtionnal home folder creation
+               5. Créer une nouvelle tâche conditionnelle pour les sftp
+                  1. Créer un fichier `sshd_config.d/*.conf` par utilisateur fichier par utilisateur
+                     1. `/etc/ssh/sshd_config.d/*.conf` files are included at the start of the configuration file, so options set there will override those in /etc/ssh/sshd_config.
+                  2. Attention
+                     - For file transfer sessions using SFTP no additional
+                     - configuration of the environment is necessary if the in-process sftp-server is used,
+                     - though sessions which use logging may require /dev/log inside the chroot directory
+                     - on some operating systems (see sftp-server(8) for details).
+               6. Génération des identifiants utilisateurs
+                  1. Possibilité de se baser sur
+                     1. ansible\roles\users\tasks\generate-users-manual-commands.yml
+                     2. ansible\roles\users\templates\ssh-users-manual-commands.md.j2
+      3. Rôle ajout utilisateur sftp
+      4. Rôle suppression utilisateur sftp
+   2. Prévoir dev & prod > 1 seul script mais url change, même users & pass
        1. Utiliser docker-compose.override.yml ? [Bonnes pratiques docker/compose](https://nickjanetakis.com/blog/best-practices-around-production-ready-web-apps-with-docker-compose)
           1. Variables d'environnement dans DC
        2. Check ansible > vars d'environnement afin de maj dev. ou prod
@@ -241,6 +266,8 @@ Tout est extrait :)
 ### Priorisation
 
 Ordonner puis ranger dans le flux. Doit rester vide.
+
+---
 
 ---
 

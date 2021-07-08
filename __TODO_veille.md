@@ -10,6 +10,7 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 
 ## ⚡️ Prio / Rapide
 
+- [Reviewing Tailkit (300+ Tailwind Components)](https://nickjanetakis.com/blog/reviewing-tailkit-300-tailwind-components-and-giving-away-2-copies)
 - [Advanced patterns for Progressive Web Apps (Spanish with English subtitles)](https://www.youtube.com/watch?v=PPJKljH1dn8)
 - [flutter demo](https://www.youtube.com/watch?v=7JdcGBSWo50)
 - [Fastify Crash Course | Node.js Framework](https://www.youtube.com/watch?v=Lk-uVEVGxOA)

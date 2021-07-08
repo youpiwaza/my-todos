@@ -63,6 +63,7 @@
 - green stuff world
   - uv resin et lampe
   - [Liquid pigments](https://www.greenstuffworld.com/fr/261-pigments-liquides)
+  - [Metal filters](https://www.greenstuffworld.com/en/paint/1481-set-metal-filters-interference-colours.html)
 - Kickstarter darkest dungeon
 - [LED GSW / Mini lighting Set With switch and CR927 Battery](https://www.greenstuffworld.com/en/led-lights/1568-mini-lighting-set-with-switch-and-cr927-battery.html)
 - Night lords

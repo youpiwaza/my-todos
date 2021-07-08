@@ -4,7 +4,28 @@ Les tâches terminées des semaines précédentes :)
 
 ## 05/07/21
 
-hey
+Perso
+
+- ✅ Inscription piscine
+- ✅ Appeler damien pour aout
+  - ✅ Inviter guillaume wawrhammers
+
+AE
+
+Server
+
+1. forge playbookS
+   1. ✅ Manual > Restore backup
+      1. ✅ manual > host
+      2. ✅ manual > local
+      3. ✅ nginx > host
+      4. ✅ nginx > local
+      5. ✅ wordpress > host
+      6. ✅ wordpress > local
+      7. ✅ Rajouter commande en dur pour vérifier contenu du volume, dans les playbooks de restauration de sauvegarde
+      8. ✅ nginx > add commands to readme
+      9. ✅ wordpress > add commands to readme
+   2. ✅ Optimisation > Passer les playbooks locaux en delegate 127.0.0.1 pour éviter les connexions inutiles
 
 ## 28/06/21
 
