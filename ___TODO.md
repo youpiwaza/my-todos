@@ -60,9 +60,15 @@ Trucs sur le **Serveur**
                   1. ansible\2-generate-users-and-change-ssh-port.yml
                   2. Not in our favor [doc ansible variable precedence](https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable)
                   3. [cheat](https://stackoverflow.com/questions/31310688/conditionally-define-variable-in-ansible#comment86310852_43403229)
-               3. 🚀 User default shell zsh if present
-               4. User > condtionnal home folder creation
-               5. Créer une nouvelle tâche conditionnelle pour les sftp
+               3. ✅ User default shell zsh if present
+                  1. Si package zsh est la > shell zsh
+               4. 🌱 User > condtionnal home folder creation
+                  1. ~OK (création de l'utilisateur AVANT tâche complète + suppression de la home crée quand même..)
+                  2. Besoin de faire le tuto chroot prison à la maing afin de savoir si les répertoires pourront être situés dans /docker_peon/
+               5. 🚀 Faire le tuto a la maing
+                  1. Afin de voir si cela fonctionne dans le répertoire /home
+                  2. Afin de voir si cela fonctionne dans le répertoire /home/docker_peon
+               6. Créer une nouvelle tâche conditionnelle pour les sftp
                   1. Créer un fichier `sshd_config.d/*.conf` par utilisateur fichier par utilisateur
                      1. `/etc/ssh/sshd_config.d/*.conf` files are included at the start of the configuration file, so options set there will override those in /etc/ssh/sshd_config.
                   2. Attention
@@ -70,13 +76,15 @@ Trucs sur le **Serveur**
                      - configuration of the environment is necessary if the in-process sftp-server is used,
                      - though sessions which use logging may require /dev/log inside the chroot directory
                      - on some operating systems (see sftp-server(8) for details).
-               6. Génération des identifiants utilisateurs
+               7. Retirer la clé ssh de bob du serveur
+               8. Génération des identifiants utilisateurs
                   1. Possibilité de se baser sur
                      1. ansible\roles\users\tasks\generate-users-manual-commands.yml
                      2. ansible\roles\users\templates\ssh-users-manual-commands.md.j2
       3. Rôle ajout utilisateur sftp
       4. Rôle suppression utilisateur sftp
-   2. Prévoir dev & prod > 1 seul script mais url change, même users & pass
+   2. Bind volumes pour les fichiers /www des sites
+   3. Prévoir dev & prod > 1 seul script mais url change, même users & pass
        1. Utiliser docker-compose.override.yml ? [Bonnes pratiques docker/compose](https://nickjanetakis.com/blog/best-practices-around-production-ready-web-apps-with-docker-compose)
           1. Variables d'environnement dans DC
        2. Check ansible > vars d'environnement afin de maj dev. ou prod
