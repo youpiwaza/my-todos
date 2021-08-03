@@ -2,6 +2,15 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 25/07/21
+
+Perso
+
+2. ✅ Re-commander compléments alimentaires
+3. 6. ✅ Renouveler anti virus [eset](https://a7286.boutique-eset.com/renouveler-sa-licence?lic=EAV-0232681294&hash=yLLLFeMk6/TOqsPDgGPSeRsPxQgPBAtX0ZscRxHqkPC35cB7QkUa&utm_campaign=renew&utm_content=eav&utm_medium=ipm&utm_source=application&utm_term=_3_renew_4_fr_5_eav_6_30-26e_7_q3-2020)
+4. 8. ✅ Cadeaux vigi
+9. ✅ Cadeau Julie
+
 ## 05/07/21
 
 Perso

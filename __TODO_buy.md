@@ -28,7 +28,9 @@
 ## Divers
 
 - [Bureau de ouf](https://www.autonomous.ai/standing-desks/smartdesk-2-home)
+- Housse en cuir pour couteau, demander a Alexis
 - [SS](https://sexysushi.bandcamp.com/)
+- [Vinyl OST FF7](https://store.eu.square-enix-games.com/fr_FR/product/289692/final-fantasy-vii-vinyl)
 
 ## Fringues
 
@@ -64,6 +66,7 @@
 - green stuff world
   - uv resin et lampe
   - [Liquid pigments](https://www.greenstuffworld.com/fr/261-pigments-liquides)
+  - !! Metal pigments !
   - [Metal filters](https://www.greenstuffworld.com/en/paint/1481-set-metal-filters-interference-colours.html)
 - Kickstarter darkest dungeon
 - [LED GSW / Mini lighting Set With switch and CR927 Battery](https://www.greenstuffworld.com/en/led-lights/1568-mini-lighting-set-with-switch-and-cr927-battery.html)
@@ -82,3 +85,5 @@
 - War color
   - retarder
   - flow improver
+
+Squidmar amazon affiliate in description : [hey](https://www.youtube.com/watch?v=-7q_hLmX1Mw)

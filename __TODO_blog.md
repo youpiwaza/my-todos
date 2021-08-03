@@ -124,7 +124,7 @@ Vous cherchez Git dans la barre de recherche et vous supprimez les lignes corres
 - Sticker stop pub
 ```
 
-- Corriger/Prévenir problemes devs au fil des années
+- dev++ Corriger/Prévenir problemes devs au fil des années
   - [Correcteur posture dos](https://www.amazon.co.uk/Posture-Corrector-Men-Women-PostureFIX/dp/B085LFVBYY/ref=pd_rhf_ee_s_trq_n2gl_1_2/261-5680257-5675703)
   - [Lunettes anti-lumières bleue](https://horus-x.com/products/package-nomade-gaming-horus-x) Horus x (attendre soldes)
   - Blessure mineur a la main > cycatril / crème hydratante / aloe / liquide vaiselle aleo vera mir
@@ -133,6 +133,8 @@ Vous cherchez Git dans la barre de recherche et vous supprimez les lignes corres
   - bouffe
     - Mémoire
       - Pêche abricots
+        - Confiture abricots :  marque Lucien george lin
+        - Confiture rhubarbe
       - Noix diverses
       - Sardines/maqueraux
     - Thé de corée du sud / He Show Hu (fo ti) ( longevité) / harpagophytum + Prele ( reconstruction cartilage/anti arthrose)/ Spiruline,  , Curcuma  et  Coeur d'annanas (anti inflamatoire) / Huile de Nigel et huile de  foie de morrue (Omega 3)
@@ -167,7 +169,7 @@ Vous cherchez Git dans la barre de recherche et vous supprimez les lignes corres
       - Fruits
       - Bananes
     - Super aliments
-      - Gélules
+      - Gélules / marques reco : Solgar ou Now ou Belle & bio > amazon ["herbs pro"](https://www.amazon.com/s?me=A19497B1AUMQOH&marketplaceID=ATVPDKIKX0DER)
         - Ginseng
         - Gelée royale
         - Huilde foie de morue
@@ -186,17 +188,68 @@ Vous cherchez Git dans la barre de recherche et vous supprimez les lignes corres
   - Éviter eau du robinet (ou filtrer > Brita)
     - Contrex (mineraux)
   - Piments > digestion & anti stress (food wars s3e2)
+  - Exfoliant & anti cernes
+  - Huile iso++ oméga mes couilles
 - Dev++
   - Sonde colorimétrique
   - Lunettes anti lumière bleue
   - Dual screen
   - Dual boot / ubuntu & windows
-- Noter postures détente julien & divers
+  - Mains
+    - Ongles
+      - Mettre dans l'eau chaude 5min avant de les couper, afin d'éviter qu'ils ne cassent
+      - Huiles et tout (cheveux ongles)
+    - Crème hydratante
+  - Tshirt anti uv oneil
+  - Gel pour gros, jambes qui frottent ~vaseline
+- Noter postures détente julien & boxe & divers
 - Restau
   - de ouf thailandais pas loin de la passerelle
   - georgien a cote de stalingrad
+- S'aérer dehors > vitamines soleil
+- Tapis acupuncture putain
+- [Sticker stop pub](https://www.ecologie.gouv.fr/stop-pub)
 
 - Faire un article sur depannage du vaudou du pif
+
+- Article : entretien du pc & astuces de ouf
+  - Dépoussiérer & changer la pâte thermique
+    - Gestionnaire de tâches pour trouver les entonnoirs
+      - Température proc
+      - Points de blocages matériel (ex: Disque dur 100%)
+  - Optimiser le pc
+    - SSD
+      - RAID 0
+      - Alternative > clé usb en DD virtuel pour cache
+    - Overclock dans BIOS
+    - Mises à jour de tout
+      - Windows update
+      - CG
+      - (Ubuntu 1 liner)
+      - Divers
+    - Contrôle des comptes utilisateurs
+    - Attribution correcte de la mémoire (systèmes > paramètres avancés)
+    - Désactiver trucs de merdes
+      - Cortana
+      - Search index windaube
+    - Démarrage
+      - Programmes
+      - Services.msc
+    - Supprimer les programmes inutiles
+      - Putain de McAffee &| conflits d'anti-virus
+      - Programmes
+      - Fonctionnalités facultatives
+    - Navigateur
+      - Virer Plugins alakon
+      - Éviter d'avoir 20 onglets d'ouvert au démarrage, même si ils sont dans les groupes
+    - Firewall programmes sortants
+    - (Avast/tuneup) cleanup
+    - Panneau de conf
+      - "Nettoyer"
+      - "Fichiers temporaires"
+    - Défragmenter (si != SSD)
+    - Intégrité des disques durs > CHKDSK -f ?
+    - Augmenter la RAM avec clé USB au cul
 
 ```javascript
 Faire les mises à jour
@@ -204,8 +257,8 @@ Faire les mises à jour
 - Windows > windows update
 - Ubuntu/WSL
   - > sudo apt update
-  - > sudo apt upgrade
   - > sudo apt autoremove --purge
+  - > sudo apt upgrade
 
 ---
 

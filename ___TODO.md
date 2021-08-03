@@ -21,18 +21,25 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 - Si besoin de focus, mettre une ou 2 tâches ici.
 
-1. 💥 Musiques taf & portable
-2. 🚀 Re-commander compléments alimentaires
-3. Rdv médecins
-4. WP picard > spam (gérer akismet avec fabien)
-5. CPF
-6. Renouveler anti virus [eset](https://a7286.boutique-eset.com/renouveler-sa-licence?lic=EAV-0232681294&hash=yLLLFeMk6/TOqsPDgGPSeRsPxQgPBAtX0ZscRxHqkPC35cB7QkUa&utm_campaign=renew&utm_content=eav&utm_medium=ipm&utm_source=application&utm_term=_3_renew_4_fr_5_eav_6_30-26e_7_q3-2020)
-7. Site [taf indépendants](https://www.ouiboss.com/)
+PRESSE PAPIER WINDOWS > Activer l'hitorique > (windows + V)
+
+1. Régime hyper prot
+2. facture NDD [picards](https://mail.google.com/mail/u/0/#inbox/FMfcgzGkZZwLntCGLnPgcLNCzSlJVKlg)
+3. Musiques taf & portable
+4. amazon ["herbs pro"](https://www.amazon.com/s?me=A19497B1AUMQOH&marketplaceID=ATVPDKIKX0DER) voir pour trouver un meilleur vendeur
+5. Rdv médecins
+6. WP picard
+   1. Facture NDD
+   2. spam > virer commentaires
+7. CPF
+8. !site perso > cours particuliers code > 50€ heure
 
 Trucs sur le **Serveur**
 
-1. forge playbookS
-   1. 🚀 Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
+1. Activer github copilot
+2. forge playbookS
+   1. Optimiser script maintenance ?
+   2. 🚀 Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
       1. ✅🔍 Docs n' tests
          1. Doc officielle
             1. [ubuntu 20 adduser/addgroup](https://manpages.ubuntu.com/manpages/focal/fr/man8/adduser.8.html)
@@ -83,41 +90,41 @@ Trucs sur le **Serveur**
                      2. ansible\roles\users\templates\ssh-users-manual-commands.md.j2
       3. Rôle ajout utilisateur sftp
       4. Rôle suppression utilisateur sftp
-   2. Bind volumes pour les fichiers /www des sites
-   3. Prévoir dev & prod > 1 seul script mais url change, même users & pass
+   3. Bind volumes pour les fichiers /www des sites
+   4. Prévoir dev & prod > 1 seul script mais url change, même users & pass
        1. Utiliser docker-compose.override.yml ? [Bonnes pratiques docker/compose](https://nickjanetakis.com/blog/best-practices-around-production-ready-web-apps-with-docker-compose)
           1. Variables d'environnement dans DC
        2. Check ansible > vars d'environnement afin de maj dev. ou prod
        3. Gestion dev/prod : 1 seul fichier
        4. ENV vars ++
        5. Volumes en fonction de l'environnement ¤_¤
-2. harmoniser builder guy > tout THE_BUiLDER_GUY, idem autres XXX_GUY
-3. Tutum > remplacer par nginx
+3. harmoniser builder guy > tout THE_BUiLDER_GUY, idem autres XXX_GUY
+4. Tutum > remplacer par nginx
     1. Faire tourner déjà ca serait bien, go ctrl + f "curated"
     2. Utiliser vars d'environnement pour refaire un tutum mayzon: image + nom conteneur
-4. Bitnami
+5. Bitnami
     1. [Github issues](https://github.com/bitnami/bitnami-docker-mysql/issues/79#issuecomment-545477842) > Variable d'env afin d'augmenter le debug des conteneurs bitnami ! >> raisons explicites sur le problème de boot du conteneur
     2. Gestion notes dans ansible-install-web-server/ansible/203-setup-wordpress-lapie_secret.yml
     3. Lourder si serveurs web classique stabilité 100%, +1 speed
     4. Activer modules php
     5. Http 2/3
-5. Mise en place d'une admin SQL > [phpmyadmin](https://hub.docker.com/_/phpmyadmin)
+6. Mise en place d'une admin SQL > [phpmyadmin](https://hub.docker.com/_/phpmyadmin)
     1. Objectif 1 : Go nginx sur pma-test-wordpress.masamune.fr
         1. 🚀 .yml indépendant
         2. .yml de test-wordpress
     2. Objectif 2 : Go pma sur pma-test-wordpress.masamune.fr
        1. ^ Check DNS
-6. Monitoring > MOD: 4-setup-core-services.yml
+7. Monitoring > MOD: 4-setup-core-services.yml
     1. Alternative ? [traefik pilot](https://doc.traefik.io/traefik-pilot/)
     2. Alerte si CPU/RAM > 75%
     3. Alerte si space disque libre < 20%
     4. Checker ce qui prend de la place sur le disque ~80Go ? 13% de 450 > `docker system df -v` ; cf. backup des volumes
-7. Gestion des mails propre
+8. Gestion des mails propre
     1. Connexion au serveur SMPT du serveur ? cf. utils-emails
     2. [Conteneur postfix ?](https://hub.docker.com/_/postfixadmin)
     3. Ajout SPF/DKIM/DMARC
     4. Maj lapie & nonore
-8. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
+9. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
     1. ✅ NDDs
        1. Need modules de cache php activés
        2. HTTP 2/3 serait un vrai plus
@@ -131,7 +138,7 @@ Trucs sur le **Serveur**
        1. 2-3 trucs/plugins a regarder en plus pour WP : [doc](https://www.litespeedtech.com/open-source) & [site dédié](https://lscache.io/)
        2. test-litespeed.masamune.fr
     6. 🌱 Chaque serveur > Tester WP (install via wp-cli ?)
-9. Cleaner / Relancer clients actuels
+10. Cleaner / Relancer clients actuels
     1. Lapie
        1. Cleaner au niveau du serveur dashed-uri > .com ou .fr
     2. Nonore
@@ -140,16 +147,16 @@ Trucs sur le **Serveur**
        1. Maj ansible-install-web-server/commandes-backup-volumes-a-la-maing_secret.md (dashed notation)
        2. (normalement d'ici la les roles de backups seront générés auto :3)
        3. Backup
-10. Gestion des backups
+11. Gestion des backups
     1. Ajout au CRON
     2. Envoi vers serveur de backup + rotation/sauvegarde incrémentielle
-11. Lint done : ansible-install-web-server > README.MD
-12. Ansible convenience
+12. Lint done : ansible-install-web-server > README.MD
+13. Ansible convenience
     1. Clean templating, variable [deprecated ansible_managed](https://docs.ansible.com/ansible/2.4/intro_configuration.html#ansible-managed)
         1. [?](https://docs.ansible.com/ansible/latest/reference_appendices/config.html#default-managed-str)
     2. [ansible prompt](https://docs.ansible.com/ansible/latest/user_guide/playbooks_prompts.html)
-13. install-dev-env > docker-compose pour les principales technos : js & phpay
-14. Mettre en place pour docker_peon [chroot jail](https://www.tecmint.com/restrict-ssh-user-to-directory-using-chrooted-jail/) et virer toutes les commandes
+14. install-dev-env > docker-compose pour les principales technos : js & phpay
+15. Mettre en place pour docker_peon [chroot jail](https://www.tecmint.com/restrict-ssh-user-to-directory-using-chrooted-jail/) et virer toutes les commandes
 
 ### Sinon, priorisation classique
 
@@ -166,7 +173,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 
 - ✅ Déplacer les terminés ✅ à chaque début de semaine dans done.md
 - 💩 Déplacer les TODO 🌱 dans _TODO_shame.md
-- ✅ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur mails, edt portable, favoris, bureau. Si possible description + lien.
+- ✅ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ✅ mails, ✅ edt portable, ⏳ favoris, ✅ bureau. Si possible description + lien.
 - ✅ Nettoyer le fichier __TODO
   - ✅ Status
   - ✅ Ce fichier > ### Shame
@@ -186,13 +193,16 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 - ✅ Vérifier impôts sur espace / Dernière vérif 05/07/2021
   - ✅ Perso
   - ✅ Pro
-- ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21
+- ✅ Maj locales / Environnement de dev / Dernière maj le 01/06/21
+  - 🔍 CHKDSK ? -f ?
   - ✅ Windaube update
+    - ✅ Panneau de conf > "Fichiers temporaires" > Supprimer
+  - ✅ Nvidia driver
   - ✅ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
-  - ⏳ WSL
+  - ✅ WSL
     - ✅ Version Ubuntu
       - ✅ Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
-    - ✅ Packages & terminal, `omz update && git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade`
+      - ✅ Packages & terminal, `omz update && git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade`
 - ✅ Maj serveur, script maintenance
   - ✅ `98-maintenance.yml` & `sudo apt -y update && sudo apt --fix-broken install && sudo apt -y upgrade` & reboot si besoin
   - ✅ Maj Lapie HMAC
@@ -253,7 +263,6 @@ Indiquer ici les *tâches en dehors du flux général* (urgences, corrections pr
 7. Relancer impôts pro pour CFE
 8. Renvoi doc AE décla 0€ années passées [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgxmXKmkCGqSQkpPRbBrSKWcsbCpr)
 9. CPF > Langage des signes / Amazon AWS
-10. Cleaner zone DNS masamune.fr
 
 ## 💩 Shame
 

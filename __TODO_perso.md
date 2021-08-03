@@ -11,21 +11,16 @@ Sert à trier les trucs soit à faire rapidement soit à abandonner.
    - Unmeboshi > **foies engorgés**
    - Makuri > vers intestinaux
    - Takuan
-3. [Sticker stop pub](https://www.ecologie.gouv.fr/stop-pub)
-4. RDV Ophtalmologie express avenue de Laon
-5. Dentiste
-6. ✅ Check RIB
-   1. ✅ secu
-   2. ✅ mutuelle
-7. Prendre un VPN
-   1. [avast ?](https://store.avast.com/store/avast/fr_FR/buy/productID.5131300300/ThemeID.4871168000/Currency.EUR/OfferID.62893304010/campaignMarker.WDS~fr-fr~secureline-vpn~~~003_a5e/CustomID.VSOFF/clearCart.1/isGeoLocation.1?_ga=2.115364870.1811711959.1620808371-2071611292.1620808371)
-   2. [express](https://www.expressvpn.com/order)
-8. Vidéos en souffrance
+3. RDV Ophtalmologie express avenue de Laon
+4. Dentiste
+5. Prendre un VPN
+   1. celui de simple pour gameurh (faible ping)
+6. Vidéos en souffrance
     1. [Citizen kitano](https://www.youtube.com/watch?v=-H1xBQ4exto)
-9. Faire un backup du pc (BLACKSCREEN)
-10. Faire réparer guitare
-11. Faire réparer PC port HDMI
-12. Relancer boxe remboursement 2020-2021 500 balles
+7. Faire un backup du pc (BLACKSCREEN)
+8. Faire réparer guitare
+9. Faire réparer PC port HDMI
+10. Relancer boxe remboursement 2020-2021 500 balles
 
 ## Animés
 
@@ -119,6 +114,7 @@ Sites > crunchyroll / otakufr . co
 - Bad lieutenant
 - battlefield baseball
 - bloody birthday
+- [bo burhnam](https://search.brave.com/search?q=bo+burhnam&source=desktop) > inside
 - bong joon ho
   - Autres du meme real
   - Memories of murder
@@ -312,6 +308,8 @@ Sites > crunchyroll / otakufr . co
 - dragon dogma
 - dropsy le clown
 - ✅ Electronic super joy / 5/5
+- Factorio
+- Ghost runner
 - Hades
 - Light apprentice
 - megalovania
@@ -399,6 +397,7 @@ Sites > crunchyroll / otakufr . co
 - ost
   - American beauty
   - Attack on titan
+  - ASDF movies 
   - Bioshock 2
   - Bleach ost > Precipice of Defeat
   - [Nero - Must Be The Feeling (Delta Heavy Remix)](https://www.youtube.com/watch?v=9W04IKR1E2M)
@@ -409,12 +408,13 @@ Sites > crunchyroll / otakufr . co
   - [Legion of heroes](https://www.youtube.com/watch?v=4FchlZSwXvs&list=PLrgkfqG7JAcPQ6MzKZHwHn6o6GxxwIl5-)
   - nier automata & replicant
   - The Raid: Redemption
+  - Tropico 1 & 2
   - Vinland saga
   - Wanted
 - parkway drive
 - rob zombie
 - sceptic flesh
-- 📌 Shaargot
+- 📌 Shaargot 
 - Skald
 - skalmold
 - the agonist premiers albums
