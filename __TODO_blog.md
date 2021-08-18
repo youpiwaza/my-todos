@@ -75,6 +75,7 @@ x https://www.gog.com/game/7_billion_humans
 x portal 2 (bon pour algo)
 x Talos principle : https://www.gog.com/game/the_talos_principle_gold_edition
 x Superliminal
+x [DYO (2 joueurs, gratuit)](https://store.steampowered.com/app/791470/DYO/)
 
 Café > tasse (pour l'écologie, toussah)
 

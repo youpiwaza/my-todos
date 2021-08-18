@@ -8,6 +8,7 @@
 - [BBQ putain de cher](https://www.biggreenegg.co.uk/build-your-egg)
 - [Épices](https://www.epices-roellinger.com/fr/taxons/melanges-epices)
 - gros méga bouquin sur la cuisine / poele coupées en deux et tt
+- Huile de lin pour viande agneau, cf. [origines des saveurs s3e4](https://www.netflix.com/browse?jbv=80991060)
 - [Huile de sésame](https://www.rizetco.com/taebaek-agricultural)
 - [Mad dog hot sauce](https://www.google.com/search?q=mad+dog+hot+sauce)
 - [Mama Joyce Peppa Sauce](https://www.peppasauce.love/)
