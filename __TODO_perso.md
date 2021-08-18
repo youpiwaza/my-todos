@@ -219,6 +219,7 @@ Sites > crunchyroll / otakufr . co
 - Sound of noise
 - stretch
 - Spectacle gaspard proust tapine
+- Sweet home / netflix
 - Sword of destiny
 - The ambassador
 - the blade

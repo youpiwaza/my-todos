@@ -23,11 +23,15 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 PRESSE PAPIER WINDOWS > Activer l'hitorique > (windows + V)
 
-1. Régime hyper prot
-2. facture NDD [picards](https://mail.google.com/mail/u/0/#inbox/FMfcgzGkZZwLntCGLnPgcLNCzSlJVKlg)
+1. ✅ Régime hyper prot
+2. ⏳ facture NDD [picards](https://mail.google.com/mail/u/0/#inbox/FMfcgzGkZZwLntCGLnPgcLNCzSlJVKlg)
+   1. Facture envoyée le 18/08/2021
 3. Musiques taf & portable
 4. amazon ["herbs pro"](https://www.amazon.com/s?me=A19497B1AUMQOH&marketplaceID=ATVPDKIKX0DER) voir pour trouver un meilleur vendeur
 5. Rdv médecins
+   1. Ophtalmo
+   2. Cardiologue
+   3. Oreillologiste
 6. WP picard
    1. Facture NDD
    2. spam > virer commentaires
@@ -171,43 +175,43 @@ Trucs sur le **Serveur**
 
 Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel plus tard/exponentiel
 
-- ⏳ Déplacer les terminés ✅ à chaque début de semaine dans done.md
+- ✅ Déplacer les terminés ✅ à chaque début de semaine dans done.md
 - 💩 Déplacer les TODO 🌱 dans _TODO_shame.md
-- ⏳ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ⏳ mails, ⏳ edt portable, ⏳ favoris, ⏳ bureau. Si possible description + lien.
-- ⏳ Nettoyer le fichier __TODO
-  - ⏳ Status
-  - ⏳ Ce fichier > ### Shame
-    - ⏳ Ranger dans fichiers TODO correspondant
-    - ⏳ Prioriser
-- ⏳ Virer ce qui traine
-  - ⏳ sur le bureau
+- ✅ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ✅ mails, ✅ edt portable, ✅ favoris, ✅ bureau. Si possible description + lien.
+- ✅ Nettoyer le fichier __TODO
+  - ✅ Status
+  - ✅ Ce fichier > ### Shame
+    - ✅ Ranger dans fichiers TODO correspondant
+    - ✅ Prioriser
+- ✅ Virer ce qui traine
+  - ✅ sur le bureau
   - 💩 dans le dossier _shame du bureau
   - 💩 Lel (local)/Mes documents/_dev/_shame
-  - ⏳ Vider corbeille
-  - ⏳ Vider téléchargements
-  - ⏳ Dans les mails
+  - ✅ Vider corbeille
+  - ✅ Vider téléchargements
+  - ✅ Dans les mails
 - ⏳ Déplacer veille onglets dans TODO_veille
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
-- ⏳ Déclaration Auto entrepreneur
-- ⏳ Vérifier impôts sur espace / Dernière vérif 05/07/2021
-  - ⏳ Perso
-  - ⏳ Pro
-- ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21
-  - 🔍 CHKDSK ? -f ?
-  - ⏳ Windaube update
-    - ⏳ Panneau de conf > "Fichiers temporaires" > Supprimer
-  - Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29)
-  - Firmware SSDs
-  - ⏳ Nvidia driver
-  - ⏳ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
-  - ⏳ WSL
-    - ⏳ Version Ubuntu
-      - ⏳ Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
-      - ⏳ Packages & terminal, `omz update && git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade`
-- ⏳ Maj serveur, script maintenance
-  - ⏳ `98-maintenance.yml` & `sudo apt -y update && sudo apt --fix-broken install && sudo apt -y upgrade` & reboot si besoin
-  - ⏳ Maj Lapie HMAC
+- ✅ Déclaration Auto entrepreneur
+- ✅ Vérifier impôts sur espace / Dernière vérif 15/08/2021
+  - ✅ Perso
+  - ✅ Pro
+- ✅ Maj locales / Environnement de dev / Dernière maj le 01/06/21
+  - 🌱 CHKDSK ? -f ?
+  - ✅ Windaube update
+    - ✅ Panneau de conf > "Fichiers temporaires" > Supprimer
+  - ✅ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable et suivre liens dl
+  - 🌱 Firmware SSDs
+  - ✅ Nvidia driver
+  - ✅ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
+  - ✅ WSL
+    - ✅ Version Ubuntu
+      - ✅ Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
+    - ✅ Packages & terminal, `omz update && git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade`
+- ✅ Maj serveur, script maintenance
+  - ✅ `98-maintenance.yml` & `sudo apt -y update && sudo apt --fix-broken install && sudo apt -y upgrade` & reboot si besoin
+  - ✅ Maj Lapie HMAC
 - ⏳ Tout est Versionné, pas de WIP qui traîne
 
 ## ⏳ En attente
