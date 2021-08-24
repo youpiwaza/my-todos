@@ -30,7 +30,7 @@ PRESSE PAPIER WINDOWS > Activer l'hitorique > (windows + V)
 4. amazon ["herbs pro"](https://www.amazon.com/s?me=A19497B1AUMQOH&marketplaceID=ATVPDKIKX0DER) voir pour trouver un meilleur vendeur
 5. Rdv médecins
    1. Ophtalmo
-   2. Cardiologue
+   2. Cardiolog0ue
    3. Oreillologiste
 6. WP picard
    1. Facture NDD
@@ -40,7 +40,7 @@ PRESSE PAPIER WINDOWS > Activer l'hitorique > (windows + V)
 
 Trucs sur le **Serveur**
 
-1. Activer github copilot
+1. ✅ Activer github copilot
 2. forge playbookS
    1. Optimiser script maintenance ?
    2. 🚀 Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
@@ -73,27 +73,38 @@ Trucs sur le **Serveur**
                   3. [cheat](https://stackoverflow.com/questions/31310688/conditionally-define-variable-in-ansible#comment86310852_43403229)
                3. ✅ User default shell zsh if present
                   1. Si package zsh est la > shell zsh
-               4. 🌱 User > condtionnal home folder creation
-                  1. ~OK (création de l'utilisateur AVANT tâche complète + suppression de la home crée quand même..)
-                  2. Besoin de faire le tuto chroot prison à la maing afin de savoir si les répertoires pourront être situés dans /docker_peon/
-               5. 🚀 Faire le tuto a la maing
-                  1. Afin de voir si cela fonctionne dans le répertoire /home
-                  2. Afin de voir si cela fonctionne dans le répertoire /home/docker_peon
-               6. Créer une nouvelle tâche conditionnelle pour les sftp
-                  1. Créer un fichier `sshd_config.d/*.conf` par utilisateur fichier par utilisateur
-                     1. `/etc/ssh/sshd_config.d/*.conf` files are included at the start of the configuration file, so options set there will override those in /etc/ssh/sshd_config.
-                  2. Attention
-                     - For file transfer sessions using SFTP no additional
-                     - configuration of the environment is necessary if the in-process sftp-server is used,
-                     - though sessions which use logging may require /dev/log inside the chroot directory
-                     - on some operating systems (see sftp-server(8) for details).
-               7. Retirer la clé ssh de bob du serveur
-               8. Génération des identifiants utilisateurs
+               4. 🚀🚀🚀🚀🚀 Se remettre dans le bain
+                  1. ✅ Lire scripts de creation de user et les apprendre
+                  2. ✅ Lire les TODO ci-dessous dans la liste
+                  3. ✅ Relire articles tecmint
+                  4. ✅ Check contenu `/etc/ssh/sshd_config`
+                  5. ✅ Tester sshd_config > `sshd -t` > si retourne rieng c'est good
+                  6. 🚀 Le user bob à possibilité de se promener grave (`cd ..`)> besoin de restriction /home >> Suivre tutos
+                     1. ✅ À la main
+                        1. Ok dans répertoire à la racine /test_chroot
+                        2. 🚀 Tester avec ssh_d/*.conf
+                           1. Créer un fichier `sshd_config.d/*.conf` par utilisateur
+                           2. `/etc/ssh/sshd_config.d/*.conf` files are included at the start of the configuration file, so options set there will override those in /etc/ssh/sshd_config.
+                           3. Attention
+                              - For file transfer sessions using SFTP no additional
+                              - configuration of the environment is necessary if the in-process sftp-server is used,
+                              - though sessions which use logging may require /dev/log inside the chroot directory
+                              - on some operating systems (see sftp-server(8) for details).
+                        3. Tester dans /home/docker_peon/
+                        4. Traduire & ranger notes
+                  7. ✅ Noter commande pour supprimer user et re-tester script d'ajout
+               5. Automatiser, créer des rôles
+                  1. Rôle ajout utilisateur sftp
+                     1. IMO Créer un nouveau rôle et réutiliser certaines parties du rôle user plutôt que de goyer comme jamais
+                  2. Rôle suppression utilisateur sftp
+               6. Retirer
+                  1. user bob
+                  2. la clé ssh de bob du serveur
+                  3. les tests
+               7. Génération des identifiants utilisateurs (doc .md pour client)
                   1. Possibilité de se baser sur
                      1. ansible\roles\users\tasks\generate-users-manual-commands.yml
                      2. ansible\roles\users\templates\ssh-users-manual-commands.md.j2
-      3. Rôle ajout utilisateur sftp
-      4. Rôle suppression utilisateur sftp
    3. Bind volumes pour les fichiers /www des sites
    4. Prévoir dev & prod > 1 seul script mais url change, même users & pass
        1. Utiliser docker-compose.override.yml ? [Bonnes pratiques docker/compose](https://nickjanetakis.com/blog/best-practices-around-production-ready-web-apps-with-docker-compose)
@@ -151,16 +162,10 @@ Trucs sur le **Serveur**
        1. Maj ansible-install-web-server/commandes-backup-volumes-a-la-maing_secret.md (dashed notation)
        2. (normalement d'ici la les roles de backups seront générés auto :3)
        3. Backup
-11. Gestion des backups
+11. Migration serveur
+12. Gestion des backups
     1. Ajout au CRON
     2. Envoi vers serveur de backup + rotation/sauvegarde incrémentielle
-12. Lint done : ansible-install-web-server > README.MD
-13. Ansible convenience
-    1. Clean templating, variable [deprecated ansible_managed](https://docs.ansible.com/ansible/2.4/intro_configuration.html#ansible-managed)
-        1. [?](https://docs.ansible.com/ansible/latest/reference_appendices/config.html#default-managed-str)
-    2. [ansible prompt](https://docs.ansible.com/ansible/latest/user_guide/playbooks_prompts.html)
-14. install-dev-env > docker-compose pour les principales technos : js & phpay
-15. Mettre en place pour docker_peon [chroot jail](https://www.tecmint.com/restrict-ssh-user-to-directory-using-chrooted-jail/) et virer toutes les commandes
 
 ### Sinon, priorisation classique
 
@@ -212,7 +217,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 - ✅ Maj serveur, script maintenance
   - ✅ `98-maintenance.yml` & `sudo apt -y update && sudo apt --fix-broken install && sudo apt -y upgrade` & reboot si besoin
   - ✅ Maj Lapie HMAC
-- ⏳ Tout est Versionné, pas de WIP qui traîne
+- ✅ Tout est Versionné, pas de WIP qui traîne
 
 ## ⏳ En attente
 
@@ -231,6 +236,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
   - Toujours rien au 22/06/21
   - Toujours rien au 28/06/21
   - Toujours rien au 05/07/21
+  - Toujours rien au 18/08/21
 - 🌱 21/05/2021 > Heberg picard > Basculer sur nouveau serveur & annuler
 
 ## 💥 Tâches critiques
@@ -252,11 +258,18 @@ Indiquer ici les *tâches en dehors du flux général* (urgences, corrections pr
          2. 📌📌📌📌📌📌📌 Fichiers
          3. BDD / Exports WordPress
          4. Basculer
-2. Ranger liste de lien > première page + intro
-3. __TODO_shame.md > serveur
-4. 🔍 [tmux](https://nickjanetakis.com/blog/who-else-wants-to-boost-their-productivity-with-tmux)
-5. 🔍 [keys remap](https://nickjanetakis.com/blog/remap-and-set-global-hotkeys-on-windows-10-with-auto-hotkey)
-6. Lapie > Traitement des tâches en souffrance
+2. Serveur
+   1. Lint done : ansible-install-web-server > README.MD
+   2. Ansible convenience
+       1. Clean templating, variable [deprecated ansible_managed](https://docs.ansible.com/ansible/2.4/intro_configuration.html#ansible-managed)
+           1. [?](https://docs.ansible.com/ansible/latest/reference_appendices/config.html#default-managed-str)
+       2. [ansible prompt](https://docs.ansible.com/ansible/latest/user_guide/playbooks_prompts.html)
+3. install-dev-env > docker-compose pour les principales technos : js & phpay
+4. Ranger liste de lien > première page + intro
+5. __TODO_shame.md > serveur
+6. 🔍 [tmux](https://nickjanetakis.com/blog/who-else-wants-to-boost-their-productivity-with-tmux)
+7. 🔍 [keys remap](https://nickjanetakis.com/blog/remap-and-set-global-hotkeys-on-windows-10-with-auto-hotkey)
+8. Lapie > Traitement des tâches en souffrance
    1. Cleaner github dedié > client/url-site/
    2. Lapie > Ranger chartes graphiques & lapie-web
    3. Charte graphique > Faire les TODOs
@@ -266,9 +279,9 @@ Indiquer ici les *tâches en dehors du flux général* (urgences, corrections pr
    7. ~Lapie > Maj traefik pour redirection www. > faire des tests alakon sur NDD masa avant, cf. critique
        1. Maj Ansible
    8. 🚚(shame) Accès fichiers bloqués conteneur bitnamiwp, modules php, passer en http2/3
-7. Relancer impôts pro pour CFE
-8. Renvoi doc AE décla 0€ années passées [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgxmXKmkCGqSQkpPRbBrSKWcsbCpr)
-9. CPF > Langage des signes / Amazon AWS
+9. Relancer impôts pro pour CFE
+10. Renvoi doc AE décla 0€ années passées [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgxmXKmkCGqSQkpPRbBrSKWcsbCpr)
+11. CPF > Langage des signes / Amazon AWS
 
 ## 💩 Shame
 
