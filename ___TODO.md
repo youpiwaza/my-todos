@@ -73,16 +73,16 @@ Trucs sur le **Serveur**
                   3. [cheat](https://stackoverflow.com/questions/31310688/conditionally-define-variable-in-ansible#comment86310852_43403229)
                3. ✅ User default shell zsh if present
                   1. Si package zsh est la > shell zsh
-               4. 🚀🚀🚀🚀🚀 Se remettre dans le bain
+               4. ✅ Se remettre dans le bain
                   1. ✅ Lire scripts de creation de user et les apprendre
                   2. ✅ Lire les TODO ci-dessous dans la liste
                   3. ✅ Relire articles tecmint
                   4. ✅ Check contenu `/etc/ssh/sshd_config`
                   5. ✅ Tester sshd_config > `sshd -t` > si retourne rieng c'est good
-                  6. 🚀 Le user bob à possibilité de se promener grave (`cd ..`)> besoin de restriction /home >> Suivre tutos
+                  6. ✅ Le user bob à possibilité de se promener grave (`cd ..`)> besoin de restriction /home >> Suivre tutos
                      1. ✅ À la main
-                        1. Ok dans répertoire à la racine /test_chroot
-                        2. 🚀 Tester avec ssh_d/*.conf
+                        1. ✅ Ok dans répertoire à la racine /test_chroot
+                        2. 💩 Tester avec ssh_d/*.conf
                            1. Créer un fichier `sshd_config.d/*.conf` par utilisateur
                            2. `/etc/ssh/sshd_config.d/*.conf` files are included at the start of the configuration file, so options set there will override those in /etc/ssh/sshd_config.
                            3. Attention
@@ -90,23 +90,31 @@ Trucs sur le **Serveur**
                               - configuration of the environment is necessary if the in-process sftp-server is used,
                               - though sessions which use logging may require /dev/log inside the chroot directory
                               - on some operating systems (see sftp-server(8) for details).
-                        3. Tester dans /home/docker_peon/
-                        4. Traduire & ranger notes
+                           4. Note max:
+                              1. Virtuellement c'est bon mais ça ne fonctionne pas (force command KO dans fichier autre que sshd_config ? wat)
+                              2. ✅ Alternative: Utilisation de restrictions de groupe & pattern %u
+                        3. ✅ Tester dans /home/docker_peon/
+                        4. ✅ Ranger & Traduire notes
+                        5. ✅ Cleaner noms groupes & arbo
                   7. ✅ Noter commande pour supprimer user et re-tester script d'ajout
-               5. Automatiser, créer des rôles
-                  1. Rôle ajout utilisateur sftp
-                     1. IMO Créer un nouveau rôle et réutiliser certaines parties du rôle user plutôt que de goyer comme jamais
-                  2. Rôle suppression utilisateur sftp
-               6. Retirer
-                  1. user bob
-                  2. la clé ssh de bob du serveur
-                  3. les tests
+               5. 🚀 Automatiser, créer des rôles
+                  1. ✅ Rôle préparation de prison chroot
+                  2. 🚀 Rôle ajout utilisateur sftp
+                     1. ✅ IMO Créer un nouveau rôle et réutiliser certaines parties du rôle user plutôt que de goyer comme jamais
+                  3. Rôle suppression utilisateur sftp
+               6. ✅ Cleaner
+                  1. ✅ user bob + /home
+                  2. ✅ la clé ssh de bob du serveur
+                  3. ✅ les tests /docker_peon/clients/_website_machin
                7. Génération des identifiants utilisateurs (doc .md pour client)
                   1. Possibilité de se baser sur
                      1. ansible\roles\users\tasks\generate-users-manual-commands.yml
                      2. ansible\roles\users\templates\ssh-users-manual-commands.md.j2
+               8. Lint ansible-install-web-server\ansible\roles\users\main.yml
+               8. Update ansible-install-web-server\ansible\roles\users\README.md
    3. Bind volumes pour les fichiers /www des sites
-   4. Prévoir dev & prod > 1 seul script mais url change, même users & pass
+   4. `/home/singed_the_docker_peon_9f3eqk4s9/configs/masamune/hello--masamune--fr` wtf is that
+   5. Prévoir dev & prod > 1 seul script mais url change, même users & pass
        1. Utiliser docker-compose.override.yml ? [Bonnes pratiques docker/compose](https://nickjanetakis.com/blog/best-practices-around-production-ready-web-apps-with-docker-compose)
           1. Variables d'environnement dans DC
        2. Check ansible > vars d'environnement afin de maj dev. ou prod
@@ -222,6 +230,9 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 ## ⏳ En attente
 
 1. ⏳ Serveur > Maj WP 5.8 / Attente bitnami (5.7.2)
+2. Trucs AE
+   1. [hey](https://www.cominjob.com/candidat/)
+   2. [hoy](https://www.ouiboss.com/)
 
 ### ⏳🌱 Vérifications sur la longueur
 
