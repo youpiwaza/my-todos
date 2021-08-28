@@ -41,7 +41,8 @@ PRESSE PAPIER WINDOWS > Activer l'hitorique > (windows + V)
 Trucs sur le **Serveur**
 
 1. ✅ Activer github copilot
-2. forge playbookS
+2. ✅ install-dev-env > Compilation set up VSCode
+3. forge playbookS
    1. Optimiser script maintenance ?
    2. 🚀 Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
       1. ✅🔍 Docs n' tests
@@ -99,9 +100,18 @@ Trucs sur le **Serveur**
                   7. ✅ Noter commande pour supprimer user et re-tester script d'ajout
                5. 🚀 Automatiser, créer des rôles
                   1. ✅ Rôle préparation de prison chroot
-                  2. 🚀 Rôle ajout utilisateur sftp
+                  2. ✅ Rôle ajout utilisateur sftp
                      1. ✅ IMO Créer un nouveau rôle et réutiliser certaines parties du rôle user plutôt que de goyer comme jamais
-                  3. Rôle suppression utilisateur sftp
+                     2. ✅ Tuto
+                     3. ✅ Adapté aux projets
+                     4. ✅ Créer un playbook de create sftp user a la volée sans projet, pour créa accès direct
+                  3. 🚀 Rôle suppression utilisateur sftp
+                     1. Virer tests
+                        1. bob
+                        2. bobby
+                        3. bobba
+                        4. nginx test / masamune---hello--masamune--fr
+                        5. wp test
                6. ✅ Cleaner
                   1. ✅ user bob + /home
                   2. ✅ la clé ssh de bob du serveur
@@ -111,7 +121,7 @@ Trucs sur le **Serveur**
                      1. ansible\roles\users\tasks\generate-users-manual-commands.yml
                      2. ansible\roles\users\templates\ssh-users-manual-commands.md.j2
                8. Lint ansible-install-web-server\ansible\roles\users\main.yml
-               8. Update ansible-install-web-server\ansible\roles\users\README.md
+               9. Update ansible-install-web-server\ansible\roles\users\README.md
    3. Bind volumes pour les fichiers /www des sites
    4. `/home/singed_the_docker_peon_9f3eqk4s9/configs/masamune/hello--masamune--fr` wtf is that
    5. Prévoir dev & prod > 1 seul script mais url change, même users & pass
@@ -121,33 +131,33 @@ Trucs sur le **Serveur**
        3. Gestion dev/prod : 1 seul fichier
        4. ENV vars ++
        5. Volumes en fonction de l'environnement ¤_¤
-3. harmoniser builder guy > tout THE_BUiLDER_GUY, idem autres XXX_GUY
-4. Tutum > remplacer par nginx
+4. harmoniser builder guy > tout THE_BUiLDER_GUY, idem autres XXX_GUY
+5. Tutum > remplacer par nginx
     1. Faire tourner déjà ca serait bien, go ctrl + f "curated"
     2. Utiliser vars d'environnement pour refaire un tutum mayzon: image + nom conteneur
-5. Bitnami
+6. Bitnami
     1. [Github issues](https://github.com/bitnami/bitnami-docker-mysql/issues/79#issuecomment-545477842) > Variable d'env afin d'augmenter le debug des conteneurs bitnami ! >> raisons explicites sur le problème de boot du conteneur
     2. Gestion notes dans ansible-install-web-server/ansible/203-setup-wordpress-lapie_secret.yml
     3. Lourder si serveurs web classique stabilité 100%, +1 speed
     4. Activer modules php
     5. Http 2/3
-6. Mise en place d'une admin SQL > [phpmyadmin](https://hub.docker.com/_/phpmyadmin)
+7. Mise en place d'une admin SQL > [phpmyadmin](https://hub.docker.com/_/phpmyadmin)
     1. Objectif 1 : Go nginx sur pma-test-wordpress.masamune.fr
         1. 🚀 .yml indépendant
         2. .yml de test-wordpress
     2. Objectif 2 : Go pma sur pma-test-wordpress.masamune.fr
        1. ^ Check DNS
-7. Monitoring > MOD: 4-setup-core-services.yml
+8. Monitoring > MOD: 4-setup-core-services.yml
     1. Alternative ? [traefik pilot](https://doc.traefik.io/traefik-pilot/)
     2. Alerte si CPU/RAM > 75%
     3. Alerte si space disque libre < 20%
     4. Checker ce qui prend de la place sur le disque ~80Go ? 13% de 450 > `docker system df -v` ; cf. backup des volumes
-8. Gestion des mails propre
+9. Gestion des mails propre
     1. Connexion au serveur SMPT du serveur ? cf. utils-emails
     2. [Conteneur postfix ?](https://hub.docker.com/_/postfixadmin)
     3. Ajout SPF/DKIM/DMARC
     4. Maj lapie & nonore
-9. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
+10. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
     1. ✅ NDDs
        1. Need modules de cache php activés
        2. HTTP 2/3 serait un vrai plus
@@ -161,7 +171,7 @@ Trucs sur le **Serveur**
        1. 2-3 trucs/plugins a regarder en plus pour WP : [doc](https://www.litespeedtech.com/open-source) & [site dédié](https://lscache.io/)
        2. test-litespeed.masamune.fr
     6. 🌱 Chaque serveur > Tester WP (install via wp-cli ?)
-10. Cleaner / Relancer clients actuels
+11. Cleaner / Relancer clients actuels
     1. Lapie
        1. Cleaner au niveau du serveur dashed-uri > .com ou .fr
     2. Nonore
@@ -170,8 +180,8 @@ Trucs sur le **Serveur**
        1. Maj ansible-install-web-server/commandes-backup-volumes-a-la-maing_secret.md (dashed notation)
        2. (normalement d'ici la les roles de backups seront générés auto :3)
        3. Backup
-11. Migration serveur
-12. Gestion des backups
+12. Migration serveur
+13. Gestion des backups
     1. Ajout au CRON
     2. Envoi vers serveur de backup + rotation/sauvegarde incrémentielle
 
@@ -221,7 +231,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
   - ✅ WSL
     - ✅ Version Ubuntu
       - ✅ Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
-    - ✅ Packages & terminal, `omz update && git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade`
+    - ✅ Packages & terminal, `omz update` && `git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade`
 - ✅ Maj serveur, script maintenance
   - ✅ `98-maintenance.yml` & `sudo apt -y update && sudo apt --fix-broken install && sudo apt -y upgrade` & reboot si besoin
   - ✅ Maj Lapie HMAC
