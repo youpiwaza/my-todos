@@ -15,20 +15,20 @@ Légende :
 - ⏳ en attente
 - 🤏 Petite partie
 
-## Raccourcis & process à intégrer au flow
+## 🧠⏫ Raccourcis & process à intégrer au flow
 
 - Dactylo le midi > [typing study](https://www.typingstudy.com/fr/lesson/3/part/8)
-- 🚀 Copier coller historique > Activer l'hitorique
+- 🧠 Copier coller historique > Activer l'hitorique
   - *windows + V*
 - Tétrachiée de nouveaux plugins VSCode
   - Better comments
   - Bookmarks
-  - 🚀 changeCase
+  - 🧠 changeCase
     - *Ctrl Shift X* > Choisir
     - *Ctrl Shift W* > Inverser
   - Code spell checker
   - TO DO Tree
-  - 🚀 "Toggle quotes"
+  - 🧠 "Toggle quotes"
     - *Ctrl + ²*, curseur après la première de la paire de quotes à changer
 
 ## 🚀 Priorisation, simple ⏩
