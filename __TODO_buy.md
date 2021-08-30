@@ -84,6 +84,7 @@
 - vallejo
   - liquid gold
   - magic blue
+- valise Super joli *-* [100$](https://frontierwargaming.com/product/paint-case/)
 - War color
   - retarder
   - flow improver

@@ -39,7 +39,7 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Trucs **persos**
 
-1. 💥💥💥 Recette kir a la mûres > extraire sms guy
+1. Recette kir a la mûres > extraire sms guy
 2. Musiques taf & portable
 3. amazon ["herbs pro"](https://www.amazon.com/s?me=A19497B1AUMQOH&marketplaceID=ATVPDKIKX0DER) / Plus jamais plus d'un mois de retard et c'pas fini
 4. Rdv médecins
@@ -54,17 +54,16 @@ Trucs **persos**
 
 Trucs **taf**
 
-1. 💥 TO DO récurrents
+1. ✅ TO DO récurrents
    1. ✅ go checker chkdsk
-   2. 🚀 Firmware SSDs
-2. 💥💥 Ranger la première page de Liste de liengs + remplacer par une intro au fichier
+   2. ✅ Firmware SSDs
+2. ✅ Ranger la première page de Liste de liengs + remplacer par une intro au fichier
 3. slurp cours [3wa](https://e.3wa.fr/user/profile.php?id=2257)
 
 Trucs sur le **Serveur**
 
 1. forge playbookS
-   1. Optimiser script maintenance ?
-   2. 🚀 Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
+   1. 🚀 Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
       1. ✅🔍 Docs n' tests
          1. Doc officielle
             1. [ubuntu 20 adduser/addgroup](https://manpages.ubuntu.com/manpages/focal/fr/man8/adduser.8.html)
@@ -142,9 +141,9 @@ Trucs sur le **Serveur**
                      2. ansible\roles\users\templates\ssh-users-manual-commands.md.j2
                8. Lint ansible-install-web-server\ansible\roles\users\main.yml
                9. Update ansible-install-web-server\ansible\roles\users\README.md
-   3. Bind volumes pour les fichiers /www des sites
-   4. `/home/singed_the_docker_peon_9f3eqk4s9/configs/masamune/hello--masamune--fr` wtf is that
-   5. Prévoir dev & prod > 1 seul script mais url change, même users & pass
+   2. Bind volumes pour les fichiers /www des sites
+   3. `/home/singed_the_docker_peon_9f3eqk4s9/configs/masamune/hello--masamune--fr` wtf is that
+   4. Prévoir dev & prod > 1 seul script mais url change, même users & pass
        1. Utiliser docker-compose.override.yml ? [Bonnes pratiques docker/compose](https://nickjanetakis.com/blog/best-practices-around-production-ready-web-apps-with-docker-compose)
           1. Variables d'environnement dans DC
        2. Check ansible > vars d'environnement afin de maj dev. ou prod
