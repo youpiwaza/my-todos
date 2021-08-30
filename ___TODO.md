@@ -55,8 +55,8 @@ Trucs **persos**
 Trucs **taf**
 
 1. 💥 TO DO récurrents
-   1. go checker chkdsk
-   2. Firmware SSDs
+   1. ✅ go checker chkdsk
+   2. 🚀 Firmware SSDs
 2. 💥💥 Ranger la première page de Liste de liengs + remplacer par une intro au fichier
 3. slurp cours [3wa](https://e.3wa.fr/user/profile.php?id=2257)
 
@@ -241,7 +241,11 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
   - ✅ Perso
   - ✅ Pro
 - ✅ Maj locales / Environnement de dev / Dernière maj le 01/06/21
-  - 🌱 CHKDSK ? -f ?
+  - ✅ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk)
+    1. Invite de commande ou Powershell **en admin**
+    2. `>Blah blah besoin de redémarrer O/n` >> `O`
+    3. ✅ `chkdsk c: /f` (et en fonction de vos disques.. && `chkdsk d: /f`, etc.)
+    4. Redémarrer
   - ✅ Windaube update
     - ✅ Panneau de conf > "Fichiers temporaires" > Supprimer
   - ✅ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable et suivre liens dl
