@@ -39,18 +39,18 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Trucs **persos**
 
-1. Recette kir a la mûres > extraire sms guy
-2. Musiques taf & portable
-3. amazon ["herbs pro"](https://www.amazon.com/s?me=A19497B1AUMQOH&marketplaceID=ATVPDKIKX0DER) / Plus jamais plus d'un mois de retard et c'pas fini
+1. WP picard
+   1. Facture NDD [picards](https://mail.google.com/mail/u/0/#inbox/FMfcgzGkZZwLntCGLnPgcLNCzSlJVKlg)
+      1. Facture envoyée le ~18/08/21 < a valider>
+   2. spam > virer commentaires
+2. Recette kir a la mûres > extraire sms guy
+3. Musiques taf & portable
 4. Rdv médecins
    1. Ophtalmo
    2. Cardiolog0ue
    3. Oreillologiste
-5. WP picard
-   1. Facture NDD [picards](https://mail.google.com/mail/u/0/#inbox/FMfcgzGkZZwLntCGLnPgcLNCzSlJVKlg)
-   2. spam > virer commentaires
-6. CPF
-7. !site perso > cours particuliers code > 50€ heure
+5. CPF > Langage des signes / Amazon AWS
+6. !site perso > cours particuliers code > 50€ heure
 
 Trucs **taf**
 
@@ -59,6 +59,8 @@ Trucs **taf**
 Trucs pour la **migration du serveur**
 
 1. 🚀 Bind volumes pour les fichiers /www des sites, sur les sftp créés
+   1. A la mano voir si ça marche, sinon se pendre
+   2. Automatiser
 2. `/home/singed_the_docker_peon_9f3eqk4s9/configs/masamune/hello--masamune--fr` wtf is that
 3. harmoniser builder guy > tout THE_BUiLDER_GUY, idem autres XXX_GUY
 4. Tutum > remplacer par nginx
@@ -81,7 +83,8 @@ Trucs pour la **migration du serveur**
     2. [Conteneur postfix ?](https://hub.docker.com/_/postfixadmin)
     3. Ajout SPF/DKIM/DMARC
     4. Maj lapie & nonore
-7. Cleaner / Relancer clients actuels
+7. Maj conteneur bitnami/wordpress
+8. Cleaner / Relancer clients actuels
     1. Lapie
        1. Cleaner au niveau du serveur dashed-uri > .com ou .fr
     2. Nonore
@@ -90,7 +93,7 @@ Trucs pour la **migration du serveur**
        1. Maj ansible-install-web-server/commandes-backup-volumes-a-la-maing_secret.md (dashed notation)
        2. (normalement d'ici la les roles de backups seront générés auto :3)
        3. Backup
-8. Migration serveur
+9. Migration serveur
    1. Lister
        1. Technos
        2. 📌📌📌📌📌📌📌 Fichiers
@@ -251,7 +254,6 @@ Indiquer ici les *tâches en dehors du flux général* (urgences, corrections pr
    8. 🚚(shame) Accès fichiers bloqués conteneur bitnamiwp, modules php, passer en http2/3
 7. Relancer impôts pro pour CFE
 8. Renvoi doc AE décla 0€ années passées [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgxmXKmkCGqSQkpPRbBrSKWcsbCpr)
-9. CPF > Langage des signes / Amazon AWS
 
 ## 💩 Shame
 
