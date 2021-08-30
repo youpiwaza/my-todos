@@ -249,12 +249,14 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
   - ✅ Windaube update
     - ✅ Panneau de conf > "Fichiers temporaires" > Supprimer
   - ✅ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable et suivre liens dl
-  - 🌱 Firmware SSDs
+  - ✅ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
+    - [Sandisk ultra II](https://kb.sandisk.com/app/answers/detail/a_id/6053/~/ultra-3d-%7C-sandisk-ssd-plus-%28ssd%29-support-information)
+    - Lancer (Sandisk) "Dashboard" / Firmware update automatique, et il préveitn avant. Nice
   - ✅ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
   - ✅ Logiciels alakon
     - ✅ Filezilla, OBS, VLC, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
     - ✅ Nvidia driver
-    - ✅ Powershell [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi` > Extraire dans un dossier dédié > `pwsh.exe`. 
+    - ✅ Powershell [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi` > Extraire dans un dossier dédié > `pwsh.exe`.
       - ( [Doc](https://docs.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) )
   - ✅ WSL
     - ✅ Version Ubuntu
