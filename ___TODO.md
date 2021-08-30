@@ -248,8 +248,10 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
   - 🌱 Firmware SSDs
   - ✅ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
   - ✅ Logiciels alakon
-    - ✅ Nvidia driver
     - ✅ Filezilla, OBS, VLC, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
+    - ✅ Nvidia driver
+    - ✅ Powershell [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi` > Extraire dans un dossier dédié > `pwsh.exe`. 
+      - ( [Doc](https://docs.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) )
   - ✅ WSL
     - ✅ Version Ubuntu
       - ✅ Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
