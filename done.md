@@ -2,6 +2,104 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 30/08/21
+
+Trucs **taf**
+
+1. ✅ TO DO récurrents
+   1. ✅ go checker chkdsk
+   2. ✅ Firmware SSDs
+2. ✅ Ranger la première page de Liste de liengs + remplacer par une intro au fichier
+
+Trucs **serveur**
+
+1. ✅🐛 SSH / key KO (déjà ~merdique avant) avec la nouvelle version de filezilla (problème conversion en putty)
+   1. ✅ Maj du script de clés ssh
+      1. ✅ Maj role users
+         1. ✅ Création de la clé sur l'hôte a partir de ansible user
+         2. ✅ Test de connexion via bob
+         3. ✅ DEPRECATED l'ancienne méthode
+      2. ✅ Maj create sftp user
+         1. ✅ Vérifier que toujours oké avec chroot prison
+   2. ✅ Maj des clés SSH **1 par 1** pour les différents utilisateurs présents
+   3. Note client ftp : passage de Filezilla à WinSCP
+2. ✅ SFTP / Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
+   1. ✅🔍 Docs n' tests
+      1. Doc officielle
+         1. [ubuntu 20 adduser/addgroup](https://manpages.ubuntu.com/manpages/focal/fr/man8/adduser.8.html)
+         2. [Ubuntu 20 sshd_config](https://manpages.ubuntu.com/manpages/focal/man5/sshd_config.5.html)
+         3. [ansible users](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/user_module.html)
+      2. Tutos
+         1. [chroot jail](https://www.tecmint.com/restrict-ssh-user-to-directory-using-chrooted-jail/)
+         2. [User sftp restrict](https://www.tecmint.com/restrict-sftp-user-home-directories-using-chroot/) > #Restrict Users to a Specific Directory
+         3. [Only sftp](https://geraldonit.com/2018/05/02/enabling-sftp-only-access-on-linux/)
+   2. Tests
+      1. 💩 Tester tutos > Besoin de clés ssh privées/publiques pour connexion avec mon setup
+      2. ✅ Annuler toutes les commandes de test sur le serveur
+      3. ✅ Cleaner & prioriser tâches
+      4. Adapter rôle users (tester surcharger vars afin de créer un seul user)
+         1. ✅ Tester sshd configuration (avant reboot sshd)
+            1. `sudo sshd -t` > Si cela ne renvoit rien, c'est ok
+            2. Exemple de service sshd restart : ansible\roles\security-custom-ssh-port\tasks\main.yml
+            3. Mettre a jour partout, il y a ~verify pour ansible
+         2. 🌱 Cleaner ansible\roles\users\tasks\restrict-user.yml
+            1. Passer shell en nologin pour le peon
+            2. ✅ Cleaner les commentaires
+         3. ✅ Création d'utlisateurs : ansible\roles\users\tasks\main.yml
+            1. 🔍 Utilisation de loop
+            2. ✅🔍 Surcharger la variable user qui alimente la boucle ?
+               1. ansible\2-generate-users-and-change-ssh-port.yml
+               2. Not in our favor [doc ansible variable precedence](https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable)
+               3. [cheat](https://stackoverflow.com/questions/31310688/conditionally-define-variable-in-ansible#comment86310852_43403229)
+            3. ✅ User default shell zsh if present
+               1. Si package zsh est la > shell zsh
+         4. ✅ Se remettre dans le bain
+            1. ✅ Lire scripts de creation de user et les apprendre
+            2. ✅ Lire les TODO ci-dessous dans la liste
+            3. ✅ Relire articles tecmint
+            4. ✅ Check contenu `/etc/ssh/sshd_config`
+            5. ✅ Tester sshd_config > `sshd -t` > si retourne rieng c'est good
+            6. ✅ Le user bob à possibilité de se promener grave (`cd ..`)> besoin de restriction /home >> Suivre tutos
+               1. ✅ À la main
+                  1. ✅ Ok dans répertoire à la racine /test_chroot
+                  2. 💩 Tester avec ssh_d/*.conf
+                     1. Créer un fichier `sshd_config.d/*.conf` par utilisateur
+                     2. `/etc/ssh/sshd_config.d/*.conf` files are included at the start of the configuration file, so options set there will override those in /etc/ssh/sshd_config.
+                     3. Attention
+                        - For file transfer sessions using SFTP no additional
+                        - configuration of the environment is necessary if the in-process sftp-server is used,
+                        - though sessions which use logging may require /dev/log inside the chroot directory
+                        - on some operating systems (see sftp-server(8) for details).
+                     4. Note max:
+                        1. Virtuellement c'est bon mais ça ne fonctionne pas (force command KO dans fichier autre que sshd_config ? wat)
+                        2. ✅ Alternative: Utilisation de restrictions de groupe & pattern %u
+                  3. ✅ Tester dans /home/docker_peon/
+                  4. ✅ Ranger & Traduire notes
+                  5. ✅ Cleaner noms groupes & arbo
+            7. ✅ Noter commande pour supprimer user et re-tester script d'ajout
+         5. ✅ Automatiser, créer des rôles
+            1. ✅ Rôle préparation de prison chroot
+            2. ✅ Rôle ajout utilisateur sftp
+               1. ✅ IMO Créer un nouveau rôle et réutiliser certaines parties du rôle user plutôt que de goyer comme jamais
+               2. ✅ Tuto
+               3. ✅ Adapté aux projets
+               4. ✅ Créer un playbook de create sftp user a la volée sans projet, pour créa accès direct
+            3. ✅ Rôle suppression utilisateur sftp
+               1. ✅ Virer tests
+                  1. bob
+                  2. bobby
+                  3. bobba
+         6. ✅ Cleaner
+            1. ✅ user bob + /home
+            2. ✅ la clé ssh de bob du serveur
+            3. ✅ les tests /docker_peon/clients/_website_machin
+         7. ✅ Génération des identifiants utilisateurs (doc .md pour client)
+            1. Possibilité de se baser sur
+               1. ansible\roles\users\tasks\generate-users-manual-commands.yml
+               2. ansible\roles\users\templates\ssh-users-manual-commands.md.j2
+         8. ✅ Lint ansible-install-web-server\ansible\roles\users\main.yml
+         9. ✅ Update ansible-install-web-server\ansible\roles\users\README.md
+
 ## 23/07/21
 
 Perso

@@ -54,150 +54,34 @@ Trucs **persos**
 
 Trucs **taf**
 
-1. ✅ TO DO récurrents
-   1. ✅ go checker chkdsk
-   2. ✅ Firmware SSDs
-2. ✅ Ranger la première page de Liste de liengs + remplacer par une intro au fichier
-3. slurp cours [3wa](https://e.3wa.fr/user/profile.php?id=2257)
+1. slurp cours [3wa](https://e.3wa.fr/user/profile.php?id=2257)
 
-Trucs sur le **Serveur**
+Trucs pour la **migration du serveur**
 
-1. 🐛 SSH key KO (déjà ~merdique avant) avec la nouvelle version de filezilla
-   1. ✅ Maj du script de clés ssh
-      1. ✅ Maj role users
-         1. ✅ Création de la clé sur l'hôte a partir de ansible user
-         2. ✅ Test de connexion via bob
-         3. ✅ DEPRECATED l'ancienne méthode
-      2. ✅ Maj create sftp user
-         1. ✅ Vérifier que toujours oké avec chroot prison
-   2. ✅ Maj des clés SSH **1 par 1** pour les différents utilisateurs présents
-2. forge playbookS
-   1. 🚀 Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
-      1. ✅🔍 Docs n' tests
-         1. Doc officielle
-            1. [ubuntu 20 adduser/addgroup](https://manpages.ubuntu.com/manpages/focal/fr/man8/adduser.8.html)
-            2. [Ubuntu 20 sshd_config](https://manpages.ubuntu.com/manpages/focal/man5/sshd_config.5.html)
-            3. [ansible users](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/user_module.html)
-         2. Tutos
-            1. [chroot jail](https://www.tecmint.com/restrict-ssh-user-to-directory-using-chrooted-jail/)
-            2. [User sftp restrict](https://www.tecmint.com/restrict-sftp-user-home-directories-using-chroot/) > #Restrict Users to a Specific Directory
-            3. [Only sftp](https://geraldonit.com/2018/05/02/enabling-sftp-only-access-on-linux/)
-      2. Tests
-         1. 💩 Tester tutos > Besoin de clés ssh privées/publiques pour connexion avec mon setup
-         2. ✅ Annuler toutes les commandes de test sur le serveur
-         3. ✅ Cleaner & prioriser tâches
-         4. Adapter rôle users (tester surcharger vars afin de créer un seul user)
-            1. ✅ Tester sshd configuration (avant reboot sshd)
-               1. `sudo sshd -t` > Si cela ne renvoit rien, c'est ok
-               2. Exemple de service sshd restart : ansible\roles\security-custom-ssh-port\tasks\main.yml
-               3. Mettre a jour partout, il y a ~verify pour ansible
-            2. 🌱 Cleaner ansible\roles\users\tasks\restrict-user.yml
-               1. Passer shell en nologin pour le peon
-               2. ✅ Cleaner les commentaires
-            3. 🚀 Création d'utlisateurs : ansible\roles\users\tasks\main.yml
-               1. 🔍 Utilisation de loop
-               2. ✅🔍 Surcharger la variable user qui alimente la boucle ?
-                  1. ansible\2-generate-users-and-change-ssh-port.yml
-                  2. Not in our favor [doc ansible variable precedence](https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable)
-                  3. [cheat](https://stackoverflow.com/questions/31310688/conditionally-define-variable-in-ansible#comment86310852_43403229)
-               3. ✅ User default shell zsh if present
-                  1. Si package zsh est la > shell zsh
-            4. ✅ Se remettre dans le bain
-               1. ✅ Lire scripts de creation de user et les apprendre
-               2. ✅ Lire les TODO ci-dessous dans la liste
-               3. ✅ Relire articles tecmint
-               4. ✅ Check contenu `/etc/ssh/sshd_config`
-               5. ✅ Tester sshd_config > `sshd -t` > si retourne rieng c'est good
-               6. ✅ Le user bob à possibilité de se promener grave (`cd ..`)> besoin de restriction /home >> Suivre tutos
-                  1. ✅ À la main
-                     1. ✅ Ok dans répertoire à la racine /test_chroot
-                     2. 💩 Tester avec ssh_d/*.conf
-                        1. Créer un fichier `sshd_config.d/*.conf` par utilisateur
-                        2. `/etc/ssh/sshd_config.d/*.conf` files are included at the start of the configuration file, so options set there will override those in /etc/ssh/sshd_config.
-                        3. Attention
-                           - For file transfer sessions using SFTP no additional
-                           - configuration of the environment is necessary if the in-process sftp-server is used,
-                           - though sessions which use logging may require /dev/log inside the chroot directory
-                           - on some operating systems (see sftp-server(8) for details).
-                        4. Note max:
-                           1. Virtuellement c'est bon mais ça ne fonctionne pas (force command KO dans fichier autre que sshd_config ? wat)
-                           2. ✅ Alternative: Utilisation de restrictions de groupe & pattern %u
-                     3. ✅ Tester dans /home/docker_peon/
-                     4. ✅ Ranger & Traduire notes
-                     5. ✅ Cleaner noms groupes & arbo
-               7. ✅ Noter commande pour supprimer user et re-tester script d'ajout
-            5. ✅ Automatiser, créer des rôles
-               1. ✅ Rôle préparation de prison chroot
-               2. ✅ Rôle ajout utilisateur sftp
-                  1. ✅ IMO Créer un nouveau rôle et réutiliser certaines parties du rôle user plutôt que de goyer comme jamais
-                  2. ✅ Tuto
-                  3. ✅ Adapté aux projets
-                  4. ✅ Créer un playbook de create sftp user a la volée sans projet, pour créa accès direct
-               3. ✅ Rôle suppression utilisateur sftp
-                  1. ✅ Virer tests
-                     1. bob
-                     2. bobby
-                     3. bobba
-            6. ✅ Cleaner
-               1. ✅ user bob + /home
-               2. ✅ la clé ssh de bob du serveur
-               3. ✅ les tests /docker_peon/clients/_website_machin
-            7. ✅ Génération des identifiants utilisateurs (doc .md pour client)
-               1. Possibilité de se baser sur
-                  1. ansible\roles\users\tasks\generate-users-manual-commands.yml
-                  2. ansible\roles\users\templates\ssh-users-manual-commands.md.j2
-            8. ✅ Lint ansible-install-web-server\ansible\roles\users\main.yml
-            9. ✅ Update ansible-install-web-server\ansible\roles\users\README.md
-   2. 🚀 Bind volumes pour les fichiers /www des sites
-   3. `/home/singed_the_docker_peon_9f3eqk4s9/configs/masamune/hello--masamune--fr` wtf is that
-   4. Prévoir dev & prod > 1 seul script mais url change, même users & pass
-       1. Utiliser docker-compose.override.yml ? [Bonnes pratiques docker/compose](https://nickjanetakis.com/blog/best-practices-around-production-ready-web-apps-with-docker-compose)
-          1. Variables d'environnement dans DC
-       2. Check ansible > vars d'environnement afin de maj dev. ou prod
-       3. Gestion dev/prod : 1 seul fichier
-       4. ENV vars ++
-       5. Volumes en fonction de l'environnement ¤_¤
+1. 🚀 Bind volumes pour les fichiers /www des sites, sur les sftp créés
+2. `/home/singed_the_docker_peon_9f3eqk4s9/configs/masamune/hello--masamune--fr` wtf is that
 3. harmoniser builder guy > tout THE_BUiLDER_GUY, idem autres XXX_GUY
 4. Tutum > remplacer par nginx
     1. Faire tourner déjà ca serait bien, go ctrl + f "curated"
     2. Utiliser vars d'environnement pour refaire un tutum mayzon: image + nom conteneur
+    3. Serveur normal & serveur php basique pour les sites non wp
+    4. Opti [Nginx](https://hub.docker.com/_/nginx) / test-nginx.masamune.fr
+       1. 🔍 [Video configuration](https://www.youtube.com/watch?v=C5kMgshNc6g)
+       2. Tune server for [nginx performance](https://www.nginx.com/blog/10-tips-for-10x-application-performance/)
+       3. [+1](https://blog.monitis.com/blog/6-best-practices-for-optimizing-your-nginx-performance/)
 5. Bitnami
     1. [Github issues](https://github.com/bitnami/bitnami-docker-mysql/issues/79#issuecomment-545477842) > Variable d'env afin d'augmenter le debug des conteneurs bitnami ! >> raisons explicites sur le problème de boot du conteneur
     2. Gestion notes dans ansible-install-web-server/ansible/203-setup-wordpress-lapie_secret.yml
-    3. Lourder si serveurs web classique stabilité 100%, +1 speed
-    4. Activer modules php
-    5. Http 2/3
-6. Mise en place d'une admin SQL > [phpmyadmin](https://hub.docker.com/_/phpmyadmin)
-    1. Objectif 1 : Go nginx sur pma-test-wordpress.masamune.fr
-        1. 🚀 .yml indépendant
-        2. .yml de test-wordpress
-    2. Objectif 2 : Go pma sur pma-test-wordpress.masamune.fr
-       1. ^ Check DNS
-7. Monitoring > MOD: 4-setup-core-services.yml
-    1. Alternative ? [traefik pilot](https://doc.traefik.io/traefik-pilot/)
-    2. Alerte si CPU/RAM > 75%
-    3. Alerte si space disque libre < 20%
-    4. Checker ce qui prend de la place sur le disque ~80Go ? 13% de 450 > `docker system df -v` ; cf. backup des volumes
-8. Gestion des mails propre
+    3. Testay avec surcharge de conf via config: voir si ca boot avec la bonne conf
+    4. Lourder si serveurs web classique stabilité 100%, +1 speed
+    5. Activer modules php
+    6. Http 2/3
+6. Gestion des mails propre
     1. Connexion au serveur SMPT du serveur ? cf. utils-emails
     2. [Conteneur postfix ?](https://hub.docker.com/_/postfixadmin)
     3. Ajout SPF/DKIM/DMARC
     4. Maj lapie & nonore
-9. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
-    1. ✅ NDDs
-       1. Need modules de cache php activés
-       2. HTTP 2/3 serait un vrai plus
-    2. [Apache](https://hub.docker.com/_/httpd) / test-httpd.masamune.fr
-    3. [Nginx](https://hub.docker.com/_/nginx) / test-nginx.masamune.fr
-       1. 🔍 [Video configuration](https://www.youtube.com/watch?v=C5kMgshNc6g)
-       2. Tune server for [nginx performance](https://www.nginx.com/blog/10-tips-for-10x-application-performance/)
-       3. [+1](https://blog.monitis.com/blog/6-best-practices-for-optimizing-your-nginx-performance/)
-    4. [Caddy](https://hub.docker.com/_/caddy) / test-caddy.masamune.fr
-    5. Litespeed : [open](https://hub.docker.com/r/litespeedtech/openlitespeed) / [payant ?](https://hub.docker.com/r/litespeedtech/litespeed)
-       1. 2-3 trucs/plugins a regarder en plus pour WP : [doc](https://www.litespeedtech.com/open-source) & [site dédié](https://lscache.io/)
-       2. test-litespeed.masamune.fr
-    6. 🌱 Chaque serveur > Tester WP (install via wp-cli ?)
-10. Cleaner / Relancer clients actuels
+7. Cleaner / Relancer clients actuels
     1. Lapie
        1. Cleaner au niveau du serveur dashed-uri > .com ou .fr
     2. Nonore
@@ -206,10 +90,46 @@ Trucs sur le **Serveur**
        1. Maj ansible-install-web-server/commandes-backup-volumes-a-la-maing_secret.md (dashed notation)
        2. (normalement d'ici la les roles de backups seront générés auto :3)
        3. Backup
-11. Migration serveur
-12. Gestion des backups
+8. Migration serveur
+   1. Lister
+       1. Technos
+       2. 📌📌📌📌📌📌📌 Fichiers
+       3. BDD / Exports WordPress
+       4. Basculer
+
+Suite **Serveur** post migration
+
+1. Gestion des backups
     1. Ajout au CRON
     2. Envoi vers serveur de backup + rotation/sauvegarde incrémentielle
+2. Mise en place d'une admin SQL > [phpmyadmin](https://hub.docker.com/_/phpmyadmin)
+    1. Objectif 1 : Go nginx sur pma-test-wordpress.masamune.fr
+        1. 🚀 .yml indépendant
+        2. .yml de test-wordpress
+    2. Objectif 2 : Go pma sur pma-test-wordpress.masamune.fr
+       1. ^ Check DNS
+3. Monitoring > MOD: 4-setup-core-services.yml
+    1. Alternative ? [traefik pilot](https://doc.traefik.io/traefik-pilot/)
+    2. Alerte si CPU/RAM > 75%
+    3. Alerte si space disque libre < 20%
+    4. Checker ce qui prend de la place sur le disque ~80Go ? 13% de 450 > `docker system df -v` ; cf. backup des volumes
+4. Prévoir dev & prod > 1 seul script mais url change, même users & pass
+    1. Utiliser docker-compose.override.yml ? [Bonnes pratiques docker/compose](https://nickjanetakis.com/blog/best-practices-around-production-ready-web-apps-with-docker-compose)
+       1. Variables d'environnement dans DC
+    2. Check ansible > vars d'environnement afin de maj dev. ou prod
+    3. Gestion dev/prod : 1 seul fichier
+    4. ENV vars ++
+    5. Volumes en fonction de l'environnement ¤_¤
+5. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
+    1. ✅ NDDs
+       1. Need modules de cache php activés
+       2. HTTP 2/3 serait un vrai plus
+    2. [Apache](https://hub.docker.com/_/httpd) / test-httpd.masamune.fr
+    3. [Caddy](https://hub.docker.com/_/caddy) / test-caddy.masamune.fr
+    4. Litespeed : [open](https://hub.docker.com/r/litespeedtech/openlitespeed) / [payant ?](https://hub.docker.com/r/litespeedtech/litespeed)
+       1. 2-3 trucs/plugins a regarder en plus pour WP : [doc](https://www.litespeedtech.com/open-source) & [site dédié](https://lscache.io/)
+       2. test-litespeed.masamune.fr
+    5. 🌱 Chaque serveur > Tester WP (install via wp-cli ?)
 
 ### Sinon, priorisation classique
 
@@ -309,25 +229,17 @@ Si travail en cours, indiquer *les notes* ici
 
 Indiquer ici les *tâches en dehors du flux général* (urgences, corrections process, trucs qui perturbent et doivent être fait, tâches ultra rapides, etc.)
 
-1. Migrer ancien serveur
-   1. Migrer sites une fois serveur choisi
-      1. Lister
-         1. Technos
-         2. 📌📌📌📌📌📌📌 Fichiers
-         3. BDD / Exports WordPress
-         4. Basculer
-2. Serveur
+1. Serveur
    1. Lint done : ansible-install-web-server > README.MD
    2. Ansible convenience
        1. Clean templating, variable [deprecated ansible_managed](https://docs.ansible.com/ansible/2.4/intro_configuration.html#ansible-managed)
            1. [?](https://docs.ansible.com/ansible/latest/reference_appendices/config.html#default-managed-str)
        2. [ansible prompt](https://docs.ansible.com/ansible/latest/user_guide/playbooks_prompts.html)
-3. install-dev-env > docker-compose pour les principales technos : js & phpay
-4. Ranger liste de lien > première page + intro
-5. __TODO_shame.md > serveur
-6. 🔍 [tmux](https://nickjanetakis.com/blog/who-else-wants-to-boost-their-productivity-with-tmux)
-7. 🔍 [keys remap](https://nickjanetakis.com/blog/remap-and-set-global-hotkeys-on-windows-10-with-auto-hotkey)
-8. Lapie > Traitement des tâches en souffrance
+2. install-dev-env > docker-compose pour les principales technos : js & phpay
+3. __TODO_shame.md > serveur
+4. 🔍 [tmux](https://nickjanetakis.com/blog/who-else-wants-to-boost-their-productivity-with-tmux)
+5. 🔍 [keys remap](https://nickjanetakis.com/blog/remap-and-set-global-hotkeys-on-windows-10-with-auto-hotkey)
+6. Lapie > Traitement des tâches en souffrance
    1. Cleaner github dedié > client/url-site/
    2. Lapie > Ranger chartes graphiques & lapie-web
    3. Charte graphique > Faire les TODOs
@@ -337,9 +249,9 @@ Indiquer ici les *tâches en dehors du flux général* (urgences, corrections pr
    7. ~Lapie > Maj traefik pour redirection www. > faire des tests alakon sur NDD masa avant, cf. critique
        1. Maj Ansible
    8. 🚚(shame) Accès fichiers bloqués conteneur bitnamiwp, modules php, passer en http2/3
-9. Relancer impôts pro pour CFE
-10. Renvoi doc AE décla 0€ années passées [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgxmXKmkCGqSQkpPRbBrSKWcsbCpr)
-11. CPF > Langage des signes / Amazon AWS
+7. Relancer impôts pro pour CFE
+8. Renvoi doc AE décla 0€ années passées [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgxmXKmkCGqSQkpPRbBrSKWcsbCpr)
+9. CPF > Langage des signes / Amazon AWS
 
 ## 💩 Shame
 
