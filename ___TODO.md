@@ -15,34 +15,54 @@ Légende :
 - ⏳ en attente
 - 🤏 Petite partie
 
+## Raccourcis & process à intégrer au flow
+
+- Dactylo le midi > [typing study](https://www.typingstudy.com/fr/lesson/3/part/8)
+- 🚀 Copier coller historique > Activer l'hitorique
+  - *windows + V*
+- Tétrachiée de nouveaux plugins VSCode
+  - Better comments
+  - Bookmarks
+  - 🚀 changeCase
+    - *Ctrl Shift X* > Choisir
+    - *Ctrl Shift W* > Inverser
+  - Code spell checker
+  - TO DO Tree
+  - 🚀 "Toggle quotes"
+    - *Ctrl + ²*, curseur après la première de la paire de quotes à changer
+
 ## 🚀 Priorisation, simple ⏩
 
 Indiquer ici les *tâches à effectuer en priorité*
 
 - Si besoin de focus, mettre une ou 2 tâches ici.
 
-PRESSE PAPIER WINDOWS > Activer l'hitorique > (windows + V)
+Trucs **persos**
 
-1. ✅ Régime hyper prot
-2. ⏳ facture NDD [picards](https://mail.google.com/mail/u/0/#inbox/FMfcgzGkZZwLntCGLnPgcLNCzSlJVKlg)
-   1. Facture envoyée le 18/08/2021
-3. Musiques taf & portable
-4. amazon ["herbs pro"](https://www.amazon.com/s?me=A19497B1AUMQOH&marketplaceID=ATVPDKIKX0DER) voir pour trouver un meilleur vendeur
-5. Rdv médecins
+1. 💥💥💥 Recette kir a la mûres > extraire sms guy
+2. Musiques taf & portable
+3. amazon ["herbs pro"](https://www.amazon.com/s?me=A19497B1AUMQOH&marketplaceID=ATVPDKIKX0DER) / Plus jamais plus d'un mois de retard et c'pas fini
+4. Rdv médecins
    1. Ophtalmo
    2. Cardiolog0ue
    3. Oreillologiste
-6. WP picard
-   1. Facture NDD
+5. WP picard
+   1. Facture NDD [picards](https://mail.google.com/mail/u/0/#inbox/FMfcgzGkZZwLntCGLnPgcLNCzSlJVKlg)
    2. spam > virer commentaires
-7. CPF
-8. !site perso > cours particuliers code > 50€ heure
+6. CPF
+7. !site perso > cours particuliers code > 50€ heure
+
+Trucs **taf**
+
+1. 💥 TO DO récurrents
+   1. go checker chkdsk
+   2. Firmware SSDs
+2. 💥💥 Ranger la première page de Liste de liengs + remplacer par une intro au fichier
+3. slurp cours [3wa](https://e.3wa.fr/user/profile.php?id=2257)
 
 Trucs sur le **Serveur**
 
-1. ✅ Activer github copilot
-2. ✅ install-dev-env > Compilation set up VSCode
-3. forge playbookS
+1. forge playbookS
    1. Optimiser script maintenance ?
    2. 🚀 Création d'un utilisateur ubuntu pour connexion ssh, qui remplace ftp (clé publique privée, etc.)
       1. ✅🔍 Docs n' tests
@@ -131,33 +151,33 @@ Trucs sur le **Serveur**
        3. Gestion dev/prod : 1 seul fichier
        4. ENV vars ++
        5. Volumes en fonction de l'environnement ¤_¤
-4. harmoniser builder guy > tout THE_BUiLDER_GUY, idem autres XXX_GUY
-5. Tutum > remplacer par nginx
+2. harmoniser builder guy > tout THE_BUiLDER_GUY, idem autres XXX_GUY
+3. Tutum > remplacer par nginx
     1. Faire tourner déjà ca serait bien, go ctrl + f "curated"
     2. Utiliser vars d'environnement pour refaire un tutum mayzon: image + nom conteneur
-6. Bitnami
+4. Bitnami
     1. [Github issues](https://github.com/bitnami/bitnami-docker-mysql/issues/79#issuecomment-545477842) > Variable d'env afin d'augmenter le debug des conteneurs bitnami ! >> raisons explicites sur le problème de boot du conteneur
     2. Gestion notes dans ansible-install-web-server/ansible/203-setup-wordpress-lapie_secret.yml
     3. Lourder si serveurs web classique stabilité 100%, +1 speed
     4. Activer modules php
     5. Http 2/3
-7. Mise en place d'une admin SQL > [phpmyadmin](https://hub.docker.com/_/phpmyadmin)
+5. Mise en place d'une admin SQL > [phpmyadmin](https://hub.docker.com/_/phpmyadmin)
     1. Objectif 1 : Go nginx sur pma-test-wordpress.masamune.fr
         1. 🚀 .yml indépendant
         2. .yml de test-wordpress
     2. Objectif 2 : Go pma sur pma-test-wordpress.masamune.fr
        1. ^ Check DNS
-8. Monitoring > MOD: 4-setup-core-services.yml
+6. Monitoring > MOD: 4-setup-core-services.yml
     1. Alternative ? [traefik pilot](https://doc.traefik.io/traefik-pilot/)
     2. Alerte si CPU/RAM > 75%
     3. Alerte si space disque libre < 20%
     4. Checker ce qui prend de la place sur le disque ~80Go ? 13% de 450 > `docker system df -v` ; cf. backup des volumes
-9. Gestion des mails propre
+7. Gestion des mails propre
     1. Connexion au serveur SMPT du serveur ? cf. utils-emails
     2. [Conteneur postfix ?](https://hub.docker.com/_/postfixadmin)
     3. Ajout SPF/DKIM/DMARC
     4. Maj lapie & nonore
-10. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
+8. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
     1. ✅ NDDs
        1. Need modules de cache php activés
        2. HTTP 2/3 serait un vrai plus
@@ -171,7 +191,7 @@ Trucs sur le **Serveur**
        1. 2-3 trucs/plugins a regarder en plus pour WP : [doc](https://www.litespeedtech.com/open-source) & [site dédié](https://lscache.io/)
        2. test-litespeed.masamune.fr
     6. 🌱 Chaque serveur > Tester WP (install via wp-cli ?)
-11. Cleaner / Relancer clients actuels
+9. Cleaner / Relancer clients actuels
     1. Lapie
        1. Cleaner au niveau du serveur dashed-uri > .com ou .fr
     2. Nonore
@@ -180,8 +200,8 @@ Trucs sur le **Serveur**
        1. Maj ansible-install-web-server/commandes-backup-volumes-a-la-maing_secret.md (dashed notation)
        2. (normalement d'ici la les roles de backups seront générés auto :3)
        3. Backup
-12. Migration serveur
-13. Gestion des backups
+10. Migration serveur
+11. Gestion des backups
     1. Ajout au CRON
     2. Envoi vers serveur de backup + rotation/sauvegarde incrémentielle
 
@@ -198,44 +218,46 @@ Trucs sur le **Serveur**
 
 Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel plus tard/exponentiel
 
-- ⏳ Déplacer les terminés ✅ à chaque début de semaine dans done.md
+- ✅ Déplacer les terminés ✅ à chaque début de semaine dans done.md
 - 💩 Déplacer les TODO 🌱 dans _TODO_shame.md
-- ⏳ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ⏳ mails, ⏳ edt portable, ⏳ favoris, ⏳ bureau. Si possible description + lien.
-- ⏳ Nettoyer le fichier __TODO
-  - ⏳ Status
-  - ⏳ Ce fichier > ### Shame
-    - ⏳ Ranger dans fichiers TODO correspondant
-    - ⏳ Prioriser
-- ⏳ Virer ce qui traine
-  - ⏳ sur le bureau
+- ✅ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ✅ mails, ✅ edt portable, ✅ favoris, ✅ bureau. Si possible description + lien.
+- ✅ Nettoyer le fichier __TODO
+  - ✅ Status
+  - ✅ Ce fichier > ### Shame
+    - ✅ Ranger dans fichiers TODO correspondant
+    - ✅ Prioriser
+- ✅ Virer ce qui traine
+  - ✅ sur le bureau
   - 💩 dans le dossier _shame du bureau
   - 💩 Lel (local)/Mes documents/_dev/_shame
-  - ⏳ Vider corbeille
-  - ⏳ Vider téléchargements
-  - ⏳ Dans les mails
-- ⏳ Déplacer veille onglets dans TODO_veille
+  - ✅ Vider corbeille
+  - ✅ Vider téléchargements
+  - ✅ Dans les mails
+- ✅ Déplacer veille onglets dans TODO_veille
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
-- ⏳ Déclaration Auto entrepreneur
-- ⏳ Vérifier impôts sur espace / Dernière vérif 15/08/2021
-  - ⏳ Perso
-  - ⏳ Pro
-- ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21
+- ✅ Déclaration Auto entrepreneur
+- ✅ Vérifier impôts sur espace / Dernière vérif 15/08/2021
+  - ✅ Perso
+  - ✅ Pro
+- ✅ Maj locales / Environnement de dev / Dernière maj le 01/06/21
   - 🌱 CHKDSK ? -f ?
-  - ⏳ Windaube update
-    - ⏳ Panneau de conf > "Fichiers temporaires" > Supprimer
-  - ⏳ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable et suivre liens dl
+  - ✅ Windaube update
+    - ✅ Panneau de conf > "Fichiers temporaires" > Supprimer
+  - ✅ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable et suivre liens dl
   - 🌱 Firmware SSDs
-  - ⏳ Nvidia driver
-  - ⏳ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
-  - ⏳ WSL
-    - ⏳ Version Ubuntu
-      - ⏳ Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
-    - ⏳ Packages & terminal, `omz update` && `git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade`
-- ⏳ Maj serveur, script maintenance
-  - ⏳ `98-maintenance.yml` & `sudo apt -y update && sudo apt --fix-broken install && sudo apt -y upgrade` & reboot si besoin
-  - ⏳ Maj Lapie HMAC
-- ⏳ Tout est Versionné, pas de WIP qui traîne
+  - ✅ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
+  - ✅ Logiciels alakon
+    - ✅ Nvidia driver
+    - ✅ Filezilla, OBS, VLC, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
+  - ✅ WSL
+    - ✅ Version Ubuntu
+      - ✅ Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
+    - ✅ Packages & terminal, `omz update` && `git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade`
+- ✅ Maj serveur, script maintenance
+  - ✅ `98-maintenance.yml` & `sudo apt -y update && sudo apt --fix-broken install && sudo apt -y upgrade` & reboot si besoin
+  - ✅ Maj Lapie HMAC
+- ✅ Tout est Versionné, pas de WIP qui traîne
 
 ## ⏳ En attente
 
@@ -258,6 +280,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
   - Toujours rien au 28/06/21
   - Toujours rien au 05/07/21
   - Toujours rien au 18/08/21
+  - Toujours rien au 30/08/21
 - 🌱 21/05/2021 > Heberg picard > Basculer sur nouveau serveur & annuler
 
 ## 💥 Tâches critiques

@@ -4,6 +4,7 @@ Noter et organiser les différents liens de veille à voir, sans encombrer le na
 
 Essayer de faire un crash test par semaine, genre le vendredi.
 
+- [Blog via MD / Pelican](https://github.com/getpelican/pelican)
 - [Framework react > tailwindcss](https://tailwindcss.com/) / pour folio ?
 - [Browser polypane pour opti sites](https://polypane.app/)
 - [flutter dev mobile/desktop apps](https://flutter.dev/) / + bouquin code humble bundle
@@ -24,6 +25,13 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 - [Certificats 2021](https://dev.to/panx/50-free-awesome-certificates-to-earn-in-2021-2l7g)
 - [Beautify Your GitHub Profile like a Pro](https://dev.to/ruppysuppy/beautify-your-github-profile-like-a-pro-5093)
 - [Grafikart PWA](https://www.youtube.com/watch?v=5f1M_cu2eDM)
+
+- [Top 20 JavaScript tips and tricks to increase your Speed and Efficiency](https://dev.to/techygeeky/top-20-javascript-tips-and-tricks-to-increase-your-speed-and-efficiency-283g)
+- [Top 15+ Newsletters📄For Web Developers👨‍💻in 2021.](https://dev.to/theme_selection/top-15-newsletters-for-web-developers-in-2021-57p9)
+- [Docker Build: Containerizing a React.js Application](https://www.youtube.com/watch?v=8VHheCkw-7k)
+- [CSS Flexbox Crash Course](https://www.youtube.com/watch?v=tXIhdp5R7sc)
+- [Build a Curvaceous Homepage // Wavy Background Tutorial with SVG & CSS](https://www.youtube.com/watch?v=lPJVi797Uy0)
+
 
 - [SVG Favicons](https://austingil.com/svg-favicons/)
 - [Amazon code guru](https://aws.amazon.com/fr/codeguru/)

@@ -30,7 +30,7 @@
 - Article arrêt de l'entropie
   - Github++
   - Local > un seul dossier pour cloner github
-  - TODO & tâches récurrentes
+  - TODO & tâches récurrentes & nouveaux process
   - Agenda & events récurrentss
   - éceuils
     - Perte mots de passe

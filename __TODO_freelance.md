@@ -1,6 +1,6 @@
 # Freelance, gestion de l'entreprise, clients
 
-- slurp cours [3wa](https://e.3wa.fr/user/profile.php?id=2257)
+- [Opti linked in](https://www.dropbox.com/s/jbmjlr3a9lrnkzj/linkedin_by_simon.pdf?dl=0)
 - CV > xp pro > coquille > dates ergelis
 - CV > Ajouter NodeJs, Express & MongoDB
 - Zones DNS > Attribuer IPV6 (AAAA ?) cf. dns picard vers dev.champ
@@ -24,6 +24,7 @@
 ## Référencement
 
 - [mon-presta.fr](https://mon-presta.fr/)
+- [google business](https://business.google.com/create?gmbsrc=FR-fr-gwlb-dt-gmail-gmb-s-l~z|create|mat)
 
 ## Prospects
 

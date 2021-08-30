@@ -29,12 +29,15 @@ Sites > crunchyroll / otakufr . co
 - Amer beton
 - ~ Ange vierge / 1/5
 - angel cop
+- Arslann
 - Asobi asobase
 - Attack of titan
 - baoh le visiteur
 - batman ninja
 - ✅ beserk
 - blue gender
+- Boku no piko / 2/5 / En fait c'etait une blague c'est du hentai pédo hahaha lolilol qu'est-ce qu'on rigole ca va relancer le marché de la rosette
+  - ✅S1 / 3 épisodes
 - Devil May Cry
 - Blame
 - DDD
@@ -190,6 +193,7 @@ Sites > crunchyroll / otakufr . co
 - 📌 Mother
 - Nameless gangster
 - narc
+- [No country for old men](https://www.google.com/search?q=no+country+ofr+old+men&oq=no+country+ofr+old+men&aqs=chrome..69i57.2809j0j1&sourceid=chrome&ie=UTF-8)
 - pas un mot
 - Pandorum
 - Park_Chan-wook / filmo
@@ -236,6 +240,7 @@ Sites > crunchyroll / otakufr . co
 - The Lighthouse
 - The machinist (christian bale)
 - The signal
+- [The tattouist](https://filmstreaming2.com/WDrk46w-the-tattooist)
 - They live
 - Thirst, ceci est mon sang / Park Chan-wook
 - trainspotting
@@ -265,12 +270,16 @@ Sites > crunchyroll / otakufr . co
 - bunny the killer thing
 - Deathgasm
 - Dogma
+- ✅ Frankenhooker / 4/5 / Un peu long mais très bon nanard
 - German Angst
 - hamburger film sandwich / voies redoublées
 - Howard the duck
+- [Jattu Engineer](https://www.nanarland.com/chroniques/comedies-nanardes/comedies-pouet-pouet/jattu-engineer.html)
 - killer beans
 - killer clown in space
 - L'attaque de la moussaka géante
+- ✅ L'homme aux poings de fer 4/5 / Ca rend ouf / forgeron black + russel crow & bautista & lucy liu & manu payet en roue libre
+  - Y'a un 2
 - L'homme puma
 - La caravane du courage, film ewoks
 - Les ewoks 2 la bataille d'endors
@@ -280,19 +289,21 @@ Sites > crunchyroll / otakufr . co
 - [Pac man le film](http://www.allocine.fr/film/fichefilm_gen_cfilm=211257.html)
 - Raw Force
 - Samuraïs
-- Samurai cop
+- Samurai cop / 3/5 / Très long pour ce que c'est mais sympa a voir
 - Série [Japanese spiderman](https://www.youtube.com/watch?v=d5NCSx5HF8c)
 - sharknado
 - Short circuit (vieux, ui)
 - Street fighter la série US 1995
+- ✅ The drone / 5/5 / L'esprit du tueur en série passe dans son drone avec un hack en binaire IRL
 - The legend of Simon conjurer
 - The room
 - Turbo Kid
 - Turkish spiderman
 - ✅ Undead sigh/5
 - Violent Shit: The Movie
-- 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Who killed captain alex / 1st uganda action movie / sur youtube
-  - Bad black / Who killed captain alex 2 / 2st uganda action movie
+- ✅ Virus Shark / 4/5
+- ✅ Who killed captain alex / 1st uganda action movie / sur youtube / 5/5 💖
+  - 🚀 Bad black / Who killed captain alex 2 / 2st uganda action movie
 - Zombie Ass: The Toilet of the Dead (2011)
 - zombi 3
 

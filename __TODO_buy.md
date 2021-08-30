@@ -60,6 +60,7 @@
 
 ## Warhammers
 
+- Amazon > [3eme main](https://www.amazon.fr/support-troisi%C3%A8me-flexibles-r%C3%A9glages-r%C3%A9glables/dp/B08QZ4PMHR/ref=mp_s_a_1_2_sspa)
 - Amazon > acheter pinceaux de maquillages (5 pour 20) pour soft drybrush
 - Amazon > [Lampe de ouf](https://www.amazon.com/PHIVE-Architect-Bright-Drafting-Brightness/dp/B07MHH9Q7B?fbclid=IwAR3yZ7rxo3Ixdioa081crMmAUL-sjxurbUhC6aW0Fqo92vMMiqEjOWiKYCQ)
 - Amazon > Peinture "Golden artist color" titanium white
