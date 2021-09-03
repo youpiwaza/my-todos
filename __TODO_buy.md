@@ -18,6 +18,7 @@
   - [+ sakura cherry](https://www.nishikidori.com/en/129-sakura-cherry)
 - ✅ Miel gelée royale
 - ✅ Huile de foie de morue
+- Origine des saveurs (netflix) > gluten
 - [Perilla_oil](https://en.wikipedia.org/wiki/Perilla_oil)
 - [Sauce otafuku](https://www.otafukusauce.com/e/)
 - [Sel d'icelande](https://www.amazon.fr/Saltverk-Pure-Flaky-Sea-salt/dp/B06XKSFW4P) / [Vidéo](https://www.youtube.com/watch?v=dgzwxRSJyfw)

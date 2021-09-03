@@ -136,6 +136,7 @@ Sites > crunchyroll / otakufr . co
 - Confessions of a Dangerous Mind
 - Cool world
 - cop land
+- crazy lee
 - Dark man / Sam raimi
 - david fincher / filmographie
 - De rouille et d’os
@@ -227,6 +228,7 @@ Sites > crunchyroll / otakufr . co
 - Sword of destiny
 - The ambassador
 - the blade
+- 🚀 the collector / horreur
 - The descent
 - The fighter (christian bale)
 - ✅ the founder / 4/5
@@ -359,6 +361,7 @@ Sites > crunchyroll / otakufr . co
 - Pourri
 - Préquelle quête de l'oiseau du temps
 - Raymon Oliver la cuisine
+- 🚀🚀🚀 roadside picnic (stalker)
 - the art of scalability
 - Tokyo, de haiden
 

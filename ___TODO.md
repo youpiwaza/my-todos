@@ -39,22 +39,49 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Trucs **persos**
 
-1. WP picard
-   1. Facture NDD [picards](https://mail.google.com/mail/u/0/#inbox/FMfcgzGkZZwLntCGLnPgcLNCzSlJVKlg)
-      1. Facture envoyée le ~18/08/21 < a valider>
-   2. spam > virer commentaires
-2. Recette kir a la mûres > extraire sms guy
-3. Musiques taf & portable
-4. Rdv médecins
-   1. Ophtalmo
-   2. Cardiolog0ue
-   3. Oreillologiste
-5. CPF > Langage des signes / Amazon AWS
-6. !site perso > cours particuliers code > 50€ heure
+1. 🤑 [cadeau moman FF 10 2 Piano collection](https://www.amazon.fr/Final-Fantasy-Piano-Collection-Sheet/dp/4636258665/ref=cm_cr_arp_d_product_top?ie=UTF8) 10-2 introuvable
+2. ⏳ Annuler [gorillaz](https://songkick.fnacspectacles.com/compteclient/detailTransaction.do?transactionId=4551758280325692730)
+   1. Fnac songkick
+   2. En attente de retour fnac songkick
+   3. En attente retour paylogic
+3. ⏳ vignette crit'air 1
+   1. Retour vigi carte grise ou elle s'en occupe ?
+4. ⏳ orga week end dralex
+   1. Retour Angelike heberg
+5. Compléments alimentaires avant le 9 septembre
+   1. 💩 Manque 1 / [Solgar Phosphatidylcholine](https://www.amazon.com/your-orders/orders/ref=yo_oh_gp_to_ov?_encoding=UTF8&ref_=nav_orders_first&)
+6. ✅ maj wallpapers sur github
+7. ✅ Répondre mercer enculés
+   1. 210903 > Répondu par mail & [courrier recommandé](https://mail.google.com/mail/u/0/#search/mercer/FMfcgxwHNMWCgjZtpBWqGPQSkwCJgvKg)
+8. faire une liste too good to go > + & -
+9. Mettre à jour CV !
+10. WP picard
+    1. Facture NDD [picards](https://mail.google.com/mail/u/0/#inbox/FMfcgzGkZZwLntCGLnPgcLNCzSlJVKlg)
+        1. Facture envoyée le ~18/08/21 < a valider>
+    2. spam > virer commentaires
+11. Recette kir a la mûres > extraire sms guy
+12. Musiques taf & portable
+13. Rdv médecins
+    1. Ophtalmo
+    2. Cardiolog0ue
+    3. Oreillologiste
+14. CPF > Langage des signes / Amazon AWS
+15. !site perso > cours particuliers code > 50€ heure
 
 Trucs **taf**
 
-1. slurp cours [3wa](https://e.3wa.fr/user/profile.php?id=2257)
+1. ✅ 26 Digital
+   1. Refaire au propre notes
+   2. ✅ Devis + Signatures
+   3. ✅ Factures
+      1. ✅ Envoi facture acompte septembre
+   4. ✅ réservation trains
+      1. Aller Mardi 07 SEPT. 06:45 - 07:31
+      2. Retour Vendredi 10 SEPT. 19:58 - 20:44
+2. ✅ Ursaff > attestation de vigilance
+   1. ✅ Puis envoyer sur malt
+   2. Message envoyé sur ae.urssaf.fr le 01/09/21
+3. slurp cours [3wa](https://e.3wa.fr/user/profile.php?id=2257)
 
 Trucs pour la **migration du serveur**
 
@@ -202,9 +229,11 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 2. Trucs AE
    1. [hey](https://www.cominjob.com/candidat/)
    2. [hoy](https://www.ouiboss.com/)
+   3. [prout](https://www.freelance-informatique.fr/)
 
 ### ⏳🌱 Vérifications sur la longueur
 
+- Relancer Yoann Emile / Concretio-services.com pour [boulot](https://mail.google.com/mail/u/0/#inbox/FMfcgzGkbDbSHVlwFTBJKSstFTvVScJH)
 - 🌱 Impôts > Pas d'avis de CFE ?
   - Réponse par mail le 26/11/20, CA non transmis pour le moment, avis et prélèvement courant 2021
   - Toujours rien au 01/01/21
@@ -238,6 +267,8 @@ Indiquer ici les *tâches en dehors du flux général* (urgences, corrections pr
        1. Clean templating, variable [deprecated ansible_managed](https://docs.ansible.com/ansible/2.4/intro_configuration.html#ansible-managed)
            1. [?](https://docs.ansible.com/ansible/latest/reference_appendices/config.html#default-managed-str)
        2. [ansible prompt](https://docs.ansible.com/ansible/latest/user_guide/playbooks_prompts.html)
+   3. Opti script maintenance
+      1. Ajouter maj OMZ ZSH
 2. install-dev-env > docker-compose pour les principales technos : js & phpay
 3. __TODO_shame.md > serveur
 4. 🔍 [tmux](https://nickjanetakis.com/blog/who-else-wants-to-boost-their-productivity-with-tmux)
