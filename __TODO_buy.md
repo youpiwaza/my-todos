@@ -71,6 +71,11 @@
   - [Liquid pigments](https://www.greenstuffworld.com/fr/261-pigments-liquides)
   - !! Metal pigments !
   - [Metal filters](https://www.greenstuffworld.com/en/paint/1481-set-metal-filters-interference-colours.html)
+  - Rangements !
+    - [Support vertical en MDF avec tiroirs](https://www.greenstuffworld.com/fr/expositeur-de-peinture/1768-support-vertical-en-mdf-avec-tiroirs.html)
+    - [Présentoir Modulaire pour Peinture - FRONTAL](https://www.greenstuffworld.com/fr/expositeur-de-peinture/1083-presentoir-modulaire-pour-peinture-frontal.html)
+    - [Ensemble modulaire 2x tiroirs MDF](https://www.greenstuffworld.com/fr/expositeur-de-peinture/1141-ensemble-modulaire-2x-tiroirs-mdf.html)
+    - [Ensemble modulaire 3x tiroirs MDF](https://www.greenstuffworld.com/fr/expositeur-de-peinture/1143-ensemble-modulaire-3x-tiroirs-mdf.html)
 - Kickstarter darkest dungeon
 - [LED GSW / Mini lighting Set With switch and CR927 Battery](https://www.greenstuffworld.com/en/led-lights/1568-mini-lighting-set-with-switch-and-cr927-battery.html)
 - Night lords
