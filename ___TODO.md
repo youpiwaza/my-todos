@@ -70,14 +70,17 @@ Trucs **taf**
       3. Rappels/Emplois du temps
       4. 💥 28/09/2021 concert jinjer à REIMS, voir pour venir mercredi !
    3. ✅ Revoir bootstrap
-   4. 🚀🚀🚀 Faire sac
-      1. Lunettes
-      2. Soja
-      3. Tupperware
-      4. Muffins
-      5. Fringues
-      6. Douche
-      7. Verre + Tasse café
+   4. ✅ Faire sac
+      1. ✅ Lunettes
+      2. ✅ Tupperware
+      3. ✅ Muffins
+      4. ✅ Fringues
+      5. 🌱 Douche
+      6. ✅ Verre + Tasse café
+      7. ✅ Masques covid
+      8. ✅ Téléphone
+      9. ✅ Chargeur téléphone
+      10. ✅ Casque micro
    5. A voir avec tlm
       1. Questions
          1. Est-ce que le site doit être responsive ?
@@ -87,6 +90,9 @@ Trucs **taf**
             2. Liberté d'adaptation ? De suggestions de compo bootstrap ?
       2. Kwaksé GIT
       3. Kwaksé environnement de dev
+         1. Process de livraisons
+            1. Contrôle
+            2. Utilisateurs finaux : prévenir avant !
       4. can i use
    6. Dev
       1. Noter tous les contacts
