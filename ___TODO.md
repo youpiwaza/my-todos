@@ -39,62 +39,40 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Trucs **persos**
 
-1. 🤑 [cadeau moman FF 10 2 Piano collection](https://www.amazon.fr/Final-Fantasy-Piano-Collection-Sheet/dp/4636258665/ref=cm_cr_arp_d_product_top?ie=UTF8) 10-2 introuvable
-   1. Réserver sur fnac
-2. Coiffeur > Coiff&Co sans RDV Adresse : 14 Rue de Courcelles, 51100 Reims
-3. Croquettes chien 12kg
-4. ⏳ Annuler [gorillaz](https://songkick.fnacspectacles.com/compteclient/detailTransaction.do?transactionId=4551758280325692730)
+1. ⏳ Annuler [gorillaz](https://songkick.fnacspectacles.com/compteclient/detailTransaction.do?transactionId=4551758280325692730)
    1. Fnac songkick
    2. En attente de retour fnac songkick
    3. En attente retour paylogic
-5. ⏳ vignette crit'air 1
+2. ⏳ vignette crit'air 1
    1. Commandée le 05/09/21, en attente de retour
-6. ⏳ orga week end dralex
+3. ⏳ orga week end dralex
    1. Retour Angelike heberg
-7. Compléments alimentaires avant le 9 septembre
+4. Compléments alimentaires avant le 9 septembre
    1. 💩 Manque 1 / [Solgar Phosphatidylcholine](https://www.amazon.com/your-orders/orders/ref=yo_oh_gp_to_ov?_encoding=UTF8&ref_=nav_orders_first&)
-8. ✅ maj wallpapers sur github
-9. ✅ Répondre mercer enculés
-   1. 210903 > Répondu par mail & [courrier recommandé](https://mail.google.com/mail/u/0/#search/mercer/FMfcgxwHNMWCgjZtpBWqGPQSkwCJgvKg)
-10. faire une liste too good to go > + & -
-11. Mettre à jour CV !
-12. WP picard
-    1. Facture NDD [picards](https://mail.google.com/mail/u/0/#inbox/FMfcgzGkZZwLntCGLnPgcLNCzSlJVKlg)
-        1. Facture envoyée le ~18/08/21 < a valider>
-    2. spam > virer commentaires
-13. Recette kir a la mûres > extraire sms guy
-14. Musiques taf & portable
-15. Rdv médecins
+5. faire une liste too good to go > + & -
+6. Mettre à jour CV !
+7. Recette kir a la mûres > extraire sms guy
+8. Musiques taf & portable
+9. Rdv médecins
     1. Ophtalmo
     2. Cardiolog0ue
     3. Oreillologiste
-16. CPF > Langage des signes / Amazon AWS
-17. !site perso > cours particuliers code > 50€ heure
+10. CPF > Langage des signes / Amazon AWS
+11. !site perso > cours particuliers code > 50€ heure
 
 Trucs **taf**
 
-1. ✅ 26 Digital
+1. 26 Digital
    1. Refaire au propre notes
-      1. Horaires 9h à 18h
-   2. ✅ Devis + Signatures
-   3. ✅ Factures
-      1. ✅ Envoi facture acompte septembre
-   4. ✅ réservation trains
-      1. Aller Mardi 07 SEPT. 06:45 - 07:31
-      2. Retour Vendredi 10 SEPT. 19:58 - 20:44
-      3. 💥 Résea 2eme semaine
-   5. 🚀 Revoir bootstrap
-   6. Faire sac
+   2. 🚀 Revoir bootstrap
+   3. Faire sac
       1. Lunettes
       2. Soja
       3. Tupperware
       4. Muffins
       5. Fringues
       6. Douche
-2. ✅ Ursaff > attestation de vigilance
-   1. ✅ Puis envoyer sur malt
-   2. Message envoyé sur ae.urssaf.fr le 01/09/21
-3. slurp cours [3wa](https://e.3wa.fr/user/profile.php?id=2257)
+2. slurp cours [3wa](https://e.3wa.fr/user/profile.php?id=2257)
 
 Trucs pour la **migration du serveur**
 
@@ -187,60 +165,62 @@ Suite **Serveur** post migration
 
 Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel plus tard/exponentiel
 
-- ⏳ Déplacer les terminés ✅ à chaque début de semaine dans done.md
+- ✅ Déplacer les terminés ✅ à chaque début de semaine dans done.md
 - 💩 Déplacer les TODO 🌱 dans _TODO_shame.md
-- ⏳ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ⏳ mails, ⏳ edt portable, ⏳ favoris, ⏳ bureau. Si possible description + lien.
-- ⏳ Nettoyer le fichier __TODO
-  - ⏳ Status
-  - ⏳ Ce fichier > ### Shame
-    - ⏳ Ranger dans fichiers TODO correspondant
-    - ⏳ Prioriser
-- ⏳ Virer ce qui traine
-  - ⏳ sur le bureau
+- ✅ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ✅ mails, ✅ edt portable, ✅ favoris, ✅ bureau. Si possible description + lien.
+- ✅ Nettoyer le fichier __TODO
+  - ✅ Status
+  - ✅ Ce fichier > ### Shame
+    - ✅ Ranger dans fichiers TODO correspondant
+    - ✅ Prioriser
+- ✅ Virer ce qui traine
+  - ✅ sur le bureau
   - 💩 dans le dossier _shame du bureau
   - 💩 Lel (local)/Mes documents/_dev/_shame
-  - ⏳ Vider corbeille
-  - ⏳ Vider téléchargements
-  - ⏳ Dans les mails
-- ⏳ Déplacer veille onglets dans TODO_veille
+  - ✅ Vider corbeille
+  - ✅ Vider téléchargements
+  - ✅ Dans les mails
+- ✅ Déplacer veille onglets dans TODO_veille
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
-- ⏳ Déclaration Auto entrepreneur
-- ⏳ Vérifier impôts sur espace / Dernière vérif 15/08/2021
-  - ⏳ Perso
-  - ⏳ Pro
-- ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21
-  - ⏳ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk)
+- ✅ Déclaration Auto entrepreneur
+- ✅ Vérifier impôts sur espace / Dernière vérif 15/08/2021
+  - ✅ Perso
+  - ✅ Pro
+- ✅ Maj locales / Environnement de dev / Dernière maj le 01/06/21
+  - ✅ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk)
     1. Invite de commande ou Powershell **en admin**
-    2. `>Blah blah besoin de redémarrer O/n` >> `O`
-    3. ⏳ `chkdsk c: /f` (et en fonction de vos disques.. && `chkdsk d: /f`, etc.)
-    4. Redémarrer
-  - ⏳ Windaube update
-    - ⏳ Panneau de conf > "Fichiers temporaires" > Supprimer
-  - ⏳ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable et suivre liens dl
-  - ⏳ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
+    2. `chkdsk c: /f` (et en fonction de vos disques.. && `chkdsk d: /f`, etc.)
+    3. `>Blah blah besoin de redémarrer O/n` >> `O`
+    4. Redémarrer / Attendre 5 ans et demi sauf si t'as un SSD
+  - ✅ Windaube update
+    - ✅ [.net](https://dotnet.microsoft.com/download)
+    - ✅ Panneau de conf > "Fichiers temporaires" > Supprimer
+  - ✅ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
+  - ✅ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
     - [Sandisk ultra II](https://kb.sandisk.com/app/answers/detail/a_id/6053/~/ultra-3d-%7C-sandisk-ssd-plus-%28ssd%29-support-information)
     - Lancer (Sandisk) "Dashboard" / Firmware update automatique, et il préveitn avant. Nice
-  - ⏳ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
-  - ⏳ Logiciels alakon
-    - ⏳ Filezilla, OBS, VLC, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
-    - ⏳ Nvidia driver
-    - ⏳ Powershell [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi` > Extraire dans un dossier dédié > `pwsh.exe`.
+  - ✅ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
+  - ✅ Logiciels alakon
+    - ✅ Ouvrir VScode > Auto update plugins etc.
+    - ✅ ~~Filezilla~~ WinSCP, OBS, VLC, ESET, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
+    - ✅ Powershell [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
+    - ✅ Nvidia driver
       - ( [Doc](https://docs.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) )
-  - ⏳ WSL
-    - ⏳ Version Ubuntu
-      - ⏳ Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
-    - ⏳ Packages & terminal
+  - ✅ WSL
+    - ✅ Version Ubuntu
+      - ✅ Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
+    - ✅ Packages & terminal
 
 ```bash
 omz update
 git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade
 ```
 
-- ⏳ Maj serveur, script maintenance
-  - ⏳ `98-maintenance.yml` & `sudo apt -y update && sudo apt --fix-broken install && sudo apt -y upgrade` & reboot si besoin
-  - ⏳ Maj Lapie HMAC
-- ⏳ Tout est Versionné, pas de WIP qui traîne
+- ✅ Maj serveur, script maintenance
+  - ✅ `98-maintenance.yml` & `sudo apt -y update && sudo apt --fix-broken install && sudo apt -y upgrade` & reboot si besoin
+  - ✅ Maj Lapie HMAC
+- ✅ Tout est Versionné, pas de WIP qui traîne
 
 ## ⏳ En attente
 

@@ -223,16 +223,23 @@ Vous cherchez Git dans la barre de recherche et vous supprimez les lignes corres
       - RAID 0
       - Alternative > clé usb en DD virtuel pour cache
     - Overclock dans BIOS
-    - Mises à jour de tout
+    - Mises à jour de tout, cf. mes TODO
       - Windows update
       - CG
       - (Ubuntu 1 liner)
       - Divers
     - Contrôle des comptes utilisateurs
-    - Attribution correcte de la mémoire (systèmes > paramètres avancés)
+    - Attribution correcte de la mémoire (systèmes > paramètres avancés > Options de performances > Avancé > Mémoire virtuelle)
+      - Gestionnaire de tâches > Performance > Mémoire
+      - Fenêtre "informations système"
     - Désactiver trucs de merdes
-      - Cortana
-      - Search index windaube
+      - Services en arrière plan
+        - (tout)
+        - Cortana
+      - "Services"
+        - Arrêter, puis propriétés > désactiver
+          - SysMain
+          - Windows Search
     - Démarrage
       - Programmes
       - Services.msc
@@ -249,8 +256,10 @@ Vous cherchez Git dans la barre de recherche et vous supprimez les lignes corres
       - "Nettoyer"
       - "Fichiers temporaires"
     - Défragmenter (si != SSD)
-    - Intégrité des disques durs > CHKDSK -f ?
+    - Intégrité des disques durs > `chkdsk c: /f`
     - Augmenter la RAM avec clé USB au cul
+    - [💖 millomaker pc -150€ & très bonne optimisation windows 10](https://www.youtube.com/watch?v=q4MBvlH3zK0)
+      - & liste de matos amazon en description
 
 ```javascript
 Faire les mises à jour

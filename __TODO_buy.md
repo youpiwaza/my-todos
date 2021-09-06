@@ -30,8 +30,10 @@
 ## Divers
 
 - [Bureau de ouf](https://www.autonomous.ai/standing-desks/smartdesk-2-home)
+- Cable usbc
 - Housse en cuir pour couteau, demander a Alexis
 - [SS](https://sexysushi.bandcamp.com/)
+- [Suport mural guitare](https://www.musicpromusic.com/fr/1495-support-guitare-mural-noir.html) ou voir plutôt thomman
 - [Vinyl OST FF7](https://store.eu.square-enix-games.com/fr_FR/product/289692/final-fantasy-vii-vinyl)
 
 ## Fringues

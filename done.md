@@ -2,7 +2,21 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 06/09/21
+
+Trucs **persos**
+
+1. ✅ Cadeau moman > Partitions compilation FF
+2. ✅ Coiffeur > Coiff&Co sans RDV Adresse : 14 Rue de Courcelles, 51100 Reims
+3. ✅ Croquettes chien 12kg
+
 ## 30/08/21
+
+Trucs **persos**
+
+1. ✅ maj wallpapers sur github
+2. ✅ Répondre mercer enculés
+   1. 210903 > Répondu par mail & [courrier recommandé](https://mail.google.com/mail/u/0/#search/mercer/FMfcgxwHNMWCgjZtpBWqGPQSkwCJgvKg)
 
 Trucs **taf**
 
@@ -10,6 +24,26 @@ Trucs **taf**
    1. ✅ go checker chkdsk
    2. ✅ Firmware SSDs
 2. ✅ Ranger la première page de Liste de liengs + remplacer par une intro au fichier
+3. ✅ WP picard
+    1. Facture NDD [picards](https://mail.google.com/mail/u/0/#inbox/FMfcgzGkZZwLntCGLnPgcLNCzSlJVKlg)
+        1. Facture envoyée le ~18/08/21
+        2. Payé le 6/09/21
+    2. ✅ spam > virer commentaires
+4. ✅ 26 Digital
+   1. ✅ Horaires 9h à 18h
+   2. ✅ Devis + Signatures
+   3. ✅ Factures
+      1. ✅ Envoi facture acompte septembre
+   4. ✅ réservation trains
+      1. ✅ Première semaine
+         1. Aller : mardi 7 septembre 2021 à 06:45
+         2. Retour : vendredi 10 septembre 2021 à 19:58
+      2. ✅ 2eme semaine
+         1. Aller : lundi 13 septembre 2021 à 06:45
+         2. Retour : vendredi 24 septembre 2021 à 19:58
+5. ✅ Ursaff > attestation de vigilance
+   1. Message envoyé sur ae.urssaf.fr le 01/09/21
+   2. ✅ Puis envoyer sur malt
 
 Trucs **serveur**
 
