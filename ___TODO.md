@@ -79,7 +79,12 @@ Trucs **taf**
       6. Douche
       7. Verre + Tasse café
    5. A voir avec tlm
-      1. Responsive ?
+      1. Questions
+         1. Est-ce que le site doit être responsive ?
+         2. [Échantillon de résolutions](https://supportdetails.com/) > envoi a masa
+         3. Graphismes
+            1. En interne ?
+            2. Liberté d'adaptation ? De suggestions de compo bootstrap ?
       2. Kwaksé GIT
       3. Kwaksé environnement de dev
       4. can i use
