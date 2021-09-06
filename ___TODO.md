@@ -63,15 +63,52 @@ Trucs **persos**
 Trucs **taf**
 
 1. 26 Digital
-   1. Refaire au propre notes
-   2. 🚀 Revoir bootstrap
-   3. Faire sac
+   1. ✅ Refaire au propre notes
+   2. ✅ Boilerplate comptes rendus activité
+      1. Envoyer au client & faire signer
+      2. Envoyer à 26 Digital ~1 fois par semaine, avec % avancement mission totale
+      3. Rappels/Emplois du temps
+      4. 💥 28/09/2021 concert jinjer à REIMS, voir pour venir mercredi !
+   3. ✅ Revoir bootstrap
+   4. 🚀🚀🚀 Faire sac
       1. Lunettes
       2. Soja
       3. Tupperware
       4. Muffins
       5. Fringues
       6. Douche
+      7. Verre + Tasse café
+   5. A voir avec tlm
+      1. Responsive ?
+      2. Kwaksé GIT
+      3. Kwaksé environnement de dev
+      4. can i use
+   6. Dev
+      1. Noter tous les contacts
+      2. possibilité d'installer logiciels sur poste
+      3. Mise en place du poste (vscode & autre joyeusetés)
+         1. Mise à jour habituelles / cf. TODO
+         2. ✅ VSCode > Settings sync ok pour github/youpiwaza
+         3. ssd ?
+      4. Gestion de projet > Jira/Trello ? Accès, tickets, etc.
+      5. Concrètement le matos & bare metal qui fait tourner l'appli (windows server ?)
+      6. Ca va tukoné ?
+         1. Markdown
+         2. Git
+         3. Gitflow
+         4. Bootstrap et toutes ses possibilités > [doc content](https://getbootstrap.com/docs/5.1/content/reboot/)
+            1. Réfléchir avant chaque intégration ! Bonne pratiques + accéssibilité
+            2. Annoter les maquettes afin d'homogénéiser le tout !
+      7. Site dispatché sur 2 serveurs > répartition concrète des trucs
+      8. Environnement de dev conteneur PHP5
+         1. Voir si possibilité de migrer v8 "simplement" (test a la zob voir si bcp erreurs)
+      9. Mettre en place git
+      10. Mettre en place environnement de dev
+          1. dev/preprod/prod
+      11. Attention bootstrap officielement pas compatible avec IE (sinon voir bootstrap 4)
+      12. Bonnes pratiques [html5 tags](https://getbootstrap.com/docs/5.1/content/reboot/)
+          1. Si [tuto/doc](https://getbootstrap.com/docs/5.1/content/reboot/#user-input) `<kbd>`
+   7. Si tout good > recommandation malt en fin de mission
 2. slurp cours [3wa](https://e.3wa.fr/user/profile.php?id=2257)
 
 Trucs pour la **migration du serveur**
