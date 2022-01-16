@@ -40,98 +40,36 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Lapie
 
-1. ✅ Réparer galerie photos
-2. ✅ Nouvelle photo ratafia
-3. ✅Nouveau tarifs transports
-   1. De 6 à 12 bouteilles 2€50 par bouteille
-   2. De 18 à 96 bouteilles 2€ par bouteille
-   3. Plus de 96 bouteille, livraison offerte (note max : Je l'ai donc détaxée, même si virtuellement cela ne change rien)
-      1. 2 demi bouteilles comptent comme 1 bouteille
-      2. 1 magnum compte comme  2 bouteilles
-   4. ✅ Mettre à jour le choix automatique dans le panier en fonction du nombre de bouteilles
-4. ✅ Mises à jour plugins & traductions
-5. ✅ Pages référencement naturel "wikipedia" : à masquer
-   1. ✅ Mise à jour de la page "Plan du site"
-   2. 🚨 Note: Les pages n'ont pas été supprimées, mais ont été masquées (passée en publication "privée")
-   3. 🚨 Note: Lorsqu'on est connecté en administrateur, le plan du site affiche les pages privées, mais pour le public non ;)
-6. 🚀 Train de bulle
-   1. on remplace la tapisserie
-   2. on remplace des deux côtés
-   3. Flute de champagne avec train de bulles
-   4. Fond : récupérer "gris bleu" du bandeau
-      1. Le même en plus foncé
-   5. Rajouter logo lapie sur la flute
-   6. En profiter pour éclaircir bandeau en haut
+1. 💩 Train de bulle
+2. Changer pour fond avec vignes
+3. Renouveller NDD 10 ans
+   1. Facture & envoyer
 
 ---
 
-1. ✅ Mails
-   1. ✅ Le bon coin
-   2. ✅ Ameli
-   3. ✅ Fond ecran gokudolls
-2. ✅ Changer pass dashlane
-3. ✅ 211127 Faire comptes > reste 300 balles en comptant les impots début décembre
-4. ✅ Message banque 20 balles wtf
-5. ✅ Rappeler conforama confirmer / 15 17 46 7
-6. ✅ Emballer cadeau nonore
-7. ✅ Facture taf
-8. ✅ Facture hébergement
-9. ✅ Taf
-   1. ✅ Envoyer CRA et mes CRA
-   2. ✅ Confirmer virement
-   3. ✅ Déclaration AE novembre
-   4. ✅ Noter Date prélèvement impôts octobre
-   5. ✅ Loyer janvier
-   6. ✅ Participation décembre
-10. ✅ Litère chatte
-11. ✅ Gérer trains pour chez anouk
-    1. ✅ Retour max
-    2. ✅ AR vigi
-12. ✅ Choix & commande tireuse à bière
-13. 🤏 Rembourser daron
-      1. reste 1250€
-14. Imperméabiliser pompes
-15. Carte électorale
-16. Casque buyers dynamic D 330
-17. Youtube advanced
-18. Cadeaux nowel
-    1. ✅ Theatre de paris michalak
-    2. ✅ Tireuse à bière
-    3. [Voyages a 1€](https://www.voyagespirates.fr/vols/mega-promo-vols-a-partir-de-1eur)
-19. ✅ Envoyer pinata a pauline
-20. Menage
-    1. Poussière
-    2. Salle de bain
-    3. Chiottes
-    4. Aspi
-    5. Bâche
-21. Courrier changement de proprio chatte
+1. Casque buyers dynamic D 330
+2. Youtube advanced
 
 Trucs **persos**
 
-1. ✅ Billets train anouk
-2. ✅ Décaler billets cette semaine
-3. ✅ Billets fin d'année
-4. ✅ Bloodywook 22 mars trabendo
-5. ✅ Formulaire changement propriétaire chatte
-   1. Changement d'adresse mail & tel sur i-cad fait
-   2. Contact pour changer nom proprio
-6. Faire article réparation/optimisation de pc
+1. Renouveller NDD 10 ans
+2. Changement propriétaire chatte
+3. Faire article réparation/optimisation de pc
    1. [hey](https://www.drivereasy.com/knowledge/100-disk-usage-windows-10-fixed/)
    2. [hoy](https://www.makeuseof.com/tips-fix-100-disk-usage-improve-windows-performance/)
-7. Faire article maintenance PC
-8. double authentification OVH manager
-9. Renouveller carte identité avant 6/03/2022
+4. Faire article maintenance PC
+5. double authentification OVH manager
+6. Renouveller carte identité avant 6/03/2022
    1. Calable 15 ans maintenant ?
-10. Compléments alimentaires / [Solgar Phosphatidylcholine](https://www.amazon.com/your-orders/orders/ref=yo_oh_gp_to_ov?_encoding=UTF8&ref_=nav_orders_first&)
-11. Mettre à jour CV !
-12. Musiques taf & portable
-13. Rdv médecins
+7. Compléments alimentaires / [Solgar Phosphatidylcholine](https://www.amazon.com/your-orders/orders/ref=yo_oh_gp_to_ov?_encoding=UTF8&ref_=nav_orders_first&)
+8. Mettre à jour CV !
+9. Musiques taf & portable
+10. Rdv médecins
     1. Ophtalmo
     2. Cardiolog0ue
     3. Oreillologiste
-14. CPF > Langage des signes / Amazon AWS
-15. !site perso > cours particuliers code > 50€ heure
+11. CPF > Langage des signes / Amazon AWS
+12. !site perso > cours particuliers code > 50€ heure
 
 Trucs **taf**
 
@@ -139,18 +77,19 @@ Trucs **taf**
 
 Trucs pour la **migration du serveur**
 
-1. Wordpress dev prod > réutiliser /generated/var files
-2. Faire une grosse repasse sur les index de projet il manque plein de vars
-3. Conteur netdata a la place de grafana
-4. Génération d'un nouveau site OU wp > doc identifiant à la racine (actuellement uniquement dans /generated/)
-5. wp > identifiants > ajouter url wp-admin
-6. BUG: génération des fichiers de sites > prefixe `200-` pas utilisé partout
-7. 🚀 Bind volumes pour les fichiers /www des sites, sur les sftp créés
+1. Installer webmin plutot que grafana & autres
+2. Wordpress dev prod > réutiliser /generated/var files
+3. Faire une grosse repasse sur les index de projet il manque plein de vars
+4. Conteur netdata a la place de grafana
+5. Génération d'un nouveau site OU wp > doc identifiant à la racine (actuellement uniquement dans /generated/)
+6. wp > identifiants > ajouter url wp-admin
+7. BUG: génération des fichiers de sites > prefixe `200-` pas utilisé partout
+8. 🚀 Bind volumes pour les fichiers /www des sites, sur les sftp créés
    1. A la mano voir si ça marche, sinon se pendre
    2. Automatiser
-8. `/home/singed_the_docker_peon_9f3eqk4s9/configs/masamune/hello--masamune--fr` wtf is that
-9. harmoniser builder guy > tout THE_BUiLDER_GUY, idem autres XXX_GUY
-10. Tutum > remplacer par nginx
+9. `/home/singed_the_docker_peon_9f3eqk4s9/configs/masamune/hello--masamune--fr` wtf is that
+10. harmoniser builder guy > tout THE_BUiLDER_GUY, idem autres XXX_GUY
+11. Tutum > remplacer par nginx
     1. Faire tourner déjà ca serait bien, go ctrl + f "curated"
     2. Utiliser vars d'environnement pour refaire un tutum mayzon: image + nom conteneur
     3. Serveur normal & serveur php basique pour les sites non wp
@@ -158,20 +97,20 @@ Trucs pour la **migration du serveur**
        1. 🔍 [Video configuration](https://www.youtube.com/watch?v=C5kMgshNc6g)
        2. Tune server for [nginx performance](https://www.nginx.com/blog/10-tips-for-10x-application-performance/)
        3. [+1](https://blog.monitis.com/blog/6-best-practices-for-optimizing-your-nginx-performance/)
-11. Bitnami
+12. Bitnami
     1. [Github issues](https://github.com/bitnami/bitnami-docker-mysql/issues/79#issuecomment-545477842) > Variable d'env afin d'augmenter le debug des conteneurs bitnami ! >> raisons explicites sur le problème de boot du conteneur
     2. Gestion notes dans ansible-install-web-server/ansible/203-setup-wordpress-lapie_secret.yml
     3. Testay avec surcharge de conf via config: voir si ca boot avec la bonne conf
     4. Lourder si serveurs web classique stabilité 100%, +1 speed
     5. Activer modules php
     6. Http 2/3
-12. Gestion des mails propre
+13. Gestion des mails propre
     1. Connexion au serveur SMPT du serveur ? cf. utils-emails
     2. [Conteneur postfix ?](https://hub.docker.com/_/postfixadmin)
     3. Ajout SPF/DKIM/DMARC
     4. Maj lapie & nonore
-13. Maj conteneur bitnami/wordpress
-14. Cleaner / Relancer clients actuels
+14. Maj conteneur bitnami/wordpress
+15. Cleaner / Relancer clients actuels
     1. Lapie
        1. Cleaner au niveau du serveur dashed-uri > .com ou .fr
     2. Nonore
@@ -180,7 +119,7 @@ Trucs pour la **migration du serveur**
        1. Maj ansible-install-web-server/commandes-backup-volumes-a-la-maing_secret.md (dashed notation)
        2. (normalement d'ici la les roles de backups seront générés auto :3)
        3. Backup
-15. Migration serveur
+16. Migration serveur
     1. Lister
        1. Technos
        2. 📌📌📌📌📌📌📌 Fichiers

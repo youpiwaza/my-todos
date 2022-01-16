@@ -2,6 +2,64 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 01/22
+
+Vers
+
+1. ✅ Mails
+   1. ✅ Le bon coin
+   2. ✅ Ameli
+   3. ✅ Fond ecran gokudolls
+2. ✅ Changer pass dashlane
+3. ✅ 211127 Faire comptes > reste 300 balles en comptant les impots début décembre
+4. ✅ Message banque 20 balles wtf
+5. ✅ Rappeler conforama confirmer / 15 17 46 7
+6. ✅ Emballer cadeau nonore
+7. ✅ Facture taf
+8. ✅ Facture hébergement
+9. ✅ Taf
+   1. ✅ Envoyer CRA et mes CRA
+   2. ✅ Confirmer virement
+   3. ✅ Déclaration AE novembre
+   4. ✅ Noter Date prélèvement impôts octobre
+   5. ✅ Loyer janvier
+   6. ✅ Participation décembre
+10. ✅ Litère chatte
+11. ✅ Gérer trains pour chez anouk
+    1. ✅ Retour max
+    2. ✅ AR vigi
+12. ✅ Choix & commande tireuse à bière
+13. ✅ Rembourser daron
+      1. ✅ reste 1250€
+14. ✅ Imperméabiliser pompes
+15. ✅ Carte électorale
+16. ✅ Cadeaux nowel
+    1. ✅ Theatre de paris michalak
+    2. ✅ Tireuse à bière
+    3. [Voyages a 1€](https://www.voyagespirates.fr/vols/mega-promo-vols-a-partir-de-1eur)
+17. ✅ Envoyer pinata a pauline
+18. ✅ Billets train anouk
+19. ✅ Décaler billets cette semaine
+20. ✅ Billets fin d'année
+21. ✅ Bloodywook 22 mars trabendo
+
+Lapie
+
+1. ✅ Réparer galerie photos
+2. ✅ Nouvelle photo ratafia
+3. ✅Nouveau tarifs transports
+   1. De 6 à 12 bouteilles 2€50 par bouteille
+   2. De 18 à 96 bouteilles 2€ par bouteille
+   3. Plus de 96 bouteille, livraison offerte (note max : Je l'ai donc détaxée, même si virtuellement cela ne change rien)
+      1. 2 demi bouteilles comptent comme 1 bouteille
+      2. 1 magnum compte comme  2 bouteilles
+   4. ✅ Mettre à jour le choix automatique dans le panier en fonction du nombre de bouteilles
+4. ✅ Mises à jour plugins & traductions
+5. ✅ Pages référencement naturel "wikipedia" : à masquer
+   1. ✅ Mise à jour de la page "Plan du site"
+   2. 🚨 Note: Les pages n'ont pas été supprimées, mais ont été masquées (passée en publication "privée")
+   3. 🚨 Note: Lorsqu'on est connecté en administrateur, le plan du site affiche les pages privées, mais pour le public non ;)
+
 ## 10/21
 
 Trucs **la maintenant**

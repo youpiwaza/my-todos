@@ -31,12 +31,14 @@
 - [Vodka rammstein](https://shop.rammstein.de/en/catalog/Menu/rammstein-vodka-feuer-wasser.html)
 - Vrai ginseng
 - Vrai wasabi > [hon wasabi](https://www.google.com/search?q=hon+wasabi)
+- Whisky Nikka
 
 ## Divers
 
 - [Bureau de ouf](https://www.autonomous.ai/standing-desks/smartdesk-2-home)
 - Cable usbc
 - Housse en cuir pour couteau, demander a Alexis
+- [Shampoing Magiforet](https://www.google.com/search?q=magiforet)
 - [SS](https://sexysushi.bandcamp.com/)
 - [Suport mural guitare](https://www.musicpromusic.com/fr/1495-support-guitare-mural-noir.html) ou voir plutôt thomman
 - [Vinyl OST FF7](https://store.eu.square-enix-games.com/fr_FR/product/289692/final-fantasy-vii-vinyl)
@@ -46,6 +48,7 @@
 - DJ Blyatman | [T-shirt](https://teespring.com/fr/djblyatman?view_as=EUR&currency=EUR&country=FR&tsmac=google&tsmic=youtube&pid=389&cid=100029&utm_term=UCnWnuHHjG-__QxuoZgjBgIg&utm_medium=product_shelf&utm_source=youtube&utm_content=YT-ACRcEUqECQLU3PsY5kojm7y0zxToBuVgKR0qIMyvsDRToFCOE9c3ThbV-YPV8wwbxWt3k4LOuxht5QBNai_c-rc920WQweC4QDxO8HfZ3abGIs_tGRyhHgeZ5OBBJB9a0lknxaqwX3E2aogxNWvEMPYuPFO3GTiw6hyctWKJF8wBXYwG9txLi5bj00aNfWgw2vNkvegsst_0MynOeqa55RfVJfKkSVWaOZqqnw%3D%3D)
 - idéee tshirt / Je veux monter un groupe de rap ou on sera expert dans l'art de se tromper dans les mots, verso > Il s'appellera les pro-lapsus
 - [Oh My Zsh merch](https://shop.planetargon.com/collections/oh-my-zsh?utm_source=github)
+- Pull scissor seven / piaf
 - [Tshirt / 2 girls 1 up](https://www.google.com/search?newwindow=1&sxsrf=ALeKk01xN3MAkpt86HyV3YEUVgVG_W12kg%3A1608110006334&ei=ts_ZX4nrE8G4aZTboegN&q=tshirt+%222+girls+1+up%22&oq=tshirt+%222+girls+1+up%22&gs_lcp=CgZwc3ktYWIQA1DrsJYCWKy1lgJgjb6WAmgAcAB4AIABWogBiQKSAQE0mAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwiJnr_NlNLtAhVBXBoKHZRtCN0Q4dUDCA0&uact=5)
 - Tshirt / Boire biere bruler village
 - Tshirt / ((meme jesus) my weed fuck)

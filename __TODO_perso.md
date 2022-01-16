@@ -73,6 +73,7 @@ Sites > crunchyroll / otakufr . co
 - Megumi Igarashi AKA Rokudenashiko
 - Nekomonogatari: Kuro
 - Ninja Scroll !!
+- Rising of the hero shield
 - [Saki (mahjong)](https://www.anime-planet.com/anime/saki/videos)
 - ✅ sasami-san @ ganbaranai / 5/5 wtf
 - shigurui
@@ -107,6 +108,8 @@ Sites > crunchyroll / otakufr . co
 - 1983
 - 8 mm / joel schumacher 1999
 - 9 dead
+- a bitter sweet life
+- a dangerous method
 - a tale of legendary libido
 - Aaron Sorkin / scénario
 - Adaptation
@@ -131,6 +134,7 @@ Sites > crunchyroll / otakufr . co
 - buffet froid
 - bullet in the head
 - Burn after reading
+- Camgirl (netflix)
 - Captain fantastic (2016)
 - Circle (2015)
 - collateral
@@ -139,11 +143,13 @@ Sites > crunchyroll / otakufr . co
 - Cool world
 - cop land
 - crazy lee
+- dallas buyers club
 - Dark man / Sam raimi
 - david fincher / filmographie
 - De rouille et d’os
 - Death Proof
 - derriere le masque
+- Dice
 - Doomsday Book
 - end of days
 - Enter the void
@@ -159,6 +165,7 @@ Sites > crunchyroll / otakufr . co
 - Funny game
 - Futari
 - 📌 Galaxy Quest
+- garden state
 - gaspard noé > tout
 - Gattaca
 - Ghost dog
@@ -171,8 +178,10 @@ Sites > crunchyroll / otakufr . co
 - Hausu
 - hex, de kuei chih-hung
 - I love you philippe moris
+- I met the devil
 - i saw the devil
-- I spit on your grave (trilogie)
+- I spit on your grave (trilogie) ✅1 2 3
+- Identity (john kusac)
 - Inside
 - In the air
 - Indie game : the movie
@@ -180,6 +189,7 @@ Sites > crunchyroll / otakufr . co
 - knights of badassdom
 - l'enfer des armes
 - la mule, clint eastwood
+- la route
 - lady hawk
 - Le train (avec Robie Schneider)
 - le vaisseau de l'angoisse
@@ -203,6 +213,8 @@ Sites > crunchyroll / otakufr . co
 - Pandorum
 - Park_Chan-wook / filmo
 - Penelope
+- Peninsula / suite dernier train pour busan
+- Philosophy of a knife
 - Pompidou / netflix
 - Primer
 - Re-Animator
@@ -231,6 +243,7 @@ Sites > crunchyroll / otakufr . co
 - Spectacle gaspard proust tapine
 - Sweet home / netflix
 - Sword of destiny
+- The alpinist
 - The ambassador
 - the blade
 - 🚀 the collector / horreur
@@ -250,6 +263,7 @@ Sites > crunchyroll / otakufr . co
 - [The tattouist](https://filmstreaming2.com/WDrk46w-the-tattooist)
 - They live
 - Thirst, ceci est mon sang / Park Chan-wook
+- Time on tide
 - Training day
 - Trainspotting
 - Triangle
@@ -268,6 +282,7 @@ Sites > crunchyroll / otakufr . co
 - your name
 - zodiac
 - "zombie" undead
+- zombies the battery
 
 ### Nanards
 
@@ -392,6 +407,7 @@ Sites > crunchyroll / otakufr . co
 - Mardock scramble
 - MPD Psycho
 - Naruto
+- Yureka
 
 ## Musiques
 
@@ -419,8 +435,8 @@ Sites > crunchyroll / otakufr . co
 - First Fragment
 - Ghost
 - hoobastank
-- infected rain
-- insomnium
+- Infected rain
+- Insomnium
 - [Joel - Scythelord](https://www.youtube.com/watch?v=1iMtPEPF-oE)
 - K-flay
 - Little big
@@ -433,7 +449,7 @@ Sites > crunchyroll / otakufr . co
 - ost
   - American beauty
   - Attack on titan
-  - ASDF movies 
+  - ASDF movies
   - Bioshock 2
   - Bleach ost > Precipice of Defeat
   - [Nero - Must Be The Feeling (Delta Heavy Remix)](https://www.youtube.com/watch?v=9W04IKR1E2M)
@@ -457,6 +473,7 @@ Sites > crunchyroll / otakufr . co
 - space of variations
 - the agonist premiers albums
 - The arrs
+- The pretty reckless
 - the prodigy
 - tilopes
 - trollfest
@@ -527,7 +544,7 @@ Une fois tout téléchargé, mettre à jour
             1. Si le taux d'ALAT est plus haut que celui des ASAT c'est un *problème de foie* #needJesus
       4. Cause probable :
          1. consommation d'alcool excessive
-         2. maladies du foie  
+         2. maladies du foie
             1. fibrose ou cirrhose
          3. souffrance hépatique liée à une inflammation qui détruit les cellules hépatiques
          4. hépatite, d’une intoxication alcoolique ou médicamenteuse, etc.
@@ -562,7 +579,7 @@ Une fois tout téléchargé, mettre à jour
              4. Ralentit Alzheimer ?
              5. Souvent associé à Inositol (Vitamine B7)
 
-## Séries
+## Séries / series
 
 - 6 feet under
 - [10 reportages chelous](https://9gag.com/gag/aMArR01)
@@ -588,6 +605,7 @@ Une fois tout téléchargé, mettre à jour
 - High maintenance !!!
 - ✅ mister pickles  / 4/5
   - 🌱 Saison 5
+- Killing eve
 - Orphan black
 - oz
 - peep show
@@ -599,10 +617,12 @@ Une fois tout téléchargé, mettre à jour
 - Sexify
 - Spaced
 - The boyz
+- The expense
 - ✅ the IT crew / 5/5
 - the square
 - The strain / guillermo del toro
 - top gears
+- United state of tara
 - Vikings
   - 🌱 Saison 6, 2 eme partie
 - West World
