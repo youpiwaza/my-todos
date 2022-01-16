@@ -38,6 +38,7 @@ Sites > crunchyroll / otakufr . co
 - blue gender
 - Boku no piko / 2/5 / En fait c'etait une blague c'est du hentai pédo hahaha lolilol qu'est-ce qu'on rigole ca va relancer le marché de la rosette
   - ✅S1 / 3 épisodes
+- Cowboy bebop
 - Devil May Cry
 - Blame
 - DDD
@@ -102,6 +103,7 @@ Sites > crunchyroll / otakufr . co
 
 ## Films
 
+- 1917
 - 1983
 - 8 mm / joel schumacher 1999
 - 9 dead
@@ -179,6 +181,7 @@ Sites > crunchyroll / otakufr . co
 - l'enfer des armes
 - la mule, clint eastwood
 - lady hawk
+- Le train (avec Robie Schneider)
 - le vaisseau de l'angoisse
 - Les affranchis
 - Les anges déchus / Wong Kar-wai
@@ -188,6 +191,7 @@ Sites > crunchyroll / otakufr . co
 - May
 - MECHANIC : RESURRECTION / Jason statham film alakon
 - merci de fumer
+- 📌 Metalhead
 - mise a prix
 - Moon
 - morse, let me in
@@ -204,6 +208,7 @@ Sites > crunchyroll / otakufr . co
 - Re-Animator
 - red line expert
 - red is dead
+- Red sparrow
 - Revanche
 - 📌 Revolver, de Guy richie (netflix)
 - riley rewind
@@ -245,7 +250,8 @@ Sites > crunchyroll / otakufr . co
 - [The tattouist](https://filmstreaming2.com/WDrk46w-the-tattooist)
 - They live
 - Thirst, ceci est mon sang / Park Chan-wook
-- trainspotting
+- Training day
+- Trainspotting
 - Triangle
 - un justicier dans la ville
 - Un poisson nommé wanda
@@ -270,20 +276,28 @@ Sites > crunchyroll / otakufr . co
 - birdemic
 - blood freak
 - bunny the killer thing
+- Carnage
+- Creepies
 - Deathgasm
 - Dogma
 - ✅ Frankenhooker / 4/5 / Un peu long mais très bon nanard
 - German Angst
 - hamburger film sandwich / voies redoublées
+- Horror cannibal 2, et puis le 1 tant qu'à faire
 - Howard the duck
+- Humanity bureau (avec n cage)
 - [Jattu Engineer](https://www.nanarland.com/chroniques/comedies-nanardes/comedies-pouet-pouet/jattu-engineer.html)
 - killer beans
 - killer clown in space
 - L'attaque de la moussaka géante
 - ✅ L'homme aux poings de fer 4/5 / Ca rend ouf / forgeron black + russel crow & bautista & lucy liu & manu payet en roue libre
   - Y'a un 2
+- L'amérique en folie
 - L'homme puma
 - La caravane du courage, film ewoks
+- Lastik man
+- Le crépuscule de la liberté (VF)
+- Le sexe qui chante
 - Les ewoks 2 la bataille d'endors
 - Légion
 - Ninja Eliminator 4 : The French Connection
@@ -295,9 +309,13 @@ Sites > crunchyroll / otakufr . co
 - Série [Japanese spiderman](https://www.youtube.com/watch?v=d5NCSx5HF8c)
 - sharknado
 - Short circuit (vieux, ui)
+- Squid game
 - Street fighter la série US 1995
+- Taoist drunkord
+- Tiger blade
 - ✅ The drone / 5/5 / L'esprit du tueur en série passe dans son drone avec un hack en binaire IRL
 - The legend of Simon conjurer
+- The mutilator
 - The room
 - Turbo Kid
 - Turkish spiderman
@@ -306,6 +324,7 @@ Sites > crunchyroll / otakufr . co
 - ✅ Virus Shark / 4/5
 - ✅ Who killed captain alex / 1st uganda action movie / sur youtube / 5/5 💖
   - 🚀 Bad black / Who killed captain alex 2 / 2st uganda action movie
+- Zaat (invasion des poissons chats)
 - Zombie Ass: The Toilet of the Dead (2011)
 - zombi 3
 
@@ -403,11 +422,13 @@ Sites > crunchyroll / otakufr . co
 - infected rain
 - insomnium
 - [Joel - Scythelord](https://www.youtube.com/watch?v=1iMtPEPF-oE)
+- K-flay
 - Little big
 - maximum the hormone
 - Miss may / Monument colossal
 - nekrogoblikon
 - Obscura
+- Omnia
 - Origin
 - ost
   - American beauty
@@ -421,6 +442,7 @@ Sites > crunchyroll / otakufr . co
   - Gravity falls
   - Guilty Crown
   - [Legion of heroes](https://www.youtube.com/watch?v=4FchlZSwXvs&list=PLrgkfqG7JAcPQ6MzKZHwHn6o6GxxwIl5-)
+  - Megalobox
   - nier automata & replicant
   - The Raid: Redemption
   - Tropico 1 & 2
@@ -429,15 +451,18 @@ Sites > crunchyroll / otakufr . co
 - parkway drive
 - rob zombie
 - sceptic flesh
-- 📌 Shaargot 
+- 📌 Shaargot
 - Skald
 - skalmold
+- space of variations
 - the agonist premiers albums
+- The arrs
 - the prodigy
 - tilopes
 - trollfest
 - ultra vomit
 - unleash the archers
+- Värttinä
 - Walls of jericho
 - Wardruna
 - whispered metal

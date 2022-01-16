@@ -240,6 +240,10 @@ Vous cherchez Git dans la barre de recherche et vous supprimez les lignes corres
         - Arrêter, puis propriétés > désactiver
           - SysMain
           - Windows Search
+      - Microsoft Compatibility Telemetry > Peut pomper une masse de processeur
+        - Éxécuter > `taskschd.msc`
+        - Bibliothèque > Microsoft > Windows > Expérience d’application
+        - Microsoft Compatibility Appraiser > Désactiver
     - Démarrage
       - Programmes
       - Services.msc

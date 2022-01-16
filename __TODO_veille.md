@@ -8,6 +8,7 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 - [Framework react > tailwindcss](https://tailwindcss.com/) / pour folio ?
 - [Browser polypane pour opti sites](https://polypane.app/)
 - [flutter dev mobile/desktop apps](https://flutter.dev/) / + bouquin code humble bundle
+- [doc serveur !](https://www.server-world.info/en/)
 
 ## ⚡️ Prio / Rapide
 

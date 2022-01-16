@@ -30,6 +30,7 @@ Légende :
   - TO DO Tree
   - 🧠 "Toggle quotes"
     - *Ctrl + ²*, curseur après la première de la paire de quotes à changer
+  - polacode > joli print de code
 
 ## 🚀 Priorisation, simple ⏩
 
@@ -37,99 +38,119 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 - Si besoin de focus, mettre une ou 2 tâches ici.
 
+Lapie
+
+1. ✅ Réparer galerie photos
+2. ✅ Nouvelle photo ratafia
+3. ✅Nouveau tarifs transports
+   1. De 6 à 12 bouteilles 2€50 par bouteille
+   2. De 18 à 96 bouteilles 2€ par bouteille
+   3. Plus de 96 bouteille, livraison offerte (note max : Je l'ai donc détaxée, même si virtuellement cela ne change rien)
+      1. 2 demi bouteilles comptent comme 1 bouteille
+      2. 1 magnum compte comme  2 bouteilles
+   4. ✅ Mettre à jour le choix automatique dans le panier en fonction du nombre de bouteilles
+4. ✅ Mises à jour plugins & traductions
+5. ✅ Pages référencement naturel "wikipedia" : à masquer
+   1. ✅ Mise à jour de la page "Plan du site"
+   2. 🚨 Note: Les pages n'ont pas été supprimées, mais ont été masquées (passée en publication "privée")
+   3. 🚨 Note: Lorsqu'on est connecté en administrateur, le plan du site affiche les pages privées, mais pour le public non ;)
+6. 🚀 Train de bulle
+   1. on remplace la tapisserie
+   2. on remplace des deux côtés
+   3. Flute de champagne avec train de bulles
+   4. Fond : récupérer "gris bleu" du bandeau
+      1. Le même en plus foncé
+   5. Rajouter logo lapie sur la flute
+   6. En profiter pour éclaircir bandeau en haut
+
+---
+
+1. ✅ Mails
+   1. ✅ Le bon coin
+   2. ✅ Ameli
+   3. ✅ Fond ecran gokudolls
+2. ✅ Changer pass dashlane
+3. ✅ 211127 Faire comptes > reste 300 balles en comptant les impots début décembre
+4. ✅ Message banque 20 balles wtf
+5. ✅ Rappeler conforama confirmer / 15 17 46 7
+6. ✅ Emballer cadeau nonore
+7. ✅ Facture taf
+8. ✅ Facture hébergement
+9. ✅ Taf
+   1. ✅ Envoyer CRA et mes CRA
+   2. ✅ Confirmer virement
+   3. ✅ Déclaration AE novembre
+   4. ✅ Noter Date prélèvement impôts octobre
+   5. ✅ Loyer janvier
+   6. ✅ Participation décembre
+10. ✅ Litère chatte
+11. ✅ Gérer trains pour chez anouk
+    1. ✅ Retour max
+    2. ✅ AR vigi
+12. ✅ Choix & commande tireuse à bière
+13. 🤏 Rembourser daron
+      1. reste 1250€
+14. Imperméabiliser pompes
+15. Carte électorale
+16. Casque buyers dynamic D 330
+17. Youtube advanced
+18. Cadeaux nowel
+    1. ✅ Theatre de paris michalak
+    2. ✅ Tireuse à bière
+    3. [Voyages a 1€](https://www.voyagespirates.fr/vols/mega-promo-vols-a-partir-de-1eur)
+19. ✅ Envoyer pinata a pauline
+20. Menage
+    1. Poussière
+    2. Salle de bain
+    3. Chiottes
+    4. Aspi
+    5. Bâche
+21. Courrier changement de proprio chatte
+
 Trucs **persos**
 
-1. ⏳ Annuler [gorillaz](https://songkick.fnacspectacles.com/compteclient/detailTransaction.do?transactionId=4551758280325692730)
-   1. Fnac songkick
-   2. En attente de retour fnac songkick
-   3. En attente retour paylogic
-2. ⏳ vignette crit'air 1
-   1. Commandée le 05/09/21, en attente de retour
-3. ⏳ orga week end dralex
-   1. Retour Angelike heberg
-4. Compléments alimentaires avant le 9 septembre
-   1. 💩 Manque 1 / [Solgar Phosphatidylcholine](https://www.amazon.com/your-orders/orders/ref=yo_oh_gp_to_ov?_encoding=UTF8&ref_=nav_orders_first&)
-5. faire une liste too good to go > + & -
-6. Mettre à jour CV !
-7. Recette kir a la mûres > extraire sms guy
-8. Musiques taf & portable
-9. Rdv médecins
+1. ✅ Billets train anouk
+2. ✅ Décaler billets cette semaine
+3. ✅ Billets fin d'année
+4. ✅ Bloodywook 22 mars trabendo
+5. ✅ Formulaire changement propriétaire chatte
+   1. Changement d'adresse mail & tel sur i-cad fait
+   2. Contact pour changer nom proprio
+6. Faire article réparation/optimisation de pc
+   1. [hey](https://www.drivereasy.com/knowledge/100-disk-usage-windows-10-fixed/)
+   2. [hoy](https://www.makeuseof.com/tips-fix-100-disk-usage-improve-windows-performance/)
+7. Faire article maintenance PC
+8. double authentification OVH manager
+9. Renouveller carte identité avant 6/03/2022
+   1. Calable 15 ans maintenant ?
+10. Compléments alimentaires / [Solgar Phosphatidylcholine](https://www.amazon.com/your-orders/orders/ref=yo_oh_gp_to_ov?_encoding=UTF8&ref_=nav_orders_first&)
+11. Mettre à jour CV !
+12. Musiques taf & portable
+13. Rdv médecins
     1. Ophtalmo
     2. Cardiolog0ue
     3. Oreillologiste
-10. CPF > Langage des signes / Amazon AWS
-11. !site perso > cours particuliers code > 50€ heure
+14. CPF > Langage des signes / Amazon AWS
+15. !site perso > cours particuliers code > 50€ heure
 
 Trucs **taf**
 
-1. 26 Digital
-   1. ✅ Refaire au propre notes
-   2. ✅ Boilerplate comptes rendus activité
-      1. Envoyer au client & faire signer
-      2. Envoyer à 26 Digital ~1 fois par semaine, avec % avancement mission totale
-      3. Rappels/Emplois du temps
-      4. 💥 28/09/2021 concert jinjer à REIMS, voir pour venir mercredi !
-   3. ✅ Revoir bootstrap
-   4. ✅ Faire sac
-      1. ✅ Lunettes
-      2. ✅ Tupperware
-      3. ✅ Muffins
-      4. ✅ Fringues
-      5. 🌱 Douche
-      6. ✅ Verre + Tasse café
-      7. ✅ Masques covid
-      8. ✅ Téléphone
-      9. ✅ Chargeur téléphone
-      10. ✅ Casque micro
-   5. A voir avec tlm
-      1. Questions
-         1. Est-ce que le site doit être responsive ?
-         2. [Échantillon de résolutions](https://supportdetails.com/) > envoi a masa
-         3. Graphismes
-            1. En interne ?
-            2. Liberté d'adaptation ? De suggestions de compo bootstrap ?
-      2. Kwaksé GIT
-      3. Kwaksé environnement de dev
-         1. Process de livraisons
-            1. Contrôle
-            2. Utilisateurs finaux : prévenir avant !
-      4. can i use
-   6. Dev
-      1. Noter tous les contacts
-      2. possibilité d'installer logiciels sur poste
-      3. Mise en place du poste (vscode & autre joyeusetés)
-         1. Mise à jour habituelles / cf. TODO
-         2. ✅ VSCode > Settings sync ok pour github/youpiwaza
-         3. ssd ?
-      4. Gestion de projet > Jira/Trello ? Accès, tickets, etc.
-      5. Concrètement le matos & bare metal qui fait tourner l'appli (windows server ?)
-      6. Ca va tukoné ?
-         1. Markdown
-         2. Git
-         3. Gitflow
-         4. Bootstrap et toutes ses possibilités > [doc content](https://getbootstrap.com/docs/5.1/content/reboot/)
-            1. Réfléchir avant chaque intégration ! Bonne pratiques + accéssibilité
-            2. Annoter les maquettes afin d'homogénéiser le tout !
-      7. Site dispatché sur 2 serveurs > répartition concrète des trucs
-      8. Environnement de dev conteneur PHP5
-         1. Voir si possibilité de migrer v8 "simplement" (test a la zob voir si bcp erreurs)
-      9. Mettre en place git
-      10. Mettre en place environnement de dev
-          1. dev/preprod/prod
-      11. Attention bootstrap officielement pas compatible avec IE (sinon voir bootstrap 4)
-      12. Bonnes pratiques [html5 tags](https://getbootstrap.com/docs/5.1/content/reboot/)
-          1. Si [tuto/doc](https://getbootstrap.com/docs/5.1/content/reboot/#user-input) `<kbd>`
-   7. Si tout good > recommandation malt en fin de mission
-2. slurp cours [3wa](https://e.3wa.fr/user/profile.php?id=2257)
+1. slurp cours [3wa](https://e.3wa.fr/user/profile.php?id=2257)
 
 Trucs pour la **migration du serveur**
 
-1. 🚀 Bind volumes pour les fichiers /www des sites, sur les sftp créés
+1. Wordpress dev prod > réutiliser /generated/var files
+2. Faire une grosse repasse sur les index de projet il manque plein de vars
+3. Conteur netdata a la place de grafana
+4. Génération d'un nouveau site OU wp > doc identifiant à la racine (actuellement uniquement dans /generated/)
+5. wp > identifiants > ajouter url wp-admin
+6. BUG: génération des fichiers de sites > prefixe `200-` pas utilisé partout
+7. 🚀 Bind volumes pour les fichiers /www des sites, sur les sftp créés
    1. A la mano voir si ça marche, sinon se pendre
    2. Automatiser
-2. `/home/singed_the_docker_peon_9f3eqk4s9/configs/masamune/hello--masamune--fr` wtf is that
-3. harmoniser builder guy > tout THE_BUiLDER_GUY, idem autres XXX_GUY
-4. Tutum > remplacer par nginx
+8. `/home/singed_the_docker_peon_9f3eqk4s9/configs/masamune/hello--masamune--fr` wtf is that
+9. harmoniser builder guy > tout THE_BUiLDER_GUY, idem autres XXX_GUY
+10. Tutum > remplacer par nginx
     1. Faire tourner déjà ca serait bien, go ctrl + f "curated"
     2. Utiliser vars d'environnement pour refaire un tutum mayzon: image + nom conteneur
     3. Serveur normal & serveur php basique pour les sites non wp
@@ -137,20 +158,20 @@ Trucs pour la **migration du serveur**
        1. 🔍 [Video configuration](https://www.youtube.com/watch?v=C5kMgshNc6g)
        2. Tune server for [nginx performance](https://www.nginx.com/blog/10-tips-for-10x-application-performance/)
        3. [+1](https://blog.monitis.com/blog/6-best-practices-for-optimizing-your-nginx-performance/)
-5. Bitnami
+11. Bitnami
     1. [Github issues](https://github.com/bitnami/bitnami-docker-mysql/issues/79#issuecomment-545477842) > Variable d'env afin d'augmenter le debug des conteneurs bitnami ! >> raisons explicites sur le problème de boot du conteneur
     2. Gestion notes dans ansible-install-web-server/ansible/203-setup-wordpress-lapie_secret.yml
     3. Testay avec surcharge de conf via config: voir si ca boot avec la bonne conf
     4. Lourder si serveurs web classique stabilité 100%, +1 speed
     5. Activer modules php
     6. Http 2/3
-6. Gestion des mails propre
+12. Gestion des mails propre
     1. Connexion au serveur SMPT du serveur ? cf. utils-emails
     2. [Conteneur postfix ?](https://hub.docker.com/_/postfixadmin)
     3. Ajout SPF/DKIM/DMARC
     4. Maj lapie & nonore
-7. Maj conteneur bitnami/wordpress
-8. Cleaner / Relancer clients actuels
+13. Maj conteneur bitnami/wordpress
+14. Cleaner / Relancer clients actuels
     1. Lapie
        1. Cleaner au niveau du serveur dashed-uri > .com ou .fr
     2. Nonore
@@ -159,8 +180,8 @@ Trucs pour la **migration du serveur**
        1. Maj ansible-install-web-server/commandes-backup-volumes-a-la-maing_secret.md (dashed notation)
        2. (normalement d'ici la les roles de backups seront générés auto :3)
        3. Backup
-9. Migration serveur
-   1. Lister
+15. Migration serveur
+    1. Lister
        1. Technos
        2. 📌📌📌📌📌📌📌 Fichiers
        3. BDD / Exports WordPress
@@ -213,62 +234,70 @@ Suite **Serveur** post migration
 
 Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel plus tard/exponentiel
 
-- ✅ Déplacer les terminés ✅ à chaque début de semaine dans done.md
+- Déplacer les terminés ✅ à chaque début de semaine dans done.md
 - 💩 Déplacer les TODO 🌱 dans _TODO_shame.md
-- ✅ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ✅ mails, ✅ edt portable, ✅ favoris, ✅ bureau. Si possible description + lien.
-- ✅ Nettoyer le fichier __TODO
-  - ✅ Status
-  - ✅ Ce fichier > ### Shame
-    - ✅ Ranger dans fichiers TODO correspondant
-    - ✅ Prioriser
-- ✅ Virer ce qui traine
-  - ✅ sur le bureau
+- ⏳ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ⏳ mails, ⏳ edt portable, ⏳ favoris, ⏳ bureau. Si possible description + lien.
+- ⏳ Nettoyer le fichier __TODO
+  - ⏳ Status
+  - ⏳ Ce fichier > ### Shame
+    - ⏳ Ranger dans fichiers TODO correspondant
+    - ⏳ Prioriser
+- Virer ce qui traine
+  - sur le bureau
   - 💩 dans le dossier _shame du bureau
   - 💩 Lel (local)/Mes documents/_dev/_shame
-  - ✅ Vider corbeille
-  - ✅ Vider téléchargements
-  - ✅ Dans les mails
-- ✅ Déplacer veille onglets dans TODO_veille
+  - Vider corbeille
+  - Vider téléchargements
+  - Dans les mails
+- Déplacer veille onglets dans TODO_veille
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
-- ✅ Déclaration Auto entrepreneur
-- ✅ Vérifier impôts sur espace / Dernière vérif 15/08/2021
-  - ✅ Perso
-  - ✅ Pro
-- ✅ Maj locales / Environnement de dev / Dernière maj le 01/06/21
-  - ✅ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk)
+- Déclaration Auto entrepreneur
+- Vérifier impôts sur espace / Dernière vérif 15/08/2021
+  - Perso
+  - Pro
+- Maj locales / Environnement de dev / Dernière maj le 01/06/21
+  - CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk)
+  - `/r` ?
     1. Invite de commande ou Powershell **en admin**
-    2. `chkdsk c: /f` (et en fonction de vos disques.. && `chkdsk d: /f`, etc.)
+    2. `chkdsk c: /f /r` (et en fonction de vos disques.. && `chkdsk d: /f /r`, etc.)
     3. `>Blah blah besoin de redémarrer O/n` >> `O`
     4. Redémarrer / Attendre 5 ans et demi sauf si t'as un SSD
-  - ✅ Windaube update
-    - ✅ [.net](https://dotnet.microsoft.com/download)
-    - ✅ Panneau de conf > "Fichiers temporaires" > Supprimer
-  - ✅ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
-  - ✅ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
+  - Windaube update
+    - [.net](https://dotnet.microsoft.com/download)
+    - Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
+  - Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
+  - Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
     - [Sandisk ultra II](https://kb.sandisk.com/app/answers/detail/a_id/6053/~/ultra-3d-%7C-sandisk-ssd-plus-%28ssd%29-support-information)
     - Lancer (Sandisk) "Dashboard" / Firmware update automatique, et il préveitn avant. Nice
-  - ✅ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
-  - ✅ Logiciels alakon
-    - ✅ Ouvrir VScode > Auto update plugins etc.
-    - ✅ ~~Filezilla~~ WinSCP, OBS, VLC, ESET, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
-    - ✅ Powershell [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
-    - ✅ Nvidia driver
+  - Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
+  - Logiciels alakon
+    - Ouvrir VScode > Auto update plugins etc.
+    - ~~Filezilla~~ WinSCP, OBS, VLC, ESET, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
+    - Powershell [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
+    - Nvidia driver
       - ( [Doc](https://docs.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) )
-  - ✅ WSL
-    - ✅ Version Ubuntu
-      - ✅ Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
-    - ✅ Packages & terminal
+  - Supprimer les fichiers temporaires
+    - Exec > `temp` // Devrait ouvrir `~c:Windows\Temp`
+    - Supprimer tout
+  - WSL
+    - Version Ubuntu
+      - Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
+    - Packages & terminal
 
 ```bash
 omz update
 git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade
 ```
 
-- ✅ Maj serveur, script maintenance
-  - ✅ `98-maintenance.yml` & `sudo apt -y update && sudo apt --fix-broken install && sudo apt -y upgrade` & reboot si besoin
-  - ✅ Maj Lapie HMAC
-- ✅ Tout est Versionné, pas de WIP qui traîne
+- Maj serveur, script maintenance
+  - `98-maintenance.yml` & `sudo apt -y update && sudo apt --fix-broken install && sudo apt -y upgrade` & reboot si besoin
+  - Maj Lapie HMAC
+- Tout est Versionné, pas de WIP qui traîne
+
+---
+
+- Maj budget couple
 
 ## ⏳ En attente
 
@@ -280,20 +309,6 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
 
 ### ⏳🌱 Vérifications sur la longueur
 
-- Relancer Yoann Emile / Concretio-services.com pour [boulot](https://mail.google.com/mail/u/0/#inbox/FMfcgzGkbDbSHVlwFTBJKSstFTvVScJH)
-- 🌱 Impôts > Pas d'avis de CFE ?
-  - Réponse par mail le 26/11/20, CA non transmis pour le moment, avis et prélèvement courant 2021
-  - Toujours rien au 01/01/21
-  - Toujours rien au 10/02/21
-  - Toujours rien au 12/05/21
-  - Site KO au 15/05/21 (maintenance ?), toujours KO le 19/05/21
-  - Toujours rien au 26/05/21
-  - Toujours rien au 01/06/21
-  - Toujours rien au 22/06/21
-  - Toujours rien au 28/06/21
-  - Toujours rien au 05/07/21
-  - Toujours rien au 18/08/21
-  - Toujours rien au 30/08/21
 - 🌱 21/05/2021 > Heberg picard > Basculer sur nouveau serveur & annuler
 
 ## 💥 Tâches critiques
@@ -345,7 +360,13 @@ Extraire ici puis ranger & prioriser. Doit rester vide.
 
 ---
 
-Tout est extrait :)
+- Tester resto a côté du grand rex will'deli
+- Resto reims thai : kobun
+- nowel vigi
+  - Tireuse bières
+  - DVD epica dernier concert
+- Film snatch
+- Film les voyeurs
 
 ---
 

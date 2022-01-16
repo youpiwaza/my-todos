@@ -2,6 +2,48 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 10/21
+
+Trucs **la maintenant**
+
+1. ✅ Ranger affaires
+2. ✅ Wp fof
+3. ✅ Billets train semaines suivantes
+4. ✅ Gérer edt portable
+5. ✅ Bière fof bédot / margot
+6. ✅ SNCF Carte pro
+   1. ✅ Commander carte
+   2. ✅ Dématérialiser ~mail, appli pue la merde
+   3. ✅ Résa prochains voyages
+   4. ✅ Annuler billet credi et recommander moins cher ?
+7. ✅ Thunes payées
+   1. ✅ Mail 26 Digital + Excel Paiement AE
+   2. Virements compte commun
+      1. ✅ Dépannage > Impôts alakon
+      2. ✅ Loyer novembre
+      3. ✅ Syndic
+   3. ✅ Vérifier & régler virements non effectués
+      1. ✅ Alan
+      2. ✅ Autres ? Nope
+8. ✅ Message cartonnerie gg balance ginger
+9. ✅ Avis google 26 Digital
+10. ✅ Maintenance serveur
+11. ✅ Mise en ligne site fof
+12. ✅ Extraire Edt portable
+13. ✅ Extraire edt mails
+14. ✅ Dashlane twitch.tv changer pass
+
+Trucs **persos**
+
+1. ✅ Annuler [gorillaz](https://songkick.fnacspectacles.com/compteclient/detailTransaction.do?transactionId=4551758280325692730)
+   1. Fnac songkick
+   2. En attente de retour fnac songkick
+   3. En attente retour paylogic
+2. ✅ vignette crit'air 1
+   1. ✅ Commandée le 05/09/21, en attente de retour
+3. ✅ orga week end dralex
+   1. ✅ Retour Angelike heberg
+
 ## 06/09/21
 
 Trucs **persos**
