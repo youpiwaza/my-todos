@@ -18,10 +18,7 @@ Légende :
 ## 🧠⏫ Raccourcis & process à intégrer au flow
 
 - Dactylo le midi > [typing study](https://www.typingstudy.com/fr/lesson/3/part/8)
-- ✅🧠 Copier coller historique > Activer l'hitorique
-  - *windows + V*
 - Tétrachiée de nouveaux plugins VSCode
-  - ✅ Better comments
   - Bookmarks
   - 🚀🧠 changeCase
     - *Ctrl Shift X* > Choisir
@@ -38,82 +35,38 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 - Si besoin de focus, mettre une ou 2 tâches ici.
 
-1. ✅ Lapie > Changer image accueil > ratafia
-
-Courant, puis taf
-
-1. 🚀 Versionner TODOs
-2. Virer Done
-3. Versionner TODOs
-4. Devis & factures PB Modélisme
-5. Tâches récurrentes
-6. 💥 Cleaner TODOs
+1. ✅ Virer Done
+2. 🚀 Versionner TODOs
+3. Devis & factures PB Modélisme
+4. Tâches récurrentes
+5. 💥 Cleaner TODOs
    1. Versionner TODOs
-7. Réinstaller environnement de dev sur nouveau pc
+6. Réinstaller environnement de dev sur nouveau pc
    1. WSL
    2. Docker desktop
 
 Trucs **persos**
 
-1. ✅ Régulariser impots janvier 2022 pour décembre 2021
-   1. ✅ Demande de régularisation
-   2. ✅ Virement ponctuel de régularisation
-   3. ✅ Confirmation prise en compte
-   4. ✅ Confirmation pas de frais de retard
-2. ⏳⏳ Changement de banque
-   1. ✅ Ouverture de compte
-   2. ✅ CB
-   3. ✅ Provisionner
-   4. ✅ Transfert des opérations courantes & soldes restants
-   5. ✅ Message à l'ancienne banque pour résiliation
-      1. ✅ Envoi lettre recommandée, en attente de bonne reception, envoyé le 04/03/2022
-   6. ✅ Dernière facture 26D > Transmettre nouveau RIB
-   7. ✅ Paiement AE
-   8. ✅ Maj factures AE
-   9. ✅ Maj bankin
-   10. ✅ Récupérer IBANs enregistrés
-   11. ✅ Maj amazon
-   12. ✅ Maj Paypal
-   13. ✅ Maj paiement le bon coin
-   14. ✅ Analyser opérations en cours sur compte courant BRED et tout flinguer !!!
-       1. ✅ Assurance Alan
-       2. ✅ Popa
-       3. ✅ Deliveroo
-       4. ✅ Abo piscine
-       5. ✅ Forfait tel sosh
-       6. ✅ Urssaff
-       7. ✅ OVH / via paypal
-       8. ✅ SYS / via paypal
-       9. ✅ Ameli : Vérifier ou refaire, service indisponible -_-
-       10. ✅ Impôts
-           1. ✅👤 Perso / Pas d'IBAN ou de mandat pour le moment
-           2. ✅💩💩💩 Pro / Compte courant boursorama, à passer sur compte pro quand créé, cf ci-dessous
-   15. ✅💩💩💩 Retour de l'autre connard > souscription à une autorisation de découvert au lieu de résiliation
-       1. ✅  YAVAI PAS BESOIN LAUL
+1. ⏳ Changement de banque
    16. ⏳ Vérifier clôture encore reportée par l'autre sac a merde
-3. 💩 Compte Pro boursorama / C'est mort, whatever
-4. ✅ Remplacement tireuse à bière
-   1. ✅ Laver, étiquettes, paquet
-   2. ✅ Renvoyer à SB via mondial relay
-   3. ✅ Reçu & good
-5. 🚀 Musiques taf & portable
-6. Paiement syndic
-7. Retrouver Permis conduire
-8. Maj document de base CdC à partir de celui de PB Modelisme
-9. DL vidéos WTF youtoob
-10. Changement propriétaire chatte
-11. Faire article réparation/optimisation de pc
+2. 🚀 Musiques taf & portable
+3. Paiement syndic
+4. Retrouver Permis conduire
+5. Maj document de base CdC à partir de celui de PB Modelisme
+6. DL vidéos WTF youtoob
+7. Changement propriétaire chatte
+8. Faire article réparation/optimisation de pc
     1. [hey](https://www.drivereasy.com/knowledge/100-disk-usage-windows-10-fixed/)
     2. [hoy](https://www.makeuseof.com/tips-fix-100-disk-usage-improve-windows-performance/)
-12. Faire article maintenance PC
-13. double authentification OVH manager
-14. Mettre à jour CV !
-15. Rdv médecins
+9. Faire article maintenance PC
+10. double authentification OVH manager
+11. Mettre à jour CV !
+12. Rdv médecins
     1. Ophtalmo
     2. Cardiolog0ue
     3. Oreillologiste
-16. CPF > Langage des signes / Amazon AWS / Jenkins git hooks
-17. !site perso > cours particuliers code > 50€ heure (+, compter impôts)
+13. CPF > Langage des signes / Amazon AWS / Jenkins git hooks
+14. !site perso > cours particuliers code > 50€ heure (+, compter impôts)
 
 Trucs **taf**
 
@@ -194,15 +147,14 @@ Suite **Serveur** post migration
     4. ENV vars ++
     5. Volumes en fonction de l'environnement ¤_¤
 5. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
-    1. ✅ NDDs
-       1. Need modules de cache php activés
-       2. HTTP 2/3 serait un vrai plus
-    2. [Apache](https://hub.docker.com/_/httpd) / test-httpd.masamune.fr
-    3. [Caddy](https://hub.docker.com/_/caddy) / test-caddy.masamune.fr
-    4. Litespeed : [open](https://hub.docker.com/r/litespeedtech/openlitespeed) / [payant ?](https://hub.docker.com/r/litespeedtech/litespeed)
+    1. Need modules de cache php activés
+    2. HTTP 2/3 serait un vrai plus
+    3. [Apache](https://hub.docker.com/_/httpd) / test-httpd.masamune.fr
+    4. [Caddy](https://hub.docker.com/_/caddy) / test-caddy.masamune.fr
+    5. Litespeed : [open](https://hub.docker.com/r/litespeedtech/openlitespeed) / [payant ?](https://hub.docker.com/r/litespeedtech/litespeed)
        1. 2-3 trucs/plugins a regarder en plus pour WP : [doc](https://www.litespeedtech.com/open-source) & [site dédié](https://lscache.io/)
        2. test-litespeed.masamune.fr
-    5. 🌱 Chaque serveur > Tester WP (install via wp-cli ?)
+    6. 🌱 Chaque serveur > Tester WP (install via wp-cli ?)
 
 ### Sinon, priorisation classique
 

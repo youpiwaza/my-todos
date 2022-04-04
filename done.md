@@ -2,6 +2,61 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 02 & 03/22
+
+Taf
+
+1. ✅ Lapie > Changer image accueil > ratafia
+2. Raccourcis & process à intégrer au flow
+   1. ✅🧠 Copier coller historique > Activer l'hitorique
+      1. *windows + V*
+   2. ✅ Better comments
+
+Perso
+
+1. ✅ Versionner TODOs
+2. ✅ Régulariser impots janvier 2022 pour décembre 2021
+   1. ✅ Demande de régularisation
+   2. ✅ Virement ponctuel de régularisation
+   3. ✅ Confirmation prise en compte
+   4. ✅ Confirmation pas de frais de retard
+3. ⏳ Changement de banque
+   1. ✅ Ouverture de compte
+   2. ✅ CB
+   3. ✅ Provisionner
+   4. ✅ Transfert des opérations courantes & soldes restants
+   5. ✅ Message à l'ancienne banque pour résiliation
+      1. ✅ Envoi lettre recommandée, en attente de bonne reception, envoyé le 04/03/2022
+   6. ✅ Dernière facture 26D > Transmettre nouveau RIB
+   7. ✅ Paiement AE
+   8. ✅ Maj factures AE
+   9. ✅ Maj bankin
+   10. ✅ Récupérer IBANs enregistrés
+   11. ✅ Maj amazon
+   12. ✅ Maj Paypal
+   13. ✅ Maj paiement le bon coin
+   14. ✅ Analyser opérations en cours sur compte courant BRED et tout flinguer !!!
+       1. ✅ Assurance Alan
+       2. ✅ Popa
+       3. ✅ Deliveroo
+       4. ✅ Abo piscine
+       5. ✅ Forfait tel sosh
+       6. ✅ Urssaff
+       7. ✅ OVH / via paypal
+       8. ✅ SYS / via paypal
+       9. ✅ Ameli : Vérifier ou refaire, service indisponible -_-
+       10. ✅ Impôts
+           1. ✅👤 Perso / Pas d'IBAN ou de mandat pour le moment
+           2. ✅💩💩💩 Pro / Compte courant boursorama, à passer sur compte pro quand créé, cf ci-dessous
+   15. ✅💩💩💩 Retour de l'autre connard > souscription à une autorisation de découvert au lieu de résiliation
+       1. ✅  YAVAI PAS BESOIN LAUL
+   16. ⏳ Vérifier clôture encore reportée par l'autre sac a merde
+4. 💩 Compte Pro boursorama / C'est mort, whatever
+5. ✅ Remplacement tireuse à bière
+   1. ✅ Laver, étiquettes, paquet
+   2. ✅ Renvoyer à SB via mondial relay
+   3. ✅ Reçu & good
+
 ## 01/22
 
 Vers
