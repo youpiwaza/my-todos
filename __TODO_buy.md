@@ -35,9 +35,13 @@
 
 ## Divers
 
+- [Bloodywood](https://linktr.ee/BloodywoodOfficial) et ou [store](https://bloodywoodstore.com/)
+- blue ray robot chicken
 - [Bureau de ouf](https://www.autonomous.ai/standing-desks/smartdesk-2-home)
 - Cable usbc
+- Casque buyers dynamic D 330
 - Housse en cuir pour couteau, demander a Alexis
+- Mitaines de contention, cf. dus
 - [Shampoing Magiforet](https://www.google.com/search?q=magiforet)
 - [SS](https://sexysushi.bandcamp.com/)
 - [Suport mural guitare](https://www.musicpromusic.com/fr/1495-support-guitare-mural-noir.html) ou voir plutôt thomman
@@ -52,6 +56,10 @@
 - [Tshirt / 2 girls 1 up](https://www.google.com/search?newwindow=1&sxsrf=ALeKk01xN3MAkpt86HyV3YEUVgVG_W12kg%3A1608110006334&ei=ts_ZX4nrE8G4aZTboegN&q=tshirt+%222+girls+1+up%22&oq=tshirt+%222+girls+1+up%22&gs_lcp=CgZwc3ktYWIQA1DrsJYCWKy1lgJgjb6WAmgAcAB4AIABWogBiQKSAQE0mAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwiJnr_NlNLtAhVBXBoKHZRtCN0Q4dUDCA0&uact=5)
 - Tshirt / Boire biere bruler village
 - Tshirt / ((meme jesus) my weed fuck)
+
+## Jeux
+
+- Elden ring
 
 ## Livres
 
@@ -71,6 +79,7 @@
 - SODA
 - Spirou
 - Suikoden au bord de l'eau
+- Super cerveau mode emploi
 - Tomb Raider: The Official Cookbook and Travel Guide (Gaming) Hardcover – October 26, 2021 [amazon](https://www.amazon.com/Tomb-Raider-Official-Cookbook-Travel/dp/1647224713/)
 - Wanted (comics)
 - Warhammer 40k Horus heresy
@@ -85,6 +94,8 @@
 - Amazon > Peinture "Golden artist color" titanium white
 - [casing pinceaux](https://www.jacksonsart.com/fr-fr/idees-cadeaux/idees-cadeaux-pinceaux)
 - ✅ Dremel
+- GW
+  - [space elves pirates stuff](https://www.warhammer-community.com/2022/02/11/sneak-hordes-of-corsairs-behind-enemy-lines-with-iyandens-pirate-prince-yriel/)
 - green stuff world
   - ✅ uv resin et lampe
   - ✅ [Scie rasoir](https://www.greenstuffworld.com/fr/outils-de-coupe/1370-hobby-scie-a-rasoir-precision-modelisme.html)
@@ -105,6 +116,7 @@
 - [GSW pinceaux kolinsky gold set](https://www.greenstuffworld.com/fr/pinceaux/1572-set-premium-gold-series.html)
 - scale 75
   - black ardents green
+  - Peintures à l' huile / [FLOWW FULL SET](https://scale75.com/en/floww-range/1084-scalecolor-floww-full-set.html)
 - [Slaanesh](https://www.youtube.com/watch?v=RofGU4ewrR8)
 - [Tamiya : Tools Range : Product Reviews](https://www.youtube.com/watch?v=K7KzJpM1gNY)
 - [Tout / liste spikeybits](https://spikeybits.com/besthobbysupplies)

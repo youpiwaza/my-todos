@@ -18,12 +18,12 @@ Légende :
 ## 🧠⏫ Raccourcis & process à intégrer au flow
 
 - Dactylo le midi > [typing study](https://www.typingstudy.com/fr/lesson/3/part/8)
-- 🧠 Copier coller historique > Activer l'hitorique
+- ✅🧠 Copier coller historique > Activer l'hitorique
   - *windows + V*
 - Tétrachiée de nouveaux plugins VSCode
-  - Better comments
+  - ✅ Better comments
   - Bookmarks
-  - 🧠 changeCase
+  - 🚀🧠 changeCase
     - *Ctrl Shift X* > Choisir
     - *Ctrl Shift W* > Inverser
   - Code spell checker
@@ -38,38 +38,82 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 - Si besoin de focus, mettre une ou 2 tâches ici.
 
-Lapie
+1. ✅ Lapie > Changer image accueil > ratafia
 
-1. 💩 Train de bulle
-2. Changer pour fond avec vignes
-3. Renouveller NDD 10 ans
-   1. Facture & envoyer
+Courant, puis taf
 
----
-
-1. Casque buyers dynamic D 330
-2. Youtube advanced
+1. 🚀 Versionner TODOs
+2. Virer Done
+3. Versionner TODOs
+4. Devis & factures PB Modélisme
+5. Tâches récurrentes
+6. 💥 Cleaner TODOs
+   1. Versionner TODOs
+7. Réinstaller environnement de dev sur nouveau pc
+   1. WSL
+   2. Docker desktop
 
 Trucs **persos**
 
-1. Renouveller NDD 10 ans
-2. Changement propriétaire chatte
-3. Faire article réparation/optimisation de pc
-   1. [hey](https://www.drivereasy.com/knowledge/100-disk-usage-windows-10-fixed/)
-   2. [hoy](https://www.makeuseof.com/tips-fix-100-disk-usage-improve-windows-performance/)
-4. Faire article maintenance PC
-5. double authentification OVH manager
-6. Renouveller carte identité avant 6/03/2022
-   1. Calable 15 ans maintenant ?
-7. Compléments alimentaires / [Solgar Phosphatidylcholine](https://www.amazon.com/your-orders/orders/ref=yo_oh_gp_to_ov?_encoding=UTF8&ref_=nav_orders_first&)
-8. Mettre à jour CV !
-9. Musiques taf & portable
-10. Rdv médecins
+1. ✅ Régulariser impots janvier 2022 pour décembre 2021
+   1. ✅ Demande de régularisation
+   2. ✅ Virement ponctuel de régularisation
+   3. ✅ Confirmation prise en compte
+   4. ✅ Confirmation pas de frais de retard
+2. ⏳⏳ Changement de banque
+   1. ✅ Ouverture de compte
+   2. ✅ CB
+   3. ✅ Provisionner
+   4. ✅ Transfert des opérations courantes & soldes restants
+   5. ✅ Message à l'ancienne banque pour résiliation
+      1. ✅ Envoi lettre recommandée, en attente de bonne reception, envoyé le 04/03/2022
+   6. ✅ Dernière facture 26D > Transmettre nouveau RIB
+   7. ✅ Paiement AE
+   8. ✅ Maj factures AE
+   9. ✅ Maj bankin
+   10. ✅ Récupérer IBANs enregistrés
+   11. ✅ Maj amazon
+   12. ✅ Maj Paypal
+   13. ✅ Maj paiement le bon coin
+   14. ✅ Analyser opérations en cours sur compte courant BRED et tout flinguer !!!
+       1. ✅ Assurance Alan
+       2. ✅ Popa
+       3. ✅ Deliveroo
+       4. ✅ Abo piscine
+       5. ✅ Forfait tel sosh
+       6. ✅ Urssaff
+       7. ✅ OVH / via paypal
+       8. ✅ SYS / via paypal
+       9. ✅ Ameli : Vérifier ou refaire, service indisponible -_-
+       10. ✅ Impôts
+           1. ✅👤 Perso / Pas d'IBAN ou de mandat pour le moment
+           2. ✅💩💩💩 Pro / Compte courant boursorama, à passer sur compte pro quand créé, cf ci-dessous
+   15. ✅💩💩💩 Retour de l'autre connard > souscription à une autorisation de découvert au lieu de résiliation
+       1. ✅  YAVAI PAS BESOIN LAUL
+   16. ⏳ Vérifier clôture encore reportée par l'autre sac a merde
+3. 💩 Compte Pro boursorama / C'est mort, whatever
+4. ✅ Remplacement tireuse à bière
+   1. ✅ Laver, étiquettes, paquet
+   2. ✅ Renvoyer à SB via mondial relay
+   3. ✅ Reçu & good
+5. 🚀 Musiques taf & portable
+6. Paiement syndic
+7. Retrouver Permis conduire
+8. Maj document de base CdC à partir de celui de PB Modelisme
+9. DL vidéos WTF youtoob
+10. Changement propriétaire chatte
+11. Faire article réparation/optimisation de pc
+    1. [hey](https://www.drivereasy.com/knowledge/100-disk-usage-windows-10-fixed/)
+    2. [hoy](https://www.makeuseof.com/tips-fix-100-disk-usage-improve-windows-performance/)
+12. Faire article maintenance PC
+13. double authentification OVH manager
+14. Mettre à jour CV !
+15. Rdv médecins
     1. Ophtalmo
     2. Cardiolog0ue
     3. Oreillologiste
-11. CPF > Langage des signes / Amazon AWS
-12. !site perso > cours particuliers code > 50€ heure
+16. CPF > Langage des signes / Amazon AWS / Jenkins git hooks
+17. !site perso > cours particuliers code > 50€ heure (+, compter impôts)
 
 Trucs **taf**
 
@@ -173,7 +217,7 @@ Suite **Serveur** post migration
 
 Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel plus tard/exponentiel
 
-- Déplacer les terminés ✅ à chaque début de semaine dans done.md
+- ⏳Déplacer les terminés ✅ à chaque début de semaine dans done.md
 - 💩 Déplacer les TODO 🌱 dans _TODO_shame.md
 - ⏳ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ⏳ mails, ⏳ edt portable, ⏳ favoris, ⏳ bureau. Si possible description + lien.
 - ⏳ Nettoyer le fichier __TODO
@@ -181,45 +225,46 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
   - ⏳ Ce fichier > ### Shame
     - ⏳ Ranger dans fichiers TODO correspondant
     - ⏳ Prioriser
-- Virer ce qui traine
-  - sur le bureau
+- ⏳ Virer ce qui traine
+  - ⏳ sur le bureau
   - 💩 dans le dossier _shame du bureau
   - 💩 Lel (local)/Mes documents/_dev/_shame
-  - Vider corbeille
-  - Vider téléchargements
-  - Dans les mails
-- Déplacer veille onglets dans TODO_veille
+  - ⏳ Vider corbeille
+  - ⏳ Vider téléchargements
+  - ⏳ Dans les mails
+- ⏳ Déplacer veille onglets dans TODO_veille
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
-- Déclaration Auto entrepreneur
-- Vérifier impôts sur espace / Dernière vérif 15/08/2021
-  - Perso
-  - Pro
-- Maj locales / Environnement de dev / Dernière maj le 01/06/21
-  - CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk)
+- ✅ Déclaration Auto entrepreneur
+  - ✅ Mars 2022
+- ⏳ Vérifier impôts sur espace / Dernière vérif 15/08/2021
+  - ⏳ Perso / ✅ 16/03/22
+  - ⏳ Pro / ✅ 16/03/22 (CFE réglé le 17/11/2021)
+- ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21
+  - ⏳ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk)
   - `/r` ?
     1. Invite de commande ou Powershell **en admin**
     2. `chkdsk c: /f /r` (et en fonction de vos disques.. && `chkdsk d: /f /r`, etc.)
     3. `>Blah blah besoin de redémarrer O/n` >> `O`
     4. Redémarrer / Attendre 5 ans et demi sauf si t'as un SSD
-  - Windaube update
+  - ⏳ Windaube update
     - [.net](https://dotnet.microsoft.com/download)
     - Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
-  - Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
-  - Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
+  - ⏳ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
+  - ⏳ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
     - [Sandisk ultra II](https://kb.sandisk.com/app/answers/detail/a_id/6053/~/ultra-3d-%7C-sandisk-ssd-plus-%28ssd%29-support-information)
     - Lancer (Sandisk) "Dashboard" / Firmware update automatique, et il préveitn avant. Nice
-  - Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
-  - Logiciels alakon
+  - ⏳ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
+  - ⏳ Logiciels alakon
     - Ouvrir VScode > Auto update plugins etc.
     - ~~Filezilla~~ WinSCP, OBS, VLC, ESET, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
     - Powershell [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
     - Nvidia driver
       - ( [Doc](https://docs.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) )
-  - Supprimer les fichiers temporaires
+  - ⏳ Supprimer les fichiers temporaires
     - Exec > `temp` // Devrait ouvrir `~c:Windows\Temp`
     - Supprimer tout
-  - WSL
+  - ⏳ WSL
     - Version Ubuntu
       - Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
     - Packages & terminal
@@ -229,10 +274,10 @@ omz update
 git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade
 ```
 
-- Maj serveur, script maintenance
+- ⏳ Maj serveur, script maintenance
   - `98-maintenance.yml` & `sudo apt -y update && sudo apt --fix-broken install && sudo apt -y upgrade` & reboot si besoin
   - Maj Lapie HMAC
-- Tout est Versionné, pas de WIP qui traîne
+- ⏳ Tout est Versionné, pas de WIP qui traîne
 
 ---
 
@@ -299,13 +344,7 @@ Extraire ici puis ranger & prioriser. Doit rester vide.
 
 ---
 
-- Tester resto a côté du grand rex will'deli
-- Resto reims thai : kobun
-- nowel vigi
-  - Tireuse bières
-  - DVD epica dernier concert
-- Film snatch
-- Film les voyeurs
+Tout est extrait :)
 
 ---
 

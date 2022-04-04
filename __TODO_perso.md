@@ -74,6 +74,7 @@ Sites > crunchyroll / otakufr . co
 - Nekomonogatari: Kuro
 - Ninja Scroll !!
 - Rising of the hero shield
+- [Saga of Tanya the Evil](https://www.crunchyroll.com/fr/saga-of-tanya-the-evil)
 - [Saki (mahjong)](https://www.anime-planet.com/anime/saki/videos)
 - ✅ sasami-san @ ganbaranai / 5/5 wtf
 - shigurui
@@ -83,7 +84,7 @@ Sites > crunchyroll / otakufr . co
 - Steins gate / Saison 2 !
 - Steins gate films / Shisha no Teikoku
 - Up
-- 🚀 Vinland saga / 5/5 ?
+- 🌱 Vinland saga / 5/5
 - Zashiki warashi no tatami-chan
 - Zton Jingai Animation: A Beautiful Greed Nulu Nulu
 
@@ -188,6 +189,7 @@ Sites > crunchyroll / otakufr . co
 - Johnny Mnemonic
 - knights of badassdom
 - l'enfer des armes
+- LA guerre du feu
 - la mule, clint eastwood
 - la route
 - lady hawk
@@ -212,6 +214,7 @@ Sites > crunchyroll / otakufr . co
 - pas un mot
 - Pandorum
 - Park_Chan-wook / filmo
+  - Mademoiselle
 - Penelope
 - Peninsula / suite dernier train pour busan
 - Philosophy of a knife
@@ -335,6 +338,7 @@ Sites > crunchyroll / otakufr . co
 - Turbo Kid
 - Turkish spiderman
 - ✅ Undead sigh/5
+- Velocipastor
 - Violent Shit: The Movie
 - ✅ Virus Shark / 4/5
 - ✅ Who killed captain alex / 1st uganda action movie / sur youtube / 5/5 💖
@@ -411,81 +415,151 @@ Sites > crunchyroll / otakufr . co
 
 ## Musiques
 
-- Tout les favoris /zik/peinture
-- Liens dans liste wtf
+- ✅ Tout les favoris /zik/peinture
+- ✅ Liens dans liste wtf
+  - 💥 Liste wtf > musiques
+- ✅ Alestorm
+  1. ✅ Captain Morgan's Revenge
+  2. ✅ Black Sails at Midnight
+  3. ✅ Back Through Time
+  4. ✅ Sunset On The Golden Age
+  5. ✅ No Grave But The Sea
+  6. ✅ Curse of the Crystal Coconut
 - All that remains
-- amon amarth
-- arch enemy premiers albums
-- arkona
+- Amon amarth
+- ✅ Aphex Twin - Selected Ambient Works 85-92
+- Arch enemy premiers albums
+- Arkona
 - As I lay dying
 - Avatar
-- baby metal
+- Baby metal
 - BBA
-- carnival of dead bodies
-- chemical brother
-- crossfaith
-- cruachan
+- Bloodywood
+- ✅ Blue Stahli
+  - ✅ The Devil
+- Carnival of dead bodies
+- Chemical brother
+- Crossfaith
+- Cruachan
+- Cyriak
 - Dark archive
+- Dance With The Dead
+  - ✅ The Shape
 - [David Hasselhoff – The Passenger](https://www.youtube.com/watch?v=XKdKU6p78TQ)
+- Deathklok
 - DevilDriver
-- dreadful silence
-- ensiferum
+- ✅ DJ BLYATMAN
+- dJJo zelda remixes
+- Dreadful silence
+- Dominic Ninmark / Eurobeat remixes
+- Ensiferum
+- EnV
 - Epica > Design your universe
+- ✅ Eskimo callboy
+- F-777
 - Faith no more
+- Feuerschwanz
 - First Fragment
 - Ghost
-- hoobastank
+- Hoobastank
 - Infected rain
 - Insomnium
+- Jinjer
 - [Joel - Scythelord](https://www.youtube.com/watch?v=1iMtPEPF-oE)
-- K-flay
-- Little big
-- maximum the hormone
+- ✅ K-flay
+- Kontrust
+- Korpiklaani
+- Kvelertak
+- ✅ Life of Boris
+- ✅ Little big
+- 🤏 Maruv
+- Maximum the hormone
 - Miss may / Monument colossal
-- nekrogoblikon
+- Nekrogoblikon
 - Obscura
 - Omnia
 - Origin
-- ost
-  - American beauty
-  - Attack on titan
-  - ASDF movies
-  - Bioshock 2
-  - Bleach ost > Precipice of Defeat
-  - [Nero - Must Be The Feeling (Delta Heavy Remix)](https://www.youtube.com/watch?v=9W04IKR1E2M)
-  - extra curicular
-  - Free! Iwatobi Swim Club
-  - Gravity falls
-  - Guilty Crown
-  - [Legion of heroes](https://www.youtube.com/watch?v=4FchlZSwXvs&list=PLrgkfqG7JAcPQ6MzKZHwHn6o6GxxwIl5-)
-  - Megalobox
-  - nier automata & replicant
-  - The Raid: Redemption
-  - Tropico 1 & 2
+- Ost
+  - ✅ Age of Empires 2 + extension
+  - ✅ Ardy Lightfoot
+  - ✅ American beauty
+  - ✅ ASDF movies
+  - ✅ Attack on titan
+  - ✅ Banjo-kazoui
+  - ✅ Bioshock 2
+  - ✅ Bleach ost > Precipice of Defeat
+  - ✅ Castlevania - NES
+  - ✅ Castlevania - Bloodstained Ritual of the Night
+  - ✅ Command and Conquer Red Alert
+  - ✅ Command and Conquer - Red Alert 3
+  - ✅ Contra Shattered Soldier
+  - ✅ Diablo 2 + Lord of Destruction
+  - ✅ Donkey Kong Country
+  - ✅ DOOM Eternal
+  - ✅ Eurobeat divers
+  - ✅ Extra curicular
+  - ✅ Fallout 1
+  - ✅ Fight Club
+  - ✅ Final Fantasy
+    - ✅ 7
+    - ✅ 8
+    - ✅ 13
+    - ✅ Tactics
+  - ✅ Free! Iwatobi Swim Club
+  - ✅ Goldeneye remake
+  - ✅ Gravity falls
+  - ✅ Guilty Crown
+  - ✅ Halo Combat Evolved
+  - ✅ Hard Corps Uprising
+  - ✅ Heroes of Might & Magic II
+  - ✅ Heroes Of Might And Magic III
+  - ✅ Jet set radio
+  - ✅ [Legion of heroes](https://www.youtube.com/watch?v=4FchlZSwXvs&list=PLrgkfqG7JAcPQ6MzKZHwHn6o6GxxwIl5-)
+  - ✅ Killer 7
+  - ✅ Megalobox
+  - ✅ [Nero - Must Be The Feeling (Delta Heavy Remix)](https://www.youtube.com/watch?v=9W04IKR1E2M)
+  - ✅ nier automata & replicant
+  - ✅ Old Boy
+  - ✅ Ori and the Will of the Wisps
+  - ✅ Phantasy star online
+  - ✅ Serial Experiments Lain
+  - ✅ Street Fighter II Turbo
+  - ✅ The binding of Isaac
+  - ✅ Tropico 1 & 2
+  - ✅ Unreal Tournament
   - Vinland saga
   - Wanted
-- parkway drive
-- rob zombie
-- sceptic flesh
+- Parkway drive
+- Powerwolf
+- Prodigy
+- Queen
+- Rammstein
+- Rob zombie
+- Russkaja
+- Sabaton
+- Sceptic flesh
 - 📌 Shaargot
 - Skald
-- skalmold
-- space of variations
-- the agonist premiers albums
+- Skalmold
+- Space Of Variations
+- The agonist premiers albums
 - The arrs
 - The pretty reckless
-- the prodigy
-- tilopes
-- trollfest
-- ultra vomit
-- unleash the archers
-- Värttinä
+- The prodigy
+- Till Lindemann
+- Tilopes
+- Trollfest
+- Ultra vomit
+- Unleash the archers
+- ✅ Värttinä
 - Walls of jericho
 - Wardruna
-- whispered metal
+- Whispered (metal)
 - Wind rose
 - x RX
-- youtubes
+- Zardonic
+
+- Zik dans listes wtf & recos youtubes
 
 Une fois tout téléchargé, mettre à jour
 
