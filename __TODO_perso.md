@@ -161,6 +161,7 @@ Sites > crunchyroll / otakufr . co
 - Fist of jesus
 - First love le dernier yakuza
 - freaks land ~1930
+- Fright night
 - From beyond
 - Fu manchu
 - Funny game
@@ -193,6 +194,8 @@ Sites > crunchyroll / otakufr . co
 - la mule, clint eastwood
 - la route
 - lady hawk
+- ✅ Lamb 4/5
+- Le grand soir (dupontel)
 - Le train (avec Robie Schneider)
 - le vaisseau de l'angoisse
 - Les affranchis
@@ -206,10 +209,12 @@ Sites > crunchyroll / otakufr . co
 - 📌 Metalhead
 - mise a prix
 - Moon
+- Morbius (vampire)
 - morse, let me in
 - 📌 Mother
 - Nameless gangster
 - narc
+- Ni juges ni soumises (Netflix)
 - [No country for old men](https://www.google.com/search?q=no+country+ofr+old+men&oq=no+country+ofr+old+men&aqs=chrome..69i57.2809j0j1&sourceid=chrome&ie=UTF-8)
 - pas un mot
 - Pandorum
@@ -462,6 +467,7 @@ Sites > crunchyroll / otakufr . co
 - First Fragment
 - Ghost
 - Hoobastank
+- [IGORRR](https://www.youtube.com/watch?v=YCqG9B8j-cI)
 - Infected rain
 - Insomnium
 - Jinjer
@@ -472,10 +478,13 @@ Sites > crunchyroll / otakufr . co
 - Kvelertak
 - ✅ Life of Boris
 - ✅ Little big
+- Lofofora
 - 🤏 Maruv
+- Mass hysteria
 - Maximum the hormone
 - Miss may / Monument colossal
 - Nekrogoblikon
+- No one is innocent
 - Obscura
 - Omnia
 - Origin
@@ -532,6 +541,7 @@ Sites > crunchyroll / otakufr . co
 - Parkway drive
 - Powerwolf
 - Prodigy
+- Psykup
 - Queen
 - Rammstein
 - Rob zombie
@@ -541,6 +551,7 @@ Sites > crunchyroll / otakufr . co
 - 📌 Shaargot
 - Skald
 - Skalmold
+- Smash it combo
 - Space Of Variations
 - The agonist premiers albums
 - The arrs
@@ -558,6 +569,8 @@ Sites > crunchyroll / otakufr . co
 - Wind rose
 - x RX
 - Zardonic
+- [ЛЁДЪ](https://www.youtube.com/watch?v=maGEji8cEVA)
+- [ГРАЙ](https://www.youtube.com/watch?v=ZB7z6MYzVUc)
 
 - Zik dans listes wtf & recos youtubes
 
