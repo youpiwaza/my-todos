@@ -35,37 +35,8 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 - Si besoin de focus, mettre une ou 2 tâches ici.
 
-Cryptor
-
-1. ✅ Devis 2/2
-   1. ✅ Facture 2/3
-   2. ✅ Facture 3/3
-   3. ✅ Ajout au doc Paiement impots AE
-2. ✅ Création de l'environnement client
-
----
-
-1. ✅ Virer Done
-2. ✅ Versionner TODOs
-3. ✅ Docs PB Modélisme
-   1. ✅ Signature cahier des charges
-   2. ✅ Devis
-   3. ✅ Factures
-   4. ✅ Maj doc Paiements & factures AE
-4. ⏳ Tâches récurrentes > terminer réinstallation environnement de dev
-5. ✅ Cleaner TODOs
-   1. Versionner TODOs
-6. 🚀 Réinstaller [environnement de dev](https://github.com/youpiwaza/install-dev-env) sur nouveau pc
-   1. ✅ install-dev-env > Upgrade vers [ubuntu 22](https://linuxconfig.org/how-to-upgrade-ubuntu-to-22-04-lts-jammy-jellyfish) & ✅ doc
-   2. 🚀 install-dev-env > `01-terminal` terminé
-      1. Compléter avec "Installer le terminal sur Windows"
-      2. [Install](https://docs.microsoft.com/fr-FR/windows/terminal/install)
-      3. & [conf](https://docs.microsoft.com/fr-fr/windows/wsl/setup/environment) terminal windows
-      4. & à rajouter à la doc
-   3. 📌 WSL
-   4. 📌 Docker desktop
-7. Finir serveur
-8. Perso après boulot
+1. Finir serveur
+2. Perso après boulot
 
 ### Sinon, priorisation classique
 
@@ -103,7 +74,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 - ✅ Vérifier impôts sur espace / Dernière vérif 15/08/2021
   - ✅ Perso  / ✅ 08/04/22
   - ✅ Pro    / ✅ 08/04/22 (CFE réglé le 17/11/2021)
-- 🚀 Maj locales / Environnement de dev / Dernière maj le 01/06/21
+- ✅ Maj locales / Environnement de dev / Dernière maj le 01/06/21
   - ✅ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk), `/r` également
     1. Invite de commande ou Powershell **en admin**
     2. `chkdsk c: /f /r` (et en fonction de vos disques.. && `chkdsk d: /f /r`, etc.)
@@ -120,35 +91,35 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
     - ✅ Dell support assist
     - ✅ Alienware update
   - ✅ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
-  - ⏳ Logiciels alakon
+  - ✅ Logiciels alakon
     - ✅ Ouvrir VScode > Auto update plugins etc.
     - ~~Filezilla~~ WinSCP, OBS, VLC, ESET, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
-    - Powershell [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
-    - Nvidia driver
+    - ✅ Powershell [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
       - ( [Doc](https://docs.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) )
-  - ⏳ Supprimer les fichiers temporaires
+    - ✅ Nvidia driver
+  - ✅ Supprimer les fichiers temporaires
     - Exec > `temp` // Devrait ouvrir `~c:Windows\Temp`
     - Supprimer tout
-  - ⏳ WSL
+  - ✅ WSL
     - Version Ubuntu
       - Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
     - Packages & terminal
 
 ```bash
 omz update
-git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade
+git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade && sudo apt -y autoremove
 ```
 
 - ⏳ Maj serveur, script maintenance
   - `98-maintenance.yml` & `sudo apt -y update && sudo apt --fix-broken install && sudo apt -y upgrade` & reboot si besoin
   - Maj Lapie HMAC
-- Maj budget couple
-- Serveur > Maj images
+- ⏳ Maj budget couple
+- ⏳ Serveur > Maj images
   - Maria DB
   - Nginx
   - WP
   - à compléter
-- ⏳ Tout est Versionné, pas de WIP qui traîne
+- ✅ Tout est Versionné, pas de WIP qui traîne
 
 ---
 
@@ -165,6 +136,18 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
 2. install-dev-env > docker-compose pour les principales technos : js & phpay
 3. 🔍 [tmux](https://nickjanetakis.com/blog/who-else-wants-to-boost-their-productivity-with-tmux)
 4. 🔍 [keys remap](https://nickjanetakis.com/blog/remap-and-set-global-hotkeys-on-windows-10-with-auto-hotkey)
+
+---
+
+#### Cryptor
+
+1. ✅ Devis 2/2
+   1. ✅ Facture 2/3
+   2. ✅ Facture 3/3
+   3. ✅ Ajout au doc Paiement impots AE
+2. ✅ Création de l'environnement client
+3. ✅ Création du projet github infra
+4. 🔗 Cf. [Statuts](https://docs.google.com/spreadsheets/d/1nvaJ1uGWcTgfAO7ej4-Bi0ReuN7Xmgou5HzcQ3qqLXo/edit#gid=1341993327)
 
 ---
 
@@ -292,32 +275,29 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
 1. ⏳ Changement de banque
    16. ⏳ Vérifier clôture encore reportée par l'autre sac a merde
 2. 🚀 Musiques taf & portable
-3. ✅ Paiement syndic
-4. ✅ Commander bières
-5. ✅ Poster lettre infos impôts
-6. 💥 Annuler concert kflay 14 mai
-7. Résa concert si possible + trains
+3. 💥 Annuler concert kflay 14 mai
+4. Résa concert si possible + trains
    1. concert psykup 30/04
-8. [Patinoire](https://mail.google.com/mail/u/0/#inbox/FMfcgzGmvLQjSdlzHqNgpnCFgHjXWZlW)
-9. Pourrir la bred sur les réseaux
-10. Retrouver Permis conduire
-11. DL vidéos WTF youtoob
-12. [Changement propriétaire chatte](https://mail.google.com/mail/u/0/#inbox/FMfcgzGllCcNJCZHqcjqlkNJhlNFzwZC)
-13. Faire article réparation/optimisation de pc
+5. [Patinoire](https://mail.google.com/mail/u/0/#inbox/FMfcgzGmvLQjSdlzHqNgpnCFgHjXWZlW)
+6. Pourrir la bred sur les réseaux
+7. Retrouver Permis conduire
+8. DL vidéos WTF youtoob
+9. [Changement propriétaire chatte](https://mail.google.com/mail/u/0/#inbox/FMfcgzGllCcNJCZHqcjqlkNJhlNFzwZC)
+10. Faire article réparation/optimisation de pc
     1. [hey](https://www.drivereasy.com/knowledge/100-disk-usage-windows-10-fixed/)
     2. [hoy](https://www.makeuseof.com/tips-fix-100-disk-usage-improve-windows-performance/)
-14. Faire article maintenance PC
-15. double authentification OVH manager
-16. Mettre à jour CV !
-17. Rdv médecins
+11. Faire article maintenance PC
+12. double authentification OVH manager
+13. Mettre à jour CV !
+14. Rdv médecins
     1. Ophtalmo
     2. Cardiolog0ue
     3. Oreillologiste
-18. CPF > Langage des signes / Amazon AWS / Jenkins git hooks
-19. !site perso > cours particuliers code > 50€ heure (+, compter impôts)
-20. [Boeuf ethique](https://www.leboeufethique.fr/)
-21. Portable > reset usine
-22. Saut en parachute reims BA prunay
+15. CPF > Langage des signes / Amazon AWS / Jenkins git hooks
+16. !site perso > cours particuliers code > 50€ heure (+, compter impôts)
+17. [Boeuf ethique](https://www.leboeufethique.fr/)
+18. Portable > reset usine
+19. Saut en parachute reims BA prunay
 
 ### ⏳🌱 Vérifications sur la longueur
 

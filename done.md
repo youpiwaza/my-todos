@@ -2,6 +2,32 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 11/04/22
+
+Rapide
+
+1. ✅ Virer Done
+2. ✅ Versionner TODOs
+3. ✅ Docs PB Modélisme
+   1. ✅ Signature cahier des charges
+   2. ✅ Devis
+   3. ✅ Factures
+   4. ✅ Maj doc Paiements & factures AE
+4. ✅ Tâches récurrentes > terminer réinstallation environnement de dev
+5. ✅ Cleaner TODOs
+   1. ✅ Versionner TODOs
+6. ✅ Réinstaller [environnement de dev](https://github.com/youpiwaza/install-dev-env) sur nouveau pc
+   1. ✅ install-dev-env > Upgrade vers [ubuntu 22](https://linuxconfig.org/how-to-upgrade-ubuntu-to-22-04-lts-jammy-jellyfish) & ✅ doc
+   2. ✅ install-dev-env > `01-terminal` terminé
+   3. ✅ WSL
+   4. ✅ Docker desktop
+
+Perso
+
+1. ✅ Paiement syndic
+2. ✅ Commander bières
+3. ✅ Poster lettre infos impôts
+
 ## 02 & 03/22
 
 Taf
