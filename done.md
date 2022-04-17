@@ -2,6 +2,30 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 17/04/22
+
+AE
+
+1. ✅ Malt > Renvoyer docs
+   1. ✅ Attestation de vigilance
+      1. Message envoyé à l'URSAFF le 11/04/22
+      2. Recu le 12/04, Renvoyé le 13/04
+      3. EN attente de validation de la part de malt
+   2. ✅ Avis de situation au répertoire SIREN
+      1. Statut passé en public le 11/04/22, en attente de confirmation (24h?)
+      2. Attestation à récupérer [ensuite](https://avis-situation-sirene.insee.fr/)
+      3. Récupéré et envoyé le 13/04
+      4. En attente de validation
+
+Cryptor
+
+1. ✅ Devis 2/2
+   1. ✅ Facture 2/3
+   2. ✅ Facture 3/3
+   3. ✅ Ajout au doc Paiement impots AE
+2. ✅ Création de l'environnement client
+3. ✅ Création du projet github infra
+
 ## 11/04/22
 
 Rapide

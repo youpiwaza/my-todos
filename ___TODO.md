@@ -35,9 +35,6 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 - Si besoin de focus, mettre une ou 2 tâches ici.
 
-1. Finir serveur
-2. Perso après boulot
-
 ### Sinon, priorisation classique
 
 1. Tâches récurrentes
@@ -51,56 +48,56 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel plus tard/exponentiel
 
-- ✅Déplacer les terminés ✅ à chaque début de semaine dans done.md
+- ⏳Déplacer les terminés ✅ à chaque début de semaine dans done.md
 - 💩 Déplacer les TODO 🌱 dans _TODO_shame.md
-- ✅ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ✅ mails, ✅ edt portable, ✅ favoris, ✅ bureau. Si possible description + lien.
-- ✅ Nettoyer le fichier __TODO
-  - ✅ Status
+- ⏳ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ⏳ mails, ⏳ edt portable, ⏳ favoris, ⏳ bureau. Si possible description + lien.
+- ⏳ Nettoyer le fichier __TODO
+  - ⏳ Status
   - ⏳ Ce fichier > ### Shame
     - ⏳ Ranger dans fichiers TODO correspondant
     - ⏳ Prioriser
-- ✅ Virer ce qui traine
-  - ✅ sur le bureau
+- ⏳ Virer ce qui traine
+  - ⏳ sur le bureau
   - 💩 dans le dossier _shame du bureau
   - 💩 Lel (local)/Mes documents/_dev/_shame
-  - ✅ Vider corbeille
-  - ✅ Vider téléchargements
-  - ✅ Dans les mails
-- ✅ Déplacer veille onglets dans TODO_veille
+  - ⏳ Vider corbeille
+  - ⏳ Vider téléchargements
+  - ⏳ Dans les mails
+- ⏳ Déplacer veille onglets dans TODO_veille
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
-- ✅ Déclaration Auto entrepreneur
-  - ✅ Mars 2022
-- ✅ Vérifier impôts sur espace / Dernière vérif 15/08/2021
-  - ✅ Perso  / ✅ 08/04/22
-  - ✅ Pro    / ✅ 08/04/22 (CFE réglé le 17/11/2021)
-- ✅ Maj locales / Environnement de dev / Dernière maj le 01/06/21
-  - ✅ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk), `/r` également
+- ⏳ Déclaration Auto entrepreneur
+  - ⏳ Mars 2022
+- ⏳ Vérifier impôts sur espace / Dernière vérif 15/08/2021
+  - ⏳ Perso  / ⏳ 08/04/22
+  - ⏳ Pro    / ⏳ 08/04/22 (CFE réglé le 17/11/2021)
+- ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21
+  - ⏳ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk), `/r` également
     1. Invite de commande ou Powershell **en admin**
     2. `chkdsk c: /f /r` (et en fonction de vos disques.. && `chkdsk d: /f /r`, etc.)
     3. `>Blah blah besoin de redémarrer O/n` >> `O`
     4. Redémarrer / Attendre 5 ans et demi sauf si t'as un SSD
-  - ✅ Windaube update
-    - ✅ Update alakon
-    - ✅ [.net](https://dotnet.microsoft.com/download) > Runtime
-    - ✅ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
-  - ✅ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
-  - ✅ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
+  - ⏳ Windaube update
+    - ⏳ Update alakon
+    - ⏳ [.net](https://dotnet.microsoft.com/download) > Runtime
+    - ⏳ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
+  - ⏳ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
+  - ⏳ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
     - (Mon ancien MSI) > [Sandisk ultra II](https://kb.sandisk.com/app/answers/detail/a_id/6053/~/ultra-3d-%7C-sandisk-ssd-plus-%28ssd%29-support-information)
       - Lancer (Sandisk) "Dashboard" / Firmware update automatique, et il préveitn avant. Nice
-    - ✅ Dell support assist
-    - ✅ Alienware update
-  - ✅ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
-  - ✅ Logiciels alakon
-    - ✅ Ouvrir VScode > Auto update plugins etc.
+    - ⏳ Dell support assist
+    - ⏳ Alienware update
+  - ⏳ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
+  - ⏳ Logiciels alakon
+    - ⏳ Ouvrir VScode > Auto update plugins etc.
     - ~~Filezilla~~ WinSCP, OBS, VLC, ESET, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
-    - ✅ Powershell [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
+    - ⏳ Powershell [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
       - ( [Doc](https://docs.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) )
-    - ✅ Nvidia driver
-  - ✅ Supprimer les fichiers temporaires
+    - ⏳ Nvidia driver
+  - ⏳ Supprimer les fichiers temporaires
     - Exec > `temp` // Devrait ouvrir `~c:Windows\Temp`
     - Supprimer tout
-  - ✅ WSL
+  - ⏳ WSL
     - Version Ubuntu
       - Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
     - Packages & terminal
@@ -111,7 +108,7 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
 ```
 
 - ⏳ Maj serveur, script maintenance
-  - `98-maintenance.yml` & `sudo apt -y update && sudo apt --fix-broken install && sudo apt -y upgrade` & reboot si besoin
+  - `98-maintenance.yml` & `sudo apt -y update && sudo apt --fix-broken install && sudo apt -y upgrade && sudo apt -y autoremove` & reboot si besoin
   - Maj Lapie HMAC
 - ⏳ Maj budget couple
 - ⏳ Serveur > Maj images
@@ -119,7 +116,7 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
   - Nginx
   - WP
   - à compléter
-- ✅ Tout est Versionné, pas de WIP qui traîne
+- ⏳ Tout est Versionné, pas de WIP qui traîne
 
 ---
 
@@ -141,38 +138,34 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
 
 #### Cryptor
 
-1. ✅ Devis 2/2
-   1. ✅ Facture 2/3
-   2. ✅ Facture 3/3
-   3. ✅ Ajout au doc Paiement impots AE
-2. ✅ Création de l'environnement client
-3. ✅ Création du projet github infra
-4. 🔗 Cf. [Statuts](https://docs.google.com/spreadsheets/d/1nvaJ1uGWcTgfAO7ej4-Bi0ReuN7Xmgou5HzcQ3qqLXo/edit#gid=1341993327)
+🔗 Cf. [Statuts](https://docs.google.com/spreadsheets/d/1nvaJ1uGWcTgfAO7ej4-Bi0ReuN7Xmgou5HzcQ3qqLXo/edit#gid=1341993327)
 
 ---
 
 #### Serveur
 
 1. Lint done : ansible-install-web-server > README.MD
-2. Ansible convenience
+2. [WP + nginx](https://wordpress.org/support/article/nginx/)
+3. ansible template, au lieu de remplacer variables > [block_start_string](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/template_module.html#parameter-block_start_string)
+4. Ansible convenience
     1. Clean templating, variable [deprecated ansible_managed](https://docs.ansible.com/ansible/2.4/intro_configuration.html#ansible-managed)
         1. [?](https://docs.ansible.com/ansible/latest/reference_appendices/config.html#default-managed-str)
     2. [ansible prompt](https://docs.ansible.com/ansible/latest/user_guide/playbooks_prompts.html)
-3. Opti script maintenance
+5. Opti script maintenance
    1. Ajouter maj OMZ ZSH
-4. Installer webmin plutot que grafana & autres
-5. Wordpress dev prod > réutiliser /generated/var files
-6. Faire une grosse repasse sur les index de projet il manque plein de vars
-7. Conteur netdata a la place de grafana
-8. Génération d'un nouveau site OU wp > doc identifiant à la racine (actuellement uniquement dans /generated/)
-9. wp > identifiants > ajouter url wp-admin
-10. BUG: génération des fichiers de sites > prefixe `200-` pas utilisé partout
-11. 🚀 Bind volumes pour les fichiers /www des sites, sur les sftp créés
+6. Installer webmin plutot que grafana & autres
+7. Wordpress dev prod > réutiliser /generated/var files
+8. Faire une grosse repasse sur les index de projet il manque plein de vars
+9. Conteur netdata a la place de grafana
+10. Génération d'un nouveau site OU wp > doc identifiant à la racine (actuellement uniquement dans /generated/)
+11. wp > identifiants > ajouter url wp-admin
+12. BUG: génération des fichiers de sites > prefixe `200-` pas utilisé partout
+13. 🚀 Bind volumes pour les fichiers /www des sites, sur les sftp créés
     1. A la mano voir si ça marche, sinon se pendre
     2. Automatiser
-12. `/home/singed_the_docker_peon_9f3eqk4s9/configs/masamune/hello--masamune--fr` wtf is that
-13. harmoniser builder guy > tout THE_BUiLDER_GUY, idem autres XXX_GUY
-14. Tutum > remplacer par nginx
+14. `/home/singed_the_docker_peon_9f3eqk4s9/configs/masamune/hello--masamune--fr` wtf is that
+15. harmoniser builder guy > tout THE_BUiLDER_GUY, idem autres XXX_GUY
+16. Tutum > remplacer par nginx
     1. Faire tourner déjà ca serait bien, go ctrl + f "curated"
     2. Utiliser vars d'environnement pour refaire un tutum mayzon: image + nom conteneur
     3. Serveur normal & serveur php basique pour les sites non wp
@@ -180,20 +173,20 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
        1. 🔍 [Video configuration](https://www.youtube.com/watch?v=C5kMgshNc6g)
        2. Tune server for [nginx performance](https://www.nginx.com/blog/10-tips-for-10x-application-performance/)
        3. [+1](https://blog.monitis.com/blog/6-best-practices-for-optimizing-your-nginx-performance/)
-15. Bitnami
+17. Bitnami
     1. [Github issues](https://github.com/bitnami/bitnami-docker-mysql/issues/79#issuecomment-545477842) > Variable d'env afin d'augmenter le debug des conteneurs bitnami ! >> raisons explicites sur le problème de boot du conteneur
     2. Gestion notes dans ansible-install-web-server/ansible/203-setup-wordpress-lapie_secret.yml
     3. Testay avec surcharge de conf via config: voir si ca boot avec la bonne conf
     4. Lourder si serveurs web classique stabilité 100%, +1 speed
     5. Activer modules php
     6. Http 2/3
-16. Gestion des mails propre
+18. Gestion des mails propre
     1. Connexion au serveur SMPT du serveur ? cf. utils-emails
     2. [Conteneur postfix ?](https://hub.docker.com/_/postfixadmin)
     3. Ajout SPF/DKIM/DMARC
     4. Maj lapie & nonore
-17. Maj conteneur bitnami/wordpress
-18. Cleaner / Relancer clients actuels
+19. Maj conteneur bitnami/wordpress
+20. Cleaner / Relancer clients actuels
     1. Lapie
        1. Cleaner au niveau du serveur dashed-uri > .com ou .fr
     2. Nonore
@@ -202,7 +195,7 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
        1. Maj ansible-install-web-server/commandes-backup-volumes-a-la-maing_secret.md (dashed notation)
        2. (normalement d'ici la les roles de backups seront générés auto :3)
        3. Backup
-19. Migration serveur
+21. Migration serveur
     1. Lister
        1. Technos
        2. 📌📌📌📌📌📌📌 Fichiers
@@ -273,11 +266,13 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
 ### Trucs **persos**
 
 1. ⏳ Changement de banque
-   16. ⏳ Vérifier clôture encore reportée par l'autre sac a merde
+   16. 💥⏳ Vérifier clôture encore reportée par l'autre sac a merde
 2. 🚀 Musiques taf & portable
 3. 💥 Annuler concert kflay 14 mai
 4. Résa concert si possible + trains
-   1. concert psykup 30/04
+   1. concert 24/04 dark tranquility **x2**
+   2. concert 30/04 psykup
+   3. concert 10/06 maximum the hormone
 5. [Patinoire](https://mail.google.com/mail/u/0/#inbox/FMfcgzGmvLQjSdlzHqNgpnCFgHjXWZlW)
 6. Pourrir la bred sur les réseaux
 7. Retrouver Permis conduire
@@ -287,17 +282,18 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
     1. [hey](https://www.drivereasy.com/knowledge/100-disk-usage-windows-10-fixed/)
     2. [hoy](https://www.makeuseof.com/tips-fix-100-disk-usage-improve-windows-performance/)
 11. Faire article maintenance PC
-12. double authentification OVH manager
-13. Mettre à jour CV !
-14. Rdv médecins
+12. Faire article découverte ansible
+13. double authentification OVH manager
+14. Mettre à jour CV !
+15. Rdv médecins
     1. Ophtalmo
     2. Cardiolog0ue
     3. Oreillologiste
-15. CPF > Langage des signes / Amazon AWS / Jenkins git hooks
-16. !site perso > cours particuliers code > 50€ heure (+, compter impôts)
-17. [Boeuf ethique](https://www.leboeufethique.fr/)
-18. Portable > reset usine
-19. Saut en parachute reims BA prunay
+16. CPF > Langage des signes / Amazon AWS / Jenkins git hooks
+17. !site perso > cours particuliers code > 50€ heure (+, compter impôts)
+18. [Boeuf ethique](https://www.leboeufethique.fr/)
+19. Portable > reset usine
+20. Saut en parachute reims BA prunay
 
 ### ⏳🌱 Vérifications sur la longueur
 
