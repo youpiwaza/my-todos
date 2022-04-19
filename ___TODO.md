@@ -35,6 +35,29 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 - Si besoin de focus, mettre une ou 2 tâches ici.
 
+Perso
+
+1. ✅ Prendre RDV docteur checkup complet
+   1. ⏳ RDV pris le mardi 26/04 à 15h
+2. ✅ Acheter etiqueteuse [Dymo](https://www.google.com/search?q=Dymo&oq=Dymo&aqs=chrome..69i57.330j0j1&sourceid=chrome&ie=UTF-8)
+   1. ⏳ 26-28/04
+3. ✅ Acheter cable HDMI 5m
+   1. ⏳ 21/04
+4. Cadeau anniv dus
+   1. Demander date
+   2. résa restau gastro sur the fork si y'a
+5. Peinture Chtulu
+   1. [How to paint Extreme Light Sources - OSL tutorial](https://www.youtube.com/watch?v=c48UiPSBfcg)
+   2. [INDESTRUCTIBLE Gaming Bases - Quick & Easy](https://www.youtube.com/watch?v=tRFfsAG-Yf8)
+
+AE
+
+1. ⏳ 13/05/2022 > Facture NDD [MKasza](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpFWLJXknFsqDNKVszJCqqvCpn)
+2. Veille
+   1. [Arrêt maladie : les démarches du travailleur indépendant](https://www.ameli.fr/assure/droits-demarches/maladie-accident-hospitalisation/arret-travail-maladie/arret-travail-maladie-independants)
+   2. 💥 CPF [Prise en charge des formations des travailleurs indépendants](https://entreprendre.service-public.fr/vosdroits/F31148)
+   3. [Quand prendre sa retraite ?](https://www.lassuranceretraite.fr/portail-info/home/actif/travailleur-independant/depart-retraite/inde-quand-retraite.html)
+
 ### Sinon, priorisation classique
 
 1. Tâches récurrentes
@@ -48,53 +71,54 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel plus tard/exponentiel
 
-- ⏳Déplacer les terminés ✅ à chaque début de semaine dans done.md
+- ✅Déplacer les terminés ✅ à chaque début de semaine dans done.md
 - 💩 Déplacer les TODO 🌱 dans _TODO_shame.md
-- ⏳ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ⏳ mails, ⏳ edt portable, ⏳ favoris, ⏳ bureau. Si possible description + lien.
-- ⏳ Nettoyer le fichier __TODO
-  - ⏳ Status
-  - ⏳ Ce fichier > ### Shame
-    - ⏳ Ranger dans fichiers TODO correspondant
-    - ⏳ Prioriser
-- ⏳ Virer ce qui traine
-  - ⏳ sur le bureau
+- ✅ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ✅ mails, ✅ edt portable, ✅ favoris, ⏳ bureau. Si possible description + lien.
+- ✅ Nettoyer le fichier __TODO
+  - ✅ Status
+  - ✅ Ce fichier > ### Shame
+    - ✅ Ranger dans fichiers TODO correspondant
+    - ✅ Prioriser
+- ✅ Virer ce qui traine
+  - ✅ sur le bureau
   - 💩 dans le dossier _shame du bureau
   - 💩 Lel (local)/Mes documents/_dev/_shame
-  - ⏳ Vider corbeille
-  - ⏳ Vider téléchargements
-  - ⏳ Dans les mails
-- ⏳ Déplacer veille onglets dans TODO_veille
+  - ✅ Vider corbeille
+  - ✅ Vider téléchargements
+  - ✅ Dans les mails
+- ✅ Déplacer veille onglets dans TODO_veille
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
-- ⏳ Déclaration Auto entrepreneur
-  - ⏳ Mars 2022
-- ⏳ Vérifier impôts sur espace / Dernière vérif 15/08/2021
-  - ⏳ Perso  / ⏳ 08/04/22
-  - ⏳ Pro    / ⏳ 08/04/22 (CFE réglé le 17/11/2021)
+- ✅ Déclaration Auto entrepreneur
+  - ✅ Mars 2022
+  - ⏳ Avril 2022
+- ✅ Vérifier impôts sur espace / Dernière vérif 15/08/2021
+  - ✅ Perso  / ✅ 19/04/22
+  - ✅ Pro    / ✅ 19/04/22 (CFE réglé le 17/11/2021)
 - ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21
   - ⏳ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk), `/r` également
     1. Invite de commande ou Powershell **en admin**
     2. `chkdsk c: /f /r` (et en fonction de vos disques.. && `chkdsk d: /f /r`, etc.)
     3. `>Blah blah besoin de redémarrer O/n` >> `O`
     4. Redémarrer / Attendre 5 ans et demi sauf si t'as un SSD
-  - ⏳ Windaube update
-    - ⏳ Update alakon
-    - ⏳ [.net](https://dotnet.microsoft.com/download) > Runtime
-    - ⏳ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
+  - ✅ Windaube
+    - ✅ Update alakon
+    - ✅ [.net](https://dotnet.microsoft.com/download) > Runtime
+    - ✅ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
   - ⏳ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
-  - ⏳ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
+  - ✅ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
     - (Mon ancien MSI) > [Sandisk ultra II](https://kb.sandisk.com/app/answers/detail/a_id/6053/~/ultra-3d-%7C-sandisk-ssd-plus-%28ssd%29-support-information)
       - Lancer (Sandisk) "Dashboard" / Firmware update automatique, et il préveitn avant. Nice
     - ⏳ Dell support assist
-    - ⏳ Alienware update
-  - ⏳ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
+    - ✅ Alienware update
+  - ✅ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
   - ⏳ Logiciels alakon
-    - ⏳ Ouvrir VScode > Auto update plugins etc.
+    - ✅ Ouvrir VScode > Auto update plugins etc.
     - ~~Filezilla~~ WinSCP, OBS, VLC, ESET, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
-    - ⏳ Powershell [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
+    - ✅ Powershell [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
       - ( [Doc](https://docs.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) )
-    - ⏳ Nvidia driver
-  - ⏳ Supprimer les fichiers temporaires
+    - ✅ Nvidia driver
+  - ✅ Supprimer les fichiers temporaires
     - Exec > `temp` // Devrait ouvrir `~c:Windows\Temp`
     - Supprimer tout
   - ⏳ WSL
@@ -116,6 +140,10 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
   - Nginx
   - WP
   - à compléter
+- ⏳ Téléphone
+  - ✅ Maj de la base
+  - ✅ Maj des applications
+  - ⏳ Tous les 6 mois > reset usine
 - ⏳ Tout est Versionné, pas de WIP qui traîne
 
 ---

@@ -4,6 +4,12 @@ Les tâches terminées des semaines précédentes :)
 
 ## 17/04/22
 
+Perso
+
+1. ✅ Déclaration impôts revenus
+2. ✅ Mail J. ferrari
+3. ✅ Finir tâches récurrentes
+
 AE
 
 1. ✅ Malt > Renvoyer docs
@@ -16,6 +22,7 @@ AE
       2. Attestation à récupérer [ensuite](https://avis-situation-sirene.insee.fr/)
       3. Récupéré et envoyé le 13/04
       4. En attente de validation
+2. ✅ Devis > Journée type 7h, 7h30
 
 Cryptor
 
@@ -25,6 +32,10 @@ Cryptor
    3. ✅ Ajout au doc Paiement impots AE
 2. ✅ Création de l'environnement client
 3. ✅ Création du projet github infra
+
+PB Modélisme
+
+1. ✅ Relance PB Modelisme taf de leur côté > 19/04/22
 
 ## 11/04/22
 

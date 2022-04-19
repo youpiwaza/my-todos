@@ -94,6 +94,7 @@
 - Amazon > Peinture "Golden artist color" titanium white
 - [casing pinceaux](https://www.jacksonsart.com/fr-fr/idees-cadeaux/idees-cadeaux-pinceaux)
 - ✅ Dremel
+- [Golden fluorescent paints](https://www.goldenpaints.com/products/colors/fluorescent---phosphorescent-colors)
 - GW
   - [space elves pirates stuff](https://www.warhammer-community.com/2022/02/11/sneak-hordes-of-corsairs-behind-enemy-lines-with-iyandens-pirate-prince-yriel/)
 - green stuff world

@@ -14,6 +14,7 @@
    4. Optimisation de la vie
       1. Bilan compléments alimentaires tous les 3 mois
    5. Process rituels vie courante
+   6. Bilans service > [process de réparation](https://github.com/youpiwaza/26Digital/tree/main/bilans%20service/ancien-intranet/users/intranet)
 
 ## Vrac
 
