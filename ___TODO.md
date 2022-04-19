@@ -95,6 +95,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 - ✅ Vérifier impôts sur espace / Dernière vérif 15/08/2021
   - ✅ Perso  / ✅ 19/04/22
   - ✅ Pro    / ✅ 19/04/22 (CFE réglé le 17/11/2021)
+- ✅ Vérifier messages [Ameli](https://assure.ameli.fr/)
 - ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21
   - ⏳ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk), `/r` également
     1. Invite de commande ou Powershell **en admin**
