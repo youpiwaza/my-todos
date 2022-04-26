@@ -444,6 +444,7 @@ Sites > crunchyroll / otakufr . co
   - ✅ The Devil
 - Carnival of dead bodies
 - Chemical brother
+- Crisix
 - Crossfaith
 - Cruachan
 - Cyriak

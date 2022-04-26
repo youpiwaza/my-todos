@@ -2,6 +2,20 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 26/04/22
+
+Perso
+
+1. ✅ Acheter cable HDMI 5m
+   1. ✅ 21/04
+2. ✅ Acheter adaptateur pour paint shaker
+   1. ✅ 20/04
+3. ✅ RDV Malt du 21/04/22
+4. ✅ Bières
+   1. ✅ Mettre nouveau fût
+   2. ✅ Renvoyer anciens fûts
+5. ✅ Cadeau anniv dus
+
 ## 17/04/22
 
 Perso
