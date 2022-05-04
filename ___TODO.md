@@ -184,30 +184,31 @@ Rieng
 ### Serveur
 
 1. ⏳ Lapie HMAC auto
-2. Passage à ubuntu 22
-3. Ubuntu 22 sur dockerhub
-4. Lint done : ansible-install-web-server > README.MD
-5. [WP + nginx](https://wordpress.org/support/article/nginx/)
-6. ansible template, au lieu de remplacer variables > [block_start_string](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/template_module.html#parameter-block_start_string)
-7. Ansible convenience
+2. Si tout est bon sur repo secret > virer `/clients` qui est redondant
+3. Passage à ubuntu 22
+4. Ubuntu 22 sur dockerhub
+5. Lint done : ansible-install-web-server > README.MD
+6. [WP + nginx](https://wordpress.org/support/article/nginx/)
+7. ansible template, au lieu de remplacer variables > [block_start_string](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/template_module.html#parameter-block_start_string)
+8. Ansible convenience
     1. Clean templating, variable [deprecated ansible_managed](https://docs.ansible.com/ansible/2.4/intro_configuration.html#ansible-managed)
         1. [?](https://docs.ansible.com/ansible/latest/reference_appendices/config.html#default-managed-str)
     2. [ansible prompt](https://docs.ansible.com/ansible/latest/user_guide/playbooks_prompts.html)
-8. Opti script maintenance
+9. Opti script maintenance
    1. Ajouter maj OMZ ZSH
-9. Installer webmin plutot que grafana & autres
-10. Wordpress dev prod > réutiliser /generated/var files
-11. Faire une grosse repasse sur les index de projet il manque plein de vars
-12. Conteur netdata a la place de grafana
-13. Génération d'un nouveau site OU wp > doc identifiant à la racine (actuellement uniquement dans /generated/)
-14. wp > identifiants > ajouter url wp-admin
-15. BUG: génération des fichiers de sites > prefixe `200-` pas utilisé partout
-16. 🚀 Bind volumes pour les fichiers /www des sites, sur les sftp créés
+10. Installer webmin plutot que grafana & autres
+11. Wordpress dev prod > réutiliser /generated/var files
+12. Faire une grosse repasse sur les index de projet il manque plein de vars
+13. Conteur netdata a la place de grafana
+14. Génération d'un nouveau site OU wp > doc identifiant à la racine (actuellement uniquement dans /generated/)
+15. wp > identifiants > ajouter url wp-admin
+16. BUG: génération des fichiers de sites > prefixe `200-` pas utilisé partout
+17. 🚀 Bind volumes pour les fichiers /www des sites, sur les sftp créés
     1. A la mano voir si ça marche, sinon se pendre
     2. Automatiser
-17. `/home/singed_the_docker_peon_9f3eqk4s9/configs/masamune/hello--masamune--fr` wtf is that
-18. harmoniser builder guy > tout THE_BUiLDER_GUY, idem autres XXX_GUY
-19. Tutum > remplacer par nginx
+18. `/home/singed_the_docker_peon_9f3eqk4s9/configs/masamune/hello--masamune--fr` wtf is that
+19. harmoniser builder guy > tout THE_BUiLDER_GUY, idem autres XXX_GUY
+20. Tutum > remplacer par nginx
     1. Faire tourner déjà ca serait bien, go ctrl + f "curated"
     2. Utiliser vars d'environnement pour refaire un tutum mayzon: image + nom conteneur
     3. Serveur normal & serveur php basique pour les sites non wp
@@ -215,20 +216,20 @@ Rieng
        1. 🔍 [Video configuration](https://www.youtube.com/watch?v=C5kMgshNc6g)
        2. Tune server for [nginx performance](https://www.nginx.com/blog/10-tips-for-10x-application-performance/)
        3. [+1](https://blog.monitis.com/blog/6-best-practices-for-optimizing-your-nginx-performance/)
-20. Bitnami
+21. Bitnami
     1. [Github issues](https://github.com/bitnami/bitnami-docker-mysql/issues/79#issuecomment-545477842) > Variable d'env afin d'augmenter le debug des conteneurs bitnami ! >> raisons explicites sur le problème de boot du conteneur
     2. Gestion notes dans ansible-install-web-server/ansible/203-setup-wordpress-lapie_secret.yml
     3. Testay avec surcharge de conf via config: voir si ca boot avec la bonne conf
     4. Lourder si serveurs web classique stabilité 100%, +1 speed
     5. Activer modules php
     6. Http 2/3
-21. Gestion des mails propre
+22. Gestion des mails propre
     1. Connexion au serveur SMPT du serveur ? cf. utils-emails
     2. [Conteneur postfix ?](https://hub.docker.com/_/postfixadmin)
     3. Ajout SPF/DKIM/DMARC
     4. Maj lapie & nonore
-22. Maj conteneur bitnami/wordpress
-23. Cleaner / Relancer clients actuels
+23. Maj conteneur bitnami/wordpress
+24. Cleaner / Relancer clients actuels
     1. Lapie
        1. Cleaner au niveau du serveur dashed-uri > .com ou .fr
     2. Nonore
@@ -237,7 +238,7 @@ Rieng
        1. Maj ansible-install-web-server/commandes-backup-volumes-a-la-maing_secret.md (dashed notation)
        2. (normalement d'ici la les roles de backups seront générés auto :3)
        3. Backup
-24. Migration serveur
+25. Migration serveur
     1. Lister
        1. Technos
        2. 📌📌📌📌📌📌📌 Fichiers
