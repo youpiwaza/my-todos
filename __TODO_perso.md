@@ -420,9 +420,12 @@ Sites > crunchyroll / otakufr . co
 
 ## Musiques
 
+👴 Récup vieux DD, manque probablement des choses, à vérifier/recouper en pistes/virer fichiers inutiles/renommer
+
 - ✅ Tout les favoris /zik/peinture
 - ✅ Liens dans liste wtf
   - 💥 Liste wtf > musiques
+- ✅👴 Alchimist
 - ✅ Alestorm
   1. ✅ Captain Morgan's Revenge
   2. ✅ Black Sails at Midnight
@@ -430,64 +433,105 @@ Sites > crunchyroll / otakufr . co
   4. ✅ Sunset On The Golden Age
   5. ✅ No Grave But The Sea
   6. ✅ Curse of the Crystal Coconut
-- All that remains
+- ✅👴 All Shall Perish
+- ✅👴 All that remains
+- ✅👴 Alice In Chains
 - Amon amarth
 - ✅ Aphex Twin - Selected Ambient Works 85-92
+- ✅👴 Apocalyptica
 - Arch enemy premiers albums
 - Arkona
 - As I lay dying
+- ✅👴 At the gates
+- ✅👴 Avenged Sevenfold
 - Avatar
 - Baby metal
 - BBA
+- ✅👴 Bleed the Sky
+- ✅👴 Blink 182
+- ✅👴 Bloc party
 - Bloodywood
 - ✅ Blue Stahli
   - ✅ The Devil
+- ✅👴 Bullet For My Valentine
 - Carnival of dead bodies
 - Chemical brother
+- ✅👴 Children of Bodom
 - Crisix
 - Crossfaith
 - Cruachan
 - Cyriak
-- Dark archive
+- ✅👴 Daft punk
+- ✅👴 Dark age
 - Dance With The Dead
   - ✅ The Shape
+- Dark archive
 - [David Hasselhoff – The Passenger](https://www.youtube.com/watch?v=XKdKU6p78TQ)
+- ✅👴 Dearly Beheaded
 - Deathklok
-- DevilDriver
+- ✅👴 DevilDriver
 - ✅ DJ BLYATMAN
 - dJJo zelda remixes
+- ✅👴 Dragonforce
 - Dreadful silence
+- ✅👴 Drowning Pool
 - Dominic Ninmark / Eurobeat remixes
+- ✅👴 Ellie Goulding
 - Ensiferum
 - EnV
+- ✅👴 Envy
 - Epica > Design your universe
 - ✅ Eskimo callboy
+- ✅👴 Eternal Tears of Sorrow
 - F-777
 - Faith no more
+- ✅👴 Festival Roblès
+  - ✅👴 Ben mon Cochon !
+  - ✅👴 Le porc vous salue
+  - ✅👴 Toujours Plus Groin
 - Feuerschwanz
 - First Fragment
+- ✅👴 Foals
 - Ghost
+- ✅👴 Gorillaz
+- ✅👴 Guerilla poubelle
+- ✅👴 Helloween
 - Hoobastank
 - [IGORRR](https://www.youtube.com/watch?v=YCqG9B8j-cI)
+- ✅👴 In flames
 - Infected rain
 - Insomnium
+- ✅👴 Iron maiden
 - Jinjer
 - [Joel - Scythelord](https://www.youtube.com/watch?v=1iMtPEPF-oE)
 - ✅ K-flay
+- ✅👴 Karma To Burn
+- ✅👴 Korn
 - Kontrust
-- Korpiklaani
+- ✅👴 Korpiklaani
+- ✅👴 Kreator
 - Kvelertak
+- ✅👴 Lamb of God
+- ✅👴 Les rois de la suede
 - ✅ Life of Boris
+- ✅👴 Linkin park
 - ✅ Little big
 - Lofofora
 - 🤏 Maruv
 - Mass hysteria
+- ✅👴 Massive Attack
 - Maximum the hormone
+- ✅👴 MEGAHERZ
+- ✅👴 Metallica
 - Miss may / Monument colossal
+- ✅👴 Moby
 - Nekrogoblikon
+- ✅👴 Nirvana
 - No one is innocent
+- ✅👴 Nosfell
 - Obscura
 - Omnia
+- ✅👴 Oomph
 - Origin
 - Ost
   - ✅ Age of Empires 2 + extension
@@ -532,34 +576,46 @@ Sites > crunchyroll / otakufr . co
   - ✅ Old Boy
   - ✅ Ori and the Will of the Wisps
   - ✅ Phantasy star online
-  - ✅ Serial Experiments Lain
+  - ✅ Serial experiment Lain - Cyberia Mix
   - ✅ Street Fighter II Turbo
   - ✅ The binding of Isaac
   - ✅ Tropico 1 & 2
   - ✅ Unreal Tournament
   - Vinland saga
   - Wanted
+- ✅👴 Ozzy Osbourne
+- ✅👴 Paramore
 - Parkway drive
+- ✅👴 Placebo
 - Powerwolf
-- Prodigy
+- ✅👴 Prodigy
 - Psykup
 - Queen
-- Rammstein
+- ✅👴 Rammstein
+- ✅👴 Red Hot Chili Peppers
 - Rob zombie
 - Russkaja
 - Sabaton
 - Sceptic flesh
+- ✅👴 Sexy sushi
 - 📌 Shaargot
 - Skald
 - Skalmold
 - Smash it combo
 - Space Of Variations
+- ✅👴 Sum 41
+- ✅👴 Superbus
+- ✅👴 System of a down
+- ✅👴 Tatu
 - The agonist premiers albums
 - The arrs
+- ✅👴 The Dandy Warhols
+- ✅👴 The offspring
 - The pretty reckless
-- The prodigy
 - Till Lindemann
 - Tilopes
+- ✅👴 Tool
+- ✅👴 Trivium
 - Trollfest
 - Ultra vomit
 - Unleash the archers

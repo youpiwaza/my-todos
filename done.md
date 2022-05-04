@@ -2,6 +2,39 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 04/05/22
+
+Process
+
+- Tétrachiée de nouveaux plugins VSCode
+  - ✅ Bookmarks
+  - ✅🧠 changeCase
+    - *Ctrl Shift X* > Choisir
+    - *Ctrl Shift W* > Inverser
+  - ✅ Code spell checker
+  - ✅🧠 "Toggle quotes"
+    - *Ctrl + ²*, curseur après la première de la paire de quotes à changer
+
+Perso
+
+1. ✅ Photos apart bérangère
+2. ✅ Caisse chatte
+3. 💩💩💩⏳ Changement de banque
+   1. 💥⏳ Vérifier clôture encore reportée par l'autre sac a merde < OU PAS LOL 💩
+4. ✅💩 Annuler concert kflay 14 mai > Pas annulable
+5. ✅ Prendre RDV docteur checkup complet
+   1. ✅ RDV pris le mardi 26/04 à 15h
+   2. ✅ RDV Labo jeudi 28/04 à 8h30
+6. Films
+   1. ✅ 3615 pere noel
+
+AE
+
+1. ✅ 13/05/2022 > Facture NDD [MKasza](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpFWLJXknFsqDNKVszJCqqvCpn)
+2. ✅ Déclaration Auto entrepreneur
+   1. ✅ Mars 2022
+   2. ✅ Avril 2022
+
 ## 26/04/22
 
 Perso

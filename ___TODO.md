@@ -19,14 +19,7 @@ Légende :
 
 - Dactylo le midi > [typing study](https://www.typingstudy.com/fr/lesson/3/part/8)
 - Tétrachiée de nouveaux plugins VSCode
-  - Bookmarks
-  - 🚀🧠 changeCase
-    - *Ctrl Shift X* > Choisir
-    - *Ctrl Shift W* > Inverser
-  - Code spell checker
   - TO DO Tree
-  - 🧠 "Toggle quotes"
-    - *Ctrl + ²*, curseur après la première de la paire de quotes à changer
   - polacode > joli print de code
 
 ## 🚀 Priorisation, simple ⏩
@@ -34,64 +27,37 @@ Légende :
 Indiquer ici les *tâches à effectuer en priorité*
 
 - Si besoin de focus, mettre une ou 2 tâches ici.
+- Ne pas tout fourrer ici, *respecter la priorisation*, sinon tout est fait à l'arrache
 
-Perso
+Taf
 
-1. ⏳ Bouchons oreilles demander julie & commander
-   1. thomann
-   2. Si tu veux acheter des supports pour tes guitares profites-en les frais de ports sont un peu cher.
-2. Caisse chatte
-3. Extension garantie PC
-4. Blog groupe metal que j'aime bieng ou pas en concert
-5. Films
-   1. Ciné
-      1. Nick cage
-      2. Dernier Cronenberg
-      3. Everything everywhere all at once
-   2. death of dick long
-6. Peinture Chtulu
-   1. [How to paint Extreme Light Sources - OSL tutorial](https://www.youtube.com/watch?v=c48UiPSBfcg)
-   2. [INDESTRUCTIBLE Gaming Bases - Quick & Easy](https://www.youtube.com/watch?v=tRFfsAG-Yf8)
-   3. Green gold pour le [grand ancien](https://www.youtube.com/watch?v=AgJqjIMd6k8)
-7. ✅ Prendre RDV docteur checkup complet
-   1. ⏳ RDV pris le mardi 26/04 à 15h
-8. ✅ Acheter etiqueteuse [Dymo](https://www.google.com/search?q=Dymo&oq=Dymo&aqs=chrome..69i57.330j0j1&sourceid=chrome&ie=UTF-8)
-   1. ⏳ 26-28/04
-
-AE
-
-1. Migration avant 2023 [google analytics 4](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpFWSCZKSSbnBjmgLtgpFfLWxC)
-2. ⏳ 13/05/2022 > Facture NDD [MKasza](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpFWLJXknFsqDNKVszJCqqvCpn)
-3. Veille
-   1. [Arrêt maladie : les démarches du travailleur indépendant](https://www.ameli.fr/assure/droits-demarches/maladie-accident-hospitalisation/arret-travail-maladie/arret-travail-maladie-independants)
-   2. 💥 CPF [Prise en charge des formations des travailleurs indépendants](https://entreprendre.service-public.fr/vosdroits/F31148)
-   3. [Quand prendre sa retraite ?](https://www.lassuranceretraite.fr/portail-info/home/actif/travailleur-independant/depart-retraite/inde-quand-retraite.html)
+1. 💥 21/05/2021 > Heberg picard > Basculer sur nouveau serveur & annuler
 
 ### Sinon, priorisation classique
 
 1. Tâches récurrentes
 2. Tâches en attente
 3. Tâches critiques
-4. Tâches WIP
-5. Tâches rapides
-6. Autres fichiers TODO
+4. Tâches rapides
+5. Tâches WIP
+6. Autres fichiers TODO classiques (Taf > AE > Perso)
 
 ## ♻️ Tâches récurrentes ♻️
 
 Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel plus tard/exponentiel
 
-- ✅Déplacer les terminés ✅ à chaque début de semaine dans done.md
+- ✅ Déplacer les terminés ✅ à chaque début de semaine dans done.md
 - 💩 Déplacer les TODO 🌱 dans _TODO_shame.md
 - ✅ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ✅ mails, ✅ edt portable, ✅ favoris, ✅ bureau. Si possible description + lien.
 - ✅ Nettoyer le fichier __TODO
   - ✅ Status
-  - ✅ Ce fichier > ### Shame
+  - ✅💥 Ce fichier > ### Shame 💥 Cleaner pour vrai les trucs ou je ne passe jamais
     - ✅ Ranger dans fichiers TODO correspondant
-    - ✅ Prioriser
+      - ✅ Prioriser
 - ✅ Virer ce qui traine
   - ✅ sur le bureau
   - 💩 dans le dossier _shame du bureau
-  - 💩 Lel (local)/Mes documents/_dev/_shame
+  - 💩 Lel ~(local)/_dev/_shame
   - ✅ Vider corbeille
   - ✅ Vider téléchargements
   - ✅ Dans les mails
@@ -99,22 +65,21 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
 - ✅ Déclaration Auto entrepreneur
-  - ✅ Mars 2022
-  - ⏳ Avril 2022
-- ⏳ Vérifier impôts sur espace / Dernière vérif 15/08/2021
-  - ⏳ Perso  / ✅ 19/04/22
-  - ⏳ Pro    / ✅ 19/04/22 (CFE réglé le 17/11/2021)
+  - ⏳ Mai 2022
+- ✅ Vérifier impôts sur espace / Dernière vérif 15/08/2021
+  - ✅ Perso  / ✅ 04/05/22
+  - ✅ Pro    / ✅ 04/05/22 (CFE réglé le 17/11/2021)
 - ✅ Vérifier messages [Ameli](https://assure.ameli.fr/)
-- ✅ Maj locales / Environnement de dev / Dernière maj le 01/06/21
-  - ⏳ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk), `/r` également
+- ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21
+  - ✅ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk), `/r` également
     1. Invite de commande ou Powershell **en admin**
     2. `chkdsk c: /f /r` (et en fonction de vos disques.. && `chkdsk d: /f /r`, etc.)
     3. `>Blah blah besoin de redémarrer O/n` >> `O`
-    4. Redémarrer / Attendre 5 ans et demi sauf si t'as un SSD
+    4. Redémarrer / Attendre 5 ans et demi sauf si t'as un SSD/Nvme
   - ✅ Windaube
     - ✅ Update alakon
-    - ⏳ [.net](https://dotnet.microsoft.com/download) > Runtime
-    - ⏳ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
+    - ✅ [.net](https://dotnet.microsoft.com/download) > Runtime
+    - ✅ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
   - ✅ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
   - ✅ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
     - (Mon ancien MSI) > [Sandisk ultra II](https://kb.sandisk.com/app/answers/detail/a_id/6053/~/ultra-3d-%7C-sandisk-ssd-plus-%28ssd%29-support-information)
@@ -124,11 +89,11 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
   - ✅ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
   - ✅ Logiciels alakon
     - ✅ Ouvrir VScode > Auto update plugins etc.
-    - ~~Filezilla~~ WinSCP, OBS, VLC, ESET, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
-    - ⏳ Powershell [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
+    - ~~Filezilla~~ ✅ WinSCP, ✅ OBS, ✅ VLC, ESET, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
+    - ✅ Powershell [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
       - ( [Doc](https://docs.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) )
     - ✅ Nvidia driver
-  - ⏳ Supprimer les fichiers temporaires
+  - ✅ Supprimer les fichiers temporaires
     - Exec > `temp` // Devrait ouvrir `~c:Windows\Temp`
     - Supprimer tout
   - ✅ WSL
@@ -144,7 +109,7 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
 - ⏳ Maj serveur, script maintenance
   - `98-maintenance.yml` & `sudo apt -y update && sudo apt --fix-broken install && sudo apt -y upgrade && sudo apt -y autoremove` & reboot si besoin
   - Maj Lapie HMAC
-- ✅ Maj budget couple
+- ⏳ Maj budget couple
 - ⏳ Serveur > Maj images
   - Maria DB
   - Nginx
@@ -154,58 +119,95 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
   - ✅ Maj de la base
   - ✅ Maj des applications
   - ⏳ Tous les 6 mois > reset usine
-- ⏳ Tout est Versionné, pas de WIP qui traîne
+- ✅ Compléments alimentaires
+  - ✅ Huile de foie de morue
+  - ✅ Choline Inositol
+  - ✅ Trucs foie/reins
+  - ✅ Ginseng
+  - ✅ Mix vitamine
+  - ✅ Doc > vitamine D tous les 6 mois
+- ✅ Tout est Versionné, pas de WIP qui traîne
 
 ---
 
 ## ⏳ En attente
 
-1. Référencement AE
-   1. [hey](https://www.cominjob.com/candidat/)
-   2. [hoy](https://www.ouiboss.com/)
-   3. [prout](https://www.freelance-informatique.fr/)
+1. ⏳ Bouchons oreilles thomann
+   1. 1 semaine stock + délai livraison
+2. ⏳ Acheter etiqueteuse [Dymo](https://www.google.com/search?q=Dymo&oq=Dymo&aqs=chrome..69i57.330j0j1&sourceid=chrome&ie=UTF-8)
+   1. check en mai/juin ou pas lol
+3. ⏳ Couteaux > acheter guide, pierres++ & cuir
+   1. Libraison 4 & 5 mai
 
-### Taf
+### ⏳🌱 Vérifications sur la longueur
+
+Rieng
+
+## 💥 Tâches critiques
+
+Bug clients majeurs, interruptions de service, etc.
+
+Rieng
+
+## ⚡️ Tâches rapides ✨
+
+Indiquer ici les *tâches en dehors du flux général* (urgences, corrections process, trucs qui perturbent et doivent être fait, tâches ultra rapides, etc.)
+
+Rieng
+
+## 🚧 WIP 🚧
+
+Si travail en cours, indiquer les *notes & liens* ici
+
+Rieng
+
+## 💼 Taf 💼
+
+### Masamune
 
 1. slurp cours [3wa](https://e.3wa.fr/user/profile.php?id=2257)
 2. install-dev-env > docker-compose pour les principales technos : js & phpay
+   1. Nginx + conteneur de gestion de conteneurs
 3. 🔍 [tmux](https://nickjanetakis.com/blog/who-else-wants-to-boost-their-productivity-with-tmux)
 4. 🔍 [keys remap](https://nickjanetakis.com/blog/remap-and-set-global-hotkeys-on-windows-10-with-auto-hotkey)
 
 ---
 
-#### Cryptor
+### Cryptor
+
+⏳💩 Attente paiement avant reprise
 
 🔗 Cf. [Statuts](https://docs.google.com/spreadsheets/d/1nvaJ1uGWcTgfAO7ej4-Bi0ReuN7Xmgou5HzcQ3qqLXo/edit#gid=1341993327)
 
 ---
 
-#### Serveur
+### Serveur
 
-1. Passage à ubuntu 22
-2. Ubuntu 22 sur dockerhub
-3. Lint done : ansible-install-web-server > README.MD
-4. [WP + nginx](https://wordpress.org/support/article/nginx/)
-5. ansible template, au lieu de remplacer variables > [block_start_string](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/template_module.html#parameter-block_start_string)
-6. Ansible convenience
+1. ⏳ Lapie HMAC auto
+2. Passage à ubuntu 22
+3. Ubuntu 22 sur dockerhub
+4. Lint done : ansible-install-web-server > README.MD
+5. [WP + nginx](https://wordpress.org/support/article/nginx/)
+6. ansible template, au lieu de remplacer variables > [block_start_string](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/template_module.html#parameter-block_start_string)
+7. Ansible convenience
     1. Clean templating, variable [deprecated ansible_managed](https://docs.ansible.com/ansible/2.4/intro_configuration.html#ansible-managed)
         1. [?](https://docs.ansible.com/ansible/latest/reference_appendices/config.html#default-managed-str)
     2. [ansible prompt](https://docs.ansible.com/ansible/latest/user_guide/playbooks_prompts.html)
-7. Opti script maintenance
+8. Opti script maintenance
    1. Ajouter maj OMZ ZSH
-8. Installer webmin plutot que grafana & autres
-9. Wordpress dev prod > réutiliser /generated/var files
-10. Faire une grosse repasse sur les index de projet il manque plein de vars
-11. Conteur netdata a la place de grafana
-12. Génération d'un nouveau site OU wp > doc identifiant à la racine (actuellement uniquement dans /generated/)
-13. wp > identifiants > ajouter url wp-admin
-14. BUG: génération des fichiers de sites > prefixe `200-` pas utilisé partout
-15. 🚀 Bind volumes pour les fichiers /www des sites, sur les sftp créés
+9. Installer webmin plutot que grafana & autres
+10. Wordpress dev prod > réutiliser /generated/var files
+11. Faire une grosse repasse sur les index de projet il manque plein de vars
+12. Conteur netdata a la place de grafana
+13. Génération d'un nouveau site OU wp > doc identifiant à la racine (actuellement uniquement dans /generated/)
+14. wp > identifiants > ajouter url wp-admin
+15. BUG: génération des fichiers de sites > prefixe `200-` pas utilisé partout
+16. 🚀 Bind volumes pour les fichiers /www des sites, sur les sftp créés
     1. A la mano voir si ça marche, sinon se pendre
     2. Automatiser
-16. `/home/singed_the_docker_peon_9f3eqk4s9/configs/masamune/hello--masamune--fr` wtf is that
-17. harmoniser builder guy > tout THE_BUiLDER_GUY, idem autres XXX_GUY
-18. Tutum > remplacer par nginx
+17. `/home/singed_the_docker_peon_9f3eqk4s9/configs/masamune/hello--masamune--fr` wtf is that
+18. harmoniser builder guy > tout THE_BUiLDER_GUY, idem autres XXX_GUY
+19. Tutum > remplacer par nginx
     1. Faire tourner déjà ca serait bien, go ctrl + f "curated"
     2. Utiliser vars d'environnement pour refaire un tutum mayzon: image + nom conteneur
     3. Serveur normal & serveur php basique pour les sites non wp
@@ -213,20 +215,20 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
        1. 🔍 [Video configuration](https://www.youtube.com/watch?v=C5kMgshNc6g)
        2. Tune server for [nginx performance](https://www.nginx.com/blog/10-tips-for-10x-application-performance/)
        3. [+1](https://blog.monitis.com/blog/6-best-practices-for-optimizing-your-nginx-performance/)
-19. Bitnami
+20. Bitnami
     1. [Github issues](https://github.com/bitnami/bitnami-docker-mysql/issues/79#issuecomment-545477842) > Variable d'env afin d'augmenter le debug des conteneurs bitnami ! >> raisons explicites sur le problème de boot du conteneur
     2. Gestion notes dans ansible-install-web-server/ansible/203-setup-wordpress-lapie_secret.yml
     3. Testay avec surcharge de conf via config: voir si ca boot avec la bonne conf
     4. Lourder si serveurs web classique stabilité 100%, +1 speed
     5. Activer modules php
     6. Http 2/3
-20. Gestion des mails propre
+21. Gestion des mails propre
     1. Connexion au serveur SMPT du serveur ? cf. utils-emails
     2. [Conteneur postfix ?](https://hub.docker.com/_/postfixadmin)
     3. Ajout SPF/DKIM/DMARC
     4. Maj lapie & nonore
-21. Maj conteneur bitnami/wordpress
-22. Cleaner / Relancer clients actuels
+22. Maj conteneur bitnami/wordpress
+23. Cleaner / Relancer clients actuels
     1. Lapie
        1. Cleaner au niveau du serveur dashed-uri > .com ou .fr
     2. Nonore
@@ -235,7 +237,7 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
        1. Maj ansible-install-web-server/commandes-backup-volumes-a-la-maing_secret.md (dashed notation)
        2. (normalement d'ici la les roles de backups seront générés auto :3)
        3. Backup
-23. Migration serveur
+24. Migration serveur
     1. Lister
        1. Technos
        2. 📌📌📌📌📌📌📌 Fichiers
@@ -277,7 +279,7 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
 
 ---
 
-#### Lapie > Finaliser
+### Lapie > Finaliser
 
 1. Cleaner github dedié > client/url-site/
 2. Lapie > Ranger chartes graphiques & lapie-web
@@ -293,8 +295,17 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
 
 ### Auto-entrepreneur
 
-1. Renvoi doc AE décla 0€ années passées [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgxmXKmkCGqSQkpPRbBrSKWcsbCpr)
-2. Maj document de base à partir de celui de PB Modelisme
+1. Migration avant 2023 [google analytics 4](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpFWSCZKSSbnBjmgLtgpFfLWxC)
+2. Veille
+   1. [Arrêt maladie : les démarches du travailleur indépendant](https://www.ameli.fr/assure/droits-demarches/maladie-accident-hospitalisation/arret-travail-maladie/arret-travail-maladie-independants)
+   2. 💥 CPF [Prise en charge des formations des travailleurs indépendants](https://entreprendre.service-public.fr/vosdroits/F31148)
+   3. [Quand prendre sa retraite ?](https://www.lassuranceretraite.fr/portail-info/home/actif/travailleur-independant/depart-retraite/inde-quand-retraite.html)
+3. Référencement AE
+   1. [hey](https://www.cominjob.com/candidat/)
+   2. [hoy](https://www.ouiboss.com/)
+   3. [prout](https://www.freelance-informatique.fr/)
+4. Renvoi doc AE décla 0€ années passées [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgxmXKmkCGqSQkpPRbBrSKWcsbCpr)
+5. Maj document de base à partir de celui de PB Modelisme
    1. Cdc
    2. Devis
    3. Factures
@@ -305,51 +316,43 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
 
 ### Trucs **persos**
 
-1. ⏳ Changement de banque
-   16. 💥⏳ Vérifier clôture encore reportée par l'autre sac a merde
+1. Trouver logiciel budget couple
 2. 🚀 Musiques taf & portable
-3. 💥 Annuler concert kflay 14 mai
-4. Résa concert si possible + trains
-   1. concert 24/04 dark tranquility **x2**
-   2. concert 30/04 psykup
-   3. concert 10/06 maximum the hormone
-5. [Patinoire](https://mail.google.com/mail/u/0/#inbox/FMfcgzGmvLQjSdlzHqNgpnCFgHjXWZlW)
-6. Pourrir la bred sur les réseaux
-7. Retrouver Permis conduire
-8. DL vidéos WTF youtoob
-9. [Changement propriétaire chatte](https://mail.google.com/mail/u/0/#inbox/FMfcgzGllCcNJCZHqcjqlkNJhlNFzwZC)
-10. Faire article réparation/optimisation de pc
+3. ✅ concert 10/06 maximum the hormone
+      1. 🚀 trains, et utiliser [reductions](https://mail.google.com/mail/u/0/#inbox/KtbxLxgZZVNcfFNSbtrStGMpWXmfCKPsJB)
+4. Blog groupe metal que j'aime bieng ou pas en concert
+5. Films
+   1. Ciné
+      1. Nick cage
+      2. Dernier Cronenberg
+      3. Everything everywhere all at once
+   2. death of dick long
+6. Export photos tel & maj drive
+7. Peinture Chtulu
+    1. [How to paint Extreme Light Sources - OSL tutorial](https://www.youtube.com/watch?v=c48UiPSBfcg)
+    2. [INDESTRUCTIBLE Gaming Bases - Quick & Easy](https://www.youtube.com/watch?v=tRFfsAG-Yf8)
+    3. Green gold pour le [grand ancien](https://www.youtube.com/watch?v=AgJqjIMd6k8)
+8. [Patinoire](https://mail.google.com/mail/u/0/#inbox/FMfcgzGmvLQjSdlzHqNgpnCFgHjXWZlW)
+9. Pourrir la bred sur les réseaux
+10. Retrouver Permis conduire
+11. DL vidéos WTF youtoob
+12. [Changement propriétaire chatte](https://mail.google.com/mail/u/0/#inbox/FMfcgzGllCcNJCZHqcjqlkNJhlNFzwZC)
+13. Faire article réparation/optimisation de pc
     1. [hey](https://www.drivereasy.com/knowledge/100-disk-usage-windows-10-fixed/)
     2. [hoy](https://www.makeuseof.com/tips-fix-100-disk-usage-improve-windows-performance/)
-11. Faire article maintenance PC
-12. Faire article découverte ansible
-13. double authentification OVH manager
-14. Mettre à jour CV !
-15. Rdv médecins
+14. Faire article maintenance PC
+15. Faire article découverte ansible
+16. double authentification OVH manager
+17. Mettre à jour CV !
+18. Rdv médecins
     1. Ophtalmo
     2. Cardiolog0ue
     3. Oreillologiste
-16. CPF > Langage des signes / Amazon AWS / Jenkins git hooks
-17. !site perso > cours particuliers code > 50€ heure (+, compter impôts)
-18. [Boeuf ethique](https://www.leboeufethique.fr/)
-19. Portable > reset usine
-20. Saut en parachute reims BA prunay
-
-### ⏳🌱 Vérifications sur la longueur
-
-- 🌱 21/05/2021 > Heberg picard > Basculer sur nouveau serveur & annuler
-
-## 💥 Tâches critiques
-
-Bug clients majeurs, interruptions de service, etc.
-
-## 🚧 WIP 🚧
-
-Si travail en cours, indiquer *les notes* ici
-
-## ⚡️ Tâches rapides ✨
-
-Indiquer ici les *tâches en dehors du flux général* (urgences, corrections process, trucs qui perturbent et doivent être fait, tâches ultra rapides, etc.)
+19. CPF > Langage des signes / Amazon AWS / Jenkins git hooks
+20. !site perso > cours particuliers code > 50€ heure (+, compter impôts)
+21. [Boeuf ethique](https://www.leboeufethique.fr/)
+22. Portable > reset usine
+23. Saut en parachute reims BA prunay
 
 ## 💩 Shame
 
