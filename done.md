@@ -2,6 +2,13 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 06/05/22
+
+Serveur
+
+1. ✅ Récupérer les données de l'ancien pc & mieux versionner
+2. ✅ Réinstaller la connexion ssh + tests
+
 ## 04/05/22
 
 Process
@@ -370,7 +377,7 @@ Trucs **serveur**
                      4. Note max:
                         1. Virtuellement c'est bon mais ça ne fonctionne pas (force command KO dans fichier autre que sshd_config ? wat)
                         2. ✅ Alternative: Utilisation de restrictions de groupe & pattern %u
-                  3. ✅ Tester dans /home/docker_peon/
+                  3. ✅ Tester dans /home/the_docker_peon/
                   4. ✅ Ranger & Traduire notes
                   5. ✅ Cleaner noms groupes & arbo
             7. ✅ Noter commande pour supprimer user et re-tester script d'ajout
@@ -389,7 +396,7 @@ Trucs **serveur**
          6. ✅ Cleaner
             1. ✅ user bob + /home
             2. ✅ la clé ssh de bob du serveur
-            3. ✅ les tests /docker_peon/clients/_website_machin
+            3. ✅ les tests /the_docker_peon/clients/_website_machin
          7. ✅ Génération des identifiants utilisateurs (doc .md pour client)
             1. Possibilité de se baser sur
                1. ansible\roles\users\tasks\generate-users-manual-commands.yml
@@ -679,10 +686,10 @@ Serveur
          2. ✅ Contenu de l'archive propre : 1 seul dossier bien nommé
          3. ✅ Bien le ranger sur l'hôte (emplacement à choisir + maj ansible-install-web-server/nomenclature-and-folder-tree.md)
             1. Les volumes sont liés aux conteneurs, mais contenu sensible (!DOCKER_PEON) > dans le dossier de DOCKER_GUY/
-            2. Arbo logique ek details `DOCKER_GUY/backups/volumes/clients/LE_CLIENT/SITE_COM/ANNEE/nom-volume---backup---$(date +%Y-%m-%d--%H.%M.%S).tar`
+            2. Arbo logique ek details `THE_DOCKER_GUY/backups/volumes/clients/LE_CLIENT/SITE_COM/ANNEE/nom-volume---backup---$(date +%Y-%m-%d--%H.%M.%S).tar`
             3. Mais, les noms de volumes ont de l'info, ex : `client---dev--masamune-fr---wordpress--db`, mais les sauvegardes seront récurrentes (vite le bordel si beaucoup de fichiers)
-            4. `DOCKER_GUY/backups/volumes/ANNEE/TYPE/LE_CLIENT/SITE_COM/nom-volume---backup---$(date +%Y-%m-%d--%Hh%Mm%Ss).tar`
-            5. Eg. `DOCKER_GUY/backups/volumes/2021/clients/masamune/dev--masamune--fr/client---dev--masamune--fr---wordpress--db---backup---2021-05-27--11h23m57s.tar`
+            4. `THE_DOCKER_GUY/backups/volumes/ANNEE/TYPE/LE_CLIENT/SITE_COM/nom-volume---backup---$(date +%Y-%m-%d--%Hh%Mm%Ss).tar`
+            5. Eg. `THE_DOCKER_GUY/backups/volumes/2021/clients/masamune/dev--masamune--fr/client---dev--masamune--fr---wordpress--db---backup---2021-05-27--11h23m57s.tar`
          4. ✅ Documenter
             1. ✅ Fichier de commandes usuelles, pour sauvegarde manuelle
             2. ✅ Arborescence du serveur

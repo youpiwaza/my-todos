@@ -1,226 +1,74 @@
-# Serveur
+# Certaines tâches à ranger concernant le serveur / les sites vanilla
 
-1. Note : Vu que ça fait un bail, peut être se repasser les vidéos recos en fin de ce fichier.
-2. Faire un README sur le REX d'avoir le serveur depuis presque 1 an
+## Wordpress setup > Manual steps
 
-X. ✅🐛 Traefik doesn't restart on host reboot
-
-1. ✅ Faire une repasse sur les questions du début / notes-installation-serveur-web-docker/docs/08-Questions.md
-2. Wordpress / Travail préliminaire
-   1. ✅ Tests en local
-      1. 📌 Choix: bitnami ATM (tester compatibilité avec custom user)
-   2. Tests en ligne
-      1. Mettre en place un wordpress de test (DNS test-wordpress.masamune.fr déjà en place)
-         1. Faire tourner la stack
-            1. ✅ docker run
-            2. ✅ docker-compose
-            3. ✅ docker-stack
-         2. ✅ Ajouter les labels traefik
-         3. ✅ Gestion des logs
-      2. Curated/security
-         1. Mine
-            1. ✅ Usual security stuff
-            2. 🌱 Custom user ? (bitnami already done on 1001)
-            3. ✅ Replicas
-               1. Check for favicon 500 ; check traefik logs to make sure 0 error 500 (related to replicas ?)
-                  1. Ok w. only 1 mariadb
-            4. ✅ Healtcheck
-            5. ✅ Big checkup
-               1. ✅ Ajout article/page
-               2. ✅ Upload fichier
-               3. ✅ Installation/activation/test plugin
-         2. ✅ bitnamis
-            1. ✅ [~Optimize WordPress](https://docs.bitnami.com/bch/apps/wordpress/troubleshooting/optimize-bitnami-wordpress/)
-               1. Activate W3 Total Cache (might need to chmod wp-config.php 660 to apply settings, then back to 440)
-               2. [Pagespeed verifications](https://developers.google.com/speed/pagespeed/insights/?hl=fr&url=https%3A%2F%2Ftest-wordpress.masamune.fr%2F)
-                  1. Avant opti: 1st: 500-1500ms, Suivants: 240ms. Pagespeed 93, ~indice de vitesse 2.8s
-                  2. Après opti: 1st: 460-480ms, suivants: 150-170. Pagespeed 99, ~indice de vitesse 1.5s
-               3. Note: police not embedded (theme wp 2020) qui ralentissent, il existe des articles dédiés pour retirer leurs chargements..
-                  1. ~~Plugin OMGF / Optimize My Google Font > Télécharge en local et fout en cache~~
-                     1. Nouvelle technos font vars ou chp > [besoin d'être viré](https://ryandaniels.ca/blog/set-up-customize-wordpress-twenty-twenty/#Delete-embedded-fonts)
-                  2. Après opti: 1st: 420-430ms, suivants: 180. Pagespeed 100, ~indice de vitesse 1.3s
-               4. Voir pour les plugins qui passent le site en statique
-            2. ✅  [Secure WordPress](https://docs.bitnami.com/bch/apps/wordpress/troubleshooting/enforce-security/)
-               1. Install WordFence security plugin x') > Scan > Start scan
-         3. ✅ WP containers recommandations
-            1. 🔍 Docs
-               1. ✅ [DH wordpress official README](https://hub.docker.com/_/wordpress/)
-               2. ✅ [DH bitnami WP README](https://hub.docker.com/r/bitnami/wordpress/)
-               3. ✅ [DH bitnami mariadb README](https://hub.docker.com/r/bitnami/mariadb/)
-            2. ✅ All variables + Reorga
-            3. ✅ Custom values tests + recos
-            4. 💩🌱 Use docker secrets for sensitive stuff
-               1. Bitnami doesn't support (yet) loading sensitive vars from *_FILE environnement variables (in contrary to official WP image)
-            5. ✅ Volumes > Labels
-            6. ✅ Big checkup
-         4. ✅ WordPress / List all manual setup steps
-         5. 🔍✅ Check [WP-CLI](https://make.wordpress.org/cli/handbook/config/), built-in bitnami's wp image
-         6. ✅ Ansible random strings generations
-            1. 🔍 Docs
-               1. ✅🌱 [Ansible vault](https://docs.ansible.com/ansible/latest/user_guide/vault.html)
-               2. ✅ [Ansible lookup password](https://docs.ansible.com/ansible/latest/plugins/lookup/password.html)
-               3. ✅💚 [SO > Use case](https://stackoverflow.com/questions/46732703/how-to-generate-single-reusable-random-password-with-ansible)
-            2. ✅ Test / server-related-tutorials/02-ansible/14-password-generation
-         7. 💩🌱 Github automation test
-            1. 🌱 Create private project
-            2. ~✅ Upload vars files through a generated README.md
-         8. 💥💥💥🚀🌱 Volumes backup
-            1. 🌱 Make zip w. site prefix & timestamp
-            2. 🌱 Upload to backup server
-            3. 🌱 Load zip
-      3. 🌱 Nomenclature client
-         1. ✅ (cf. wp nonore)
-         2. ✅ Variables ansible (bases + concaténations + casse)
-         3. 🌱 Backup archives names (generated timestamp)
-      4. Ansible > Tests & template playbook
-         1. WordPress setup
-            1. ✅ LOCAL / Gestion des variables à injecter
-               1. ✅ Variables requises
-               2. ✅ Variables générées
-               3. ✅ Générer un fichier README.md recap
-            2. ✅ LOCAL / Génération du wordpress-stack.yml à l'aide des variables
-            3. ✅ BUILDER_GUY / Upload du wordpress-stack.yml sur l'host
-            4. DOCKER_GUY
-               1. ✅ Variables management > Move vars: to a vars_files, to allow multiple playbooks access
-                  1. ✅ Prefix with client stuff, to allow storage of multiple vars_files
-               2. ✅ Volumes creation
-               3. ✅ Lancement de la stack
-               4. 🚀 Attendre publication de la stack (curl ?)
-               5. Clean envoi email SMTP > [doc > SMTP Configuration](https://hub.docker.com/r/bitnami/wordpress/)
-         2. Manual steps
-            1. DNS
-               1. Ajouter A
-               2. Ajouter MX > SPF/DKIM/DMARC
-            2. Copier les fichiers générés + pw sur un repo privé avec arbo
-            3. docker exec WP-CLI
-               1. Site language
-               2. Manage plugins
-                  1. Supprimer
-                     1. hello-dolly
-                     2. Bitnami Production Console Helper
-                     3. Jetpack
-                  2. Plugins
-                     1. 💩 VERIFIER QUE CA RAJOUTE PAS DE LA MERDE DANS LA CONSOLE
-                     2. Activer les plugins déjà présents
-                        1. Akismet Anti-Spam
-                           1. Besoin de création d'un compte
-                        2. All in One SEO Pack
-                           1. Régler le schéma (Infos fournies moteurs de recherche)
-                        3. 💩 AMP / "Accelerated Mobile Pages"
-                           1. Passer en mode standard
-                           2. 📌 Flingue pagespeed > Confirmé ça explose les résultats 💩 (100 > 65 en mobile)
-                        4. MonsterInsights - Google Analytics pour WordPress
-                           1. Besoin d'un compte GA et surement d'autres manip
-                        5. Simple Tags
-                        6. W3 Total Cache
-                           1. Besoin de modifier wp-config.php ! (fait avec docker run alpine /bin/ash), cf. fin de  ce fichier
-                           2. Performances > Paramètres généraux > Activer tous les systèmes de cache nécessaires (! CDN & Reverse proxy & Tracking)
-                              1. [Recos](https://onlinemediamasters.com/w3-total-cache-settings/)
-                              2. Ne pas mettre le lazy loading, il déconne
-                              3. Performances > Minifier > JS > Defer (plutôt que async)
-                           3. Performances > Mise en cache objet > Activer pour wp-admin/
-                           4. Les règles de caches sont ~KO, a revoir
-                           5. Besoin de repasser sur chaque putain de catégorie > Faire une fois & exporter, puis importer nouvelles install
-                     3. Installer les plugins requis
-                        1. Check Email
-                           1. Vérifier le bon envoi des emails depuis WP
-                        2. (Optimisation des images, si possible WEBP)
-                           1. ShortPixel Image Optimizer
-                              1. Besoin d'inscription et clé API
-                              2. Seems ~OK, mais limité par mois (100 credits images en tout, 1 image = 4-5 crédits avec miniatures )
-                        3. Heartbeat Control
-                           1. Disable all
-                        4. Wordfence security plugin
-                           1. Wordfence > Scan > Start new scan > tout goude
-                        5. Html sitemaps / Simple Sitemap – Create a Responsive HTML Sitemap
-                        6. RGPD
-                     4. MAJ tous les plugins
-               3. Utilisateurs > Votre profil > Prénom Nom
-               4. Réglages > Général > Langue > Français
-               5. Create clients' admin redactors
-                  1. Manage Admin display (remove menus theme/plugins, etc.)
-               6. Supprimer page et articles d'exemple
-               7. Create secondary pages
-                  1. Mentions légales
-                  2. Crédits
-                  3. Sitemap
-                  4. Politique de confidentialité, [exemple WP](https://dev.champagne-didier-lapie.com/wp-admin/privacy-policy-guide.php)
-                  5. Boite à outils (liste balises pour tester rendu)
-               8. Create secondary menu
-                  1. Affect secondary pages
-               9. ~~Réglages > Permaliens~~
-               10. Outils > Santé du site [ex](https://dev.champagne-didier-lapie.com/wp-admin/site-health.php)
-                   1. Supprimer les thèmes inutiles
-                   2. MAJ thème utilisé
-               11. Recos pagespeed [ex](https://developers.google.com/speed/pagespeed/insights/?hl=fr&url=https%3A%2F%2Fdev.champagne-didier-lapie.com%2F)
-                   1. Trop rien a faire une fois AMP & W3 Total Cache activés ET configurés
-               12. Recos Slow admins
-                   1. Heartbeat Control
-               13. Virer/Opti police alakon theme
-               14. Virer footer "propulsé par WordPress"
-3. 💥💥💥Tâche ponctuelle clean logs (en attendant automatisation > traefik.log > 200514-traefik.log)
-4. Mettre en place un conteneur SFTP ?
-5. Mettre en place un conteneur Accès bdd ?
-6. Veille securité
-   1. [Docker Production Best Practices from Bret Fisher at DockerCon](https://www.youtube.com/watch?v=V4f_sHTzvCI)
-   2. [Container security free pdf](http://containersecurity.tech/)
-7. Installation du Monitoring
-   1. 🔍 Docs
-      - [Monitoring, the Prometheus Way](https://www.youtube.com/watch?v=PDxcEzu62jk)
-      - [Docker swarm rocks > monitoring w. swarprom](https://dockerswarm.rocks/swarmprom/)
-        - [Docker / Prometheus setup](https://docs.docker.com/config/daemon/prometheus/)
-          - Traefik config
-            - [Official doc](https://docs.traefik.io/observability/metrics/prometheus/)
-            - [Example](https://community.containo.us/t/502-bad-gateway-solved/2947) >
-            - "--metrics.prometheus=true"
-            - "--entryPoints.metrics.address=:8082"
-            - "--metrics.prometheus.entryPoint=metrics"
-            - "--metrics.prometheus.buckets=0.1,0.3,1.2,5.0"
-        - [Swarmprom - Prometheus Monitoring for Docker Swarm](https://www.weave.works/blog/swarmprom-prometheus-monitoring-for-docker-swarm)
-   2. UI pour afficher les logs docker de chaque service (~eq datadog)
-   3. Swarm WebUi Portainer
-      1. [doc](https://portainer.readthedocs.io/en/stable/deployment.html)
-      2. [DS rocks](https://dockerswarm.rocks/portainer/)
-
-128> Docker certification [175€](https://success.docker.com/certification)
-
-## Priorisation, détails tâche courante
-
----
-
-- cf. [Bret F / Taking Docker to Production: What You Need to Know and Decide](https://youtu.be/6jT83lT6TU8?t=781)
-  - Images tags > fixes
-  - Éviter les fichiers de configuration, préférer les variables d'environnement avec des valeurs par défaut
-  - DockerFile ~specific
-    - Si build avec apt > version en variables d'environnement (ex: NGINX_VERSION: '1.12')
-    - Overload default vars & conf files with default values through ENV vars
-      - *Éviter les modifications non souhaitées lors des mises à jour*
-      - MYSQL_LOGSIZE: 512M
-      - MYSQL_CONFIG: /etc/mysql/mysqld.cnf
-- [Healthcheck++](https://blog.sixeyed.com/docker-healthchecks-why-not-to-use-curl-or-iwr/)
-  - Healthcheck sur traefik proxy container, stat un fichier de conf (voir lequel via D exec bash)
-- Optimiser docker container ls, cf. [D con 17](https://youtu.be/1vgi51f0tCk?t=227) & [doc](https://docs.docker.com/engine/reference/commandline/ps/#formatting).
-  - Possibilité de le balancer dans D daemon.json
-
-## Tests
-
-- Optimize DC files with blocks templates, remove redundancy, cf. [docker con 19](https://youtu.be/woBI466WMR8?t=481).
-- Service > Docker prune toutes les heures, cf. [docker con 19](https://youtu.be/woBI466WMR8?t=209).
-- Check logging driver : local
-  - Update docker daemon.json, cf. [D con 19](https://youtu.be/woBI466WMR8?t=537).
-- Prevent network collisions > D daemon default adress pool, , cf. [D con 19](https://youtu.be/woBI466WMR8?t=657).
-- Ranger: recap [recos sécurité D con 17](https://youtu.be/1vgi51f0tCk?t=1671).
-- Ranger: Docker w GUI ! [D con 17](https://youtu.be/1vgi51f0tCk?t=2117).
-  - Article dédié[Docker Containers on the Desktop](https://blog.jessfraz.com/post/docker-containers-on-the-desktop/)
-- Veille, mauvaises pratiques docker : [12 Fractured Apps](https://medium.com/@kelseyhightower/12-fractured-apps-1080c73d481c)
-- ~Docker utils : [gosu](https://github.com/tianon/gosu)
-
-CLEANER: Liste vidéos docker con D captains tips and tricks 16 - 20
-
-- [17](https://youtu.be/1vgi51f0tCk?t=227)
-- ~~[18 europe](https://www.youtube.com/watch?v=fdB31LScQzY)~~ doublon
-- [19](https://youtu.be/woBI466WMR8?t=657)
-
-## Shame
-
-- Mails SPF DKIM DMARC
+1. DNS
+   1. Ajouter A
+   2. Ajouter MX > SPF/DKIM/DMARC
+2. Copier les fichiers générés + pw sur un repo privé avec arbo
+3. docker exec WP-CLI
+4. Site language
+5. Manage plugins
+   1. Supprimer
+      1. hello-dolly
+      2. Bitnami Production Console Helper
+      3. Jetpack
+   2. Plugins
+      1. 💩 VERIFIER QUE CA RAJOUTE PAS DE LA MERDE DANS LA CONSOLE
+      2. Activer les plugins déjà présents
+         1. Akismet Anti-Spam
+            1. Besoin de création d'un compte
+         2. All in One SEO Pack
+            1. Régler le schéma (Infos fournies moteurs de recherche)
+         3. 💩 AMP / "Accelerated Mobile Pages"
+            1. Passer en mode standard
+            2. 📌 Flingue pagespeed > Confirmé ça explose les résultats 💩 (100 > 65 en mobile)
+         4. MonsterInsights - Google Analytics pour WordPress
+            1. Besoin d'un compte GA et surement d'autres manip
+         5. Simple Tags
+         6. W3 Total Cache
+            1. Besoin de modifier wp-config.php ! (fait avec docker run alpine /bin/ash), cf. fin de  ce fichier
+            2. Performances > Paramètres généraux > Activer tous les systèmes de cache nécessaires (! CDN & Reverse proxy & Tracking)
+               1. [Recos](https://onlinemediamasters.com/w3-total-cache-settings/)
+               2. Ne pas mettre le lazy loading, il déconne
+               3. Performances > Minifier > JS > Defer (plutôt que async)
+            3. Performances > Mise en cache objet > Activer pour wp-admin/
+            4. Les règles de caches sont ~KO, a revoir
+            5. Besoin de repasser sur chaque putain de catégorie > Faire une fois & exporter, puis importer nouvelles install
+      3. Installer les plugins requis
+         1. Check Email
+            1. Vérifier le bon envoi des emails depuis WP
+         2. (Optimisation des images, si possible WEBP)
+            1. ShortPixel Image Optimizer
+               1. Besoin d'inscription et clé API
+               2. Seems ~OK, mais limité par mois (100 credits images en tout, 1 image = 4-5 crédits avec miniatures )
+         3. Heartbeat Control
+            1. Disable all
+         4. Wordfence security plugin
+            1. Wordfence > Scan > Start new scan > tout goude
+         5. Html sitemaps / Simple Sitemap – Create a Responsive HTML Sitemap
+         6. RGPD
+      4. MAJ tous les plugins
+6. Utilisateurs > Votre profil > Prénom Nom
+7. Réglages > Général > Langue > Français
+8. Create clients' admin redactors
+   1. Manage Admin display (remove menus theme/plugins, etc.)
+9. Supprimer page et articles d'exemple
+10. Create secondary pages
+    1. Mentions légales
+    2. Crédits
+    3. Sitemap
+    4. Politique de confidentialité, [exemple WP](https://dev.champagne-didier-lapie.com/wp-admin/privacy-policy-guide.php)
+    5. Boite à outils (liste balises pour tester rendu)
+11. Create secondary menu
+    1. Affect secondary pages
+12. ~~Réglages > Permaliens~~
+13. Outils > Santé du site [ex](https://dev.champagne-didier-lapie.com/wp-admin/site-health.php)
+     1. Supprimer les thèmes inutiles
+     2. MAJ thème utilisé
+14. Recos pagespeed [ex](https://developers.google.com/speed/pagespeed/insights/?hl=fr&url=https%3A%2F%2Fdev.champagne-didier-lapie.com%2F)
+     1. Trop rien a faire une fois AMP & W3 Total Cache activés ET configurés
+15. Recos Slow admins
+     1. Heartbeat Control
+16. Virer/Opti police alakon theme
+17. Virer footer "propulsé par WordPress"
