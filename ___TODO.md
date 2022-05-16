@@ -29,9 +29,21 @@ Indiquer ici les *tâches à effectuer en priorité*
 - Si besoin de focus, mettre une ou 2 tâches ici.
 - Ne pas tout fourrer ici, *respecter la priorisation*, sinon tout est fait à l'arrache
 
+Perso
+
+1. Faire la caisse de miaou²
+2. Régularisation électricité
+3. Orga anniv pougnoutte
+   1. Redemander date a pougnoutte
+   2. Demander contact & liste invités
+   3. Demander si logement déjà vu
+   4. Voir pour cagnotte permis moto
+4. Extension de [garantie pc](https://www.dell.com/support/incidents-online/fr-fr/email/extend-warranty)
+
 Taf
 
-1. 💥 21/05/2021 > Heberg picard > Basculer sur nouveau serveur & annuler
+1. AE > Devis > Clauses rétractation si non payé
+2. 💥 21/05/2021 > Heberg picard > Basculer sur nouveau serveur & annuler
 
 ### Sinon, priorisation classique
 
@@ -46,57 +58,55 @@ Taf
 
 Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel plus tard/exponentiel
 
-- ⏳ Déplacer les terminés ✅ à chaque début de semaine dans done.md
+- ✅ Déplacer les terminés ✅ à chaque début de semaine dans done.md
 - 💩 Déplacer les TODO 🌱 dans _TODO_shame.md
-- ⏳ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ⏳ mails, ⏳ edt portable, ⏳ favoris, ⏳ bureau. Si possible description + lien.
-- ⏳ Nettoyer le fichier __TODO
-  - ⏳ Status
-  - ⏳💥 Ce fichier > ### Shame 💥 Cleaner pour vrai les trucs ou je ne passe jamais
-    - ⏳ Ranger dans fichiers TODO correspondant
-      - ⏳ Prioriser
-- ⏳ Virer ce qui traine
-  - ⏳ sur le bureau
+- ✅ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ✅ mails, ✅ edt portable, ✅ favoris, ✅ bureau. Si possible description + lien.
+- ✅ Nettoyer le fichier __TODO
+  - ✅ Status
+  - ✅💥 Ce fichier > ### Shame 💥 Cleaner pour vrai les trucs ou je ne passe jamais
+    - ✅ Ranger dans fichiers TODO correspondant
+      - ✅ Prioriser
+- ✅ Virer ce qui traine
+  - ✅ sur le bureau
   - 💩 dans le dossier _shame du bureau
   - 💩 Lel ~(local)/_dev/_shame
-  - ⏳ Vider corbeille
-  - ⏳ Vider téléchargements
-  - ⏳ Dans les mails
-- ⏳ Déplacer veille onglets dans TODO_veille
+  - ✅ Vider corbeille
+  - ✅ Vider téléchargements
+  - ✅ Dans les mails
+- ✅ Déplacer veille onglets dans TODO_veille
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
-- ⏳ Déclaration Auto entrepreneur
+- ✅ Déclaration Auto entrepreneur
   - ⏳ Mai 2022
-- ⏳ Vérifier impôts sur espace / Dernière vérif 15/08/2021
-  - ⏳ Perso  / ✅ 04/05/22
-  - ⏳ Pro    / ✅ 04/05/22 (CFE réglé le 17/11/2021)
-- ⏳ Vérifier messages [Ameli](https://assure.ameli.fr/)
+- ✅ Vérifier impôts sur espace / Dernière vérif 15/08/2021
+  - ✅ Perso  / ✅ 16/05/22
+  - ✅ Pro    / ✅ 16/05/22 (CFE réglé le 17/11/2021)
+- ✅ Vérifier messages [Ameli](https://assure.ameli.fr/)
 - ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21
-  - ⏳ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk), `/r` également
+  - ⏩ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk), `/r` également
     1. Invite de commande ou Powershell **en admin**
     2. `chkdsk c: /f /r` (et en fonction de vos disques.. && `chkdsk d: /f /r`, etc.)
     3. `>Blah blah besoin de redémarrer O/n` >> `O`
     4. Redémarrer / Attendre 5 ans et demi sauf si t'as un SSD/Nvme
-  - ⏳ Windaube
-    - ⏳ Update alakon
-    - ⏳ [.net](https://dotnet.microsoft.com/download) > Runtime
-    - ⏳ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
-  - ⏳ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
-  - ⏳ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
-    - (Mon ancien MSI) > [Sandisk ultra II](https://kb.sandisk.com/app/answers/detail/a_id/6053/~/ultra-3d-%7C-sandisk-ssd-plus-%28ssd%29-support-information)
-      - Lancer (Sandisk) "Dashboard" / Firmware update automatique, et il préveitn avant. Nice
-    - ⏳ Dell support assist
-    - ⏳ Alienware update
-  - ⏳ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
-  - ⏳ Logiciels alakon
-    - ⏳ Ouvrir VScode > Auto update plugins etc.
-    - ~~Filezilla~~ ⏳ WinSCP, ⏳ OBS, ⏳ VLC, ESET, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
-    - ⏳ Powershell [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
+  - ✅ Windaube
+    - ✅ Update alakon
+    - ✅ [.net](https://dotnet.microsoft.com/download) > Runtime
+    - ✅ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
+  - ✅ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
+  - ✅ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
+    - ✅ Dell support assist
+    - ✅ Alienware update
+  - ✅ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
+  - ✅ Logiciels alakon
+    - ✅ Ouvrir VScode > Auto update plugins etc.
+    - ~~Filezilla~~ ✅ WinSCP, ✅ OBS, ✅ VLC, ESET, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
+    - ✅ Powershell [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
       - ( [Doc](https://docs.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) )
-    - ⏳ Nvidia driver
-  - ⏳ Supprimer les fichiers temporaires
+    - ✅ Nvidia driver
+  - ✅ Supprimer les fichiers temporaires
     - Exec > `temp` // Devrait ouvrir `~c:Windows\Temp`
-    - Supprimer tout
-  - ⏳ WSL
+    - Supprimer tout, Ignorer ceux utilisés
+  - ✅ WSL
     - Version Ubuntu
       - Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
     - Packages & terminal
@@ -126,16 +136,13 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
   - ✅ Ginseng
   - ✅ Mix vitamine
   - ✅ Doc > vitamine D tous les 6 mois
-- ⏳ Tout est Versionné, pas de WIP qui traîne
+- ✅ Tout est Versionné, pas de WIP qui traîne
 
 ---
 
 ## ⏳ En attente
 
-1. ✅ Bouchons oreilles thomann
-2. ✅ Acheter etiqueteuse [Dymo](https://www.google.com/search?q=Dymo&oq=Dymo&aqs=chrome..69i57.330j0j1&sourceid=chrome&ie=UTF-8)
-3. ✅ Couteaux > acheter guide, pierres++ & cuir
-   1. ✅ Livraison 4 & 5 mai
+Rieng
 
 ### ⏳🌱 Vérifications sur la longueur
 
@@ -236,12 +243,13 @@ Rieng
 #### Cleaner avant de poursuivre le projet
 
 1. Tester Nginx + WordPress, sans bitnami, [cf.](https://wordpress.org/support/article/nginx/)
-2. ansible template, au lieu de remplacer variables > [block_start_string](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/template_module.html#parameter-block_start_string)
-3. Installer webmin ou **netdata** plutot que grafana & autres
+2. Voir pour ajouter REDIS > meilleures perfs si grosses données ? existe en image docker
+3. ansible template, au lieu de remplacer variables > [block_start_string](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/template_module.html#parameter-block_start_string)
+4. Installer webmin ou **netdata** plutot que grafana & autres
     1. Tester en local
-4. Opti script maintenance
+5. Opti script maintenance
     1. Ajouter maj OMZ ZSH
-5. Prévoir dev & prod > 1 seul script mais url change, même users & pass
+6. Prévoir dev & prod > 1 seul script mais url change, même users & pass
     1. Réutiliser `/generated/vars` files ? (WP)
     2. Utiliser docker-compose.override.yml ? [Bonnes pratiques docker/compose](https://nickjanetakis.com/blog/best-practices-around-production-ready-web-apps-with-docker-compose)
        1. Variables d'environnement dans DC
@@ -249,13 +257,13 @@ Rieng
     4. Gestion dev/prod : 1 seul fichier
     5. ENV vars ++
     6. Volumes en fonction de l'environnement ¤_¤
-6. Faire une grosse repasse sur les index de projet il manque plein de vars
+7. Faire une grosse repasse sur les index de projet il manque plein de vars
    1. Note max du turfu : inspecter les fichiers générés (.md & .yml) & vérifier les variables, interprétées ou non
    2. BUG: génération des fichiers de sites > prefixe `200-` pas utilisé partout
-7. wp > identifiants > ajouter url wp-admin
-8. `/home/singed_the_docker_peon_9f3eqk4s9/configs/masamune/hello--masamune--fr` wtf is that
-9. Process récurrent de Maj des images clients
-10. Bitnami
+8. wp > identifiants > ajouter url wp-admin
+9. `/home/singed_the_docker_peon_9f3eqk4s9/configs/masamune/hello--masamune--fr` wtf is that
+10. Process récurrent de Maj des images clients
+11. Bitnami
     1. [Github issues](https://github.com/bitnami/bitnami-docker-mysql/issues/79#issuecomment-545477842) > Variable d'env afin d'augmenter le debug des conteneurs bitnami ! >> raisons explicites sur le problème de boot du conteneur
     2. Gestion notes dans ansible-install-web-server/ansible/203-setup-wordpress-lapie_secret.yml
     3. Testay avec surcharge de conf via config: voir si ca boot avec la bonne conf
@@ -378,26 +386,25 @@ Rieng
     2. [INDESTRUCTIBLE Gaming Bases - Quick & Easy](https://www.youtube.com/watch?v=tRFfsAG-Yf8)
     3. Green gold pour le [grand ancien](https://www.youtube.com/watch?v=AgJqjIMd6k8)
 8. [Patinoire](https://mail.google.com/mail/u/0/#inbox/FMfcgzGmvLQjSdlzHqNgpnCFgHjXWZlW)
-9. Pourrir la bred sur les réseaux
-10. Retrouver Permis conduire
-11. DL vidéos WTF youtoob
-12. [Changement propriétaire chatte](https://mail.google.com/mail/u/0/#inbox/FMfcgzGllCcNJCZHqcjqlkNJhlNFzwZC)
-13. Faire article mise en place/réparation/optimisation de pc
+9. Retrouver Permis conduire
+10. DL vidéos WTF youtoob
+11. [Changement propriétaire chatte](https://mail.google.com/mail/u/0/#inbox/FMfcgzGllCcNJCZHqcjqlkNJhlNFzwZC)
+12. Faire article mise en place/réparation/optimisation de pc
     1. [hey](https://www.drivereasy.com/knowledge/100-disk-usage-windows-10-fixed/)
     2. [hoy](https://www.makeuseof.com/tips-fix-100-disk-usage-improve-windows-performance/)
-14. Faire article maintenance PC
-15. Faire article découverte ansible
-16. double authentification OVH manager
-17. Mettre à jour CV !
-18. Rdv médecins
+13. Faire article maintenance PC
+14. Faire article découverte ansible
+15. double authentification OVH manager
+16. Mettre à jour CV !
+17. Rdv médecins
     1. Ophtalmo
     2. Cardiolog0ue
     3. Oreillologiste
-19. CPF > Langage des signes / Amazon AWS / Jenkins git hooks
-20. !site perso > cours particuliers code > 50€ heure (+, compter impôts)
-21. [Boeuf ethique](https://www.leboeufethique.fr/)
-22. Portable > reset usine
-23. Saut en parachute reims BA prunay
+18. CPF > Langage des signes / Amazon AWS / Jenkins git hooks
+19. !site perso > cours particuliers code > 50€ heure (+, compter impôts)
+20. [Boeuf ethique](https://www.leboeufethique.fr/)
+21. Portable > reset usine
+22. Saut en parachute reims BA prunay
 
 ## 💩 Shame
 

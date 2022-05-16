@@ -2,6 +2,15 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 16/05/22
+
+Perso
+
+1. ✅ Bouchons oreilles thomann
+2. ✅ Acheter etiqueteuse [Dymo](https://www.google.com/search?q=Dymo&oq=Dymo&aqs=chrome..69i57.330j0j1&sourceid=chrome&ie=UTF-8)
+3. ✅ Couteaux > acheter guide, pierres++ & cuir
+   1. ✅ Livraison 4 & 5 mai
+
 ## 06/05/22
 
 Serveur
