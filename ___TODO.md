@@ -31,7 +31,7 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Perso
 
-1. Faire la caisse de miaou²
+1. ✅ Faire la caisse de miaou²
 2. Régularisation électricité
 3. Orga anniv pougnoutte
    1. Redemander date a pougnoutte
@@ -42,8 +42,11 @@ Perso
 
 Taf
 
-1. AE > Devis > Clauses rétractation si non payé
-2. 💥 21/05/2021 > Heberg picard > Basculer sur nouveau serveur & annuler
+1. ✅ AE > Devis > Clauses rétractation si non payé
+2. ✅ Mail à PB Modelisme
+3. Environnement de dev local clean
+   1. Gestion de containers via portainer (actuellement en extension sur docker desktop)
+4. 💥 21/05/2021 > Heberg picard > Basculer sur nouveau serveur & annuler
 
 ### Sinon, priorisation classique
 
@@ -180,41 +183,121 @@ Rieng
 
 ### Serveur
 
-#### Terminer les bases & migrer ancien serveur
+#### ✅ Reprendre en main le projet
 
-1. 🚀 Relire les rôles 10 & 20
+1. ✅ Relire les rôles 10 & 20
    1. `ansible-install-web-server\ansible\100---hello--masamune--fr----README--generated.md` > confusion entre nginx et wp > a cleaner (variable techno utilisée ou chp)
-2. Rôle accès sftp
-   1. Ancien rôle > sftp-create-user
-3. Rôle accès bdd
-   1. adminer, cf. cryptor
-4. Backups sites clients
-   1. ✅ sophie berberian
-   2. 💥 Régénerer rôles afin d'avoir les playbooks de sauvegarde
-      1. 🚀 Récupération des playbooks actuellement utilisés & vérifications avant
-         1. cf. `ansible-install-web-server\commandes-backup-volumes-a-la-maing_secret.md`
-         2. cf. `ansible-install-web-server\ansible\tmp\_old`
-         3. cf. `ansible-install-web-server\ansible\roles\stack-web-nginx--generate-playbooks\vars\clients\lapie\champagne-didier-lapie--com\`
-         4. `ansible-install-web-server\ansible\roles\stack-web-wordpress--generate-playbooks\vars\clients`
-      2. champagne didier lapie
-         1. Cleaner au niveau du serveur dashed-uri > .com ou .fr
-         2. Générer via rôle propre
-         3. Backup host & local
-         4. Monter le playbook sur le dev client
-         5. Migrer la prod
-      3. ald infographie
-         1. (wp généré et lancement depuis ansible), Pour le moment c'est un yml lancé a l'arrache sur le serveur
-         2. Générer via rôle propre
-         3. Backup host & local
-         4. Monter le playbook sur le dev client
-         5. Migrer la prod
-      4. Nettoyer (sous)dossiers/fichiers
-         1. /tmp/old, etc.
-         2. ansible-install-web-server/ansible/roles/stack-web-nginx--generate-playbooks/vars
-         3. ansible-install-web-server/ansible/roles/stack-web-wordpress--generate-playbooks/vars
-         4. secrets > rôles a la racine > ne stocker que les generated dans le repo dédié
-            1. virer `/clients` qui est redondant
-5. Renommer forge a nginx en forge tutum, puis faire un playbook dédié nginx
+2. ✅ Reprendre en main les playbooks
+   1. ✅📌 Test forge nginx > faire tourner l'exemple
+   2. ✅📌 Test forge wordpress > faire tourner l'exemple
+3. ✅🧽 Faire une grosse repasse sur les index de projet il manque plein de vars
+   1. Note max du turfu : inspecter les fichiers générés (.md & .yml) & vérifier les variables, interprétées ou non
+   2. BUG: génération des fichiers de sites > prefixe `200-` pas utilisé partout
+4. 💩 Virer les projets générés à la racine, et rajouter dans `generated/~README` un `cd` vers le dossier généré
+   1. Pas sûr que cela soit possible de lancer depuis un autre dossier, avec les fichiers en référence (hosts & /roles)
+5. ✅📌 Vérifier (re)mise en place test-wordpress.masamune.fr
+
+#### 🚀 Cleaner/régénérer les clients existants
+
+📝👴 *Anciennes notes : Récupérer, vérifier, ranger, nettoyer*
+
+1. ✅ Récupération des playbooks actuellement utilisés & vérifications avant
+   1. ✅ cf. `ansible-install-web-server\commandes-backup-volumes-a-la-maing_secret.md`
+   2. ✅💾🔥 cf. `ansible-install-web-server\ansible\tmp\_old`
+   3. ✅🔥 cf. `ansible-install-web-server\ansible\roles\stack-web-nginx--generate-playbooks\vars\clients\lapie\champagne-didier-lapie--com\`
+      1. Duplicata de idem-wordpress, qui n'a rien à faire la > suprression
+   4. ✅ `ansible-install-web-server\ansible\roles\stack-web-wordpress--generate-playbooks\vars\clients`
+2. ✅ Nettoyer (sous)dossiers/fichiers
+   1. ✅🔥 /tmp/old, etc.
+   2. ✅🧽 secrets > projets github à la racine, à c/c dans les projets locaux
+      1. Dedup/virer `/clients` qui est redondant
+3. 🚀 Mettre à jour les fichiers générés pour WordPress
+   1. 👷✅ Lapie > attention le .yml a été édité a la main cf. `C:\Users\masam\Documents\_dev\Backups serveurs\lapie old access and yml`
+   2. Plus de ressources (cpu & ram)
+   3. Gestion autmatique du https
+   4. Faire le diff avec les fichiers générés & mettre à jour, le serveur supporte bien la charge de toutes manières
+   5. Faire le diff avec le site de nonore également
+   6. Génération > WordPress > Pas de répliques (ni wp, ni mariadb)
+
+#### Régénérer les clients existants
+
+##### Sophie berberian
+
+1. Créer un fichier de forge dédié dev, avec le bon chemin vers leurs variables
+2. Génerer rôle dev
+3. Mettre en place le dev afin de vérifier le bon fonctionnement
+   1. Backup host & local
+4. Créer un fichier de forge dédié prod, avec le bon chemin vers leurs variables
+5. Générer rôle prod
+   1. Backup host & local
+   2. Migrer la prod
+6. Maj secrets
+
+##### Champagne didier lapie
+
+📝👴 *Cleaner au niveau du serveur dashed-uri > .com ou .fr*
+
+💾👴 *Sauvegarde wp db & files faites à partir de backup à la main, stockés sur serveur dans /home/THE_DOCKER_GUY/backups/volumes/2022_temp_backups_anciens_yml_avant_normalisation
+et téléchargées dans C:\Users\masam\Documents\_dev\Backups serveurs*
+
+1. Créer un fichier de forge dédié dev, avec le bon chemin vers leurs variables
+   1. 💥 Réutiliser fichiers de variables (à rajouter en amont dans /generated)
+      1. `C:\Users\masam\Documents\_dev\Backups serveurs\lapie old access and yml`
+   2. 💥 Maj les ressources allouées aux WordPress
+2. Génerer rôle dev
+3. Mettre en place le dev afin de vérifier le bon fonctionnement
+   1. Backup host & local
+4. Créer un fichier de forge dédié prod, avec le bon chemin vers leurs variables
+5. Générer rôle prod
+   1. Backup host & local
+   2. Migrer la prod
+6. Maj secrets
+   1. ranger cle hmac pour e commerce (en local uniquement pour le moment)
+
+##### ALD infographie
+
+📝👴 *(wp généré et lancement depuis ansible), Pour le moment c'est un yml lancé a l'arrache sur le serveur*
+
+💾👴 *Sauvegarde wp db & files faites à partir de backup à la main, stockés sur serveur dans /home/THE_DOCKER_GUY/backups/volumes/2022_temp_backups_anciens_yml_avant_normalisation
+et téléchargées dans C:\Users\masam\Documents\_dev\Backups serveurs*
+
+1. ALD infographie / nonore > .yml stocké uniquement sur serveur !
+   1. Faire diff avec `C:\Users\masam\Documents\_dev\Backups serveurs\nonore old yml`
+2. Créer un fichier de forge dédié dev, avec le bon chemin vers leurs variables
+3. Génerer rôle dev
+4. Mettre en place le dev afin de vérifier le bon fonctionnement
+   1. Backup host & local
+5. Créer un fichier de forge dédié prod, avec le bon chemin vers leurs variables
+6. Générer rôle prod
+   1. Backup host & local
+   2. Migrer la prod
+7. Maj secrets
+
+#### Faire la mise à jour du serveur vers ubuntu 22
+
+1. Backups sites clients
+   1. sophie berberian
+   2. champagne didier lapie
+   3. ald infographie
+2. ⏳ Email clients interruption de service
+    1. ✅ template
+3. Mettre à jour le serveur
+    1. Forcer redémarrage > 52
+    2. Maintenance > 98
+4. Vérifications sites clients toujours en place
+   1. Restaurer backup si besoin
+
+#### Faire la mise à jour des wordpress
+
+📌 Possibilité de tester sur le dev avant
+
+1. sophie berberian
+2. champagne didier lapie
+3. ald infographie
+
+#### Passer Tutum en Nginx + php basique
+
+1. Renommer forge a nginx en forge tutum, puis faire un playbook dédié nginx
     1. Faire conteneur en local pour tester installation & configuration simple
        1. Récupérer config faite pour cryptor
     2. Serveur normal & serveur php basique pour les sites non wp
@@ -222,34 +305,32 @@ Rieng
        1. 🔍 [Video configuration](https://www.youtube.com/watch?v=C5kMgshNc6g)
        2. Tune server for [nginx performance](https://www.nginx.com/blog/10-tips-for-10x-application-performance/)
        3. [+1](https://blog.monitis.com/blog/6-best-practices-for-optimizing-your-nginx-performance/)
-6. Gestion des mails propre
+2. HTTP 2/3 serait un vrai plus
+
+#### Installer le monitoring
+
+Commencer via 99 crafts puis MOD: 4-setup-core-services.yml
+
+1. Installer webmin ou **netdata** plutot que grafana & autres
+   1. Swarm WebUi Portainer
+      1. [doc](https://portainer.readthedocs.io/en/stable/deployment.html)
+      2. [DS rocks](https://dockerswarm.rocks/portainer/)
+   2. Tester en local
+2. Alerte si CPU/RAM > 75%
+3. Alerte si space disque libre < 20%
+
+#### Terminer les bases (sftp, adminer, mails) + dev/prod + Lapie secrets
+
+1. Rôle accès sftp
+   1. Ancien rôle > sftp-create-user
+2. Rôle accès bdd
+   1. adminer, cf. cryptor
+3. Gestion des mails propre
     1. Connexion au serveur SMPT du serveur ? cf. utils-emails
     2. [Conteneur postfix ?](https://hub.docker.com/_/postfixadmin)
     3. Ajout SPF/DKIM/DMARC
     4. Maj lapie & nonore
-7. ⏳ Email clients interruption de service
-    1. ✅ template
-8. Migration de l'ancien serveur, pour chaque client hébergé, lister
-    1. Technos
-    2. 📌📌📌📌📌📌📌 Fichiers
-    3. BDD / Exports WordPress
-    4. Basculer
-9. Mettre à jour le serveur
-    1. Forcer redémarrage > 52
-    2. Maintenance > 98
-10. ⏳ Lapie HMAC auto
-    1. Lapie kek.php (Crédit agricole > génération d'un fichier kek.php à la racine lors de l'insertion de clé HMAC > détruit au reboot du conteneur)
-
-#### Cleaner avant de poursuivre le projet
-
-1. Tester Nginx + WordPress, sans bitnami, [cf.](https://wordpress.org/support/article/nginx/)
-2. Voir pour ajouter REDIS > meilleures perfs si grosses données ? existe en image docker
-3. ansible template, au lieu de remplacer variables > [block_start_string](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/template_module.html#parameter-block_start_string)
-4. Installer webmin ou **netdata** plutot que grafana & autres
-    1. Tester en local
-5. Opti script maintenance
-    1. Ajouter maj OMZ ZSH
-6. Prévoir dev & prod > 1 seul script mais url change, même users & pass
+4. Prévoir dev & prod > 1 seul script mais url change, même users & pass
     1. Réutiliser `/generated/vars` files ? (WP)
     2. Utiliser docker-compose.override.yml ? [Bonnes pratiques docker/compose](https://nickjanetakis.com/blog/best-practices-around-production-ready-web-apps-with-docker-compose)
        1. Variables d'environnement dans DC
@@ -257,56 +338,43 @@ Rieng
     4. Gestion dev/prod : 1 seul fichier
     5. ENV vars ++
     6. Volumes en fonction de l'environnement ¤_¤
-7. Faire une grosse repasse sur les index de projet il manque plein de vars
-   1. Note max du turfu : inspecter les fichiers générés (.md & .yml) & vérifier les variables, interprétées ou non
-   2. BUG: génération des fichiers de sites > prefixe `200-` pas utilisé partout
-8. wp > identifiants > ajouter url wp-admin
-9. `/home/singed_the_docker_peon_9f3eqk4s9/configs/masamune/hello--masamune--fr` wtf is that
-10. Process récurrent de Maj des images clients
-11. Bitnami
-    1. [Github issues](https://github.com/bitnami/bitnami-docker-mysql/issues/79#issuecomment-545477842) > Variable d'env afin d'augmenter le debug des conteneurs bitnami ! >> raisons explicites sur le problème de boot du conteneur
-    2. Gestion notes dans ansible-install-web-server/ansible/203-setup-wordpress-lapie_secret.yml
-    3. Testay avec surcharge de conf via config: voir si ca boot avec la bonne conf
-    4. Lourder si serveurs web classique stabilité 100%, +1 speed
-    5. Activer modules php
-    6. Http 2/3
+5. ⏳ Lapie HMAC auto
+    1. Lapie kek.php (Crédit agricole > génération d'un fichier kek.php à la racine lors de l'insertion de clé HMAC > détruit au reboot du conteneur)
+
+#### Migrer ancien serveur
+
+1. Migration de l'ancien serveur, pour chaque client hébergé, lister
+    1. Technos
+    2. 📌📌📌📌📌📌📌 Fichiers
+    3. BDD / Exports WordPress
+    4. Basculer
+
+#### Cleaner avant de poursuivre le projet
+
+1. Tester Nginx + WordPress, sans bitnami, [cf.](https://wordpress.org/support/article/nginx/)
+   1. Voir pour virer bitnami en vrai c'est juste pas clair au niveau de la gestion
+   2. Voir pour ajouter REDIS > meilleures perfs si grosses données ? existe en image docker
+2. ansible template, au lieu de remplacer variables > [block_start_string](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/template_module.html#parameter-block_start_string)
+3. Opti script maintenance
+    1. Ajouter maj OMZ ZSH
+4. wp > identifiants > ajouter url wp-admin
+5. `/home/singed_the_docker_peon_9f3eqk4s9/configs/masamune/hello--masamune--fr` wtf is that
+6. Process récurrent de Maj des images clients
 
 #### Suite Serveur / post migration
 
-1. Monitoring > MOD: 4-setup-core-services.yml
-   1. Alternative ? [traefik pilot](https://doc.traefik.io/traefik-pilot/)
-   2. Autres alternatives webmin & netdata
-   3. Alerte si CPU/RAM > 75%
-   4. Alerte si space disque libre < 20%
-   5. Anciennes docs
-      1. 🔍 Docs
-         - [Monitoring, the Prometheus Way](https://www.youtube.com/watch?v=PDxcEzu62jk)
-         - [Docker swarm rocks > monitoring w. swarprom](https://dockerswarm.rocks/swarmprom/)
-           - [Docker / Prometheus setup](https://docs.docker.com/config/daemon/prometheus/)
-             - Traefik config
-               - [Official doc](https://docs.traefik.io/observability/metrics/prometheus/)
-               - [Example](https://community.containo.us/t/502-bad-gateway-solved/2947) >
-               - "--metrics.prometheus=true"
-               - "--entryPoints.metrics.address=:8082"
-               - "--metrics.prometheus.entryPoint=metrics"
-               - "--metrics.prometheus.buckets=0.1,0.3,1.2,5.0"
-           - [Swarmprom - Prometheus Monitoring for Docker Swarm](https://www.weave.works/blog/swarmprom-prometheus-monitoring-for-docker-swarm)
-      2. UI pour afficher les logs docker de chaque service (~eq datadog)
-      3. Swarm WebUi Portainer
-         1. [doc](https://portainer.readthedocs.io/en/stable/deployment.html)
-         2. [DS rocks](https://dockerswarm.rocks/portainer/)
-2. Gestion des backups
+1. Gestion des backups
     1. Ajout au CRON
     2. Envoi vers serveur de backup + rotation/sauvegarde incrémentielle
-3. Checker ce qui prend de la place sur le disque ~80Go ? 13% de 450 > `docker system df -v` ; cf. backup des volumes
+2. Checker ce qui prend de la place sur le disque ~80Go ? 13% de 450 > `docker system df -v` ; cf. backup des volumes
    1. 💥 Tâche ponctuelle clean logs (en attendant automatisation > traefik.log > 200514-traefik.log)
-4. Ansible convenience
+3. Ansible convenience
     1. Clean templating, variable [deprecated ansible_managed](https://docs.ansible.com/ansible/2.4/intro_configuration.html#ansible-managed)
         1. [?](https://docs.ansible.com/ansible/latest/reference_appendices/config.html#default-managed-str)
     2. [ansible prompt](https://docs.ansible.com/ansible/latest/user_guide/playbooks_prompts.html)
-5. Containers [Healtcheck](https://blog.sixeyed.com/docker-healthchecks-why-not-to-use-curl-or-iwr/)
-6. Pagespeed optimisations w. vanilla websites
-7. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
+4. Containers [Healtcheck](https://blog.sixeyed.com/docker-healthchecks-why-not-to-use-curl-or-iwr/)
+5. Pagespeed optimisations w. vanilla websites
+6. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
     1. Need modules de cache php activés
     2. HTTP 2/3 serait un vrai plus
     3. Nginx
@@ -316,21 +384,10 @@ Rieng
        1. 2-3 trucs/plugins a regarder en plus pour WP : [doc](https://www.litespeedtech.com/open-source) & [site dédié](https://lscache.io/)
        2. test-litespeed.masamune.fr
     7. 🌱 Chaque serveur > Tester WP (install via wp-cli ?)
-8. Docker certification [175€](https://success.docker.com/certification)
-9. Veille securité
+7. Docker certification [175€](https://success.docker.com/certification)
+8. Veille securité
    1. [Docker Production Best Practices from Bret Fisher at DockerCon](https://www.youtube.com/watch?v=V4f_sHTzvCI)
    2. [Container security free pdf](http://containersecurity.tech/)
-10. Veille
-    - Optimize DC files with blocks templates, remove redundancy, cf. [docker con 19](https://youtu.be/woBI466WMR8?t=481).
-    - Service > Docker prune toutes les heures, cf. [docker con 19](https://youtu.be/woBI466WMR8?t=209).
-    - Check logging driver : local
-      - Update docker daemon.json, cf. [D con 19](https://youtu.be/woBI466WMR8?t=537).
-    - Prevent network collisions > D daemon default adress pool, , cf. [D con 19](https://youtu.be/woBI466WMR8?t=657).
-    - Ranger: recap [recos sécurité D con 17](https://youtu.be/1vgi51f0tCk?t=1671).
-    - Ranger: Docker w GUI ! [D con 17](https://youtu.be/1vgi51f0tCk?t=2117).
-      - Article dédié[Docker Containers on the Desktop](https://blog.jessfraz.com/post/docker-containers-on-the-desktop/)
-    - Veille, mauvaises pratiques docker : [12 Fractured Apps](https://medium.com/@kelseyhightower/12-fractured-apps-1080c73d481c)
-    - ~Docker utils : [gosu](https://github.com/tianon/gosu)
 
 ---
 
