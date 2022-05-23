@@ -2,6 +2,102 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 20/05/22
+
+Taf
+
+1. ✅ Mail à PB Modelisme
+
+Serveur > Reprendre en main le projet
+
+1. ✅ Relire les rôles 10 & 20
+   1. `ansible-install-web-server\ansible\100---hello--masamune--fr----README--generated.md` > confusion entre nginx et wp > a cleaner (variable techno utilisée ou chp)
+2. ✅ Reprendre en main les playbooks
+   1. ✅📌 Test forge nginx > faire tourner l'exemple
+   2. ✅📌 Test forge wordpress > faire tourner l'exemple
+3. ✅🧽 Faire une grosse repasse sur les index de projet il manque plein de vars
+   1. Note max du turfu : inspecter les fichiers générés (.md & .yml) & vérifier les variables, interprétées ou non
+   2. BUG: génération des fichiers de sites > prefixe `200-` pas utilisé partout
+4. 💩 Virer les projets générés à la racine, et rajouter dans `generated/~README` un `cd` vers le dossier généré
+   1. Pas sûr que cela soit possible de lancer depuis un autre dossier, avec les fichiers en référence (hosts & /roles)
+5. ✅📌 Vérifier (re)mise en place test-wordpress.masamune.fr
+
+Serveur > Cleaner/Debug
+
+📝👴 *Anciennes notes : Récupérer, vérifier, ranger, nettoyer*
+
+1. ✅ Récupération des playbooks actuellement utilisés & vérifications avant
+   1. ✅ cf. `ansible-install-web-server\commandes-backup-volumes-a-la-maing_secret.md`
+   2. ✅💾🔥 cf. `ansible-install-web-server\ansible\tmp\_old`
+   3. ✅🔥 cf. `ansible-install-web-server\ansible\roles\stack-web-nginx--generate-playbooks\vars\clients\lapie\champagne-didier-lapie--com\`
+      1. Duplicata de idem-wordpress, qui n'a rien à faire la > suprression
+   4. ✅ `ansible-install-web-server\ansible\roles\stack-web-wordpress--generate-playbooks\vars\clients`
+2. ✅ Nettoyer (sous)dossiers/fichiers
+   1. ✅🔥 /tmp/old, etc.
+   2. ✅🧽 secrets > projets github à la racine, à c/c dans les projets locaux
+      1. Dedup/virer `/clients` qui est redondant
+3. ✅ Mettre à jour les fichiers générés pour WordPress
+   1. 👷✅ Lapie > attention le .yml a été édité a la main cf. `C:\Users\masam\Documents\_dev\Backups serveurs\lapie old access and yml`
+      1. ✅ Plus de ressources (cpu & ram)
+      2. ✅ Gestion automatique du https
+      3. ✅ Faire le diff avec les fichiers générés & mettre à jour, le serveur supporte bien la charge de toutes manières
+      4. ✅📌 Tester nouvelle stack
+   2. ✅ Faire le diff avec le site de nonore également
+   3. ✅ Génération > WordPress > Pas de répliques (ni wp, ni mariadb)
+   4. ✅ Mettre à jour les images wp & maria
+4. ✅🚥 Traefik
+   1. ✅🧽 Gestion automatique de la redirection http vers https
+   2. ✅⬆️ [Maj image traefik](https://doc.traefik.io/traefik/migration/v2/#v248-to-v249)
+   3. ✅🚀⚡️ enable http3 AFTER maj image
+   4. ✅🐛 Gestion automatique des certificats https
+   5. ✅📌 Checker diff logs
+   6. ✅ Re-activate HTTPS production url `ansible/roles/core-reverse-proxy-traefik--generate/templates/traefik.yml.j2`
+5. ✅🐛💥 Conteneur ne démarre pas, parfois
+   1. ✅📌💡 Le conteneur wordpress ne démarrait pas, mais se lance dès qu'un autre est coupé
+      1. ✅📌💡 Si on tente de relancer l'autre, il ne redémarre pas tant qu'une place n'est pas dispo
+   2. ✅🔍Checker les logs avant de partir n'importe ou `C:\Users\masam\Desktop\220518-logs-trop de conteneurs en même temps.ini`
+      1. 💩 [network ?](https://github.com/docker/compose/issues/6405#issuecomment-445345584)
+   3. ✅🔍 Nombre max de stack/conteneurs que l'on peut lancer en simultané ? [SO](https://stackoverflow.com/a/37628520)
+      1. ✅ A priori ~1k, sinon ressources
+   4. [🔍 Runtime options with Memory, CPUs, and GPUs](https://docs.docker.com/config/containers/resource_constraints/)
+      1. ✅🧠 A priori le problème provient des réservations : le serveur à 8 processeurs,
+            avec les sites en places ~6.5 de réservés, dernier wordpress forcé a minimum 2 procs >> ne se lance pas
+   5. ✅ Revoir politique de ressources sur les conteneurs
+      1. ✅🔍 [Requis pour WP](https://wordpress.org/about/requirements/)
+      2. ✅📌 Appliquer
+6. ✅🔧 Activation de la mémoire swap
+   1. 💩 Pas de configuration pour compose & stack pour le moment
+7. ✅🔥🐛 host > /home/the_docker_peon/clientss
+8. ✅🐛💥 Problèmes au niveau des backups
+   1. ✅🔍🐛 Besoin d'arrêter les conteneur de temp de backup / restaurer
+   2. ✅📌 Backup host > tester extraction archive
+      1. ✅ mariadb
+      2. 🔍🐛 wp
+         1. 🚨 contient également wp-config 🚨 dev/prod
+   3. ✅📌 Backup local > tester extraction archive
+      1. ✅ mariadb
+      2. ✅ wp
+   4. ✅📌 Injection host > tester ok
+   5. ✅📌 Injection local > tester ok
+   6. ✅📌 Mise à jour des rôles de backup : stop au debut, re-deploy à la fin
+      1. ✅ 🐛 Delay after stop
+      2. ✅ Rôles admin 9X-
+      3. ✅ Template de forge nginx
+      4. ✅ Template de forge wordpress
+9. ✅ Passer playbook hello en prefix 201
+10. ✅ Clients en 300, 310, 320
+11. ✅ Ansible > `[DEPRECATION WARNING]: "include" is deprecated, use include_tasks/import_tasks instead.`
+
+AE
+
+1. ✅ AE > Devis > Clauses rétractation si non payé
+2. ✅ Maj facture [mention ae ou chp](https://www.autoentrepreneur.urssaf.fr/portail/accueil/sinformer-sur-le-statut/toutes-les-actualites/une-nouvelle-mention-obligatoire.html)
+
+Perso
+
+1. ✅ Faire la caisse de miaou²
+2. ✅ Régularisation électricité
+
 ## 16/05/22
 
 Perso

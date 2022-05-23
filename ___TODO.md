@@ -21,6 +21,8 @@ Légende :
 - Tétrachiée de nouveaux plugins VSCode
   - TO DO Tree
   - polacode > joli print de code
+- [Toolbox de ouf](https://geekflare.com/tools/toolbox)
+- Test plugin wakatime (stats vscode)
 
 ## 🚀 Priorisation, simple ⏩
 
@@ -31,19 +33,21 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Perso
 
-1. ✅ Faire la caisse de miaou²
-2. Régularisation électricité
-3. Orga anniv pougnoutte
+1. Orga anniv pougnoutte
    1. Redemander date a pougnoutte
    2. Demander contact & liste invités
    3. Demander si logement déjà vu
    4. Voir pour cagnotte permis moto
-4. Extension de [garantie pc](https://www.dell.com/support/incidents-online/fr-fr/email/extend-warranty)
 
 Taf
 
-1. ✅ AE > Devis > Clauses rétractation si non payé
-2. ✅ Mail à PB Modelisme
+1. Envoyer mail clients maj serveur & possibles interuptions de services
+2. ✅ Clôture cryptor
+   1. ✅ Boilerplate rupture de contrat
+   2. ✅ Doc de fin de contrat a signer + signature electronique
+      1. ⏳ Signature
+   3. ✅ Facture
+      1. ⏳ Règlement
 3. Environnement de dev local clean
    1. Gestion de containers via portainer (actuellement en extension sur docker desktop)
 4. 💥 21/05/2021 > Heberg picard > Basculer sur nouveau serveur & annuler
@@ -69,7 +73,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
   - ✅💥 Ce fichier > ### Shame 💥 Cleaner pour vrai les trucs ou je ne passe jamais
     - ✅ Ranger dans fichiers TODO correspondant
       - ✅ Prioriser
-- ✅ Virer ce qui traine
+- ⏳ Virer ce qui traine
   - ✅ sur le bureau
   - 💩 dans le dossier _shame du bureau
   - 💩 Lel ~(local)/_dev/_shame
@@ -82,10 +86,10 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 - ✅ Déclaration Auto entrepreneur
   - ⏳ Mai 2022
 - ✅ Vérifier impôts sur espace / Dernière vérif 15/08/2021
-  - ✅ Perso  / ✅ 16/05/22
-  - ✅ Pro    / ✅ 16/05/22 (CFE réglé le 17/11/2021)
+  - ✅ Perso  / ✅ 23/05/22
+  - ✅ Pro    / ✅ 23/05/22 (CFE réglé le 17/11/2021)
 - ✅ Vérifier messages [Ameli](https://assure.ameli.fr/)
-- ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21
+- ✅ Maj locales / Environnement de dev / Dernière maj le 01/06/21
   - ⏩ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk), `/r` également
     1. Invite de commande ou Powershell **en admin**
     2. `chkdsk c: /f /r` (et en fonction de vos disques.. && `chkdsk d: /f /r`, etc.)
@@ -93,30 +97,30 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
     4. Redémarrer / Attendre 5 ans et demi sauf si t'as un SSD/Nvme
   - ✅ Windaube
     - ✅ Update alakon
-    - ✅ [.net](https://dotnet.microsoft.com/download) > Runtime
-    - ✅ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
+    - ⏳ [.net](https://dotnet.microsoft.com/download) > Runtime
+    - ⏳ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
   - ✅ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
   - ✅ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
     - ✅ Dell support assist
     - ✅ Alienware update
   - ✅ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
-  - ✅ Logiciels alakon
+  - ⏳ Logiciels alakon
     - ✅ Ouvrir VScode > Auto update plugins etc.
     - ~~Filezilla~~ ✅ WinSCP, ✅ OBS, ✅ VLC, ESET, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
-    - ✅ Powershell [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
+    - ⏳ Powershell [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
       - ( [Doc](https://docs.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) )
     - ✅ Nvidia driver
   - ✅ Supprimer les fichiers temporaires
     - Exec > `temp` // Devrait ouvrir `~c:Windows\Temp`
     - Supprimer tout, Ignorer ceux utilisés
-  - ✅ WSL
+  - ⏳ WSL
     - Version Ubuntu
       - Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
     - Packages & terminal
 
 ```bash
 omz update
-git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade && sudo apt -y autoremove
+git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade && sudo apt -y autoremove && docker system prune -af
 ```
 
 - ⏳ Maj serveur, script maintenance
@@ -136,10 +140,11 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
   - ✅ Huile de foie de morue
   - ✅ Choline Inositol
   - ✅ Trucs foie/reins
-  - ✅ Ginseng
+  - ✅ Ginseng / "Super ginko"
+    - ⏳ Attente livraison
   - ✅ Mix vitamine
   - ✅ Doc > vitamine D tous les 6 mois
-- ✅ Tout est Versionné, pas de WIP qui traîne
+- ⏳ Tout est Versionné, pas de WIP qui traîne
 
 ---
 
@@ -183,50 +188,41 @@ Rieng
 
 ### Serveur
 
-#### ✅ Reprendre en main le projet
+#### 🚀 Terminer les bases (sftp, adminer, mails) + dev/prod + Lapie secrets
 
-1. ✅ Relire les rôles 10 & 20
-   1. `ansible-install-web-server\ansible\100---hello--masamune--fr----README--generated.md` > confusion entre nginx et wp > a cleaner (variable techno utilisée ou chp)
-2. ✅ Reprendre en main les playbooks
-   1. ✅📌 Test forge nginx > faire tourner l'exemple
-   2. ✅📌 Test forge wordpress > faire tourner l'exemple
-3. ✅🧽 Faire une grosse repasse sur les index de projet il manque plein de vars
-   1. Note max du turfu : inspecter les fichiers générés (.md & .yml) & vérifier les variables, interprétées ou non
-   2. BUG: génération des fichiers de sites > prefixe `200-` pas utilisé partout
-4. 💩 Virer les projets générés à la racine, et rajouter dans `generated/~README` un `cd` vers le dossier généré
-   1. Pas sûr que cela soit possible de lancer depuis un autre dossier, avec les fichiers en référence (hosts & /roles)
-5. ✅📌 Vérifier (re)mise en place test-wordpress.masamune.fr
-
-#### 🚀 Cleaner/régénérer les clients existants
-
-📝👴 *Anciennes notes : Récupérer, vérifier, ranger, nettoyer*
-
-1. ✅ Récupération des playbooks actuellement utilisés & vérifications avant
-   1. ✅ cf. `ansible-install-web-server\commandes-backup-volumes-a-la-maing_secret.md`
-   2. ✅💾🔥 cf. `ansible-install-web-server\ansible\tmp\_old`
-   3. ✅🔥 cf. `ansible-install-web-server\ansible\roles\stack-web-nginx--generate-playbooks\vars\clients\lapie\champagne-didier-lapie--com\`
-      1. Duplicata de idem-wordpress, qui n'a rien à faire la > suprression
-   4. ✅ `ansible-install-web-server\ansible\roles\stack-web-wordpress--generate-playbooks\vars\clients`
-2. ✅ Nettoyer (sous)dossiers/fichiers
-   1. ✅🔥 /tmp/old, etc.
-   2. ✅🧽 secrets > projets github à la racine, à c/c dans les projets locaux
-      1. Dedup/virer `/clients` qui est redondant
-3. 🚀 Mettre à jour les fichiers générés pour WordPress
-   1. 👷✅ Lapie > attention le .yml a été édité a la main cf. `C:\Users\masam\Documents\_dev\Backups serveurs\lapie old access and yml`
-   2. Plus de ressources (cpu & ram)
-   3. Gestion autmatique du https
-   4. Faire le diff avec les fichiers générés & mettre à jour, le serveur supporte bien la charge de toutes manières
-   5. Faire le diff avec le site de nonore également
-   6. Génération > WordPress > Pas de répliques (ni wp, ni mariadb)
+1. 🚀 Rôle accès sftp
+   1. 📌 Tests
+      1. 🔍 Image serveur sftp avec volumes & clés ssh [atmoz](https://hub.docker.com/r/atmoz/sftp)
+      2. ✅ Test sans volume
+      3. 🚀 Test avec volume bind
+      4. Test avec volume bind + named volume
+2. Rôle accès bdd
+   1. adminer, cf. cryptor
+3. Gestion des mails propre
+    1. Connexion au serveur SMPT du serveur ? cf. utils-emails
+    2. [Conteneur postfix ?](https://hub.docker.com/_/postfixadmin)
+    3. Ajout SPF/DKIM/DMARC
+    4. Maj lapie & nonore
+4. Prévoir dev & prod > 1 seul script mais url change, même users & pass
+    1. Réutiliser `/generated/vars` files ? (WP)
+    2. Utiliser docker-compose.override.yml ? [Bonnes pratiques docker/compose](https://nickjanetakis.com/blog/best-practices-around-production-ready-web-apps-with-docker-compose)
+       1. Variables d'environnement dans DC
+    3. Check ansible > vars d'environnement afin de maj dev. ou prod
+    4. Gestion dev/prod : 1 seul fichier
+    5. ENV vars ++
+    6. Volumes en fonction de l'environnement ¤_¤
+5. ⏳ Lapie HMAC auto
+    1. Lapie kek.php (Crédit agricole > génération d'un fichier kek.php à la racine lors de l'insertion de clé HMAC > détruit au reboot du conteneur)
 
 #### Régénérer les clients existants
 
 ##### Sophie berberian
 
-1. Créer un fichier de forge dédié dev, avec le bon chemin vers leurs variables
-2. Génerer rôle dev
+1. ✅ Créer un fichier de forge dédié dev, avec le bon chemin vers leurs variables
+2. ✅ Génerer rôle dev
 3. Mettre en place le dev afin de vérifier le bon fonctionnement
-   1. Backup host & local
+   1. Backup prod en local
+   2. Injection sur dev host
 4. Créer un fichier de forge dédié prod, avec le bon chemin vers leurs variables
 5. Générer rôle prod
    1. Backup host & local
@@ -239,6 +235,10 @@ Rieng
 
 💾👴 *Sauvegarde wp db & files faites à partir de backup à la main, stockés sur serveur dans /home/THE_DOCKER_GUY/backups/volumes/2022_temp_backups_anciens_yml_avant_normalisation
 et téléchargées dans C:\Users\masam\Documents\_dev\Backups serveurs*
+
+👷 Faire attention aux noms de volumes
+
+🧠 Backup a la main avec les anciennes commandes puis regen stack puis injection en modifiant les noms d'archives injectées
 
 1. Créer un fichier de forge dédié dev, avec le bon chemin vers leurs variables
    1. 💥 Réutiliser fichiers de variables (à rajouter en amont dans /generated)
@@ -260,6 +260,10 @@ et téléchargées dans C:\Users\masam\Documents\_dev\Backups serveurs*
 
 💾👴 *Sauvegarde wp db & files faites à partir de backup à la main, stockés sur serveur dans /home/THE_DOCKER_GUY/backups/volumes/2022_temp_backups_anciens_yml_avant_normalisation
 et téléchargées dans C:\Users\masam\Documents\_dev\Backups serveurs*
+
+👷 Faire attention aux noms de volumes
+
+🧠 Backup a la main avec les anciennes commandes puis regen stack puis injection en modifiant les noms d'archives injectées
 
 1. ALD infographie / nonore > .yml stocké uniquement sur serveur !
    1. Faire diff avec `C:\Users\masam\Documents\_dev\Backups serveurs\nonore old yml`
@@ -305,7 +309,6 @@ et téléchargées dans C:\Users\masam\Documents\_dev\Backups serveurs*
        1. 🔍 [Video configuration](https://www.youtube.com/watch?v=C5kMgshNc6g)
        2. Tune server for [nginx performance](https://www.nginx.com/blog/10-tips-for-10x-application-performance/)
        3. [+1](https://blog.monitis.com/blog/6-best-practices-for-optimizing-your-nginx-performance/)
-2. HTTP 2/3 serait un vrai plus
 
 #### Installer le monitoring
 
@@ -318,28 +321,6 @@ Commencer via 99 crafts puis MOD: 4-setup-core-services.yml
    2. Tester en local
 2. Alerte si CPU/RAM > 75%
 3. Alerte si space disque libre < 20%
-
-#### Terminer les bases (sftp, adminer, mails) + dev/prod + Lapie secrets
-
-1. Rôle accès sftp
-   1. Ancien rôle > sftp-create-user
-2. Rôle accès bdd
-   1. adminer, cf. cryptor
-3. Gestion des mails propre
-    1. Connexion au serveur SMPT du serveur ? cf. utils-emails
-    2. [Conteneur postfix ?](https://hub.docker.com/_/postfixadmin)
-    3. Ajout SPF/DKIM/DMARC
-    4. Maj lapie & nonore
-4. Prévoir dev & prod > 1 seul script mais url change, même users & pass
-    1. Réutiliser `/generated/vars` files ? (WP)
-    2. Utiliser docker-compose.override.yml ? [Bonnes pratiques docker/compose](https://nickjanetakis.com/blog/best-practices-around-production-ready-web-apps-with-docker-compose)
-       1. Variables d'environnement dans DC
-    3. Check ansible > vars d'environnement afin de maj dev. ou prod
-    4. Gestion dev/prod : 1 seul fichier
-    5. ENV vars ++
-    6. Volumes en fonction de l'environnement ¤_¤
-5. ⏳ Lapie HMAC auto
-    1. Lapie kek.php (Crédit agricole > génération d'un fichier kek.php à la racine lors de l'insertion de clé HMAC > détruit au reboot du conteneur)
 
 #### Migrer ancien serveur
 
@@ -363,31 +344,35 @@ Commencer via 99 crafts puis MOD: 4-setup-core-services.yml
 
 #### Suite Serveur / post migration
 
-1. Gestion des backups
+1. Activer le [Debug Mode de docker](https://docs.docker.com/engine/reference/commandline/dockerd/#daemon-configuration-file)
+2. ⏳📌 `/var/log/auth.log` > [audit: backlog limit exceeded](https://aws.amazon.com/fr/premiumsupport/knowledge-center/troubleshoot-audit-backlog-errors-ec2/)
+   1. Augmentation de la valeur de 1280 à 8192 via `sudo nano /etc/audit/rules.d/audit.rules PUIS sudo service auditd restart VERIF sudo auditctl -s`
+   2. Maj de `/roles/docker-installation/tasks/docker-bench-security.yml` &`/roles/docker-installation/templates/auditd-audit.rules.j2`
+3. Gestion des backups
     1. Ajout au CRON
     2. Envoi vers serveur de backup + rotation/sauvegarde incrémentielle
-2. Checker ce qui prend de la place sur le disque ~80Go ? 13% de 450 > `docker system df -v` ; cf. backup des volumes
+4. Checker ce qui prend de la place sur le disque ~80Go ? 13% de 450 > `docker system df -v` ; cf. backup des volumes
    1. 💥 Tâche ponctuelle clean logs (en attendant automatisation > traefik.log > 200514-traefik.log)
-3. Ansible convenience
+5. Ansible convenience
     1. Clean templating, variable [deprecated ansible_managed](https://docs.ansible.com/ansible/2.4/intro_configuration.html#ansible-managed)
         1. [?](https://docs.ansible.com/ansible/latest/reference_appendices/config.html#default-managed-str)
     2. [ansible prompt](https://docs.ansible.com/ansible/latest/user_guide/playbooks_prompts.html)
-4. Containers [Healtcheck](https://blog.sixeyed.com/docker-healthchecks-why-not-to-use-curl-or-iwr/)
-5. Pagespeed optimisations w. vanilla websites
-6. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
+6. Containers [Healtcheck](https://blog.sixeyed.com/docker-healthchecks-why-not-to-use-curl-or-iwr/)
+7. Pagespeed optimisations w. vanilla websites
+8. Tester conteneurs de serveurs (facilité/stabilité/vitesse/http3)
     1. Need modules de cache php activés
-    2. HTTP 2/3 serait un vrai plus
-    3. Nginx
-    4. [Apache](https://hub.docker.com/_/httpd) / test-httpd.masamune.fr
-    5. [Caddy](https://hub.docker.com/_/caddy) / test-caddy.masamune.fr
-    6. Litespeed : [open](https://hub.docker.com/r/litespeedtech/openlitespeed) / [payant ?](https://hub.docker.com/r/litespeedtech/litespeed)
+    2. Nginx
+    3. [Apache](https://hub.docker.com/_/httpd) / test-httpd.masamune.fr
+    4. [Caddy](https://hub.docker.com/_/caddy) / test-caddy.masamune.fr
+    5. Litespeed : [open](https://hub.docker.com/r/litespeedtech/openlitespeed) / [payant ?](https://hub.docker.com/r/litespeedtech/litespeed)
        1. 2-3 trucs/plugins a regarder en plus pour WP : [doc](https://www.litespeedtech.com/open-source) & [site dédié](https://lscache.io/)
        2. test-litespeed.masamune.fr
-    7. 🌱 Chaque serveur > Tester WP (install via wp-cli ?)
-7. Docker certification [175€](https://success.docker.com/certification)
-8. Veille securité
-   1. [Docker Production Best Practices from Bret Fisher at DockerCon](https://www.youtube.com/watch?v=V4f_sHTzvCI)
-   2. [Container security free pdf](http://containersecurity.tech/)
+    6. 🌱 Chaque serveur > Tester WP (install via wp-cli ?)
+9. [Varnish cache](https://varnish-cache.org/)
+10. Docker certification [175€](https://success.docker.com/certification)
+11. Veille securité
+    1. [Docker Production Best Practices from Bret Fisher at DockerCon](https://www.youtube.com/watch?v=V4f_sHTzvCI)
+    2. [Container security free pdf](http://containersecurity.tech/)
 
 ---
 
