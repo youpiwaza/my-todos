@@ -44,19 +44,37 @@ Taf
 
 PB Modelisme
 
-1. 🚀 Environnement de dev local
+1. ⏳ Environnement de dev local
    1. ✅ Crafts n' tests > `pb-modelisme--com/_docs/craft-and-tests/01-craft-docker-compose-file/README.md`
-   2. 🚀 Création du dossier local & maj de la doc `_docs/local-environnement-setup.md`
-      1. 🚨 Structure du projet pour insertion sur serveur > `wp-content/` à la racine du projet ?
-   3. Installation persistante
-      1. Noter identifiants WP
-   4. Améliorations classiques
-      1. Mises à jour
-      2. Virer les thèmes inutiles
-      3. Virer les plugins inutiles
-      4. SALT
-      5. Accélérations WordPress
-   5. Installation de woocommerce
+   2. ✅ Création du dossier local & maj de la doc `_docs/local-environnement-setup.md`
+      1. ✅🚨 Structure du projet pour insertion sur serveur > `wp-content/` à la racine du projet ?
+   3. ⏳ Installation persistante > Une fois l'installation de WordPRess terminée via wp-cli
+      1. Populer github avec les fichiers `/wordpress`
+      2. Local > pull
+      3. OVH manager > Sauvegarde BDD
+      4. Dump BDD
+      5. Populer BDD locale
+      6. Récupérer identifiants WP de OVH & populer secrets en local
+2. ✅💻 Serveur OVH
+   1. ✅ Commandé & livré
+   2. ✅🔑 Récupérer les identifiants de base
+   3. ✅🔒️ Modifier tous les identifiants de base qui sont quand même vraiment pas sécurisés
+   4. ✅🙊 Maj secrets
+   5. 💩🐛 Passer en multisite pour site de dev & WordPress 1 clic
+      1. KO version de php ou nom d'admin trop long chp + DNS foireux
+   6. ✅🔍 [Doc wp-cli](https://wp-cli.org/fr/)
+   7. ✅ Installation de [wp-cli](https://make.wordpress.org/cli/handbook/guides/installing/)
+   8. ✅ Installation de WordPress [via wp-cli](https://make.wordpress.org/cli/handbook/how-to-install/)
+      1. Site de dev dispo sur [sous domaine masa](https://dev-pb-modelisme.masamune.fr/)
+3. 🚀 Améliorations WP classiques
+   1. Permaliens
+   2. Mises à jour
+   3. Virer les thèmes inutiles
+   4. Virer les plugins inutiles
+   5. SALT
+   6. Virer `wp-config-sample.php`
+   7. Accélérations WordPress
+4. Installation de woocommerce
 
 Arrêter dev serveur & hebergement
 
