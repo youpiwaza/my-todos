@@ -282,7 +282,7 @@ drwxrwxr-x 24 root root 12288 Nov  5 18:12 wp-includes
 - docker > client ftp pour les sites client : [ftp](https://www.grafikart.fr/tutoriels/proftpd-755) ?
 - nginx > Prevent Flood/DDOS avec la configuration, [tuto grafikart](https://www.grafikart.fr/tutoriels/flood-ddos-fail2ban-884)
   - ✅ Aussi via docker
-    - http://dockerlabs.collabnix.com/advanced/security/cgroups/#step-6-preventing-a-fork-bomb
+    - [hey](http://dockerlabs.collabnix.com/advanced/security/cgroups/#step-6-preventing-a-fork-bomb)
     - --pids-limit 200
 - [Analyser les configurations](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Docker_Security_Cheat_Sheet.md#rule-9---use-static-analysis-tools)
   - Soft qui identifie les failles sécurités au build et lors de l'execution, avec un plan gratuit [Snyk](https://snyk.io/)

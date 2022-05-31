@@ -124,6 +124,7 @@ Vous cherchez Git dans la barre de recherche et vous supprimez les lignes corres
 - Akismet anti pub
 - Bloctel anti démarchage téléphonique
 - Sticker stop pub
+
 ```
 
 - dev++ Corriger/Prévenir problemes devs au fil des années
@@ -223,12 +224,16 @@ Vous cherchez Git dans la barre de recherche et vous supprimez les lignes corres
     - SSD
       - RAID 0
       - Alternative > clé usb en DD virtuel pour cache
-    - Overclock dans BIOS
+    - Politique alimentation PC > performances
+    - Overclock dans BIOS ou via soft (AMD, etc.)
     - Mises à jour de tout, cf. mes TODO
       - Windows update
       - CG
       - (Ubuntu 1 liner)
       - Divers
+    - Mise à jour des drivers, en vrai
+      - [touslesdrivers.com > détection auto](https://www.touslesdrivers.com/index.php?v_page=29)
+      - [.net](https://dotnet.microsoft.com/download) > Runtime
     - Contrôle des comptes utilisateurs
     - Attribution correcte de la mémoire (systèmes > paramètres avancés > Options de performances > Avancé > Mémoire virtuelle)
       - Gestionnaire de tâches > Performance > Mémoire
@@ -260,8 +265,12 @@ Vous cherchez Git dans la barre de recherche et vous supprimez les lignes corres
     - Panneau de conf
       - "Nettoyer"
       - "Fichiers temporaires"
+    - Intégrité des disques durs
+      1. Invite de commande ou Powershell **en admin**
+      2. `chkdsk c: /f /r` (et en fonction de vos disques.. && `chkdsk d: /f /r`, etc.)
+      3. `>Blah blah besoin de redémarrer O/n` >> `O`
+      4. Redémarrer / Attendre 5 ans et demi sauf si t'as un SSD/Nvme
     - Défragmenter (si != SSD)
-    - Intégrité des disques durs > `chkdsk c: /f`
     - Augmenter la RAM avec clé USB au cul
     - [💖 millomaker pc -150€ & très bonne optimisation windows 10](https://www.youtube.com/watch?v=q4MBvlH3zK0)
       - & liste de matos amazon en description

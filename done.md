@@ -2,6 +2,41 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 27/05/22
+
+Taf
+
+PB Modelisme
+
+1. ✅ Repo projet de base
+   1. ✅ Fichiers de config
+   2. ✅ READMEs
+2. ✅ Repo de base
+3. ✅💻 Commander hébergement
+
+Arrêter dev serveur & hebergement
+
+1. ✅ Envoyer mail clients
+2. ✅ Virer `C:\Users\masam\Documents\_dev\nouveau serveur anciens backups`
+3. ✅ Cleaner repo sacrets
+4. ✅🔥 Ancien serveur
+   1. ✅🔥 Lapie
+   2. ✅🔥 emorizet
+   3. ✅🔥 framboise
+   4. ✅🔥 hadrien belkebir
+   5. masamune
+      1. ✅🔥 le reste
+   6. ✅🔥 ppicard
+   7. ✅🔥 rlafitte
+   8. ✅🔥 sophie berberian
+   9. ✅🔥 scripts
+   10. ✅🔥 vmail
+   11. ✅🔥 youpiwaza
+
+Clôture cryptor
+
+1. ✅ Boilerplate rupture de contrat
+
 ## 20/05/22
 
 Taf
