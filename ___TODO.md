@@ -44,17 +44,29 @@ Taf
 
 PB Modelisme
 
-1. ⏳ Environnement de dev local
+1. ✅ Environnement de dev local
    1. ✅ Crafts n' tests > `pb-modelisme--com/_docs/craft-and-tests/01-craft-docker-compose-file/README.md`
    2. ✅ Création du dossier local & maj de la doc `_docs/local-environnement-setup.md`
       1. ✅🚨 Structure du projet pour insertion sur serveur > `wp-content/` à la racine du projet ?
-   3. ⏳ Installation persistante > Une fois l'installation de WordPRess terminée via wp-cli
-      1. Populer github avec les fichiers `/wordpress`
-      2. Local > pull
-      3. OVH manager > Sauvegarde BDD
-      4. Dump BDD
-      5. Populer BDD locale
-      6. Récupérer identifiants WP de OVH & populer secrets en local
+   3. ✅ Installation persistante > Une fois l'installation de WordPRess terminée via wp-cli
+      1. ✅ Populer github avec les fichiers `/wordpress`
+      2. ✅ Local > pull
+      3. ✅ OVH manager > Sauvegarde BDD
+      4. ✅ Populer BDD locale > Installation
+      5. ✅ Récupérer identifiants WP de OVH & populer secrets en local
+   4. ✅ Ajout de wp-cli
+      1. 💩 KO en `docker run`
+      2. ✅🔨📌 Ajout au docker-compose
+         1. ✅ Test au lancement
+         2. ✅ Test des commandes basiques
+      3. ✅👌 Mise au propre
+         1. ✅ Local DC
+            1. ✅ 🐛 Ajuster l'utilisateur
+         2. ✅📝 Doc & principales commandes
+   5. ✅🐛 Problème lors des mises à jour via admin wordpress (traductions, plugins, etc.)
+      1. ✅ wp-config > passer outre les identifiants sftp
+      2. ✅ Se connecter au conteneur wp en tant que root & `chown -R www-data:www-data wp-content/`
+      3. ✅ FIX & Doc
 2. ✅💻 Serveur OVH
    1. ✅ Commandé & livré
    2. ✅🔑 Récupérer les identifiants de base
@@ -65,21 +77,37 @@ PB Modelisme
    6. ✅🔍 [Doc wp-cli](https://wp-cli.org/fr/)
    7. ✅ Installation de [wp-cli](https://make.wordpress.org/cli/handbook/guides/installing/)
    8. ✅ Installation de WordPress [via wp-cli](https://make.wordpress.org/cli/handbook/how-to-install/)
-      1. Site de dev dispo sur [sous domaine masa](https://dev-pb-modelisme.masamune.fr/)
-3. 🚀 Améliorations WP classiques
-   1. Permaliens
-   2. Mises à jour
-   3. Virer les thèmes inutiles
-   4. Virer les plugins inutiles
-   5. SALT
-   6. Virer `wp-config-sample.php`
-   7. Accélérations WordPress
-4. Installation de woocommerce
+      1. ✅ Site de dev dispo sur [sous domaine masa](https://dev-pb-modelisme.masamune.fr/)
+3. ✅⚡️👷 Flux de développement via git afin d'éviter les conflits
+4. ⏳ Améliorations WP classiques
+   1. ✅ Permaliens
+   2. ✅ Virer les plugins inutiles
+   3. ✅ Virer les thèmes inutiles
+   4. ✅ Mises à jour
+   5. ✅ SALT
+   6. ✅ Virer `wp-config-sample.php`
+   7. ⏳🔒️ Erreurs console ? Ressources dans wp-include/ en 404 > Besoin https
+      1. Santé du site
+5. 💥💥💥 host `www/` > Rajouter un .htaccess deny all
+6. 🚀 Passage DNS de masa vers dev.pb
+   1. ✅ OVH Manager > multi-site > Prise en charge du NDD
+   2. ✅ Call avec Cédric pour mise en place (entrée supl. vérif possession DNS > TXT)
+   3. ⏳ Attente mise en place TXT & tests
+7. 💥 local > dev > Dupliquer la BDD grâce à modification de l'adresse dans wp-config ?? yay
+   1. [doc offi](https://fr.wordpress.org/support/article/running-a-development-copy-of-wordpress/#modifier-ladresse-du-site)
+8. Analyse de la structure de BDD WP + WooCommerce
+   1. 🤏✅ MCD WordPress Vanilla
+   2. ✅ Installation de woocommerce
+   3. 🤏✅ MCD WP WC
+   4. ✅ Plutôt comparaison exports SQL pour gain de temps
+   5. 🚀 Faire des diffs
+      1. Ajout d'un produit
+      2. Ajout d'une [catégorie](https://fr.wordpress.org/support/article/taxonomies/)
+      3. Ajout d'une sous catégorie
 
 Arrêter dev serveur & hebergement
 
-1. [WordPress 6.0 sortie le 24/05](https://fr.wordpress.org/2022/05/04/guide-des-changements-techniques-de-wordpress-6-0/)
-2. Migrer clients
+1. Migrer clients
    1. Ancien serveur    `94.23.208.218`
    2. Nouveau serveur   `188.165.253.170`
    3. [Check ip site](https://geekflare.com/tools/whois-hosting)
@@ -96,10 +124,12 @@ Arrêter dev serveur & hebergement
       10. 📧🔑 Envoi des identifiants
       11. ✅ Terminé
    5. Nouveau serveur > all in 1 wp migration
-      1. ✅📂💾 ✅📱 ⏳💻 Sophie berberian
-         1. Kimsufi
+      1. ✅📂💾 ✅📱 💻⏳ Sophie berberian
+         1. À transférer
       2. ✅📂💾 ✅📱 ⏳💻 Champagne didier lapie
+         1. En attente de retour mails/sms
       3. ✅📂💾 ✅💻⏳ ALD infographie
+         1. À transférer
       4. Si champ & ald KO > Export bdd via migration & gestion des fichiers par `ansible-install-web-server/commandes-backup-volumes-a-la-maing_secret.md`
    6. Ancien serveur
       1. 📧🔑 Heberg picard > Déjà en place sur un hébergement dédié, à cleaner
@@ -112,16 +142,15 @@ Arrêter dev serveur & hebergement
          1. Envoyer dump datas par wetransfer, pas de remise en ligne
       5. ✅📂💾 ✅💻⏳ masamune
          1. ✅📂💾 blog
-         2. ✅📂💾 recup blog
-         3. ✅📂💾 site
-         4. ✅📂 stockage
+         2. ✅📂💾 site
       6. ✅📂💾 ✅📱 mkasza
          1. Envoyer dump datas par wetransfer, pas de remise en ligne
       7. ✅📂💾 ✅📱 ⏳💻 MLecuyer
+         1. En attente de retour mail/sms
       8. `/mysql` ? Attendre fin récup BDDs
-3. Remettre tous les anciens trucs max dans un seul dossier sur un seul dd (~bureau ancien pc)
-4. Cleaner google drive
-5. Résilier les deux serveurs ? ou garder likorne > Bare metal Nginx pour wam ?
+2. Remettre tous les anciens trucs max dans un seul dossier sur un seul dd (~bureau ancien pc)
+3. Cleaner google drive
+4. Résilier les deux serveurs ? ou garder likorne > Bare metal Nginx pour wam ?
 
 Clôture cryptor
 

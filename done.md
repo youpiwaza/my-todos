@@ -2,6 +2,14 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 03/06/22
+
+AE / Flinguer hebergement
+
+1. masamune
+   1. ✅📂💾 recup blog
+   2. ✅📂 stockage
+
 ## 27/05/22
 
 Taf
