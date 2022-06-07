@@ -4,11 +4,70 @@ Les tâches terminées des semaines précédentes :)
 
 ## 03/06/22
 
+Taf
+
+PB Modelisme
+
+1. ✅ Environnement de dev local
+   1. ✅ Crafts n' tests > `pb-modelisme--com/_docs/craft-and-tests/01-craft-docker-compose-file/README.md`
+   2. ✅ Création du dossier local & maj de la doc `_docs/local-environnement-setup.md`
+      1. ✅🚨 Structure du projet pour insertion sur serveur > `wp-content/` à la racine du projet ?
+   3. ✅ Installation persistante > Une fois l'installation de WordPRess terminée via wp-cli
+      1. ✅ Populer github avec les fichiers `/wordpress`
+      2. ✅ Local > pull
+      3. ✅ OVH manager > Sauvegarde BDD
+      4. ✅ Populer BDD locale > Installation
+      5. ✅ Récupérer identifiants WP de OVH & populer secrets en local
+   4. ✅ Ajout de wp-cli
+      1. 💩 KO en `docker run`
+      2. ✅🔨📌 Ajout au docker-compose
+         1. ✅ Test au lancement
+         2. ✅ Test des commandes basiques
+      3. ✅👌 Mise au propre
+         1. ✅ Local DC
+            1. ✅ 🐛 Ajuster l'utilisateur
+         2. ✅📝 Doc & principales commandes
+   5. ✅🐛 Problème lors des mises à jour via admin wordpress (traductions, plugins, etc.)
+      1. ✅ wp-config > passer outre les identifiants sftp
+      2. ✅ Se connecter au conteneur wp en tant que root & `chown -R www-data:www-data wp-content/`
+      3. ✅ FIX & Doc
+2. ✅💻 Serveur OVH
+   1. ✅ Commandé & livré
+   2. ✅🔑 Récupérer les identifiants de base
+   3. ✅🔒️ Modifier tous les identifiants de base qui sont quand même vraiment pas sécurisés
+   4. ✅🙊 Maj secrets
+   5. 💩🐛 Passer en multisite pour site de dev & WordPress 1 clic
+      1. KO version de php ou nom d'admin trop long chp + DNS foireux
+   6. ✅🔍 [Doc wp-cli](https://wp-cli.org/fr/)
+   7. ✅ Installation de [wp-cli](https://make.wordpress.org/cli/handbook/guides/installing/)
+   8. ✅ Installation de WordPress [via wp-cli](https://make.wordpress.org/cli/handbook/how-to-install/)
+      1. ✅ Site de dev dispo sur [sous domaine masa](https://dev-pb-modelisme.masamune.fr/)
+3. ✅⚡️👷 Flux de développement via git afin d'éviter les conflits
+4. ⏳ Améliorations WP classiques
+   1. ✅ Permaliens
+   2. ✅ Virer les plugins inutiles
+   3. ✅ Virer les thèmes inutiles
+   4. ✅ Mises à jour
+   5. ✅ SALT
+   6. ✅ Virer `wp-config-sample.php`
+5. 🚀 Passage DNS de masa vers dev.pb
+   1. ✅ OVH Manager > multi-site > Prise en charge du NDD
+   2. ✅ Call avec Cédric pour mise en place (entrée supl. vérif possession DNS > TXT)
+6. Analyse de la structure de BDD WP + WooCommerce
+   1. 🤏✅ MCD WordPress Vanilla
+   2. ✅ Installation de woocommerce
+   3. 🤏✅ MCD WP WC
+   4. ✅ Plutôt comparaison exports SQL pour gain de temps
+
 AE / Flinguer hebergement
 
-1. masamune
+1. ⏳ Baptiste guerechi > envoi archive sauvegarde
+   1. Attente confirmation réception
+2. masamune
    1. ✅📂💾 recup blog
    2. ✅📂 stockage
+3. ⏳ mkasza > envoi archive sauvegarde
+   1. Attente confirmation remise en place
 
 ## 27/05/22
 

@@ -44,63 +44,16 @@ Taf
 
 PB Modelisme
 
-1. ✅ Environnement de dev local
-   1. ✅ Crafts n' tests > `pb-modelisme--com/_docs/craft-and-tests/01-craft-docker-compose-file/README.md`
-   2. ✅ Création du dossier local & maj de la doc `_docs/local-environnement-setup.md`
-      1. ✅🚨 Structure du projet pour insertion sur serveur > `wp-content/` à la racine du projet ?
-   3. ✅ Installation persistante > Une fois l'installation de WordPRess terminée via wp-cli
-      1. ✅ Populer github avec les fichiers `/wordpress`
-      2. ✅ Local > pull
-      3. ✅ OVH manager > Sauvegarde BDD
-      4. ✅ Populer BDD locale > Installation
-      5. ✅ Récupérer identifiants WP de OVH & populer secrets en local
-   4. ✅ Ajout de wp-cli
-      1. 💩 KO en `docker run`
-      2. ✅🔨📌 Ajout au docker-compose
-         1. ✅ Test au lancement
-         2. ✅ Test des commandes basiques
-      3. ✅👌 Mise au propre
-         1. ✅ Local DC
-            1. ✅ 🐛 Ajuster l'utilisateur
-         2. ✅📝 Doc & principales commandes
-   5. ✅🐛 Problème lors des mises à jour via admin wordpress (traductions, plugins, etc.)
-      1. ✅ wp-config > passer outre les identifiants sftp
-      2. ✅ Se connecter au conteneur wp en tant que root & `chown -R www-data:www-data wp-content/`
-      3. ✅ FIX & Doc
-2. ✅💻 Serveur OVH
-   1. ✅ Commandé & livré
-   2. ✅🔑 Récupérer les identifiants de base
-   3. ✅🔒️ Modifier tous les identifiants de base qui sont quand même vraiment pas sécurisés
-   4. ✅🙊 Maj secrets
-   5. 💩🐛 Passer en multisite pour site de dev & WordPress 1 clic
-      1. KO version de php ou nom d'admin trop long chp + DNS foireux
-   6. ✅🔍 [Doc wp-cli](https://wp-cli.org/fr/)
-   7. ✅ Installation de [wp-cli](https://make.wordpress.org/cli/handbook/guides/installing/)
-   8. ✅ Installation de WordPress [via wp-cli](https://make.wordpress.org/cli/handbook/how-to-install/)
-      1. ✅ Site de dev dispo sur [sous domaine masa](https://dev-pb-modelisme.masamune.fr/)
-3. ✅⚡️👷 Flux de développement via git afin d'éviter les conflits
-4. ⏳ Améliorations WP classiques
-   1. ✅ Permaliens
-   2. ✅ Virer les plugins inutiles
-   3. ✅ Virer les thèmes inutiles
-   4. ✅ Mises à jour
-   5. ✅ SALT
-   6. ✅ Virer `wp-config-sample.php`
-   7. ⏳🔒️ Erreurs console ? Ressources dans wp-include/ en 404 > Besoin https
+1. ⏳ Améliorations WP classiques
+   1. ⏳🔒️ Erreurs console ? Ressources dans wp-include/ en 404 > Besoin https
       1. Santé du site
-5. 💥💥💥 host `www/` > Rajouter un .htaccess deny all
-6. 🚀 Passage DNS de masa vers dev.pb
-   1. ✅ OVH Manager > multi-site > Prise en charge du NDD
-   2. ✅ Call avec Cédric pour mise en place (entrée supl. vérif possession DNS > TXT)
-   3. ⏳ Attente mise en place TXT & tests
-7. 💥 local > dev > Dupliquer la BDD grâce à modification de l'adresse dans wp-config ?? yay
+2. 💥💥💥 Hebergement > host `www/` > Rajouter un .htaccess deny all
+3. 🚀 Passage DNS de masa vers dev.pb
+   1. ⏳ Attente mise en place TXT & tests
+4. 💥 local > dev > Dupliquer la BDD grâce à modification de l'adresse dans wp-config ?? yay
    1. [doc offi](https://fr.wordpress.org/support/article/running-a-development-copy-of-wordpress/#modifier-ladresse-du-site)
-8. Analyse de la structure de BDD WP + WooCommerce
-   1. 🤏✅ MCD WordPress Vanilla
-   2. ✅ Installation de woocommerce
-   3. 🤏✅ MCD WP WC
-   4. ✅ Plutôt comparaison exports SQL pour gain de temps
-   5. 🚀 Faire des diffs
+5. Analyse de la structure de BDD WP + WooCommerce
+   1. 🚀 Faire des diffs
       1. Ajout d'un produit
       2. Ajout d'une [catégorie](https://fr.wordpress.org/support/article/taxonomies/)
       3. Ajout d'une sous catégorie
@@ -124,12 +77,13 @@ Arrêter dev serveur & hebergement
       10. 📧🔑 Envoi des identifiants
       11. ✅ Terminé
    5. Nouveau serveur > all in 1 wp migration
-      1. ✅📂💾 ✅📱 💻⏳ Sophie berberian
-         1. À transférer
-      2. ✅📂💾 ✅📱 ⏳💻 Champagne didier lapie
+      1. ⏳ Sophie berberian
+         1. Transfert terminé, en attente de retour client
+      2. ⏳💻 Champagne didier lapie
          1. En attente de retour mails/sms
-      3. ✅📂💾 ✅💻⏳ ALD infographie
-         1. À transférer
+      3. 🚀 ALD infographie
+         1. 💥 Refaire sauvegarde (modifications faites entre temps)
+         2. À transférer
       4. Si champ & ald KO > Export bdd via migration & gestion des fichiers par `ansible-install-web-server/commandes-backup-volumes-a-la-maing_secret.md`
    6. Ancien serveur
       1. 📧🔑 Heberg picard > Déjà en place sur un hébergement dédié, à cleaner
@@ -138,16 +92,13 @@ Arrêter dev serveur & hebergement
          2. [mysql](http://94.23.208.218/phpMyAdmin-NEW/) > Enregistré dans dashlane
       3. ✅ Récupérer tout `/home`
          1. et trier
-      4. ✅📂💾 ✅📱 Baptiste guerechi
-         1. Envoyer dump datas par wetransfer, pas de remise en ligne
-      5. ✅📂💾 ✅💻⏳ masamune
+      4. ✅📂💾 ✅💻⏳ masamune
          1. ✅📂💾 blog
          2. ✅📂💾 site
-      6. ✅📂💾 ✅📱 mkasza
-         1. Envoyer dump datas par wetransfer, pas de remise en ligne
-      7. ✅📂💾 ✅📱 ⏳💻 MLecuyer
+      5. ✅📂💾 ✅📱 ⏳💻 MLecuyer
          1. En attente de retour mail/sms
-      8. `/mysql` ? Attendre fin récup BDDs
+            1. ♻️ Relancé le 07/06/2022
+      6. `/mysql` ? Attendre fin récup BDDs
 2. Remettre tous les anciens trucs max dans un seul dossier sur un seul dd (~bureau ancien pc)
 3. Cleaner google drive
 4. Résilier les deux serveurs ? ou garder likorne > Bare metal Nginx pour wam ?
@@ -184,7 +135,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
   - ✅💥 Ce fichier > ### Shame 💥 Cleaner pour vrai les trucs ou je ne passe jamais
     - ✅ Ranger dans fichiers TODO correspondant
       - ✅ Prioriser
-- ⏳ Virer ce qui traine
+- ✅ Virer ce qui traine
   - ✅ sur le bureau
   - 💩 dans le dossier _shame du bureau
   - 💩 Lel ~(local)/_dev/_shame
@@ -194,8 +145,8 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 - ✅ Déplacer veille onglets dans TODO_veille
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
-- ⏳ Déclaration Auto entrepreneur
-  - ⏳ Mai 2022
+- ✅ Déclaration Auto entrepreneur
+  - ✅ Mai 2022
 - ⏳ Vérifier impôts sur espace / Dernière vérif 15/08/2021
   - ⏳ Perso  / ⏳ 23/05/22
   - ⏳ Pro    / ⏳ 23/05/22 (CFE réglé le 17/11/2021)
@@ -208,9 +159,9 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
     4. Redémarrer / Attendre 5 ans et demi sauf si t'as un SSD/Nvme
   - ✅ Windaube
     - ✅ Update alakon
-    - ⏳ [.net](https://dotnet.microsoft.com/download) > Runtime
+    - ✅ [.net](https://dotnet.microsoft.com/download) > Runtime
     - ✅ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
-  - ⏳ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
+  - ✅ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
   - ✅ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
     - ✅ Dell support assist
     - ✅ Alienware update
@@ -224,7 +175,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
   - ✅ Supprimer les fichiers temporaires
     - Exec > `temp` // Devrait ouvrir `~c:Windows\Temp`
     - Supprimer tout, Ignorer ceux utilisés
-  - ✅ WSL
+  - ✅ WSL 2
     - Version Ubuntu
       - Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
     - Packages & terminal
@@ -237,7 +188,7 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
 - ⏳ Maj budget couple
 - ⏳ Téléphone
   - ⏳ Maj de la base
-  - ⏳ Maj des applications
+  - ✅ Maj des applications
   - ⏳ Tous les 6 mois > reset usine
 - ✅ Compléments alimentaires
   - ✅ Anaca3
@@ -317,8 +268,7 @@ Rieng
 2. Trouver logiciel budget couple
 3. 🚀 Musiques taf & portable
 4. ✅ concert 10/06 maximum the hormone
-      1. 🚀 trains, et utiliser [reductions](https://mail.google.com/mail/u/0/#inbox/KtbxLxgZZVNcfFNSbtrStGMpWXmfCKPsJB)
-      2. Prendre un poil plus tôt
+      1. ✅ trains, et utiliser [reductions](https://mail.google.com/mail/u/0/#inbox/KtbxLxgZZVNcfFNSbtrStGMpWXmfCKPsJB)
 5. Blog groupe metal que j'aime bieng ou pas en concert
 6. Films
    1. Ciné
