@@ -2,6 +2,76 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 10/06/22
+
+Taf
+
+PB Modelisme
+
+1. ✅ Facture juin
+2. 🚀 Passage DNS de masa vers dev.pb
+   1. ✅ Attente mise en place TXT & tests
+
+Arrêter dev serveur & hebergement
+
+1. Migrer clients
+   1. ✅ Champagne didier lapie
+      1. ✅ Commander hébergement Perf
+      2. ✅ Maj tout dans ovh manager  
+      3. ✅ Uploader base wordpress DE LA MEME VERSION QUE CELLE EN LIGNE
+      4. ✅ Recup wp-config
+      5. ✅ Réinstallation wp
+         1. ✅ Test avec php 7.4 ????
+            1. ✅💩 Un seul plugin qui bloque > Viré > Ok 8.1
+      6. ✅ Maj identifiants
+      7. ✅ Injecter anciens fichiers
+      8. ✅ Injecter ancienne bdd via all in one wp migration
+      9. ✅📌 Tests
+      10. ✅ Maj permaliens
+      11. ✅ Sauvegarder fichiers dans dossier `_backups`
+      12. ✅ Mises à jour VIA ADMIN WP
+      13. ✅ Remettre php 8.0 ou 8.1
+      14. ✅ Re-sauvegardes
+   2. 🚀 masamune
+      1. 💩 masamune--fr
+         1. ✅ Uploader base wordpress
+         2. ✅ Recup wp-config
+         3. ✅ Réinstallation wp
+         4. ✅ Maj identifiants
+         5. ✅ Virer tous les commentaires (indésirables)
+         6. ✅ Injecter ancienne bdd
+         7. ✅ Injecter Ancien fichiers
+         8. 💩 KO > Theme & Plugins
+            1. ✅ Virer tous les plugins & themes
+            2. ✅ Virer toutes les tables alakon en bdd
+         9. ✅ Maj permaliens
+         10. ✅ Mises à jour
+         11. 💩 Trop de merde
+2. Ranger merdier dans /dev/current
+   1. Sur disque dur externe
+      1. ✅ ALD infographie
+      2. ✅ Baptiste guereschi
+      3. ✅ Champagne didier lapie
+      4. ✅ Margot Kasza
+      5. ✅ Sophie berberian
+
+Perso
+
+1. ✅Préparer lettre icad + mail
+2. ✅app Hellfest + cashless
+3. ✅ Rappeler vincent bbq
+4. ✅ Prévenir darons pour Seth
+5. ✅ Tel > contact Nick christophe's pal > Ajout contact photographe (concert/ethnique)
+6. ✅ Chatte > annuler recherches & affiches
+7. ✅ concert 10/06 maximum the hormone
+   1. ✅ trains, et utiliser [reductions](https://mail.google.com/mail/u/0/#inbox/KtbxLxgZZVNcfFNSbtrStGMpWXmfCKPsJB)
+8. Films
+   1. Ciné
+      1. ✅ Dernier Cronenberg
+9. ✅ Badge salon open source
+10. ✅ Renouveler carte fnac
+11. ✅ Imprimer billets HF 1
+
 ## 03/06/22
 
 Taf

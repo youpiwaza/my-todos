@@ -110,6 +110,7 @@
   - ✅ uv resin et lampe
   - ✅ [Scie rasoir](https://www.greenstuffworld.com/fr/outils-de-coupe/1370-hobby-scie-a-rasoir-precision-modelisme.html)
   - [Liquid pigments](https://www.greenstuffworld.com/fr/261-pigments-liquides)
+  - [Mélangeur peinture](https://www.greenstuffworld.com/fr/peinture/2382-melangeur-rotatif-de-peinture.html)
   - !! Metal pigments !
   - ✅ [Metal filters](https://www.greenstuffworld.com/en/paint/1481-set-metal-filters-interference-colours.html)
   - Rangements !

@@ -33,23 +33,42 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Perso
 
-1. Orga anniv pougnoutte
-   1. Redemander date a pougnoutte
-   2. Demander contact & liste invités
-   3. Demander si logement déjà vu
-   4. Voir pour cagnotte permis moto
-   5. Medieval tents
+1. ⏳ Skald. A refourguer a julie ou aux parents
+2. ⏳ Voir avec dus départ HF jeudi très tôt
+3. 💩 Retrouver mon permis de conduire
+   1. 🚀🚀🚀 Démarche en ligne
+4. Chatte > collier gps + gravé n° de téléphone
+5. [Liste trucs hellfest a ne pas oublier](http://blog.masamune.fr/liste-trucs-emporter-hellfest/)
+6. Envoyer chèques vacances par courrier
+7. Orga anniv pougnoutte
+    1. Redemander date a pougnoutte
+    2. Demander contact & liste invités
+    3. Demander si logement déjà vu
+    4. Voir pour cagnotte permis moto
+    5. Medieval tents
+
+8. Fête fin juin/début juillet ?
+    1. Potes HF
+    2. Margot & Ryan
+    3. Thelma
+    4. etc.
 
 Taf
+
+NDD
+
+1. 🚀🚀 ALD > Facture NDD
 
 PB Modelisme
 
 1. ⏳ Améliorations WP classiques
-   1. ⏳🔒️ Erreurs console ? Ressources dans wp-include/ en 404 > Besoin https
+   1. Attente propagation https, sinon relance netcreative
+   2. ⏳🔒️ Erreurs console ? Ressources dans wp-include/ en 404 > Besoin https
       1. Santé du site
 2. 💥💥💥 Hebergement > host `www/` > Rajouter un .htaccess deny all
 3. 🚀 Passage DNS de masa vers dev.pb
-   1. ⏳ Attente mise en place TXT & tests
+   1. Virer sous domaine masamune
+   2. Virer pb > multisite > masa
 4. 💥 local > dev > Dupliquer la BDD grâce à modification de l'adresse dans wp-config ?? yay
    1. [doc offi](https://fr.wordpress.org/support/article/running-a-development-copy-of-wordpress/#modifier-ladresse-du-site)
 5. Analyse de la structure de BDD WP + WooCommerce
@@ -61,47 +80,54 @@ PB Modelisme
 Arrêter dev serveur & hebergement
 
 1. Migrer clients
-   1. Ancien serveur    `94.23.208.218`
-   2. Nouveau serveur   `188.165.253.170`
-   3. [Check ip site](https://geekflare.com/tools/whois-hosting)
-   4. Légende, dans l'ordre
-      1. 🤔 On conserve ?
-      2. 🌱 A faire
-      3. 📂 Dump fichier OK
-      4. 💾 Dump BDD OK
-      5. 📱 Relane par sms
-      6. 💻 Serveur commandé OK
-      7. ⬆️ Mise en ligne OK
-      8. 📌 Test sans DNS OK
-      9. 🔗 DNS Migré OK
-      10. 📧🔑 Envoi des identifiants
-      11. ✅ Terminé
-   5. Nouveau serveur > all in 1 wp migration
-      1. ⏳ Sophie berberian
-         1. Transfert terminé, en attente de retour client
-      2. ⏳💻 Champagne didier lapie
-         1. En attente de retour mails/sms
-      3. 🚀 ALD infographie
-         1. 💥 Refaire sauvegarde (modifications faites entre temps)
-         2. À transférer
-      4. Si champ & ald KO > Export bdd via migration & gestion des fichiers par `ansible-install-web-server/commandes-backup-volumes-a-la-maing_secret.md`
-   6. Ancien serveur
-      1. 📧🔑 Heberg picard > Déjà en place sur un hébergement dédié, à cleaner
-      2. Identifiants
+   1. Ancien serveur
+      1. Identifiants
          1. ftp > Enregistré dans winscp
          2. [mysql](http://94.23.208.218/phpMyAdmin-NEW/) > Enregistré dans dashlane
-      3. ✅ Récupérer tout `/home`
-         1. et trier
-      4. ✅📂💾 ✅💻⏳ masamune
-         1. ✅📂💾 blog
-         2. ✅📂💾 site
-      5. ✅📂💾 ✅📱 ⏳💻 MLecuyer
-         1. En attente de retour mail/sms
-            1. ♻️ Relancé le 07/06/2022
-      6. `/mysql` ? Attendre fin récup BDDs
-2. Remettre tous les anciens trucs max dans un seul dossier sur un seul dd (~bureau ancien pc)
-3. Cleaner google drive
-4. Résilier les deux serveurs ? ou garder likorne > Bare metal Nginx pour wam ?
+      2. 🚀 masamune
+         1. blog--masamune--fr
+            1. Repartir d'une base propre WP et récupérer/convertir les trucs 1 par 1
+         2. 💩 masamune--fr
+            1. Repartir d'une base propre WP et récupérer/convertir les trucs 1 par 1
+               1. ✅ Articles & pages récupérés
+               2. 🚨 Infos dans ACF
+               3. 🚨 Remplacer toutes les conneries des plugins
+               4. 🚨 Dossier alakon /wp-content/gallery > Contient des images pour le folio
+                  1. Voir si il n'y avait pas un dossier ou un repo git contenant tout le folio
+         3. 🚀 stockage
+            1. Trier
+            2. Uploader
+            3. Vérifier
+      3. 🚀 MLecuyer
+         1. Faire évoluer hébergement déjà pris par ML
+         2. Identifiants dans secrets
+         3. Uploader base wordpress
+         4. Recup wp-config
+         5. Réinstallation wp
+         6. Maj identifiants
+         7. Injecter anciens fichiers
+         8. Injecter ancienne bdd
+         9. Maj permaliens
+         10. Mises à jour
+2. Ranger merdier dans /dev/current
+   1. Sur disque dur externe
+3. 📌⏳ Tests clients
+   1. ⏳ ALD infographie
+      1. Basculer DNS
+      2. Remettre HTTPS
+   2. ⏳ Champagne didier lapie
+      1. Basculer DNS
+      2. Remettre HTTPS
+      3. Réactiver paiement, crédit agricole
+   3. ⏳ Sophie berberian
+      1. BAYDOT
+         1. Basculer DNS
+         2. Remettre HTTPS
+4. Envoyer identifiants clients + passations
+   1. champagne pascal picard
+5. Remettre tous les anciens trucs max dans un seul dossier sur un seul dd (~bureau ancien pc)
+6. Cleaner google drive
+7. Résilier les deux serveurs ? ou garder likorne > Bare metal Nginx pour wam ?
 
 Clôture cryptor
 
@@ -146,7 +172,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
 - ✅ Déclaration Auto entrepreneur
-  - ✅ Mai 2022
+  - ⏳ Juin 2022
 - ⏳ Vérifier impôts sur espace / Dernière vérif 15/08/2021
   - ⏳ Perso  / ⏳ 23/05/22
   - ⏳ Pro    / ⏳ 23/05/22 (CFE réglé le 17/11/2021)
@@ -159,12 +185,12 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
     4. Redémarrer / Attendre 5 ans et demi sauf si t'as un SSD/Nvme
   - ✅ Windaube
     - ✅ Update alakon
-    - ✅ [.net](https://dotnet.microsoft.com/download) > Runtime
-    - ✅ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
-  - ✅ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
-  - ✅ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
-    - ✅ Dell support assist
-    - ✅ Alienware update
+    - ⏳ [.net](https://dotnet.microsoft.com/download) > Runtime
+    - ⏳ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
+  - ⏳ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
+  - ⏳ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
+    - ⏳ Dell support assist
+    - ⏳ Alienware update
   - ✅ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
   - ✅ Logiciels alakon
     - ✅ Ouvrir VScode > Auto update plugins etc.
@@ -172,7 +198,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
     - ⏳ Powershell [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
       - ( [Doc](https://docs.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) )
     - ✅ Nvidia driver
-  - ✅ Supprimer les fichiers temporaires
+  - ⏳ Supprimer les fichiers temporaires
     - Exec > `temp` // Devrait ouvrir `~c:Windows\Temp`
     - Supprimer tout, Ignorer ceux utilisés
   - ✅ WSL 2
@@ -188,7 +214,7 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
 - ⏳ Maj budget couple
 - ⏳ Téléphone
   - ⏳ Maj de la base
-  - ✅ Maj des applications
+  - ⏳ Maj des applications
   - ⏳ Tous les 6 mois > reset usine
 - ✅ Compléments alimentaires
   - ✅ Anaca3
@@ -200,7 +226,7 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
   - ✅ Ginseng / "Super ginko"
   - ✅ Mix vitamine
   - ✅ Doc > vitamine D tous les 6 mois
-- ✅ Tout est Versionné, pas de WIP qui traîne
+- ✅ Tout est versionné, pas de WIP qui traîne
 
 ---
 
@@ -264,27 +290,25 @@ Rieng
 
 ### Trucs **persos**
 
-1. Résilier ESET (besoin de contacter le support ?)
-2. Trouver logiciel budget couple
-3. 🚀 Musiques taf & portable
-4. ✅ concert 10/06 maximum the hormone
-      1. ✅ trains, et utiliser [reductions](https://mail.google.com/mail/u/0/#inbox/KtbxLxgZZVNcfFNSbtrStGMpWXmfCKPsJB)
-5. Blog groupe metal que j'aime bieng ou pas en concert
-6. Films
+1. ⏳ [Changement propriétaire chatte](https://mail.google.com/mail/u/0/#inbox/FMfcgzGllCcNJCZHqcjqlkNJhlNFzwZC)
+2. Concert [BFMV & Jinjer](https://www.songkick.com/concerts/40452239-bullet-for-my-valentine-at-lolympia)
+3. SNCF > Fin contrat pro 30 juin 2022
+4. Résilier ESET (besoin de contacter le support ?)
+5. Trouver logiciel budget couple
+6. 🚀 Musiques taf & portable
+7. Blog groupe metal que j'aime bieng ou pas en concert
+8. Films
    1. Ciné
       1. Nick cage
-      2. Dernier Cronenberg
-      3. Everything everywhere all at once
+      2. Everything everywhere all at once
    2. death of dick long
-7. Export photos tel & maj drive
-8. Peinture Chtulu
+9. Export photos tel & maj drive
+10. Peinture Chtulu
     1. [How to paint Extreme Light Sources - OSL tutorial](https://www.youtube.com/watch?v=c48UiPSBfcg)
     2. [INDESTRUCTIBLE Gaming Bases - Quick & Easy](https://www.youtube.com/watch?v=tRFfsAG-Yf8)
     3. Green gold pour le [grand ancien](https://www.youtube.com/watch?v=AgJqjIMd6k8)
-9. [Patinoire](https://mail.google.com/mail/u/0/#inbox/FMfcgzGmvLQjSdlzHqNgpnCFgHjXWZlW)
-10. Retrouver Permis conduire
-11. DL vidéos WTF youtoob
-12. [Changement propriétaire chatte](https://mail.google.com/mail/u/0/#inbox/FMfcgzGllCcNJCZHqcjqlkNJhlNFzwZC)
+11. [Patinoire](https://mail.google.com/mail/u/0/#inbox/FMfcgzGmvLQjSdlzHqNgpnCFgHjXWZlW)
+12. DL vidéos WTF youtoob
 13. Faire article mise en place/réparation/optimisation de pc
     1. [hey](https://www.drivereasy.com/knowledge/100-disk-usage-windows-10-fixed/)
     2. [hoy](https://www.makeuseof.com/tips-fix-100-disk-usage-improve-windows-performance/)
