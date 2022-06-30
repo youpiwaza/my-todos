@@ -64,32 +64,43 @@ NDD
 
 PB Modelisme
 
-1. ⏳ Améliorations WP classiques
-   1. Attente propagation https, sinon relance netcreative
-   2. ⏳🔒️ Erreurs console ? Ressources dans wp-include/ en 404 > Besoin https
-      1. Santé du site
-2. ✅ Hebergement > host `www/` > Rajouter un .htaccess deny all
-3. ✅ Passage DNS de masa vers dev.pb
+1. 🌱⏳ Améliorations WP classiques
+   1. ⏳🔒️ Attente https
+   2. Vérifier Erreurs console ? Ressources dans wp-include/ en 404 > Besoin https
+   3. WP admin > Santé du site
+2. 🌱 local > dev > Dupliquer la BDD grâce à modification de l'adresse dans wp-config ?? yay
+   1. [doc offi](https://fr.wordpress.org/support/article/running-a-development-copy-of-wordpress/#modifier-ladresse-du-site)
+3. ✅ Hebergement > host `www/` > Rajouter un .htaccess deny all
+4. ✅ Passage DNS de masa vers dev.pb
    1. ✅ Virer sous domaine masamune
    2. ✅ Virer pb > multisite > masa
-4. 🌱 local > dev > Dupliquer la BDD grâce à modification de l'adresse dans wp-config ?? yay
-   1. [doc offi](https://fr.wordpress.org/support/article/running-a-development-copy-of-wordpress/#modifier-ladresse-du-site)
-5. Analyse de la structure de BDD WP + WooCommerce
+5. ✅ Analyse de la structure de BDD WP + WooCommerce
    1. 💩 Faire des diffs
       1. ✅ Ajout d'un produit
       2. ✅ Ajout d'une [catégorie](https://fr.wordpress.org/support/article/taxonomies/)
       3. ✅ Ajout d'une sous catégorie
       4. 💩 Pas mal de trucs à côté de modifier, **besoin** de passer par import régulier, pas de sql à l'arrache
          1. 🔍 Plugin classique (+ manip dev pour champs persos) ou plugin payant
+6. ✅🧠💥 Remise au propre des objectifs à court terme
+7. ✅📌 Tests d'imports [plugin officiel](https://woocommerce.com/document/product-csv-importer-exporter/)
+   1. ✅ Tester l'export de produits
+   2. ✅ Tester l'import de produits
+   3. ✅ Tester la mise à jour de produits
+   4. ✅ Tester l'import avec colonnes custom [plugin officiel > github](https://github.com/woocommerce/woocommerce/wiki/Product-CSV-Importer-&-Exporter#adding-custom-import-columns-developers)
+8. 📌 ACF
+   1. 🔍 Voir ou ça en est
+   2. Export
+   3. Import
+   4. Mise à jour
 
-Arrêter dev serveur & hebergement
+Arrêter dev serveur & hebergement > Week end SEULEMENT
 
 1. Migrer clients
    1. Ancien serveur
       1. Identifiants
          1. ftp > Enregistré dans winscp
          2. [mysql](http://94.23.208.218/phpMyAdmin-NEW/) > Enregistré dans dashlane
-      2. 🚀 masamune
+      2. masamune
          1. blog--masamune--fr
             1. Repartir d'une base propre WP et récupérer/convertir les trucs 1 par 1
          2. 💩 masamune--fr
@@ -104,7 +115,7 @@ Arrêter dev serveur & hebergement
             2. ✅ Uploader
             3. ✅ Vérifier
             4. ✅ Protéger accès racine
-      3. 🚀 MLecuyer
+      3. MLecuyer
          1. Fixer une date pour faire la bascule (besoin accès SMS)
          2. Faire évoluer hébergement déjà pris par ML
          3. Identifiants dans secrets
