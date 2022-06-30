@@ -33,21 +33,22 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Perso
 
-1. ⏳ Skald. A refourguer a julie ou aux parents
-2. ⏳ Voir avec dus départ HF jeudi très tôt
-3. 💩 Retrouver mon permis de conduire
-   1. 🚀🚀🚀 Démarche en ligne
-4. Chatte > collier gps + gravé n° de téléphone
-5. [Liste trucs hellfest a ne pas oublier](http://blog.masamune.fr/liste-trucs-emporter-hellfest/)
-6. Envoyer chèques vacances par courrier
-7. Orga anniv pougnoutte
+1. Changer filtre caisse chatte
+2. Chatte > carnet santé en ligne
+3. Boursorama > appeler pour compte pougnoutte + rachat crédit immo
+4. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg) ?
+5. Chatte disparue > passer à la boulangerie enlever l'avis de recherche
+6. 🚀 [Skald](https://mail.google.com/mail/u/0/#inbox/FMfcgzGllVqqnCLcTDzRlDQTwnhlHFdM). A refourguer a mes parents
+7. ⏳ Renouveler permis de conduire
+   1. ⏳ En attente de retour ~15/07/22
+8. Chatte > collier gps + gravé n° de téléphone
+9. Orga anniv pougnoutte
     1. Redemander date a pougnoutte
     2. Demander contact & liste invités
     3. Demander si logement déjà vu
     4. Voir pour cagnotte permis moto
     5. Medieval tents
-
-8. Fête fin juin/début juillet ?
+10. Fête fin juin/début juillet ?
     1. Potes HF
     2. Margot & Ryan
     3. Thelma
@@ -57,7 +58,9 @@ Taf
 
 NDD
 
-1. 🚀🚀 ALD > Facture NDD
+1. ⏳ ALD
+   1. ✅ Facture NDD
+   2. ⏳ Paiement
 
 PB Modelisme
 
@@ -65,17 +68,19 @@ PB Modelisme
    1. Attente propagation https, sinon relance netcreative
    2. ⏳🔒️ Erreurs console ? Ressources dans wp-include/ en 404 > Besoin https
       1. Santé du site
-2. 💥💥💥 Hebergement > host `www/` > Rajouter un .htaccess deny all
-3. 🚀 Passage DNS de masa vers dev.pb
-   1. Virer sous domaine masamune
-   2. Virer pb > multisite > masa
-4. 💥 local > dev > Dupliquer la BDD grâce à modification de l'adresse dans wp-config ?? yay
+2. ✅ Hebergement > host `www/` > Rajouter un .htaccess deny all
+3. ✅ Passage DNS de masa vers dev.pb
+   1. ✅ Virer sous domaine masamune
+   2. ✅ Virer pb > multisite > masa
+4. 🌱 local > dev > Dupliquer la BDD grâce à modification de l'adresse dans wp-config ?? yay
    1. [doc offi](https://fr.wordpress.org/support/article/running-a-development-copy-of-wordpress/#modifier-ladresse-du-site)
 5. Analyse de la structure de BDD WP + WooCommerce
-   1. 🚀 Faire des diffs
-      1. Ajout d'un produit
-      2. Ajout d'une [catégorie](https://fr.wordpress.org/support/article/taxonomies/)
-      3. Ajout d'une sous catégorie
+   1. 💩 Faire des diffs
+      1. ✅ Ajout d'un produit
+      2. ✅ Ajout d'une [catégorie](https://fr.wordpress.org/support/article/taxonomies/)
+      3. ✅ Ajout d'une sous catégorie
+      4. 💩 Pas mal de trucs à côté de modifier, **besoin** de passer par import régulier, pas de sql à l'arrache
+         1. 🔍 Plugin classique (+ manip dev pour champs persos) ou plugin payant
 
 Arrêter dev serveur & hebergement
 
@@ -94,33 +99,38 @@ Arrêter dev serveur & hebergement
                3. 🚨 Remplacer toutes les conneries des plugins
                4. 🚨 Dossier alakon /wp-content/gallery > Contient des images pour le folio
                   1. Voir si il n'y avait pas un dossier ou un repo git contenant tout le folio
-         3. 🚀 stockage
-            1. Trier
-            2. Uploader
-            3. Vérifier
+         3. ✅ stockage
+            1. ✅ Trier
+            2. ✅ Uploader
+            3. ✅ Vérifier
+            4. ✅ Protéger accès racine
       3. 🚀 MLecuyer
-         1. Faire évoluer hébergement déjà pris par ML
-         2. Identifiants dans secrets
-         3. Uploader base wordpress
-         4. Recup wp-config
-         5. Réinstallation wp
-         6. Maj identifiants
-         7. Injecter anciens fichiers
-         8. Injecter ancienne bdd
-         9. Maj permaliens
-         10. Mises à jour
+         1. Fixer une date pour faire la bascule (besoin accès SMS)
+         2. Faire évoluer hébergement déjà pris par ML
+         3. Identifiants dans secrets
+         4. Uploader base wordpress
+         5. Recup wp-config
+         6. Réinstallation wp
+         7. Maj identifiants
+         8. Injecter anciens fichiers
+         9. Injecter ancienne bdd
+         10. Maj permaliens
+         11. Mises à jour
 2. Ranger merdier dans /dev/current
    1. Sur disque dur externe
 3. 📌⏳ Tests clients
    1. ⏳ ALD infographie
-      1. Basculer DNS
-      2. Remettre HTTPS
+      1. ✅ Relance clients : bascule auto si pas de news
+      2. Basculer DNS
+      3. Remettre HTTPS
    2. ⏳ Champagne didier lapie
-      1. Basculer DNS
-      2. Remettre HTTPS
-      3. Réactiver paiement, crédit agricole
+      1. ✅ Relance clients : bascule auto si pas de news
+      2. Basculer DNS
+      3. Remettre HTTPS
+      4. Réactiver paiement, crédit agricole
    3. ⏳ Sophie berberian
-      1. BAYDOT
+      1. ✅ Relance clients : bascule auto si pas de news
+      2. BAYDOT
          1. Basculer DNS
          2. Remettre HTTPS
 4. Envoyer identifiants clients + passations
@@ -128,13 +138,6 @@ Arrêter dev serveur & hebergement
 5. Remettre tous les anciens trucs max dans un seul dossier sur un seul dd (~bureau ancien pc)
 6. Cleaner google drive
 7. Résilier les deux serveurs ? ou garder likorne > Bare metal Nginx pour wam ?
-
-Clôture cryptor
-
-1. ✅ Doc de fin de contrat a signer + signature electronique
-   1. ⏳ Signature
-2. ✅ Facture
-   1. ⏳ Règlement
 
 Environnement de dev local clean
 
@@ -171,7 +174,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 - ✅ Déplacer veille onglets dans TODO_veille
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
-- ✅ Déclaration Auto entrepreneur
+- ⏳ Déclaration Auto entrepreneur
   - ⏳ Juin 2022
 - ⏳ Vérifier impôts sur espace / Dernière vérif 15/08/2021
   - ⏳ Perso  / ⏳ 23/05/22
@@ -186,19 +189,20 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
   - ✅ Windaube
     - ✅ Update alakon
     - ⏳ [.net](https://dotnet.microsoft.com/download) > Runtime
-    - ⏳ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
-  - ⏳ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
+    - ✅ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
+  - ✅ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
   - ⏳ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
     - ⏳ Dell support assist
     - ⏳ Alienware update
-  - ✅ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
+  - ⏳ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
   - ✅ Logiciels alakon
     - ✅ Ouvrir VScode > Auto update plugins etc.
-    - ~~Filezilla~~ ✅ WinSCP, ✅ OBS, ✅ VLC, ESET, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
-    - ⏳ Powershell [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
+    - ~~Filezilla~~ ✅ WinSCP, ✅ OBS, ✅ VLC, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
+    - ~~Powershell~~ Pris en compte par Windows update
+      - [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
       - ( [Doc](https://docs.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) )
     - ✅ Nvidia driver
-  - ⏳ Supprimer les fichiers temporaires
+  - ✅ Supprimer les fichiers temporaires
     - Exec > `temp` // Devrait ouvrir `~c:Windows\Temp`
     - Supprimer tout, Ignorer ceux utilisés
   - ✅ WSL 2
@@ -211,10 +215,10 @@ omz update
 git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade && sudo apt -y autoremove && docker system prune -af
 ```
 
-- ⏳ Maj budget couple
-- ⏳ Téléphone
-  - ⏳ Maj de la base
-  - ⏳ Maj des applications
+- 🤡 Maj budget couple
+- ✅ Téléphone
+  - ✅ Maj de la base
+  - ✅ Maj des applications
   - ⏳ Tous les 6 mois > reset usine
 - ✅ Compléments alimentaires
   - ✅ Anaca3
@@ -226,7 +230,7 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
   - ✅ Ginseng / "Super ginko"
   - ✅ Mix vitamine
   - ✅ Doc > vitamine D tous les 6 mois
-- ✅ Tout est versionné, pas de WIP qui traîne
+- ⏳ Tout est versionné, pas de WIP qui traîne
 
 ---
 
@@ -290,41 +294,40 @@ Rieng
 
 ### Trucs **persos**
 
-1. ⏳ [Changement propriétaire chatte](https://mail.google.com/mail/u/0/#inbox/FMfcgzGllCcNJCZHqcjqlkNJhlNFzwZC)
-2. Concert [BFMV & Jinjer](https://www.songkick.com/concerts/40452239-bullet-for-my-valentine-at-lolympia)
-3. SNCF > Fin contrat pro 30 juin 2022
-4. Résilier ESET (besoin de contacter le support ?)
-5. Trouver logiciel budget couple
-6. 🚀 Musiques taf & portable
-7. Blog groupe metal que j'aime bieng ou pas en concert
-8. Films
+1. Concert [BFMV & Jinjer](https://www.songkick.com/concerts/40452239-bullet-for-my-valentine-at-lolympia)
+2. Concert sum41 & simple plan 20/07/22 Paris bercy ? [hey](https://www.seetickets.com/fr/tr/event/sum-41-simple-plan/accor-arena/8818007)
+3. Résilier ESET (besoin de contacter le support ?)
+4. Trouver logiciel budget couple
+5. 🚀 Musiques taf & portable
+6. Blog groupe metal que j'aime bieng ou pas en concert
+7. Films
    1. Ciné
       1. Nick cage
       2. Everything everywhere all at once
    2. death of dick long
-9. Export photos tel & maj drive
-10. Peinture Chtulu
+8. Export photos tel & maj drive
+9. Peinture Chtulu
     1. [How to paint Extreme Light Sources - OSL tutorial](https://www.youtube.com/watch?v=c48UiPSBfcg)
     2. [INDESTRUCTIBLE Gaming Bases - Quick & Easy](https://www.youtube.com/watch?v=tRFfsAG-Yf8)
     3. Green gold pour le [grand ancien](https://www.youtube.com/watch?v=AgJqjIMd6k8)
-11. [Patinoire](https://mail.google.com/mail/u/0/#inbox/FMfcgzGmvLQjSdlzHqNgpnCFgHjXWZlW)
-12. DL vidéos WTF youtoob
-13. Faire article mise en place/réparation/optimisation de pc
+10. [Patinoire](https://mail.google.com/mail/u/0/#inbox/FMfcgzGmvLQjSdlzHqNgpnCFgHjXWZlW)
+11. DL vidéos WTF youtoob
+12. Faire article mise en place/réparation/optimisation de pc
     1. [hey](https://www.drivereasy.com/knowledge/100-disk-usage-windows-10-fixed/)
     2. [hoy](https://www.makeuseof.com/tips-fix-100-disk-usage-improve-windows-performance/)
-14. Faire article maintenance PC
-15. Faire article découverte ansible
-16. double authentification OVH manager
-17. Mettre à jour CV !
-18. Rdv médecins
+13. Faire article maintenance PC
+14. Faire article découverte ansible
+15. double authentification OVH manager
+16. Mettre à jour CV !
+17. Rdv médecins
     1. Ophtalmo
     2. Cardiolog0ue
     3. Oreillologiste
-19. CPF > Langage des signes / Amazon AWS / Jenkins git hooks
-20. !site perso > cours particuliers code > 50€ heure (+, compter impôts)
-21. [Boeuf ethique](https://www.leboeufethique.fr/)
-22. Portable > reset usine
-23. Saut en parachute reims BA prunay
+18. CPF > Langage des signes / Amazon AWS / Jenkins git hooks
+19. !site perso > cours particuliers code > 50€ heure (+, compter impôts)
+20. [Boeuf ethique](https://www.leboeufethique.fr/)
+21. Portable > reset usine
+22. Saut en parachute reims BA prunay
 
 ## 💩 Shame
 

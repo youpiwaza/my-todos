@@ -2,6 +2,35 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 01/07/22
+
+Perso
+
+1. ✅ Création de "mon espace santé"
+2. ✅ Faire virement remboursement emprunt juillet
+3. ✅ Camping / Vacances
+   1. ✅ Relance pour chèque de caution & 2eme bestiau
+   2. ✅ Envoi carnets de santé bestiaux x2
+4. ✅ Envoyer mail syndic pour pour pardon avoir zappé AS
+
+## 17/06/22
+
+Perso
+
+1. ⏳ Renouveler permis de conduire
+   1. ✅ Démarche en ligne
+   2. ✅ Lettre avec photo identité envoyée
+2. ✅ [Changement propriétaire chatte](https://mail.google.com/mail/u/0/#inbox/FMfcgzGllCcNJCZHqcjqlkNJhlNFzwZC)
+
+Taf
+
+Cryptor > Clôture
+
+1. ✅ Doc de fin de contrat a signer + signature electronique
+   1. 💩 Signature
+2. ✅ Facture
+   1. ✅ Règlement
+
 ## 10/06/22
 
 Taf
@@ -57,20 +86,21 @@ Arrêter dev serveur & hebergement
 
 Perso
 
-1. ✅Préparer lettre icad + mail
-2. ✅app Hellfest + cashless
-3. ✅ Rappeler vincent bbq
-4. ✅ Prévenir darons pour Seth
-5. ✅ Tel > contact Nick christophe's pal > Ajout contact photographe (concert/ethnique)
-6. ✅ Chatte > annuler recherches & affiches
-7. ✅ concert 10/06 maximum the hormone
+1. ✅ Préparer lettre icad + mail
+2. ✅ Envoyer chèques vacances par courrier
+3. ✅ app Hellfest + cashless
+4. ✅ Rappeler vincent bbq
+5. ✅ Prévenir darons pour Seth
+6. ✅ Tel > contact Nick christophe's pal > Ajout contact photographe (concert/ethnique)
+7. ✅ Chatte > annuler recherches & affiches
+8. ✅ concert 10/06 maximum the hormone
    1. ✅ trains, et utiliser [reductions](https://mail.google.com/mail/u/0/#inbox/KtbxLxgZZVNcfFNSbtrStGMpWXmfCKPsJB)
-8. Films
+9. Films
    1. Ciné
       1. ✅ Dernier Cronenberg
-9. ✅ Badge salon open source
-10. ✅ Renouveler carte fnac
-11. ✅ Imprimer billets HF 1
+10. ✅ Badge salon open source
+11. ✅ Renouveler carte fnac
+12. ✅ Imprimer billets HF 1
 
 ## 03/06/22
 
