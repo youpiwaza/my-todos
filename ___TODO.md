@@ -87,11 +87,30 @@ PB Modelisme
    2. ✅ Tester l'import de produits
    3. ✅ Tester la mise à jour de produits
    4. ✅ Tester l'import avec colonnes custom [plugin officiel > github](https://github.com/woocommerce/woocommerce/wiki/Product-CSV-Importer-&-Exporter#adding-custom-import-columns-developers)
-8. 📌 ACF
-   1. 🔍 Voir ou ça en est
-   2. Export
-   3. Import
-   4. Mise à jour
+8. ✅📌 ACF
+   1. ✅🔍 Voir ou ça en est
+   2. ✅ Tester champs custom avec catégorie & sous catégories
+   3. ✅ Export
+   4. ✅ Import
+   5. ✅ Mise à jour
+9. 🔒️✅ Tester accès FTP/SSH/BDD ancien serveur
+   1. 💩✅ KO, vu avec Cédric pour les nouveaux accès
+   2. 📝✅ Maj des de "Ressources" & sacrets
+10. ⏳ Ancien serveur PB
+    1. ⏳ Attente confirmation Cédric > Attente lundi (en cas de pépin serveur)
+    2. Création d'un accès SSH
+    3. Installation de htop
+11. ✅📌 Test export CSV avions ancien serveurs limit 50
+    1. ✅ A envoyer vers sacrets quand terminé
+12. 🚀 Structure de données
+    1. ✅ Rassembler l'ensemble dans [un seul doc](https://docs.google.com/spreadsheets/d/1FB8e-0I9RhqWixoqdaXPjEZmjBATmI7j0GCd7tOVjrE/edit#gid=1110417694)
+    2. ✅ Récupérer les caractéristiques d'un import WC (doc) + aidera à limiter les champs personnalisés
+    3. 🚀 Liste champs communs PB *EN DEHORS DE WC*
+    4. Lister et différencier catégories des champs personnalisés
+       1. ex: types/niveau/marques/etc.
+       2. Qu'est-ce qu'on passe en champ select ? Voir si marques dédiées a des catégories ou général, etc.
+       3. Quels champs personnalisés communs, quels autres dédiés, et dans quelles conditions ?
+    5. 🔍 Produits variables & produits groupés
 
 Arrêter dev serveur & hebergement > Week end SEULEMENT
 
