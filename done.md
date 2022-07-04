@@ -4,6 +4,51 @@ Les tâches terminées des semaines précédentes :)
 
 ## 01/07/22
 
+Taf
+
+PB Modelisme
+
+1. ✅ Hebergement > host `www/` > Rajouter un .htaccess deny all
+2. ✅ Passage DNS de masa vers dev.pb
+   1. ✅ Virer sous domaine masamune
+   2. ✅ Virer pb > multisite > masa
+3. ✅ Analyse de la structure de BDD WP + WooCommerce
+   1. 💩 Faire des diffs
+      1. ✅ Ajout d'un produit
+      2. ✅ Ajout d'une [catégorie](https://fr.wordpress.org/support/article/taxonomies/)
+      3. ✅ Ajout d'une sous catégorie
+      4. 💩 Pas mal de trucs à côté de modifier, **besoin** de passer par import régulier, pas de sql à l'arrache
+         1. 🔍 Plugin classique (+ manip dev pour champs persos) ou plugin payant
+4. ✅🧠💥 Remise au propre des objectifs à court terme
+5. ✅📌 Tests d'imports [plugin officiel](https://woocommerce.com/document/product-csv-importer-exporter/)
+   1. ✅ Tester l'export de produits
+   2. ✅ Tester l'import de produits
+   3. ✅ Tester la mise à jour de produits
+   4. ✅ Tester l'import avec colonnes custom [plugin officiel > github](https://github.com/woocommerce/woocommerce/wiki/Product-CSV-Importer-&-Exporter#adding-custom-import-columns-developers)
+6. ✅📌 ACF
+   1. ✅🔍 Voir ou ça en est
+   2. ✅ Tester champs custom avec catégorie & sous catégories
+   3. ✅ Export
+   4. ✅ Import
+   5. ✅ Mise à jour
+7. 🔒️✅ Tester accès FTP/SSH/BDD ancien serveur
+   1. 💩✅ KO, vu avec Cédric pour les nouveaux accès
+   2. 📝✅ Maj des de "Ressources" & sacrets
+8. ✅📌 Test export CSV avions ancien serveurs limit 50
+    1. ✅ A envoyer vers sacrets quand terminé
+9. 🚀 Structure de données
+    1. ✅ Rassembler l'ensemble dans [un seul doc](https://docs.google.com/spreadsheets/d/1FB8e-0I9RhqWixoqdaXPjEZmjBATmI7j0GCd7tOVjrE/edit#gid=1110417694)
+    2. ✅ Récupérer les caractéristiques d'un import WC (doc) + aidera à limiter les champs personnalisés
+
+Serveurs > Migrer clients
+
+1. Ancien serveur
+   1. ✅ stockage
+      1. ✅ Trier
+      2. ✅ Uploader
+      3. ✅ Vérifier
+      4. ✅ Protéger accès racine
+
 Perso
 
 1. ✅ Création de "mon espace santé"
@@ -12,6 +57,7 @@ Perso
    1. ✅ Relance pour chèque de caution & 2eme bestiau
    2. ✅ Envoi carnets de santé bestiaux x2
 4. ✅ Envoyer mail syndic pour pour pardon avoir zappé AS
+5. ✅ Chatte disparue > passer à la boulangerie enlever l'avis de recherche
 
 ## 17/06/22
 

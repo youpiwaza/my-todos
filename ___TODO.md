@@ -33,34 +33,34 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Perso
 
-1. Changer filtre caisse chatte
+1. ⏳ Changer filtre caisse chatte
+   1. Filtres livré jeudi 07/07
 2. Chatte > carnet santé en ligne
-3. Boursorama > appeler pour compte pougnoutte + rachat crédit immo
+3. ⏳ Boursorama > appeler pour compte pougnoutte + rachat crédit immo
+   1. Mail envoyé, en attente de réponse
 4. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg) ?
-5. Chatte disparue > passer à la boulangerie enlever l'avis de recherche
-6. 🚀 [Skald](https://mail.google.com/mail/u/0/#inbox/FMfcgzGllVqqnCLcTDzRlDQTwnhlHFdM). A refourguer a mes parents
-7. ⏳ Renouveler permis de conduire
+5. 🚀 [Skald](https://mail.google.com/mail/u/0/#inbox/FMfcgzGllVqqnCLcTDzRlDQTwnhlHFdM). A refourguer a mes parents
+6. ⏳ Renouveler permis de conduire
    1. ⏳ En attente de retour ~15/07/22
-8. Chatte > collier gps + gravé n° de téléphone
-9. Orga anniv pougnoutte
+7. Chatte > collier gps + gravé n° de téléphone
+8. Orga anniv pougnoutte
     1. Redemander date a pougnoutte
     2. Demander contact & liste invités
     3. Demander si logement déjà vu
     4. Voir pour cagnotte permis moto
     5. Medieval tents
-10. Fête fin juin/début juillet ?
-    1. Potes HF
-    2. Margot & Ryan
-    3. Thelma
-    4. etc.
+9. Fête mi-août ?
+    1. Margot & Ryan
+    2. Marc
+    3. etc.
 
-Taf
+Auto entrepreneur
 
-NDD
-
-1. ⏳ ALD
+1. ⏳ NDD > ALD
    1. ✅ Facture NDD
-   2. ⏳ Paiement
+   2. Relance le 04/07/22
+   3. ⏳ Paiement
+2. Facture 4/4 PB Modélisme
 
 PB Modelisme
 
@@ -70,47 +70,19 @@ PB Modelisme
    3. WP admin > Santé du site
 2. 🌱 local > dev > Dupliquer la BDD grâce à modification de l'adresse dans wp-config ?? yay
    1. [doc offi](https://fr.wordpress.org/support/article/running-a-development-copy-of-wordpress/#modifier-ladresse-du-site)
-3. ✅ Hebergement > host `www/` > Rajouter un .htaccess deny all
-4. ✅ Passage DNS de masa vers dev.pb
-   1. ✅ Virer sous domaine masamune
-   2. ✅ Virer pb > multisite > masa
-5. ✅ Analyse de la structure de BDD WP + WooCommerce
-   1. 💩 Faire des diffs
-      1. ✅ Ajout d'un produit
-      2. ✅ Ajout d'une [catégorie](https://fr.wordpress.org/support/article/taxonomies/)
-      3. ✅ Ajout d'une sous catégorie
-      4. 💩 Pas mal de trucs à côté de modifier, **besoin** de passer par import régulier, pas de sql à l'arrache
-         1. 🔍 Plugin classique (+ manip dev pour champs persos) ou plugin payant
-6. ✅🧠💥 Remise au propre des objectifs à court terme
-7. ✅📌 Tests d'imports [plugin officiel](https://woocommerce.com/document/product-csv-importer-exporter/)
-   1. ✅ Tester l'export de produits
-   2. ✅ Tester l'import de produits
-   3. ✅ Tester la mise à jour de produits
-   4. ✅ Tester l'import avec colonnes custom [plugin officiel > github](https://github.com/woocommerce/woocommerce/wiki/Product-CSV-Importer-&-Exporter#adding-custom-import-columns-developers)
-8. ✅📌 ACF
-   1. ✅🔍 Voir ou ça en est
-   2. ✅ Tester champs custom avec catégorie & sous catégories
-   3. ✅ Export
-   4. ✅ Import
-   5. ✅ Mise à jour
-9. 🔒️✅ Tester accès FTP/SSH/BDD ancien serveur
-   1. 💩✅ KO, vu avec Cédric pour les nouveaux accès
-   2. 📝✅ Maj des de "Ressources" & sacrets
-10. ⏳ Ancien serveur PB
+3. ⏳ Ancien serveur PB
     1. ⏳ Attente confirmation Cédric > Attente lundi (en cas de pépin serveur)
     2. Création d'un accès SSH
     3. Installation de htop
-11. ✅📌 Test export CSV avions ancien serveurs limit 50
-    1. ✅ A envoyer vers sacrets quand terminé
-12. 🚀 Structure de données
-    1. ✅ Rassembler l'ensemble dans [un seul doc](https://docs.google.com/spreadsheets/d/1FB8e-0I9RhqWixoqdaXPjEZmjBATmI7j0GCd7tOVjrE/edit#gid=1110417694)
-    2. ✅ Récupérer les caractéristiques d'un import WC (doc) + aidera à limiter les champs personnalisés
-    3. 🚀 Liste champs communs PB *EN DEHORS DE WC*
-    4. Lister et différencier catégories des champs personnalisés
+4. 🚀 Structure de données
+    1. 🚀 Liste champs communs PB *EN DEHORS DE WC*
+    2. Lister et différencier catégories des champs personnalisés
        1. ex: types/niveau/marques/etc.
        2. Qu'est-ce qu'on passe en champ select ? Voir si marques dédiées a des catégories ou général, etc.
        3. Quels champs personnalisés communs, quels autres dédiés, et dans quelles conditions ?
-    5. 🔍 Produits variables & produits groupés
+    3. 🔍 Produits variables & produits groupés
+    4. Gestion des images produits
+    5. Importer les catégories & autres tables AVANT les produits
 
 Arrêter dev serveur & hebergement > Week end SEULEMENT
 
@@ -130,10 +102,6 @@ Arrêter dev serveur & hebergement > Week end SEULEMENT
                4. 🚨 Dossier alakon /wp-content/gallery > Contient des images pour le folio
                   1. Voir si il n'y avait pas un dossier ou un repo git contenant tout le folio
          3. ✅ stockage
-            1. ✅ Trier
-            2. ✅ Uploader
-            3. ✅ Vérifier
-            4. ✅ Protéger accès racine
       3. MLecuyer
          1. Fixer une date pour faire la bascule (besoin accès SMS)
          2. Faire évoluer hébergement déjà pris par ML
@@ -150,21 +118,20 @@ Arrêter dev serveur & hebergement > Week end SEULEMENT
    1. Sur disque dur externe
 3. 📌⏳ Tests clients
    1. ⏳ ALD infographie
-      1. ✅ Relance clients : bascule auto si pas de news
-      2. Basculer DNS
-      3. Remettre HTTPS
+      1. Basculer DNS
+      2. Remettre HTTPS
    2. ⏳ Champagne didier lapie
-      1. ✅ Relance clients : bascule auto si pas de news
-      2. Basculer DNS
-      3. Remettre HTTPS
-      4. Réactiver paiement, crédit agricole
+      1. Basculer DNS
+      2. Remettre HTTPS
+      3. Réactiver paiement, crédit agricole
    3. ⏳ Sophie berberian
       1. ✅ Relance clients : bascule auto si pas de news
       2. BAYDOT
          1. Basculer DNS
          2. Remettre HTTPS
-4. Envoyer identifiants clients + passations
+4. Envoyer identifiants clients + passations NDDs & OVH Manager
    1. champagne pascal picard
+   2. ⏳ MKasza
 5. Remettre tous les anciens trucs max dans un seul dossier sur un seul dd (~bureau ancien pc)
 6. Cleaner google drive
 7. Résilier les deux serveurs ? ou garder likorne > Bare metal Nginx pour wam ?
@@ -204,8 +171,9 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 - ✅ Déplacer veille onglets dans TODO_veille
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
-- ⏳ Déclaration Auto entrepreneur
-  - ⏳ Juin 2022
+- ✅ Déclaration Auto entrepreneur
+  - ✅ Juin 2022
+  - ⏳ Juillet 2022
 - ⏳ Vérifier impôts sur espace / Dernière vérif 15/08/2021
   - ⏳ Perso  / ⏳ 23/05/22
   - ⏳ Pro    / ⏳ 23/05/22 (CFE réglé le 17/11/2021)
@@ -216,23 +184,23 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
     2. `chkdsk c: /f /r` (et en fonction de vos disques.. && `chkdsk d: /f /r`, etc.)
     3. `>Blah blah besoin de redémarrer O/n` >> `O`
     4. Redémarrer / Attendre 5 ans et demi sauf si t'as un SSD/Nvme
-  - ✅ Windaube
-    - ✅ Update alakon
+  - ⏳ Windaube
+    - ⏳ Update alakon
     - ⏳ [.net](https://dotnet.microsoft.com/download) > Runtime
-    - ✅ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
-  - ✅ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
+    - ⏳ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
+  - ⏳ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
   - ⏳ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
     - ⏳ Dell support assist
     - ⏳ Alienware update
   - ⏳ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
-  - ✅ Logiciels alakon
-    - ✅ Ouvrir VScode > Auto update plugins etc.
-    - ~~Filezilla~~ ✅ WinSCP, ✅ OBS, ✅ VLC, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
+  - ⏳ Logiciels alakon
+    - ⏳ Ouvrir VScode > Auto update plugins etc.
+    - ~~Filezilla~~ ⏳ WinSCP, ⏳ OBS, ⏳ VLC, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
     - ~~Powershell~~ Pris en compte par Windows update
       - [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
       - ( [Doc](https://docs.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) )
-    - ✅ Nvidia driver
-  - ✅ Supprimer les fichiers temporaires
+    - ⏳ Nvidia driver
+  - ⏳ Supprimer les fichiers temporaires
     - Exec > `temp` // Devrait ouvrir `~c:Windows\Temp`
     - Supprimer tout, Ignorer ceux utilisés
   - ✅ WSL 2
@@ -246,9 +214,9 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
 ```
 
 - 🤡 Maj budget couple
-- ✅ Téléphone
-  - ✅ Maj de la base
-  - ✅ Maj des applications
+- ⏳ Téléphone
+  - ⏳ Maj de la base
+  - ⏳ Maj des applications
   - ⏳ Tous les 6 mois > reset usine
 - ✅ Compléments alimentaires
   - ✅ Anaca3
@@ -260,7 +228,7 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
   - ✅ Ginseng / "Super ginko"
   - ✅ Mix vitamine
   - ✅ Doc > vitamine D tous les 6 mois
-- ⏳ Tout est versionné, pas de WIP qui traîne
+- ✅ Tout est versionné, pas de WIP qui traîne
 
 ---
 
@@ -322,7 +290,7 @@ Rieng
 
 ---
 
-### Trucs **persos**
+### Trucs persos
 
 1. Concert [BFMV & Jinjer](https://www.songkick.com/concerts/40452239-bullet-for-my-valentine-at-lolympia)
 2. Concert sum41 & simple plan 20/07/22 Paris bercy ? [hey](https://www.seetickets.com/fr/tr/event/sum-41-simple-plan/accor-arena/8818007)
