@@ -70,19 +70,26 @@ PB Modelisme
    3. WP admin > Santé du site
 2. 🌱 local > dev > Dupliquer la BDD grâce à modification de l'adresse dans wp-config ?? yay
    1. [doc offi](https://fr.wordpress.org/support/article/running-a-development-copy-of-wordpress/#modifier-ladresse-du-site)
-3. ⏳ Ancien serveur PB
-    1. ⏳ Attente confirmation Cédric > Attente lundi (en cas de pépin serveur)
-    2. Création d'un accès SSH
-    3. Installation de htop
+3. ✅ Monitorer ancien serveur PB
+    1. ✅ Attente confirmation Cédric > Attente lundi (en cas de pépin serveur)
+    2. 💩 Création d'un accès SSH
+       1. KO, connexion SSH désactivée, malgré création de clé :/
+    3. 💩 Installation de htop
+       1. Utilisateur pas dans les sudoers > Pas d'installation de paquets
+       2. Utilisation de `top`, équivalent de `htop`
 4. 🚀 Structure de données
-    1. 🚀 Liste champs communs PB *EN DEHORS DE WC*
-    2. Lister et différencier catégories des champs personnalisés
-       1. ex: types/niveau/marques/etc.
-       2. Qu'est-ce qu'on passe en champ select ? Voir si marques dédiées a des catégories ou général, etc.
-       3. Quels champs personnalisés communs, quels autres dédiés, et dans quelles conditions ?
-    3. 🔍 Produits variables & produits groupés
-    4. Gestion des images produits
-    5. Importer les catégories & autres tables AVANT les produits
+    1. ✅ Inventaire des tables dans la BDD PB Modelisme actuel
+    2. ⏳ Liste champs communs entre WC & PB (but discriminer perso)
+       1. ⏳ Cedric : Confirmer quelles sont les tables contenant les produits
+    3. 🚀 Lister catégories
+       1. Ex: types/niveau/marques/etc.
+       2. But : différencier catégories des champs personnalisés (choix via select)
+       3. Créer sous WordPress afin de dégrossier
+          1. 📝 On en aura besoin pour les imports de toutes manières
+    4. Inventaire champs personnalisés
+       1. Discrimination par catégorie (perso dédiés a catégories spécifiques)
+    5. 🔍 Produits variables & produits groupés
+    6. Gestion des images produits
 
 Arrêter dev serveur & hebergement > Week end SEULEMENT
 
