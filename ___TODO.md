@@ -33,34 +33,29 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Perso
 
-1. ⏳ Changer filtre caisse chatte
-   1. Filtres livré jeudi 07/07
-2. Chatte > carnet santé en ligne
-3. ⏳ Boursorama > appeler pour compte pougnoutte + rachat crédit immo
-   1. Mail envoyé, en attente de réponse
-4. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg) ?
-5. 🚀 [Skald](https://mail.google.com/mail/u/0/#inbox/FMfcgzGllVqqnCLcTDzRlDQTwnhlHFdM). A refourguer a mes parents
-6. ⏳ Renouveler permis de conduire
-   1. ⏳ En attente de retour ~15/07/22
-7. Chatte > collier gps + gravé n° de téléphone
-8. Orga anniv pougnoutte
+1. HF > Remboursement cashless
+2. Chatte
+   1. Carnet santé en ligne
+   2. Collier gps + gravé n° de téléphone
+3. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg) ?
+4. 🚀 [Skald](https://mail.google.com/mail/u/0/#inbox/FMfcgzGllVqqnCLcTDzRlDQTwnhlHFdM). A refourguer a mes parents
+5. Orga anniv pougnoutte
     1. Redemander date a pougnoutte
     2. Demander contact & liste invités
     3. Demander si logement déjà vu
     4. Voir pour cagnotte permis moto
     5. Medieval tents
-9. Fête mi-août ?
+6. Prog août
     1. Margot & Ryan
     2. Marc
-    3. etc.
+    3. Quentin
+    4. Mehmet
+    5. Baydot fof
+    6. week-end warhammer
 
 Auto entrepreneur
 
-1. ⏳ NDD > ALD
-   1. ✅ Facture NDD
-   2. Relance le 04/07/22
-   3. ⏳ Paiement
-2. Facture 4/4 PB Modélisme
+1. Facture 4/4 PB Modélisme
 
 PB Modelisme
 
@@ -68,28 +63,23 @@ PB Modelisme
    1. ⏳🔒️ Attente https
    2. Vérifier Erreurs console ? Ressources dans wp-include/ en 404 > Besoin https
    3. WP admin > Santé du site
-2. 🌱 local > dev > Dupliquer la BDD grâce à modification de l'adresse dans wp-config ?? yay
-   1. [doc offi](https://fr.wordpress.org/support/article/running-a-development-copy-of-wordpress/#modifier-ladresse-du-site)
-3. ✅ Monitorer ancien serveur PB
-    1. ✅ Attente confirmation Cédric > Attente lundi (en cas de pépin serveur)
-    2. 💩 Création d'un accès SSH
-       1. KO, connexion SSH désactivée, malgré création de clé :/
-    3. 💩 Installation de htop
-       1. Utilisateur pas dans les sudoers > Pas d'installation de paquets
-       2. Utilisation de `top`, équivalent de `htop`
-4. 🚀 Structure de données
-    1. ✅ Inventaire des tables dans la BDD PB Modelisme actuel
-    2. ⏳ Liste champs communs entre WC & PB (but discriminer perso)
-       1. ⏳ Cedric : Confirmer quelles sont les tables contenant les produits
-    3. 🚀 Lister catégories
-       1. Ex: types/niveau/marques/etc.
-       2. But : différencier catégories des champs personnalisés (choix via select)
-       3. Créer sous WordPress afin de dégrossier
-          1. 📝 On en aura besoin pour les imports de toutes manières
-    4. Inventaire champs personnalisés
-       1. Discrimination par catégorie (perso dédiés a catégories spécifiques)
-    5. 🔍 Produits variables & produits groupés
-    6. Gestion des images produits
+2. Projet Git > [Cleaner](https://deliciousbrains.com/storing-wordpress-in-git/)
+   1. composer + gitignore
+3. ✅ Excel BDD > 1 feuille par table, contenant les champs, les descriptions & les correpsondances
+   1. ✅ Récupérer les champs des tables contenant des produits
+      1. CDGPS peut être enlevé
+   2. 🚀 Correspondances avec WC
+   3. Inventaire champs personnalisés
+      1. Discrimination par catégorie (perso dédiés a catégories spécifiques) & global (commun a plusieurs catégories)
+4. RDV Nonore
+   1. ✅ Go
+   2. CRR + drive
+   3. Mail
+5. Importer les marques
+   1. 📝 Elimination des doublons, chaque marque n'a qu'une entrée
+   2. 📝 Plus de marquées dédiées à certaines catégories
+6. Gestion des images produits
+7. Importer les commandes
 
 Arrêter dev serveur & hebergement > Week end SEULEMENT
 
@@ -101,47 +91,49 @@ Arrêter dev serveur & hebergement > Week end SEULEMENT
       2. masamune
          1. blog--masamune--fr
             1. Repartir d'une base propre WP et récupérer/convertir les trucs 1 par 1
-         2. 💩 masamune--fr
-            1. Repartir d'une base propre WP et récupérer/convertir les trucs 1 par 1
-               1. ✅ Articles & pages récupérés
-               2. 🚨 Infos dans ACF
-               3. 🚨 Remplacer toutes les conneries des plugins
-               4. 🚨 Dossier alakon /wp-content/gallery > Contient des images pour le folio
-                  1. Voir si il n'y avait pas un dossier ou un repo git contenant tout le folio
-         3. ✅ stockage
-      3. MLecuyer
-         1. Fixer une date pour faire la bascule (besoin accès SMS)
-         2. Faire évoluer hébergement déjà pris par ML
-         3. Identifiants dans secrets
-         4. Uploader base wordpress
-         5. Recup wp-config
-         6. Réinstallation wp
-         7. Maj identifiants
-         8. Injecter anciens fichiers
-         9. Injecter ancienne bdd
-         10. Maj permaliens
-         11. Mises à jour
-2. Ranger merdier dans /dev/current
-   1. Sur disque dur externe
-3. 📌⏳ Tests clients
-   1. ⏳ ALD infographie
-      1. Basculer DNS
-      2. Remettre HTTPS
-   2. ⏳ Champagne didier lapie
-      1. Basculer DNS
-      2. Remettre HTTPS
-      3. Réactiver paiement, crédit agricole
-   3. ⏳ Sophie berberian
-      1. ✅ Relance clients : bascule auto si pas de news
-      2. BAYDOT
-         1. Basculer DNS
-         2. Remettre HTTPS
-4. Envoyer identifiants clients + passations NDDs & OVH Manager
-   1. champagne pascal picard
-   2. ⏳ MKasza
-5. Remettre tous les anciens trucs max dans un seul dossier sur un seul dd (~bureau ancien pc)
-6. Cleaner google drive
-7. Résilier les deux serveurs ? ou garder likorne > Bare metal Nginx pour wam ?
+         2. masamune--fr
+            1. Refonte complète du site
+               1. 🚀 Virer woocommerce & cleaner bdd
+               2. 🚀 Page Contact
+                  1. Captcha
+                  2. Tester formulaire
+                  3. SPF DKIM DMARC
+            2. Fin du site
+               1. Vérifier toutes les pages (liens, traductions)
+               2. Page plan du site
+               3. Menus
+               4. Mentions légales > Lien page de contact
+               5. analyse des cookies + maj RGPD et éventuellement bandeau
+         3. Github > projet dédié checklist fin de site, à partir de [chaos](https://github.com/youpiwaza/chaos-boilerplate-front)
+   2. Nouveau serveur
+      1. ALD infographie
+         1. 🚀 Console & clean éventuel
+         2. Sauvegarde BDD
+         3. Sauvegarde site sur disque dur externe
+         4. 📌 Tests & validation
+             1. Mail
+             2. Attente confirmation
+         5. Envoyer sauvegarde au client via WeTransfer
+         6. Envoyer identifiants clients + passations NDDs & hébergement
+      2. Champagne didier lapie
+         1. 📌⏳ Tests & validation
+             1. ⏳ Attente confirmation
+         2. Envoyer sauvegarde au client via WeTransfer
+         3. Envoyer identifiants clients + passations NDDs & hébergement
+      3. ⏳ Sophie berberian
+         1. 📌 Tests & validation
+             1. ⏳ Attente confirmation
+         2. Envoyer identifiants clients + passations NDDs & hébergement
+   3. Autre
+      1. Champagne pascal picard
+         1. Envoyer identifiants clients + passations NDDs & hébergement
+      2. ⏳ MKasza
+         1. Attente retour savoir si je leur migre le site
+2. Résilier les deux serveurs
+3. Revoir toutes les sauvegardes sites (ancien + nouveau > base wp 6 + wp-content/ client + wp-config secret) + githubber
+4. Remettre tous les anciens trucs max dans un seul dossier sur un seul dd (~bureau ancien pc)
+   1. & dossier Bureau/shame
+5. Cleaner google drive
 
 Environnement de dev local clean
 
@@ -181,10 +173,10 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 - ✅ Déclaration Auto entrepreneur
   - ✅ Juin 2022
   - ⏳ Juillet 2022
-- ⏳ Vérifier impôts sur espace / Dernière vérif 15/08/2021
-  - ⏳ Perso  / ⏳ 23/05/22
-  - ⏳ Pro    / ⏳ 23/05/22 (CFE réglé le 17/11/2021)
-- ⏳ Vérifier messages [Ameli](https://assure.ameli.fr/)
+- ✅ Vérifier impôts sur espace / Dernière vérif 15/08/2021
+  - ✅ Perso  / ✅ 11/07/22
+  - ✅ Pro    / ✅ 11/07/22 (CFE réglé le 17/11/2021) ~début décembre
+- ✅ Vérifier messages [Ameli](https://assure.ameli.fr/)
 - ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21
   - ⏩ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk), `/r` également
     1. Invite de commande ou Powershell **en admin**
@@ -194,20 +186,20 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
   - ⏳ Windaube
     - ⏳ Update alakon
     - ⏳ [.net](https://dotnet.microsoft.com/download) > Runtime
-    - ⏳ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
+    - ✅ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
   - ⏳ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
   - ⏳ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
     - ⏳ Dell support assist
     - ⏳ Alienware update
   - ⏳ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
   - ⏳ Logiciels alakon
-    - ⏳ Ouvrir VScode > Auto update plugins etc.
-    - ~~Filezilla~~ ⏳ WinSCP, ⏳ OBS, ⏳ VLC, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
+    - ✅ Ouvrir VScode > Auto update plugins etc.
+    - ~~Filezilla~~ ✅ WinSCP, ⏳ OBS, ✅ VLC, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
     - ~~Powershell~~ Pris en compte par Windows update
       - [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
       - ( [Doc](https://docs.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) )
     - ⏳ Nvidia driver
-  - ⏳ Supprimer les fichiers temporaires
+  - ✅ Supprimer les fichiers temporaires
     - Exec > `temp` // Devrait ouvrir `~c:Windows\Temp`
     - Supprimer tout, Ignorer ceux utilisés
   - ✅ WSL 2

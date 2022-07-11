@@ -150,6 +150,7 @@ Sites > crunchyroll / otakufr . co
 - De rouille et d’os
 - Death Proof
 - derriere le masque
+- Devil story
 - Dice
 - Doomsday Book
 - end of days
@@ -637,10 +638,9 @@ Une fois tout téléchargé, mettre à jour
 - DD
 - Portable
 
-## Notes
+## Restos
 
-- Anniv pougnoutte cadeau
-  - Tireuse à bière
+- Resto jap' paris pas loin d'opéra ["Koba"](https://www.google.com/search?q=restaurant+paris+op%C3%A9ra+koba)
 
 ## Santé
 
@@ -734,6 +734,8 @@ Une fois tout téléchargé, mettre à jour
 - and then they were none
 - Anihilation
 - Aphorism
+- Better call saul
+  - 🚀 Saison 6
 - black book
 - black list
 - black sail
@@ -751,6 +753,7 @@ Une fois tout téléchargé, mettre à jour
 - ✅ mister pickles  / 4/5
   - 🌱 Saison 5
 - Killing eve
+- Mayans
 - Orphan black
 - oz
 - peep show
@@ -763,7 +766,7 @@ Une fois tout téléchargé, mettre à jour
 - Spaced
 - The boyz
 - The expense
-- ✅ the IT crew / 5/5
+- ✅✅ the IT crew / 5/5
 - the square
 - The strain / guillermo del toro
 - top gears
@@ -771,11 +774,6 @@ Une fois tout téléchargé, mettre à jour
 - Vikings
   - 🌱 Saison 6, 2 eme partie
 - West World
-
-## Visiter
-
-- Bogny sur meuse (ardennes) > 4 fils amont
-- Musée fijac champollion
 
 ## WTF
 

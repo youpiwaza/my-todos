@@ -2,6 +2,227 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 08/07/22
+
+PB Modelisme
+
+1. 🌱⏳ Améliorations WP classiques
+   1. ⏳🔒️ Attente https
+   2. Vérifier Erreurs console ? Ressources dans wp-include/ en 404 > Besoin https
+   3. WP admin > Santé du site
+2. ✅ local > dev > Dupliquer la BDD grâce à modification de l'adresse dans wp-config ?? yay
+   1. [doc offi](https://fr.wordpress.org/support/article/running-a-development-copy-of-wordpress/#modifier-ladresse-du-site)
+   2. Nah, utilisation de all in one wp migration
+3. ✅ Monitorer ancien serveur PB
+    1. ✅ Attente confirmation Cédric > Attente lundi (en cas de pépin serveur)
+    2. 💩 Création d'un accès SSH
+       1. KO, connexion SSH désactivée, malgré création de clé :/
+    3. 💩 Installation de htop
+       1. Utilisateur pas dans les sudoers > Pas d'installation de paquets
+       2. Utilisation de `top`, équivalent de `htop`
+4. ✅ Structure de données > Catégories
+    1. ✅ Inventaire des tables dans la BDD PB Modelisme actuel
+    2. 🌱 Liste champs communs entre WC & PB (but discriminer perso)
+       1. ✅ Cedric : Confirmer quelles sont les tables contenant les produits
+    3. ✅ Lister catégories
+       1. ✅ Ex: types/niveau/marques/etc.
+       2. ✅ But : différencier catégories des champs personnalisés (choix via select)
+       3. ✅ Créer sous WordPress afin de dégrossier
+          1. 📝 On en aura besoin pour les imports de toutes manières
+          2. ✅ Catégories générales
+          3. ✅ Catégories produits
+          4. ✅ Sous catégories accessoires
+          5. ✅ Sous catégories matériaux
+          6. ✅ Type avion
+          7. ✅ Type Batterie
+          8. ✅ Catégories bateau
+          9. ✅ Type bateau
+          10. 🌱 Type quartz > Catégorie de base ? Accessoires > Récepteur ?
+              1. A migrer dans le nom du produit Quartz
+          11. ✅ Type voiture
+          12. ✅ Type moteur > Faire une catégorie dédiée aux moteurs ? Ou sous catégorie ? Ou champ dédié
+          13. 🌱 Utilisation bateaux > Utilisé ? Rien sur quelques bateaux au pif
+              1. batteries > A migrer dans la description du produit Batterie
+          14. ✅ Utilisation controlleurs > Faire une catégorie dédiée aux controlleurs ? Ou sous catégorie ? Ou champ dédié
+              1. ✅ Accessoires > Controleurs > (Type)
+          15. ✅ vers boite > Faire une catégorie dédiée aux kits avions ? Ou sous catégorie ? Ou champ dédié
+              1. ✅ Catégorie globale
+          16. ✅ Niveaux avions
+          17. ✅ Niveau drones & hélicos
+          18. ✅ Type voiture
+          19. ✅ Catégories maquettes
+5. ✅ RDV client tech du Mercredi 06/07/22
+   1. ✅ Préparer RDV client
+   2. ✅ RDV Client
+   3. ✅ Compte rendu
+   4. 💩 Max: Envoyer à Cédric les images (gofullpage) des structures de chaque table
+      1. ✅ Excel 1 feuille par table
+   5. ✅ Passer catégories sur le dev
+      1. ✅🐛 Dev > Changer adresse site `dev-pb-modelisme.masamune.fr` > `dev.pb-modelisme.com`
+         1. ✅ Réinstallation BDD Wordpress
+      2. ✅ Local & dev > Installer plugin all in one wp migration
+      3. ✅ Local > Export
+      4. ✅ Dev > Import
+   6. ✅ Catégories
+      1. ✅ Revoir TODO suite au RDV
+      2. ✅ Ajouter les nouvelles catégories
+      3. ✅ Passer en dev
+      4. ✅ Envoyer mail a Cédric pour vérification des catégories
+6. ✅ Excel BDD > 1 feuille par table, contenant les champs, les descriptions & les correpsondances
+   1. ✅ Récupérer les champs des tables contenant des produits
+
+Arrêter dev serveur & hebergement > Week end SEULEMENT
+
+1. Migrer clients
+   1. Ancien serveur
+      1. ✅ masamune
+         1. ✅ stockage
+         2. masamune--fr
+            1. ✅ Repartir d'une base propre WP et récupérer/convertir les trucs 1 par 1
+            2. Refonte complète du site
+               1. 🚀 Virer woocommerce & cleaner bdd
+               2. ✅ CGV
+                  1. ✅ Clause 5
+                  2. ✅ Maj les BP de devis
+               3. ✅ Page crédits
+      2. ✅ MLecuyer
+         1. ✅ Fixer une date pour faire la bascule (besoin accès SMS)
+         2. ✅💩 Faire évoluer hébergement déjà pris par ML
+            1. ✅ Nouvelle commande -_-
+            2. ✅ Résilier l'ancien hébergement après
+         3. ✅ Identifiants dans secrets
+            1. ✅ Mise à jour ftp
+            2. ✅ Mise à jour Base de données
+            3. ✅ Mise à jour WordPress
+         4. Ancien site > Installation all in one wp migration si possible
+            1. ✅ Installation
+            2. ✅ Export
+         5. ✅ Uploader base wordpress
+         6. ✅ Mise à jour wp-config
+         7. ✅ Réinstallation wp
+         8. ✅ Mise à jour identifiants
+         9. ✅ Injecter anciens fichiers
+            1. ✅💩 Résoudre bugs
+               1. 💩 `plugins/leaflet-maps-marker` > maj > KO
+               2. ✅ Virer tous les plugins
+         10. ✅ Injecter bdd via all in one wp migration
+         11. ✅ Repasser WordPress en FR
+         12. ✅ Maj permaliens
+         13. ✅ Mises à jour
+         14. ✅💩 Résoudre bugs
+             1. ✅ Restauration des plugins un par un
+                1. ✅ advanced-custom-fields
+                   1. ✅ Mise à jour
+                2. ✅ acf-gallery
+                3. ✅ acf-options-page
+                4. ✅ acf-repeater
+                5. ✅ Akismet Spam Protection
+                   1. ✅ Mise à jour
+                6. ✅ leaflet-maps-marker
+                   1. ✅ Mise à jour
+                7. ✅ ninja-page-categories-and-tags
+                   1. ✅ Mise à jour
+                8. ✅ wp-edit
+                   1. ✅ Mise à jour
+                9. 💩 wp-security-scan
+                   1. Obsolète 6 ans + > Supprimer
+         15. ✅ Theme de base > Mise à jour
+         16. ✅💩 ACF > des données ont sautées
+             1. ✅ Récupérer configuration ACF
+             2. 💩 Ancien exporte en XML, version MAJ en JSON -_-
+             3. 💩 Ancien site > mise à jour puis export > Mise à jour KO
+             4. ✅ Nouveau site > ancienne version pour import
+                1. 💩 PUIS Mise à jour
+                2. ✅ On garde l'ancienne version du plugin
+         17. ✅ OVH Manager > Sauvegarde BDD
+         18. ✅📌 Tests & validation
+             1. ✅ Mail ML
+             2. ✅ Attente confirmation
+             3. ✅🐛 Fix ancien bug "projets > placement sur grille"
+         19. ✅ Wp admin > Changer adresse site
+             1. ✅ Revoir url site en bdd
+         20. ✅ Ovh manager > Multisite
+         21. ✅ Basculer DNS
+         22. ✅ Vérifier site
+         23. ✅ Remettre adresse administrateur WP `admin_ml` > `maximelecuyer@hotmail.com`
+         24. ✅ Remettre HTTPS
+             1. ✅⏳ Attente propagation DNS
+         25. ✅ Résilier l'ancien hébergement
+         26. ✅ OVH Manager > Sauvegarde BDD
+         27. ✅ Sauvegarde site sur disque dur externe
+         28. ✅ Envoyer sauvegarde au client via WeTransfer
+         29. ✅ Mail client confirmation & identifiants
+   2. Nouveau serveur
+      1. ⏳ ALD infographie
+         1. ✅ Basculer DNS
+         2. ✅ Vérifier wp-config.php
+         3. ✅ Vérifier site
+            1. ✅ Console
+         4. ✅ Remettre HTTPS
+            1. ✅⏳ Attente propagation
+            2. 🚀 Console & clean éventuel
+               1. ✅ Images manque https
+                  1. En dur dans le theme -_- > modifié header.php & style.css
+               2. ✅ 404 pour un [plugin > bootstrap](https://aldinfographie.fr/wp-content/plugins/portfolio-filter-gallery/js/bootstrap.min.js.map:)
+               3. 💩? Problème flux instagram
+               4. 💩 Problèmes affichage
+               5. ✅ Mail nonore voir si elle peut rattraper le truc
+                  1. ✅ Si ok good
+      2. ✅ Champagne didier lapie
+         1. ✅ Basculer DNS
+         2. ✅ Re-balancer bdd (nouvelles commandes)
+         3. ✅ Remettre HTTPS
+         4. ✅✅ Réactiver paiement, crédit agricole
+            1. ✅ Test paiement, attente propagation https
+         5. ✅ Sauvegarde BDD
+         6. ✅ Sauvegarde site sur disque dur externe
+         7. 📌⏳ Tests & validation
+             1. ✅ Mail
+             2. ⏳ Attente confirmation
+         8. ✅ Voir pour changer adresse site en bdd (+ maj wp-config)
+      3. ⏳ Sophie berberian
+         1. ✅ Relance clients : bascule auto si pas de news
+         2. ✅ BAYDOT
+            1. ✅ Basculer DNS
+            2. ✅ Rajouter lignes DNS TXT afin de confirmer la propriété
+         3. ✅ Renvoyer sauvegardes sites a baydot
+         4. ✅ OVH Manager > Multisite > Modifier domaine > dossier racine `www`
+         5. ✅ Vérifier wp-config.php
+         6. ✅💩 Résolution erreur 500
+            1. ✅ Ajout debug php
+            2. ✅ Correction url en BDD
+         7. ✅ Remettre HTTPS / En cours propa
+            1. ✅ Corriger HTTPS en bdd sur certaines ressources
+            2. ✅ Maj Sauvegarde DD
+            3. ✅ Maj sauvegarde OVH Manager
+         8. ✅ Sauvegarde BDD
+         9. ✅ Sauvegarde site sur disque dur externe
+         10. ✅ Envoyer sauvegarde au client via WeTransfer
+         11. 📌 Tests & validation
+             1. ✅ Mail
+             2. ⏳ Attente confirmation
+
+Auto entrepreneur
+
+1. ✅ NDD > ALD
+   1. ✅ Facture NDD
+   2. ✅ Relance le 04/07/22
+   3. ✅ Paiement
+
+Perso
+
+1. ✅ Changer pass mcdo
+2. ✅ Créer compte site permis conduire
+3. Chatte
+   1. ✅ Changer filtre caisse
+      1. ✅ Filtres livré jeudi 07/07
+      2. ✅ Changés
+4. ✅ Renouveler permis de conduire
+   1. ✅ En attente de retour ~15/07/22
+5. 💩 Boursorama > appeler pour compte pougnoutte + rachat crédit immo
+   1. Mail envoyé, en attente de réponse
+   2. Pas de négo, taux a 2,20
+
 ## 01/07/22
 
 Taf
