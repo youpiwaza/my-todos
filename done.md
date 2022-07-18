@@ -2,6 +2,200 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 15/07/22
+
+Perso
+
+1. ✅ Boursorama > pougnoutte
+2. ✅💩 Check commande auto anaca3
+3. ✅💩 HF > Remboursement cashless
+   1. 💩💩💩 Jusqu'au 10 juillet, donc volé lolilol
+4. ✅ Chatte
+   1. ✅ Carnet santé en ligne
+   2. ✅ Collier gravé n° de téléphone
+   3. ✅ Vérification ICAD
+   4. ✅ Vérification Petlink.fr > pas de médaille
+5. ✅ [Skald](https://mail.google.com/mail/u/0/#inbox/FMfcgzGllVqqnCLcTDzRlDQTwnhlHFdM). A donner a mes parents
+6. ✅ Prog août
+    1. Margot & Ryan
+    2. Marc
+    3. Quentin
+    4. Mehmet
+    5. Baydot fof
+    6. week-end warhammer
+7. ✅ Résilier ESET (besoin de contacter le support ?)
+   1. ✅ Pas de renouvellement auto
+8. ✅ Changer pass steam
+
+Taf
+
+PB Modelisme
+
+1. ✅ RDV Nonore
+   1. ✅ Go
+   2. ✅ CRR + drive
+   3. ✅ Mail
+2. ✅ Gérer retours du rendez-vous > ✅ Site local & ✅ dev.pb-modelisme.com
+   1. ✅✅ Ajouter le thème Divi + clé payante max
+   2. ✅✅ Ajouter une dizaine de produits PB (avions) avec photos afin de donner accès aux pages profondes, panier, etc.
+      1. ✅🐛 dev > il manquait des fichiers dans `/wp-includes/` ?
+   3. ✅📌 Vérifier si besoin de retoucher aux pages préconstruite par woocommerce
+      1. ✅ Probalement besoin de réassigner des templates à certaines pages (mon compte, boutique)
+   4. ✅ Modifier les couleurs de base du site afin de mieux représenter le site PB
+      1. ✅ Ajout du rouge en couleur principale du thème
+   5. ✅ Ajouter le logo PB dans le menu
+   6. ✅ Création de pages de démonstration de possibilité afin de donner du choix côté PB
+      1. ✅ Hardware Store > 6 pages
+      2. ✅ Bike Repair Services > 7 pages
+   7. 🌱 Créer une page pour démo des modules
+      1. ✅ Ajouter les modules, un par bloc, séparés
+      2. ✅ Quelques exemples de blocs réseaux sociaux
+      3. 🌱 Terminer A télécharger & installer
+   8. ✅ Création du menu, avec le lien fonctionnel vers les avions ainsi que les pages de démo
+   9. ✅ Personnaliser un poil plus les propositions de templates
+   10. ✅ Importer uploads/ & bdd sur dev
+   11. ✅ Vérifications menus
+   12. ✅ Mail nonore & clients
+   13. ✅ Retour nonore
+       1. ✅ Passer le menu en rouge
+       2. ✅ Page d'accueil plus customisée, basée sur template Hardware store
+          1. ✅ Slider
+          2. ✅ Nouveautés
+3. ✅ Revoir versionning
+   1. ✅ Stocker archives WP WC DIVI + stocker notre wp-content/
+   2. ✅📝 Notes installation
+4. ✅ Excel BDD > 1 feuille par table, contenant les champs, les descriptions & les correpsondances
+   1. ✅ Récupérer les champs des tables contenant des produits
+5. ✅📝 Gestion de l'import des images produits
+   1. ✅💥 Passer doc en secret
+   2. ✅ Ancien site
+      1. ✅ Où sont elles stockées ? Attention aux catégories
+      2. ✅ Création de l'url ?
+      3. ✅ Stockage en base de données
+      4. ✅ Gestion des images multiples
+         1. ✅🚨 Soit ref table photo*, soit champ dédié ~MEDIA !
+         2. 🌱🚨 voiture > possibilité de galeries supplémentaires, gérées ?
+      5. ✅📝 Documentation pour CHACUNE des tables
+   3. ✅ Nouveau site
+      1. ✅ Vérifier comment sont importés les photos produits dans les exemples
+         1. 🚀📌 Voir quand pas d'image, champ à importer peut être vide ?
+      2. ✅ Méthode d'import
+         1. ✅ Récupérer champs, tables & crafts d'urls
+
+Champagne Didier Lapie
+
+1. ✅🐛 Bug disparation de ma commande dans l'administration WordPress
+   1. Rien dans la base de donnée, ni dans les backups avoisinants la date de la commande (4/07/22)
+   2. Les commandes sont [gérées comme des posts WP](https://wordpress.org/support/topic/one-of-my-oder-is-missing-from-woocommerce-orders-tab/)
+   3. L'adresse de ma commande renvoit vers une [nouvelle page par défaut de mentions légales](https://champagne-didier-lapie.com/wp-admin/post.php?post=1147&action=edit)
+      1. Erreur humaine
+      2. Bug exceptionnel
+         1. Suite à la maj de WooCommerce ?
+         2. Lié au fait que j'ai un compte admin ?
+      3. Bug OVH/WC ?
+   4. A suivre, les Lapie me renvoient un mail si une commande apparaît en mail mais pas dans l'admin
+      1. Besoin de plus d'infos
+
+Arrêter dev serveur & hebergement
+
+1. ✅💡 Revoir sauvegardes sites
+   1. Projet github de base en ligne
+      1. Cloner
+      2. Fichiers de base projet github + edit REAMDE.md adresse site
+   2. Arbo
+      1. _sauvegarde site avant mise a jour
+         1. base de données **.zip**
+         2. fichiers **.zip**
+      2. nouveau site mis a jour
+         1. base de données
+            1. Export sql "date---XXX.sql.zip"
+            2. Export all in one wp migration "220713---export-bdd-seulement-via-all-in-one-wp-migration_XXX"
+         2. fichiers
+            1. base wordpress 6.0 a laquelle appliquer le contenu de www **.zip**
+            2. www/
+               1. wp-content/ **.zip / SSI > 50mo .gitignore**
+               2. wp-config.php
+               3. README.md
+   3. Adapter .gitignore
+   4. Githubber & push
+   5. Sauvegarde BDD OVH
+   6. Sauvegarde site sur disque dur externe
+      1. Faire un zip du dossier "date---XXX"
+2. ✅ Faire [doc introduction management OVH](https://github.com/youpiwaza/prise-en-main-ovh)
+3. ⏳ com--aldinfographie
+   1. ✅ Console & clean éventuel
+   2. ✅ Sauvegarde BDD
+   3. ✅ Procédure sauvegarde site
+   4. ✅📌 Tests & validation
+   5. ✅ Mail infos
+      1. ✅ Rassurer
+      2. ✅ Prévenir mails qui vont arriver
+         1. ✅ OVH
+            1. ✅ Changement à faire infos proprio
+         2. ✅ Récupérer sauvegarde via wetransfer
+         3. ✅ Pièce jointe Identifiants clients en PDF
+      3. ✅ lien vers doc ovh
+      4. ✅ email administrateur wordpress
+   6. ✅ Envoyer identifiants site au format pdf
+   7. ✅ Envoyer sauvegarde au client via WeTransfer
+   8. ✅ Changer email administrateur wordpress
+   9. ✅ Passations NDDs
+   10. ⏳ Passation hébergement
+       1. SMS
+       2. ⏳ Attente identifiant OVH
+4. ⏳ com--champagne-didier-lapie
+   1. ✅📌Tests & validation
+      1. ✅⏳ Validation trop longue
+   2. ✅ Procédure sauvegarde site
+   3. ✅ Mail infos
+   4. ✅ Envoyer identifiants site au format pdf
+   5. ✅ Envoyer sauvegarde au client via WeTransfer
+   6. ✅ Changer email administrateur wordpress
+   7. ✅ Passations NDDs
+   8. ⏳ Passation hébergement
+       1. SMS
+       2. ⏳ Attente identifiant OVH
+5. ✅ com--maximelecuyer
+   1. ✅📌Tests & validation
+   2. ✅ Procédure sauvegarde site
+   3. ✅ Mail infos
+   4. ✅ Envoyer identifiants site au format pdf
+   5. ✅ Envoyer sauvegarde au client via WeTransfer
+   6. ✅ Changer email administrateur wordpress
+   7. ✅ Passations NDDs
+   8. ✅ Passation hébergement
+6. ⏳ com--sophieberberian
+   1. ✅📌 Tests & validation
+      1. ✅⏳ Validation trop longue
+   2. ✅ Procédure sauvegarde site
+   3. ✅ Mail infos
+   4. ✅ Envoyer identifiants site au format pdf
+   5. ✅ Envoyer sauvegarde au client via WeTransfer
+   6. ✅ Changer email administrateur wordpress
+   7. ✨ Passations NDDs
+   8. ⏳ Passation hébergement
+       1. SMS
+       2. ⏳ Attente identifiant OVH
+7. ✅ Résilier nouveau serveur
+   1. ⏳ Effectif 1er aout
+8. Autre
+   1. com--champagne-pascal-picard
+      1. ✅ Procédure sauvegarde site
+      2. ✅ Mail infos
+      3. ✅ Envoyer identifiants site au format pdf
+      4. ✅ Envoyer sauvegarde au client via WeTransfer
+      5. ✅ Changer email administrateur wordpress
+      6. ✅ Passations NDDs
+         1. ✅ .com
+         2. ✅ .fr
+         3. ✅ Envoyés à Geoffrey
+      7. ⏳ Passation hébergement
+         1. SMS
+         2. ⏳ Attente identifiant OVH
+   2. ✅ MKasza
+      1. ✅ Passations NDDs
+9. ✅ Virer les sites de _dev/_current
+
 ## 08/07/22
 
 PB Modelisme
