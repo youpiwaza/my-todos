@@ -150,6 +150,7 @@ Sites > crunchyroll / otakufr . co
 - De rouille et d’os
 - Death Proof
 - derriere le masque
+- Des hommes d'honneur
 - Devil story
 - Dice
 - Doomsday Book
@@ -201,6 +202,8 @@ Sites > crunchyroll / otakufr . co
 - le vaisseau de l'angoisse
 - Les affranchis
 - Les anges déchus / Wong Kar-wai
+- Les tontons flingueurs
+- Les valseuses
 - Little miss sunshine
 - lost city of z
 - Martyrs

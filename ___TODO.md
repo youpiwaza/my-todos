@@ -33,11 +33,14 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Perso
 
-1. ⏳ Cadeau anniv pougnoutte
+1. Alan santé > Trouver professionnels autour & prendre RDV
+2. ⏳ Cadeau anniv pougnoutte
    1. Vélo, a voir en revenant de vacances
-2. Réserver saut en parachute
-3. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg) ?
-4. ⏳ Orga anniv pougnoutte
+3. Organisation week-end warhammer
+4. ✅ Cadeau anniv Ju
+5. Réserver saut en parachute
+6. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg) ?
+7. ⏳ Orga anniv pougnoutte
     1. Redemander date a pougnoutte > mars...
     2. Demander contact & liste invités
     3. Demander si logement déjà vu
@@ -46,7 +49,10 @@ Perso
 
 Auto entrepreneur
 
-1. 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Facture 4/4 PB Modélisme
+1. ✅ Facture 4/4 PB Modélisme
+   1. ✅ Edition & envoi
+   2. ✅ Règlement
+   3. ✅ Mail de confirmation
 
 PB Modelisme
 
@@ -54,14 +60,15 @@ PB Modelisme
    1. ⏳🔒️ Attente https
    2. Vérifier Erreurs console ? Ressources dans wp-include/ en 404 > Besoin https
    3. WP admin > Santé du site
-2. 🚀 Excel BDD > 1 feuille par table, contenant les champs, les descriptions & les correpsondances
-   1. 🚀 Analyse des champs utiles
-      1. Tous les champs ayant intégralement pour valeurs "NULL"
-         1. "Oh boi dis is gonna be long AF ⏳"
-         2. 🚀 En cours table "matprem"
-   2. Correspondances avec WC
-   3. Inventaire champs personnalisés
-      1. Discrimination par catégorie (perso dédiés a catégories spécifiques) & global (commun a plusieurs catégories)
+2. 🚀 Analyse BDD > Excel > 1 feuille par table, contenant les champs, les descriptions & les correpsondances
+   1. ✅ Analyse des champs utiles
+      1. Référencer tous les champs ayant intégralement pour valeurs "NULL"
+   2. 🚀 Description rapide des champs si possible
+      1. Trop long sans Cédric, on verra à son retour
+   3. Correspondances avec WC
+      1. Inventaire champs personnalisés
+         1. Discrimination par catégorie (perso dédiés a catégories spécifiques) & global (commun a plusieurs catégories)
+   4. 🌱 Champs fabriqués à partir d'autres tables
 3. 📝 Gestion de l'import des images produits
    1. 📌 Voir quand pas d'image, champ à importer peut être vide ?
 4. Importer les marques
@@ -98,7 +105,7 @@ Arrêter dev serveur & hebergement > Week end SEULEMENT
                5. analyse des cookies + maj RGPD et éventuellement bandeau
          4. Github > projet dédié checklist fin de site, à partir de [chaos](https://github.com/youpiwaza/chaos-boilerplate-front)
       3. Résilier ancien serveur
-2. Migration
+2. Migration 💥💥💥💥💥📌 changer propriétaire > mettre dans "domaine" le nom de l'hébergement
    1. ⏳ com--aldinfographie
       1. ⏳ Passation hébergement
           1. SMS
@@ -219,6 +226,7 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
   - ✅ Ginseng / "Super ginko"
   - ✅ Mix vitamine
   - ✅ Doc > vitamine D tous les 6 mois
+  - Miel gelée royale
 - ✅ Tout est versionné, pas de WIP qui traîne
 
 ---
