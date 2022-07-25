@@ -33,26 +33,26 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Perso
 
-1. Alan santé > Trouver professionnels autour & prendre RDV
-2. ⏳ Cadeau anniv pougnoutte
+1. ⏳ Syndic
+   1. ⏳ Attente 27/07
+   2. Payer moitié
+   3. Virement
+2. ⏳ Loyer
+   1. ⏳ Attente 27/07
+3. 🔍 Champignon Lingzhi contre la fatigue & insomnie
+4. Réparer sacoche & couper pins powerwolf
+5. Alan santé > Trouver professionnels autour & prendre RDV
+6. ⏳ Cadeau anniv pougnoutte
    1. Vélo, a voir en revenant de vacances
-3. Organisation week-end warhammer
-4. ✅ Cadeau anniv Ju
-5. Réserver saut en parachute
-6. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg) ?
-7. ⏳ Orga anniv pougnoutte
+7. 🚀 Organisation week-end warhammer
+8. Réserver saut en parachute
+9. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg) ?
+10. ⏳ Orga anniv pougnoutte
     1. Redemander date a pougnoutte > mars...
     2. Demander contact & liste invités
     3. Demander si logement déjà vu
     4. Voir pour cagnotte permis moto
     5. Medieval tents
-
-Auto entrepreneur
-
-1. ✅ Facture 4/4 PB Modélisme
-   1. ✅ Edition & envoi
-   2. ✅ Règlement
-   3. ✅ Mail de confirmation
 
 PB Modelisme
 
@@ -61,14 +61,12 @@ PB Modelisme
    2. Vérifier Erreurs console ? Ressources dans wp-include/ en 404 > Besoin https
    3. WP admin > Santé du site
 2. 🚀 Analyse BDD > Excel > 1 feuille par table, contenant les champs, les descriptions & les correpsondances
-   1. ✅ Analyse des champs utiles
-      1. Référencer tous les champs ayant intégralement pour valeurs "NULL"
-   2. 🚀 Description rapide des champs si possible
+   1. 🚀 Description rapide des champs si possible
       1. Trop long sans Cédric, on verra à son retour
-   3. Correspondances avec WC
+   2. Correspondances avec WC
       1. Inventaire champs personnalisés
          1. Discrimination par catégorie (perso dédiés a catégories spécifiques) & global (commun a plusieurs catégories)
-   4. 🌱 Champs fabriqués à partir d'autres tables
+   3. 🌱 Champs fabriqués à partir d'autres tables
 3. 📝 Gestion de l'import des images produits
    1. 📌 Voir quand pas d'image, champ à importer peut être vide ?
 4. Importer les marques
@@ -77,7 +75,7 @@ PB Modelisme
 5. Importer l'ensemble d'une catégorie de produits
 6. 🌱 Importer les commandes
 
-Arrêter dev serveur & hebergement > Week end SEULEMENT
+Arrêter dev serveur & hebergement
 
 1. Migrer clients
    1. Ancien serveur
@@ -85,7 +83,7 @@ Arrêter dev serveur & hebergement > Week end SEULEMENT
          1. ftp > Enregistré dans winscp
          2. [mysql](http://94.23.208.218/phpMyAdmin-NEW/) > Enregistré dans dashlane
       2. masamune
-         1. 🚀🚀🚀 clean secrets ids ffs
+         1. 🚀 clean secrets ids ffs
          2. blog--masamune--fr
             1. Repartir d'une base propre WP et récupérer/convertir les trucs 1 par 1
          3. masamune--fr
@@ -105,24 +103,25 @@ Arrêter dev serveur & hebergement > Week end SEULEMENT
                5. analyse des cookies + maj RGPD et éventuellement bandeau
          4. Github > projet dédié checklist fin de site, à partir de [chaos](https://github.com/youpiwaza/chaos-boilerplate-front)
       3. Résilier ancien serveur
-2. Migration 💥💥💥💥💥📌 changer propriétaire > mettre dans "domaine" le nom de l'hébergement
+2. 💥📌 Migration changer propriétaire > mettre dans "domaine" le nom de l'hébergement
    1. ⏳ com--aldinfographie
       1. ⏳ Passation hébergement
-          1. SMS
+          1. ✅ SMS
           2. ⏳ Attente identifiant OVH
    2. ⏳ com--champagne-didier-lapie
       1. ⏳ Passation hébergement
-          1. SMS / Rappeler
+          1. ✅ SMS / Rappeler
           2. ⏳ Attente identifiant OVH
    3. ⏳ com--sophieberberian
-      1. ✨ Passations NDDs
+      1. ✅✨ Passations NDDs
       2. ⏳ Passation hébergement
-          1. SMS
-          2. ⏳ Attente identifiant OVH
+          1. ✅ SMS
+          2. ✅ Attente identifiant OVH
    4. com--champagne-pascal-picard
       1. ⏳ Passation hébergement
-         1. SMS
+         1. ✅ SMS / Rappeler
          2. ⏳ Attente identifiant OVH
+            1. Pas de nouvelles de geoffrey, voir avec fabien ?
    5. MKasza
       1. Vérifier passations NDDs
 3. ⏳ Résilier nouveau serveur
@@ -153,20 +152,20 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 
 - ✅ Déplacer les terminés ✅ à chaque début de semaine dans done.md
 - 💩 Déplacer les TODO 🌱 dans _TODO_shame.md
-- ⏳ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ⏳ mails, ⏳ edt portable, ⏳ favoris, ⏳ bureau. Si possible description + lien.
-- ⏳ Nettoyer le fichier __TODO
-  - ⏳ Status
-  - ⏳💥 Ce fichier > ### Shame 💥 Cleaner pour vrai les trucs ou je ne passe jamais
-    - ⏳ Ranger dans fichiers TODO correspondant
-      - ⏳ Prioriser
-- ⏳ Virer ce qui traine
-  - ⏳ sur le bureau
+- ✅ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ✅ mails, ✅ edt portable, ✅ favoris, ✅ bureau. Si possible description + lien.
+- ✅ Nettoyer le fichier __TODO
+  - ✅ Status
+  - ✅💥 Ce fichier > ### Shame 💥 Cleaner pour vrai les trucs ou je ne passe jamais
+    - ✅ Ranger dans fichiers TODO correspondant
+      - ✅ Prioriser
+- ✅ Virer ce qui traine
+  - ✅ sur le bureau
   - 💩 dans le dossier _shame du bureau
   - 💩 Lel ~(local)/_dev/_shame
-  - ⏳ Vider corbeille
-  - ⏳ Vider téléchargements
-  - ⏳ Dans les mails
-- ⏳ Déplacer veille onglets dans TODO_veille
+  - ✅ Vider corbeille
+  - ✅ Vider téléchargements
+  - ✅ Dans les mails
+- ✅ Déplacer veille onglets dans TODO_veille
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
 - ⏳ Déclaration Auto entrepreneur
@@ -175,33 +174,33 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 - ⏳ Vérifier impôts sur espace / Dernière vérif 15/08/2021
   - ⏳ Perso  / ✅ 11/07/22
   - ⏳ Pro    / ✅ 11/07/22 (CFE réglé le 17/11/2021) ~début décembre
-- ⏳ Vérifier messages [Ameli](https://assure.ameli.fr/)
-- ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21
-  - ⏩ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk), `/r` également
+- ✅ Vérifier messages [Ameli](https://assure.ameli.fr/)
+- ✅ Maj locales / Environnement de dev / Dernière maj le 01/06/21
+  - ✅ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk), `/r` également
     1. Invite de commande ou Powershell **en admin**
     2. `chkdsk c: /f /r` (et en fonction de vos disques.. && `chkdsk d: /f /r`, etc.)
     3. `>Blah blah besoin de redémarrer O/n` >> `O`
     4. Redémarrer / Attendre 5 ans et demi sauf si t'as un SSD/Nvme
-  - ⏳ Windaube
-    - ⏳ Update alakon
+  - ✅ Windaube
+    - ✅ Update alakon
     - ⏳ [.net](https://dotnet.microsoft.com/download) > Runtime
-    - ⏳ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
-  - ⏳ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
-  - ⏳ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
-    - ⏳ Dell support assist
-    - ⏳ Alienware update
-  - ⏳ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
-  - ⏳ Logiciels alakon
-    - ⏳ Ouvrir VScode > Auto update plugins etc.
-    - ~~Filezilla~~ ⏳ WinSCP, ⏳ OBS, ⏳ VLC, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
+    - ✅ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
+  - ✅ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
+  - ✅ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
+    - ✅ Dell support assist
+    - ✅ Alienware update
+  - ✅ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
+  - ✅ Logiciels alakon
+    - ✅ Ouvrir VScode > Auto update plugins etc.
+    - ~~Filezilla~~ ✅ WinSCP, ✅ OBS, ✅ VLC, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
     - ~~Powershell~~ Pris en compte par Windows update
       - [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
       - ( [Doc](https://docs.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) )
-    - ⏳ Nvidia driver
-  - ⏳ Supprimer les fichiers temporaires
+    - ✅ Nvidia driver
+  - ✅ Supprimer les fichiers temporaires
     - Exec > `temp` // Devrait ouvrir `~c:Windows\Temp`
     - Supprimer tout, Ignorer ceux utilisés
-  - ⏳ WSL 2
+  - ✅ WSL 2
     - Version Ubuntu
       - Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
     - Packages & terminal
@@ -211,7 +210,6 @@ omz update
 git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade && sudo apt -y autoremove && docker system prune -af
 ```
 
-- 🤡 Maj budget couple
 - ⏳ Téléphone
   - ⏳ Maj de la base
   - ⏳ Maj des applications
@@ -226,7 +224,7 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
   - ✅ Ginseng / "Super ginko"
   - ✅ Mix vitamine
   - ✅ Doc > vitamine D tous les 6 mois
-  - Miel gelée royale
+  - 🚀 Miel gelée royale
 - ✅ Tout est versionné, pas de WIP qui traîne
 
 ---
@@ -313,6 +311,13 @@ Rieng
 13. Faire article mise en place/réparation/optimisation de pc
     1. [hey](https://www.drivereasy.com/knowledge/100-disk-usage-windows-10-fixed/)
     2. [hoy](https://www.makeuseof.com/tips-fix-100-disk-usage-improve-windows-performance/)
+    3. Faire article optimiser pc famille
+       1. DD plein
+          1. Reco SSD/Nvme
+       2. windows update
+       3. Conflits anti virus
+       4. Si HDD > Defrag
+       5. chkdsk
 14. Faire article maintenance PC
 15. Faire article découverte ansible
 16. double authentification OVH manager

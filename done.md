@@ -2,6 +2,25 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 22/07/22
+
+Perso
+
+1. ✅ Cadeau anniv Ju
+
+Auto entrepreneur
+
+1. ✅ Facture 4/4 PB Modélisme
+   1. ✅ Edition & envoi
+   2. ✅ Règlement
+   3. ✅ Mail de confirmation
+
+PB Modelisme
+
+1. 🚀 Analyse BDD > Excel > 1 feuille par table, contenant les champs, les descriptions & les correpsondances
+   1. ✅ Analyse des champs utiles
+      1. ✅ Référencer tous les champs ayant intégralement pour valeurs "NULL"
+
 ## 15/07/22
 
 Perso

@@ -105,6 +105,7 @@ Sites > crunchyroll / otakufr . co
 
 ## Films
 
+- 120 battements par minute
 - 1917
 - 1983
 - 8 mm / joel schumacher 1999
@@ -255,6 +256,7 @@ Sites > crunchyroll / otakufr . co
 - Spectacle gaspard proust tapine
 - Sweet home / netflix
 - Sword of destiny
+- Tait toi
 - The alpinist
 - The ambassador
 - the blade
