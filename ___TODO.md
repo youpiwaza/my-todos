@@ -33,18 +33,18 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Perso
 
-1. ⏳ Syndic
+1. 🚀 Organisation week-end warhammer
+2. ⏳ Syndic
    1. ⏳ Attente 27/07
    2. Payer moitié
    3. Virement
-2. ⏳ Loyer
+3. ⏳ Loyer
    1. ⏳ Attente 27/07
-3. 🔍 Champignon Lingzhi contre la fatigue & insomnie
-4. Réparer sacoche & couper pins powerwolf
-5. Alan santé > Trouver professionnels autour & prendre RDV
-6. ⏳ Cadeau anniv pougnoutte
+4. 🔍 Champignon Lingzhi contre la fatigue & insomnie
+5. Réparer sacoche & couper pins powerwolf
+6. Alan santé > Trouver professionnels autour & prendre RDV
+7. ⏳ Cadeau anniv pougnoutte
    1. Vélo, a voir en revenant de vacances
-7. 🚀 Organisation week-end warhammer
 8. Réserver saut en parachute
 9. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg) ?
 10. ⏳ Orga anniv pougnoutte
@@ -61,19 +61,64 @@ PB Modelisme
    2. Vérifier Erreurs console ? Ressources dans wp-include/ en 404 > Besoin https
    3. WP admin > Santé du site
 2. 🚀 Analyse BDD > Excel > 1 feuille par table, contenant les champs, les descriptions & les correpsondances
-   1. 🚀 Description rapide des champs si possible
-      1. Trop long sans Cédric, on verra à son retour
+   1. 🚀 Inventaire global des champs
+      1. Sur l'ensemble des tables
+         1. ✅ Compter 🧮 le nombre d'entrées dans chaque table
+         2. ✅ Compter 📊 le nombre d'entrées affichées sur le site
+         3. ✅ Inventaire des champs en BDD 💾
+         4. Description des champs en BDD 💬
+         5. Inventaire caractéristiques techniques 🔧
+         6. Inventaire tout ce qui est affiché 👀
+         7. Discriminer les champs
+            1. 👤 vides
+            2. 🤏 Faible quantité de données fabriqués à partir d'autres tables
+            3. ♻️ à refactoriser
+            4. 🔗 fabriqués à partir d'autres tables
+            5. 👪 communs
+            6. 🏎️ communs à tous les véhicules
+            7. 🙍‍♂️ propre à cette table
+         8. Lister tables liées 🔗
+      2. Avancement par table
+         1. ✅ accessoires
+         2. ✅ acctx
+         3. 🧮📊💾💬🔧👀🔗 avion
+            1. 🚀 Discriminer les champs
+         4. 🧮📊💾💬 bateaux
+         5. 🧮📊💾💬 batterie
+         6. 🧮📊💾💬🔧 bougie
+         7. 🧮📊💾💬🔧 carburant
+         8. 🧮📊💾💬🔧 chargeur
+         9. 🧮📊💾 controleur
+         10. 🧮📊💾 heliceavion
+         11. 🧮📊💾 helico
+         12. 🧮📊💾 maquette
+             1. 📌 Vérifier si QTCMD & QTMINSTOCK sont remplis & utilisés (commun maquette)
+         13. 🧮📊💾 matprem
+         14. 🧮📊💾 moteur_electrique
+         15. 🧮📊💾 moteur_thermique
+         16. 🧮📊💾 pcedetthermik
+         17. 🧮📊💾 piece_heli
+         18. 🧮📊💾 piece_voiture
+         19. 🧮📊💾 quartz
+         20. 🧮📊💾 radio
+         21. 🧮📊💾 recepteur
+         22. 🧮📊💾 servo
+         23. 🧮📊💾 voitures
    2. Correspondances avec WC
       1. Inventaire champs personnalisés
          1. Discrimination par catégorie (perso dédiés a catégories spécifiques) & global (commun a plusieurs catégories)
-   3. 🌱 Champs fabriqués à partir d'autres tables
-3. 📝 Gestion de l'import des images produits
+3. 🐛🧹 Tables a clean, nom ou ref produit non trouvées sur site
+   1. `bougie`, 49 entrées
+   2. `moteur_thermique`, 126 entrées
+   3. `fuel`, 9 OK sur 86 entrées, nom `DYNAGLO%`
+4. 📝 Gestion de l'import des images produits
    1. 📌 Voir quand pas d'image, champ à importer peut être vide ?
-4. Importer les marques
+5. Importer les marques
    1. 📝 Elimination des doublons, chaque marque n'a qu'une entrée
    2. 📝 Plus de marquées dédiées à certaines catégories
-5. Importer l'ensemble d'une catégorie de produits
-6. 🌱 Importer les commandes
+6. Importer l'ensemble d'une catégorie de produits
+7. 🌱 Importer les commandes
+8. 🌱 Importer les anciens comptes clients ?
 
 Arrêter dev serveur & hebergement
 
@@ -104,26 +149,78 @@ Arrêter dev serveur & hebergement
          4. Github > projet dédié checklist fin de site, à partir de [chaos](https://github.com/youpiwaza/chaos-boilerplate-front)
       3. Résilier ancien serveur
 2. 💥📌 Migration changer propriétaire > mettre dans "domaine" le nom de l'hébergement
-   1. ⏳ com--aldinfographie
-      1. ⏳ Passation hébergement
+   1. Retour support ovh "Veillez à bien inclure votre nom de service "XXX.cluster029.hosting.ovh.net" dans "domaine"."
+   2. ⏳ com--aldinfographie
+      1. ⏳ Vérifier passations NDDs "Déjà en cours de changement de propriétaire"
+      2. ⏳ Passation hébergement
           1. ✅ SMS
-          2. ⏳ Attente identifiant OVH
-   2. ⏳ com--champagne-didier-lapie
-      1. ⏳ Passation hébergement
+          2. ✅ Relance
+          3. ⏳ Attente identifiant OVH
+          4. Passation
+             1. Demande + réception PDF
+             2. Compléter PDF
+                1. Max
+                2. Nonore
+             3. Sauvegarder PDFs dans drive
+             4. Pièces jointes
+                1. Max > Pièce identité
+                2. Nonore > Pièce identité
+             5. Envoi à suivi-procedure@ovh.net
+             6. Validation
+   3. ⏳ com--champagne-didier-lapie
+      1. ⏳ Vérifier passations NDDs "Déjà en cours de changement de propriétaire"
+      2. ⏳ Passation hébergement
           1. ✅ SMS / Rappeler
-          2. ⏳ Attente identifiant OVH
-   3. ⏳ com--sophieberberian
+          2. ✅ Relance
+          3. ⏳ Attente identifiant OVH
+          4. Passation
+             1. Demande + réception PDF
+             2. Compléter PDF
+                1. Max
+                2. Lapie
+             3. Sauvegarder PDFs dans drive
+             4. Pièces jointes
+                1. Max > Pièce identité
+                2. Lapie > Pièce identité
+             5. Envoi à suivi-procedure@ovh.net
+             6. Validation
+   4. ⏳ com--sophieberberian
       1. ✅✨ Passations NDDs
       2. ⏳ Passation hébergement
           1. ✅ SMS
-          2. ✅ Attente identifiant OVH
-   4. com--champagne-pascal-picard
-      1. ⏳ Passation hébergement
+          2. ✅ Attente identifiant OVH > bc45188-ovh
+          3. ⏳ Passation
+             1. ✅ Demande + réception PDF
+             2. Compléter PDF
+                1. ✅ Max
+                2. Bedot
+             3. Sauvegarder PDFs dans drive
+             4. Pièces jointes
+                1. ✅ Max > Pièce identité
+                2. Bedot > Pièce identité
+             5. Envoi à suivi-procedure@ovh.net
+             6. Validation
+   5. com--champagne-pascal-picard
+      1. ⏳ Vérifier passations NDDs "Déjà en cours de changement de propriétaire"
+      2. ⏳ Passation hébergement
          1. ✅ SMS / Rappeler
-         2. ⏳ Attente identifiant OVH
-            1. Pas de nouvelles de geoffrey, voir avec fabien ?
-   5. MKasza
-      1. Vérifier passations NDDs
+         2. ✅ Attente identifiant OVH
+         3. ⏳ Passation
+             1. ✅ Demande + réception PDF
+             2. ✅ Compléter PDF
+                1. ✅ Max
+                2. ✅ Picard
+             3. ✅ Sauvegarder PDFs dans drive
+             4. ✅ Pièces jointes
+                1. ✅ Max > Pièce identité
+                2. ✅ Picard
+                   1. ✅ Attestation habilitation à recevoir
+                   2. ✅ Extrait Kbis
+                   3. ✅ Pièce identité
+             5. ✅ Envoi à suivi-procedure@ovh.net
+             6. ⏳ Validation
+   6. ⏳ MKasza
+      1. ⏳ Vérifier passations NDDs "Déjà en cours de changement de propriétaire"
 3. ⏳ Résilier nouveau serveur
    1. ✅ Demander résiliation
    2. ⏳ Effectif 1er aout
