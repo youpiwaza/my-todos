@@ -33,21 +33,30 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Perso
 
-1. 🚀 Organisation week-end warhammer
-2. ⏳ Syndic
-   1. ⏳ Attente 27/07
-   2. Payer moitié
-   3. Virement
-3. ⏳ Loyer
-   1. ⏳ Attente 27/07
-4. 🔍 Champignon Lingzhi contre la fatigue & insomnie
-5. Réparer sacoche & couper pins powerwolf
-6. Alan santé > Trouver professionnels autour & prendre RDV
-7. ⏳ Cadeau anniv pougnoutte
-   1. Vélo, a voir en revenant de vacances
-8. Réserver saut en parachute
-9. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg) ?
-10. ⏳ Orga anniv pougnoutte
+1. ⏳ Commander bière
+   1. ✅ Commande
+   2. ⏳ Attente livraison
+2. ✅ Remplir sondage sofia
+3. Film entflix > the pentaverate
+4. Film the perfection
+5. ✅ Eclater mauvaise herbe pot jardin
+6. ✅ Réparer putain de sacoche
+   1. ✅ & pins
+7. ✅ Organisation week-end warhammer
+8. ✅ Syndic
+   1. ✅ Attente 27/07
+   2. ✅ Payer moitié
+   3. ✅ Virement
+9. ✅ Loyer
+   1. ✅ Attente 27/07
+10. 🔍 Champignon Lingzhi contre la fatigue & insomnie
+11. 🔍 Graine de caroube
+12. Alan santé > Trouver professionnels autour & prendre RDV
+13. 🌱⏳ Cadeau anniv pougnoutte
+    1. Vélo, a voir en revenant de vacances
+14. Réserver saut en parachute
+15. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg) ?
+16. 🌱 Orga anniv pougnoutte
     1. Redemander date a pougnoutte > mars...
     2. Demander contact & liste invités
     3. Demander si logement déjà vu
@@ -62,14 +71,14 @@ PB Modelisme
    3. WP admin > Santé du site
 2. 🚀 Analyse BDD > Excel > 1 feuille par table, contenant les champs, les descriptions & les correpsondances
    1. 🚀 Inventaire global des champs
-      1. Sur l'ensemble des tables
+      1. ✅ Sur l'ensemble des tables
          1. ✅ Compter 🧮 le nombre d'entrées dans chaque table
          2. ✅ Compter 📊 le nombre d'entrées affichées sur le site
          3. ✅ Inventaire des champs en BDD 💾
-         4. Description des champs en BDD 💬
-         5. Inventaire caractéristiques techniques 🔧
-         6. Inventaire tout ce qui est affiché 👀
-         7. Discriminer les champs
+         4. ✅ Description des champs en BDD 💬
+         5. ✅ Inventaire caractéristiques techniques 🔧
+         6. ✅ Inventaire tout ce qui est affiché 👀
+         7. ✅ Discriminer les champs
             1. 👤 vides
             2. 🤏 Faible quantité de données fabriqués à partir d'autres tables
             3. ♻️ à refactoriser
@@ -77,36 +86,41 @@ PB Modelisme
             5. 👪 communs
             6. 🏎️ communs à tous les véhicules
             7. 🙍‍♂️ propre à cette table
-         8. Lister tables liées 🔗
-      2. Avancement par table
+            8. ❓ Infos non retrouvées en BDD
+         8. ✅ Lister tables liées 🔗
+      2. ✅ Avancement par table
          1. ✅ accessoires
          2. ✅ acctx
-         3. 🧮📊💾💬🔧👀🔗 avion
-            1. 🚀 Discriminer les champs
-         4. 🧮📊💾💬 bateaux
-         5. 🧮📊💾💬 batterie
-         6. 🧮📊💾💬🔧 bougie
-         7. 🧮📊💾💬🔧 carburant
-         8. 🧮📊💾💬🔧 chargeur
-         9. 🧮📊💾 controleur
-         10. 🧮📊💾 heliceavion
-         11. 🧮📊💾 helico
-         12. 🧮📊💾 maquette
-             1. 📌 Vérifier si QTCMD & QTMINSTOCK sont remplis & utilisés (commun maquette)
-         13. 🧮📊💾 matprem
-         14. 🧮📊💾 moteur_electrique
-         15. 🧮📊💾 moteur_thermique
-         16. 🧮📊💾 pcedetthermik
-         17. 🧮📊💾 piece_heli
-         18. 🧮📊💾 piece_voiture
-         19. 🧮📊💾 quartz
-         20. 🧮📊💾 radio
-         21. 🧮📊💾 recepteur
-         22. 🧮📊💾 servo
-         23. 🧮📊💾 voitures
+         3. ✅ avion ❓ Produits compatibles, Lien avec moteurs thermiques
+         4. ✅ bateaux
+         5. ✅ batterie ❓ Produits compatibles
+         6. ✅ bougie
+         7. ✅ carburant
+         8. ✅ chargeur ❓ Produits compatibles
+         9. ✅ controleur ❓ Produits compatibles
+         10. ✅ heliceavion ❓ Piéces détachées, Accessoires conseillés
+         11. ✅ helico ❓ Onglets
+         12. ✅ maquette ❓ Onglets
+         13. ✅ matprem ❓ Onglets
+         14. ✅ moteur_electrique ❓ Onglets
+         15. ✅ moteur_thermique ❓ Onglets
+         16. ~✅🧮📊💾👤🤏💬 pcedetthermik ❓ Pas d'affichage sur le site
+         17. ✅ piece_heli
+         18. ~✅🧮📊💾👤🤏💬 piece_voiture ❓ Pas d'affichage sur le site
+         19. ~✅🧮📊💾👤🤏💬 quartz ❓ Pas d'affichage sur le site
+         20. ✅ radio ❓ Onglets récepteurs compatibles
+         21. ✅ recepteur ❓ Onglets produits compatibles
+         22. ✅ servo ❓ Onglets
+         23. ✅ voitures ❓ Onglets
    2. Correspondances avec WC
-      1. Inventaire champs personnalisés
-         1. Discrimination par catégorie (perso dédiés a catégories spécifiques) & global (commun a plusieurs catégories)
+   3. Inventaire champs personnalisés
+      1. Discrimination par catégorie
+         1. Global
+         2. Véhicules
+         3. Spécifiques, à activer à la volée en fonction des catégories
+            1. Diamètres min & max
+            2. Courant ? continu, max, equilibrage, charge rapide
+         4. Propre au produit
 3. 🐛🧹 Tables a clean, nom ou ref produit non trouvées sur site
    1. `bougie`, 49 entrées
    2. `moteur_thermique`, 126 entrées
@@ -247,57 +261,57 @@ Environnement de dev local clean
 
 Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel plus tard/exponentiel
 
-- ✅ Déplacer les terminés ✅ à chaque début de semaine dans done.md
+- ⏳ Déplacer les terminés ✅ à chaque début de semaine dans done.md
 - 💩 Déplacer les TODO 🌱 dans _TODO_shame.md
-- ✅ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ✅ mails, ✅ edt portable, ✅ favoris, ✅ bureau. Si possible description + lien.
-- ✅ Nettoyer le fichier __TODO
-  - ✅ Status
-  - ✅💥 Ce fichier > ### Shame 💥 Cleaner pour vrai les trucs ou je ne passe jamais
-    - ✅ Ranger dans fichiers TODO correspondant
-      - ✅ Prioriser
-- ✅ Virer ce qui traine
-  - ✅ sur le bureau
+- ⏳ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ⏳ mails, ⏳ edt portable, ⏳ favoris, ⏳ bureau. Si possible description + lien.
+- ⏳ Nettoyer le fichier __TODO
+  - ⏳ Status
+  - ⏳💥 Ce fichier > ### Shame 💥 Cleaner pour vrai les trucs ou je ne passe jamais
+    - ⏳ Ranger dans fichiers TODO correspondant
+      - ⏳ Prioriser
+- ⏳ Virer ce qui traine
+  - ⏳ sur le bureau
   - 💩 dans le dossier _shame du bureau
   - 💩 Lel ~(local)/_dev/_shame
-  - ✅ Vider corbeille
-  - ✅ Vider téléchargements
-  - ✅ Dans les mails
-- ✅ Déplacer veille onglets dans TODO_veille
+  - ⏳ Vider corbeille
+  - ⏳ Vider téléchargements
+  - ⏳ Dans les mails
+- ⏳ Déplacer veille onglets dans TODO_veille
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
-- ⏳ Déclaration Auto entrepreneur
+- ✅ Déclaration Auto entrepreneur
   - ✅ Juin 2022
   - ⏳ Juillet 2022
-- ⏳ Vérifier impôts sur espace / Dernière vérif 15/08/2021
-  - ⏳ Perso  / ✅ 11/07/22
-  - ⏳ Pro    / ✅ 11/07/22 (CFE réglé le 17/11/2021) ~début décembre
-- ✅ Vérifier messages [Ameli](https://assure.ameli.fr/)
-- ✅ Maj locales / Environnement de dev / Dernière maj le 01/06/21
-  - ✅ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk), `/r` également
+- ✅ Vérifier impôts sur espace / Dernière vérif 15/08/2021
+  - ✨💥💥💥 Perso  / ✨ 01/08/22
+  - ✅ Pro    / ✅ 11/07/22 (CFE réglé le 17/11/2021) ~début décembre
+- ⏳ Vérifier messages [Ameli](https://assure.ameli.fr/)
+- ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21
+  - ⏳ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk), `/r` également
     1. Invite de commande ou Powershell **en admin**
     2. `chkdsk c: /f /r` (et en fonction de vos disques.. && `chkdsk d: /f /r`, etc.)
     3. `>Blah blah besoin de redémarrer O/n` >> `O`
     4. Redémarrer / Attendre 5 ans et demi sauf si t'as un SSD/Nvme
-  - ✅ Windaube
-    - ✅ Update alakon
+  - ⏳ Windaube
+    - ⏳ Update alakon
     - ⏳ [.net](https://dotnet.microsoft.com/download) > Runtime
-    - ✅ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
-  - ✅ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
-  - ✅ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
-    - ✅ Dell support assist
-    - ✅ Alienware update
-  - ✅ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
-  - ✅ Logiciels alakon
-    - ✅ Ouvrir VScode > Auto update plugins etc.
-    - ~~Filezilla~~ ✅ WinSCP, ✅ OBS, ✅ VLC, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
+    - ⏳ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
+  - ⏳ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
+  - ⏳ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
+    - ⏳ Dell support assist
+    - ⏳ Alienware update
+  - ⏳ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
+  - ⏳ Logiciels alakon
+    - ⏳ Ouvrir VScode > Auto update plugins etc.
+    - ~~Filezilla~~ ⏳ WinSCP, ⏳ OBS, ⏳ VLC, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
     - ~~Powershell~~ Pris en compte par Windows update
       - [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
       - ( [Doc](https://docs.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) )
-    - ✅ Nvidia driver
-  - ✅ Supprimer les fichiers temporaires
+    - ⏳ Nvidia driver
+  - ⏳ Supprimer les fichiers temporaires
     - Exec > `temp` // Devrait ouvrir `~c:Windows\Temp`
     - Supprimer tout, Ignorer ceux utilisés
-  - ✅ WSL 2
+  - ⏳ WSL 2
     - Version Ubuntu
       - Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
     - Packages & terminal
@@ -314,7 +328,7 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
 - ✅ Compléments alimentaires
   - ✅ Anaca3
     - ✅ Attente livraison
-    - ♻️ Renouvelement auto 1 fois/mois amazon
+      - Pas les clés de la BAL lelelelelelelelelel omégadrole putain QU'EST CE QU'ON S'ESCLAFFE
   - ✅ Huile de foie de morue
   - ✅ Choline Inositol
   - ✅ Trucs foie/reins
