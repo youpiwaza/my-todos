@@ -2,6 +2,72 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 29/07/22
+
+PB Modelisme
+
+1. 🚀 Analyse BDD > Excel > 1 feuille par table, contenant les champs, les descriptions & les correspondances
+   1. ✅ Inventaire global des champs
+      1. ✅ Sur l'ensemble des tables
+         1. ✅ Compter 🧮 le nombre d'entrées dans chaque table
+         2. ✅ Compter 📊 le nombre d'entrées affichées sur le site
+         3. ✅ Inventaire des champs en BDD 💾
+         4. ✅ Description des champs en BDD 💬
+         5. ✅ Inventaire caractéristiques techniques 🔧
+         6. ✅ Inventaire tout ce qui est affiché 👀
+         7. ✅ Discriminer les champs
+            1. 👤 vides
+            2. 🤏 Faible quantité de données fabriqués à partir d'autres tables
+            3. ♻️ à refactoriser
+            4. 🔗 fabriqués à partir d'autres tables
+            5. 👪 communs
+            6. 🏎️ communs à tous les véhicules
+            7. 🙍‍♂️ propre à cette table
+            8. ❓ Infos non retrouvées en BDD
+         8. ✅ Lister tables liées 🔗
+      2. ✅ Avancement par table
+         1. ✅ accessoires
+         2. ✅ acctx
+         3. ✅ avion ❓ Produits compatibles, Lien avec moteurs thermiques
+         4. ✅ bateaux
+         5. ✅ batterie ❓ Produits compatibles
+         6. ✅ bougie
+         7. ✅ carburant
+         8. ✅ chargeur ❓ Produits compatibles
+         9. ✅ controleur ❓ Produits compatibles
+         10. ✅ heliceavion ❓ Piéces détachées, Accessoires conseillés
+         11. ✅ helico ❓ Onglets
+         12. ✅ maquette ❓ Onglets
+         13. ✅ matprem ❓ Onglets
+         14. ✅ moteur_electrique ❓ Onglets
+         15. ✅ moteur_thermique ❓ Onglets
+         16. ~✅🧮📊💾👤🤏💬 pcedetthermik ❓ Pas d'affichage sur le site
+         17. ✅ piece_heli
+         18. ~✅🧮📊💾👤🤏💬 piece_voiture ❓ Pas d'affichage sur le site
+         19. ~✅🧮📊💾👤🤏💬 quartz ❓ Pas d'affichage sur le site
+         20. ✅ radio ❓ Onglets récepteurs compatibles
+         21. ✅ recepteur ❓ Onglets produits compatibles
+         22. ✅ servo ❓ Onglets
+         23. ✅ voitures ❓ Onglets
+
+Perso
+
+1. ✅ Commander bière
+   1. ✅ Commande
+   2. ✅ Attente livraison
+2. ✅ Remplir sondage sofia
+3. ✅ Film the perfection
+4. ✅ Eclater mauvaise herbe pot jardin
+5. ✅ Réparer putain de sacoche
+   1. ✅ & pins
+6. ✅ Organisation week-end warhammer
+7. ✅ Syndic
+   1. ✅ Attente 27/07
+   2. ✅ Payer moitié
+   3. ✅ Virement
+8. ✅ Loyer
+   1. ✅ Attente 27/07
+
 ## 22/07/22
 
 Perso

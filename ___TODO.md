@@ -33,30 +33,14 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Perso
 
-1. ⏳ Commander bière
-   1. ✅ Commande
-   2. ⏳ Attente livraison
-2. ✅ Remplir sondage sofia
-3. Film entflix > the pentaverate
-4. Film the perfection
-5. ✅ Eclater mauvaise herbe pot jardin
-6. ✅ Réparer putain de sacoche
-   1. ✅ & pins
-7. ✅ Organisation week-end warhammer
-8. ✅ Syndic
-   1. ✅ Attente 27/07
-   2. ✅ Payer moitié
-   3. ✅ Virement
-9. ✅ Loyer
-   1. ✅ Attente 27/07
-10. 🔍 Champignon Lingzhi contre la fatigue & insomnie
-11. 🔍 Graine de caroube
-12. Alan santé > Trouver professionnels autour & prendre RDV
-13. 🌱⏳ Cadeau anniv pougnoutte
+1. [Orga we warhammer](https://docs.google.com/spreadsheets/d/1VPE3STTiAxp2QXXSfQ36fRdWbYpTJ5odioZmtBJRTDQ/edit#gid=0)
+2. 🔍 Champignon Lingzhi contre la fatigue & insomnie
+3. Alan santé > Trouver professionnels autour & prendre RDV
+4. 🌱⏳ Cadeau anniv pougnoutte
     1. Vélo, a voir en revenant de vacances
-14. Réserver saut en parachute
-15. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg) ?
-16. 🌱 Orga anniv pougnoutte
+5. Réserver saut en parachute
+6. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg) ?
+7. 🌱 Orga anniv pougnoutte
     1. Redemander date a pougnoutte > mars...
     2. Demander contact & liste invités
     3. Demander si logement déjà vu
@@ -69,51 +53,9 @@ PB Modelisme
    1. ⏳🔒️ Attente https
    2. Vérifier Erreurs console ? Ressources dans wp-include/ en 404 > Besoin https
    3. WP admin > Santé du site
-2. 🚀 Analyse BDD > Excel > 1 feuille par table, contenant les champs, les descriptions & les correpsondances
-   1. 🚀 Inventaire global des champs
-      1. ✅ Sur l'ensemble des tables
-         1. ✅ Compter 🧮 le nombre d'entrées dans chaque table
-         2. ✅ Compter 📊 le nombre d'entrées affichées sur le site
-         3. ✅ Inventaire des champs en BDD 💾
-         4. ✅ Description des champs en BDD 💬
-         5. ✅ Inventaire caractéristiques techniques 🔧
-         6. ✅ Inventaire tout ce qui est affiché 👀
-         7. ✅ Discriminer les champs
-            1. 👤 vides
-            2. 🤏 Faible quantité de données fabriqués à partir d'autres tables
-            3. ♻️ à refactoriser
-            4. 🔗 fabriqués à partir d'autres tables
-            5. 👪 communs
-            6. 🏎️ communs à tous les véhicules
-            7. 🙍‍♂️ propre à cette table
-            8. ❓ Infos non retrouvées en BDD
-         8. ✅ Lister tables liées 🔗
-      2. ✅ Avancement par table
-         1. ✅ accessoires
-         2. ✅ acctx
-         3. ✅ avion ❓ Produits compatibles, Lien avec moteurs thermiques
-         4. ✅ bateaux
-         5. ✅ batterie ❓ Produits compatibles
-         6. ✅ bougie
-         7. ✅ carburant
-         8. ✅ chargeur ❓ Produits compatibles
-         9. ✅ controleur ❓ Produits compatibles
-         10. ✅ heliceavion ❓ Piéces détachées, Accessoires conseillés
-         11. ✅ helico ❓ Onglets
-         12. ✅ maquette ❓ Onglets
-         13. ✅ matprem ❓ Onglets
-         14. ✅ moteur_electrique ❓ Onglets
-         15. ✅ moteur_thermique ❓ Onglets
-         16. ~✅🧮📊💾👤🤏💬 pcedetthermik ❓ Pas d'affichage sur le site
-         17. ✅ piece_heli
-         18. ~✅🧮📊💾👤🤏💬 piece_voiture ❓ Pas d'affichage sur le site
-         19. ~✅🧮📊💾👤🤏💬 quartz ❓ Pas d'affichage sur le site
-         20. ✅ radio ❓ Onglets récepteurs compatibles
-         21. ✅ recepteur ❓ Onglets produits compatibles
-         22. ✅ servo ❓ Onglets
-         23. ✅ voitures ❓ Onglets
-   2. Correspondances avec WC
-   3. Inventaire champs personnalisés
+2. 🚀 Analyse BDD > Excel > 1 feuille par table, contenant les champs, les descriptions & les correspondances
+   1. Correspondances avec WC
+   2. Inventaire champs personnalisés
       1. Discrimination par catégorie
          1. Global
          2. Véhicules
@@ -121,18 +63,14 @@ PB Modelisme
             1. Diamètres min & max
             2. Courant ? continu, max, equilibrage, charge rapide
          4. Propre au produit
-3. 🐛🧹 Tables a clean, nom ou ref produit non trouvées sur site
-   1. `bougie`, 49 entrées
-   2. `moteur_thermique`, 126 entrées
-   3. `fuel`, 9 OK sur 86 entrées, nom `DYNAGLO%`
-4. 📝 Gestion de l'import des images produits
+3. 📝 Gestion de l'import des images produits
    1. 📌 Voir quand pas d'image, champ à importer peut être vide ?
-5. Importer les marques
+4. Importer les marques
    1. 📝 Elimination des doublons, chaque marque n'a qu'une entrée
    2. 📝 Plus de marquées dédiées à certaines catégories
-6. Importer l'ensemble d'une catégorie de produits
-7. 🌱 Importer les commandes
-8. 🌱 Importer les anciens comptes clients ?
+5. Importer l'ensemble d'une catégorie de produits
+6. 🌱 Importer les commandes
+7. 🌱 Importer les anciens comptes clients ?
 
 Arrêter dev serveur & hebergement
 
@@ -165,7 +103,8 @@ Arrêter dev serveur & hebergement
 2. 💥📌 Migration changer propriétaire > mettre dans "domaine" le nom de l'hébergement
    1. Retour support ovh "Veillez à bien inclure votre nom de service "XXX.cluster029.hosting.ovh.net" dans "domaine"."
    2. ⏳ com--aldinfographie
-      1. ⏳ Vérifier passations NDDs "Déjà en cours de changement de propriétaire"
+      1. 💩 Vérifier passations NDDs "Déjà en cours de changement de propriétaire"
+         1. ⏳ Attente de voir si changement margot ok puis relance
       2. ⏳ Passation hébergement
           1. ✅ SMS
           2. ✅ Relance
@@ -182,7 +121,8 @@ Arrêter dev serveur & hebergement
              5. Envoi à suivi-procedure@ovh.net
              6. Validation
    3. ⏳ com--champagne-didier-lapie
-      1. ⏳ Vérifier passations NDDs "Déjà en cours de changement de propriétaire"
+      1. 💩 Vérifier passations NDDs "Déjà en cours de changement de propriétaire"
+         1. ⏳ Attente de voir si changement margot ok puis relance
       2. ⏳ Passation hébergement
           1. ✅ SMS / Rappeler
           2. ✅ Relance
@@ -215,8 +155,10 @@ Arrêter dev serveur & hebergement
              5. Envoi à suivi-procedure@ovh.net
              6. Validation
    5. com--champagne-pascal-picard
-      1. ⏳ Vérifier passations NDDs "Déjà en cours de changement de propriétaire"
-      2. ⏳ Passation hébergement
+      1. 💩 Vérifier passations NDDs "Déjà en cours de changement de propriétaire"
+         1. ⏳ Attente de voir si changement margot ok puis relance
+      2. 💥💥💥 Faire facture noms de domaines 2022, cf. bureau
+      3. ⏳ Passation hébergement
          1. ✅ SMS / Rappeler
          2. ✅ Attente identifiant OVH
          3. ⏳ Passation
@@ -232,9 +174,11 @@ Arrêter dev serveur & hebergement
                    2. ✅ Extrait Kbis
                    3. ✅ Pièce identité
              5. ✅ Envoi à suivi-procedure@ovh.net
-             6. ⏳ Validation
+             6. 💥💥💥 Need signature à la main
+             7. ⏳ Validation
    6. ⏳ MKasza
-      1. ⏳ Vérifier passations NDDs "Déjà en cours de changement de propriétaire"
+      1. 💩 Vérifier passations NDDs "Déjà en cours de changement de propriétaire"
+      2. 📌 Relance, si ça marche go relancer les autres
 3. ⏳ Résilier nouveau serveur
    1. ✅ Demander résiliation
    2. ⏳ Effectif 1er aout
@@ -261,21 +205,21 @@ Environnement de dev local clean
 
 Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel plus tard/exponentiel
 
-- ⏳ Déplacer les terminés ✅ à chaque début de semaine dans done.md
+- ✅ Déplacer les terminés ✅ à chaque début de semaine dans done.md
 - 💩 Déplacer les TODO 🌱 dans _TODO_shame.md
-- ⏳ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ⏳ mails, ⏳ edt portable, ⏳ favoris, ⏳ bureau. Si possible description + lien.
-- ⏳ Nettoyer le fichier __TODO
-  - ⏳ Status
-  - ⏳💥 Ce fichier > ### Shame 💥 Cleaner pour vrai les trucs ou je ne passe jamais
-    - ⏳ Ranger dans fichiers TODO correspondant
-      - ⏳ Prioriser
+- ⏳ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ✅ mails, ✅ edt portable, ✅ favoris, ⏳ bureau. Si possible description + lien.
+- ✅ Nettoyer le fichier __TODO
+  - ✅ Status
+  - ✅💥 Ce fichier > ### Shame 💥 Cleaner pour vrai les trucs ou je ne passe jamais
+    - ✅ Ranger dans fichiers TODO correspondant
+      - ✅ Prioriser
 - ⏳ Virer ce qui traine
   - ⏳ sur le bureau
   - 💩 dans le dossier _shame du bureau
   - 💩 Lel ~(local)/_dev/_shame
-  - ⏳ Vider corbeille
-  - ⏳ Vider téléchargements
-  - ⏳ Dans les mails
+  - ✅ Vider corbeille
+  - ✅ Vider téléchargements
+  - ✅ Dans les mails
 - ⏳ Déplacer veille onglets dans TODO_veille
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
@@ -292,10 +236,10 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
     2. `chkdsk c: /f /r` (et en fonction de vos disques.. && `chkdsk d: /f /r`, etc.)
     3. `>Blah blah besoin de redémarrer O/n` >> `O`
     4. Redémarrer / Attendre 5 ans et demi sauf si t'as un SSD/Nvme
-  - ⏳ Windaube
-    - ⏳ Update alakon
-    - ⏳ [.net](https://dotnet.microsoft.com/download) > Runtime
-    - ⏳ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
+  - ✅ Windaube
+    - ✅ Update alakon
+    - ✅ [.net](https://dotnet.microsoft.com/download) > Runtime
+    - ✅ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
   - ⏳ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
   - ⏳ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
     - ⏳ Dell support assist

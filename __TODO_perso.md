@@ -215,11 +215,11 @@ Sites > crunchyroll / otakufr . co
 - mise a prix
 - Moon
 - Morbius (vampire)
-- morse, let me in
-- 📌 Mother
+- ✅ morse, let me in
+- ✅ Mother, le lien du sang
 - Nameless gangster
 - narc
-- Ni juges ni soumises (Netflix)
+- ✅ Ni juges ni soumises (Netflix)
 - [No country for old men](https://www.google.com/search?q=no+country+ofr+old+men&oq=no+country+ofr+old+men&aqs=chrome..69i57.2809j0j1&sourceid=chrome&ie=UTF-8)
 - pas un mot
 - Pandorum
@@ -235,7 +235,7 @@ Sites > crunchyroll / otakufr . co
 - red is dead
 - Red sparrow
 - Revanche
-- 📌 Revolver, de Guy richie (netflix)
+- 📌 Revolver, de Guy richie
 - riley rewind
 - rigor mortis, de juno mak
 - [Robo vampire](https://www.youtube.com/watch?v=kPFYwKC_JDc) < sur yt
@@ -272,11 +272,12 @@ Sites > crunchyroll / otakufr . co
 - The hunt
 - The host (coreen) 2006
 - The Lighthouse
-- The machinist (christian bale)
+- ✅ The machinist (christian bale)
+- ✅ The perfection
 - The signal
-- [The tattouist](https://filmstreaming2.com/WDrk46w-the-tattooist)
+- The tattouist
 - They live
-- Thirst, ceci est mon sang / Park Chan-wook
+- ✅ Thirst, ceci est mon sang / Park Chan-wook
 - Time on tide
 - Training day
 - Trainspotting

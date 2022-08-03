@@ -9,10 +9,13 @@
 - [BBQ putain de cher](https://www.biggreenegg.co.uk/build-your-egg)
 - Cire d'abeille, pour rendre la pâte des raviolis moins collante
 - [Épices](https://www.epices-roellinger.com/fr/taxons/melanges-epices)
+- 🔍 Graine de caroube
 - gros méga bouquin sur la cuisine / poele coupées en deux et tt
 - Huile de laquier (netflix flavorfull origins)
 - Huile de lin pour viande agneau, cf. [origines des saveurs s3e4](https://www.netflix.com/browse?jbv=80991060)
 - [Huile de sésame](https://www.rizetco.com/taebaek-agricultural)
+- [koji](https://www.google.com/search?q=koji)
+  - [koji paste](https://www.google.com/search?q=koji+paste)
 - [Mad dog hot sauce](https://www.google.com/search?q=mad+dog+hot+sauce)
 - [Mama Joyce Peppa Sauce](https://www.peppasauce.love/)
 - Meilleure sauce soja du monde [site ref](https://kinbue.jp/en_product) [ecommerce ?](https://www.nishikidori.com/en/25-soy-sauce) << retrouver les différentes sauces
