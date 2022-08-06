@@ -9,6 +9,12 @@
 - [BBQ putain de cher](https://www.biggreenegg.co.uk/build-your-egg)
 - Cire d'abeille, pour rendre la pâte des raviolis moins collante
 - [Épices](https://www.epices-roellinger.com/fr/taxons/melanges-epices)
+- [gochujang](https://www.youtube.com/watch?v=sJreTj1W6Co)
+  - Qu'est-ce que le Gochujang ? Le Gochujang est un condiment coréen très utilisé en cuisine coréenne. La sauce Gochujang, que l'on peut également traduire par sauce de piment amère, est fabriquée à partir de piments rouges, de farine de riz gluant, de pâte de soja fermenté et de blé.
+  - [Site offi](http://andongjebiwon.co.kr/eng/) mais pas de e-commerce
+    - [amazon](https://www.amazon.fr/s?k=gochujang+jebiwon)
+    - [idem](https://www.amazon.fr/s?k=doenjang)
+  - Improvement of cognitive function by Gochujan [hey](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6595085/)
 - 🔍 Graine de caroube
 - gros méga bouquin sur la cuisine / poele coupées en deux et tt
 - Huile de laquier (netflix flavorfull origins)

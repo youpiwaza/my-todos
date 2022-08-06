@@ -123,6 +123,7 @@ Sites > crunchyroll / otakufr . co
 - Bad cops
 - Bad lieutenant
 - battlefield baseball
+- blade of the immortal
 - bloody birthday
 - [bo burhnam](https://search.brave.com/search?q=bo+burhnam&source=desktop) > inside
 - bong joon ho
@@ -136,7 +137,7 @@ Sites > crunchyroll / otakufr . co
 - buffet froid
 - bullet in the head
 - Burn after reading
-- Camgirl (netflix)
+- Camgirl
 - Captain fantastic (2016)
 - Circle (2015)
 - collateral

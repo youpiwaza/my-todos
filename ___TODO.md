@@ -33,14 +33,18 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Perso
 
-1. [Orga we warhammer](https://docs.google.com/spreadsheets/d/1VPE3STTiAxp2QXXSfQ36fRdWbYpTJ5odioZmtBJRTDQ/edit#gid=0)
-2. 🔍 Champignon Lingzhi contre la fatigue & insomnie
-3. Alan santé > Trouver professionnels autour & prendre RDV
-4. 🌱⏳ Cadeau anniv pougnoutte
+1. Jeu alakonn unlock 1st dragon
+   1. Need Pasture > donjon lvl 21. [hey](https://evony-the-kings-return.fandom.com/wiki/Pasture)
+   2. Need pasture level 26 ? [hey](https://pillarofgaming.com/evony-the-kings-return/dragons-guide-and-how-to-obtain-dragons/)
+   3. 300k gems [gems guide mais en gros c'la merde](https://pillarofgaming.com/evony-the-kings-return/gems-obtaining-guide/)
+2. [Orga we warhammer](https://docs.google.com/spreadsheets/d/1VPE3STTiAxp2QXXSfQ36fRdWbYpTJ5odioZmtBJRTDQ/edit#gid=0)
+3. 🔍 Champignon Lingzhi contre la fatigue & insomnie
+4. Alan santé > Trouver professionnels autour & prendre RDV
+5. 🌱⏳ Cadeau anniv pougnoutte
     1. Vélo, a voir en revenant de vacances
-5. Réserver saut en parachute
-6. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg) ?
-7. 🌱 Orga anniv pougnoutte
+6. Réserver saut en parachute
+7. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg) ?
+8. 🌱 Orga anniv pougnoutte
     1. Redemander date a pougnoutte > mars...
     2. Demander contact & liste invités
     3. Demander si logement déjà vu
@@ -53,24 +57,169 @@ PB Modelisme
    1. ⏳🔒️ Attente https
    2. Vérifier Erreurs console ? Ressources dans wp-include/ en 404 > Besoin https
    3. WP admin > Santé du site
-2. 🚀 Analyse BDD > Excel > 1 feuille par table, contenant les champs, les descriptions & les correspondances
-   1. Correspondances avec WC
-   2. Inventaire champs personnalisés
-      1. Discrimination par catégorie
-         1. Global
-         2. Véhicules
-         3. Spécifiques, à activer à la volée en fonction des catégories
-            1. Diamètres min & max
-            2. Courant ? continu, max, equilibrage, charge rapide
-         4. Propre au produit
-3. 📝 Gestion de l'import des images produits
-   1. 📌 Voir quand pas d'image, champ à importer peut être vide ?
-4. Importer les marques
-   1. 📝 Elimination des doublons, chaque marque n'a qu'une entrée
-   2. 📝 Plus de marquées dédiées à certaines catégories
-5. Importer l'ensemble d'une catégorie de produits
-6. 🌱 Importer les commandes
-7. 🌱 Importer les anciens comptes clients ?
+2. ✅ Analyse BDD > Excel > 1 feuille par table, contenant les champs, les descriptions & les correspondances
+   1. ✅ Correspondances avec WC
+      1. ✅ accessoires
+      2. ✅ acctx
+      3. ✅ avion
+      4. ✅ bateaux
+      5. ✅ batterie
+      6. ✅ bougie
+      7. ✅ carburant
+      8. ✅ chargeur
+      9. ✅ controleur
+      10. ✅ heliceavion
+      11. ✅ helico
+      12. ✅ maquette
+      13. ✅ matprem
+      14. ✅ moteur_electrique
+      15. ✅ moteur_thermique
+      16. ✅ pcedetthermik
+      17. ✅ piece_heli
+      18. ✅ piece_voiture
+      19. ✅ quartz
+      20. ✅ radio
+      21. ✅ recepteur
+      22. ✅ servo
+      23. ✅ voitures
+   2. ✅ Inventaire champs personnalisés
+      1. cf. `pb-modelisme--com/_docs/craft-and-tests/10-inventaire-champs-personnalisés_secret`
+3. ⏳⏳⏳ Questions à cédric
+   1. A quoi sert le champs FAV_PRODUIT dans chaque table ? Où est il utilisé ?
+   2. Politique de gestion des codes barres ?
+      1. Entre code barre PB et code barre fournisseur
+         1. Si un seul on prend celui la
+         2. Si les deux lequel est prioritaire ?
+         3. Doit on les conserver en champs particuliers (legacy) ?
+   3. Homogénéisation des unités **en base de données**, on part sur quoi pour
+      1. Le poids, kg ?
+      2. Les dimensions, cm ?
+4. ✅🔍 Vérifier gestion des..
+   1. ✅ codes barres (= "EAN") : x2, fournisseur & pb
+      1. cf. `pb-modelisme--com/_docs/craft-and-tests/09-codes-barres-barcode-ean`
+      2. Ajout de la gestion dans WC via plugin
+      3. Impression : Passer par extension payante ou utiliser une librarie et coder un truc maison
+      4. ⏳ Politique concernant les x2, voir avec Cédric
+   2. ✅ Notations, étoiles de 1 à 5
+      1. ✅ Natif, besoin plugin pour import
+      2. cf. `pb-modelisme--com§_docs§craft-and-tests§08-import-product-reviews-and-notes`
+   3. ⏳ Favoris > Pas utilisé sur le site, 1 seul champ par produit ? wat
+5. 📝 Ajout des champs supplémentaires WooCommerce requis (avec défauts), non présents en BDD PB, permettra d'uniformiser
+   1. accessoires
+   2. acctx
+   3. avion
+   4. bateaux
+   5. batterie
+   6. bougie
+   7. carburant
+   8. chargeur
+   9. controleur
+   10. heliceavion
+   11. helico
+   12. maquette
+   13. matprem
+   14. moteur_electrique
+   15. moteur_thermique
+   16. pcedetthermik
+   17. piece_heli
+   18. piece_voiture
+   19. quartz
+   20. radio
+   21. recepteur
+   22. servo
+   23. voitures
+6. 📝 Repasse sur les onglets > Infos manquantes, stocker comment ?
+   1. accessoires
+   2. acctx
+   3. avion
+   4. bateaux
+   5. batterie
+   6. bougie
+   7. carburant
+   8. chargeur
+   9. controleur
+   10. heliceavion
+   11. helico
+   12. maquette
+   13. matprem
+   14. moteur_electrique
+   15. moteur_thermique
+   16. pcedetthermik
+   17. piece_heli
+   18. piece_voiture
+   19. quartz
+   20. radio
+   21. recepteur
+   22. servo
+   23. voitures
+7. 📝 Repasse sur les choix uniques > populer
+   1. accessoires
+   2. acctx
+   3. avion
+   4. bateaux
+   5. batterie
+   6. bougie
+   7. carburant
+   8. chargeur
+   9. controleur
+   10. heliceavion
+   11. helico
+   12. maquette
+   13. matprem
+   14. moteur_electrique
+   15. moteur_thermique
+   16. pcedetthermik
+   17. piece_heli
+   18. piece_voiture
+   19. quartz
+   20. radio
+   21. recepteur
+   22. servo
+   23. voitures
+8. WP > Création des catégories table "versboite" ARTF, etc.
+9. WP > Création des nouvelles catégories (faire une repasse sur l'ensemble des tables)
+   1. 🚨 Privilégier choix uniques (select/radio/etc.) lorsque c'est possible
+10. WP > Création des champs personnalisés
+    1. 💾 Backups afin de pouvoir ré-importer la structure en cas de problème
+    2. Tables
+       1. accessoires
+       2. acctx
+       3. avion
+       4. bateaux
+       5. batterie
+       6. bougie
+       7. carburant
+       8. chargeur
+       9. controleur
+       10. heliceavion
+       11. helico
+       12. maquette
+       13. matprem
+       14. moteur_electrique
+       15. moteur_thermique
+       16. pcedetthermik
+       17. piece_heli
+       18. piece_voiture
+       19. quartz
+       20. radio
+       21. recepteur
+       22. servo
+       23. voitures
+11. 📝 Gestion de l'import des images produits
+    1. 📌 Voir quand pas d'image, champ à importer peut être vide ?
+12. Importer les marques
+    1. 📝 Elimination des doublons, chaque marque n'a qu'une entrée
+    2. 📝 Plus de marquées dédiées à certaines catégories
+13. Finir la config de base de woocommerce
+    1. Taxes
+    2. Choix unités de poids & dimensions (mm, cm, etc.) [hey](http://dev.pb-modelisme.com/wp-admin/admin.php?page=wc-settings&tab=products)
+14. Importer l'ensemble d'une catégorie de produits
+15. 🌱 Importer les anciens comptes clients ?
+    1. Besoin des articles
+16. 🌱 Importer les commandes
+    1. Besoin des articles & des comptes clients
+    2. Plugin [Product Import Export for WooCommerce](https://wordpress.org/plugins/product-import-export-for-woo/) ?
+       1. The Order Export & Order Import for WooCommerce Add-On is required to export WooCommerce Orders.
 
 Arrêter dev serveur & hebergement
 
@@ -108,7 +257,7 @@ Arrêter dev serveur & hebergement
       2. ⏳ Passation hébergement
           1. ✅ SMS
           2. ✅ Relance
-          3. ⏳ Attente identifiant OVH
+          3. ✅ Attente identifiant OVH
           4. Passation
              1. Demande + réception PDF
              2. Compléter PDF
