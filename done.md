@@ -2,6 +2,88 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 07/08/2022
+
+PB Modelisme
+
+1. ✅📧 Récap semaine envoyé
+2. ✅ Analyse BDD > Excel > 1 feuille par table, contenant les champs, les descriptions & les correspondances
+   1. ✅ Correspondances avec WC
+      1. ✅ accessoires
+      2. ✅ acctx
+      3. ✅ avion
+      4. ✅ bateaux
+      5. ✅ batterie
+      6. ✅ bougie
+      7. ✅ carburant
+      8. ✅ chargeur
+      9. ✅ controleur
+      10. ✅ heliceavion
+      11. ✅ helico
+      12. ✅ maquette
+      13. ✅ matprem
+      14. ✅ moteur_electrique
+      15. ✅ moteur_thermique
+      16. ✅ pcedetthermik
+      17. ✅ piece_heli
+      18. ✅ piece_voiture
+      19. ✅ quartz
+      20. ✅ radio
+      21. ✅ recepteur
+      22. ✅ servo
+      23. ✅ voitures
+   2. ✅ Inventaire champs personnalisés
+      1. cf. `pb-modelisme--com/_docs/craft-and-tests/10-inventaire-champs-personnalisés_secret`
+3. ⏳👪 Questions à sylvie & cédric
+   1. ✅📧 Mail envoyé
+4. 🚀🔍 Vérifier gestion des..
+   1. ✅ codes barres (= "EAN") : x2, fournisseur & pb
+      1. cf. `pb-modelisme--com/_docs/craft-and-tests/09-codes-barres-barcode-ean`
+      2. Ajout de la gestion dans WC via plugin
+      3. Impression : Passer par extension payante ou utiliser une librarie et coder un truc maison
+      4. ⏳ Politique concernant les x2, voir avec Cédric
+   2. ⏳✅ Notations, étoiles de 1 à 5
+      1. ✅ Natif, besoin plugin pour import
+      2. cf. `pb-modelisme--com/_docs/craft-and-tests/08-import-product-reviews-and-notes`
+   3. ⏳ Favoris > Pas utilisé sur le site, 1 seul champ par produit ? wat
+   4. ⏳ Eco-taxe
+      1. Voir avec Cédric comment c'est géré avant de partir trop loing
+      2. Soit stocké en champ particulier, soir [plugin payant 39€](https://solutions.fluenx.com/produit/eco-participation-pour-woocommerce/)
+         1. Si plugin payant voir comment importer
+   5. ✅ Prix de vente club
+      1. [Plugin gratuit bien caché](https://fr.wordpress.org/plugins/elex-woocommerce-role-based-pricing-plugin-basic/)
+      2. `cf. pb-modelisme--com/_docs/craft-and-tests/12-prix-club`
+      3. 🧠 Pas mal d'autres fonctionnalités proposées, notemment pour la gestion des rôles
+5. ✅📝 Ajout des champs supplémentaires WooCommerce requis (avec défauts), non présents en BDD PB, permettra d'uniformiser
+   1. ✅ Seulement [SKU & name de requis](https://github.com/woocommerce/woocommerce/wiki/Product-CSV-Import-Schema#csv-columns-and-formatting)
+   2. 🌱 Quartz > 🚨💥 Nom a générer
+6. 🚀 Repasse sur champs problématiques
+   1. ✅ Codes barres (PB & fournisseur)
+      1. En attendant retour Cédric, on stocke les deux dans des champs personnalisés
+         1. `code_barre_fournisseur`
+         2. `code_barre_pbmodelisme`
+      2. Champ WC (EAN) prendra celui du fournisseur ?
+   2. ✅ Notations 5/5 étoiles
+      1. En attendant retour Cédric, on stocke dans un champ legacy `legacy___note_sur_5`
+      2. A voir si ça passe en avis clients ?
+   3. ✅ Favoris
+      1. En attendant retour Cédric, on stocke dans un champ legacy `legacy___favoris`
+   4. ✅ Eco taxe
+      1. En attendant retour Cédric, on stocke dans un champ personnalisé `taxe_eco_participation`
+      2. Sinon reco [plugin payant](https://solutions.fluenx.com/produit/eco-participation-pour-woocommerce/)
+   5. ✅ Prix de vente club
+      1. 🚨 Voir comment le plugin stocke les infos
+      2. De mémoire petite quantité sur une seule table (voiture), ptet faire à la main 👋
+         1. ✨🧠💥 Tous les prix clubs ont été retirés de la bdd !?? ~05/08/22
+   6. ✅ "AFF" > `legacy___aff`
+   7. 🌱👪 Champs spécifiques aux tables > ajoutés aux questions cédric
+   8. ✅ Typage des champs
+7. 📝 Gestion de l'import des images produits
+    1. ✅📌 Voir quand pas d'image, champ à importer peut être vide ?
+       1. Oui, seuls les champs SKU & noms sont requis pour l'import en CSV
+       2. Voir dans WC il y a un réglage pour fixer l'image par défaut du produit, si il n'en a pas
+    2. ⏳ Récupération des fichiers images, afin de les balancer sur le nouveau serveur
+
 ## 29/07/22
 
 PB Modelisme

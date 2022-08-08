@@ -163,7 +163,7 @@ Sites > crunchyroll / otakufr . co
 - Ex Machina
 - Exit Through the Gift Shop
 - Fist of jesus
-- First love le dernier yakuza
+- ✅ First love le dernier yakuza
 - freaks land ~1930
 - Fright night
 - From beyond

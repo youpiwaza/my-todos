@@ -57,54 +57,41 @@ PB Modelisme
    1. ⏳🔒️ Attente https
    2. Vérifier Erreurs console ? Ressources dans wp-include/ en 404 > Besoin https
    3. WP admin > Santé du site
-2. ✅ Analyse BDD > Excel > 1 feuille par table, contenant les champs, les descriptions & les correspondances
-   1. ✅ Correspondances avec WC
-      1. ✅ accessoires
-      2. ✅ acctx
-      3. ✅ avion
-      4. ✅ bateaux
-      5. ✅ batterie
-      6. ✅ bougie
-      7. ✅ carburant
-      8. ✅ chargeur
-      9. ✅ controleur
-      10. ✅ heliceavion
-      11. ✅ helico
-      12. ✅ maquette
-      13. ✅ matprem
-      14. ✅ moteur_electrique
-      15. ✅ moteur_thermique
-      16. ✅ pcedetthermik
-      17. ✅ piece_heli
-      18. ✅ piece_voiture
-      19. ✅ quartz
-      20. ✅ radio
-      21. ✅ recepteur
-      22. ✅ servo
-      23. ✅ voitures
-   2. ✅ Inventaire champs personnalisés
-      1. cf. `pb-modelisme--com/_docs/craft-and-tests/10-inventaire-champs-personnalisés_secret`
-3. ⏳⏳⏳ Questions à cédric
-   1. A quoi sert le champs FAV_PRODUIT dans chaque table ? Où est il utilisé ?
-   2. Politique de gestion des codes barres ?
-      1. Entre code barre PB et code barre fournisseur
-         1. Si un seul on prend celui la
-         2. Si les deux lequel est prioritaire ?
-         3. Doit on les conserver en champs particuliers (legacy) ?
-   3. Homogénéisation des unités **en base de données**, on part sur quoi pour
-      1. Le poids, kg ?
-      2. Les dimensions, cm ?
-4. ✅🔍 Vérifier gestion des..
+2. ✅ Inventaire champs personnalisés
+   1. cf. `pb-modelisme--com/_docs/craft-and-tests/10-inventaire-champs-personnalisés_secret`
+3. ⏳👪 Questions à sylvie & cédric
+   1. ✅📧 Mail envoyé
+4. 🚀🔍 Vérifier gestion des..
    1. ✅ codes barres (= "EAN") : x2, fournisseur & pb
       1. cf. `pb-modelisme--com/_docs/craft-and-tests/09-codes-barres-barcode-ean`
-      2. Ajout de la gestion dans WC via plugin
-      3. Impression : Passer par extension payante ou utiliser une librarie et coder un truc maison
-      4. ⏳ Politique concernant les x2, voir avec Cédric
-   2. ✅ Notations, étoiles de 1 à 5
-      1. ✅ Natif, besoin plugin pour import
-      2. cf. `pb-modelisme--com§_docs§craft-and-tests§08-import-product-reviews-and-notes`
+      2. Impression : Passer par extension payante ou utiliser une librarie et coder un truc maison
+      3. ⏳ Politique concernant les x2, voir avec Cédric
+   2. ⏳ Notations, étoiles de 1 à 5
+      1. cf. `pb-modelisme--com/_docs/craft-and-tests/08-import-product-reviews-and-notes`
    3. ⏳ Favoris > Pas utilisé sur le site, 1 seul champ par produit ? wat
-5. 📝 Ajout des champs supplémentaires WooCommerce requis (avec défauts), non présents en BDD PB, permettra d'uniformiser
+   4. ⏳ Eco-taxe
+      1. Voir avec Cédric comment c'est géré avant de partir trop loing
+      2. Soit stocké en champ particulier, soir [plugin payant 39€](https://solutions.fluenx.com/produit/eco-participation-pour-woocommerce/)
+         1. Si plugin payant voir comment importer
+   5. Prix de vente club
+      1. [Plugin gratuit bien caché](https://fr.wordpress.org/plugins/elex-woocommerce-role-based-pricing-plugin-basic/)
+      2. `cf. pb-modelisme--com/_docs/craft-and-tests/12-prix-club`
+      3. 🧠 Pas mal d'autres fonctionnalités proposées, notemment pour la gestion des rôles
+   6. 🚀🚀🚀 Vente multiples > prix réduits
+      1. "Products bundle discount" / "bulk discount"
+      2. [Tuto avec plugin gratuit (?)](https://quadlayers.com/product-bundles-in-woocommerce/)
+         1. Plus pour des réductions sur ventes groupées
+      3. Go [check](https://www.commercegurus.com/bulk-discount-plugins-woocommerce/)
+         1. Tous gratuits à partir de #6
+   7. 🚀🚀 Check plugins "wpc*" sur WordPress
+      1. [Go](https://dev.pb-modelisme.com/wp-admin/plugin-install.php?s=wpc&tab=search&type=term)
+5. ✅📝 Ajout des champs supplémentaires WooCommerce requis (avec défauts), non présents en BDD PB, permettra d'uniformiser
+   1. 🌱 Quartz > 🚨💥 Nom a générer
+6. 🚀 Repasse sur champs problématiques
+   1. 🚀 global
+      1. 🚀 Vente multiples > prix réduits
+      2. 🌱👪 Champs spécifiques aux tables > ajoutés aux questions cédric
+7. 📝 Repasse sur les onglets > Infos manquantes, stocker comment ?
    1. accessoires
    2. acctx
    3. avion
@@ -128,7 +115,7 @@ PB Modelisme
    21. recepteur
    22. servo
    23. voitures
-6. 📝 Repasse sur les onglets > Infos manquantes, stocker comment ?
+8. 📝 Repasse sur les choix uniques > populer
    1. accessoires
    2. acctx
    3. avion
@@ -152,34 +139,10 @@ PB Modelisme
    21. recepteur
    22. servo
    23. voitures
-7. 📝 Repasse sur les choix uniques > populer
-   1. accessoires
-   2. acctx
-   3. avion
-   4. bateaux
-   5. batterie
-   6. bougie
-   7. carburant
-   8. chargeur
-   9. controleur
-   10. heliceavion
-   11. helico
-   12. maquette
-   13. matprem
-   14. moteur_electrique
-   15. moteur_thermique
-   16. pcedetthermik
-   17. piece_heli
-   18. piece_voiture
-   19. quartz
-   20. radio
-   21. recepteur
-   22. servo
-   23. voitures
-8. WP > Création des catégories table "versboite" ARTF, etc.
-9. WP > Création des nouvelles catégories (faire une repasse sur l'ensemble des tables)
-   1. 🚨 Privilégier choix uniques (select/radio/etc.) lorsque c'est possible
-10. WP > Création des champs personnalisés
+9. WP > Création des catégories table "versboite" ARTF, etc.
+10. WP > Création des nouvelles catégories (faire une repasse sur l'ensemble des tables)
+    1. 🚨 Privilégier choix uniques (select/radio/etc.) lorsque c'est possible
+11. WP > Création des champs personnalisés
     1. 💾 Backups afin de pouvoir ré-importer la structure en cas de problème
     2. Tables
        1. accessoires
@@ -205,14 +168,11 @@ PB Modelisme
        21. recepteur
        22. servo
        23. voitures
-11. 📝 Gestion de l'import des images produits
-    1. 📌 Voir quand pas d'image, champ à importer peut être vide ?
-12. Importer les marques
+12. 📝 Gestion de l'import des images produits
+    1. ⏳ Récupération des fichiers images, afin de les balancer sur le nouveau serveur
+13. Importer les marques
     1. 📝 Elimination des doublons, chaque marque n'a qu'une entrée
     2. 📝 Plus de marquées dédiées à certaines catégories
-13. Finir la config de base de woocommerce
-    1. Taxes
-    2. Choix unités de poids & dimensions (mm, cm, etc.) [hey](http://dev.pb-modelisme.com/wp-admin/admin.php?page=wc-settings&tab=products)
 14. Importer l'ensemble d'une catégorie de produits
 15. 🌱 Importer les anciens comptes clients ?
     1. Besoin des articles
@@ -220,6 +180,7 @@ PB Modelisme
     1. Besoin des articles & des comptes clients
     2. Plugin [Product Import Export for WooCommerce](https://wordpress.org/plugins/product-import-export-for-woo/) ?
        1. The Order Export & Order Import for WooCommerce Add-On is required to export WooCommerce Orders.
+17. Plugin de bundle en freemium, [prix pas déconnant](https://wpclever.net/downloads/product-bundles/)
 
 Arrêter dev serveur & hebergement
 
@@ -354,30 +315,30 @@ Environnement de dev local clean
 
 Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel plus tard/exponentiel
 
-- ✅ Déplacer les terminés ✅ à chaque début de semaine dans done.md
+- ⏳ Déplacer les terminés ✅ à chaque début de semaine dans done.md
 - 💩 Déplacer les TODO 🌱 dans _TODO_shame.md
-- ⏳ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ✅ mails, ✅ edt portable, ✅ favoris, ⏳ bureau. Si possible description + lien.
-- ✅ Nettoyer le fichier __TODO
-  - ✅ Status
-  - ✅💥 Ce fichier > ### Shame 💥 Cleaner pour vrai les trucs ou je ne passe jamais
-    - ✅ Ranger dans fichiers TODO correspondant
-      - ✅ Prioriser
+- ⏳ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ⏳ mails, ⏳ edt portable, ⏳ favoris, ⏳ bureau. Si possible description + lien.
+- ⏳ Nettoyer le fichier __TODO
+  - ⏳ Status
+  - ⏳💥 Ce fichier > ### Shame 💥 Cleaner pour vrai les trucs ou je ne passe jamais
+    - ⏳ Ranger dans fichiers TODO correspondant
+      - ⏳ Prioriser
 - ⏳ Virer ce qui traine
   - ⏳ sur le bureau
   - 💩 dans le dossier _shame du bureau
   - 💩 Lel ~(local)/_dev/_shame
-  - ✅ Vider corbeille
-  - ✅ Vider téléchargements
-  - ✅ Dans les mails
+  - ⏳ Vider corbeille
+  - ⏳ Vider téléchargements
+  - ⏳ Dans les mails
 - ⏳ Déplacer veille onglets dans TODO_veille
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
-- ✅ Déclaration Auto entrepreneur
-  - ✅ Juin 2022
+- ⏳ Déclaration Auto entrepreneur
+  - ⏳ Juin 2022
   - ⏳ Juillet 2022
-- ✅ Vérifier impôts sur espace / Dernière vérif 15/08/2021
+- ⏳ Vérifier impôts sur espace / Dernière vérif 15/08/2021
   - ✨💥💥💥 Perso  / ✨ 01/08/22
-  - ✅ Pro    / ✅ 11/07/22 (CFE réglé le 17/11/2021) ~début décembre
+  - ⏳ Pro    / ⏳ 11/07/22 (CFE réglé le 17/11/2021) ~début décembre
 - ⏳ Vérifier messages [Ameli](https://assure.ameli.fr/)
 - ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21
   - ⏳ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk), `/r` également
@@ -385,10 +346,10 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
     2. `chkdsk c: /f /r` (et en fonction de vos disques.. && `chkdsk d: /f /r`, etc.)
     3. `>Blah blah besoin de redémarrer O/n` >> `O`
     4. Redémarrer / Attendre 5 ans et demi sauf si t'as un SSD/Nvme
-  - ✅ Windaube
-    - ✅ Update alakon
-    - ✅ [.net](https://dotnet.microsoft.com/download) > Runtime
-    - ✅ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
+  - ⏳ Windaube
+    - ⏳ Update alakon
+    - ⏳ [.net](https://dotnet.microsoft.com/download) > Runtime
+    - ⏳ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
   - ⏳ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
   - ⏳ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
     - ⏳ Dell support assist
@@ -429,7 +390,7 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
   - ✅ Mix vitamine
   - ✅ Doc > vitamine D tous les 6 mois
   - 🚀 Miel gelée royale
-- ✅ Tout est versionné, pas de WIP qui traîne
+- ⏳ Tout est versionné, pas de WIP qui traîne
 
 ---
 
