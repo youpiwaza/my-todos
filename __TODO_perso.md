@@ -146,6 +146,7 @@ Sites > crunchyroll / otakufr . co
 - Cool world
 - cop land
 - crazy lee
+- cruising / La chasse, avec al pacino
 - dallas buyers club
 - Dark man / Sam raimi
 - david fincher / filmographie
@@ -156,6 +157,7 @@ Sites > crunchyroll / otakufr . co
 - Devil story
 - Dice
 - Doomsday Book
+- Drive my car
 - end of days
 - Enter the void
 - Eternal sunshine of the spotless mind

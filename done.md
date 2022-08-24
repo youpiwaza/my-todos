@@ -2,6 +2,339 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 19/08/2022
+
+PB Modelisme
+
+1. ✅⬆️ Mise à jour plugins, thèmes, traductions WP
+2. ✅ Améliorations WP classiques
+   1. ✅🔒️ Attente https
+   2. ✅ WP admin > Santé du site
+      1. ✅ Retirer extensions inactives > attente fin du développement
+      2. ✅ Evènement planifié en retard > Rien trouvé dans l'onglet correspondant
+      3. ✅ Maj d'arrière plan POURRAIENT être KO > Il a juste détecté le git
+      4. ✅ HTTPS dans la config
+         1. ✅ Revoir BDD
+         2. ✅ Revoir wp-config & réglages > général
+         3. ✅ Régénérer permaliens
+   3. 💩 Vérifier Erreurs console ? Ressources dans wp-include/ en 404 > Besoin https
+      1. ✅💾 Backup BDD avant
+      2. 💩 Changer toutes les urls des fichiers médias
+         1. 💩 Ca merde, soit l'import est HS, soit fait sauter la config divi
+      3. 🌱 Voir plus tard > éclater tout avant import
+   4. ✅ Mise en place de l'extension pour les marques > WPC Brand
+      1. ✅ 💩 Rajoute du contenu sur la page d'accueil + KO + erreurs consoles
+      2. ✅ 🔍 Autre plugin
+         1. ✅ [Perfect Brands pour WooCommerce](https://fr.wordpress.org/plugins/perfect-woocommerce-brands/)
+            1. Is ok mais éclate le tableau dans la page des produits
+               1. `/plugins/perfect-woocommerce-brands/assets/css/styles-admin.min.css` > virer `width: 11% !important`
+      3. ✅ Récupérer les images ~`https://pb-modelisme.com/Logo_Marque/XXX.jpg`
+      4. ✅ Optimiser les images pour un meilleur référencement
+         1. ✅ Renommer
+            1. ✅ Tout en minuscule
+            2. ✅ Remplacer " " & "_" par "-"
+            3. ✅ Ajouter les textes sur les images, ex "BMF.pjg" > "bmf-bare-metal-foil-co.jpg"
+            4. ✅ Virer les ids
+         2. ✅ Virer les doublons
+         3. ✅ Remplacement des mauvaises images (logo PB sur d'autres marques !?)
+         4. ✅ Discriminer ceux utilisés sur le site ~100/400
+            1. ✅ Pour les autres on récupère les images de l'ancien site
+         5. ✅ Aller voir sur le net pour maj les logos
+         6. ✅ Mise à jour des liens également
+         7. ✅ Passer en png
+         8. ✅ Recadrage propre
+         9. Création image carrée / Bannière
+         10. ✅ Suffixer "logo-brand"
+      5. ✅ Injecter les marques dans le nouveau site `total de 409` yay
+3. WP > Création des champs personnalisés
+    1. ✅🙍‍♂️ Propre au produit / 📝✨ Ajout d'un produit pour tester les champs personnalisés
+       1. ✅ pcedetthermik      > ✅✨ [exemple](https://dev.pb-modelisme.com/produit/culasse-moteur-alpha-28-3-transfert-rtr/)
+           1. ✅ OPTPCETH a virer
+           2. ✅ COEFFPCETH a virer
+       2. ✅ piece_heli         > ✅✨ [exemple](https://dev.pb-modelisme.com/produit/accu-3-7v-500mah-sky-watcher-drone/)
+       3. ✅ piece_voiture      > ✅✨ [exemple](https://dev.pb-modelisme.com/produit/cale-triangles-arrieres-r-f-alu-oas/)
+           1. ✅ OPTPCECAR > choix unique
+       4. ✅ quartz             > ✅✨ [exemple](https://dev.pb-modelisme.com/produit/quartz-hsb-fm27-075/)
+       5. ✅ radio              > ✅✨ [exemple](https://dev.pb-modelisme.com/produit/cr4s-avec-2-recepteurs/)
+       6. ✅ recepteur          > ✅✨ [exemple](https://dev.pb-modelisme.com/produit/recepteur-3-voies-pour-racer-3s/)
+           1. ✅ SBUSRECEP a virer
+       7. ✅ servo              > ✅✨ [exemple](https://dev.pb-modelisme.com/produit/go-02servo-digital/)
+    2. ✅🧽 Tous les champs booléens, remplacer "Ne sais pas" par "Non défini"
+    3. ✅🧽 Tous les ensembles de champs > ordre 100
+    4. 🧽 Revoir gestion de l'utilisation du moteur (pour le moment catégorie "Moteurs" avec les véhicules compatibles)
+        1. Et deux catégories vides "Moteurs thermiques" et "Moteurs électriques"
+        2. Refacto ? sur un champ "compatibilité" ? pour affecter aux autres catégories qui pourraient en avoir besoin
+    5. 💾 Backup de fin
+
+Perso
+
+1. ✅ Croquettes chien
+   1. ✅ Commandé
+   2. ✅ Aller chercher
+2. ✅ Jeu alakonn unlock 1st dragon
+   1. Need pasture level 26 ? [hey](https://pillarofgaming.com/evony-the-kings-return/dragons-guide-and-how-to-obtain-dragons/)
+      1. Need donjon & entrepot
+   2. 300k gems [gems guide mais en gros c'la merde](https://pillarofgaming.com/evony-the-kings-return/gems-obtaining-guide/)
+3. ✅ [Orga we warhammer](https://docs.google.com/spreadsheets/d/1VPE3STTiAxp2QXXSfQ36fRdWbYpTJ5odioZmtBJRTDQ/edit#gid=0)
+
+## 14/08/2022
+
+PB Modelisme
+
+1. ✅ Inventaire champs personnalisés
+   1. cf. `pb-modelisme--com/_docs/craft-and-tests/10-inventaire-champs-personnalisés_secret`
+2. ✅👪 Questions à sylvie & cédric
+   1. ✅📧 Mail envoyé
+3. ✅🔍 Vérifier gestion des..
+   1. ⏳ codes barres (= "EAN") : x2, fournisseur & pb
+      1. cf. `pb-modelisme--com/_docs/craft-and-tests/09-codes-barres-barcode-ean`
+      2. Impression : Passer par extension payante ou utiliser une librarie et coder un truc maison
+      3. Politique concernant les x2, voir avec Cédric
+   2. ✅ Notations, étoiles de 1 à 5 > Note PB Modélisme > Champ perso commun
+      1. cf. `pb-modelisme--com/_docs/craft-and-tests/08-import-product-reviews-and-notes`
+   3. ✅ Favoris > Pas utilisé sur le site, 1 seul champ par produit ? wat > is Produit affiché sur accueil, boolean
+   4. ✅ Eco-taxe
+      1. Voir avec Cédric comment c'est géré avant de partir trop loing
+      2. Soit stocké en champ particulier, soir [plugin payant 39€](https://solutions.fluenx.com/produit/eco-participation-pour-woocommerce/)
+         1. Si plugin payant voir comment importer
+      3. Valeur simplement affichée sur facture finale > Champs personnalisés global
+   5. ✅ Prix de vente club
+      1. [Plugin gratuit bien caché](https://fr.wordpress.org/plugins/elex-woocommerce-role-based-pricing-plugin-basic/)
+      2. `cf. pb-modelisme--com/_docs/craft-and-tests/12-prix-club`
+      3. 🧠 Pas mal d'autres fonctionnalités proposées, notemment pour la gestion des rôles
+   6. ✅ Vente multiples > prix réduits
+      1. "Products bundle discount" / "bulk discount"
+      2. [Tuto avec plugin gratuit (?)](https://quadlayers.com/product-bundles-in-woocommerce/)
+         1. Plus pour des réductions sur ventes groupées
+      3. Go [check](https://www.commercegurus.com/bulk-discount-plugins-woocommerce/)
+         1. Tous gratuits à partir de #6
+         2. ✅Plugin [Advanced Dynamic Pricing for WooCommerce](https://wordpress.org/plugins/advanced-dynamic-pricing-for-woocommerce/), d'après la description c'est good
+            1. ✅📌 Tayste
+               1. WC > Règles de tarification
+               2. [Impecab' sur altitude 2000](https://dev.pb-modelisme.com/produit/altitude-2000/)
+4. ✅🔍 Veille plugins existants croisés lors des recherches
+   1. ✅ [Check plugins "wpc*" sur WordPress](https://dev.pb-modelisme.com/wp-admin/plugin-install.php?s=wpc&tab=search&type=term)
+      1. Freemium mais le côté payant n'apporte pas grand chose, tout est déjà bien dispo
+      2. cf. `pb-modelisme--com/_docs/craft-and-tests/13-veille-plugins-wpclever`
+      3. ✅📌 [WPC Force Sells for WooCommerce](https://fr.wordpress.org/plugins/wpc-force-sells/)
+         1. Création de packs de produits ! Avec possibilité d'ajouter des réductions, etc.
+         2. [Impecab'](https://dev.pb-modelisme.com/produit/pack-avion-shirt-bonnet/)
+      4. ~✅🔒️📌 [WPC Brands for WooCommerce](https://fr.wordpress.org/plugins/wpc-brands/)
+         1. Gestion simplifiée des marques de produit & affichage des logos, etc.
+         2. A l'air correct mais est KO et pète la page d'accueil à cause de l'absence de HTTPS
+      5. ~💩📌 [WPC Composite Products for WooCommerce](https://fr.wordpress.org/plugins/wpc-composite-products/)
+         1. Création de pack may mieux, à l'air vraiment rpévu pour ça (pas de greffon sur un produit, contrairement à force sells)
+         2. Cela correspond mieux, mais une fois sur la page de apiement les prix sont chelous, a retester
+         3. [Demo](https://demo.wpclever.net/wooco/product/composite-02/)
+         4. La démo fonctionne correctement
+      6. ✅📌 [WPC AJAX Add to Cart for WooCommerce](https://fr.wordpress.org/plugins/wpc-ajax-add-to-cart/)
+         1. Ajouter au panier sans recharger la page, pas de config
+      7. ✅ [WPC Grouped Product for WooCommerce](https://fr.wordpress.org/plugins/wpc-grouped-product/)
+         1. Flemme de tester, ressemble aux deux autres pour les groupes de produits
+         2. [demo](https://demo.wpclever.net/woosg/?utm_source=content&utm_medium=woosg&utm_campaign=wporg)
+   2. ✅📌 [Moteur de recherche avancé freemium](https://fr.wordpress.org/plugins/ajax-search-for-woocommerce/)
+      1. C'canon mais ça éclate le visuel de la barre de menu
+5. ✅📝 Ajout des champs supplémentaires WooCommerce requis (avec défauts), non présents en BDD PB, permettra d'uniformiser
+   1. 🌱 Quartz > 🚨💥 Nom a générer
+6. ✅📝 Repasse sur les onglets > Infos manquantes, stocker comment ?
+   1. ✅🧠 Possibilité d'aller voir les fichiers PHP du site
+      1. Oh god nope, besoin de linter + très complexe : 🐢 trop grosse perte de temps je pense
+      2. AFFCC utilisé pour la gestion de l'affichage de produits ?
+         1. cf. `_dev/site actuel pb modelisme/Accessoires/_lint_max___prodassoc.php`
+   2. ✅ accessoires
+      1. Onglet **Produits Similaires**
+      2. Mains dans le code > `/_docs/craft-and-tests/14-retro-engineering-onglets-fiches-produits`
+      3. ✅👪📧 Bref, c'est la compliqué. 2 solutions :
+         1. Voir avec Cédric pour récupérer l'intégralité des requêtes
+         2. Beaucoup plus simple, demander la logique de la requête SQL pour chaque onglet & recoder !
+7. ✅ Gestion des retours à mes questions, réponses de Cédric > Maj ce fichier & doc BDD
+   1. ✅ Champs avec interogations sur accessoires
+   2. ✅ Choix des unités de mesure
+      1. ✅ cm & grammes
+      2. ✅ [Maj de WC](https://dev.pb-modelisme.com/wp-admin/admin.php?page=wc-settings&tab=products)
+      3. ✅ Maj Champs persos `/_docs/craft-and-tests/10-inventaire-champs-personnalisés_secret`
+      4. ✅ Doc BDD
+   3. ✅ Prix par défaut en HT, affiché en TTC
+      1. ✅ [Maj de WC](https://dev.pb-modelisme.com/wp-admin/admin.php?page=wc-settings&tab=tax)
+      2. ✅ Doc BDD
+      3. ✅ Maj Champs persos `/_docs/craft-and-tests/10-inventaire-champs-personnalisés_secret`
+      4. ✅ Prévoir tests & validation
+   4. ✅⚰️ Prix club > deprecated
+      1. ✅ Maj Champs persos `/_docs/craft-and-tests/10-inventaire-champs-personnalisés_secret`
+      2. ✅ Doc BDD
+   5. ✅⚰️ Champ commun FAV___ > Produits affichés sur le bandeau d'accueil du site > deprecated
+      1. ✅ Maj Champs persos `/_docs/craft-and-tests/10-inventaire-champs-personnalisés_secret`
+      2. ✅ Doc BDD
+   6. ✅⚰️ Champ commun AFF___ > Produits affichés sur le bandeau d'accueil du site > deprecated
+      1. ✅ Maj Champs persos `/_docs/craft-and-tests/10-inventaire-champs-personnalisés_secret`
+      2. ✅ Doc BDD > Remplacé par doubles status > 🛒 status && catalog_visibility
+   7. ✅ Eco-taxe > Affiché sur facture finale (& produit maintenant -_-) > Champ perso global
+      1. ✅ Maj Champs persos `/_docs/craft-and-tests/10-inventaire-champs-personnalisés_secret`
+      2. ✅ Doc BDD > Remplacé par doubles status > 🛒 status && catalog_visibility
+   8. ✅ NBSTAR___ > Note PB Modélisme > Champ perso commun
+      1. 📝 Sera différent des notes relatives aux avis clients
+      2. ✅ Maj Champs persos `/_docs/craft-and-tests/10-inventaire-champs-personnalisés_secret`
+      3. ✅ Doc BDD > Remplacé par doubles status > 🛒 status && catalog_visibility
+8. ✅📝 Repasse sur les choix uniques > populer + ajouter champ "ne sais pas"
+   1. ✅ accessoires
+   2. ✅ acctx
+   3. ✅ avion
+   4. ✅ bateaux
+   5. ✅ batterie
+   6. ✅ bougie
+   7. ✅ carburant
+   8. ✅ chargeur
+   9. ✅ controleur
+   10. ✅ heliceavion
+   11. ✅ helico
+   12. ✅ maquette
+   13. ✅ matprem
+   14. ✅ moteur_electrique
+   15. ✅ moteur_thermique
+   16. ✅ pcedetthermik
+   17. ✅ piece_heli
+   18. ✅ piece_voiture
+   19. ✅ quartz
+   20. ✅ radio
+   21. ✅ recepteur
+   22. ✅ servo
+   23. ✅ voitures
+   24. ✅ Revoir majuscule première lettre de l'ensemble des libellés
+9. ✅ Doc champs perso > Rajouter les champs en attente de reponse > format `legacy_XXX`
+    1. ✅ accessoires
+    2. ✅ acctx
+    3. ✅ avion
+    4. ✅ bateaux
+    5. ✅ batterie
+    6. ✅ bougie
+    7. ✅ carburant
+    8. ✅ chargeur
+    9. ✅ controleur
+    10. ✅ heliceavion
+    11. ✅ helico
+    12. ✅ maquette
+    13. ✅ matprem
+    14. ✅ moteur_electrique
+    15. ✅ moteur_thermique
+    16. ✅ pcedetthermik
+    17. ✅ piece_heli
+    18. ✅ piece_voiture
+    19. ✅ quartz
+    20. ✅ radio
+    21. ✅ recepteur
+    22. ✅ servo
+    23. ✅ voitures
+10. ✅ WP > Création des ~~catégories~~ attributs table "versboite" ARTF, etc.
+    1. ✅🧽 Correction des fautes :3
+    2. ✅🧽 Suppression de caractères invisibles chelous dans les textes
+11. 🚀 WP > Création des nouvelles catégories (faire une repasse sur l'ensemble des tables)
+    1. ✅📝📌 Faire la différence entre catégories & [attributs !](https://dev.pb-modelisme.com/wp-admin/edit.php?post_type=product&page=product_attributes)
+       1. Notes : Les attributs...
+          1. **peuvent** être rajoutés aux produits depuis la fiche produit > données produits > attributs
+          2. sont communs à l'ensemble des produits
+          3. sont affichés **automatiquement** dans l'onglet "Informations complémentaires", [ex](https://dev.pb-modelisme.com/produit/easyglider-electric-rr/).
+             1. 🚨👀 Visibilité publique
+          4. sont considérés comme des catégories (affichage dans admin) + [page dédiée](https://dev.pb-modelisme.com/product-category/version-boite/kit-artr/)
+             1. Doivent effectivement être définis comme catégorie et pas seulement dans attribut WC si produit veut être considéré comme tel
+             2. La catégorie peut prendre le pas dans le fil d'ariane (ex: version boite > Avions)
+       2. ✅📌 Tester champs particuliers ACF, différences avec atrtibuts WC ?
+          1. Non affiché par défaut
+    2. ✅📝🚨 Privilégier choix uniques (select/radio/etc.) lorsque c'est possible
+    3. ✅🧠📏 **Comment choisir le type de champ particulier**
+       1. Rien en catégorie, c'est fait pour les ... catégories
+       2. Commun à tous les produits
+          1. Visibilité publique
+             1. Attribut
+          2. Visibilité interne
+             1. ACF
+       3. Spécifique à un produit ou un groupe de produit
+          1. ACF
+    4. ✅🧽 Cleaner les catégories créées prématurément
+       1. ✅♻️ ~Avion > Niveau
+       2. ✅♻️ ~Avion > Type
+       3. ✅♻️ ~Bateaux > Type
+       4. ✅♻️ ~Helico > Niveau
+       5. ✅♻️ ~Voiture > type moteur
+       6. ✅ Maj structure BDD
+       7. ✅ Maj doc champs personnalisés
+12. 🚀 WP > Création des champs personnalisés
+    1. ✅💾 Backups afin de pouvoir ré-importer la structure en cas de problème
+    2. ✅👪 Globaux
+    3. ✅🏎️ Véhicules & maquettes uniquement
+    4. 💥 Corrections liées au RDV client : Mettre à jour doc champs particuliers ET WP
+       1. ✅ Champs commun
+          1. ✅ Fournisseurs
+             1. ✅ Passer en champ répéteur
+             2. ✅ contenant lui-même un répéteur (passer prix d'achat + date) PAR fournisseur
+             3. ✅ Virer divers > prix d'achat
+          2. ✅✨🛒 Ajouter date dernière vente
+             1. Existe déjà dans WC, en automatique : Admin > Statistiques > Produit
+          3. ✅ (Onglet) Produits associés
+             1. Ajouter une liste de produits, qui seront ajoutés a la main, très spécifique au produit
+          4. 🌱 (Onglet) Produits similaires
+             1. Requête qui essaie pour rapatrier de manière automatique
+       2. ✅ Véhicules
+          1. ✅ Matériel à prévoir
+             1. ✅ Passer en champ commun
+             2. ✅ Remplacer par une liste de produits
+          2. ✅ Liste de peintures
+             1. ✅ Ajouter une liste de produits
+          3. ✅ Pièces détachées
+             1. ✅ Ajouter une liste de produits
+          4. ~~Articles conseillés~~ Il y a déjà Produits associés
+             1. ~~Ajouter une liste de produits~~
+       3. ✅ Avion
+          1. ✅ (Onglet) Servos conseillés
+             1. ✅ Possibilité d'en choisir a la maing OU d'afficher l'ensemble des servos d'une catégorie de servos
+       4. ✅ Chargeur
+          1. ✅ Produits compatibles
+             1. ✅ Ajouter une liste de produits
+    5. 🚀🙍‍♂️ Propre au produit / 📝✨ Ajout d'un produit pour tester les champs personnalisés
+       1. ✅ accessoires         > ✅✨ [exemple](https://dev.pb-modelisme.com/produit/pompe-eau-moteur-gazoline/)
+       2. ✅ acctx               > ✅✨ [exemple](https://dev.pb-modelisme.com/produit/potentiometre-pilot-6t/)
+       3. ✅ avion               > ✅✨ [exemple](https://dev.pb-modelisme.com/produit/twin-astir-ii/)
+          1. ✅ DIAMINI maxi > Taille des hélices > permet d'éviter que l'hélice touche par terre, etc.
+       4. ✅ bateaux             > ✅✨ [exemple](https://dev.pb-modelisme.com/produit/peniche-le-picardie/)
+          1. ✅⚰️ NBELEBAT a virer
+       5. ✅ batterie            > ✅✨ [exemple](https://dev.pb-modelisme.com/produit/batterie-lipo-37v-tx-mhd3s/)
+       6. ✅ bougie              > ✅✨ [exemple](https://dev.pb-modelisme.com/produit/bougie-5-turbo/)
+          1. ✅ 4TPSGLOW > description du champ
+          2. ✅⚰️WANKELGLOW a virer
+       7. ✅ carburant           > ✅✨ [exemple](https://dev.pb-modelisme.com/produit/rocket-fuel-flight/)
+       8. ✅ chargeur            > ✅✨ [exemple](https://dev.pb-modelisme.com/produit/pro-x4-4-sorties-4x100w/)
+       9. ✅ controleur          > ✅✨ [exemple](https://www.pb-modelisme.com/Controvaria/detailCont.php?prod=197)
+       10. ✅ heliceavion        > ✅✨ [exemple](https://dev.pb-modelisme.com/produit/tri-pales-propulsive/)
+       11. ✅ helico             > ✅✨ [exemple](https://dev.pb-modelisme.com/produit/drone-sky-watcher/)
+       12. ✅ maquette           > ✅✨ [exemple](https://dev.pb-modelisme.com/produit/tank-m3a3-pak40-yugoslav/)
+       13. ✅ matprem            > ✅✨ [exemple](https://dev.pb-modelisme.com/produit/planchette-balsa-prestige-7-10/)
+       14. ✅ moteur_electrique  > ✅✨ [exemple](https://dev.pb-modelisme.com/produit/quicrun-10-5t-g2-noir-sensored/)
+       15. ✅ moteur_thermique   > ✅✨ [exemple](https://dev.pb-modelisme.com/produit/moteur-delta-18s-lisse-tirette/)
+       16. 🚀 pcedetthermik      > ✨ exemple
+           1. OPTPCETH a virer
+           2. COEFFPCETH a virer
+       17. piece_heli         > ✨ exemple
+       18. piece_voiture      > ✨ exemple
+           1. OPTPCECAR
+       19. quartz             > ✨ exemple
+       20. radio              > ✨ exemple
+       21. recepteur          > ✨ exemple
+           1. SBUSRECEP a virer
+       22. servo              > ✨ exemple
+       23. ✅ voitures       > ✅✨ [exemple](https://dev.pb-modelisme.com/produit/fighter-buggy-rx-dt01/)
+       24. 🧽 Tous les champs booléens, remplacer "Ne sais pas" par "Non défini"
+       25. 🧽 Revoir gestion de l'utilisation du moteur (pour le moment catégorie "Moteurs" avec les véhicules compatibles)
+           1. Et deux catégories vides "Moteurs thermiques" et "Moteurs électriques"
+           2. Refacto ? sur un champ "compatibilité" ? pour affecter aux autres catégories qui pourraient en avoir besoin
+13. ✅👪 RDV client du 12/08/22
+    1. ✅ Retours sur le début de front
+    2. ✅ Présentation administration champs particuliers
+    3. ✅ [Tech] Réponse aux questions
+    4. ✅ Repasser sur champs persos doc BDD
+    5. ✅🧽 Cleaner compte rendu
+    6. ✅ Ajouter nouvelles tâches à la TODO & Maj doc BDD
+    7. ✅ 📧 Envoyer compte rendu
+14. ✅ Compte rendu de fin de semaine
+
 ## 07/08/2022
 
 PB Modelisme
