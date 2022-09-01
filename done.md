@@ -2,6 +2,162 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 26/08/2022
+
+Perso
+
+1. ✅ Virement loyer/emprunt
+
+PB Modelisme
+
+1. ✅ WP > Création des champs personnalisés
+    1. ✅ Repasse sur doc BDD drive, suite aux retours de cédric
+       1. ✅ Batterie
+          1. ✅ CDACC > Type de prise sur accus. Un produit dans table accessoire
+             1. ✅ Maj doc champs persos
+             2. ✅ Maj WP champs persos
+          2. ✅ Serie & Para > Pas legacy
+             1. ✅ Maj doc champs persos
+             2. ✅ Maj WP champs persos
+          3. ✅ Helico > cylidrée min & max > Uniquement helico thermique
+             1. ✅ Maj doc champs persos
+             2. ✅ Maj WP champs persos
+          4. ✅ radio > BRAIN & RXEM
+             1. ✅ Maj doc champs persos
+             2. ✅ Maj WP champs persos
+    2. ✅🧽 Revoir gestion de l'utilisation du moteur (pour le moment catégorie "Moteurs" avec les véhicules compatibles)
+        1. ✅ Et deux catégories vides "Moteurs thermiques" et "Moteurs électriques"
+           1. ✅ On conserve
+        2. ✅♻️ Refacto ? sur un champ "compatibilité" ? pour affecter aux autres catégories qui pourraient en avoir besoin
+           1. 📝 Actuellement
+              1. Moteurs
+                 1. Bateau
+                 2. Hélico
+                 3. Moteurs avions
+                 4. Planeur
+                 5. Turbine
+                 6. Voiture
+              2. Moteurs électriques
+              3. Moteurs thermiques
+           2. ✅ Refacto / Compatible / moteurs-compatibles-
+              1. ✅ Compatibilité moteurs
+                 1. ✅ Compatible avions
+                 2. ✅ Compatible bateaux
+                 3. ✅ Compatible hélicos
+                 4. ✅ Compatible planeurs
+                 5. ✅ Compatible turbines
+                 6. ✅ Compatible voitures
+    3. ✅💾 Backup de fin
+2. ✅ Gestion retours Cédric [dernier mail](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqPzFxzJdDMktFtKZHsRmrhLrL)
+   1. 📝 Pour les liens à rajouter : "Avez vous pensez à ..." où "Avez vous besoin de ..."
+   2. ✅ Avions > Ajouter un onglet produits associés
+      1. ✅ Maj doc BDD
+      2. ✨👪 Maj WP > champs persos
+   3. ✅ Moteur électrique
+      1. ✅ Notice > C'est juste un lien, on garde
+         1. ✅ Maj doc BDD
+         2. ✨👪 Maj WP > champs persos
+      2. ✅ Produit compatible > On garde pas, on mettra des produits associés
+         1. ✅ Maj doc BDD
+         2. ✨👪Maj WP > champs persos
+      3. ✅ Autres onglets > Affichage en dur d'une catégorie
+         1. ✅ Maj doc BDD
+   4. ✅ Moteur thermique > Onglet indispensable > On remplace par plusieurs liens * vers les catégories suivantes : durites, filtre, réservoir, clef à bougie, Glow starter
+      1. ✅ Maj doc BDD
+   5. ✅ Voiture
+      1. ✅ Accessoires Camion > On remplace par un lien* vers tous les accessoires camion
+         1. ✅ Maj doc BDD
+      2. ✅ Indispensables > On remplace par des liens * vers les rubriques suivantes : Huile diff & Amorto / Pignon moteur / Clip carrosserie / Filtre à air
+         1. ✅ Maj doc BDD
+   6. ✅ Tout passer en mm, en non en cm
+      1. ✅ Maj doc BDD
+      2. ✅ Maj doc champs persos
+      3. ✅ Maj WP > WC > Réglages
+      4. ✅ Maj WP > champs persos
+3. ✅ Importer les marques
+    1. ✅ Elimination des doublons, chaque marque n'a qu'une entrée
+    2. ✅ Plus de marquées dédiées à certaines catégories, que des marques générales
+    3. ✅ Hiérarchie / familles de marques
+4. ✅ Tâches prioritaires suite au RDV client
+    1. ✅ Créer les pages statiques & pré-remplir le contenu
+       1. ✅ à propos (theme bike)
+          1. [originale](https://www.pb-modelisme.com/presentation.php)
+          2. [base](https://dev.pb-modelisme.com/brs-a-propos/)
+          3. [nouvelle](https://dev.pb-modelisme.com/a-propos/)
+       2. ✅ services (theme bike)
+          1. [base](https://dev.pb-modelisme.com/brs-services/)
+          2. [nouvelle](https://dev.pb-modelisme.com/services/)
+       3. ✅ Un service
+          1. [base](https://dev.pb-modelisme.com/brs-service/)
+          2. [nouvelle](https://dev.pb-modelisme.com/services/reparations/)
+       4. ✅ Actualités / blogs (theme hardware store)
+          1. [base](https://dev.pb-modelisme.com/hs-blog/)
+          2. [nouvelle](https://dev.pb-modelisme.com/actualites-blog/)
+       5. ✅ contact, fusionner avec "nous situer"
+          1. Originale [nous situer](https://www.pb-modelisme.com/acces.php) [nous contacter](https://www.pb-modelisme.com/contact.php)
+          2. [Nouvelle](https://dev.pb-modelisme.com/contact/)
+          3. ✅ Adresse
+          4. ✅ Gmaps
+             1. ✅ clé API > besoin infos paiement même si c'est gratuit > 3 mois max
+             2. ✅ Alternative > ~~Leaflet maps~~ > WP GO Maps (plus d'installations)
+                1. ✅ Installation
+                2. ✅ Config
+                3. ✅ Vérification responsive ok
+          5. ✅ Horaires
+          6. ✅ Formulaire de contact
+          7. ✅ Venir au magasin > Récupérer trucs Champagne Lapie > gmaps & ways instant
+       6. ✅ page des marques
+          1. ✅ [Originale](https://www.pb-modelisme.com/liens.php)
+          2. ✅ [Nouvelle](https://dev.pb-modelisme.com/marques-partenaires/)
+             1. ✅🔍 [Doc plugin](https://quadlayers.com/documentation/perfect-woocommerce-brands/?utm_source=pwb_admin)
+             2. 🌱 Traduction "Brands" dans le fil d'arianne sur une page "marque"
+       7. ✅ Mentions légales
+          1. ✅ Originale > [popup dans footer](https://pb-modelisme.com/)
+          2. ✅ [Nouvelle](https://dev.pb-modelisme.com/mentions-legales/)
+          3. ⏳ Retours PB
+             1. "le site pb-modelisme.com est déclaré à la CNIL sous le numéro **123456789**" < **SUSPICION**
+             2. Textes et photos non contractuels
+       8. ✅ Conditions générales de vente
+          1. ✅ Originale > [popup dans footer](https://pb-modelisme.com/)
+          2. ✅ [Nouvelle](https://dev.pb-modelisme.com/conditions-generales-vente/)
+             1. Corrections typos
+             2. ⏳ Retours PB
+                1. Uniformiser nom de la société sur l'ensemble des pages mentions "PB-MODELISME" "PB MODÉLISME" "PB Modélisme" "PB MODELISME"
+                2. 3 Commandes > 3.2 > Re-phraser ? Un poil familier
+                3. ⏳ Faire une grosse relecture avant que j'arrange la disposition des textes
+       9. ✅ RGPD Politique de confidentialité & Cookies
+          1. Générée auto : [Nouvelle](https://dev.pb-modelisme.com/rgpd-cookie-politique-confidentialite-eu/)
+    2. ✅ Footer / Pied de page
+       1. ✅ Note : ~~Apparence > perso > widgets~~ Divi > theme builder
+       2. ✅ Design > faire un mix de BRS et HS
+          1. BRS plus sympa mais pas d'adresse ni de newsletter
+       3. ✅ Faire une proposition de menu (trier les anciens liens)
+          1. Contact
+          2. A propos
+          3. Services
+          4. Marques
+          5. Actualités
+          6. Mentions
+          7. CGV
+          8. Cookies
+          9. Plan du site
+       4. ✅ Reprendre les images bancaires du pied de page de l'ancien site
+       5. ✅ Copyright, avec année automatique
+       6. ✅ Cleaner logo gouvernement plan relance
+       7. ✅ Tester footer full page
+          1. ✅ Enregistrer templates full & pas full (pour switch)
+          2. ✅ Check responsive
+          3. ✅ Screeshots propositions clients
+    3. ✅ Cleaner contenus menus
+    4. ✅ Repasse sur le carousel de la page d'accueil
+    5. ✅ Correction à la volée de certaines catégories avec noms similiares (sous catégories..)
+    6. ✅ Créer un compte admin pour PB Modelisme
+       1. ✅ Créer le compte
+       2. ✅ Noter identifiants dans doc secret
+       3. ✅ 📧 Envoyer identifiants avec liste des pages admin à recetter
+       4. ✅ Même chose pour nonore
+    7. ✅ Mail PB & ALD liste des pages à recetter
+
 ## 19/08/2022
 
 PB Modelisme
