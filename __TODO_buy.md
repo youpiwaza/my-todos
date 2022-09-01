@@ -1,6 +1,8 @@
 # Les trucs à acheter
 
-- Green stuff world new stuff
+## Hors compétition
+
+- [How Double Chicken Please Became One of the Country's Most Popular Cocktail Bars — Mise En Place](https://www.youtube.com/watch?v=tglfDwObFNU)
 
 ## Bouffe / Feel goude
 
@@ -9,6 +11,7 @@
 - [BBQ putain de cher](https://www.biggreenegg.co.uk/build-your-egg)
 - Cire d'abeille, pour rendre la pâte des raviolis moins collante
 - [Épices](https://www.epices-roellinger.com/fr/taxons/melanges-epices)
+- [Four a pizza maison](https://www.youtube.com/watch?v=w3f8-bHPYWk)
 - [gochujang](https://www.youtube.com/watch?v=sJreTj1W6Co)
   - Qu'est-ce que le Gochujang ? Le Gochujang est un condiment coréen très utilisé en cuisine coréenne. La sauce Gochujang, que l'on peut également traduire par sauce de piment amère, est fabriquée à partir de piments rouges, de farine de riz gluant, de pâte de soja fermenté et de blé.
   - [Site offi](http://andongjebiwon.co.kr/eng/) mais pas de e-commerce
@@ -67,6 +70,7 @@
 
 - DJ Blyatman | [T-shirt](https://teespring.com/fr/djblyatman?view_as=EUR&currency=EUR&country=FR&tsmac=google&tsmic=youtube&pid=389&cid=100029&utm_term=UCnWnuHHjG-__QxuoZgjBgIg&utm_medium=product_shelf&utm_source=youtube&utm_content=YT-ACRcEUqECQLU3PsY5kojm7y0zxToBuVgKR0qIMyvsDRToFCOE9c3ThbV-YPV8wwbxWt3k4LOuxht5QBNai_c-rc920WQweC4QDxO8HfZ3abGIs_tGRyhHgeZ5OBBJB9a0lknxaqwX3E2aogxNWvEMPYuPFO3GTiw6hyctWKJF8wBXYwG9txLi5bj00aNfWgw2vNkvegsst_0MynOeqa55RfVJfKkSVWaOZqqnw%3D%3D)
 - idéee tshirt / Je veux monter un groupe de rap ou on sera expert dans l'art de se tromper dans les mots, verso > Il s'appellera les pro-lapsus
+- [Tshirt hardc orner](https://hardcorner.myspreadshop.fr/hard+corner+z+yellow-A62a9f67cbff8282d5fd8b8e3?productType=812&sellable=kaNeeoy0krTqRMbXE9nx-812-7&appearance=2)
 - [Oh My Zsh merch](https://shop.planetargon.com/collections/oh-my-zsh?utm_source=github)
 - Pull scissor seven / piaf
 - [Tshirt / 2 girls 1 up](https://www.google.com/search?newwindow=1&sxsrf=ALeKk01xN3MAkpt86HyV3YEUVgVG_W12kg%3A1608110006334&ei=ts_ZX4nrE8G4aZTboegN&q=tshirt+%222+girls+1+up%22&oq=tshirt+%222+girls+1+up%22&gs_lcp=CgZwc3ktYWIQA1DrsJYCWKy1lgJgjb6WAmgAcAB4AIABWogBiQKSAQE0mAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwiJnr_NlNLtAhVBXBoKHZRtCN0Q4dUDCA0&uact=5)

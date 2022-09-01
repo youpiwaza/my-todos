@@ -33,7 +33,6 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 - [CSS Flexbox Crash Course](https://www.youtube.com/watch?v=tXIhdp5R7sc)
 - [Build a Curvaceous Homepage // Wavy Background Tutorial with SVG & CSS](https://www.youtube.com/watch?v=lPJVi797Uy0)
 
-
 - [Projet > Readme++](https://dev.to/eludadev/take-your-github-repository-to-the-next-level-17ge)
   - Enregistrer code terminal pour gif [asciinema](https://asciinema.org/)
   - [fig.io](https://fig.io/)
@@ -232,3 +231,5 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 - [Flutter](https://flutter.dev/) / Google Native app UI
   - [Tutos](https://dev.to/baksman/how-to-learn-flutter-for-free-in-2020-gil) recos
 - Passer formation Symfony & Laravel > [https://www.grafikart.fr/formations](https://www.grafikart.fr/formations)
+- [WP certificats ssl](https://deliciousbrains.com/wordpress-https-switch/)
+- [WP cli package reviews](https://deliciousbrains.com/wordpress-cli-packages-review/)
