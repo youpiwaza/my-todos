@@ -33,21 +33,21 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Perso
 
-1. 🔍 Régime
+1. Cadeau anniv pougnoutte
+   1. Vélo, a voir en revenant de vacances
+2. 🔍 Régime
    1. 💥💥💥 PORK PANKO low carb ! 💥💥💥
    2. [Low carb](https://www.dietdoctor.com/low-carb) / keto
       1. Most fruits and fruit juice / **Although low-sugar berries — such as blackberries, raspberries, and strawberries — are ok in small to moderate amounts.**
    3. Keto wheat flour > farine avec prot ? [hey](https://www.youtube.com/watch?v=g2fTYDftlCg)
    4. Non fat ricotta cheese / provolone cheese
-2. Voir spectacle chateau sedan pour quand vigi reviendra [hey](https://www.chateau-fort-sedan.fr/evenements)
-3. gochujang
+3. Voir spectacle chateau sedan pour quand vigi reviendra [hey](https://www.chateau-fort-sedan.fr/evenements)
+4. gochujang
    1. [amazon](https://www.amazon.fr/s?k=gochujang+jebiwon)
    2. [idem](https://www.amazon.fr/s?k=doenjang)
-4. 🔍 Champignon Lingzhi contre la fatigue & insomnie
-5. [Figs Claymore](https://figurama-collectors.com/collections/claymore/products/claymore-teresa-vs-priscilla-elite-exclusive-statue?variant=38322217484463) si le site fonctionne un putain de jour
-6. Alan santé > Trouver professionnels autour & prendre RDV
-7. 🌱⏳ Cadeau anniv pougnoutte
-    1. Vélo, a voir en revenant de vacances
+5. 🔍 Champignon Lingzhi contre la fatigue & insomnie
+6. [Figs Claymore](https://figurama-collectors.com/collections/claymore/products/claymore-teresa-vs-priscilla-elite-exclusive-statue?variant=38322217484463) si le site fonctionne un putain de jour
+7. Alan santé > Trouver professionnels autour & prendre RDV
 8. Réserver saut en parachute
 9. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg)
    1. Carte liberté valable juqu'au 19/10/22
@@ -61,21 +61,25 @@ Perso
 
 PB Modelisme
 
-1. 👪 RDV client jeudi 01/09/22
+1. ✅👪 RDV client jeudi 01/09/22
     1. ✅ RDV
-    2. Cleaner compte rendu
-       1. 📧 Envoi
-    3. Mail Cédric, intégrer retours, [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQJrPndBccNvXhJNvglQJpdvg)
-    4. Tâches relatives
-       1. Installer [WPC Frequently Bought Together for WooCommerce](https://fr.wordpress.org/plugins/woo-bought-together/) / Produits fréquemment achetés ensemble
+    2. ✅ Cleaner compte rendu
+       1. ✅📧 Envoi
+    3. ✅ Mail Cédric, intégrer retours, [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQJrPndBccNvXhJNvglQJpdvg)
 2. 🚀📌 Finaliser les tests d'import : importer un produit avec l'ensemble des champs
     1. ✅📝 Détails `secrets > /_docs/craft-and-tests/16-tests-imports-finaux_secret/`
-    2. 🚀 (Re)mise en place
-       1. 🚀 Rétablir champs legacy dernier achat date & prix pour éviter conversion complexe en répéteur ? avec nouveaux champs dispos pour nouveau site
-       2. Idem champs requêtes onglets, si besoin de taper dedans (affichage conditionnel > onglet vieux contenu ou onglet données nouveau site)
-       3. 🌱 Liste peintures des maquettes > Faire à la main via requête sql `SELECT * FROM maquette WHERE QUANTITEM > 0 AND PAINTLIST IS NOT NULL ORDER BY PAINTLIST DESC` pour savoir lesquelles faires
-          1. ET SURTOUT demander a cédric de convertir en références/CDACCESSOIRES ! sinon galères
-       4. Rajouter tout ça a l'import
+    2. 🚀 Nettoyage final des champs problématiques
+       1. ✨ Ci-dessous, à corriger dans 💾 doc structure, 🙎‍♂️ doc champs persos, 📌 tests imports
+       2. 🚀Rétablir champs legacy
+          1. 💾🙎‍♂️📌 date dernier achat
+          2. 💾🙎‍♂️📌 prix dernier achat
+       3. 💾🙎‍♂️📌 Legacy > Rajouter champs qui tapent dans les onglets
+       4. Maquettes > Liste peintures
+          1. ✨ Conserver le nouveau champ de type relation
+          2. 💾🙎‍♂️📌 Ajouter le champ legacy original "PAINTLIST"
+          3. Ajouter les 2 'nouveaux' champs légacy créés par Cédric
+             1. 💾🙎‍♂️📌 RefPaintList / Références des peintures présentes dans la table accessoires. Poss multiples, séparateur `;`
+             2. 💾🙎‍♂️📌 IDPaintList / Identifiant des peintures présentes dans la table accessoires. Poss multiples, séparateur `;`
     3. Prix importé en HT
         1. Import OK
         2. Affichage sur site ?
@@ -95,12 +99,54 @@ PB Modelisme
         1. [Doc](https://woocommerce.com/document/product-csv-importer-exporter/#images)
     7. 🙊 Sauvegarder tests dans repo secret
     8. 👪 Faire valider
-3. Générer Code barre PB ? Revoir avec cedric
-4. Affichage front ACF
-    1. [Tuto](https://capitainewp.io/formations/acf/champ-relationnel/)
-5. Footer > Virer france relance
-6. Importer l'ensemble d'une catégorie de produits
+3. Importer l'ensemble d'une catégorie de produits
     1. Faire valider
+4. 👪 Poser RDV PB & nonore, photos avec Reflex de la boutique afin d'illustrer le site
+5. Tâches relatives au RDV client du jeudi 01/09/22
+   1. Gestion des ventes caisses
+      1. 🔍 Moyens de paiements
+         1. Paypal
+         2. Espèces
+   2. Clients hors UE & dom tom > pas de TTC
+      1. Voir pour utiliser plugin ~membre club > assigner classe taxe ?
+   3. Installer [WPC Frequently Bought Together for WooCommerce](https://fr.wordpress.org/plugins/woo-bought-together/) / Produits fréquemment achetés ensemble
+   4. 🐛 logo accueil ne renvoie pas vers la page d'accueil
+   5. ⚡️💄 Menu principal
+      1. Faire une proposition de menu amélioré (images / onglets, etc.)
+      2. Faire une proposition de rubriques optimisées
+      3. Voir avec Nonore
+   6. Footer
+      1. Virer france relance
+      2. éviter couper les lignes sur 2 lignes
+      3. logo paypal faire une seule image avec l'autre
+      4. image paiements > Chèques & mandats, remplacer par "Chèques"
+         1. Augmenter hauteur, cf image footer PAS pleine largeur
+      5. Rajouter les liens vers les pages
+   7. Générer Code barre PB ? Revoir avec cedric
+   8. Page [Contact](https://dev.pb-modelisme.com/contact/)
+      1. Vérifier cookies machins (carte)
+      2. Rajouter Captcha
+      3. Formulaire > Peut importe le service, envoyer à la meme adresse mail
+   9. Page [Marques](https://dev.pb-modelisme.com/marques-partenaires/) > Revoir le contenu de la page
+      1. Première partie colonnage par type de véhicules
+         1. Chaque colonne contient 3 à 5 marques choisies pour ce type de véhicules
+      2. En 2eme partie - broder du contenu on a plein de marque
+      3. 3eme partie > liste de A a Z
+   10. Pages "législation"
+       1. Homogénéiser "PB Modélisme"
+   11. Page [Mentions légales](https://dev.pb-modelisme.com/mentions-legales/)
+       1. Rajouter mention "Textes et photos non contractuels"
+   12. Marques > Possibilité d'affichage front conditionnel, toutes les marques "attention", ~chinoiseries
+   13. Réception des commandes, gros blocs à traiter en priorité après les imports de produits
+       1. Se remettre dans le jus, cf. cahier des charges
+       2. 👪 Tout remettre au clair avec Cédric
+       3. Tâches
+          1. Faire ressortir le différentiel entre le nombre de produits en stocks, ainsi que la nouvelle quantité de stocks, afin d'imprimer le bon nombre d'étiquettes (pour les nouveaux produits)
+          2. Affichage automatique des produits dont la commande a été passée avec l'état "en réapprovisionnement" afin de pouvoir honorer la fin de commande des la reception
+             1. Avec impression auto également, mais avec nom client et n° commande en plus
+             2. Faire un test de parcours utilisateur qui passe une commande avec un produit en reapprovisionnement, puis maj le stock et voir comment cela marche + impriessions ecrans et retours Cédric
+6. Affichage front ACF
+    1. [Tuto](https://capitainewp.io/formations/acf/champ-relationnel/)
 7. Autoriser la recherche par SKU/UGS, & par les autres refs
 8. 🌱 Importer les anciens comptes clients ?
     1. Besoin des articles
@@ -122,6 +168,11 @@ PB Modelisme
     3. Liens menus > virer liens persos "#" & remplacer par le bon contenu dynamique
     4. Doc : css custom des menus : Admin wp > quad menu > options > [customize](https://dev.pb-modelisme.com/wp-admin/admin.php?page=quadmenu_options)
     5. Installer plugin wishlist [mais pas celui la (KO)](https://fr.wordpress.org/plugins/woo-smart-wishlist/)
+15. 🌱 Plus tard
+    1. Expéditions > génération des borderaux ? En fonction des prestas ?
+    2. Homologation logiciel de caisse
+       1. Sauvegardes extérieures immuables
+       2. 🔍 Homologation
 
 Arrêter dev serveur & hebergement
 
