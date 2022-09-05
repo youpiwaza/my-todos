@@ -2,6 +2,181 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 02/09/2022
+
+PB Modelisme
+
+1. ✅ Retours nouvelles pages > Rajouté à la réunion du jeudi 01/09
+2. ✅🔍 Retours RDV clients : Fonctionnalités++ a mettre en place
+   1. ✅ Vente a l'étranger
+      1. ✅📧 Retour client
+   2. ✅ Sauvegarde automatique du panier
+      1. ✨ Déjà en place dans WC par défaut (~besoin d'accepter les cookies)
+      2. ✅ Fonctionnalité avancée > suggestion de 2 plugins
+         1. [WPC Save For Later for WooCommerce](https://fr.wordpress.org/plugins/wc-save-for-later/)
+            1. [Démo](https://demo.wpclever.net/woosl/)
+            2. Possibilité de séparer des produits du panier pour les "acheter plus tard"
+         2. [WPC Smart Wishlist for WooCommerce](https://fr.wordpress.org/plugins/woo-smart-wishlist/)
+            1. [Démo](https://demo.wpclever.net/woosw/)
+            2. Possibilité de mettre en ~favoris / liste de souhaits, ce qui met en place une page similaire au panier
+            3. Note : certains sites l'utilisent afin d'offrir des cadeaux lors de grosses commandes
+      3. ✅📧 Retour client
+   3. ✅ Devis à transformer en commande
+      1. ✨ Voir si possibilité commerçant qui remplit panier du client (quand le client appelle)
+         1. Possibilité de créer une commande depuis l'administration
+      2. ✅👌 Plus propre : installation du plugin [Ni WooCommerce Custom Order Status](https://fr.wordpress.org/plugins/ni-woocommerce-custom-order-status/)
+         1. Ajout d'un statut propre aux devis
+         2. Propose également des [statistiques](https://dev.pb-modelisme.com/wp-admin/admin.php?page=ni-custom-order-status-report)
+      3. ✅📌 test devis
+      4. ✅📧 Retour client
+   4. ✅ Ajouter un état produit : "Produit plus fabriqué" ~possibilité d'avoir en stocks mais ne sera pas renouvelé
+      1. 🔍 [Trad "discontinued"](https://barn2.com/woocommerce-product-discontinued-status-plugin/)
+      2. ✅ Gestion propre via plugin [Discontinued Product Stock Status for WooCommerce](https://fr.wordpress.org/plugins/discontinued-product-stock-status-woocommerce/)
+         1. Possibilité d'afficher ou non ces produits
+         2. Message global ou personnalisé par produit (suggestion nouveau produit !)
+      3. ✅📌 test produit discontinued
+      4. ✅📧 Retour client
+3. ✅🔍 Checker rapidement le nouvel [ACF 6.0 RC](https://www.advancedcustomfields.com/blog/acf-pro-6-0-rc-1/)
+   1. Retro compatible > installer
+      1. ✅💾 Sauvegarder cazou
+      2. ✅⬆️ Migrer
+4. ✅🔍 Veille [suggestions de plugins](https://dev.pb-modelisme.com/wp-admin/admin.php?page=pwb_suggestions)
+   1. ✅📝 Notes + versionner
+   2. ✅📧 CR client
+5. ✅ Menu principal > tester plugins & cleaner
+   1. ✅🔍📌 3 choix, tester
+      1. ✅ meh ~~[Max mega menu](https://wordpress.org/plugins/megamenu/)~~
+         1. Pas über intuitif, un poil vieux
+         2. Responsive impecab'
+      2. ✅ ~~[theme um  > WP Mega Menu](https://www.themeum.com/product/wp-megamenu/)~~ > Maj 10 mois :/
+         1. Littéralement le même que celui d'avant avec du drag & drop côté administration
+         2. Possibilité de bien customiser en admin wp
+         3. 💩 Responsive KO ~~à priori~~
+      3. 💩 [QuadMenu – Divi Mega Menu](https://quadmenu.com/divi/) / Pas maj depuis > 1 an
+         1. KO à l'installation
+      4. ✅🎉 [WordPress Mega Menu – QuadMenu](https://quadmenu.com/) / Maj récentes mais trop de trucs en premium ?
+         1. Page d'options sympa, beaucoup de custom dispo
+         2. Possibilité d'ajouter du css dans l'admin
+         3. 🚨 Attention
+            1. Items pour menu principal
+            2. Widgets pour Mega > Columns (s'affiche uniquement quand colonne sélectionnée !)
+            3. Pas mal d'options dans Mega (autres que colonnes)
+   2. ✅ Création du menu principal au mieux
+      1. ✅ Fil de l'eau
+         1. ✅ 📱 Vérification responsive
+      2. ✅ Contenus
+         1. ✅ Avions
+         2. ✅ Hélico & Drones
+         3. ✅ Voitures
+         4. ✅ Bateaux
+         5. ✅ Maquettes
+         6. ✅ Accessoires
+         7. ✅ Matériaux
+      3. 🌱💩💩💩💩💩💩💩💩💩💩💩💩 Ajouter blocs usuels
+         1. ✅ Panier
+         2. ✅ Recherche
+         3. 💥💥💥🤑💩 Connexion > Premium
+      4. ✅ Visuels
+         1. ✅ Eclater menu de base pour éviter les bugs graphiques
+            1. ✅ Apparence > perso
+            2. 💩 Divi > tout > options à moitié KO
+            3. ✅ CSS kustom FTW
+         2. ✅ Changer logo > Garder logo divi & virer logo menu
+         3. ✅ Changer polices > Laisser divi gérer
+            1. 🚨 Taille & épaisseur dans quandmenu obligatoirement :/
+         4. ✅ Changer couleurs
+         5. ✅ Changer espacement vertical 🚨 desktop uniquement
+         6. ✅📱 Idem responsive
+            1. 🐛 Virer burger menu en trop
+         7. ✅ Desktop > revoir taille logo
+         8. 🤏🌱 Bandeau sup (panier tel mail) > CSS kustom FTW
+            1. ✅ Desktop > virer panier
+            2. 🤏🌱📱 Revoir Mobile
+         9. ✅ Logo PB sur menu quand et non menu normal c'juste pas possible
+         10. ✅📱 Check [tablette](https://dev.pb-modelisme.com/wp-admin/customize.php?return=%2Fwp-admin%2Fadmin.php%3Fpage%3Dwc-settings%26tab%3Dadvanced%26section%3Dfeatures)
+         11. 🌱 Check desktop faible ~ entre 980px et 1280px
+      5. ✅💬 Notes pour clients
+         1. [Prestations dans accessoires ??](https://pb-modelisme.com/Accessoires/listeprod.php?cat=35)
+         2. Menu > accessoires > redondance avion bateaux voitures helico
+         3. Partie dédiées outillage, aerographe, pièces détachées, partie dédiée destockage
+            1. Reco max : effets spéciaux décors (still water, boues, pigments, etc.)
+         4. "Grosses" catégorie (centre d'inérêt++) avec image illustration
+6. ✅ Repasse catégories
+   1. ✅ Tout passer en pluriel
+   2. ✅ Plus d'homonymes
+   3. ✅ Véhicules > slugs préfixés de la catégorie parente
+   4. ✅💬 Notes pour clients
+      1. Il y a énormément de catégorie redondantes / inutiles, ex matériaux > plaques
+         1. Ptet voir pour faire une grosse repasse et faire des catégorie générales, avec des taxonomies
+            1. Ex: plutôt que "plaque lisse blanche" "plaque lisse noire" "plaque pavage" > plaque avec attributs couleur & texture...
+            2. "Tube carré" "Tube rond" >> Tubes > forme
+            3. "Décor - " y'en a plein x)
+            4. Idem pour les matières "XXX en métal"
+      2. Eclater les catégories actuelles > simplifier avec un sujet et des compatibilités (ex: roues + compat. voiture)
+      3. dans menu pourquoi cat. générales & cat. marques ? ex: Matériaux > "Outillages" & "Outillages Proxon"
+7. ✅💬 Compiler notes clients puis mail
+8. ✅⬆️ Maj WordPress 6.0.2
+   1. ✅🔍 Changelog
+9. ✅🔥 Lien mort dans menu Drones "Suivez notre guide (tout en bas)." > retour de Cédric, à supprimer
+10. ✅👪 Prévoir RDV client jeudi 01/09/22
+11. ✅🔍 Veille
+    1. [Autocomplete WC orders](https://fr.wordpress.org/plugins/autocomplete-woocommerce-orders/)
+12. ✅ Footer > ajouter logo paypal
+13. ✅💩 Installer plugin [wishlist](https://fr.wordpress.org/plugins/woo-smart-wishlist/)
+    1. 📌 Tester que ça pète pas tout & que ça fonctionne
+       1. 💩 Gros bouton texte moche ?
+       2. [Traductions](https://dev.pb-modelisme.com/wp-admin/admin.php?page=wpclever-woosw&tab=localization)
+       3. 💩 Comportement KO (erreurs Ajax)
+14. 🚀📌 Finaliser les tests d'import : importer un produit avec l'ensemble des champs
+    1. ✅📝 Détails `secrets > /_docs/craft-and-tests/16-tests-imports-finaux_secret/`
+    2. 🚀 (Re)mise en place
+       1. ✅🔍 Relire les notes sur les anciens tests d'imports
+       2. ✅ Ancienne BDD : Export basique produit récent + test CSV sur requête SQL particulière
+       3. ✅ Nouveau site : Export d'un produit afin de voir la structure liée à l'ensemble des nouveaux champs personnalisés
+          1. ✅ Remplir & noter les données du produit afin de référencer l'ensemble des champs..
+             1. ✅ WordPress
+             2. ✅ WooCommerce
+             3. ✅ Champs personnalisés (ACF)
+             4. ✅ Ajouter une catégorie "_Test export"
+          2. ✅🔍 Relire les ressources associées
+          3. ✅ Admin > WC > Export
+             1. ✅ Catégorie "_Test export" uniquement
+             2. ✅ Export Custom Meta
+       4. ✅🔍 Analyse de la structure du fichier CSV d'export, 🧮 ~190 champs dont ~40 WP/WC ~150 persos
+          1. ✅ Vérifications, différences, notes, problèmes
+          2. ✅ Annoter simplement, cf. `secrets > /_docs/craft-and-tests/16-tests-imports-finaux_secret/02-nouveau-site-export-un-produit/export-avec-champs-personnalisés---identifiants-et-valeurs-d-exemples.txt`
+          3. ✅📌 Vérifier valeurs entre admin & csv
+             1. ✅🐛 Champ voitures > dimensions avancées > valeurs différentes ?
+                1. 🧠 Lié à la mise à jour des champs personnalisés : passage de cm à mm > nouveaux champs & résidus invisibles dans l'admin ACF, mais conservés en BDD. Rien à corriger, juste 🧽⚰️ cleaner export de base pour retirer le deprecated
+             2. ✅👥 Manquants ?
+                1. ✅ WordPress
+                   1. url si personnalisée
+                   2. Pas de date de publication
+                2. ✅ WC > OK
+                3. ✅🐛 Champs ACF > 🧠 Instinct ok > champs avec **passage produits en référence** (pos. multiples)
+       5. ✅📌 Virer id, changer nom & sku, tester réimport oké
+          1. ~🐛 Is ok en dehors des champs relation
+       6. ✅🧽⚰️ Cleaner des champs deprecated ou inutilisés
+          1. Doc export > champs classiques
+          2. Nouveau produit > export > diff
+             1. ACF deprecated / pas de possibilité de virer l'historique :'(
+             2. les champs divis, status wp, etc.
+       7. 🚀 Rétablir champs legacy dernier achat date & prix pour éviter conversion complexe en répéteur ? avec nouveaux champs dispos pour nouveau site
+       8. Idem champs requêtes onglets, si besoin de taper dedans (affichage conditionnel > onglet vieux contenu ou onglet données nouveau site)
+       9. 🌱 Liste peintures des maquettes > Faire à la main via requête sql `SELECT * FROM maquette WHERE QUANTITEM > 0 AND PAINTLIST IS NOT NULL ORDER BY PAINTLIST DESC` pour savoir lesquelles faires
+          1. ET SURTOUT demander a cédric de convertir en références/CDACCESSOIRES ! sinon galères
+       10. Rajouter tout ça a l'import
+    3. Prix importé en HT
+        1. Import OK
+        2. Affichage sur site ?
+        3. Calcul TTC ok ? arrondi machin mes couilles
+    4. ✅ Catégories : si plusieures elles sont séparées par des virgules, si hiérarchie `>`
+    5. ✅ Marques : si plusieures, séparées par des virgules
+    6. ✅ Codes barres : plugin | ACF > un champ pour chaque code barre, ça reste du texte
+    7. 🔍 Réductions en cas de prix réduit pour commande de multiples éléments
+       1. Check quantité voir si à la maing ✌️ > Accessoires + de 500
+    8. ✅ Produits associés
+
 ## 26/08/2022
 
 Perso
