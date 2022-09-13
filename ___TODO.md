@@ -35,9 +35,9 @@ Perso
 
 1. Cadeau anniv pougnoutte
    1. Vélo, a voir en revenant de vacances
-2. Ekwateur tarifs bloqués
+2. 💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥 Ekwateur tarifs bloqués / A GERER AVANT LE 13/10/2022 / RENOUVELLEMENT AUTO AVEC TARIFS DECONNANTS DE OUF
 3. 🔍 Régime
-   1. 💥💥💥 PORK PANKO low carb ! 💥💥💥
+   1. PORK PANKO low carb !
    2. [Low carb](https://www.dietdoctor.com/low-carb) / keto
       1. Most fruits and fruit juice / **Although low-sugar berries — such as blackberries, raspberries, and strawberries — are ok in small to moderate amounts.**
    3. Keto wheat flour > farine avec prot ? [hey](https://www.youtube.com/watch?v=g2fTYDftlCg)
@@ -72,8 +72,14 @@ PB Modelisme
 1. 🌱🔍 Réductions de prix réduit en cas de commande de multiples éléments
    1. 🌱 Plus tard et/ou à la main, ça me soule
 2. 🚀 Importer l'ensemble d'une catégorie de produits
-    1. 🚀 Requête SQL afin de créer le CSV correspondant
-       1. Images voitures > `/_docs/craft-and-tests/17-craft-de-requete-sql-pour-export-csv_secret/README.md`
+    1. 🚀 Requête SQL afin de créer le CSV correspondant, s'aider de 🧠 `_docs/craft-and-tests/16-XXX/04-XXX/01-annote-champs-a-virer.txt`
+       1. ✅ Images voitures > `/_docs/craft-and-tests/17-craft-de-requete-sql-pour-export-csv_secret/README.md`
+          1. ✅ boucler (sous requête ?)
+             1. ✅ préfixer
+          2. ✅ concaténer wo trailing ,
+       2. ✅📌 Tester
+          1. 🐛 Bug lors de l'import > `Impossible d’utiliser l’image « NULL »`
+          2. ✅ Remplacer `NULL` par chaîne de caractères vides `''`
     2. 📌 Tester
     3. Faire valider
 3. 👪 Poser RDV PB & nonore, photos avec Reflex de la boutique afin d'illustrer le site
