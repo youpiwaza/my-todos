@@ -35,74 +35,49 @@ Perso
 
 1. Cadeau anniv pougnoutte
    1. Vélo, a voir en revenant de vacances
-2. 🔍 Régime
+2. Ekwateur tarifs bloqués
+3. 🔍 Régime
    1. 💥💥💥 PORK PANKO low carb ! 💥💥💥
    2. [Low carb](https://www.dietdoctor.com/low-carb) / keto
       1. Most fruits and fruit juice / **Although low-sugar berries — such as blackberries, raspberries, and strawberries — are ok in small to moderate amounts.**
    3. Keto wheat flour > farine avec prot ? [hey](https://www.youtube.com/watch?v=g2fTYDftlCg)
    4. Non fat ricotta cheese / provolone cheese
-3. Voir spectacle chateau sedan pour quand vigi reviendra [hey](https://www.chateau-fort-sedan.fr/evenements)
-4. gochujang
+4. Voir spectacle chateau sedan pour quand vigi reviendra [hey](https://www.chateau-fort-sedan.fr/evenements)
+5. gochujang
    1. [amazon](https://www.amazon.fr/s?k=gochujang+jebiwon)
    2. [idem](https://www.amazon.fr/s?k=doenjang)
-5. 🔍 Champignon Lingzhi contre la fatigue & insomnie
-6. [Figs Claymore](https://figurama-collectors.com/collections/claymore/products/claymore-teresa-vs-priscilla-elite-exclusive-statue?variant=38322217484463) si le site fonctionne un putain de jour
-7. Alan santé > Trouver professionnels autour & prendre RDV
-8. Réserver saut en parachute
-9. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg)
-   1. Carte liberté valable juqu'au 19/10/22
-   2. Promo carte 50% en ce moment
-10. 🌱 Orga anniv pougnoutte
+6. 🔍 Champignon Lingzhi contre la fatigue & insomnie
+7. [Figs Claymore](https://figurama-collectors.com/collections/claymore/products/claymore-teresa-vs-priscilla-elite-exclusive-statue?variant=38322217484463) si le site fonctionne un putain de jour
+8. Alan santé > Trouver professionnels autour & prendre RDV
+9. Réserver saut en parachute
+10. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg)
+    1. Carte liberté valable juqu'au 19/10/22
+    2. Promo carte 50% en ce moment
+11. 🌱 Orga anniv pougnoutte
     1. Redemander date a pougnoutte > mars...
     2. Demander contact & liste invités
     3. Demander si logement déjà vu
     4. Voir pour cagnotte permis moto
     5. Medieval tents
 
+Ophé
+
+1. ⏳ Check search console
+2. ⏳ Check analytics
+3. ⏳ Check robots.txt
+4. ⏳ Formation admin
+
 PB Modelisme
 
-1. ✅👪 RDV client jeudi 01/09/22
-    1. ✅ RDV
-    2. ✅ Cleaner compte rendu
-       1. ✅📧 Envoi
-    3. ✅ Mail Cédric, intégrer retours, [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQJrPndBccNvXhJNvglQJpdvg)
-2. 🚀📌 Finaliser les tests d'import : importer un produit avec l'ensemble des champs
-    1. ✅📝 Détails `secrets > /_docs/craft-and-tests/16-tests-imports-finaux_secret/`
-    2. 🚀 Nettoyage final des champs problématiques
-       1. ✨ Ci-dessous, à corriger dans 💾 doc structure, 🙎‍♂️ doc champs persos, 📌 tests imports
-       2. 🚀Rétablir champs legacy
-          1. 💾🙎‍♂️📌 date dernier achat
-          2. 💾🙎‍♂️📌 prix dernier achat
-       3. 💾🙎‍♂️📌 Legacy > Rajouter champs qui tapent dans les onglets
-       4. Maquettes > Liste peintures
-          1. ✨ Conserver le nouveau champ de type relation
-          2. 💾🙎‍♂️📌 Ajouter le champ legacy original "PAINTLIST"
-          3. Ajouter les 2 'nouveaux' champs légacy créés par Cédric
-             1. 💾🙎‍♂️📌 RefPaintList / Références des peintures présentes dans la table accessoires. Poss multiples, séparateur `;`
-             2. 💾🙎‍♂️📌 IDPaintList / Identifiant des peintures présentes dans la table accessoires. Poss multiples, séparateur `;`
-    3. Prix importé en HT
-        1. Import OK
-        2. Affichage sur site ?
-        3. Calcul TTC ok ? arrondi machin mes couilles
-    4. 🔍 Réductions en cas de prix réduit pour commande de multiples éléments
-       1. Check quantité voir si à la maing ✌️ > Accessoires + de 500
-    5. 💥 [Guidelines](https://woocommerce.com/document/product-csv-importer-exporter/#general-guidelines)
-       1. Attention pour les **nombres décimaux** : remplacer séparateur "." par virgule ","
-          1. 📌 A vérifier, lors de l'export de contrôle les décimaux (pour les **champs classiques de woocommerce**) `"Longueur (mm)"` utilise un point `46.6`
-       2. Use 1 or 0 in your CSV, if importing a Boolean value (true or false)
-       3. Multiple values in a field get separated with commas.
-       4. Wrapping values in quotes allows you to insert a comma.
-       5. Prefix the id with id: if referencing an existing product ID. No prefix is needed if referencing an SKU. For example: id:100, SKU101
-       6. It is not possible to assign a specific post ID to product on import. Products will always use the next available ID, regardless of the ID included in the imported CSV.
-       7. Pas de serialisation dans les données
-    6. Import des images produits
-        1. [Doc](https://woocommerce.com/document/product-csv-importer-exporter/#images)
-    7. 🙊 Sauvegarder tests dans repo secret
-    8. 👪 Faire valider
-3. Importer l'ensemble d'une catégorie de produits
-    1. Faire valider
-4. 👪 Poser RDV PB & nonore, photos avec Reflex de la boutique afin d'illustrer le site
-5. Tâches relatives au RDV client du jeudi 01/09/22
+1. 🌱🔍 Réductions de prix réduit en cas de commande de multiples éléments
+   1. 🌱 Plus tard et/ou à la main, ça me soule
+2. 🚀 Importer l'ensemble d'une catégorie de produits
+    1. 🚀 Requête SQL afin de créer le CSV correspondant
+       1. Images voitures > `/_docs/craft-and-tests/17-craft-de-requete-sql-pour-export-csv_secret/README.md`
+    2. 📌 Tester
+    3. Faire valider
+3. 👪 Poser RDV PB & nonore, photos avec Reflex de la boutique afin d'illustrer le site
+4. Tâches relatives au RDV client du jeudi 01/09/22
    1. Gestion des ventes caisses
       1. 🔍 Moyens de paiements
          1. Paypal
@@ -145,30 +120,30 @@ PB Modelisme
           2. Affichage automatique des produits dont la commande a été passée avec l'état "en réapprovisionnement" afin de pouvoir honorer la fin de commande des la reception
              1. Avec impression auto également, mais avec nom client et n° commande en plus
              2. Faire un test de parcours utilisateur qui passe une commande avec un produit en reapprovisionnement, puis maj le stock et voir comment cela marche + impriessions ecrans et retours Cédric
-6. Affichage front ACF
+5. Affichage front ACF
     1. [Tuto](https://capitainewp.io/formations/acf/champ-relationnel/)
-7. Autoriser la recherche par SKU/UGS, & par les autres refs
-8. 🌱 Importer les anciens comptes clients ?
+6. Autoriser la recherche par SKU/UGS, & par les autres refs
+7. 🌱 Importer les anciens comptes clients ?
     1. Besoin des articles
-9. 🌱 Importer les commandes
+8. 🌱 Importer les commandes
     1. Besoin des articles & des comptes clients
     2. Plugin [Product Import Export for WooCommerce](https://wordpress.org/plugins/product-import-export-for-woo/) ?
        1. The Order Export & Order Import for WooCommerce Add-On is required to export WooCommerce Orders.
-10. Plugin de bundle en freemium, [prix pas déconnant](https://wpclever.net/downloads/product-bundles/)
-11. Apparence > Personnaliser > WooCommerce (pages profondes & générées automatiquement)
-12. 📧 Repasse catégories > Notes pour clients
+9. Plugin de bundle en freemium, [prix pas déconnant](https://wpclever.net/downloads/product-bundles/)
+10. Apparence > Personnaliser > WooCommerce (pages profondes & générées automatiquement)
+11. 📧 Repasse catégories > Notes pour clients
     1. Il y a énormément de catégorie redondantes / inutiles, ex matériaux > plaques
        1. Ptet voir pour faire une grosse repasse et faire des catégorie générales, avec des taxonomies
           1. Ex: plutôt que "plaque lisse blanche" "plaque lisse noire" "plaque pavage" > plaque avec attributs couleur & texture...
           2. "Tube carré" "Tube rond" >> Tubes > forme
-13. Devis > Bouton client, passer à état "commande en cours"
-14. Fin de site
+12. Devis > Bouton client, passer à état "commande en cours"
+13. Fin de site
     1. ACF > Ranger champs en onglets ptet ? [doc](https://www.advancedcustomfields.com/resources/tab/)
     2. wp-config > DEBUG true > & cleaner un  peu si possible
     3. Liens menus > virer liens persos "#" & remplacer par le bon contenu dynamique
     4. Doc : css custom des menus : Admin wp > quad menu > options > [customize](https://dev.pb-modelisme.com/wp-admin/admin.php?page=quadmenu_options)
     5. Installer plugin wishlist [mais pas celui la (KO)](https://fr.wordpress.org/plugins/woo-smart-wishlist/)
-15. 🌱 Plus tard
+14. 🌱 Plus tard
     1. Expéditions > génération des borderaux ? En fonction des prestas ?
     2. Homologation logiciel de caisse
        1. Sauvegardes extérieures immuables

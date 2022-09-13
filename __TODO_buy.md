@@ -10,6 +10,11 @@
 - Bar la maison du saké
 - [BBQ putain de cher](https://www.biggreenegg.co.uk/build-your-egg)
 - Cire d'abeille, pour rendre la pâte des raviolis moins collante
+- Déshydratateur
+  - [hey](https://www.youtube.com/watch?v=-IIZmIu17wY)
+  - [hey](https://brodandtaylor.com/products/sahara-folding-dehydrator?variant=37376502956188)
+  - [hey](https://brodandtaylor.com/collections/coffee-tea/products/spice-and-coffee-grinder)
+  - [hey](https://brodandtaylor.com/pages/fermentation-culturing)
 - [Épices](https://www.epices-roellinger.com/fr/taxons/melanges-epices)
 - [Four a pizza maison](https://www.youtube.com/watch?v=w3f8-bHPYWk)
 - [gochujang](https://www.youtube.com/watch?v=sJreTj1W6Co)
@@ -126,6 +131,7 @@
     - [Ensemble modulaire 2x tiroirs MDF](https://www.greenstuffworld.com/fr/expositeur-de-peinture/1141-ensemble-modulaire-2x-tiroirs-mdf.html)
     - [Ensemble modulaire 3x tiroirs MDF](https://www.greenstuffworld.com/fr/expositeur-de-peinture/1143-ensemble-modulaire-3x-tiroirs-mdf.html)
   - [Plaques texturées](https://www.greenstuffworld.com/fr/92-plaques-texturees)
+- [Lampe arceau](https://www.greenstuffworld.com/fr/inicio/2516-lampe-led-hobby-arch-darth-black.html)
 - [LED GSW / Mini lighting Set With switch and CR927 Battery](https://www.greenstuffworld.com/en/led-lights/1568-mini-lighting-set-with-switch-and-cr927-battery.html)
 - Night lords
 - p3
