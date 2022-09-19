@@ -2,6 +2,61 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 16/09/2022
+
+PB Modelisme
+
+1. 🌱🔍 Réductions de prix réduit en cas de commande de multiples éléments
+   1. 🌱 Plus tard et/ou à la main, ça me soule
+2. ✅ Importer l'ensemble d'une catégorie de produits
+    1. ✅ Requête SQL afin de créer le CSV correspondant, s'aider de 🧠 `_docs/craft-and-tests/16-XXX/04-XXX/01-annote-champs-a-virer.txt`
+       1. ✅ Images voitures > `/_docs/craft-and-tests/17-craft-de-requete-sql-pour-export-csv_secret/README.md`
+          1. ✅ boucler (sous requête ?)
+             1. ✅ préfixer
+          2. ✅ concaténer wo trailing ,
+          3. ✅📌 Tester
+             1. 🐛 Bug lors de l'import > `Impossible d’utiliser l’image « NULL »`
+             2. ✅ Remplacer `NULL` par chaîne de caractères vides `''`
+       2. ✅ Marques
+          1. ✅📌 Vérifier si problème casse différente > Non
+       3. ✅ Code barre & version
+       4. ✅ Champs plugins
+       5. ✅ Champs personnalisés
+          1. ✅ Communs
+          2. ✅ Véhicules
+          3. ✅ Voitures
+    2. ✅📌 Tester
+       1. ✅ Import des 20 dernières voitures (les plus récentes) afin d'avoir du stock
+       2. ✅🐛 Problème au niveau de l'import des images
+    3. ✅🖐 Noter à faire à la main
+    4. ✅ Sauvegarder dans secrets !
+    5. ✅⬆️ Besoin de récupérer les dernières images uploadées afin de récupérer les derniers produits
+       1. ✅ Récupérer sur ancien serveur
+       2. ✅ Envoyer sur nouveau serveur
+       3. ✅📌 Relancer import
+    6. ✅📧 Faire valider
+3. 🚀 Import l'ensemble des catégories
+   1. ♻️ Global craft
+      1. ✅ Template vertical pour champs deprecated 🔥
+      2. 🚀 Récupération de l'intégralité des libellés de catégorie & sous catégorie de WC au format CSV
+         1. Lint
+            1. ✅ Virgules
+            2. Réorganisation alphabétique
+               1. ✅ Catégories
+               2. 🚀 Sous cat
+               3. sous sous cat
+               4. sous sous sous cat -_-
+               5. Diff & correspondance avec WC
+   2. 🚀 accessoires
+      1. ✅ Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
+      2. ✅ Exporter le produit
+      3. ✅ Linter le CSV
+      4. 🚀 Créer la requête
+
+Perso
+
+1. ✅ Chateau sedan pour quand vigi reviendra [hey](https://www.chateau-fort-sedan.fr/evenements)
+
 ## 09/09/2022
 
 PB Modelisme

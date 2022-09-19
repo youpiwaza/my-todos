@@ -512,6 +512,7 @@ Sites > crunchyroll / otakufr . co
 - ✅👴 In flames
 - Infected rain
 - Insomnium
+- Inward (groupe reims ex barman antirouille)
 - ✅👴 Iron maiden
 - Jinjer
 - [Joel - Scythelord](https://www.youtube.com/watch?v=1iMtPEPF-oE)
@@ -754,6 +755,7 @@ Une fois tout téléchargé, mettre à jour
 - Critical role
 - ✅ Dark (netflix) / 2/5 (leeennntt)
   - 🚀 Saison 2
+- Demon slayer
 - designated survivor
 - Dinosaurs
 - Gravity falls
@@ -762,6 +764,7 @@ Une fois tout téléchargé, mettre à jour
 - ✅ mister pickles  / 4/5
   - 🌱 Saison 5
 - Killing eve
+- Kléo, sur netflix
 - Mayans
 - Orphan black
 - oz

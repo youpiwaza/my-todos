@@ -143,6 +143,7 @@
 - [Slaanesh](https://www.youtube.com/watch?v=RofGU4ewrR8)
 - [Tamiya : Tools Range : Product Reviews](https://www.youtube.com/watch?v=K7KzJpM1gNY)
 - [Tout / liste spikeybits](https://spikeybits.com/besthobbysupplies)
+- [Tzeench](https://www.warhammer-community.com/2022/09/18/sunday-preview-mortal-realms-magic-and-space-marines-made-to-order/)
 - vallejo
   - liquid gold
   - magic blue
