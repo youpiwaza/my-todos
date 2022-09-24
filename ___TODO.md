@@ -14,6 +14,7 @@ Légende :
 - 💩 KO
 - ⏳ en attente
 - 🤏 Petite partie
+- 📝 Doc
 
 ## 🧠⏫ Raccourcis & process à intégrer au flow
 
@@ -40,48 +41,49 @@ AE
 
 Perso
 
-1. Go Fnac acheter cadeaux Po & Mo
-2. 🚀 Demande dépannage parents
-   1. ✅ Attente réception
-   2. Payer nonore
-   3. ⏳ Payer remboursement emprunt
-   4. ⏳ Payer impots AE
-   5. ⏳ Payer taxe foncière
-3. Cadeau anniv pougnoutte
+1. Payer tout le monde
+   1. ⏳ Payer nonore
+      1. En attente de RIB
+   2. ⏳ Payer remboursement emprunt
+      1. Fin du mois
+   3. ⏳ Payer impots AE
+      1. Début octobre
+   4. ⏳ Payer taxe foncière
+      1. Mi octobre ?
+2. Cadeau anniv pougnoutte
    1. Vélo, a voir en revenant de vacances
-4. 💥 Ekwateur tarifs bloqués / A GERER AVANT LE 13/10/2022 / RENOUVELLEMENT AUTO AVEC TARIFS DECONNANTS DE OUF
+3. 💥 Ekwateur tarifs bloqués / A GERER AVANT LE 13/10/2022 / RENOUVELLEMENT AUTO AVEC TARIFS DECONNANTS DE OUF
    1. [mail](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQSSRzGRGFzHgCWSZPcWnHzMM)
-5. Week end 1 er octobre concert x2
+4. ⏳ Week end 1 er octobre concert x2
    1. Voir pour hébergement pour le samedi soir pour mwa (& pougnoutte ?)
    2. Voir pour heberg dimanche pour wam ?
-6. Alan santé > Trouver professionnels autour & prendre RDV
+5. Alan santé > Trouver professionnels autour & prendre RDV
    1. Dentiste
-7. Acheter flotte > magnésium
-8. Mortier pour MSG maison
-   1. ✅ Achat mortier
-   2. [Recette](https://www.youtube.com/watch?v=sE3dYCphy2M)
-9. Réserver concert guiv
+6. Acheter flotte > magnésium
+7. 🚀 MSG maison
+   1. [Recette](https://www.youtube.com/watch?v=sE3dYCphy2M)
+8. Réserver concert guiv
    1. GuiV > The Hu, casino de paris, le 25/11
       1. Résa
       2. voir heberg
       3. Agenda
    2. Igorrr, si ju vient, [hey](https://www.seetickets.com/fr/ap/event/igorrr/salle-pleyel/32806)
-10. 🔍 Régime
+9. 🔍 Régime
     1. PORK PANKO low carb !
     2. [Low carb](https://www.dietdoctor.com/low-carb) / keto
        1. Most fruits and fruit juice / **Although low-sugar berries — such as blackberries, raspberries, and strawberries — are ok in small to moderate amounts.**
     3. Keto wheat flour > farine avec prot ? [hey](https://www.youtube.com/watch?v=g2fTYDftlCg)
     4. Non fat ricotta cheese / provolone cheese
-11. gochujang
+10. gochujang
     1. [amazon](https://www.amazon.fr/s?k=gochujang+jebiwon)
     2. [idem](https://www.amazon.fr/s?k=doenjang)
-12. 🔍 Champignon Lingzhi contre la fatigue & insomnie
-13. [Figs Claymore](https://figurama-collectors.com/collections/claymore/products/claymore-teresa-vs-priscilla-elite-exclusive-statue?variant=38322217484463) si le site fonctionne un putain de jour
-14. Réserver saut en parachute
-15. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg)
+11. 🔍 Champignon Lingzhi contre la fatigue & insomnie
+12. [Figs Claymore](https://figurama-collectors.com/collections/claymore/products/claymore-teresa-vs-priscilla-elite-exclusive-statue?variant=38322217484463) si le site fonctionne un putain de jour
+13. Réserver saut en parachute
+14. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg)
     1. Carte liberté valable juqu'au 19/10/22
     2. Promo carte 50% en ce moment
-16. 🌱 Orga anniv pougnoutte
+15. 🌱 Orga anniv pougnoutte
     1. Idées cadeaux
        1. Robe style médiéval, demander à Mélanie
        2. Machine pour frapper sa propre monnaie (étain), initiales VL (Vigi & Lucifer)
@@ -104,201 +106,250 @@ PB Modelisme
 1. 🌱🔍 Réductions de prix réduit en cas de commande de multiples éléments
    1. 🌱 Plus tard et/ou à la main, ça me soule
 2. 🚀 Import l'ensemble des catégories
-   1. ♻️ Global craft
-      1. 🚀 Récupération de l'intégralité des libellés de catégorie & sous catégorie de WC au format CSV
-         1. Lint
-            1. Réorganisation alphabétique
-               1. ✅ Catégories
-               2. 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Sous cat
-               3. sous sous cat
-               4. sous sous sous cat -_-
-               5. Diff & correspondance avec WC
-   2. 🚀 accessoires
-      1. ✅ Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
-      2. ✅ Exporter le produit
-      3. ✅ Linter le CSV
-      4. 🚀 Créer la requête
-         1. Catégories & sous catégories
-            1. Requête à créer
-            2. 🐛 Libellés doivent correspondre avec WC
-      5. Export ancien site & import vers le nouveau site
-      6. 📌 Tester
-      7. 📧 Faire valider
-   3. acctx
+   1. 🚀♻️💥 Retour clients prioritaires
+      1. ✅ Champ visibilité `AFF* / AFFVOITURE`, si valeur 4 "sur commande"
+         1. ✅ Mettre a jour le doc drive
+         2. ✅ Mettre a jour le doc des champs personnalisés & secrets
+         3. ✅ Rajouter un champ personnalisé commun à l'ensemble des produits
+         4. ✅ Maj boilerplate
+      2. ✅ Champs dimensions & poids à retirer des champs expédition (il s'agit des colis)
+         1. ✅ Mettre a jour le doc drive
+         2. ✅ Mettre a jour le doc des champs personnalisés & secrets
+         3. ✅ Rajouter les champs personnalisés communs à l'ensemble des produits
+         4. ✅ Maj boilerplate
+      3. ✅ Stock par defaut pas de commande en reaprovisionnement, voir CASE cf mail cedric 20/09/2022
+         1. ✅ Ajout de l'autorisation de commande en réapprovisionnement avec notif client
+         2. ✅👷 Modification du champ perso, instructions pour administrateurs
+      4. 🚀 Répercuter les changements
+         1. voitures
+            1. Export csv
+            2. lint
+            3. doc
+            4. requête finale
+            5. csv de test
+         2. accessoires
+            1. Export csv
+            2. lint
+            3. doc
+            4. requête finale
+            5. csv de test
+      5. ⏳ Ajouter un champ "Fiches de sécurité" de type document, commun à tous les champs
+         1. ⏳ En attente de savoir si on rajoute un champ ou un répéteur
+         2. Mettre a jour le doc des champs personnalisés & secrets
+         3. Rajouter un champ personnalisé commun à l'ensemble des produits
+      6. ✅📧 Faire valider par Cédric les 5 premières modifications
+         1. "Sur commande"
+            1. champ rajouté dans champs communs > divers
+            2. Modification du champ WC "Données produit" > "Inventaire" > "Autoriser les commandes en réapprovisionnement ?"
+               1. Si le produit est sur commande uniquement, autoriser avec notification client
+               2. Par défaut elles ne sont pas autorisées
+         2. Champs dimensions & poids à retirer des champs expédition (il s'agit des colis)
+            1. Création de champs particuliers dédiés & modification de l'import
+   2. ♻️ Global craft
+   3. accessoires
+      1. Maj suite aux retours de Cédric 20/09/2022
+      2. Export ancien site & import vers le nouveau site
+      3. 📌 Tester
+      4. 📧 Faire valider
+   4. acctx
       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
       2. Exporter le produit
       3. Linter le CSV
       4. Créer la requête
+          1. Correspondance catégories ancien PB >< WC
       5. Export ancien site & import vers le nouveau site
       6. 📌 Tester
       7. 📧 Faire valider
-   4. avion
+   5. avion
       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
       2. Exporter le produit
       3. Linter le CSV
       4. Créer la requête
+          1. Correspondance catégories ancien PB >< WC
       5. Export ancien site & import vers le nouveau site
       6. 📌 Tester
       7. 📧 Faire valider
-   5. bateaux
+   6. bateaux
       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
       2. Exporter le produit
       3. Linter le CSV
       4. Créer la requête
+          1. Correspondance catégories ancien PB >< WC
       5. Export ancien site & import vers le nouveau site
       6. 📌 Tester
       7. 📧 Faire valider
-   6. batterie
+   7. batterie
       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
       2. Exporter le produit
       3. Linter le CSV
       4. Créer la requête
+          1. Correspondance catégories ancien PB >< WC
       5. Export ancien site & import vers le nouveau site
       6. 📌 Tester
       7. 📧 Faire valider
-   7. bougie
+   8. bougie
       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
       2. Exporter le produit
       3. Linter le CSV
       4. Créer la requête
+          1. Correspondance catégories ancien PB >< WC
       5. Export ancien site & import vers le nouveau site
       6. 📌 Tester
       7. 📧 Faire valider
-   8. carburant
+   9. carburant
       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
       2. Exporter le produit
       3. Linter le CSV
       4. Créer la requête
+          1. Correspondance catégories ancien PB >< WC
       5. Export ancien site & import vers le nouveau site
       6. 📌 Tester
       7. 📧 Faire valider
-   9. chargeur
-      1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
-      2. Exporter le produit
-      3. Linter le CSV
-      4. Créer la requête
-      5. Export ancien site & import vers le nouveau site
-      6. 📌 Tester
-      7. 📧 Faire valider
-   10. controleur
+   10. chargeur
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
        4. Créer la requête
+           1. Correspondance catégories ancien PB >< WC
        5. Export ancien site & import vers le nouveau site
        6. 📌 Tester
        7. 📧 Faire valider
-   11. heliceavion
+   11. controleur
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
        4. Créer la requête
+           1. Correspondance catégories ancien PB >< WC
        5. Export ancien site & import vers le nouveau site
        6. 📌 Tester
        7. 📧 Faire valider
-   12. helico
+   12. heliceavion
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
        4. Créer la requête
+           1. Correspondance catégories ancien PB >< WC
        5. Export ancien site & import vers le nouveau site
        6. 📌 Tester
        7. 📧 Faire valider
-   13. maquette
+   13. helico
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
        4. Créer la requête
+           1. Correspondance catégories ancien PB >< WC
        5. Export ancien site & import vers le nouveau site
        6. 📌 Tester
        7. 📧 Faire valider
-   14. matprem
+   14. maquette
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
        4. Créer la requête
+           1. Correspondance catégories ancien PB >< WC
        5. Export ancien site & import vers le nouveau site
        6. 📌 Tester
        7. 📧 Faire valider
-   15. moteur_electrique
+   15. matprem
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
        4. Créer la requête
+           1. Correspondance catégories ancien PB >< WC
        5. Export ancien site & import vers le nouveau site
        6. 📌 Tester
        7. 📧 Faire valider
-   16. moteur_thermique
+   16. moteur_electrique
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
        4. Créer la requête
+           1. Correspondance catégories ancien PB >< WC
        5. Export ancien site & import vers le nouveau site
        6. 📌 Tester
        7. 📧 Faire valider
-   17. pcedetthermik
+   17. moteur_thermique
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
        4. Créer la requête
+           1. Correspondance catégories ancien PB >< WC
        5. Export ancien site & import vers le nouveau site
        6. 📌 Tester
        7. 📧 Faire valider
-   18. piece_heli
+   18. pcedetthermik
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
        4. Créer la requête
+           1. Correspondance catégories ancien PB >< WC
        5. Export ancien site & import vers le nouveau site
        6. 📌 Tester
        7. 📧 Faire valider
-   19. piece_voiture
+   19. piece_heli
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
        4. Créer la requête
+           1. Correspondance catégories ancien PB >< WC
        5. Export ancien site & import vers le nouveau site
        6. 📌 Tester
        7. 📧 Faire valider
-   20. quartz
+   20. piece_voiture
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
        4. Créer la requête
+           1. Correspondance catégories ancien PB >< WC
        5. Export ancien site & import vers le nouveau site
        6. 📌 Tester
        7. 📧 Faire valider
-   21. radio
+   21. quartz
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
        4. Créer la requête
+           1. Correspondance catégories ancien PB >< WC
        5. Export ancien site & import vers le nouveau site
        6. 📌 Tester
        7. 📧 Faire valider
-   22. recepteur
+   22. radio
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
        4. Créer la requête
+           1. Correspondance catégories ancien PB >< WC
        5. Export ancien site & import vers le nouveau site
        6. 📌 Tester
        7. 📧 Faire valider
-   23. servo
+   23. recepteur
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
        4. Créer la requête
+           1. Correspondance catégories ancien PB >< WC
        5. Export ancien site & import vers le nouveau site
        6. 📌 Tester
        7. 📧 Faire valider
-   24. ✅ voitures
+   24. servo
+       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
+       2. Exporter le produit
+       3. Linter le CSV
+       4. Créer la requête
+           1. Correspondance catégories ancien PB >< WC
+       5. Export ancien site & import vers le nouveau site
+       6. 📌 Tester
+       7. 📧 Faire valider
+   25. voitures
+       1. Maj suite aux retours de Cédric 20/09/2022
 3. 🚨 Import final, nettoyer BDD WordPress avant, voir repartir d'une base fraîche
    1. Sauvegarde, y compris config plugins & themes
    2. Cleaner, vérifier
-4. Enlever numéro identification CNIL des mentions légales
-5. 👪 Poser RDV PB & nonore, photos avec Reflex de la boutique afin d'illustrer le site
-6. Tâches relatives au RDV client du jeudi 01/09/22
+4. [Maj ACF 6](https://www.advancedcustomfields.com/blog/acf-6-0-released/)
+5. Enlever numéro identification CNIL des mentions légales
+6. Retour client [mail du 20/09/2022](https://mail.google.com/mail/u/0/#inbox/KtbxLrjRhSgXXGsXhXBlPLfTbjspxNXKdq)
+7. 👪 Poser RDV PB & nonore, photos avec Reflex de la boutique afin d'illustrer le site
+8. Tâches relatives au RDV client du jeudi 01/09/22
    1. Gestion des ventes caisses
       1. 🔍 Moyens de paiements
          1. Paypal
@@ -341,30 +392,33 @@ PB Modelisme
           2. Affichage automatique des produits dont la commande a été passée avec l'état "en réapprovisionnement" afin de pouvoir honorer la fin de commande des la reception
              1. Avec impression auto également, mais avec nom client et n° commande en plus
              2. Faire un test de parcours utilisateur qui passe une commande avec un produit en reapprovisionnement, puis maj le stock et voir comment cela marche + impriessions ecrans et retours Cédric
-7. Affichage front ACF
+9. Affichage front ACF
     1. [Tuto](https://capitainewp.io/formations/acf/champ-relationnel/)
-8. Autoriser la recherche par SKU/UGS, & par les autres refs
-9. 🌱 Importer les anciens comptes clients ?
+10. Autoriser la recherche par SKU/UGS, & par les autres refs
+11. 🌱 Importer les anciens comptes clients ?
     1. Besoin des articles
-10. 🌱 Importer les commandes
+12. 🌱 Importer les commandes
     1. Besoin des articles & des comptes clients
     2. Plugin [Product Import Export for WooCommerce](https://wordpress.org/plugins/product-import-export-for-woo/) ?
        1. The Order Export & Order Import for WooCommerce Add-On is required to export WooCommerce Orders.
-11. Plugin de bundle en freemium, [prix pas déconnant](https://wpclever.net/downloads/product-bundles/)
-12. Apparence > Personnaliser > WooCommerce (pages profondes & générées automatiquement)
-13. 📧 Repasse catégories > Notes pour clients
+13. Plugin de bundle en freemium, [prix pas déconnant](https://wpclever.net/downloads/product-bundles/)
+14. Apparence > Personnaliser > WooCommerce (pages profondes & générées automatiquement)
+15. 📧 Repasse catégories > Notes pour clients
     1. Il y a énormément de catégorie redondantes / inutiles, ex matériaux > plaques
        1. Ptet voir pour faire une grosse repasse et faire des catégorie générales, avec des taxonomies
           1. Ex: plutôt que "plaque lisse blanche" "plaque lisse noire" "plaque pavage" > plaque avec attributs couleur & texture...
           2. "Tube carré" "Tube rond" >> Tubes > forme
-14. Devis > Bouton client, passer à état "commande en cours"
-15. Fin de site
+16. Devis > Bouton client, passer à état "commande en cours"
+17. Fin de site
     1. ACF > Ranger champs en onglets ptet ? [doc](https://www.advancedcustomfields.com/resources/tab/)
     2. wp-config > DEBUG true > & cleaner un  peu si possible
     3. Liens menus > virer liens persos "#" & remplacer par le bon contenu dynamique
     4. Doc : css custom des menus : Admin wp > quad menu > options > [customize](https://dev.pb-modelisme.com/wp-admin/admin.php?page=quadmenu_options)
     5. Installer plugin wishlist [mais pas celui la (KO)](https://fr.wordpress.org/plugins/woo-smart-wishlist/)
-16. 🌱 Plus tard
+    6. Après import complet & vérifié (plus d'imports de produits à faire), harmoniser les noms de catégories
+       1. cf. export cat `/_docs/craft-and-tests/18-requetes-import-completes-pour-chaque-categorie_secret/crafts/_liste-libelles-categories-pour-wc/03-export-wc-categories-lint-et-alpha.md`
+    7. Catégories "divers ET ..." > Faire une catégorie "divers" et une catégorie "..."
+18. 🌱 Plus tard
     1. Expéditions > génération des borderaux ? En fonction des prestas ?
     2. Homologation logiciel de caisse
        1. Sauvegardes extérieures immuables
@@ -508,6 +562,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 - ✅ Vérifier impôts sur espace / Dernière vérif 15/08/2021
   - ✅ Perso  / ✅ 19/09/22
   - ✅ Pro    / ✅ 19/09/22 (CFE réglé le 17/11/2021) ~début décembre
+    - [nouveau site ?](https://www.autoentrepreneur.urssaf.fr/portail/accueil/sinformer-sur-le-statut/toutes-les-actualites/le-guichet-unique-un-nouveau-ser.html)
 - ⏳ Vérifier messages [Ameli](https://assure.ameli.fr/)
 - ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21
   - ⏳ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk), `/r` également

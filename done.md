@@ -2,6 +2,85 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 23/09/2022
+
+Perso
+
+1. ✅ Go Fnac acheter cadeaux Po & Mo
+2. ✅ Demande dépannage parents
+3. Mortier pour MSG maison
+   1. ✅ Achat mortier
+
+PB Modelisme
+
+1. 🚀 Import l'ensemble des catégories
+   1. 🚀♻️💥 Retour clients prioritaires
+      1. ✅ Champ visibilité `AFF* / AFFVOITURE`, si valeur 4 "sur commande"
+         1. ✅ Mettre a jour le doc drive
+         2. ✅ Mettre a jour le doc des champs personnalisés & secrets
+         3. ✅ Rajouter un champ personnalisé commun à l'ensemble des produits
+         4. ✅ Maj boilerplate
+      2. ✅ Champs dimensions & poids à retirer des champs expédition (il s'agit des colis)
+         1. ✅ Mettre a jour le doc drive
+         2. ✅ Mettre a jour le doc des champs personnalisés & secrets
+         3. ✅ Rajouter les champs personnalisés communs à l'ensemble des produits
+         4. ✅ Maj boilerplate
+      3. ✅ Stock par defaut pas de commande en reaprovisionnement, voir CASE cf mail cedric 20/09/2022
+         1. ✅ Ajout de l'autorisation de commande en réapprovisionnement avec notif client
+         2. ✅👷 Modification du champ perso, instructions pour administrateurs
+      4. ✅ Vérifier l'import correcte des marques, peut être une correspondance à faire
+         1. ✅📧 Il s'agissait simplement des liens sur le menu principal qui sont KO (placeholders)
+      5. ✅📧 Faire valider par Cédric les 5 premières modifications
+         1. "Sur commande"
+            1. champ rajouté dans champs communs > divers
+            2. Modification du champ WC "Données produit" > "Inventaire" > "Autoriser les commandes en réapprovisionnement ?"
+               1. Si le produit est sur commande uniquement, autoriser avec notification client
+               2. Par défaut elles ne sont pas autorisées
+         2. Champs dimensions & poids à retirer des champs expédition (il s'agit des colis)
+            1. Création de champs particuliers dédiés & modification de l'import
+   2. ♻️ Global craft
+      1. ✅ Correspondances catégories ancien PB & WC
+         1. ✅ Récupération de l'intégralité des libellés de catégorie & sous catégorie de WC au format CSV (8 plombes)
+         2. ✅ Lint
+            1. Réorganisation alphabétique
+               1. ✅ Catégories
+               2. ✅ Sous cat
+               3. ✅ sous sous cat
+               4. ✅ sous sous sous cat -_-
+         3. ✅ Ajout tâche Diff & correspondance avec WC à chaque import de catégorie
+         4. ✅ Maj boilerplate
+         5. ✅ Maj voitures
+         6. ✅🧽 Harmoniser les catégories
+            1. ✅ 'pr' > 'pour'
+            2. ✅ pluriels
+            3. ✅ préfixes
+            4. ✅ Maj accessoires
+         7. ✅📝 Procédure pour les imports des catégories restantes
+   3. accessoires
+      1. ✅ Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
+      2. ✅ Exporter le produit
+      3. ✅ Linter le CSV
+      4. ✅ Créer la requête
+         1. ✅ Premiers champs basiques
+         2. ✅ Catégories & sous catégories
+            1. ✅ Sous requête à créer
+            2. ✅ CONCAT pour hiérarchisation
+            3. ✅🐛 Libellés doivent correspondre avec WC (ajoutés a la main & corrigés par max)
+            4. ✅ Gestion des `'`, `"`, `\` et autres joyeusetés
+            5. ✅🐛 sous catégories homonymes
+            6. ✅📌 Tester import
+            7. ✅ Sauvegarder CSV de test
+            8. ✅ Maj boilerplate
+            9. ✅ Maj voitures
+         3. ✅🧽 Clean décalage sur export linté
+         4. ✅ Suite et fing
+         5. Maj suite aux retours de Cédric 20/09/2022
+      5. Export ancien site & import vers le nouveau site
+      6. 📌 Tester
+      7. 📧 Faire valider
+   4. ✅ voitures
+       1. Maj suite aux retours de Cédric 20/09/2022
+
 ## 16/09/2022
 
 PB Modelisme

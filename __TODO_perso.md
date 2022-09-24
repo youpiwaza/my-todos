@@ -450,13 +450,15 @@ Sites > crunchyroll / otakufr . co
 - ✅ Aphex Twin - Selected Ambient Works 85-92
 - ✅👴 Apocalyptica
 - Arch enemy premiers albums
-- Arkona
+- ✅ Arkona
 - As I lay dying
 - ✅👴 At the gates
 - ✅👴 Avenged Sevenfold
-- Avatar
+- 🤏 Avatar
+  - Manque album "avatar" 2009
+  - Manque Black waltz (partiel)
 - Baby metal
-- BBA
+- 🤏 BBA
 - ✅👴 Bleed the Sky
 - ✅👴 Blink 182
 - ✅👴 Bloc party
@@ -471,6 +473,7 @@ Sites > crunchyroll / otakufr . co
 - Crossfaith
 - Cruachan
 - Cyriak
+- 🤏 Daath
 - ✅👴 Daft punk
 - ✅👴 Dark age
 - Dance With The Dead
@@ -478,10 +481,10 @@ Sites > crunchyroll / otakufr . co
 - Dark archive
 - [David Hasselhoff – The Passenger](https://www.youtube.com/watch?v=XKdKU6p78TQ)
 - ✅👴 Dearly Beheaded
-- Deathklok
+- ✅ Deathklok
 - ✅👴 DevilDriver
 - ✅ DJ BLYATMAN
-- dJJo zelda remixes
+- ✅ dJJo zelda remixes
 - ✅👴 Dragonforce
 - Dreadful silence
 - ✅👴 Drowning Pool
@@ -493,7 +496,7 @@ Sites > crunchyroll / otakufr . co
 - Epica > Design your universe
 - ✅ Eskimo callboy
 - ✅👴 Eternal Tears of Sorrow
-- F-777
+- 🤏 F-777
 - Faith no more
 - ✅👴 Festival Roblès
   - ✅👴 Ben mon Cochon !
@@ -510,11 +513,11 @@ Sites > crunchyroll / otakufr . co
 - Hoobastank
 - [IGORRR](https://www.youtube.com/watch?v=YCqG9B8j-cI)
 - ✅👴 In flames
-- Infected rain
 - Insomnium
 - Inward (groupe reims ex barman antirouille)
+- 📌 IRIST
 - ✅👴 Iron maiden
-- Jinjer
+- 🤏 Jinjer
 - [Joel - Scythelord](https://www.youtube.com/watch?v=1iMtPEPF-oE)
 - ✅ K-flay
 - ✅👴 Karma To Burn
@@ -529,7 +532,7 @@ Sites > crunchyroll / otakufr . co
 - ✅👴 Linkin park
 - ✅ Little big
 - Lofofora
-- 🤏 Maruv
+- Maruv recup 🤏
 - Mass hysteria
 - ✅👴 Massive Attack
 - Maximum the hormone
@@ -593,31 +596,35 @@ Sites > crunchyroll / otakufr . co
   - ✅ The binding of Isaac
   - ✅ Tropico 1 & 2
   - ✅ Unreal Tournament
-  - Vinland saga
+  - ✅ Vinland saga
   - Wanted
 - ✅👴 Ozzy Osbourne
 - ✅👴 Paramore
 - Parkway drive
 - ✅👴 Placebo
 - Powerwolf
-- ✅👴 Prodigy
-- Psykup
+- 🤏 Prodigy
+  - Dernier album incomplet
+- 🤏 Psykup
+  - Manque dernier album Hello Karma!
 - Queen
 - ✅👴 Rammstein
 - ✅👴 Red Hot Chili Peppers
 - Rob zombie
 - Russkaja
 - Sabaton
-- Sceptic flesh
+- 🤏 Sceptic flesh
 - ✅👴 Sexy sushi
 - 📌 Shaargot
-- Skald
+- 🤏 Skald
+  - Il en manque import merdique
 - Skalmold
 - Smash it combo
-- Space Of Variations
+- 🤏 Space Of Variations
 - ✅👴 Sum 41
 - ✅👴 Superbus
 - ✅👴 System of a down
+- 📌 Tallah
 - ✅👴 Tatu
 - The agonist premiers albums
 - The arrs
@@ -629,6 +636,7 @@ Sites > crunchyroll / otakufr . co
 - ✅👴 Tool
 - ✅👴 Trivium
 - Trollfest
+- 🤏 uamee
 - Ultra vomit
 - Unleash the archers
 - ✅ Värttinä

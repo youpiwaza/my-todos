@@ -116,6 +116,7 @@
 - Amazon > acheter pinceaux de maquillages (5 pour 20) pour soft drybrush
 - Amazon > [Lampe de ouf](https://www.amazon.com/PHIVE-Architect-Bright-Drafting-Brightness/dp/B07MHH9Q7B?fbclid=IwAR3yZ7rxo3Ixdioa081crMmAUL-sjxurbUhC6aW0Fqo92vMMiqEjOWiKYCQ)
 - Amazon > Peinture "Golden artist color" titanium white
+- [Boites rangement](https://mail.google.com/mail/u/0/#label/Newsletter/FMfcgzGqQctVTbMhSmhDGznfbZbQxRpl)
 - [casing pinceaux](https://www.jacksonsart.com/fr-fr/idees-cadeaux/idees-cadeaux-pinceaux)
 - [Divers, 8 trucs alakon](https://www.youtube.com/watch?v=CpbJgXxUR0c)
 - [Golden fluorescent paints](https://www.goldenpaints.com/products/colors/fluorescent---phosphorescent-colors)
