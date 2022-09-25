@@ -106,242 +106,263 @@ PB Modelisme
 1. 🌱🔍 Réductions de prix réduit en cas de commande de multiples éléments
    1. 🌱 Plus tard et/ou à la main, ça me soule
 2. 🚀 Import l'ensemble des catégories
-   1. 🚀♻️💥 Retour clients prioritaires
-      1. ✅ Champ visibilité `AFF* / AFFVOITURE`, si valeur 4 "sur commande"
-         1. ✅ Mettre a jour le doc drive
-         2. ✅ Mettre a jour le doc des champs personnalisés & secrets
-         3. ✅ Rajouter un champ personnalisé commun à l'ensemble des produits
-         4. ✅ Maj boilerplate
-      2. ✅ Champs dimensions & poids à retirer des champs expédition (il s'agit des colis)
-         1. ✅ Mettre a jour le doc drive
-         2. ✅ Mettre a jour le doc des champs personnalisés & secrets
-         3. ✅ Rajouter les champs personnalisés communs à l'ensemble des produits
-         4. ✅ Maj boilerplate
-      3. ✅ Stock par defaut pas de commande en reaprovisionnement, voir CASE cf mail cedric 20/09/2022
-         1. ✅ Ajout de l'autorisation de commande en réapprovisionnement avec notif client
-         2. ✅👷 Modification du champ perso, instructions pour administrateurs
-      4. 🚀 Répercuter les changements
-         1. voitures
-            1. Export csv
-            2. lint
-            3. doc
-            4. requête finale
-            5. csv de test
-         2. accessoires
-            1. Export csv
-            2. lint
-            3. doc
-            4. requête finale
-            5. csv de test
-      5. ⏳ Ajouter un champ "Fiches de sécurité" de type document, commun à tous les champs
-         1. ⏳ En attente de savoir si on rajoute un champ ou un répéteur
-         2. Mettre a jour le doc des champs personnalisés & secrets
-         3. Rajouter un champ personnalisé commun à l'ensemble des produits
-      6. ✅📧 Faire valider par Cédric les 5 premières modifications
-         1. "Sur commande"
-            1. champ rajouté dans champs communs > divers
-            2. Modification du champ WC "Données produit" > "Inventaire" > "Autoriser les commandes en réapprovisionnement ?"
-               1. Si le produit est sur commande uniquement, autoriser avec notification client
-               2. Par défaut elles ne sont pas autorisées
-         2. Champs dimensions & poids à retirer des champs expédition (il s'agit des colis)
-            1. Création de champs particuliers dédiés & modification de l'import
+   1. ✅♻️💥 Retour clients prioritaires
+      1. ✅ 20/09/2022
+         1. ✅ Champ visibilité `AFF* / AFFVOITURE`, si valeur 4 "sur commande"
+            1. ✅ Mettre a jour le doc drive
+            2. ✅ Mettre a jour le doc des champs personnalisés & secrets
+            3. ✅ Rajouter un champ personnalisé commun à l'ensemble des produits
+            4. ✅ Maj boilerplate
+         2. ✅ Champs dimensions & poids à retirer des champs expédition (il s'agit des colis)
+            1. ✅ Mettre a jour le doc drive
+            2. ✅ Mettre a jour le doc des champs personnalisés & secrets
+            3. ✅ Rajouter les champs personnalisés communs à l'ensemble des produits
+            4. ✅ Maj boilerplate
+         3. ✅ Stock par defaut pas de commande en reaprovisionnement, voir CASE cf mail cedric 20/09/2022
+            1. ✅ Ajout de l'autorisation de commande en réapprovisionnement avec notif client
+            2. ✅👷 Modification du champ perso, instructions pour administrateurs
+         4. ✅ Répercuter les changements
+            1. ✅ voitures
+               1. ✅ dimensions & poids > `POIDSVOITURE` x 4
+               2. ✅ sur commande > "Gestion des `"sur commande uniquement"` " x 2
+               3. ✅ maj requête craft
+               4. ✅ csv de test
+               5. ✅ maj requête finale
+            2. ✅ Maj boilerplate requête
+            3. ✅ accessoires
+               1. ✅ dimensions & poids > `POIDSVOITURE` x 4
+               2. ✅ sur commande > "Gestion des `"sur commande uniquement"` " x 2
+               3. ✅ maj requête craft
+               4. ✅ csv de test
+               5. ✅ maj requête finale
+         5. ⏳ Ajouter un champ "Fiches de sécurité" de type document, commun à tous les champs
+            1. ⏳ En attente de savoir si on rajoute un champ ou un répéteur
+            2. Mettre a jour le doc des champs personnalisés & secrets
+            3. Rajouter un champ personnalisé commun à l'ensemble des produits
+         6. ✅ Mail confirmation & recettage
    2. ♻️ Global craft
-   3. accessoires
-      1. Maj suite aux retours de Cédric 20/09/2022
-      2. Export ancien site & import vers le nouveau site
-      3. 📌 Tester
-      4. 📧 Faire valider
-   4. acctx
-      1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
-      2. Exporter le produit
-      3. Linter le CSV
-      4. Créer la requête
-          1. Correspondance catégories ancien PB >< WC
-      5. Export ancien site & import vers le nouveau site
-      6. 📌 Tester
-      7. 📧 Faire valider
-   5. avion
-      1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
-      2. Exporter le produit
-      3. Linter le CSV
-      4. Créer la requête
-          1. Correspondance catégories ancien PB >< WC
-      5. Export ancien site & import vers le nouveau site
-      6. 📌 Tester
-      7. 📧 Faire valider
+   3. ✅ accessoires
+      1. ✅ Maj suite aux retours de Cédric 20/09/2022
+      2. ✅ Export ancien site & import vers le nouveau site
+      3. ✅📌 Tester
+      4. ✅ 📧 Faire valider
+   4. ✅ acctx
+      1. ✅ Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
+      2. ✅ Exporter le produit
+      3. ✅ Linter le CSV
+      4. ✅ Ajouter le masque des champs deprecated
+      5. ✅ Créer la requête
+          1. ✅⬆️ Catégories à migrer dans `accessoires > Accessoires radios`
+      6. ✅ Export ancien site & import vers le nouveau site
+      7. ✅📌 Tester
+      8. ✅ Faire valider
+   5. 🚀 avion
+      1. ✅ Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
+      2. ✅ Exporter le produit
+      3. ✅ Linter le CSV
+      4. ✅ Ajouter le masque des champs deprecated
+      5. Créer la requête
+          1. ⏳ Correspondance catégories ancien PB >< WC
+             1. ✅ Catégorie 3D ?
+                1. ✅🐛 Il s'agit d'un type d'avion, et non d'une catégorie. fixé
+             2. ⏳ CDCATAVION -1, CDAVION 957 ?
+          2. 🚀🐛 `materiau_aile` `materiau_fuselage` > "Elapor &amp; EPP"
+      6. Export ancien site & import vers le nouveau site
+      7. 📌 Tester
+      8. 📧 Faire valider
    6. bateaux
       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
       2. Exporter le produit
       3. Linter le CSV
-      4. Créer la requête
+      4. Ajouter le masque des champs deprecated
+      5. Créer la requête
           1. Correspondance catégories ancien PB >< WC
-      5. Export ancien site & import vers le nouveau site
-      6. 📌 Tester
-      7. 📧 Faire valider
+      6. Export ancien site & import vers le nouveau site
+      7. 📌 Tester
+      8. 📧 Faire valider
    7. batterie
       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
       2. Exporter le produit
       3. Linter le CSV
-      4. Créer la requête
+      4. Ajouter le masque des champs deprecated
+      5. Créer la requête
           1. Correspondance catégories ancien PB >< WC
-      5. Export ancien site & import vers le nouveau site
-      6. 📌 Tester
-      7. 📧 Faire valider
+      6. Export ancien site & import vers le nouveau site
+      7. 📌 Tester
+      8. 📧 Faire valider
    8. bougie
       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
       2. Exporter le produit
       3. Linter le CSV
-      4. Créer la requête
+      4. Ajouter le masque des champs deprecated
+      5. Créer la requête
           1. Correspondance catégories ancien PB >< WC
-      5. Export ancien site & import vers le nouveau site
-      6. 📌 Tester
-      7. 📧 Faire valider
+      6. Export ancien site & import vers le nouveau site
+      7. 📌 Tester
+      8. 📧 Faire valider
    9. carburant
       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
       2. Exporter le produit
       3. Linter le CSV
-      4. Créer la requête
+      4. Ajouter le masque des champs deprecated
+      5. Créer la requête
           1. Correspondance catégories ancien PB >< WC
-      5. Export ancien site & import vers le nouveau site
-      6. 📌 Tester
-      7. 📧 Faire valider
+      6. Export ancien site & import vers le nouveau site
+      7. 📌 Tester
+      8. 📧 Faire valider
    10. chargeur
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
-       4. Créer la requête
+       4. Ajouter le masque des champs deprecated
+       5. Créer la requête
            1. Correspondance catégories ancien PB >< WC
-       5. Export ancien site & import vers le nouveau site
-       6. 📌 Tester
-       7. 📧 Faire valider
+       6. Export ancien site & import vers le nouveau site
+       7. 📌 Tester
+       8. 📧 Faire valider
    11. controleur
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
-       4. Créer la requête
+       4. Ajouter le masque des champs deprecated
+       5. Créer la requête
            1. Correspondance catégories ancien PB >< WC
-       5. Export ancien site & import vers le nouveau site
-       6. 📌 Tester
-       7. 📧 Faire valider
+       6. Export ancien site & import vers le nouveau site
+       7. 📌 Tester
+       8. 📧 Faire valider
    12. heliceavion
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
-       4. Créer la requête
+       4. Ajouter le masque des champs deprecated
+       5. Créer la requête
            1. Correspondance catégories ancien PB >< WC
-       5. Export ancien site & import vers le nouveau site
-       6. 📌 Tester
-       7. 📧 Faire valider
+       6. Export ancien site & import vers le nouveau site
+       7. 📌 Tester
+       8. 📧 Faire valider
    13. helico
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
-       4. Créer la requête
+       4. Ajouter le masque des champs deprecated
+       5. Créer la requête
            1. Correspondance catégories ancien PB >< WC
-       5. Export ancien site & import vers le nouveau site
-       6. 📌 Tester
-       7. 📧 Faire valider
+       6. Export ancien site & import vers le nouveau site
+       7. 📌 Tester
+       8. 📧 Faire valider
    14. maquette
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
-       4. Créer la requête
+       4. Ajouter le masque des champs deprecated
+       5. Créer la requête
            1. Correspondance catégories ancien PB >< WC
-       5. Export ancien site & import vers le nouveau site
-       6. 📌 Tester
-       7. 📧 Faire valider
+       6. Export ancien site & import vers le nouveau site
+       7. 📌 Tester
+       8. 📧 Faire valider
    15. matprem
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
-       4. Créer la requête
+       4. Ajouter le masque des champs deprecated
+       5. Créer la requête
            1. Correspondance catégories ancien PB >< WC
-       5. Export ancien site & import vers le nouveau site
-       6. 📌 Tester
-       7. 📧 Faire valider
+       6. Export ancien site & import vers le nouveau site
+       7. 📌 Tester
+       8. 📧 Faire valider
    16. moteur_electrique
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
-       4. Créer la requête
+       4. Ajouter le masque des champs deprecated
+       5. Créer la requête
            1. Correspondance catégories ancien PB >< WC
-       5. Export ancien site & import vers le nouveau site
-       6. 📌 Tester
-       7. 📧 Faire valider
+       6. Export ancien site & import vers le nouveau site
+       7. 📌 Tester
+       8. 📧 Faire valider
    17. moteur_thermique
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
-       4. Créer la requête
+       4. Ajouter le masque des champs deprecated
+       5. Créer la requête
            1. Correspondance catégories ancien PB >< WC
-       5. Export ancien site & import vers le nouveau site
-       6. 📌 Tester
-       7. 📧 Faire valider
+       6. Export ancien site & import vers le nouveau site
+       7. 📌 Tester
+       8. 📧 Faire valider
    18. pcedetthermik
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
-       4. Créer la requête
+       4. Ajouter le masque des champs deprecated
+       5. Créer la requête
            1. Correspondance catégories ancien PB >< WC
-       5. Export ancien site & import vers le nouveau site
-       6. 📌 Tester
-       7. 📧 Faire valider
+       6. Export ancien site & import vers le nouveau site
+       7. 📌 Tester
+       8. 📧 Faire valider
    19. piece_heli
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
-       4. Créer la requête
+       4. Ajouter le masque des champs deprecated
+       5. Créer la requête
            1. Correspondance catégories ancien PB >< WC
-       5. Export ancien site & import vers le nouveau site
-       6. 📌 Tester
-       7. 📧 Faire valider
+       6. Export ancien site & import vers le nouveau site
+       7. 📌 Tester
+       8. 📧 Faire valider
    20. piece_voiture
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
-       4. Créer la requête
+       4. Ajouter le masque des champs deprecated
+       5. Créer la requête
            1. Correspondance catégories ancien PB >< WC
-       5. Export ancien site & import vers le nouveau site
-       6. 📌 Tester
-       7. 📧 Faire valider
+       6. Export ancien site & import vers le nouveau site
+       7. 📌 Tester
+       8. 📧 Faire valider
    21. quartz
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
-       4. Créer la requête
+       4. Ajouter le masque des champs deprecated
+       5. Créer la requête
            1. Correspondance catégories ancien PB >< WC
-       5. Export ancien site & import vers le nouveau site
-       6. 📌 Tester
-       7. 📧 Faire valider
+       6. Export ancien site & import vers le nouveau site
+       7. 📌 Tester
+       8. 📧 Faire valider
    22. radio
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
-       4. Créer la requête
+       4. Ajouter le masque des champs deprecated
+       5. Créer la requête
            1. Correspondance catégories ancien PB >< WC
-       5. Export ancien site & import vers le nouveau site
-       6. 📌 Tester
-       7. 📧 Faire valider
+       6. Export ancien site & import vers le nouveau site
+       7. 📌 Tester
+       8. 📧 Faire valider
    23. recepteur
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
-       4. Créer la requête
+       4. Ajouter le masque des champs deprecated
+       5. Créer la requête
            1. Correspondance catégories ancien PB >< WC
-       5. Export ancien site & import vers le nouveau site
-       6. 📌 Tester
-       7. 📧 Faire valider
+       6. Export ancien site & import vers le nouveau site
+       7. 📌 Tester
+       8. 📧 Faire valider
    24. servo
        1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
        2. Exporter le produit
        3. Linter le CSV
-       4. Créer la requête
+       4. Ajouter le masque des champs deprecated
+       5. Créer la requête
            1. Correspondance catégories ancien PB >< WC
-       5. Export ancien site & import vers le nouveau site
-       6. 📌 Tester
-       7. 📧 Faire valider
-   25. voitures
-       1. Maj suite aux retours de Cédric 20/09/2022
+       6. Export ancien site & import vers le nouveau site
+       7. 📌 Tester
+       8. 📧 Faire valider
+   25. ✅ voitures
+       1. ✅ Maj suite aux retours de Cédric 20/09/2022
+       2. ✅📧 Faire valider
 3. 🚨 Import final, nettoyer BDD WordPress avant, voir repartir d'une base fraîche
    1. Sauvegarde, y compris config plugins & themes
    2. Cleaner, vérifier
