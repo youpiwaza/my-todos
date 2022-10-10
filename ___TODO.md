@@ -34,60 +34,66 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 AE
 
-1. Prévenir client évolution tarifaire
+1. Retour clients changements de proprios
+2. Prévenir client évolution tarifaire
    1. [Mail](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQSTcnMwFvNhbJVwWdplCQVrL)
-2. Maj doc Malt
+3. Maj doc Malt
    1. [Mail](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQcnlCmhgkWnWjbfPCPQXNRQW)
+
+ML Architecture
+
+1. Template `C / ProjetS` > champ ACF "relation" KO (erreur JS)
+   1. 💩📌 Désactiver les autres plugins
+   2. 📌 Thème par défaut mais ça m'étonnerait (même si il y a du JQuery dans le thème)
+   3. Besoin de maj ACF de 4 vers 6 mais possibilité que ça casse
+   4. ⏳ Attente retour client devis > facture
 
 Perso
 
-1. Payer tout le monde
-   1. ⏳ Payer nonore
-      1. En attente de RIB
-   2. ⏳ Payer remboursement emprunt
-      1. Fin du mois
-   3. ⏳ Payer impots AE
-      1. Début octobre
-   4. ⏳ Payer taxe foncière
-      1. Mi octobre ?
-2. Cadeau anniv pougnoutte
-   1. Vélo, a voir en revenant de vacances
-3. 💥 Ekwateur tarifs bloqués / A GERER AVANT LE 13/10/2022 / RENOUVELLEMENT AUTO AVEC TARIFS DECONNANTS DE OUF
-   1. [mail](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQSSRzGRGFzHgCWSZPcWnHzMM)
-4. ⏳ Week end 1 er octobre concert x2
-   1. Voir pour hébergement pour le samedi soir pour mwa (& pougnoutte ?)
-   2. Voir pour heberg dimanche pour wam ?
-5. Alan santé > Trouver professionnels autour & prendre RDV
-   1. Dentiste
-6. Acheter flotte > magnésium
-7. 🚀 MSG maison
-   1. [Recette](https://www.youtube.com/watch?v=sE3dYCphy2M)
-8. Réserver concert guiv
-   1. GuiV > The Hu, casino de paris, le 25/11
-      1. Résa
-      2. voir heberg
-      3. Agenda
-   2. Igorrr, si ju vient, [hey](https://www.seetickets.com/fr/ap/event/igorrr/salle-pleyel/32806)
-9. 🔍 Régime
+1. 🚀 Réserver concerts
+    1. 🚀 Sabaton
+       1. Agenda
+    2. 🚀🚀🚀🚀 Inward à la cartonnerie
+2. Rhum hellfest
+3. ⏳ Acheter ceinture abdos
+   1. ⏳ Commandé le 09/10/22
+   2. Arrivée le mardi 11/10/22
+4. Darons > donner vermifuges pour la chatte
+5. ⏳ Bourso > Compte épargne
+    1. ⏳ En attente de confirmation
+    2. Transférer weward
+6. ⏳💥 Ekwateur tarifs bloqués / A GERER AVANT LE 13/10/2022 / RENOUVELLEMENT AUTO AVEC TARIFS DECONNANTS DE OUF
+    1. ⏳ [mail](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQSSRzGRGFzHgCWSZPcWnHzMM)
+       1. 💩 Tchat le 28/92/22 > useless
+       2. ⏳ Mail envoyé le 28/09/2022
+    2. Onglets comparateurs & autres fournisseurs
+7. Alan santé > Trouver professionnels autour & prendre RDV
+    1. Dentiste
+    2. Psy
+8. ♻️ Acheter flotte > magnésium
+9. 🚀 MSG maison
+    1. [Recette](https://www.youtube.com/watch?v=sE3dYCphy2M)
+10. 🔍 Régime
     1. PORK PANKO low carb !
     2. [Low carb](https://www.dietdoctor.com/low-carb) / keto
        1. Most fruits and fruit juice / **Although low-sugar berries — such as blackberries, raspberries, and strawberries — are ok in small to moderate amounts.**
     3. Keto wheat flour > farine avec prot ? [hey](https://www.youtube.com/watch?v=g2fTYDftlCg)
     4. Non fat ricotta cheese / provolone cheese
-10. gochujang
+11. gochujang
     1. [amazon](https://www.amazon.fr/s?k=gochujang+jebiwon)
     2. [idem](https://www.amazon.fr/s?k=doenjang)
-11. 🔍 Champignon Lingzhi contre la fatigue & insomnie
-12. [Figs Claymore](https://figurama-collectors.com/collections/claymore/products/claymore-teresa-vs-priscilla-elite-exclusive-statue?variant=38322217484463) si le site fonctionne un putain de jour
-13. Réserver saut en parachute
-14. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg)
+12. 🔍 Champignon Lingzhi contre la fatigue & insomnie
+13. [Figs Claymore](https://figurama-collectors.com/collections/claymore/products/claymore-teresa-vs-priscilla-elite-exclusive-statue?variant=38322217484463) si le site fonctionne un putain de jour
+14. Réserver saut en parachute
+15. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg)
     1. Carte liberté valable juqu'au 19/10/22
     2. Promo carte 50% en ce moment
-15. 🌱 Orga anniv pougnoutte
+16. 🌱 Orga anniv pougnoutte mars 2023
     1. Idées cadeaux
-       1. Robe style médiéval, demander à Mélanie
-       2. Machine pour frapper sa propre monnaie (étain), initiales VL (Vigi & Lucifer)
-       3. Bouclier armoiries normandie viking (VL)
+       1. Vélo, a voir en revenant de vacances
+       2. Robe style médiéval, demander à Mélanie
+       3. Machine pour frapper sa propre monnaie (étain), initiales VL (Vigi & Lucifer)
+       4. Bouclier armoiries normandie viking (VL)
     2. Redemander date a pougnoutte > mars...
     3. Demander contact & liste invités
     4. Demander si logement déjà vu
@@ -99,270 +105,107 @@ Ophé
 1. ⏳ Check search console
 2. ⏳ Check analytics
 3. ⏳ Check robots.txt
-4. ⏳ Formation admin
 
 PB Modelisme
 
 1. 🌱🔍 Réductions de prix réduit en cas de commande de multiples éléments
    1. 🌱 Plus tard et/ou à la main, ça me soule
 2. 🚀 Import l'ensemble des catégories
-   1. ✅♻️💥 Retour clients prioritaires
-      1. ✅ 20/09/2022
-         1. ✅ Champ visibilité `AFF* / AFFVOITURE`, si valeur 4 "sur commande"
-            1. ✅ Mettre a jour le doc drive
-            2. ✅ Mettre a jour le doc des champs personnalisés & secrets
-            3. ✅ Rajouter un champ personnalisé commun à l'ensemble des produits
-            4. ✅ Maj boilerplate
-         2. ✅ Champs dimensions & poids à retirer des champs expédition (il s'agit des colis)
-            1. ✅ Mettre a jour le doc drive
-            2. ✅ Mettre a jour le doc des champs personnalisés & secrets
-            3. ✅ Rajouter les champs personnalisés communs à l'ensemble des produits
-            4. ✅ Maj boilerplate
-         3. ✅ Stock par defaut pas de commande en reaprovisionnement, voir CASE cf mail cedric 20/09/2022
-            1. ✅ Ajout de l'autorisation de commande en réapprovisionnement avec notif client
-            2. ✅👷 Modification du champ perso, instructions pour administrateurs
-         4. ✅ Répercuter les changements
-            1. ✅ voitures
-               1. ✅ dimensions & poids > `POIDSVOITURE` x 4
-               2. ✅ sur commande > "Gestion des `"sur commande uniquement"` " x 2
-               3. ✅ maj requête craft
-               4. ✅ csv de test
-               5. ✅ maj requête finale
-            2. ✅ Maj boilerplate requête
-            3. ✅ accessoires
-               1. ✅ dimensions & poids > `POIDSVOITURE` x 4
-               2. ✅ sur commande > "Gestion des `"sur commande uniquement"` " x 2
-               3. ✅ maj requête craft
-               4. ✅ csv de test
-               5. ✅ maj requête finale
-         5. ⏳ Ajouter un champ "Fiches de sécurité" de type document, commun à tous les champs
-            1. ⏳ En attente de savoir si on rajoute un champ ou un répéteur
-            2. Mettre a jour le doc des champs personnalisés & secrets
-            3. Rajouter un champ personnalisé commun à l'ensemble des produits
-         6. ✅ Mail confirmation & recettage
-   2. ♻️ Global craft
-   3. ✅ accessoires
-      1. ✅ Maj suite aux retours de Cédric 20/09/2022
-      2. ✅ Export ancien site & import vers le nouveau site
-      3. ✅📌 Tester
-      4. ✅ 📧 Faire valider
-   4. ✅ acctx
-      1. ✅ Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
-      2. ✅ Exporter le produit
-      3. ✅ Linter le CSV
-      4. ✅ Ajouter le masque des champs deprecated
-      5. ✅ Créer la requête
-          1. ✅⬆️ Catégories à migrer dans `accessoires > Accessoires radios`
-      6. ✅ Export ancien site & import vers le nouveau site
-      7. ✅📌 Tester
-      8. ✅ Faire valider
-   5. 🚀 avion
-      1. ✅ Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
-      2. ✅ Exporter le produit
-      3. ✅ Linter le CSV
-      4. ✅ Ajouter le masque des champs deprecated
-      5. Créer la requête
-          1. ⏳ Correspondance catégories ancien PB >< WC
-             1. ✅ Catégorie 3D ?
-                1. ✅🐛 Il s'agit d'un type d'avion, et non d'une catégorie. fixé
-             2. ⏳ CDCATAVION -1, CDAVION 957 ?
-          2. 🚀🐛 `materiau_aile` `materiau_fuselage` > "Elapor &amp; EPP"
-      6. Export ancien site & import vers le nouveau site
-      7. 📌 Tester
-      8. 📧 Faire valider
-   6. bateaux
-      1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
-      2. Exporter le produit
-      3. Linter le CSV
-      4. Ajouter le masque des champs deprecated
-      5. Créer la requête
-          1. Correspondance catégories ancien PB >< WC
-      6. Export ancien site & import vers le nouveau site
-      7. 📌 Tester
-      8. 📧 Faire valider
-   7. batterie
-      1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
-      2. Exporter le produit
-      3. Linter le CSV
-      4. Ajouter le masque des champs deprecated
-      5. Créer la requête
-          1. Correspondance catégories ancien PB >< WC
-      6. Export ancien site & import vers le nouveau site
-      7. 📌 Tester
-      8. 📧 Faire valider
-   8. bougie
-      1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
-      2. Exporter le produit
-      3. Linter le CSV
-      4. Ajouter le masque des champs deprecated
-      5. Créer la requête
-          1. Correspondance catégories ancien PB >< WC
-      6. Export ancien site & import vers le nouveau site
-      7. 📌 Tester
-      8. 📧 Faire valider
-   9. carburant
-      1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
-      2. Exporter le produit
-      3. Linter le CSV
-      4. Ajouter le masque des champs deprecated
-      5. Créer la requête
-          1. Correspondance catégories ancien PB >< WC
-      6. Export ancien site & import vers le nouveau site
-      7. 📌 Tester
-      8. 📧 Faire valider
-   10. chargeur
-       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
+   1. ♻️💥 Retour clients prioritaires
+      1. ⏳📧 30/09/2022
+         1. ⏳📧 Bateaux > La catégorie "statique pouvant être rendu naviguant" est transféré dans "bateau naviguant"
+            1. Pas compris, en attente de retour
+   2. 🌱 avion > Peut contenir des vidéos (.mpg)
+   3. 🌱 batterie > type_prise_accus > 🔗 Lien avec la table "accessoires". Produit recommandé > Prise avec lien
+   4. 🚀 moteur_thermique
+       1. ✅ Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
+       2. ✅ Exporter le produit
+       3. ✅ Linter le CSV
+       4. Créer la requête
+           1. Correspondance catégories ancien PB >< WC
+           2. ♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
+       5. Export ancien site & import vers le nouveau site
+       6. 📌 Tester
+       7. Création de la requête finale
+       8. 📧 Faire valider
+   5. pcedetthermik
+       1. Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
        2. Exporter le produit
        3. Linter le CSV
-       4. Ajouter le masque des champs deprecated
-       5. Créer la requête
+       4. Créer la requête
            1. Correspondance catégories ancien PB >< WC
-       6. Export ancien site & import vers le nouveau site
-       7. 📌 Tester
+           2. ♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
+       5. Export ancien site & import vers le nouveau site
+       6. 📌 Tester
+       7. Création de la requête finale
        8. 📧 Faire valider
-   11. controleur
-       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
+   6. piece_heli
+       1. Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
        2. Exporter le produit
        3. Linter le CSV
-       4. Ajouter le masque des champs deprecated
-       5. Créer la requête
+       4. Créer la requête
            1. Correspondance catégories ancien PB >< WC
-       6. Export ancien site & import vers le nouveau site
-       7. 📌 Tester
+           2. ♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
+       5. Export ancien site & import vers le nouveau site
+       6. 📌 Tester
+       7. Création de la requête finale
        8. 📧 Faire valider
-   12. heliceavion
-       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
+   7. piece_voiture
+       1. Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
        2. Exporter le produit
        3. Linter le CSV
-       4. Ajouter le masque des champs deprecated
-       5. Créer la requête
+       4. Créer la requête
            1. Correspondance catégories ancien PB >< WC
-       6. Export ancien site & import vers le nouveau site
-       7. 📌 Tester
+           2. ♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
+       5. Export ancien site & import vers le nouveau site
+       6. 📌 Tester
+       7. Création de la requête finale
        8. 📧 Faire valider
-   13. helico
-       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
+   8. quartz
+       1. Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
        2. Exporter le produit
        3. Linter le CSV
-       4. Ajouter le masque des champs deprecated
-       5. Créer la requête
+       4. Créer la requête
            1. Correspondance catégories ancien PB >< WC
-       6. Export ancien site & import vers le nouveau site
-       7. 📌 Tester
+           2. ♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
+       5. Export ancien site & import vers le nouveau site
+       6. 📌 Tester
+       7. Création de la requête finale
        8. 📧 Faire valider
-   14. maquette
-       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
+   9. radio
+       1. Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
        2. Exporter le produit
        3. Linter le CSV
-       4. Ajouter le masque des champs deprecated
-       5. Créer la requête
+       4. Créer la requête
            1. Correspondance catégories ancien PB >< WC
-       6. Export ancien site & import vers le nouveau site
-       7. 📌 Tester
+           2. ♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
+       5. Export ancien site & import vers le nouveau site
+       6. 📌 Tester
+       7. Création de la requête finale
        8. 📧 Faire valider
-   15. matprem
-       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
+   10. recepteur
+       1. Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
        2. Exporter le produit
        3. Linter le CSV
-       4. Ajouter le masque des champs deprecated
-       5. Créer la requête
+       4. Créer la requête
            1. Correspondance catégories ancien PB >< WC
-       6. Export ancien site & import vers le nouveau site
-       7. 📌 Tester
+           2. ♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
+       5. Export ancien site & import vers le nouveau site
+       6. 📌 Tester
+       7. Création de la requête finale
        8. 📧 Faire valider
-   16. moteur_electrique
-       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
+   11. servo
+       1. Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
        2. Exporter le produit
        3. Linter le CSV
-       4. Ajouter le masque des champs deprecated
-       5. Créer la requête
+       4. Créer la requête
            1. Correspondance catégories ancien PB >< WC
-       6. Export ancien site & import vers le nouveau site
-       7. 📌 Tester
+           2. ♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
+       5. Export ancien site & import vers le nouveau site
+       6. 📌 Tester
+       7. Création de la requête finale
        8. 📧 Faire valider
-   17. moteur_thermique
-       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
-       2. Exporter le produit
-       3. Linter le CSV
-       4. Ajouter le masque des champs deprecated
-       5. Créer la requête
-           1. Correspondance catégories ancien PB >< WC
-       6. Export ancien site & import vers le nouveau site
-       7. 📌 Tester
-       8. 📧 Faire valider
-   18. pcedetthermik
-       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
-       2. Exporter le produit
-       3. Linter le CSV
-       4. Ajouter le masque des champs deprecated
-       5. Créer la requête
-           1. Correspondance catégories ancien PB >< WC
-       6. Export ancien site & import vers le nouveau site
-       7. 📌 Tester
-       8. 📧 Faire valider
-   19. piece_heli
-       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
-       2. Exporter le produit
-       3. Linter le CSV
-       4. Ajouter le masque des champs deprecated
-       5. Créer la requête
-           1. Correspondance catégories ancien PB >< WC
-       6. Export ancien site & import vers le nouveau site
-       7. 📌 Tester
-       8. 📧 Faire valider
-   20. piece_voiture
-       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
-       2. Exporter le produit
-       3. Linter le CSV
-       4. Ajouter le masque des champs deprecated
-       5. Créer la requête
-           1. Correspondance catégories ancien PB >< WC
-       6. Export ancien site & import vers le nouveau site
-       7. 📌 Tester
-       8. 📧 Faire valider
-   21. quartz
-       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
-       2. Exporter le produit
-       3. Linter le CSV
-       4. Ajouter le masque des champs deprecated
-       5. Créer la requête
-           1. Correspondance catégories ancien PB >< WC
-       6. Export ancien site & import vers le nouveau site
-       7. 📌 Tester
-       8. 📧 Faire valider
-   22. radio
-       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
-       2. Exporter le produit
-       3. Linter le CSV
-       4. Ajouter le masque des champs deprecated
-       5. Créer la requête
-           1. Correspondance catégories ancien PB >< WC
-       6. Export ancien site & import vers le nouveau site
-       7. 📌 Tester
-       8. 📧 Faire valider
-   23. recepteur
-       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
-       2. Exporter le produit
-       3. Linter le CSV
-       4. Ajouter le masque des champs deprecated
-       5. Créer la requête
-           1. Correspondance catégories ancien PB >< WC
-       6. Export ancien site & import vers le nouveau site
-       7. 📌 Tester
-       8. 📧 Faire valider
-   24. servo
-       1. Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
-       2. Exporter le produit
-       3. Linter le CSV
-       4. Ajouter le masque des champs deprecated
-       5. Créer la requête
-           1. Correspondance catégories ancien PB >< WC
-       6. Export ancien site & import vers le nouveau site
-       7. 📌 Tester
-       8. 📧 Faire valider
-   25. ✅ voitures
-       1. ✅ Maj suite aux retours de Cédric 20/09/2022
-       2. ✅📧 Faire valider
+   12. ✅ voitures
 3. 🚨 Import final, nettoyer BDD WordPress avant, voir repartir d'une base fraîche
    1. Sauvegarde, y compris config plugins & themes
    2. Cleaner, vérifier

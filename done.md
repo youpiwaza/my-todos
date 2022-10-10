@@ -2,6 +2,426 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 09/10/2022
+
+AE
+
+1. ✅ Cleaner déclarations 3 derniers mois
+
+Perso
+
+1. ✅ Payer tout le monde
+   1. ✅ Payer impots AE ~1k€
+   2. ✅ Payer Avis de taxe d'habitation-CAP 2022 / 295,00 € par 2 = 148€ / Date limite de paiement : 15/11/2022
+      1. Pougnoutte la prend en intégralité
+   3. ✅ Payer syndic
+2. ✅ Decathlon > Acheter poids plus lourd
+3. ✅ Mail anouk
+4. ✅ Vigi agenda spectacle
+5. ✅ Nettoyer tireuse bière
+6. ✅ Prévoir menus sadi soir & brunch gromanche
+7. ✅ Cadeau anniv pougnoutte
+    1. ✅ Arnaud tsamère
+
+PB Modelisme
+
+1. ✅ Réponses mails du 30/09/2022 et mise à jour de la TODO
+2. ✅📧 Rapport de la semaine
+3. 🚀 Import l'ensemble des catégories
+   1. ♻️💥 Retour clients prioritaires
+      1. ✅ 20/09/2022
+         1. ✅ Ajouter un champ "Notices, fiches de sécurité & documents" de type `répéteur > document`, commun à tous les champs
+            1. ✅ Mettre a jour le doc des champs personnalisés & secrets
+            2. ✅ Rajouter un champ personnalisé commun à l'ensemble des produits
+         2. ✅ Tous les produits > Par défaut "autoriser les commande en réappro"
+            1. ✅ Supprimer l'ensemble des produits importés
+            2. ✅ accessoires
+               1. ✅ Mise à jour craft
+               2. ✅ Mise à jour requête finale
+               3. ✅ Réimporter les produits
+            3. ✅ acctx
+               1. ✅ Mise à jour craft
+               2. ✅ Mise à jour requête finale
+               3. ✅ Réimporter les produits
+            4. ✅ avion
+               1. ✅ Mise à jour craft
+               2. ✅ Mise à jour requête finale
+               3. ✅ Réimporter les produits
+            5. ✅ bateaux
+               1. ✅ Mise à jour craft
+               2. ✅ Mise à jour requête finale
+            6. ✅ batterie
+               1. ✅ Mise à jour craft
+               2. ✅ Mise à jour requête finale
+               3. ✅ Réimporter les produits
+            7. ✅ bougie
+               1. ✅ Mise à jour craft
+               2. ✅ Mise à jour requête finale
+            8. ✅ carburant
+               1. ✅ Mise à jour craft
+               2. ✅ Mise à jour requête finale
+            9. ✅ chargeur
+               1. ✅ Mise à jour craft
+               2. ✅ Mise à jour requête finale
+               3. ✅ Réimporter les produits
+            10. ✅ controleur
+                1. ✅ Mise à jour craft
+                2. ✅ Mise à jour requête finale
+                3. ✅ Réimporter les produits
+            11. ✅ heliceavion
+                1. ✅ Mise à jour craft
+                2. ✅ Mise à jour requête finale
+                3. ✅ Réimporter les produits
+            12. ✅ voitures
+                1. ✅ Mise à jour craft
+                2. ✅ Mise à jour requête finale
+                3. ✅ Réimporter les produits
+            13. ✅ boilerplate
+                1. ✅ Mise à jour requête
+      2. ⏳📧 30/09/2022
+         1. ✅ Carburants > Composition `COMPOFUEL` > à rajouter en fin de description
+            1. ✅ Mise à jour craft
+            2. ✅ Réimporter les produits
+            3. ✅📌 Vérification sur [Tornado Competition offroad](https://dev.pb-modelisme.com/wp-admin/post.php?post=4198&action=edit)
+            4. ✅ Mise à jour requête finale
+         2. ✅ Chargeurs > Renommer le champ "Charge type" en "Coupure fin de charge"
+         3. ✅ Bougies > Nombre de temps > Il faut multiplier la valeur par 2 avant import
+            1. ✅ Mise à jour craft
+            2. ✅ Réimporter les produits
+            3. ✅📌 Vérification sur [LC3](https://dev.pb-modelisme.com/wp-admin/post.php?post=4235&action=edit)
+            4. ✅ Mise à jour requête finale
+         4. ⏳📧 Bateaux > La catégorie "statique pouvant être rendu naviguant" est transféré dans "bateau naviguant"
+            1. Pas compris, en attente de retour
+      3. ✅📧 Mail Cédric confirmation traitement des retours & réimportations produits pour 20/09 & 30/09
+      4. ✅♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto sur les précédents imports
+         1. ✅ Ajout au boilerplates
+         2. ✅ accessoires
+            1. ✅ `GOODESCACC` à ajouter en fin de description
+            2. ✅📌💩 Pas de réimport, les 30+ produits plus récents ont ce champ NULL
+            3. ✅ Maj requête finale
+         3. ✅ bateaux
+            1. ✅ `NBELEBAT`, "Nombre d'éléments sur les accus" > Dans la description
+               1. en dur php ? 6 = "Electrique - 6 éléments NiMh" ou 7 = (tous les bateaux KO sur site). 🚨 Peut être NULL
+               2. ✅ Analyse de l'ancien site ~> "`NBELEBAT` éléments NiMh"
+               3. ✅ Ajout à la description
+               4. ✅📌💩 Pas de réimport, les 30+ produits plus récents ont ce champ NULL
+               5. ✅ Maj requête finale
+         4. ✅ batterie
+            1. ✅ `Pas de champ` Catégorie piles (alkaline (cdtypebat == 6) > dans description > pas rechargeable
+               1. ✅ Déjà rajouté à la description
+            2. ✅ `CDUTILBAT` > Utilisation de la batterie
+               1. ✅ Déjà rajouté dans un champ personnalisé
+            3. ✅ `KEYWRDBAT` > Mots clés
+               1. ✅ Déjà rajouté aux étiquettes (tags)
+         5. ✅🖐 bougie
+            1. ✅ `4TPSGLOW` Nombre de temps
+               1. ✅ Déjà rajouté dans un champ personnalisé
+            2. ✅ Liens avec tables `allume` lien entre `bougie` et `moteur_thermique`, `type_moteur`, utilisé sur les moteurs pour bougies conseillés
+               1. 🤏 40 bougies, on fera à la main
+               2. ✅ Rajouté en note dans la doc
+         6. ✅🖐 carburant
+            1. ✅ Table "consomme" lien entre carburant et moteur_thermique > déterminer la compatibilité avec le type de véhicules
+               1. 🤏 10 carburants affichés sur le site, on fera à la main
+               2. ✅ Rajouté en note dans la doc
+            2. ✅ `COMPOFUEL`
+               1. ✅ Déjà rajouté à la description
+         7. ✅ controleur
+            1. ✅ `CDUTILCONTRO` > Compatibilité contrôleur
+               1. ✅ Déjà rajouté dans un champ personnalisé
+   2. ✅ accessoires
+   3. ✅ acctx
+   4. ✅📧 avion
+      1. 🌱🌱🌱🚨 Peut contenir des vidéos (.mpg)
+   5. ✅ bateaux
+   6. ✅ batterie
+      1. ✅ Créer la requête
+          1. 🌱🌱🌱🚨 type_prise_accus > 🔗 Lien avec la table "accessoires". Produit recommandé > Prise avec lien
+   7. ✅ bougie
+   8. ✅ carburant
+   9. ✅ chargeur
+   10. ✅ controleur
+   11. ✅ heliceavion
+   12. ✅ helico
+       1. ✅ Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
+       2. ✅ Exporter le produit
+       3. ✅ Linter le CSV
+       4. ✅ Créer la requête
+           1. ✅ Correspondance catégories ancien PB >< WC > Tout est différent, `CASE`
+           2. ✅🧠 PAs de champ pour le nombre de moteurs, 1 par défaut, 4 si il s'agit de drones
+           3. ✅♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
+              1. ✅ `WARNTYPEHELI`, table `helicat`, mention légale danger d'utilisation > Déplacer dans description
+       5. ✅ Export ancien site & import vers le nouveau site
+       6. ✅📌 Tester
+       7. ✅ Création de la requête finale
+       8. ✅📧 Faire valider
+   13. ✅ maquette
+       1. ✅ Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
+       2. ✅ Exporter le produit
+       3. ✅ Linter le CSV
+       4. ✅ Créer la requête
+           1. ✅ Correspondance catégories ancien PB >< WC
+           2. ✅♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
+       5. ✅ Export ancien site & import vers le nouveau site
+       6. ✅📌 Tester
+       7. ✅ Création de la requête finale
+       8. ✅📧 Faire valider
+   14. ✅ matprem
+       1. ✅ Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
+       2. ✅ Exporter le produit
+       3. ✅ Linter le CSV
+       4. ✅ Créer la requête
+           1. ✅ Correspondance catégories ancien PB >< WC > Ca a pris une plombe
+           2. ♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
+       5. ✅ Export ancien site & import vers le nouveau site
+       6. ✅📌 Tester
+       7. ✅ Création de la requête finale
+       8. ✅📧 Faire valider
+   15. ✅ moteur_electrique
+       1. ✅ Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
+       2. ✅ Exporter le produit
+       3. ✅ Linter le CSV
+       4. ✅ Créer la requête
+           1. ✅ Correspondance catégories ancien PB >< WC
+              1. ✅ Création de nouvelles catégories sur le site, afin d'assigner les compatibilités
+                 1. Une seule compatibilité par catégorie
+                 2. Possibilité d'avoir plusieurs catégories pour un produit
+                 3. Homogénéisation des noms
+              2. ✅ Réimport & lint produit test
+           2. ✅ Pas oublier qu'il s'agit d'un accessoire (champs persos) > Champs NA
+           3. ✅♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
+       5. ✅ Export ancien site & import vers le nouveau site
+       6. ✅📌 [Tester](https://dev.pb-modelisme.com/wp-admin/post.php?post=4588&action=edit)
+       7. ✅ Création de la requête finale
+       8. ✅📧 Faire valider
+   16. 🚀 moteur_thermique
+       1. ✅ Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
+       2. ✅ Exporter le produit
+       3. ✅ Linter le CSV
+       4. Créer la requête
+           1. Correspondance catégories ancien PB >< WC
+           2. ♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
+       5. Export ancien site & import vers le nouveau site
+       6. 📌 Tester
+       7. Création de la requête finale
+       8. 📧 Faire valider
+
+## 30/09/2022
+
+Perso
+
+1. ⏳ Payer tout le monde
+   1. ✅ Payer nonore
+   2. ✅ Payer remboursement emprunt
+   3. ✅ Payer taxe foncière /  1 270,00 € par 2 = 635€
+2. ✅ Répondre mails darons
+3. ✅ Week end 1 er octobre concert x2
+   1. ✅ Hebergement
+   2. ✅ Theatre le dimanche
+   3. ✅ Mail sites sorties
+   4. ✅ Réserver parking, attente horaire po en fonction oncle/théatre
+   5. ✅ Mail remboursement Po
+4. Cadeau anniv pougnoutte
+   1. ✅ Surprise dredi 07/09/2022
+5. 🚀 Réserver concerts
+   1. 💩 GuiV > The Hu, casino de paris, le 25/11 > Complet
+   2. ✅ Igorrr, [hey](https://www.seetickets.com/fr/ap/event/igorrr/salle-pleyel/32806)
+      1. ✅ Agenda
+   3. ✅ Avatar
+      1. ✅ Agenda
+
+Lapie
+
+1. ✅🐛 Les clients ne peuvent pas se connecter à leurs comptes
+   1. ✅ L'option était désactivée dans WordPress et dans WooCommerce
+      1. ✅ WP > Réglages > Général > Autoriser les gens à s'inscrire + role de base "client"
+      2. ✅ WC > Réglages > Comptes > Afficher connexion/inscription sur mon compte & pendant la commande
+      3. ✅📌 Vérifications
+2. ✅ Mails changements de mot de passe > Il s'agit des comptes utilisateurs, pas des comptes admin
+
+Ophé
+
+1. ✅ Formation admin
+
+PB Modelisme
+
+1. 🌱🔍 Réductions de prix réduit en cas de commande de multiples éléments
+   1. 🌱 Plus tard et/ou à la main, ça me soule
+2. 🚀 Import l'ensemble des catégories
+   1. ✅♻️💥 Retour clients prioritaires
+      1. ✅ 20/09/2022
+         1. ✅ Champ visibilité `AFF* / AFFVOITURE`, si valeur 4 "sur commande"
+            1. ✅ Mettre a jour le doc drive
+            2. ✅ Mettre a jour le doc des champs personnalisés & secrets
+            3. ✅ Rajouter un champ personnalisé commun à l'ensemble des produits
+            4. ✅ Maj boilerplate
+         2. ✅ Champs dimensions & poids à retirer des champs expédition (il s'agit des colis)
+            1. ✅ Mettre a jour le doc drive
+            2. ✅ Mettre a jour le doc des champs personnalisés & secrets
+            3. ✅ Rajouter les champs personnalisés communs à l'ensemble des produits
+            4. ✅ Maj boilerplate
+         3. ✅ Stock par defaut pas de commande en reaprovisionnement, voir CASE cf mail cedric 20/09/2022
+            1. ✅ Ajout de l'autorisation de commande en réapprovisionnement avec notif client
+            2. ✅👷 Modification du champ perso, instructions pour administrateurs
+         4. ✅ Répercuter les changements
+            1. ✅ voitures
+               1. ✅ dimensions & poids > `POIDSVOITURE` x 4
+               2. ✅ sur commande > "Gestion des `"sur commande uniquement"` " x 2
+               3. ✅ maj requête craft
+               4. ✅ csv de test
+               5. ✅ maj requête finale
+            2. ✅ Maj boilerplate requête
+            3. ✅ accessoires
+               1. ✅ dimensions & poids > `POIDSVOITURE` x 4
+               2. ✅ sur commande > "Gestion des `"sur commande uniquement"` " x 2
+               3. ✅ maj requête craft
+               4. ✅ csv de test
+               5. ✅ maj requête finale
+         5. ⏳ Ajouter un champ "Fiches de sécurité" de type document, commun à tous les champs
+            1. ⏳ En attente de savoir si on rajoute un champ ou un répéteur
+            2. Mettre a jour le doc des champs personnalisés & secrets
+            3. Rajouter un champ personnalisé commun à l'ensemble des produits
+         6. ✅ Mail confirmation & recettage
+      2. ✅ 27/09/2022
+         1. ✅ Import Accessoires > VALEURTRI = capacite_en_cc > Faux
+            1. ✅ Ajouter un nouveau champ legacy
+               1. ✅ Maj doc BDD
+               2. ✅ Maj doc champs persos
+               3. ✅ Maj requête accessoires
+               4. ✅ Maj requête accessoires finale
+               5. ✅ Maj boilerplate
+               6. ✅📌 [Produit de test](https://dev.pb-modelisme.com/wp-admin/post.php?post=3655&action=edit)
+            2. ✅  Populer les champs "Communs > Divers > diamètre" (hélices) et "Accesoires > capacité" (réservoirs)
+               1. ✅ Maj doc BDD
+               2. ✅ Maj doc champs persos
+               3. ✅ Maj requête accessoires
+               4. ✅ Maj requête accessoires finale
+               5. ✅ Maj boilerplate
+            3. ✅📧 Faire valider
+   2. ♻️ Global craft
+   3. ✅ accessoires
+      1. ✅ Maj suite aux retours de Cédric 20/09/2022
+      2. ✅ Export ancien site & import vers le nouveau site
+      3. ✅📌 Tester
+      4. ✅📧 Faire valider
+   4. ✅ acctx
+      1. ✅ Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
+      2. ✅ Exporter le produit
+      3. ✅ Linter le CSV
+      4. ✅ Ajouter le masque des champs deprecated
+      5. ✅ Créer la requête
+          1. ✅⬆️ Catégories à migrer dans `accessoires > Accessoires radios`
+      6. ✅ Export ancien site & import vers le nouveau site
+      7. ✅📌 Tester
+      8. ✅ Faire valider
+   5. ✅📧 avion
+      1. ✅ Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
+      2. ✅ Exporter le produit
+      3. ✅ Linter le CSV
+      4. ✅ Ajouter le masque des champs deprecated
+      5. ✅ Créer la requête
+          1. ✅ Correspondance catégories ancien PB >< WC
+             1. ✅ Catégorie 3D ?
+                1. ✅🐛 Il s'agit d'un type d'avion, et non d'une catégorie. fixé
+             2. ✅📧 CDCATAVION -1, CDAVION 957 ?
+                1. ✅ Corrigé par Cédric dans l'ancienne BDD, rien à changer de mon côté.
+          2. ✅🐛 `materiau_aile` `materiau_fuselage` > "Elapor &amp; EPP" après l'import dans wordpress
+          3. ✅ Onglet servos conseillés > possibilité d'affecter plusieurs catégories
+             1. ✅ Mise à jour des champs personnalisés afin de changer le choix unique en choix multiples
+                1. 💩 Pas de valeurs dans l'export ? Champ de type taxonomie
+                2. ✅👴 Création d'un champ legacy (texte) avec la concaténation des catégories
+                   1. ✅ Création du champ personnalisé
+                   2. ✅ Récupération d'un export WC
+             2. ✅ Adapter la requête > table depend & cat servo
+      6. ✅ Export ancien site & import vers le nouveau site
+      7. ✅📌 Tester
+      8. ✅ Création de la requête finale
+      9. 🌱🌱🌱🚨 Peut contenir des vidéos (.mpg)
+      10. ✅📧 Faire valider
+   6. ✅ bateaux
+      1. ✅ Remplir complètement un produit sur le nouveau site, ajouter une catégorie pour export de cette catégorie
+      2. ✅ Exporter le produit
+      3. ✅ Linter le CSV
+      4. ✅ Ajouter le masque des champs deprecated
+      5. ✅ Créer la requête
+          1. ✅ Correspondance catégories ancien PB >< WC
+          2. ✅📧 Menu ancien site > bateaux > Type > PLastique & statiques > Renvoie vers une catégorie de maquettes
+             1. On ne s'en occupe pas ?
+             2. Je met une note pour leur rajouter la catégorie bateaux en plus lorsque je traiterai les maquettes ?
+             3. > On touche à rien, on laisse comme ça
+      6. ✅ Export ancien site & import vers le nouveau site
+      7. ✅📌 Tester
+      8. ✅ Création de la requête finale
+      9. ✅📧 Faire valider
+   7. ✅ batterie
+      1. ✅ Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
+      2. ✅ Exporter le produit
+      3. ✅ Linter le CSV
+      4. ✅ Créer la requête
+          1. ✅ Correspondance catégories ancien PB >< WC
+          2. 🌱🌱🌱🚨 type_prise_accus > 🔗 Lien avec la table "accessoires". Produit recommandé > Prise avec lien
+      5. ✅ Export ancien site & import vers le nouveau site
+      6. ✅📌 Tester
+      7. ✅ Création de la requête finale
+      8. ✅📧 Faire valider
+   8. ✅ bougie
+      1. ✅ Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
+      2. ✅ Exporter le produit
+      3. ✅ Linter le CSV
+      4. ✅ Créer la requête
+          1. ✨ Correspondance catégories ancien PB >< WC. En dur
+      5. ✅ Export ancien site & import vers le nouveau site
+      6. ✅📌 Tester
+      7. ✅ Création de la requête finale
+      8. ✅📧 Faire valider
+   9. ✅ carburant
+      1. ✅ Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
+      2. ✅ Exporter le produit
+      3. ✅ Linter le CSV
+      4. ✅ Créer la requête
+          1. ✅ Correspondance catégories ancien PB >< WC. en dur
+      5. ✅ Export ancien site & import vers le nouveau site
+      6. ✅📌 Tester
+      7. ✅ Création de la requête finale
+      8. ✅📧 Faire valider
+   10. ✅ chargeur
+       1. ✅ Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
+       2. ✅ Exporter le produit
+       3. ✅ Linter le CSV
+       4. ✅ Créer la requête
+           1. ✅ Correspondance catégories ancien PB >< WC. En dur
+           2. ✅🐛 Un caractère spécial dans l'une des `descriptions longue` bloque l'import
+              1. CD `183` Nom "KN-PROX2" [le coupable](https://pb-modelisme.com/Chargeur/showprod.php?prod=183)
+                 1. Le caractère est KO à la fois dans phpmyadmin et à l'affichage du site
+                 2. On vire avec un `REPLACE`
+       5. ✅ Export ancien site & import vers le nouveau site
+       6. ✅📌 Tester
+       7. ✅ Création de la requête finale
+       8. ✅📧 Faire valider
+   11. ✅ controleur
+       1. ✅ Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
+       2. ✅ Exporter le produit
+       3. ✅ Linter le CSV
+       4. ✅ Créer la requête
+           1. ✅ Correspondance catégories ancien PB >< WC. En dur.
+              1. ✅ Cas particulier, nouvelles catégories pour "utilisation"
+       5. ✅ Export ancien site & import vers le nouveau site
+       6. ✅ 📌 Tester
+       7. ✅ Création de la requête finale
+       8. ✅📧 Faire valider
+   12. ✅ heliceavion
+       1. ✅ Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
+       2. ✅ Exporter le produit
+       3. ✅ Linter le CSV
+       4. ✅ Créer la requête
+           1. ✅ Correspondance catégories ancien PB >< WC
+       5. ✅ Export ancien site & import vers le nouveau site
+       6. ✅ 📌 Tester
+       7. ✅ Création de la requête finale
+       8. ✅📧 Faire valider
+   13. ✅ voitures
+       1. ✅ Maj suite aux retours de Cédric 20/09/2022
+       2. ✅📧 Faire valider
+
 ## 23/09/2022
 
 Perso

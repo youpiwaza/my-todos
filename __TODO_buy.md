@@ -2,6 +2,8 @@
 
 ## Hors compétition
 
+Remettre patreon Boris, YMS, Bloodywood
+
 - [How Double Chicken Please Became One of the Country's Most Popular Cocktail Bars — Mise En Place](https://www.youtube.com/watch?v=tglfDwObFNU)
 
 ## Bouffe / Feel goude
@@ -17,6 +19,7 @@
   - [hey](https://brodandtaylor.com/pages/fermentation-culturing)
 - [Épices](https://www.epices-roellinger.com/fr/taxons/melanges-epices)
 - [Four a pizza maison](https://www.youtube.com/watch?v=w3f8-bHPYWk)
+- [gin piger henricus](https://www.youtube.com/watch?v=7X-3DF_CbU0)
 - [gochujang](https://www.youtube.com/watch?v=sJreTj1W6Co)
   - Qu'est-ce que le Gochujang ? Le Gochujang est un condiment coréen très utilisé en cuisine coréenne. La sauce Gochujang, que l'on peut également traduire par sauce de piment amère, est fabriquée à partir de piments rouges, de farine de riz gluant, de pâte de soja fermenté et de blé.
   - [Site offi](http://andongjebiwon.co.kr/eng/) mais pas de e-commerce
@@ -42,6 +45,7 @@
 - [Sel d'icelande](https://www.amazon.fr/Saltverk-Pure-Flaky-Sea-salt/dp/B06XKSFW4P) / [Vidéo](https://www.youtube.com/watch?v=dgzwxRSJyfw)
 - Skyr / ~Yaourt light
 - Sucre muscovado
+- "The noma guide to fermentation" livre
 - [Un peu de tout, couteaux, poeles, etc.](https://fr-dalstrong.glopalstore.com/pages/GUGA-subscribe-page?utm_campaign=oth_r&utm_source=https://dalstrong.com&utm_medium=wi_proxy&utm_content=en_US&utm_term=c)
 - Vinaigre fumé
 - [Vodka rammstein](https://shop.rammstein.de/en/catalog/Menu/rammstein-vodka-feuer-wasser.html)
@@ -133,6 +137,7 @@
     - [Ensemble modulaire 2x tiroirs MDF](https://www.greenstuffworld.com/fr/expositeur-de-peinture/1141-ensemble-modulaire-2x-tiroirs-mdf.html)
     - [Ensemble modulaire 3x tiroirs MDF](https://www.greenstuffworld.com/fr/expositeur-de-peinture/1143-ensemble-modulaire-3x-tiroirs-mdf.html)
   - [Plaques texturées](https://www.greenstuffworld.com/fr/92-plaques-texturees)
+  - [Têtes de femmes](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQmSFCrjFchxGPrcMrgBSVlKr)
 - [Lampe arceau](https://www.greenstuffworld.com/fr/inicio/2516-lampe-led-hobby-arch-darth-black.html)
 - [LED GSW / Mini lighting Set With switch and CR927 Battery](https://www.greenstuffworld.com/en/led-lights/1568-mini-lighting-set-with-switch-and-cr927-battery.html)
 - Night lords
