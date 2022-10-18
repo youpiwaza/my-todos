@@ -42,238 +42,143 @@ AE
 
 ML Architecture
 
-1. Template `C / ProjetS` > champ ACF "relation" KO (erreur JS)
+1. 🚀 Template `C / ProjetS` > champ ACF "relation" KO (erreur JS)
    1. 💩📌 Désactiver les autres plugins
    2. 📌 Thème par défaut mais ça m'étonnerait (même si il y a du JQuery dans le thème)
    3. Besoin de maj ACF de 4 vers 6 mais possibilité que ça casse
-   4. ⏳ Attente retour client devis > facture
+   4. ✅ Attente retour client devis > facture
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      1. 🚀 Editer le devis, envoyer, faire signer
+      2. Mettre en place dev
+      3. Maj plugin et voir si ca roule
+      4. Sinon revoir champs
 
 Perso
 
-1. 🚀 Réserver concerts
-    1. 🚀 Sabaton
+1. Réserver concerts
+    1. Sabaton
        1. Agenda
-    2. 🚀🚀🚀🚀 Inward à la cartonnerie
 2. Rhum hellfest
-3. ⏳ Acheter ceinture abdos
-   1. ⏳ Commandé le 09/10/22
-   2. Arrivée le mardi 11/10/22
-4. Darons > donner vermifuges pour la chatte
-5. ⏳ Bourso > Compte épargne
-    1. ⏳ En attente de confirmation
-    2. Transférer weward
-6. ⏳💥 Ekwateur tarifs bloqués / A GERER AVANT LE 13/10/2022 / RENOUVELLEMENT AUTO AVEC TARIFS DECONNANTS DE OUF
-    1. ⏳ [mail](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQSSRzGRGFzHgCWSZPcWnHzMM)
-       1. 💩 Tchat le 28/92/22 > useless
-       2. ⏳ Mail envoyé le 28/09/2022
-    2. Onglets comparateurs & autres fournisseurs
-7. Alan santé > Trouver professionnels autour & prendre RDV
-    1. Dentiste
-    2. Psy
-8. ♻️ Acheter flotte > magnésium
-9. 🚀 MSG maison
+3. ♻️ Acheter flotte > magnésium
+4. 🚀 MSG maison
     1. [Recette](https://www.youtube.com/watch?v=sE3dYCphy2M)
-10. 🔍 Régime
+5. 🔍 Régime
     1. PORK PANKO low carb !
     2. [Low carb](https://www.dietdoctor.com/low-carb) / keto
        1. Most fruits and fruit juice / **Although low-sugar berries — such as blackberries, raspberries, and strawberries — are ok in small to moderate amounts.**
     3. Keto wheat flour > farine avec prot ? [hey](https://www.youtube.com/watch?v=g2fTYDftlCg)
     4. Non fat ricotta cheese / provolone cheese
-11. gochujang
+6. gochujang
     1. [amazon](https://www.amazon.fr/s?k=gochujang+jebiwon)
     2. [idem](https://www.amazon.fr/s?k=doenjang)
-12. 🔍 Champignon Lingzhi contre la fatigue & insomnie
-13. [Figs Claymore](https://figurama-collectors.com/collections/claymore/products/claymore-teresa-vs-priscilla-elite-exclusive-statue?variant=38322217484463) si le site fonctionne un putain de jour
-14. Réserver saut en parachute
-15. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg)
+7. 🔍 Champignon Lingzhi contre la fatigue & insomnie
+8. [Figs Claymore](https://figurama-collectors.com/collections/claymore/products/claymore-teresa-vs-priscilla-elite-exclusive-statue?variant=38322217484463) si le site fonctionne un putain de jour
+9. Réserver saut en parachute
+10. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg)
     1. Carte liberté valable juqu'au 19/10/22
     2. Promo carte 50% en ce moment
-16. 🌱 Orga anniv pougnoutte mars 2023
+11. 🌱 Orga anniv pougnoutte mars 2023
     1. Idées cadeaux
        1. Vélo, a voir en revenant de vacances
        2. Robe style médiéval, demander à Mélanie
        3. Machine pour frapper sa propre monnaie (étain), initiales VL (Vigi & Lucifer)
        4. Bouclier armoiries normandie viking (VL)
+       5. Machine à coudre
     2. Redemander date a pougnoutte > mars...
     3. Demander contact & liste invités
     4. Demander si logement déjà vu
     5. Voir pour cagnotte permis moto
     6. Medieval tents
 
-Ophé
-
-1. ⏳ Check search console
-2. ⏳ Check analytics
-3. ⏳ Check robots.txt
-
 PB Modelisme
 
-1. 🌱🔍 Réductions de prix réduit en cas de commande de multiples éléments
-   1. 🌱 Plus tard et/ou à la main, ça me soule
+1. ✅⬆️ Mise à jour de WordPress
 2. 🚀 Import l'ensemble des catégories
    1. ♻️💥 Retour clients prioritaires
-      1. ⏳📧 30/09/2022
-         1. ⏳📧 Bateaux > La catégorie "statique pouvant être rendu naviguant" est transféré dans "bateau naviguant"
-            1. Pas compris, en attente de retour
-   2. 🌱 avion > Peut contenir des vidéos (.mpg)
-   3. 🌱 batterie > type_prise_accus > 🔗 Lien avec la table "accessoires". Produit recommandé > Prise avec lien
-   4. 🚀 moteur_thermique
-       1. ✅ Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
-       2. ✅ Exporter le produit
-       3. ✅ Linter le CSV
-       4. Créer la requête
-           1. Correspondance catégories ancien PB >< WC
-           2. ♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
-       5. Export ancien site & import vers le nouveau site
-       6. 📌 Tester
-       7. Création de la requête finale
-       8. 📧 Faire valider
-   5. pcedetthermik
-       1. Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
-       2. Exporter le produit
-       3. Linter le CSV
-       4. Créer la requête
-           1. Correspondance catégories ancien PB >< WC
-           2. ♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
-       5. Export ancien site & import vers le nouveau site
-       6. 📌 Tester
-       7. Création de la requête finale
-       8. 📧 Faire valider
-   6. piece_heli
-       1. Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
-       2. Exporter le produit
-       3. Linter le CSV
-       4. Créer la requête
-           1. Correspondance catégories ancien PB >< WC
-           2. ♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
-       5. Export ancien site & import vers le nouveau site
-       6. 📌 Tester
-       7. Création de la requête finale
-       8. 📧 Faire valider
-   7. piece_voiture
-       1. Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
-       2. Exporter le produit
-       3. Linter le CSV
-       4. Créer la requête
-           1. Correspondance catégories ancien PB >< WC
-           2. ♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
-       5. Export ancien site & import vers le nouveau site
-       6. 📌 Tester
-       7. Création de la requête finale
-       8. 📧 Faire valider
-   8. quartz
-       1. Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
-       2. Exporter le produit
-       3. Linter le CSV
-       4. Créer la requête
-           1. Correspondance catégories ancien PB >< WC
-           2. ♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
-       5. Export ancien site & import vers le nouveau site
-       6. 📌 Tester
-       7. Création de la requête finale
-       8. 📧 Faire valider
-   9. radio
-       1. Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
-       2. Exporter le produit
-       3. Linter le CSV
-       4. Créer la requête
-           1. Correspondance catégories ancien PB >< WC
-           2. ♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
-       5. Export ancien site & import vers le nouveau site
-       6. 📌 Tester
-       7. Création de la requête finale
-       8. 📧 Faire valider
-   10. recepteur
-       1. Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
-       2. Exporter le produit
-       3. Linter le CSV
-       4. Créer la requête
-           1. Correspondance catégories ancien PB >< WC
-           2. ♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
-       5. Export ancien site & import vers le nouveau site
-       6. 📌 Tester
-       7. Création de la requête finale
-       8. 📧 Faire valider
-   11. servo
-       1. Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
-       2. Exporter le produit
-       3. Linter le CSV
-       4. Créer la requête
-           1. Correspondance catégories ancien PB >< WC
-           2. ♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
-       5. Export ancien site & import vers le nouveau site
-       6. 📌 Tester
-       7. Création de la requête finale
-       8. 📧 Faire valider
-   12. ✅ voitures
-3. 🚨 Import final, nettoyer BDD WordPress avant, voir repartir d'une base fraîche
+      1. En attente de retours
+   2. 🔍 Réductions de prix réduit en cas de commande de multiples éléments
+3. 🚨 Import final
    1. Sauvegarde, y compris config plugins & themes
-   2. Cleaner, vérifier
-4. [Maj ACF 6](https://www.advancedcustomfields.com/blog/acf-6-0-released/)
-5. Enlever numéro identification CNIL des mentions légales
-6. Retour client [mail du 20/09/2022](https://mail.google.com/mail/u/0/#inbox/KtbxLrjRhSgXXGsXhXBlPLfTbjspxNXKdq)
-7. 👪 Poser RDV PB & nonore, photos avec Reflex de la boutique afin d'illustrer le site
-8. Tâches relatives au RDV client du jeudi 01/09/22
-   1. Gestion des ventes caisses
-      1. 🔍 Moyens de paiements
-         1. Paypal
-         2. Espèces
-   2. Clients hors UE & dom tom > pas de TTC
-      1. Voir pour utiliser plugin ~membre club > assigner classe taxe ?
-   3. Installer [WPC Frequently Bought Together for WooCommerce](https://fr.wordpress.org/plugins/woo-bought-together/) / Produits fréquemment achetés ensemble
-   4. 🐛 logo accueil ne renvoie pas vers la page d'accueil
-   5. ⚡️💄 Menu principal
-      1. Faire une proposition de menu amélioré (images / onglets, etc.)
-      2. Faire une proposition de rubriques optimisées
-      3. Voir avec Nonore
-   6. Footer
-      1. Virer france relance
-      2. éviter couper les lignes sur 2 lignes
-      3. logo paypal faire une seule image avec l'autre
-      4. image paiements > Chèques & mandats, remplacer par "Chèques"
-         1. Augmenter hauteur, cf image footer PAS pleine largeur
-      5. Rajouter les liens vers les pages
-   7. Générer Code barre PB ? Revoir avec cedric
-   8. Page [Contact](https://dev.pb-modelisme.com/contact/)
-      1. Vérifier cookies machins (carte)
-      2. Rajouter Captcha
-      3. Formulaire > Peut importe le service, envoyer à la meme adresse mail
-   9. Page [Marques](https://dev.pb-modelisme.com/marques-partenaires/) > Revoir le contenu de la page
-      1. Première partie colonnage par type de véhicules
-         1. Chaque colonne contient 3 à 5 marques choisies pour ce type de véhicules
-      2. En 2eme partie - broder du contenu on a plein de marque
-      3. 3eme partie > liste de A a Z
-   10. Pages "législation"
-       1. Homogénéiser "PB Modélisme"
-   11. Page [Mentions légales](https://dev.pb-modelisme.com/mentions-legales/)
-       1. Rajouter mention "Textes et photos non contractuels"
-   12. Marques > Possibilité d'affichage front conditionnel, toutes les marques "attention", ~chinoiseries
-   13. Réception des commandes, gros blocs à traiter en priorité après les imports de produits
-       1. Se remettre dans le jus, cf. cahier des charges
-       2. 👪 Tout remettre au clair avec Cédric
-       3. Tâches
-          1. Faire ressortir le différentiel entre le nombre de produits en stocks, ainsi que la nouvelle quantité de stocks, afin d'imprimer le bon nombre d'étiquettes (pour les nouveaux produits)
-          2. Affichage automatique des produits dont la commande a été passée avec l'état "en réapprovisionnement" afin de pouvoir honorer la fin de commande des la reception
-             1. Avec impression auto également, mais avec nom client et n° commande en plus
-             2. Faire un test de parcours utilisateur qui passe une commande avec un produit en reapprovisionnement, puis maj le stock et voir comment cela marche + impriessions ecrans et retours Cédric
-9. Affichage front ACF
+   2. Nettoyer BDD WordPress avant
+   3. Importer chaque catégorie
+4. Enlever numéro identification CNIL des mentions légales
+5. 👪 Poser RDV PB & nonore, photos avec Reflex de la boutique afin d'illustrer le site
+6. Tâches relatives au RDV client du jeudi 01/09/22
+    1. Gestion des ventes caisses
+       1. 🔍 Moyens de paiements
+          1. Paypal
+          2. Espèces
+    2. Clients hors UE & dom tom > pas de TTC
+       1. Voir pour utiliser plugin ~membre club > assigner classe taxe ?
+    3. Installer [WPC Frequently Bought Together for WooCommerce](https://fr.wordpress.org/plugins/woo-bought-together/) / Produits fréquemment achetés ensemble
+    4. 🐛 logo accueil ne renvoie pas vers la page d'accueil
+    5. ⚡️💄 Menu principal
+       1. Faire une proposition de menu amélioré (images / onglets, etc.)
+       2. Faire une proposition de rubriques optimisées
+       3. Voir avec Nonore
+    6. Footer
+       1. Virer france relance
+       2. éviter couper les lignes sur 2 lignes
+       3. logo paypal faire une seule image avec l'autre
+       4. image paiements > Chèques & mandats, remplacer par "Chèques"
+          1. Augmenter hauteur, cf image footer PAS pleine largeur
+       5. Rajouter les liens vers les pages
+    7. Générer Code barre PB ? Revoir avec cedric
+    8. Page [Contact](https://dev.pb-modelisme.com/contact/)
+       1. Vérifier cookies machins (carte)
+       2. Rajouter Captcha
+       3. Formulaire > Peut importe le service, envoyer à la meme adresse mail
+    9. Page [Marques](https://dev.pb-modelisme.com/marques-partenaires/) > Revoir le contenu de la page
+       1. Première partie colonnage par type de véhicules
+          1. Chaque colonne contient 3 à 5 marques choisies pour ce type de véhicules
+       2. En 2eme partie - broder du contenu on a plein de marque
+       3. 3eme partie > liste de A a Z
+    10. Pages "législation"
+        1. Homogénéiser "PB Modélisme"
+    11. Page [Mentions légales](https://dev.pb-modelisme.com/mentions-legales/)
+        1. Rajouter mention "Textes et photos non contractuels"
+    12. Marques > Possibilité d'affichage front conditionnel, toutes les marques "attention", ~chinoiseries
+    13. Réception des commandes, gros blocs à traiter en priorité après les imports de produits
+        1. Se remettre dans le jus, cf. cahier des charges
+        2. 👪 Tout remettre au clair avec Cédric
+        3. Tâches
+           1. Faire ressortir le différentiel entre le nombre de produits en stocks, ainsi que la nouvelle quantité de stocks, afin d'imprimer le bon nombre d'étiquettes (pour les nouveaux produits)
+           2. Affichage automatique des produits dont la commande a été passée avec l'état "en réapprovisionnement" afin de pouvoir honorer la fin de commande des la reception
+              1. Avec impression auto également, mais avec nom client et n° commande en plus
+              2. Faire un test de parcours utilisateur qui passe une commande avec un produit en reapprovisionnement, puis maj le stock et voir comment cela marche + impriessions ecrans et retours Cédric
+7. Affichage front ACF
     1. [Tuto](https://capitainewp.io/formations/acf/champ-relationnel/)
-10. Autoriser la recherche par SKU/UGS, & par les autres refs
-11. 🌱 Importer les anciens comptes clients ?
+8. Autoriser la recherche par SKU/UGS, & par les autres refs
+9.  🌱 Importer les anciens comptes clients ?
     1. Besoin des articles
-12. 🌱 Importer les commandes
+10. 🌱 Importer les commandes
     1. Besoin des articles & des comptes clients
     2. Plugin [Product Import Export for WooCommerce](https://wordpress.org/plugins/product-import-export-for-woo/) ?
        1. The Order Export & Order Import for WooCommerce Add-On is required to export WooCommerce Orders.
-13. Plugin de bundle en freemium, [prix pas déconnant](https://wpclever.net/downloads/product-bundles/)
-14. Apparence > Personnaliser > WooCommerce (pages profondes & générées automatiquement)
-15. 📧 Repasse catégories > Notes pour clients
+11. Plugin de bundle en freemium, [prix pas déconnant](https://wpclever.net/downloads/product-bundles/)
+12. Apparence > Personnaliser > WooCommerce (pages profondes & générées automatiquement)
+13. 📧 Repasse catégories > Notes pour clients
     1. Il y a énormément de catégorie redondantes / inutiles, ex matériaux > plaques
        1. Ptet voir pour faire une grosse repasse et faire des catégorie générales, avec des taxonomies
           1. Ex: plutôt que "plaque lisse blanche" "plaque lisse noire" "plaque pavage" > plaque avec attributs couleur & texture...
           2. "Tube carré" "Tube rond" >> Tubes > forme
-16. Devis > Bouton client, passer à état "commande en cours"
-17. Fin de site
+14. Devis > Bouton client, passer à état "commande en cours"
+15. Fin de site
     1. ACF > Ranger champs en onglets ptet ? [doc](https://www.advancedcustomfields.com/resources/tab/)
     2. wp-config > DEBUG true > & cleaner un  peu si possible
     3. Liens menus > virer liens persos "#" & remplacer par le bon contenu dynamique
@@ -282,7 +187,7 @@ PB Modelisme
     6. Après import complet & vérifié (plus d'imports de produits à faire), harmoniser les noms de catégories
        1. cf. export cat `/_docs/craft-and-tests/18-requetes-import-completes-pour-chaque-categorie_secret/crafts/_liste-libelles-categories-pour-wc/03-export-wc-categories-lint-et-alpha.md`
     7. Catégories "divers ET ..." > Faire une catégorie "divers" et une catégorie "..."
-18. 🌱 Plus tard
+16. 🌱 Plus tard
     1. Expéditions > génération des borderaux ? En fonction des prestas ?
     2. Homologation logiciel de caisse
        1. Sauvegardes extérieures immuables
@@ -404,28 +309,28 @@ Environnement de dev local clean
 
 Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel plus tard/exponentiel
 
-- ✅ Déplacer les terminés ✅ à chaque début de semaine dans done.md
+- ⏳ Déplacer les terminés ✅ à chaque début de semaine dans done.md
 - 💩 Déplacer les TODO 🌱 dans _TODO_shame.md
-- ✅ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ✅ mails, ✅ edt portable, ⏳ favoris, ⏳ bureau. Si possible description + lien.
-- ✅ Nettoyer le fichier __TODO
-  - ✅ Status
-  - ✅💥 Ce fichier > ### Shame 💥 Cleaner pour vrai les trucs ou je ne passe jamais
-    - ✅ Ranger dans fichiers TODO correspondant
-      - ✅ Prioriser
+- ⏳ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ⏳ mails, ⏳ edt portable, ⏳ favoris, ⏳ bureau. Si possible description + lien.
+- ⏳ Nettoyer le fichier __TODO
+  - ⏳ Status
+  - ⏳💥 Ce fichier > ### Shame 💥 Cleaner pour vrai les trucs ou je ne passe jamais
+    - ⏳ Ranger dans fichiers TODO correspondant
+      - ⏳ Prioriser
 - ⏳ Virer ce qui traine
-  - ✅ sur le bureau
+  - ⏳ sur le bureau
   - 💩 dans le dossier _shame du bureau
   - 💩 Lel ~(local)/_dev/_shame
-  - ✅ Vider corbeille
-  - ✅ Vider téléchargements
-  - ✅ Dans les mails
+  - ⏳ Vider corbeille
+  - ⏳ Vider téléchargements
+  - ⏳ Dans les mails
 - ⏳ Déplacer veille onglets dans TODO_veille
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
-- ✅ Déclaration Auto entrepreneur
-- ✅ Vérifier impôts sur espace / Dernière vérif 15/08/2021
-  - ✅ Perso  / ✅ 19/09/22
-  - ✅ Pro    / ✅ 19/09/22 (CFE réglé le 17/11/2021) ~début décembre
+- ⏳ Déclaration Auto entrepreneur
+- ⏳ Vérifier impôts sur espace / Dernière vérif 15/08/2021
+  - ⏳ Perso  / ⏳ 19/09/22
+  - ⏳ Pro    / ⏳ 19/09/22 (CFE réglé le 17/11/2021) ~début décembre
     - [nouveau site ?](https://www.autoentrepreneur.urssaf.fr/portail/accueil/sinformer-sur-le-statut/toutes-les-actualites/le-guichet-unique-un-nouveau-ser.html)
 - ⏳ Vérifier messages [Ameli](https://assure.ameli.fr/)
 - ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21
@@ -435,7 +340,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
     3. `>Blah blah besoin de redémarrer O/n` >> `O`
     4. Redémarrer / Attendre 5 ans et demi sauf si t'as un SSD/Nvme
   - ⏳ Windaube
-    - ✅ Update alakon
+    - ⏳ Update alakon
     - ⏳ [.net](https://dotnet.microsoft.com/download) > Runtime
     - ⏳ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
   - ⏳ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
@@ -453,7 +358,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
   - ⏳ Supprimer les fichiers temporaires
     - Exec > `temp` // Devrait ouvrir `~c:Windows\Temp`
     - Supprimer tout, Ignorer ceux utilisés
-  - ✅ WSL 2
+  - ⏳ WSL 2
     - Version Ubuntu
       - Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
     - Packages & terminal
@@ -463,9 +368,9 @@ omz update
 git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade && sudo apt -y autoremove && docker system prune -af
 ```
 
-- ✅ Téléphone
-  - ✅ Maj de la base
-  - ✅ Maj des applications
+- ⏳ Téléphone
+  - ⏳ Maj de la base
+  - ⏳ Maj des applications
   - ⏳ Tous les 6 mois > reset usine
 - ⏳ Compléments alimentaires
   - ⏳ Anaca3

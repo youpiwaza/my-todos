@@ -2,6 +2,220 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 14/10/2022
+
+Lapie
+
+1. ✅🐛 Problème cookies
+   1. ✅ Mise à jour plugins
+   2. ✅ Relancer auto détection
+   3. ✅📌 Tests
+      1. 💩📌 Toujours KO
+      2. 🔍 Ok si age gate validé avant
+      3. 💩 Voir CSS z-index ou je sais pas > Nope
+      4. ✅ [Support WP > Age gate > Advanced > Disable Focus trap](https://wordpress.org/support/topic/age-gate-conflicting-with-cookie-gdpr-plugins/)
+   4. ✅ Mail client
+
+Perso
+
+1. Réserver concerts
+    1. Sabaton
+       1. Agenda
+2. ✅ Acheter ceinture abdos
+   1. ✅ Commandé le 09/10/22
+   2. ✅ Arrivée le mardi 11/10/22
+3. ✅ Darons > donner vermifuges pour la chatte
+4. ✅ Bourso > Compte épargne
+    1. ✅ Compte ouvert
+    2. ✅ Transférer weward
+       1. ✅ Attente confirmation réception virement
+       2. ✅ Virement
+5. ✅ Ekwateur tarifs bloqués / A GERER AVANT LE 13/10/2022 / RENOUVELLEMENT AUTO AVEC TARIFS DECONNANTS DE OUF
+    1. ✅ [mail](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQSSRzGRGFzHgCWSZPcWnHzMM)
+       1. 💩 Tchat le 28/92/22 > useless
+       2. ⏳ Mail envoyé le 28/09/2022
+          1. 💩 Pas de réponse
+    2. ✅ Renouvellement tacite en fixe le 13/10/2022
+    3. ✅ Vérifier que les tarifs annoncés sont respectés, cf. captures écran
+    4. ~~Onglets comparateurs & autres fournisseurs~~
+6. ✅ Alan santé > Trouver professionnels autour & prendre RDV
+    1. ✅ Dentiste
+    2. ✅ Psy
+
+PB Modelisme
+
+1. 🚀 Import l'ensemble des catégories
+   1. ♻️💥 Retour clients prioritaires
+      1. ✅📧 30/09/2022
+         1. ✅📧 Bateaux > La catégorie "statique pouvant être rendu naviguant" est transféré dans "bateau naviguant"
+            1. ✅ Cédric > On a appelé ça "mixte" sur le site
+      2. ✅ 08/10/2022, [mail](https://mail.google.com/mail/u/0/#inbox/QgrcJHsNhNVFqxtLVmZpzvcGJhLrfkbgjTQ)
+         1. ✅ hélicos
+            1. ✅ Le champ "échelle" ne devrait pas être rempli
+               1. ✅ Non rempli en requête, probablement confusion avec le placeholder > je retire la valeur par défaut du champ échelle.
+            2. ✅ Drones > Nombre de moteurs peut être supérieure à 4
+               1. ✅ Modification des requêtes, par défaut les drones auront un nombre de moteurs non défini
+               2. ✅ Réimport des hélicos & drones x 20
+               3. ✅ Modification du champs perso véhicules > nombre de moteurs > Ajout de la possibilité d'affecter 8 moteurs
+            3. ✅ Ajouter champ "Diamètre rotor" à côté de "Diamètre anti couple"
+               1. ✅ Création d'un nouveau champ personnalisé
+               2. ✅ Réorganisation des champs des hélicos
+               3. ✅ Création d'un nouveau produit à exporter afin de mettre à jour les requêtes
+               4. ✅ Maj les requêtes
+               5. ✅ Réimporter
+            4. ✅ Moteurs électriques
+               1. ✅ Champs persos > Faire un groupe "hélice" pour les 4 champs diamètre mix max, pas mix max
+               2. ✅ Rajouter un champ "Diamètre moteur" dans les champs persos moteur électrique
+               3. ✅ Réorganisation des champs des hélicos
+               4. ✅ Création d'un nouveau produit à exporter afin de mettre à jour les requêtes
+               5. ✅ Maj les requêtes
+               6. ✅ Réimporter
+      3. ✅ 12/10/2022, [mail](https://mail.google.com/mail/u/0/#inbox/KtbxLwgtBNcclbcqCCwnJsqWbzddJKNtkg)
+         1. ✅ Moteur thermique
+            1. ✅ Mise à jour de champs persos
+               1. ✅ Champ perso "Type de piston", à passer en groupe de bouton avec 2 valeurs "ABC", "segment"
+                  1. ✅ Modification dans le WordPress
+               2. ✅ Champ perso "Type de carburant / fuel", à passer en groupe de bouton avec 2 valeurs "méthanol", "essence"
+                  1. ✅ Modification dans le WordPress
+               3. ✅ Nouveau produit test d'export > maj export csv & lint
+               4. ✅ Maj requête craft
+               5. ✅ Maj requête finale
+            2. ✅ Import > Rajouter prix de vente, prix promo & avis clients (avant champs catégories)
+               1. ✅ Maj requête craft
+               2. ✅ Maj requête finale
+            3. ✅ Réimporter les produits
+         2. ✅ Pièces voitures
+            1. ✅ Corriger prix promo
+               1. ✅ Doc
+               2. ✅ Requête craft
+               3. ✅ Requête finale
+               4. ✅ Réimporter les produits
+         3. ✅ Radios
+            1. ✅ Corriger nom "émétteurs", repasser en radios ?
+               1. ✅ Renommer libéllé champs persos
+               2. ✅ Changer catégorie
+               3. ✅ Changer catégorie affectée
+               4. ✅ Nouveau produit + remplir champ & catégories
+               5. ✅ Exporter en csv
+               6. ✅ Lint csv
+            2. ✅♻️ Dans la description, ajouter le nom de la technologie (via CONCAT)
+               1. ✅ Attente retour concernant champs à récupérer & format > Juste séparateur, h3 techno et nom
+               2. ✅ Requête craft
+               3. ✅ Requête finale
+               4. ✅ Réimport produits
+         4. ✅ Récepteurs
+            1. ✅♻️ Dans la description, ajouter le nom de la technologie (via CONCAT)
+               1. ✅ Attente retour concernant champs à récupérer & format > Juste séparateur, h3 techno et nom
+               2. ✅ Requête craft
+               3. ✅ Requête finale
+               4. ✅ Réimport produits
+         5. ✅📧 Mail confirmation
+   2. 🌱 avion > Peut contenir des vidéos (.mpg)
+   3. 🌱 batterie > type_prise_accus > 🔗 Lien avec la table "accessoires". Produit recommandé > Prise avec lien
+   4. ✅ moteur_thermique
+       1. ✅ Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
+       2. ✅ Exporter le produit
+       3. ✅ Linter le CSV
+       4. ✅ Créer la requête
+           1. ✅ Correspondance catégories ancien PB >< WC
+           2. ✅ Champs persos > Faire un groupe "hélice" pour les 4 champs diamètre mix max, pas mix max
+           3. ✅♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
+       5. ✅ Export ancien site & import vers le nouveau site
+       6. ✅📌 Tester
+       7. ✅ Création de la requête finale
+       8. ✅📧 Faire valider
+   5. ✅ pcedetthermik
+       1. ✅ Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
+       2. ✅ Exporter le produit
+       3. ✅ Linter le CSV
+       4. ✅ Créer la requête
+           1. ✅ Correspondance catégories ancien PB >< WC
+           2. ✅ ♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
+       5. ✅ Export ancien site & import vers le nouveau site
+       6. ✅ 📌 Tester
+       7. ✅ Création de la requête finale
+       8. ✅ 📧 Faire valider
+   6. ✅ piece_heli
+       1. ✅ Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
+       2. ✅ Exporter le produit
+       3. ✅ Linter le CSV
+       4. ✅ Créer la requête
+           1. ✅ Correspondance catégories ancien PB >< WC
+           2. ✅♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
+       5. ✅ Export ancien site & import vers le nouveau site
+       6. ✅📌 Tester
+       7. ✅ Création de la requête finale
+       8. ✅📧 Faire valider
+   7. ✅ piece_voiture
+       1. ✅ Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
+       2. ✅ Exporter le produit
+       3. ✅ Linter le CSV
+       4. ✅ Créer la requête
+           1. ✅ Correspondance catégories ancien PB >< WC
+           2. ✅♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
+       5. ✅ Export ancien site & import vers le nouveau site
+       6. ✅📌 Tester
+       7. ✅ Création de la requête finale
+       8. ✅📧 Faire valider
+   8. ✅ quartz
+       1. ✅ Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
+       2. ✅ Exporter le produit
+       3. ✅ Linter le CSV
+       4. ✅ Créer la requête
+           1. ✅ Correspondance catégories ancien PB >< WC
+           2. ✅♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
+       5. ✅ Export ancien site & import vers le nouveau site
+       6. ✅📌 Tester
+       7. ✅ Création de la requête finale
+       8. ✅📧 Faire valider
+   9. ✅ radio
+       1. ✅ Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
+       2. ✅ Exporter le produit
+       3. ✅ Linter le CSV
+       4. ✅ Créer la requête
+           1. ✅ Correspondance catégories ancien PB >< WC
+           2. ✅♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
+       5. ✅ Export ancien site & import vers le nouveau site
+       6. ✅📌 Tester
+       7. ✅ Création de la requête finale
+       8. ✅   📧 Faire valider
+   10. ✅🐛BUG: description longue avec CONCAT > KO
+       1. ✅ Fixé sur boilerplate
+       2. ✅ Repasser sur l'ensemble des requêtes, catégories à fixer :
+          1. ✅ avions
+          2. ✅ bateaux
+          3. ✅ hélicos
+          4. ✅ matériaux
+          5. ✅ moteur électrique
+          6. ✅ pièces hélico
+       3. 🌱 Réimporter les produits
+   11. ✅ recepteur
+       1. ✅ Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
+       2. ✅ Exporter le produit
+       3. ✅ Linter le CSV
+       4. ✅ Créer la requête
+           1. ✅Correspondance catégories ancien PB >< WC
+           2. ✅♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
+       5. ✅ Export ancien site & import vers le nouveau site
+       6. ✅📌 Tester
+       7. ✅ Création de la requête finale
+       8. ✅📧 Faire valider
+   12. ✅ servo
+       1. ✅ Remplir ~~complètement~~ champs persos dédié un produit sur le nouveau site + cat _test_export
+       2. ✅ Exporter le produit
+       3. ✅ Linter le CSV
+       4. ✅ Créer la requête
+           1. ✅ Correspondance catégories ancien PB >< WC
+           2. ✅ ♻️ Vérifier qu'il n'y a pas de champs à crafter/refacto
+       5. ✅ Export ancien site & import vers le nouveau site
+       6. ✅📌 Tester
+       7. ✅ Création de la requête finale
+       8. ✅📧 Faire valider
+   13. ✅ voitures
+2. ✅📧 Rapport fin de semaine 14/10/2022
+3. ✅ [Maj ACF 6](https://www.advancedcustomfields.com/blog/acf-6-0-released/)
+4. ✅ Retour client [mail du 20/09/2022](https://mail.google.com/mail/u/0/#inbox/KtbxLrjRhSgXXGsXhXBlPLfTbjspxNXKdq)
+
 ## 09/10/2022
 
 AE
