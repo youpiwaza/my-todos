@@ -15,6 +15,8 @@ Légende :
 - ⏳ en attente
 - 🤏 Petite partie
 - 📝 Doc
+- 📧 email envoyé/à envoyer
+- ✨ Rien à toucher, déjà en place
 
 ## 🧠⏫ Raccourcis & process à intégrer au flow
 
@@ -34,65 +36,69 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 AE
 
-1. Retour clients changements de proprios
-2. Prévenir client évolution tarifaire
-   1. [Mail](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQSTcnMwFvNhbJVwWdplCQVrL)
-3. Maj doc Malt
-   1. [Mail](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQcnlCmhgkWnWjbfPCPQXNRQW)
+1. 🚨⏳ Payer CFE ? En attente retour
+   1. 2022 ~280€ le 15 décembre 2022
+      1. 🚨 Valider mandat
+   2. 🌱🚨 CFE rattrapage 2020
+      1. ✅ Avis en mai 2023, 473€, [à payer en juin](https://mail.google.com/mail/u/0/#inbox/KtbxLvhVcWmcxbbZhnsRMnQSnbSMnkJCGq)
+      2. ✅ Scanner courrier, captures d'écran mail, ranger dans drive
+2. Refaire CV > `/cv-portfolio-tout`
+   1. Regrouper l'ensemble des ressources
+   2. Sauvegarde github
+   3. Sauvegarde sur DD sites web
+3. Cleaner google drive > Virer ce qui sert à rien ~dump sur dd
+4. Refaire site masamune.fr
+   1. Sauvegarde github
+   2. Sauvegarde sur DD sites web
+   3. 🌱 Maj liens cv expériences pro
+      1. Pas oublier le https
+5. Refaire site blog.masamune.fr
+   1. Sauvegarde github
+   2. Sauvegarde sur DD sites web
+6. Inscription EAN
+   1. Inscription [crème de la crème](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQmNcddHDMfMMGTKJmgzNsvbd)
+   2. Inscription Jean-Paul.io
+   3. [odoo](https://www.odoo.com/fr_FR/jobs)
+   4. [capgemini](https://www.linkedin.com/safety/go?url=https%3A%2F%2Ffr.capgemini.talentnet.community%2F&trk=flagship-messaging-web&messageThreadUrn=urn%3Ali%3AmessagingThread%3A2-MjdmZGZlYjgtZjIxNy00ZDM0LTg2ODYtMzIyYzMwNzcxMzUzXzAxMg%3D%3D&lipi=urn%3Ali%3Apage%3Amessaging_thread%3B984fd009-b4db-44e3-b159-e504a3614444)
+7. [Malt PER](https://resources.malt.com/fr/freelances/articles-freelance/reduction-dimpots-avez-vous-pense-a-cette-solution/)
+8. Ajouter clause devis possibilité évolution de tarifs si sous estimation
+9. Prévenir client évolution tarifaire
+    1. [Mail](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQSTcnMwFvNhbJVwWdplCQVrL)
+10. Maj doc Malt
+    1. [Mail](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQcnlCmhgkWnWjbfPCPQXNRQW)
+11. Veille > tester wp optimize pour réduire la taille des images & pour le cache
 
 ML Architecture
 
-1. 🚀 Template `C / ProjetS` > champ ACF "relation" KO (erreur JS)
-   1. 💩📌 Désactiver les autres plugins
-   2. 📌 Thème par défaut mais ça m'étonnerait (même si il y a du JQuery dans le thème)
-   3. Besoin de maj ACF de 4 vers 6 mais possibilité que ça casse
-   4. ✅ Attente retour client devis > facture
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      1. 🚀 Editer le devis, envoyer, faire signer
-      2. Mettre en place dev
-      3. Maj plugin et voir si ca roule
-      4. Sinon revoir champs
+1. ⏳ Template `C / ProjetS` > champ ACF "relation" KO (erreur JS)
+   1. ⏳ Paiement fin novembre
 
 Perso
 
-1. Réserver concerts
+1. Cleaner google drive
+2. Réserver concerts
     1. Sabaton
        1. Agenda
-2. Rhum hellfest
-3. ♻️ Acheter flotte > magnésium
-4. 🚀 MSG maison
+3. Rhum hellfest
+4. 🚀♻️ Acheter flotte > magnésium
+5. MSG maison
     1. [Recette](https://www.youtube.com/watch?v=sE3dYCphy2M)
-5. 🔍 Régime
+6. 🔍 Régime
     1. PORK PANKO low carb !
     2. [Low carb](https://www.dietdoctor.com/low-carb) / keto
        1. Most fruits and fruit juice / **Although low-sugar berries — such as blackberries, raspberries, and strawberries — are ok in small to moderate amounts.**
     3. Keto wheat flour > farine avec prot ? [hey](https://www.youtube.com/watch?v=g2fTYDftlCg)
     4. Non fat ricotta cheese / provolone cheese
-6. gochujang
+7. gochujang
     1. [amazon](https://www.amazon.fr/s?k=gochujang+jebiwon)
     2. [idem](https://www.amazon.fr/s?k=doenjang)
-7. 🔍 Champignon Lingzhi contre la fatigue & insomnie
-8. [Figs Claymore](https://figurama-collectors.com/collections/claymore/products/claymore-teresa-vs-priscilla-elite-exclusive-statue?variant=38322217484463) si le site fonctionne un putain de jour
-9. Réserver saut en parachute
-10. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg)
+8. 🔍 Champignon Lingzhi contre la fatigue & insomnie
+9. [Figs Claymore](https://figurama-collectors.com/collections/claymore/products/claymore-teresa-vs-priscilla-elite-exclusive-statue?variant=38322217484463) si le site fonctionne un putain de jour
+10. Réserver saut en parachute
+11. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg)
     1. Carte liberté valable juqu'au 19/10/22
     2. Promo carte 50% en ce moment
-11. 🌱 Orga anniv pougnoutte mars 2023
+12. 🌱 Orga anniv pougnoutte mars 2023
     1. Idées cadeaux
        1. Vélo, a voir en revenant de vacances
        2. Robe style médiéval, demander à Mélanie
@@ -104,21 +110,54 @@ Perso
     4. Demander si logement déjà vu
     5. Voir pour cagnotte permis moto
     6. Medieval tents
+13. [Resto reims](https://www.google.com/maps/place/LA+GRILLADI%C3%88RE+REIMS)
 
 PB Modelisme
 
-1. ✅⬆️ Mise à jour de WordPress
-2. 🚀 Import l'ensemble des catégories
-   1. ♻️💥 Retour clients prioritaires
-      1. En attente de retours
-   2. 🔍 Réductions de prix réduit en cas de commande de multiples éléments
-3. 🚨 Import final
-   1. Sauvegarde, y compris config plugins & themes
-   2. Nettoyer BDD WordPress avant
-   3. Importer chaque catégorie
-4. Enlever numéro identification CNIL des mentions légales
-5. 👪 Poser RDV PB & nonore, photos avec Reflex de la boutique afin d'illustrer le site
-6. Tâches relatives au RDV client du jeudi 01/09/22
+1. ⏳♻️💥 Retour clients prioritaires
+   1. ⏳ Mail 2 du 12/11/2022 [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqRZcqsRzxwbhFWDZWMNzBxgCW)
+      1. Ajouter moyen de paiement Mandat administratif
+      2. ⏳ Trop petit, texte illisible ?
+2. ⏳🐛 Réductions de prix réduit en cas de commande de multiples éléments
+   1. 📝 Nom du dossier dans /plugins : `wholesale-pricing-woocommerce`
+   2. 🐛 Prix différents entre panier menu (quad) & page panier
+      1. 🐛 Quad menu affiche le prix sans TVA
+   3. ⏳🐛 Correction des bugs
+      1. ⏳📧 Contact support > [Topic créé](https://wpfactory.com/?post_type=topic&p=93873) le 21/10/2022
+      2. Admin
+         1. Champ prix > Ajouter des nombres derrière la virgule, limité à 4 actuellement, passer à 10
+      3. Panier
+         1. Avec réduction
+            1. Ligne produit
+               1. Prix réduit à l'unité affiché en HT
+               2. Vérifier % de réduction
+   4. 🐛 Traduction (fichiers pot po mo) non pris en compte
+      1. ⏳ Topic créé sur le [forum](https://wpfactory.com/support/topic/bug-translations-not-working/)
+   5. 🌱 Reste à passer les opérations manuelles
+3. ♻️📌 Cazou instinct > Vérif ovh manage > place dispo serveurs
+   1. 22/11/15
+      1. fichier > Espace disque > 8.56 Go / 500 Go
+      2. bdd > Espace utilisé > 653 Mo / 8 Go
+         1. RAM 512Mo > 3 dépassements de mémoire > Max 100
+4. 🚀 Affichage front ACF
+   1. ✅🔍 Docs
+       1. ✅ Doc officelle [intro inté](https://www.advancedcustomfields.com/resources/displaying-custom-field-values-in-your-theme/)
+       2. ✅ Doc officelle [Codes examples](https://www.advancedcustomfields.com/resources/code-examples/)
+       3. ✅ [Tuto exemples](https://capitainewp.io/formations/acf/champ-relationnel/)
+       4. ✅ [WC edit product page](https://wedevs.com/fr/blog/382711/how-to-customize-woocommerce-product-page/)
+          1. Fichiers WC dans theme enfant
+             1. `single-product.php` – this builds the structure of the page template.
+             2. `content-single-product-php` – this fills the template with the content for each product.
+             3. Hooks dans `functions.php` pour ajouter/retirer des éléments (tabs notamment)
+       5. ✅ [WP child theme](https://developer.wordpress.org/themes/advanced-topics/child-themes/)
+   2. 🚀 Affichage des champs personnalisés ACF
+      1. ✅🔗 Lien de test [produit avec tous les champs remplis](https://dev.pb-modelisme.com/produit/pirate-baja-2-4ghz/)
+      2. Gestion de l'affichage conditionnel (= si != catégorie, ne pas afficher)
+         1. 🔍 [Hiding empty fields](https://www.advancedcustomfields.com/resources/hiding-empty-fields/)
+      3. Repasse champs vrai/faux pour afficher les libellés corrects, cf. drive "Structure de données"
+      4. Mail Cédric
+      5. Intégrer onglets supplémentaires écrémés à l'import
+5. Tâches relatives au RDV client du jeudi 01/09/22
     1. Gestion des ventes caisses
        1. 🔍 Moyens de paiements
           1. Paypal
@@ -126,34 +165,22 @@ PB Modelisme
     2. Clients hors UE & dom tom > pas de TTC
        1. Voir pour utiliser plugin ~membre club > assigner classe taxe ?
     3. Installer [WPC Frequently Bought Together for WooCommerce](https://fr.wordpress.org/plugins/woo-bought-together/) / Produits fréquemment achetés ensemble
-    4. 🐛 logo accueil ne renvoie pas vers la page d'accueil
-    5. ⚡️💄 Menu principal
+    4. ⚡️💄 Menu principal
        1. Faire une proposition de menu amélioré (images / onglets, etc.)
        2. Faire une proposition de rubriques optimisées
        3. Voir avec Nonore
-    6. Footer
-       1. Virer france relance
-       2. éviter couper les lignes sur 2 lignes
-       3. logo paypal faire une seule image avec l'autre
-       4. image paiements > Chèques & mandats, remplacer par "Chèques"
-          1. Augmenter hauteur, cf image footer PAS pleine largeur
-       5. Rajouter les liens vers les pages
-    7. Générer Code barre PB ? Revoir avec cedric
-    8. Page [Contact](https://dev.pb-modelisme.com/contact/)
+    5. Générer Code barre PB ? Revoir avec cedric
+    6. Page [Contact](https://dev.pb-modelisme.com/contact/)
        1. Vérifier cookies machins (carte)
        2. Rajouter Captcha
        3. Formulaire > Peut importe le service, envoyer à la meme adresse mail
-    9. Page [Marques](https://dev.pb-modelisme.com/marques-partenaires/) > Revoir le contenu de la page
+    7. Page [Marques](https://dev.pb-modelisme.com/marques-partenaires/) > Revoir le contenu de la page
        1. Première partie colonnage par type de véhicules
           1. Chaque colonne contient 3 à 5 marques choisies pour ce type de véhicules
        2. En 2eme partie - broder du contenu on a plein de marque
        3. 3eme partie > liste de A a Z
-    10. Pages "législation"
-        1. Homogénéiser "PB Modélisme"
-    11. Page [Mentions légales](https://dev.pb-modelisme.com/mentions-legales/)
-        1. Rajouter mention "Textes et photos non contractuels"
-    12. Marques > Possibilité d'affichage front conditionnel, toutes les marques "attention", ~chinoiseries
-    13. Réception des commandes, gros blocs à traiter en priorité après les imports de produits
+    8. Marques > Possibilité d'affichage front conditionnel, toutes les marques "attention", ~chinoiseries
+    9. Réception des commandes, gros blocs à traiter en priorité après les imports de produits
         1. Se remettre dans le jus, cf. cahier des charges
         2. 👪 Tout remettre au clair avec Cédric
         3. Tâches
@@ -161,33 +188,47 @@ PB Modelisme
            2. Affichage automatique des produits dont la commande a été passée avec l'état "en réapprovisionnement" afin de pouvoir honorer la fin de commande des la reception
               1. Avec impression auto également, mais avec nom client et n° commande en plus
               2. Faire un test de parcours utilisateur qui passe une commande avec un produit en reapprovisionnement, puis maj le stock et voir comment cela marche + impriessions ecrans et retours Cédric
-7. Affichage front ACF
-    1. [Tuto](https://capitainewp.io/formations/acf/champ-relationnel/)
+6. Tâches relatives au RDV client du jeudi 20/10/2022
+   1. Front > Autoriser les commandes en réapprovisionnement ?
+      1. 💩🔍 plugin > "stock status" > Ajout un type de status de stock "sur commande"
+         1. Pas de plugin lorsque la gestion du stock est activée (Type de stock != #produits en stock + type réapprovisionnement) > Ca sera géré en front à l'aide des champs custom
+      2. Adapter le front
+         1. AFF___ Etat 2 & 📝 Sur commande VRAI
+            1. > Front > "En réapprovisionnement"
+         2. AFF___ Etat 2 & 📝 Sur commande FAUX
+            1. > Front > "Sur commande"
+7. Tâches relatives au RDV client du jeudi 04/11/2022
+    1. Page reliquats clients > - Créer un nouveau statut de commande "Article/s en attente"
+       1. Commande partiellement honorée (produit pas en stock en attente, articles sur commande uniquement, problème stock)
 8. Autoriser la recherche par SKU/UGS, & par les autres refs
-9.  🌱 Importer les anciens comptes clients ?
+9. 👪 Poser RDV PB & nonore, photos avec Reflex de la boutique afin d'illustrer le site
+10. 🌱 Importer les anciens comptes clients ?
     1. Besoin des articles
-10. 🌱 Importer les commandes
+11. 🌱 Importer les commandes
     1. Besoin des articles & des comptes clients
     2. Plugin [Product Import Export for WooCommerce](https://wordpress.org/plugins/product-import-export-for-woo/) ?
        1. The Order Export & Order Import for WooCommerce Add-On is required to export WooCommerce Orders.
-11. Plugin de bundle en freemium, [prix pas déconnant](https://wpclever.net/downloads/product-bundles/)
-12. Apparence > Personnaliser > WooCommerce (pages profondes & générées automatiquement)
-13. 📧 Repasse catégories > Notes pour clients
+12. Plugin de bundle en freemium, [prix pas déconnant](https://wpclever.net/downloads/product-bundles/)
+13. Apparence > Personnaliser > WooCommerce (pages profondes & générées automatiquement)
+14. 📧 Repasse catégories > Notes pour clients
     1. Il y a énormément de catégorie redondantes / inutiles, ex matériaux > plaques
        1. Ptet voir pour faire une grosse repasse et faire des catégorie générales, avec des taxonomies
           1. Ex: plutôt que "plaque lisse blanche" "plaque lisse noire" "plaque pavage" > plaque avec attributs couleur & texture...
           2. "Tube carré" "Tube rond" >> Tubes > forme
-14. Devis > Bouton client, passer à état "commande en cours"
-15. Fin de site
-    1. ACF > Ranger champs en onglets ptet ? [doc](https://www.advancedcustomfields.com/resources/tab/)
-    2. wp-config > DEBUG true > & cleaner un  peu si possible
-    3. Liens menus > virer liens persos "#" & remplacer par le bon contenu dynamique
-    4. Doc : css custom des menus : Admin wp > quad menu > options > [customize](https://dev.pb-modelisme.com/wp-admin/admin.php?page=quadmenu_options)
-    5. Installer plugin wishlist [mais pas celui la (KO)](https://fr.wordpress.org/plugins/woo-smart-wishlist/)
-    6. Après import complet & vérifié (plus d'imports de produits à faire), harmoniser les noms de catégories
+15. Devis > Bouton client, passer à état "commande en cours"
+16. Fin de site
+    1. Politiques RGPD cookies + Maj page, footer
+    2. Mentions & CGV > Mettre à jour la date de changement
+    3. ACF > Ranger champs en onglets ptet ? [doc](https://www.advancedcustomfields.com/resources/tab/)
+    4. wp-config > DEBUG true > & cleaner un  peu si possible
+    5. Liens menus > virer liens persos "#" & remplacer par le bon contenu dynamique
+    6. Doc : css custom des menus : Admin wp > quad menu > options > [customize](https://dev.pb-modelisme.com/wp-admin/admin.php?page=quadmenu_options)
+    7. Installer plugin wishlist [mais pas celui la (KO)](https://fr.wordpress.org/plugins/woo-smart-wishlist/)
+    8. Après import complet & vérifié (plus d'imports de produits à faire), harmoniser les noms de catégories
        1. cf. export cat `/_docs/craft-and-tests/18-requetes-import-completes-pour-chaque-categorie_secret/crafts/_liste-libelles-categories-pour-wc/03-export-wc-categories-lint-et-alpha.md`
-    7. Catégories "divers ET ..." > Faire une catégorie "divers" et une catégorie "..."
-16. 🌱 Plus tard
+    9. Catégories "divers ET ..." > Faire une catégorie "divers" et une catégorie "..."
+    10. 404
+17. 🌱 Plus tard
     1. Expéditions > génération des borderaux ? En fonction des prestas ?
     2. Homologation logiciel de caisse
        1. Sauvegardes extérieures immuables
@@ -195,101 +236,42 @@ PB Modelisme
 
 Arrêter dev serveur & hebergement
 
-1. Migrer clients
-   1. Ancien serveur
-      1. Identifiants
-         1. ftp > Enregistré dans winscp
-         2. [mysql](http://94.23.208.218/phpMyAdmin-NEW/) > Enregistré dans dashlane
-      2. masamune
-         1. 🚀 clean secrets ids ffs
-         2. blog--masamune--fr
-            1. Repartir d'une base propre WP et récupérer/convertir les trucs 1 par 1
-         3. masamune--fr
-            1. Refonte complète du site
-               1. Checker image signature gmail
-               2. 🚀 Virer woocommerce & cleaner bdd
-               3. 🚀 Page Contact
-                  1. Captcha
-                  2. Tester formulaire
-                  3. SPF DKIM DMARC
-               4. Cours particuliers code > 50€ heure (+, compter impôts)
-            2. Fin du site
-               1. Vérifier toutes les pages (liens, traductions)
-               2. Page plan du site
-               3. Menus
-               4. Mentions légales > Lien page de contact
-               5. analyse des cookies + maj RGPD et éventuellement bandeau
-         4. Github > projet dédié checklist fin de site, à partir de [chaos](https://github.com/youpiwaza/chaos-boilerplate-front)
-      3. Résilier ancien serveur
-2. 💥📌 Migration changer propriétaire > mettre dans "domaine" le nom de l'hébergement
-   1. Retour support ovh "Veillez à bien inclure votre nom de service "XXX.cluster029.hosting.ovh.net" dans "domaine"."
-   2. ⏳ com--aldinfographie
-      1. 💩 Vérifier passations NDDs "Déjà en cours de changement de propriétaire"
-         1. ⏳ Attente de voir si changement margot ok puis relance
-      2. ⏳ Passation hébergement
-          4. Passation
-             1. Demande + réception PDF
-             2. Compléter PDF, need signature à la main
-                1. Max
-                2. Nonore
-             3. Sauvegarder PDFs dans drive
-             4. Pièces jointes
-                1. Max > Pièce identité
-                2. Nonore > Pièce identité
-             5. Envoi à suivi-procedure@ovh.net
-             6. Validation
-   3. ⏳ com--champagne-didier-lapie
-      1. 💩 Vérifier passations NDDs "Déjà en cours de changement de propriétaire"
-         1. ⏳ Attente de voir si changement margot ok puis relance
-      2. ⏳ Passation hébergement
-          4. Passation
-             1. Demande + réception PDF
-             2. Compléter PDF, need signature à la main
-                1. Max
-                2. Lapie
-             3. Sauvegarder PDFs dans drive
-             4. Pièces jointes
-                1. Max > Pièce identité
-                2. Lapie > Pièce identité
-             5. Envoi à suivi-procedure@ovh.net
-             6. Validation
-   4. ⏳ com--sophieberberian
-      2. ⏳ Passation hébergement
-          3. ⏳ Passation
-             1. Demande + réception PDF
-             2. Compléter PDF, need signature à la main
-                1. Max
-                2. Bedot
-             3. Sauvegarder PDFs dans drive
-             4. Pièces jointes
-                1. Max > Pièce identité
-                2. Bedot > Pièce identité
-             5. Envoi à suivi-procedure@ovh.net
-             6. Validation
-   5. com--champagne-pascal-picard
-      1. 💥💥💥 Faire facture noms de domaines 2022, cf. bureau
-      2. ⏳ Passation hébergement
-         1. ⏳ Passation
-             1. Demande + réception PDF
-             2. Compléter PDF, need signature à la main
-                1. Max
-                2. Bedot
-             3. Sauvegarder PDFs dans drive
-             4. Pièces jointes
-                1. Max > Pièce identité
-                2. Bedot > Pièce identité
-             5. Envoi à suivi-procedure@ovh.net
-             6. Validation
-   6. ⏳ MKasza
-      1. 💩 Vérifier passations NDDs "Déjà en cours de changement de propriétaire"
-      2. 📌 Relance, si ça marche go relancer les autres
-3. ⏳ Résilier nouveau serveur
-   1. ✅ Demander résiliation
-   2. ⏳ Effectif 1er novembre 2022
-4. 🤏 Virer la merde de _dev/
-5. Remettre tous les anciens trucs max dans un seul dossier sur un seul dd (~bureau ancien pc)
-   1. & dossier Bureau/shame
-6. Cleaner google drive
+1. Ancien serveur, tous les mois le 1er 38€40, ne reste que les sites masamune
+   1. 🔑 Identifiants
+      1. ftp > Enregistré dans winscp
+      2. [mysql](http://94.23.208.218/phpMyAdmin-NEW/) > Enregistré dans dashlane
+   2. 🤏 Virer la merde de _dev/
+   3. masamune
+      1. clean secrets ids ffs
+      2. cv
+      3. blog--masamune--fr
+         1. Repartir d'une base propre WP et récupérer/convertir les trucs 1 par 1
+      4. masamune--fr
+         1. Refonte complète du site
+            1. Checker image signature gmail
+            2. Virer woocommerce & cleaner bdd
+            3. Page Contact
+               1. Captcha
+               2. Tester formulaire
+               3. SPF DKIM DMARC
+            4. Cours particuliers code > 50€ heure (+, compter impôts)
+         2. Fin du site
+            1. Vérifier toutes les pages (liens, traductions)
+            2. Page plan du site
+            3. Menus
+            4. Mentions légales > Lien page de contact
+            5. analyse des cookies + maj RGPD et éventuellement bandeau
+      5. Github > projet dédié checklist fin de site, à partir de [chaos](https://github.com/youpiwaza/chaos-boilerplate-front)
+      6. Remettre tous les anciens trucs max dans un seul dossier sur un seul dd (~bureau ancien pc)
+         1. & dossier Bureau/shame
+   4. Résilier ancien serveur
+2. Proposition les clients commandent leur propre hébergement (promo black friday)
+   1. ⏳ com--aldinfographie
+   2. ⏳ com--champagne-didier-lapie
+      1. 🚀 Serveur commandé, à migrer
+   3. ⏳ com--sophieberberian
+   4. ⏳ com--champagne-pascal-picard
+   5. ⏳ com--margot-kasza
 
 Environnement de dev local clean
 
@@ -365,7 +347,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 
 ```bash
 omz update
-git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade && sudo apt -y autoremove && docker system prune -af
+git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade && sudo apt -y clean && sudo apt -y autoremove && docker system prune -af
 ```
 
 - ⏳ Téléphone
@@ -452,7 +434,7 @@ Rieng
 3. Concert [BFMV & Jinjer](https://www.songkick.com/concerts/40452239-bullet-for-my-valentine-at-lolympia)
 4. Concert sum41 & simple plan 20/07/22 Paris bercy ? [hey](https://www.seetickets.com/fr/tr/event/sum-41-simple-plan/accor-arena/8818007)
 5. Trouver logiciel budget couple
-6. 🚀 Musiques taf & portable
+6. Musiques taf & portable
 7. Blog groupe metal que j'aime bieng ou pas en concert
 8. Films
     1. Ciné

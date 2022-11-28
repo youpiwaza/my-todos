@@ -2,6 +2,520 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 25/11/2022
+
+AE
+
+1. ✅ Retour clients changements de proprios
+
+PB Modelisme
+
+1. 🚀 Affichage front ACF
+   1. ✅🔍 Docs
+       1. ✅ Doc officelle [intro inté](https://www.advancedcustomfields.com/resources/displaying-custom-field-values-in-your-theme/)
+       2. ✅ Doc officelle [Codes examples](https://www.advancedcustomfields.com/resources/code-examples/)
+       3. ✅ [Tuto exemples](https://capitainewp.io/formations/acf/champ-relationnel/)
+       4. ✅ [WC edit product page](https://wedevs.com/fr/blog/382711/how-to-customize-woocommerce-product-page/)
+          1. Fichiers WC dans theme enfant
+             1. `single-product.php` – this builds the structure of the page template.
+             2. `content-single-product-php` – this fills the template with the content for each product.
+             3. Hooks dans `functions.php` pour ajouter/retirer des éléments (tabs notamment)
+       5. ✅ [WP child theme](https://developer.wordpress.org/themes/advanced-topics/child-themes/)
+   2. ✅ Création d'un thème enfant
+      1. ✅ `style.css` & `functions.php`
+         1. `single-product.php` > Grosso merdo appel des header/boucle wp/footer
+         2. `content-single-product-php` > commence en dessous du fil d'arianne
+      2. ♻️📝 Faire la doc
+         1. cf. `pb-modelisme--com/wordpress/wp-content/themes/Divi-child-for-pb`
+   3. 🚀 Affichage des champs personnalisés ACF
+      1. ✅🔗 Lien de test [produit avec tous les champs remplis](https://dev.pb-modelisme.com/produit/pirate-baja-2-4ghz/)
+      2. 🚀 Affichage ~brut des valeurs pour les différents types de champs
+         1. ✅👪 Champs personnalisés communs à tous les produits
+         2. ✅🏎️ Champs personnalisés pour les véhicules & maquettes
+         3. ✅ accessoires
+         4. ✨ acctx
+         5. ✅ avion
+            1. 🚨 Affichage conditionnel servis recommandés (relation ou catégorie)
+         6. ✅ bateaux
+         7. ✅ batterie
+         8. ✅ bougie
+         9. ✅ carburant
+         10. ✅ chargeur
+         11. ✅ controleur
+             1. 🚨 Affichage conditionnel Ce frein est-il optionnel / progressif ?
+         12. ✅ heliceavion
+         13. ✅ helico
+         14. ✅ maquette
+         15. ✅ matprem
+         16. ✅ moteur_electrique
+         17. ✅ moteur_thermique
+         18. ✨ pcedetthermik
+         19. ✅ piece_heli
+         20. ✅ piece_voiture
+         21. ✅ quartz
+         22. ✅ radio
+         23. ✅ recepteur
+         24. ✅ servo
+         25. ✅ voitures
+      3. ✅ Affichage condtionnel du debug, avec variable dans `wp-config.php`
+      4. 🐛 Gestion des conflits
+         1. 💩 Pas besoin de retoucher aux requêtes (même si ça serait plus propre)
+            1. ✅🔍 [ACF > get_field($selector, ...)](https://www.advancedcustomfields.com/resources/get_field/)
+               1. 💩📌 `$selector (string) (Required) The field name or field key.`
+               2. Même si les identifiants utilisés sont différents, le dernier champ ambigu surcharge l'ensemble des autres, peut importe si on utilise l'identifiant ACF
+         2. ✅ Faire une repasse sur l'ensemble des champs afin de déterminer les champs ambigus
+            1. ✅ CR dans `18-requetes-import-completes-pour-chaque-categorie_secret/README.md` > `## Lever les ambiguités`
+            2. ✅🧮 11 champs en conflit, 12 tables à corriger/ré-importer
+         3. ✅🎯 Mise à jour des champs personnalisés dans le WordPress
+         4. ✅🎯 Mise à jour des données dans le produit de test
+         5. ✅🎯 Front > Mettre à jour les libellés des champs
+            1. ✅📌🎯 Vérification de l'affichage correcte des valeurs dans le front
+         6. ✅ MAJ SSTs
+            1. ✅ Doc 10 champs persos
+            2. ✅ Doc drive structure
+         7. ✅ Export WP afin d'avoir les nouveaux identifiants des champs
+            1. ✅ lint
+         8. ✅ Mise à jour des requêtes
+            1. 🎯 craft
+            2. 🎯 finales
+            3. 🎯 Ré-import afin de mettre à jour les produits
+         9. ✅ Validation pour l'ensemble des catégories 🎯x7 pour les étapes ci-dessus (afin de ne pas avoir wat milles listes)
+            1. ✅✅✅✅ ✅✅✅ Avions
+            2. ✅✅✅✅ ✅✅✅ Bateaux
+            3. ✅✅✅✅ ✅✅✅ Batteries / Accus
+            4. ✅✅✅✅ ✅✅✅ Bougies
+            5. ✅✅✅✅ ✅✅✅ Chargeur
+            6. ✅✅✅✅ ✅✅✅ Hélicos & drones
+            7. ✅✅✅✅ ✅✅✅ Moteurs électriques
+            8. ✅✅✅✅ ✅✅✅ Moteurs thermiques
+            9. ✅✅✅✅ ✅✅✅ Pièces détachées hélicoptères
+            10. ✅✅✅✅ ✅✅✅ Quartz
+            11. ✅✅✅✅ ✅✅✅ Radios
+            12. ✅✅✅✅ ✅✅✅ Récepteur
+
+## 20/11/2022
+
+ML Architecture
+
+1. ✅ 3 pétouilles alakon, cf [mail](https://mail.google.com/mail/u/0/#inbox/KtbxLwghkWBFrKdfjKdJcNfJTVnNJmqBbq).
+   1. ✅ Virer infos en bas
+   2. ✅ Conserver icône linked in & insta
+   3. ✅ Mobile image plus grande en hauteur
+
+Perso
+
+1. ✅ Checker remboursement Psy
+   1. ✅ Ameli > Mes démarches > Suivre > Consulter délais traitement blah
+
+PB Modelisme
+
+1. 🚀 Import l'ensemble des catégories
+   1. ✅♻️💥 Retour clients prioritaires
+      1. ✅ Mail du 12/11/2022 [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqRZcqsPkdWfLLXVnQpMszhTFC)
+         1. ✅⏳ Ajustement des catégories > en attente de plusieurs fichiers clean, cf. réponse au mail.
+         2. ✅🌱 Plus tard
+      2. ⏳ Mail 2 du 12/11/2022 [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqRZcqsRzxwbhFWDZWMNzBxgCW)
+         1. Ajouter moyen de paiement Mandat administratif
+         2. ⏳ Trop petit, texte illisible ?
+   2. ⏳🐛 Réductions de prix réduit en cas de commande de multiples éléments
+      1. 📝 Nom du dossier dans /plugins : `wholesale-pricing-woocommerce`
+      2. 🐛 Prix différents entre panier menu (quad) & page panier
+         1. 🐛 Quad menu affiche le prix sans TVA
+      3. ⏳🐛 Correction des bugs
+         1. ⏳📧 Contact support > [Topic créé](https://wpfactory.com/?post_type=topic&p=93873) le 21/10/2022
+         2. Admin
+            1. Champ prix > Ajouter des nombres derrière la virgule, limité à 4 actuellement, passer à 10
+         3. Panier
+            1. Avec réduction
+               1. Ligne produit
+                  1. Prix réduit à l'unité affiché en HT
+                  2. Vérifier % de réduction
+      4. ⏳ Traduction (fichiers pot po mo)
+         1. 💩 Uploadé mais KO / Pas utilisé ?
+            1. ⏳ Topic créé sur le [forum](https://wpfactory.com/support/topic/bug-translations-not-working/)
+            2. RTFM Go readme > rieng
+            3. [doc en ligne](https://wpfactory.com/item/product-price-by-quantity-for-woocommerce/)
+2. 🚀 Import final
+   1. ✅ Vérifier pas mal de produits pas importés > manque image ?
+      1. ✅ Relance de l'import du site pb actuel en limitant le nombre de transferts 9 > 2 SFSG
+      2. ✅ Renvoyer les fichiers sur le novueau site
+      3. ✅ Relancer les imports
+         1. ✅📧 CR Cédric produits non importés
+         2. ✅ accessoires
+         3. ✅ acctx
+         4. ✅ avion
+         5. ✅ bateaux
+         6. ✅ batterie
+         7. ✅ bougie
+         8. ✅ carburant
+         9. ✅ chargeur
+         10. ✅ controleur
+         11. ✅ heliceavion
+         12. ✅ helico
+         13. ✅ maquette
+         14. ✅ matprem
+         15. ✅ moteur_electrique
+         16. ✅ moteur_thermique
+         17. ✅ pcedetthermik
+         18. ✅ piece_heli
+         19. ✅ piece_voiture
+         20. ✅ quartz
+         21. ✅ radio
+         22. ✅ recepteur
+         23. ✅ servo
+         24. ✅ voitures
+   2. 📝🌱 Note pour le futur : principalement des 404, timeouts, mauvais types de fichiers (pdf), et quelques rares occurences de mauvais chemins ( ~ `pbmodelisme/categorie/.`)
+      1. Majorité d'erreurs dans les accesoires
+      2. CR envoyé par mail et dans `18-requetes-import-completes-pour-chaque-categorie_secret/README.md`
+3. 📌 Cazou instinct > Vérif ovh manage > place dispo serveurs
+   1. fichier > Espace disque > 8.56 Go / 500 Go
+   2. bdd > Espace utilisé > 653 Mo / 8 Go
+      1. RAM 512Mo > 3 dépassements de mémoire > Max 100
+4. 💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩💩 Mise en place d'un local classique (docker lag)
+    1. 💩 ~~Wamp~~ Xamp
+       1. 🔍 [Doc windows FAQ](https://www.apachefriends.org/fr/faq_windows.html)
+    2. 🚀 Ré-installation BDD
+       1. ✅ Création de la base ~~> Non, instruction dans l'export~~
+          1. Obligatoire, encodage chelou
+          2. Nom de la base "dev_N8h6v0" > Encodage classique ~utf8mb4_general_ci
+       2. ✅Export de la base dev
+          1. 💩 Export complet > plante > yay
+          2. ✅📌 Tests
+             1. 🔧 Taille maxi 50k > 500k
+             2. 💩 Super moit moit > KO
+             3. 💩 Tout sauf posts > KO
+             4. ✅ Seulement les posts OK / long
+             5. ✅ Tout sauf postmeta, posts, termmeta, terms
+             6. ✅ Seulement les postmeta OK / long
+             7. ✅ Seulement les termmeta OK / Très court
+             8. ✅ Seulement les terms OK / Très court
+             9. 💩 Seulement les posts & postmeta
+             10. ✅ Tout sauf postmeta
+          3. ✅✅ Solution SANS DROP & Create Database, compat. MYSQL40
+             1. ✅ Tout sauf postmeta
+             2. ✅ postmeta
+       3. 💩 Import de la base dev
+          1. 📝 Virer importation partielle, Compat. MYSQL40
+          2. ✅ Tout sauf postmeta
+          3. postmeta
+             1. 💩 `Fatal error: Maximum execution time of 300 seconds exceeded in C:\xampp\phpMyAdmin\libraries\classes\File.php on line 687`
+             2. 💩📌 conf > `php.ini`
+                1. `max_execution_time=600`
+                2. `max_input_time=600`
+                3. `memory_limit=1024M`
+                4. `user_ini.cache_ttl = 300` > `user_ini.cache_ttl = 30000`
+             3. 💩📌 conf > sql > my.ini > tout monter
+             4. 💩📌 SO > `xampp\phpMyAdmin\libraries\config.default.php` > `$cfg['ExecTimeLimit'] = 0;` > no limit
+             5. 💩📌 SO > `xampp\phpMyAdmin\libraries\config.default.php` > `$cfg['ExecTimeLimit'] = 1500;` > x 5
+             6. 💩📌 SO > `php.ini` > `mysql.connect_timeout = 3` > `1000`
+             7. ✅💩 Vérifier le `php.ini` utilisé via `phpinfo()`
+                1. Loaded Configuration File `C:\xampp\php\php.ini`
+                2. Il a bien été modifié
+             8. 💩📌 Sinon lors de l'import > Interruption partielle > puis reprendre à partir de la ligne XXX
+                1. L'importation précédente a excédé le délai ; retransmettre, et le traitement reprendra à la position 81697268. lel
+                2. L'importation précédente a excédé le délai ; retransmettre, et le traitement reprendra à la position 81727848. **81 millions**
+                3. Error syntaxe lolilol
+             9. ✅♻️ Redémarrer apache, voir reboot
+             10. 💩📌 Importer la base avant l'import des tous les produits > Erreur
+       4. ✅ Se connecter à la base dev en ligne osef
+    3. ✅ Mise en place fichiers
+       1. ✅ Copiay collay
+          1. 💩📌 Tayste > erreur php
+             1. ✅ Réimporter fichiers
+          2. Si toujours KO > Récupérer installation fraîche de wordpress pour wp-admin & wp-include
+    4. ✅ Adaptay wp-config.php
+       1. `define( 'WP_HOME', 'http://yoursiteurl.com' );`
+       2. `define( 'WP_SITEURL', ‘http://yoursiteurl.com' );`
+       3. Erreur lors de la connexion à la base de données
+          1. ✅ OVH manager > ip autorisées
+    5. 💩 Urls KO, pas de https azy ça me broie les burnes avec une finesse de l'ordre du micron, ct'a peine croyab'
+    6. C'est vraiment indécent d'avoir autant d'emmerdes sur un truc aussi con putain
+    7. > Taf en ligne sur le dev
+5. 🚀 Affichage front ACF
+   1. ✅🔍 Docs
+       1. ✅ Doc officelle [intro inté](https://www.advancedcustomfields.com/resources/displaying-custom-field-values-in-your-theme/)
+       2. ✅ Doc officelle [Codes examples](https://www.advancedcustomfields.com/resources/code-examples/)
+       3. ✅ [Tuto exemples](https://capitainewp.io/formations/acf/champ-relationnel/)
+       4. ✅ [WC edit product page](https://wedevs.com/fr/blog/382711/how-to-customize-woocommerce-product-page/)
+          1. Fichiers WC dans theme enfant
+             1. `single-product.php` – this builds the structure of the page template.
+             2. `content-single-product-php` – this fills the template with the content for each product.
+             3. Hooks dans `functions.php` pour ajouter/retirer des éléments (tabs notamment)
+       5. ✅ [WP child theme](https://developer.wordpress.org/themes/advanced-topics/child-themes/)
+   2. ✅ Création d'un thème enfant
+      1. ✅ `style.css` & `functions.php`
+      2. ✅📌 Upload & test > Rien qui saute, good
+      3. ✅📌 Test surcharge des deux fichiers wc
+         1. `single-product.php` > Grosso merdo appel des header/boucle wp/footer
+         2. `content-single-product-php` > commence en dessous du fil d'arianne
+      4. ♻️📝 Faire la doc
+         1. cf. `pb-modelisme--com/wordpress/wp-content/themes/Divi-child-for-pb`
+   3. ✅💾 Sauvegarder sur git
+      1. ✅🙈 Maj `.gitignore`
+   4. 🚀 Affichage des champs personnalisés ACF
+      1. ✅🔗 Lien de test [produit avec tous les champs remplis](https://dev.pb-modelisme.com/produit/pirate-baja-2-4ghz/)
+         1. ✅ Ajouter l'ensemble des catégories liées aux champs & remplir
+      2. ✅ (re)prise en main de la syntaxe
+      3. ✅ (re)prise en main des différents types de champs
+      4. 🚀 Affichage ~brut des valeurs pour les différents types de champs
+         1. ✅👪 Champs personnalisés communs à tous les produits
+         2. ✅🏎️ Champs personnalisés pour les véhicules & maquettes
+         3. ✅ accessoires
+         4. ✨ acctx
+         5. ✅ avion
+            1. 🚨 Affichage conditionnel servis recommandés (relation ou catégorie)
+         6. ✅ bateaux
+         7. ✅ batterie
+         8. ✅ bougie
+         9. ✅ carburant
+         10. ✅ chargeur
+         11. 🚀 controleur
+
+## 13/11/2022
+
+PB Modelisme
+
+1. ✅👪 RDV client du 20/10/2022
+   1. ✅ Compte rendu + Ajout des tâches à la TODO
+   2. ✅ Envoyer CR par mail à Cédric
+2. ✅👪 RDV client du 04/11/2022
+   1. ✅ Compte rendu + Ajout des tâches à la TODO
+   2. ✅ Envoyer CR par mail à Cédric
+      1. ✅ Envoyer a Cédric lien vers pages utilisateur fournies par WC et faire un point
+3. 🚀 Import l'ensemble des catégories
+   1. ✅♻️💥 Retour clients prioritaires
+      1. ✅ Tâches relatives au RDV client du jeudi 20/10/2022
+         1. ✅ Front > Virer la colonne de droite (lors de l'import ?) > Paramètre de page divi > Pas de barre latérale
+         2. ✅ Export avec & sans, diff
+         3. ✅📌 Test mise à jour requête > sur les hélicos
+         4. ✅ Mise à jour de l'ensemble des requêtes d'import & dernière des crafts
+      2. ✅ Tâches relatives au RDV client du jeudi 20/10/2022
+         1. Champs persos communs a tous > fournisseurs > identifiants
+            1. ✅🆔 Identifiant devient 🆔 Identifiant du fournisseur
+            2. ✅ Rajouter dans le répéteur un champ "Nom du fournisseur"
+               1. ✅ Populer les données via une requête ~CASE
+                  1. 📝 L'identifiant du fournisseur relie à la table marque
+                  2. ✅ Créer un produit > remplir > exporter
+                  3. ✅ lint
+                  4. ✅ Récupérer une requête afin de tester sur les produits (choisir une catégorie)
+                  5. ✅ Maj de la requête
+                  6. ✅ Test export csv
+                  7. ✅ Test import wordpress
+                  8. ✅ Pour l'ensemble des catégories, maj requete craft, requete finale, reimporter, yay fun
+                     1. ✅ accessoires
+                     2. ✅ acctx
+                     3. ✅ avion
+                     4. ✅ bateaux
+                     5. ✅ batterie
+                     6. ✅ bougie
+                     7. ✅ carburant
+                     8. ✅ chargeur
+                     9. ✅ controleur
+                     10. ✅ heliceavion
+                     11. ✅ helico
+                     12. ✅ maquette
+                     13. ✅ matprem
+                     14. ✅ moteur_electrique
+                     15. ✅ moteur_thermique
+                     16. ✨ pcedetthermik // Pas de fournisseurs
+                     17. ✅ piece_heli
+                     18. ✅ piece_voiture
+                     19. ✨ quartz // Pas de fournisseurs
+                     20. ✅ radio
+                     21. ✅ recepteur
+                     22. ✅ servo
+                     23. ✅ voitures
+            3. ✅🔗 Référence de vient 🔗 Référence du produit chez le fournisseur
+            4. ✅Rajouter dans le répéteur un nouveau champs de type relation vers la table des marques
+   2. ✅📌 Test importer tous les accessoires
+      1. ✅ ~OK en dehors de certaines images (curl timeout, 404, mauvais type (pdf))
+   3. ⏳🐛 Réductions de prix réduit en cas de commande de multiples éléments
+      1. 🐛 Prix différents entre panier menu (quad) & page panier
+         1. 🐛 Quad menu affiche le prix sans TVA
+      2. ✅ Choix d'un des deux plugins pas degueu avec export
+         1. ~WooCommerce Bulk Discount > Corriger affichage dans le panier à la main ?
+         2. ~Product Price by Quantity for WooCommerce > Corriger TVA & affichage tableau prix ?
+         3. ✅ On part sur **Product Price by Quantity for WooCommerce**, plus de granularité car on peut choisir la réduction par produit
+            1. 📝 Nom du dossier dans /plugins : `wholesale-pricing-woocommerce`
+      3. ⏳🐛 Correction des bugs
+         1. ⏳📧 Contact support > [Topic créé](https://wpfactory.com/?post_type=topic&p=93873) le 21/10/2022
+            1. Images renvoyées par mail le 07/11/2022
+         2. Admin
+            1. Champ prix > Ajouter des nombres derrière la virgule, limité à 4 actuellement, passer à 10
+         3. ✅ Page produit > RAS
+         4. Panier
+            1. Avec réduction
+               1. Ligne produit
+                  1. Prix réduit à l'unité affiché en HT
+                  2. Vérifier % de réduction
+            2. ✅ Sans réduction > RAS
+         5. ✅📌 Vérifier sur la page des commandes
+            1. ✅ Plugin "fake pay" pour bypass l'absence de paiement
+            2. ✅ RAS
+      4. ✅ Intégration
+         1. ✅ Export & lint
+         2. ✅ Repérer les champs concernés + analyse
+         3. ✅📌 Requête de test
+         4. ✅ Requête > Ajout texte réduction dans description courte
+         5. ✅ Maj requête boilerplate
+         6. ✅ Ajout aux requêtes finale & dernière craft, maj uniquement les tables dont les champs ne sont pas NULL, reimport
+            1. ✅ accessoires
+            2. ✅ avions
+            3. ✅ batterie
+            4. ✅ bougie
+            5. ✅ carburant
+            6. ✅ chargeur
+            7. ✅ controleur
+            8. ✅ hélices avions
+            9. ✅ hélico
+            10. ✅ maquette
+            11. ✅ matprem
+            12. ✅ moteur elec
+            13. ✅ moteur thermique
+            14. ✅ piece heli
+            15. ✅ piece voiture
+            16. ✅ radio
+            17. ✅ servo
+         7. ✅ Maj doc drive
+         8. ✅ Mail Cédric, [lien exemple](https://dev.pb-modelisme.com/produit/power-tank-4s-14-8v-60c-6200mah-hc-xt90-plug/)
+      5. ⏳ Traduction (fichiers pot po mo)
+         1. ✅ Logiciel [poedit](https://poedit.net/)
+         2. ✅ Traductions
+         3. 💩 Uploadé mais KO / Pas utilisé ?
+            1. ⏳ Topic créé sur le [forum](https://wpfactory.com/support/topic/bug-translations-not-working/)
+            2. RTFM Go readme > rieng
+            3. [doc en ligne](https://wpfactory.com/item/product-price-by-quantity-for-woocommerce/)
+      6. ✅ Tables automatiques
+         1. ✅🔗 cf. `docs/_craft-prix-achats-multiples/README.md`
+         2. ✅ Affichage du bloc
+         3. ✅ Rajout aux requêtes (obligation de passer par la description courte a cause des shortcodes) + reimport
+            1. ✅ accessoires
+            2. ✅ avions
+            3. ✅ batterie
+            4. ✅ bougie
+            5. ✅ carburant
+            6. ✅ chargeur
+            7. ✅ controleur
+            8. ✅ hélices avions
+            9. ✅ hélico
+            10. ✅ maquette
+            11. ✅ matprem
+            12. ✅ moteur elec
+            13. ✅ moteur thermique
+            14. ✅ piece heli
+            15. ✅ piece voiture
+            16. ✅ radio
+            17. ✅ servo
+4. ✅🧽 Supprimer les plugins inutilisés
+5. 🚀🚨 Import final
+   1. ✅ Attente go Cédric
+      1. Go le 10/11/2022, cf. [mail](https://mail.google.com/mail/u/0/#inbox/KtbxLthhslGjDlwltJLpWWJtXfwXDszMpg)
+   2. ✅ Sauvegarde, y compris config plugins & themes
+      1. ✅ Fichiers
+      2. ✅ BDD > zip, mysql40, drop tables (avec accessoires 8,6mo)
+   3. ✅ Nettoyer BDD WordPress avant
+      1. ✅🔍[article](https://onlinemediamasters.com/clean-wordpress-database/)
+      2. ✅ Installer WP-Optimize
+      3. ✅ Admin > WP-Optimize > Database
+      4. ✅ Onglets optimizations
+      5. ✅ Onglets tables
+      6. ✅ Onglets settings > Ajout de maintenance hebdomadaire
+      7. ✨🔍 Recos d'autres plugins
+   4. ✅ Marques > Il y a de nouvelles marques sur l'ancien site PB, A rajouter par CD décroissant avant import final
+      1. ✅ 3 marques rajoutées : AML, RASTAR, TZO Tires
+   5. ✅💾 Sauvegarde, y compris config plugins & themes
+      1. ✅ Fichiers
+      2. ✅ BDD > zip, mysql40, drop tables (7,9mo)
+   6. ✅ Importer chaque catégorie
+      1. ✅ accessoires
+      2. ✅ acctx
+      3. ✅ avion
+      4. ✅ bateaux
+      5. ✅ batterie
+      6. ✅ bougie
+      7. ✅ carburant
+      8. ✅ chargeur
+      9. ✅ controleur
+      10. ✅ heliceavion
+      11. ✅ helico
+      12. ✅ maquette
+      13. ✅ matprem
+      14. ✅ moteur_electrique
+      15. ✅ moteur_thermique
+      16. ✅ pcedetthermik
+      17. ✅ piece_heli
+      18. ✅ piece_voiture
+      19. ✅ quartz
+      20. ✅ radio
+      21. ✅ recepteur
+      22. ✅ servo
+      23. ✅ voitures
+      24. Vérifier pas mal de produits pas importés > manque image ?
+6. ✅ Enlever numéro identification CNIL des mentions légales
+   1. ✅ Menu > Footer > Rajouter les liens vers les différentes pages
+   2. ✅🐛 logo accueil ne renvoie pas vers la page d'accueil
+   3. Footer
+       1. ✅ Virer france relance
+       2. 📌 éviter couper les lignes sur 2 lignes
+       3. ✅ logo paypal faire une seule image avec l'autre
+       4. ✅ image paiements > Chèques & mandats, remplacer par "Chèques"
+          1. ✅ Augmenter hauteur, cf image footer PAS pleine largeur
+       5. ✅ Rajouter les liens vers les pages
+   4. ✅ Pages "législation"
+        1. ✅ Homogénéiser "PB Modélisme"
+   5. ✅ Page [Mentions légales](https://dev.pb-modelisme.com/mentions-legales/)
+        1. ✅ Rajouter mention "Textes et photos non contractuels"
+7. ✅ Front
+    1. ✅♻️💥 Retour clients prioritaires
+       1. ✅ Prix multiple > affichage plus explicite côté client sur la page produit
+
+## 04/11/2022
+
+ML Architecture
+
+1. ⏳ Template `C / ProjetS` > champ ACF "relation" KO (erreur JS)
+   1. 💩📌 Désactiver les autres plugins
+   2. 📌 Thème par défaut mais ça m'étonnerait (même si il y a du JQuery dans le thème)
+   3. Besoin de maj ACF de 4 vers 6 mais possibilité que ça casse
+   4. ✅ Attente retour client devis > facture
+      1. ✅ Editer le devis, envoyer, demande de signature
+      2. ✅ Devis signé
+      3. ✅ Taf
+         1. ✅ Mettre en place dev
+         2. ✅ Maj plugin et voir si ca roule
+         3. ✅ Sinon revoir champs
+      4. ✅ Validation
+      5. ✅📧 Facture envoyée
+      6. ⏳ Paiement effectué
+         1. fin novembre
+
+Perso
+
+1. ✅♻️ Acheter flotte > magnésium
+
+PB Modelisme
+
+1. ✅⬆️ Mise à jour de WordPress, au ~15/10/2022
+2. ✅⬆️ Mises à jour de WordPress & plugins, au 04/11/2022
+3. 👪 RDV client du 20/10/2022
+   1. ✅ RDV
+   2. Compte rendu
+4. 👪 RDV client du 04/11/2022
+   1. ✅ RDV
+   2. Compte rendu
+5. 🚀 Import l'ensemble des catégories
+   1. ♻️💥 Retour clients prioritaires
+      1. En attente de retours
+   2. 🚀🔍 Réductions de prix réduit en cas de commande de multiples éléments
+      1. 🐛 Prix différents entre panier menu (quad) & page panier
+         1. 🐛 Quad menu affiche le prix sans TVA
+      2. 🚀 Choix d'un des deux plugins pas degueu avec export
+         1. ~WooCommerce Bulk Discount > Corriger affichage dans le panier à la main ?
+         2. ~Product Price by Quantity for WooCommerce > Corriger TVA & affichage tableau prix ?
+            1. ⏳📧 Contact support > [Topic créé](https://wpfactory.com/?post_type=topic&p=93873) le 21/10/2022
+   3. ✅📌 Test importer tous les accessoires
+      1. ✅ ~OK en dehors de certaines images (curl timeout, 404, mauvais type (pdf))
+
 ## 14/10/2022
 
 Lapie

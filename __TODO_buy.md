@@ -117,6 +117,7 @@ Remettre patreon Boris, YMS, Bloodywood
 
 ## Warhammers
 
+- 😍 Vallejo ~contrast [XPRESS colors](https://www.youtube.com/watch?v=hu-LOws7suU)
 - Amazon > [3eme main](https://www.amazon.fr/support-troisi%C3%A8me-flexibles-r%C3%A9glages-r%C3%A9glables/dp/B08QZ4PMHR/ref=mp_s_a_1_2_sspa)
 - Amazon > acheter pinceaux de maquillages (5 pour 20) pour soft drybrush
 - Amazon > [Lampe de ouf](https://www.amazon.com/PHIVE-Architect-Bright-Drafting-Brightness/dp/B07MHH9Q7B?fbclid=IwAR3yZ7rxo3Ixdioa081crMmAUL-sjxurbUhC6aW0Fqo92vMMiqEjOWiKYCQ)
@@ -127,6 +128,13 @@ Remettre patreon Boris, YMS, Bloodywood
 - [Golden fluorescent paints](https://www.goldenpaints.com/products/colors/fluorescent---phosphorescent-colors)
 - GW
   - [space elves pirates stuff](https://www.warhammer-community.com/2022/02/11/sneak-hordes-of-corsairs-behind-enemy-lines-with-iyandens-pirate-prince-yriel/)
+  - Vampires escarmouche [La Cour Écarlate](https://www.games-workshop.com/fr-FR/solblight-gravelords-the-crimson-court-2022)
+    - Y'a une paire de suggestions qui sont cools également
+      - [a](https://www.games-workshop.com/fr-FR/Soulblight-Gravelords-Vampire-Lord-2021)
+      - [b](https://www.games-workshop.com/fr-FR/Lauka-Vai-Mother-Of-Nightmares-2021)
+      - [c](https://www.games-workshop.com/fr-FR/Deathrattle-Skeletons-2021)
+      - [d](https://www.games-workshop.com/fr-FR/soulblight-gravelords-cado-ezechiar-the-hollow-king-2022)
+      - [start collecting](https://www.games-workshop.com/fr-FR/Start-Collecting-Soulblight-Gravelords-2021)
 - green stuff world
   - [Liquid pigments](https://www.greenstuffworld.com/fr/261-pigments-liquides)
   - [Mélangeur peinture](https://www.greenstuffworld.com/fr/peinture/2382-melangeur-rotatif-de-peinture.html)
@@ -140,6 +148,7 @@ Remettre patreon Boris, YMS, Bloodywood
   - [Têtes de femmes](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQmSFCrjFchxGPrcMrgBSVlKr)
 - [Lampe arceau](https://www.greenstuffworld.com/fr/inicio/2516-lampe-led-hobby-arch-darth-black.html)
 - [LED GSW / Mini lighting Set With switch and CR927 Battery](https://www.greenstuffworld.com/en/led-lights/1568-mini-lighting-set-with-switch-and-cr927-battery.html)
+- [Liquitex gloss gel](https://www.youtube.com/watch?v=anouG00C-O0)
 - Night lords
 - p3
   - armor wash

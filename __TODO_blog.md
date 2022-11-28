@@ -16,8 +16,92 @@
    5. Process rituels vie courante
    6. Bilans service > [process de réparation](https://github.com/youpiwaza/26Digital/tree/main/bilans%20service/ancien-intranet/users/intranet)
 
+## 11/2022
+
+### Préparer son entretien d'embauche
+
+Scaphy — Hier à 18:17
+
+j'AI UN ENTRETIENT D'EMBAUCHE POUR UN CDI DE DEV WEB A PASSER VOUS AVEZ DES CONSEILS LES COPAINS ?
+
+youpiwaza — Aujourd’hui à 10:29
+
+Réviser les questions fréquentes d'entretien (pas mal de github de dispo) et si tu connais pas tu recherches
+pas fumer avant l'entretien, faire une bonne nuit de sommeil
+être propre
+CV & portfolio à jour
+
+### Régime hyper protéiné / Low carb / keto
+
+- [Introduction](https://www.dietdoctor.com/low-carb#introduction)
+- [What to drink](https://www.dietdoctor.com/low-carb/keto)
+- [Alcohol](https://www.dietdoctor.com/low-carb/alcohol)
+- [Aliments recos](https://www.dietdoctor.com/low-carb/foods)
+- [Recettes pain](https://www.dietdoctor.com/low-carb/keto/recipes/bread)
+- [Sauces recos](https://www.dietdoctor.com/low-carb/fats-sauces)
+- [20 and 50 grams of carbs – how much food is that?](https://www.dietdoctor.com/low-carb/20-50-how-much)
+- [YT Ethan Chlebowski pate pizza](https://www.youtube.com/watch?v=VtNrfooHl_g)
+- google "soy flour" proteine végétale
+
+## Cicatriser pour tattoo
+
+- google "aliments favorisant guerison peau"
+- [Plaie : 4 aliments à éviter pour bien cicatriser](https://www.santemagazine.fr/actualites/plaie-4-aliments-a-eviter-pour-bien-cicatriser-188695)
+  - sucre
+  - lait
+  - gingembre
+  - curcumine (safran des Indes)
+- [5 aliments qui aident à cicatriser plus vite](https://www.topsante.com/medecine/accidents-et-traumatismes/blessures/aliments-special-cicatrisation-625150)
+  - Kiwi
+  - Lentilles
+  - Poulet
+  - Cresson & épinards
+  - Huile de colza
+- [Cicatrisation: 3 aliments qui empêchent le corps de guérir](https://www.bioalaune.com/fr/actualite-bio/32909/cicatrisation-3-aliments-qui-empechent-corps-de-guerir)
+  - Gingembre et certaines épices
+  - Lait
+  - Sucre
+- [Ces aliments et vitamines qui aident à la cicatrisation](https://followsurg.com/2018/04/25/aliments-aident-a-cicatrisation/)
+  - Vitamine A
+    - Foie de volaille cuit (30 000µg)
+    - Foie de veau cuit (10 500µg)
+    - Patates douces (10 500µg)
+    - Carottes (7 260µg)
+    - Potiron cuit (6 940µg)
+    - Épinard (4 010µg)
+  - Vitamine C
+    - Goyave (228mg)
+    - Poivron (183 mg)
+    - Kiwi (92 mg)
+    - Fruits rouges (180-58 mg)
+    - Choux de Bruxelles (62 mg)
+    - Papaye (61 mg)
+    - Orange (59 mg)
+    - Brocolis cuit (37 mg)
+  - Vitamine K
+    - Foie
+    - Epinards
+    - Huile de soja
+    - Brocolis
+    - Haricots
+    - Poireaux
+- [La bonne alimentation pour cicatriser](https://www.femmeactuelle.fr/sante/alimentation-equilibree/la-bonne-alimentation-pour-cicatriser-7129)
+  - Good
+    - Vitamines A et C > tomate et brocoli
+    - Cuivre > chocolat noir
+    - Fer > viande rouge, fruits de mer, légumes secs
+  - Pas good
+    - gingembre ou le safran (curcumine)
+    - sucre et le lait écrémé
+
+## Veille WordPress
+
+- [Remotely Back Up Your WordPress Database and Media With WP Migrate CLI](https://deliciousbrains.com/remotely-backup-wordpress-database-media-wp-migrate-db-pro-cli)
+- [How to Use Schema Markup to Boost Your SEO](https://aioseo.com/how-to-use-schema-markup-to-boost-your-seo/)
+
 ## Vrac
 
+- [Trucs à penser lors d'un déménagement](https://docs.google.com/document/d/1lewvwEeU1x_f0_FUt1rjYE12zej2WmhABt02FgvYYNA/edit#heading=h.301t0zozgvdn)
 - Tuto arrondi TVA plus précis : [ici, très rapide](https://drive.google.com/drive/folders/1P_GQyKq5wK1u3-x8XttpHlUiYHJFIUai)
 - [check nl revue ?](https://www.getrevue.co/)
 - Retour 1 an devops > article blog
@@ -60,7 +144,7 @@ x Mal aux yeux/migraine > lunettes anti lumière bleue / https://horus-x.com/ / 
 x Si pc pourri > pc shadow (VM en ligne) https://shadow.tech/fr/
 x Vider bdd
 x Boilerplate
-x Raccourcis claviers > 
+x Raccourcis claviers >
 x Cache
 x Erreurs communes / Faire un article dédié
 x Console
@@ -105,7 +189,7 @@ x Mise en place du slack, ajouter les chaînes
 
 Maya BEN TOLILA [14 h 48]
 @chaîne bonjour à tous,
-Un petit mot pour vous dire que vous pouvez rappeler à vos étudiants que je tiens une permanence pédagogique le lundi et qu’ils peuvent solliciter un RV telephonique avec moi 
+Un petit mot pour vous dire que vous pouvez rappeler à vos étudiants que je tiens une permanence pédagogique le lundi et qu’ils peuvent solliciter un RV telephonique avec moi
 
 Si vous avez des étudiants souvent absents, en retard, ou qui montrent des signes de démotivation et de doute, ou autre type de question ou problème (pas technique, pas administratif, pas commercial...), conseillez leur de prendre RV.
 On anticipe en essayant de prévenir les abandons ou échecs!
@@ -380,3 +464,7 @@ Restau
 
 - Paris / L'entrecôte
 - Paris / La maison du saumon / Ruel malmaison
+
+## Warhammers
+
+- [Tuto encres](https://www.youtube.com/watch?v=lk2P7EWvwDw)

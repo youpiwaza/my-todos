@@ -105,6 +105,8 @@ Sites > crunchyroll / otakufr . co
 
 ## Films
 
+- [Marc Caro](https://www.youtube.com/watch?v=xLYlRJ20Mxk)
+
 - 120 battements par minute
 - 1917
 - 1983
@@ -117,6 +119,7 @@ Sites > crunchyroll / otakufr . co
 - Adaptation
 - alabama monroe
 - angel heart avec micker rourk
+- antichrist lars von tiers
 - August Underground
 - Army of the dead
 - Babylon babies
@@ -179,11 +182,12 @@ Sites > crunchyroll / otakufr . co
 - Ghost dog
 - Grave
 - Gummo
-- Hand maiden
+- Hand maiden (coréen)
 - hard candy
 - ✅ Hardcore henry / 5/5
 - harry brown (2009)
 - Hausu
+- Her de Spike Jonze
 - hex, de kuei chih-hung
 - I love you philippe moris
 - I met the devil
@@ -210,9 +214,9 @@ Sites > crunchyroll / otakufr . co
 - Les valseuses
 - Little miss sunshine
 - lost city of z
+- Magnolia
 - Martyrs
 - May
-- MECHANIC : RESURRECTION / Jason statham film alakon
 - merci de fumer
 - 📌 Metalhead
 - mise a prix
@@ -232,6 +236,7 @@ Sites > crunchyroll / otakufr . co
 - Peninsula / suite dernier train pour busan
 - Philosophy of a knife
 - Pompidou / netflix
+- 🚀 [Popran](https://www.google.com/search?q=film+popran)
 - Primer
 - Re-Animator
 - red line expert
@@ -248,6 +253,7 @@ Sites > crunchyroll / otakufr . co
 - Seven Psychopaths
 - Shetan
 - shoot em up
+- short bus lars von tiers
 - Simon Killer
 - Sir arthur conan doyle sherlock holmes
 - slackers
@@ -274,6 +280,7 @@ Sites > crunchyroll / otakufr . co
 - The Green Mile
 - The hunt
 - The host (coreen) 2006
+- The kingdom lars
 - The Lighthouse
 - ✅ The machinist (christian bale)
 - ✅ The perfection
@@ -285,7 +292,8 @@ Sites > crunchyroll / otakufr . co
 - Training day
 - Trainspotting
 - Triangle
-- un justicier dans la ville
+- True romance
+- Un justicier dans la ville
 - Un poisson nommé wanda
 - under the skin
 - usual suspects
@@ -304,6 +312,7 @@ Sites > crunchyroll / otakufr . co
 
 ### Nanards
 
+- nanrd film bruce willis hudson hawk
 - Black dynamite
 - beowulf lambert
 - birdemic
@@ -334,6 +343,7 @@ Sites > crunchyroll / otakufr . co
 - Le sexe qui chante
 - Les ewoks 2 la bataille d'endors
 - Légion
+- MECHANIC : RESURRECTION / Jason statham film alakon
 - Ninja Eliminator 4 : The French Connection
 - Ninja scroll
 - [Pac man le film](http://www.allocine.fr/film/fichefilm_gen_cfilm=211257.html)
@@ -749,7 +759,7 @@ Une fois tout téléchargé, mettre à jour
 - [10 reportages chelous](https://9gag.com/gag/aMArR01)
 - A pleines dents, avec G. depardieu
 - Alex rider
-- american gods
+- American gods
 - and then they were none
 - Anihilation
 - Aphorism
