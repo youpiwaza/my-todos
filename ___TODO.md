@@ -68,11 +68,6 @@ AE
     1. [Mail](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQcnlCmhgkWnWjbfPCPQXNRQW)
 11. Veille > tester wp optimize pour réduire la taille des images & pour le cache
 
-ML Architecture
-
-1. ⏳ Template `C / ProjetS` > champ ACF "relation" KO (erreur JS)
-   1. ⏳ Paiement fin novembre
-
 Perso
 
 1. Cleaner google drive
@@ -140,23 +135,64 @@ PB Modelisme
       2. bdd > Espace utilisé > 653 Mo / 8 Go
          1. RAM 512Mo > 3 dépassements de mémoire > Max 100
 4. 🚀 Affichage front ACF
-   1. ✅🔍 Docs
-       1. ✅ Doc officelle [intro inté](https://www.advancedcustomfields.com/resources/displaying-custom-field-values-in-your-theme/)
-       2. ✅ Doc officelle [Codes examples](https://www.advancedcustomfields.com/resources/code-examples/)
-       3. ✅ [Tuto exemples](https://capitainewp.io/formations/acf/champ-relationnel/)
-       4. ✅ [WC edit product page](https://wedevs.com/fr/blog/382711/how-to-customize-woocommerce-product-page/)
-          1. Fichiers WC dans theme enfant
-             1. `single-product.php` – this builds the structure of the page template.
-             2. `content-single-product-php` – this fills the template with the content for each product.
-             3. Hooks dans `functions.php` pour ajouter/retirer des éléments (tabs notamment)
-       5. ✅ [WP child theme](https://developer.wordpress.org/themes/advanced-topics/child-themes/)
-   2. 🚀 Affichage des champs personnalisés ACF
-      1. ✅🔗 Lien de test [produit avec tous les champs remplis](https://dev.pb-modelisme.com/produit/pirate-baja-2-4ghz/)
-      2. Gestion de l'affichage conditionnel (= si != catégorie, ne pas afficher)
-         1. 🔍 [Hiding empty fields](https://www.advancedcustomfields.com/resources/hiding-empty-fields/)
-      3. Repasse champs vrai/faux pour afficher les libellés corrects, cf. drive "Structure de données"
-      4. Mail Cédric
-      5. Intégrer onglets supplémentaires écrémés à l'import
+      1. 🚀 Affichage final pour chaque categorie
+         1. 🚀 Reprendre l'affichage de l'ancien site, un fichier par catégorie
+            1. 🚀 Batteries
+               1. Caractéristiques techniques
+                  1. ✅ Tension
+                  2. ✅ Capacité typique
+                  3. ✅ Capacité
+                  4. ✅ Décharge > Regrouper COURANT_CONTBAT & COURANT_MAXBAT
+                  5. ✨ Poids
+                  6. ✅🔨 Rechargeable > Uniquement catégorie "alkaline"
+                  7. ✨ Dimensions longueur largeur hauteur
+                  8. ✨ Dimensions hauteur diamètre
+                  9. 🚀 sur doc drive "Section câble"
+            2. Bougies
+            3. Carburants
+            4. Chargeurs
+            5. Controleurs
+            6. Helices avions
+            7. Helicos
+            8. Maquettes
+            9. Matériaux
+            10. Moteurs electrique
+            11. Moteurs thermique
+            12. Pièces hélicoptères
+            13. ✨ Pièces moteurs thermiques
+            14. Pièces voitures
+            15. Quartz
+            16. Radios
+            17. Recepteurs
+            18. Servos
+            19. Voitures
+         2. Affichage conditionnel par catégorie pour les intitulés debug (if au moins un champ de la cat)
+         3. 🐛 Corriger typo import
+            1. Attributs > [Version](https://dev.pb-modelisme.com/wp-admin/edit-tags.php?taxonomy=pa_version_boite&post_type=product)
+               1. 2 espaces -_-"
+               2. kit tout bois à  construire
+               3. kit à  monter
+               4. Réimporter pour maj / corriger
+         4. Repasse champs vrai/faux pour afficher les libellés corrects, cf. drive "Structure de données"
+         5. Champs relation > meilleure gestion des images > utiliser placeholder woocommerce si rieng
+            1. communs
+               1. 🧰 Matériel à prévoir
+               2. 🔗 Produits associés
+      2. Mail Cédric
+         1. Champs manquants ?
+         2. 🌱 Onglets manquants ?
+            1. Accessoires
+               1. Produits Similaires
+            2. Avions
+               1. Pièces détachées / Plan
+               2. Articles conseillés
+            3. Bateaux
+               1. Pièces détachées
+         3. Affichage spécifiques de champs rentrés dans WordPress / WooCommerce (ex: références produit) ?
+         4. Récupérer affichage de l'ancien PB (tableaux) ou changements ?
+      3. Intégrer onglets supplémentaires écrémés à l'import
+         1. 🏎️ Véhicules & maquettes > 👴🎨 Liste de peintures legacy
+         2. Accessoires > Produits Similaires
 5. Tâches relatives au RDV client du jeudi 01/09/22
     1. Gestion des ventes caisses
        1. 🔍 Moyens de paiements

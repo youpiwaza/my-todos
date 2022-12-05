@@ -2,6 +2,241 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 02/12/2022
+
+ML Architecture
+
+1. ✅ Template `C / ProjetS` > champ ACF "relation" KO (erreur JS)
+   1. ✅ Paiement fin novembre
+      1. ✅ Relance le 30/11/22
+
+Perso
+
+1. ✅📌 Liste course vendredi
+
+PB Modelisme
+
+🚀 Affichage front ACF
+
+1. ✅🔍 Docs
+    1. ✅ Doc officelle [intro inté](https://www.advancedcustomfields.com/resources/displaying-custom-field-values-in-your-theme/)
+    2. ✅ Doc officelle [Codes examples](https://www.advancedcustomfields.com/resources/code-examples/)
+    3. ✅ [Tuto exemples](https://capitainewp.io/formations/acf/champ-relationnel/)
+    4. ✅ [WC edit product page](https://wedevs.com/fr/blog/382711/how-to-customize-woocommerce-product-page/)
+       1. Fichiers WC dans theme enfant
+          1. `single-product.php` – this builds the structure of the page template.
+          2. `content-single-product-php` – this fills the template with the content for each product.
+          3. Hooks dans `functions.php` pour ajouter/retirer des éléments (tabs notamment)
+    5. ✅ [WP child theme](https://developer.wordpress.org/themes/advanced-topics/child-themes/)
+2. ✅ Affichage des champs personnalisés ACF
+   1. ✅🔗 Lien de test [produit avec tous les champs remplis](https://dev.pb-modelisme.com/produit/pirate-baja-2-4ghz/)
+   2. ✅🔗 Lien de test [produit avec aucun champ rempli](https://dev.pb-modelisme.com/produit/un-produit-avec-lensemble-des-champs-personnalises-non-remplis/)
+   3. ✅ Gestion de l'affichage conditionnel (= si != catégorie ou si vide, ne pas afficher)
+      1. ✅🧠 Yeah au final pas la peine de se prendre la tête, pas de champs ambigus MAINTENANT
+         1. Simplement n'afficher le champ que s'il est rempli
+      2. ✅🔍 [Hiding empty fields](https://www.advancedcustomfields.com/resources/hiding-empty-fields/)
+      3. ✅ 👪 Champs personnalisés communs à tous les produits
+         1. 🙈 Code barre fournisseur
+         2. 🙈 Code barre PB
+         3. ✅ 📏⚖️ Dimensions & poids
+            1. ✅Longueur
+            2. ✅Largeur
+            3. ✅Hauteur
+            4. ✅Poids
+         4. ✅ 📦 Contenu de la boite
+         5. ✅ 🧰 Matériel à prévoir
+         6. 🙈 👔 Fournisseurs
+         7. ✅ 🗃️ Divers
+            1. ✅ 💵🌳 Taxe éco-participation
+            2. 🙈 📉📦 Quantité à commander
+            3. ✅ 📃 Documentation
+            4. ✅ 📏⭕ Diamètre
+            5. ✅ 📝 Sur commande
+            6. 🙈 ⭐ Note PB Modélisme
+         8. ✅ 🔗 Produits associés
+         9. ✅ ♻️📃 Répéteur Notices, fiches de sécurité & documents
+         10. 🙈 👴 Ancien site
+             1. 🙈 🆔 Identifiant dans la base de données
+             2. 🙈 💰 Prix à l'unité lors du dernier achat
+             3. 🙈 📅 Date de l'ajout du produit
+      4. ✅ 🏎️ Champs personnalisés pour les véhicules & maquettes
+         1. ✅ 📏🧍 Échelle
+         2. ✅ 👶💪 Niveau de difficulté
+         3. ✅ 🔢⚙️ Nombre de moteurs
+         4. ✅ 🛠️ Pièces détachées
+         5. ✅🎨 Liste de peintures
+         6. 🌱👴🎨 Ancien site > Liste de peintures legacy
+      5. ✅ Accessoires
+         1. ✅📊 Capacité
+         2. 🙈👴 VALEURTRI
+         3. 🌱 Produits Similaires
+      6. ✨ acctx / Pas de champs personnalisés
+      7. ✅ 🙍‍♂️✈️ Avions
+         1. ✅ Type d'avion
+         2. ✅ Envergure
+         3. ✅ Poids sans équipements
+         4. ✅ Surface alaire
+         5. ✅ Charge alaire
+         6. ✅ Diamètre minimum
+         7. ✅ Diamètre maximum
+         8. ✅ Possède une fonction Flaps
+         9. ✅ Possède un train rentrant
+         10. ✅ Materiau de l'aile
+         11. ✅ Materiau du fuselage
+         12. ✅ Moteur
+             1. ✅ Cylindrée minimum
+             2. ✅ Cylindrée maximum
+             3. ✅ Nombre de voies
+         13. ✅ Nombre d'axes
+         14. ✅ Nombre de servos
+         15. ✅ Profil de l'aile
+         16. ✅ Profil du stab
+         17. ✅ Servos conseillés
+             1. 🚨 Affichage conditionnel servos recommandés (relation ou catégorie)
+                1. ✅ Affichage des produits (relation)
+                2. ✅ ou alors d'une catégorie sélectionnée
+                   1. ✅✨ Nouveau champ de type taxonomie (liste de catégories WordPress)
+                   2. ✅👴 Legacy > catégorie/s au format texte
+                      1. ✅🧠 Récupérer la valeur, explode, récupérer le terme pour chacune des catégories
+                      2. ✅ Gestion des catégories non trouvées (en cas de renommage..)
+                         1. ✅ Différences catégories : `Ancien PB > Standard`, `Export WooCommerce en CSV > Avions standard`
+                      3. ✅ Afficher
+      8. ✅ bateaux
+         1. ✅ Matériau de la coque
+         2. ✅ Type de moteur
+         3. ✅ Type de bateau
+      9. ✅ batteries
+         1. ✅ flemme de re-noter chacun des champs
+      10. ✅ bougies
+      11. ✅ carburants
+      12. ✅ chargeurs
+      13. ✅ controleurs
+      14. ✅ helices avions
+      15. ✅ helicos
+      16. ✅ maquettes
+      17. ✅ matériaux
+      18. ✅ moteurs electrique
+      19. ✅ moteurs thermique
+      20. ✅ pièces hélicoptères
+      21. ✅✨ pièces moteurs thermiques
+      22. ✅ pièces voitures
+      23. ✅ quartz
+      24. ✅ radios
+      25. ✅ recepteurs
+      26. ✅ servos
+      27. ✅ voitures
+   4. ✅🧽 Découper en fichiers distincts dans un dossier debug/, pour chaque catégorie
+      1. ✅🔍 Inclure un fichier depuis le theme enfant
+      2. ✅ Déplacer l'affichage debug de l'ensemble des champs personnalisés
+      3. ✅ Préparer les fichiers pour les catégories à venir (bateaux+ lors du traitement)
+      4. ✅ Revue de l'intégration `html dans php` > `php dans html`
+   5. ✅🔍 Affichage dans les onglets WC
+      1. ✅🔍 [Doc wc](https://woocommerce.com/document/editing-product-data-tabs/#section-4)
+         1. Géré dans `functions.php` de manière assez simple
+      2. ✅📌 Prise en main modification & ajout d'onglets
+      3. ✅🔍 [Récupérer la description](https://wpbeaches.com/woocommerce-add-short-or-long-description-to-products-on-shop-page/)
+   6. ✅⬆️ Rajouter [Bootstrap](https://getbootstrap.com/) au theme enfant
+      1. ✅🔍 Avec les bonnes pratiques [yay](https://jts.design/how-to-add-the-bootsrap-framework-to-a-wordpress-child-theme/)
+      2. ✅📌 Test
+   7. 🚀 Affichage final pour chaque categorie
+      1. ✅ Dossier `/templates/product/`, fichier dédié
+      2. 🚀 Reprendre l'affichage de l'ancien site, un fichier par catégorie
+         1. ✅ 👪 Commun à tous les produits
+            1. En dessous du prix
+               1. ✅ 💵🌳 Taxe éco-participation
+            2. Onglet description
+               1. Descriptions supplémentaires
+                  1. ✅ 📦 Contenu de la boite
+                  2. ✅ 🧰 Matériel à prévoir
+               2. Caractéristiques techniques
+                  1. ✅ 📏⭕ Diamètre
+                  2. ✅ 📏⚖️ Dimensions & poids
+            3. Onglet documents
+               1. ✅ 📃 Documentation
+               2. ✅ ♻️📃 Répéteur Notices, fiches de sécurité & documents
+            4. En dessous des onglets
+               1. ✅ 🔗 Produits associés
+         2. ✅ Champs natifs à WooCommerce
+            1. ✅🔍 [doc](https://woocommerce.github.io/code-reference/classes/WC-Product.html)
+            2. Caractéristiques techniques
+               1. ✅📦 Dimension colis
+            3. ✨ Le reste est déjà +- affiché, à voir avec nonore
+         3. ✅ 🏎️ Champs personnalisés pour les véhicules & maquettes
+            1. Onglet description
+               1. ✅ ~~👶💪 Niveau de difficulté~~
+               2. ✅ 🛠️ Pièces détachées
+               3. ✅ 🎨 Liste de peintures
+            2. Caractéristiques techniques
+               1. ✅ 📏🧍 Échelle
+               2. ✅ 👶💪 Niveau de difficulté
+               3. ✅ 🔢⚙️ Nombre de moteurs
+         4. ✅🐛 bug affichage onglets
+            1. [produit sans rieng de rempli](https://dev.pb-modelisme.com/produit/un-produit-avec-lensemble-des-champs-personnalises-non-remplis/)
+            2. `Warning: Undefined array key "title" in /home/xeqdtpv/dev/wordpress/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php on line 38`
+         5. ✅ Accessoires
+            1. ✅ Caractéristiques techniques
+               1. ✅ 📊 Capacité
+         6. ✨ Acctx / Pas de champs personnalisés
+         7. ✅ Avions
+            1. ✅ Caractéristiques techniques
+               1. ✨ Référence (dans communs)
+               2. ✅ Kit > Regrouper catégorie d'avion, nombre d'axes, type d'avion
+               3. ✅ Nombre de voies
+                  1. le nombre en électrique
+                  2. +1 pour thermique
+               4. ✅ Envergure
+                  1. Sortie de dimensions (champs communs maintenant) ; anciennement "Dimensions : longueur & envergure"
+               5. ✅ Poids sans équipements
+               6. ✅ Surface alaire
+               7. ✅ Charge alaire
+               8. ✅ Motorisation thermique
+                  1. Regrouper cylindrée min & max
+               9. ✅ Version
+               10. ✅ Possède une fonction Flaps ?
+               11. ✅ Possède un train rentrant ?
+               12. ✅ Materiau de l'aile
+               13. ✅ Materiau du fuselage
+            2. ✅ Onglet description
+               1. ✅ Servos conseillés
+                  1. Pour tester les 2 cas de figure modifier le produit dans l'admin
+                     1. Affichage d'un choix de servos
+                     2. Affichage de catégories et / ou catégories legacy
+            3. ✅ Champs manquants des caractéristiques techniques legacy
+               1. ✅ Diamètre de l'hélice > regrouper minimum & maximum
+               2. ✅ Nombre de servos
+            4. ✅👌 Ajustements
+               1. ✅ 👶💪 Déplacement du niveau de difficulté de description vers carac tech
+         8. ✅ Bateaux
+            1. ✅ Caractéristiques techniques
+               1. ✨ Référence (dans communs)
+               2. ✨ Dimensions : longueur, largeur, hauteur (dans communs)
+               3. ✨ Echelle (dans communs)
+               4. ✨ Nombre de moteurs (véhicules)
+               5. ✅ Matériau de la coque
+               6. ✅ Type de bateau
+               7. ✅ Type de moteur
+               8. ✨ Contenu de la boite
+               9. ✨ Equipements à prévoir > Matériel à prévoir
+            2. 🌱 Onglets
+               1. 🌱 Pièces détachées
+               2. ✨ Notice > 👤 Nom fichier documentation. 1 seule entrée KO
+                  1. commun > documentation ou docs/notice seront utilisés
+            3. ✨ Champs manquants des caractéristiques techniques legacy
+               1. ✨ On est good, rien qui dépasse
+            4. ✅👌 Ajustements
+               1. ✅ Déplacement de la version (ARTF) de avions vers communs
+         9. 🚀 Batteries
+            1. Caractéristiques techniques
+               1. ✅ Tension
+               2. ✅ Capacité typique
+               3. ✅ Capacité
+               4. ✅ Décharge > Regrouper COURANT_CONTBAT & COURANT_MAXBAT
+               5. ✨ Poids
+               6. ✅🔨 Rechargeable > Uniquement catégorie "alkaline"
+               7. ✨ Dimensions longueur largeur hauteur
+               8. ✨ Dimensions hauteur diamètre
+               9. 🚀 sur doc drive "Section câble"
+
 ## 25/11/2022
 
 AE
