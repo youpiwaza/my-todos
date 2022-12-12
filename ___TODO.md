@@ -135,64 +135,127 @@ PB Modelisme
       2. bdd > Espace utilisé > 653 Mo / 8 Go
          1. RAM 512Mo > 3 dépassements de mémoire > Max 100
 4. 🚀 Affichage front ACF
-      1. 🚀 Affichage final pour chaque categorie
-         1. 🚀 Reprendre l'affichage de l'ancien site, un fichier par catégorie
-            1. 🚀 Batteries
-               1. Caractéristiques techniques
-                  1. ✅ Tension
-                  2. ✅ Capacité typique
-                  3. ✅ Capacité
-                  4. ✅ Décharge > Regrouper COURANT_CONTBAT & COURANT_MAXBAT
-                  5. ✨ Poids
-                  6. ✅🔨 Rechargeable > Uniquement catégorie "alkaline"
-                  7. ✨ Dimensions longueur largeur hauteur
-                  8. ✨ Dimensions hauteur diamètre
-                  9. 🚀 sur doc drive "Section câble"
-            2. Bougies
-            3. Carburants
-            4. Chargeurs
-            5. Controleurs
-            6. Helices avions
-            7. Helicos
-            8. Maquettes
-            9. Matériaux
-            10. Moteurs electrique
-            11. Moteurs thermique
-            12. Pièces hélicoptères
-            13. ✨ Pièces moteurs thermiques
-            14. Pièces voitures
-            15. Quartz
-            16. Radios
-            17. Recepteurs
-            18. Servos
-            19. Voitures
-         2. Affichage conditionnel par catégorie pour les intitulés debug (if au moins un champ de la cat)
-         3. 🐛 Corriger typo import
-            1. Attributs > [Version](https://dev.pb-modelisme.com/wp-admin/edit-tags.php?taxonomy=pa_version_boite&post_type=product)
-               1. 2 espaces -_-"
-               2. kit tout bois à  construire
-               3. kit à  monter
-               4. Réimporter pour maj / corriger
-         4. Repasse champs vrai/faux pour afficher les libellés corrects, cf. drive "Structure de données"
-         5. Champs relation > meilleure gestion des images > utiliser placeholder woocommerce si rieng
-            1. communs
-               1. 🧰 Matériel à prévoir
-               2. 🔗 Produits associés
-      2. Mail Cédric
-         1. Champs manquants ?
-         2. 🌱 Onglets manquants ?
-            1. Accessoires
-               1. Produits Similaires
-            2. Avions
-               1. Pièces détachées / Plan
-               2. Articles conseillés
-            3. Bateaux
-               1. Pièces détachées
-         3. Affichage spécifiques de champs rentrés dans WordPress / WooCommerce (ex: références produit) ?
-         4. Récupérer affichage de l'ancien PB (tableaux) ou changements ?
-      3. Intégrer onglets supplémentaires écrémés à l'import
-         1. 🏎️ Véhicules & maquettes > 👴🎨 Liste de peintures legacy
-         2. Accessoires > Produits Similaires
+   1. 🚀 Affichage final pour chaque categorie
+      1. 🚀 Reprendre l'affichage de l'ancien site, un fichier par catégorie
+         1. 🚀💥♻️⚡️ L'alpha et l'omega putain de refacto > Optimiser > Créer des fonctions de rendu
+             1. Champs ACF > Créer ssi plus de 2 utilisations
+                1. Boolean `_communs-et-vehicules/en-dessous-du-prix.php`
+                2. WYSIWYG (2 paragraphes) > `_communs-et-vehicules/onglet-description---03-descriptions-supplementaires.php`
+                3. Attribut WP `_communs-et-vehicules/onglet-description---04-caracteristiques-techniques.php`
+             2. 🚀 ACF > Champ simple > dans une cellule de tableau
+                1. ✅ Créer la fonction
+                2. ✅ Appliquer aux endroits existants
+                3. 🚀 Ajout textes préfixes / suffixes (libelle ET valeur)
+                   1. ✅ Modifier la fonction
+                   2. Appliquer aux endroits existants
+                4. Surcharge affichage spécifique valeur ?
+                   1. Communs > carac tech 04 > 📏🧍 Échelle
+                   2. Appliquer aux endroits existants
+             3. ACF > Groupe de boutons
+             4. ACF > Champs simples, multiples (dépendances d'affichage)
+                1. Passer un tableau ? Possibilité d'appeler des fonctions d'affichage ?
+             5. ACF > Fichier `/templates/product/_communs-et-vehicules/onglet-documents---02-contenu.php`
+             6. ACF > Répéteur
+                 1. Sous types
+             7. WP Récupérer les sous catégories
+         2. Pièces hélicoptères
+             1. Caractéristiques techniques
+             2. Descriptions supplémentaires
+             3. Onglets
+             4. Champs manquants des caractéristiques techniques legacy
+         3. ✨ Pièces moteurs thermiques
+         4. Pièces voitures
+             1. Caractéristiques techniques
+             2. Descriptions supplémentaires
+             3. Onglets
+             4. Champs manquants des caractéristiques techniques legacy
+         5. Quartz
+             1. Caractéristiques techniques
+             2. Descriptions supplémentaires
+             3. Onglets
+             4. Champs manquants des caractéristiques techniques legacy
+         6. Radios
+             1. Caractéristiques techniques
+             2. Descriptions supplémentaires
+             3. Onglets
+             4. Champs manquants des caractéristiques techniques legacy
+         7. Recepteurs
+             1. Caractéristiques techniques
+             2. Descriptions supplémentaires
+             3. Onglets
+             4. Champs manquants des caractéristiques techniques legacy
+         8. Servos
+             1. Caractéristiques techniques
+             2. Descriptions supplémentaires
+             3. Onglets
+             4. Champs manquants des caractéristiques techniques legacy
+         9. Voitures
+             1. Caractéristiques techniques
+             2. Descriptions supplémentaires
+             3. Onglets
+             4. Champs manquants des caractéristiques techniques legacy
+      2. ✅ Refacto/ranger
+         1. ✅ `functions_product.php` > découper en fichiers par cat et ranger dans bon dossier cat + require dans `functions.php`
+            1. ✅ ~`/templates/product/chargeurs/functions.php`
+         2. ✅ ranger ça dans communs `/templates/product/__all-products-description-tab.php` et renommer
+         3. ✅ idem `/templates/product/modifications/`, ce sont des modifs/ajouts communes
+      3. Affichage conditionnel par catégorie pour les intitulés debug (if au moins un champ de la cat)
+      4. 🐛 Corriger typo import
+         1. Attributs > [Version](https://dev.pb-modelisme.com/wp-admin/edit-tags.php?taxonomy=pa_version_boite&post_type=product)
+            1. 2 espaces -_-"
+            2. kit tout bois à  construire
+            3. kit à  monter
+            4. Réimporter pour maj / corriger
+         2. Moteurs électriques > Sous catégorie compatibilité
+            1. Certains termes sont passés à travers les mailles
+      5. Repasse champs vrai/faux pour afficher les libellés corrects, cf. drive "Structure de données"
+      6. Champs relation > meilleure gestion des images > utiliser placeholder woocommerce si rieng
+         1. communs
+            1. 🧰 Matériel à prévoir
+            2. 🔗 Produits associés
+      7. Vérifier avec Cédric si les champs complexes & onglet sont indispensables
+         1. 🧠 Produits des champs affichés dans les onglets > Afficher des favoris par catégorie (ex: evergreen c'naze)
+      8. Champs plus complexes
+         1. Bougies
+            1. Carburant (Table "allume" lien entre bougie et moteur_thermique)
+            2. Compatibilité (bordel lel)
+         2. Carburants
+            1. Utilisable sur
+         3. Chargeurs
+            1. 🌱 Capacité de charge (🔗 Lien table "charge" qui renvoie vers table "typebat")
+      9. Onglets supplémentaires
+         1. 🏎️ Véhicules & maquettes
+            1. 👴🎨 Liste de peintures legacy > Faire une requête : ~récupérer les accessoires via ID legacy
+         2. Accessoires
+            1. Produits Similaires
+         3. Avions
+            1. Pièces détachées / Plan
+            2. Articles conseillés
+         4. Bateaux
+            1. Pièces détachées
+         5. Batteries
+            1. Produits compatibles
+            2. Chargeurs compatibles
+         6. Controleurs
+            1. Produits compatibles > Requête à récupérer / convertir
+         7. Helices avions
+            1. Piéces détachées > Requête complexe
+            2. Accessoires conseillés > Requête à récupérer / convertir
+         8. Helicos
+            1. Piéces détachées > Requête à récupérer / convertir
+            2. Piéces Upgrade > Requête complexe
+         9. Maquettes
+            1. Colles > Requête en dur : afficher tout dans catégorie "colle maquettes"
+            2. Produits de finitions > Récupérer requête complexe (plusieurs catégories)
+         10. Matériaux
+             1. Colles conseillées > Requête complexe en fonction de la sous catégorie
+         11. Moteurs thermique
+             1. Piéces détachées > Requête complexe table constitue ?
+   2. Vérifier l'ensemble des champs de catégorie sur un ensemble de produits réels / importés
+   3. Mail Cédric
+      1. Champs manquants ?
+      2. Affichage spécifiques de champs rentrés dans WordPress / WooCommerce (ex: références produit) ?
+      3. Vérifier la ou y'a symboles ❓
 5. Tâches relatives au RDV client du jeudi 01/09/22
     1. Gestion des ventes caisses
        1. 🔍 Moyens de paiements

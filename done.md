@@ -2,6 +2,302 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 09/12/2022
+
+PB Modelisme
+
+1. Affichage front ACF
+   1. 🚀 Affichage final pour chaque categorie
+      1. 🚀 Reprendre l'affichage de l'ancien site, un fichier par catégorie
+         1. ✅ Batteries
+            1. ✅ Caractéristiques techniques
+               1. ✅ Tension
+               2. ✅ Capacité typique
+               3. ✅ Capacité
+               4. ✅ Décharge > Regrouper COURANT_CONTBAT & COURANT_MAXBAT
+               5. ✨ Poids
+               6. ✅🔨 Rechargeable > Uniquement catégorie "alkaline"
+               7. ✨ Dimensions longueur largeur hauteur
+               8. ✨ Dimensions hauteur diamètre
+               9. ✅ sur doc drive "Section câble"
+               10. ✅ Possède une charge rapide ?
+               11. ✅ Possède un équilibrage ?
+               12. ✅ Prise
+            2. ✅ Onglet description
+               1. ✅🚚 Rajouter le type de batterie (sous catérogie/s accus) > Déplacé dans les carac techniques
+               2. ✅🚚 Rajouter l'utilisation de la batterie > Déplacé dans les carac techniques
+            3. ✅ Champs manquants des caractéristiques techniques legacy
+               1. ⚰️ coefficient
+               2. ✅ Nombre d'éléments
+               3. ✅ Nombre d'éléments en parallèle
+               4. ✅ Nombre d'éléments en série
+         2. ✅ Bougies
+            1. ✅ Caractéristiques techniques
+               1. ✨ Référence produit
+               2. ✅ Type de bougie > Regrouper ✅ type & ✅ nombre de temps
+               3. ✅ Température
+               4. 🌱 Carburant
+               5. ✅ Pour cylindrée > Regrouper cylindrées ✅ min & ✅ max
+               6. 🌱 Compatibilité
+            2. ✨ Champs manquants des caractéristiques techniques legacy
+         3. ✅ Carburants
+            1. ✅ Caractéristiques techniques
+               1. ✨ Référence produit
+               2. ✅ Contenance
+               3. ✅ Pourcentage de nitro %
+               4. 🌱 Utilisable sur
+            2. ✨ Champs manquants des caractéristiques techniques legacy
+         4. ✅ Chargeurs
+            1. ✅ Caractéristiques techniques
+               1. ✨ Référence produit
+               2. ✅ Alimentation > Regrouper has_charge_batterie & has_charge_secteur
+                  1. ✅ 🚨 Affichage texte conditionnel en fonction des deux champs
+                  2. ✅ Rajout des champs possibilité pour plus de clarté
+               3. ✅ Plage d'alimentation 12 V > Regrouper chargeurs_plage_alimentation_min_en_volts & "max
+               4. ✅ Courant de charge > Regrouper charge_intensite_min_en_ma & "max
+               5. ✅ Puissance fournie sur batterie
+               6. ✅ Puissance fournie sur secteur
+               7. ✅ Décharge > Regrouper "decharge_intensite_en_amperes" & "decharge_puissance_en_watts"
+               8. ✅ Coupure fin de charge (anciennement Charge type)
+               9. ✅ Possède un équilibrage ?
+               10. 🌱 Capacité de charge
+               11. ✨ Dimension Lxlxh
+               12. ✨ Contenu de la boite
+            2. ✨ Champs manquants des caractéristiques techniques legacy
+            3. ✅ Onglets
+               1. ✅ Produits compatibles
+               2. ✅ Affichage conditionnel
+                  1. ✅ Uniquement si le produit est de la catégorie Chargeurs
+                  2. ✅ Uniquement si il dispose de Produits compatibles
+         5. ✅ Controleurs
+            1. ✅ Caractéristiques techniques
+               1. ✨ Référence produit
+               2. ✅ Type (brushless ?)
+               3. ✅ Alimentation > Regrouper alimentation_lipo_min & max & alimentation_nicd_min & max
+               4. ✅ Tension > Regrouper tension_min_en_volts & max
+               5. ✅ Intensité > Regrouper intensite_continue_en_amperes & intensite_max_en_amperes
+               6. ✅ Possède t-il une sortie bec ?
+                  1. ✅ Affichage conditonnel de deux champs liés
+                     1. ✅ Tension de la sortie bec
+                     2. ✅ Intensité de la sortie bec
+               7. ✨ Poids
+               8. ✨ Dimensions
+               9. ✅ Type de démarrage
+               10. ✅ Type de coupure
+               11. ✅ Programmation > Regrouper has_programmation_interne & has_programmation_externe
+               12. ✅ Divers
+                   1. ✅ Controleur OPTO
+                   2. ✅ Posséde un mode frein / Posséde un mode frein désactivable
+                   3. ✅ Protection thermique
+                   4. ✅ Je fais un champ chacun c'est bien moins relou
+               13. ✅ Utilisable (compatibilité)
+            2. 🌱 Onglets
+                1. ✨ Notice
+                2. 🌱 Produits compatibles
+            3. ✨ Champs manquants des caractéristiques techniques legacy
+         6. ✅ Helices avions
+            1. ✅ Caractéristiques techniques
+               1. ✨ Référence produit
+               2. ✅ Dimensions > Regrouper diamètre & pas
+               3. ✅ Alésage > Regrouper diamètres min & max
+                  1. ✅ Affichage conditionnel bagues réductrices
+               4. ✅ Utilisation (devient "Type de moteur compatible")
+               5. ✅ Matière (devient "Matière de la pale")
+               6. ✅ Propulsive
+               7. ✅ Pale de rechange
+               8. ✅ Cône de rechange
+               9. ✅ Diamétre du cône
+               10. ✅ Matiére du cône
+               11. ✅ Matiére de la pince
+            2. ✅ Description supplémentaire
+               1. ✅ Hélice bipale 4.7" x 2.4" à pale repliable en Nylon renforcé carbone
+            3. 🌱 Onglets
+               1. 🌱 Piéces détachées
+               2. 🌱 Accessoires conseillés
+            4. ✅ Champs manquants des caractéristiques techniques legacy
+               1. ✅ Rajout du nombre de pâles aux caractéristiques techniques
+                  1. ✅ Gestion des cas sortants de la normalisation (!= 2 3 4)
+               2. ✅ Rajout Possède des pales repliables ?
+               3. ✅ Regroupement des champs par thème
+         7. ✅ Helicos
+            1. ✅ Caractéristiques techniques
+               1. ✨ Référence produit
+               2. ✨ Niveau de difficulté
+               3. ✅ Type machine > Regrouper sous catégorie, nombre de voies & flybar
+               4. ✅ Resistance au vent
+               5. ✅ Diamètre rotor
+               6. ✅ Diamétre anti-couple
+               7. ✨ Poids
+               8. ✨ Dimensions
+               9. ✅ Motorisation (devient "Type de moteur")
+               10. ✨ Kit (ARTF)
+            2. ✨ Descriptions supplémentaires
+               1. ✨ Contenu de la boite
+               2. ✨ Matériel à prévoir
+               3. ✨ Notice règlement drones (dans description à l'export)
+            3. 🌱 Onglets
+               1. ✨ Photos
+               2. ✨ Documentation
+               3. 🌱 Piéces détachées
+               4. 🌱 Piéces Upgrade
+               5. ⚰️ Les indispensables
+               6. ⚰️ Produits compatibles
+            4. ✅ Champs manquants des caractéristiques techniques legacy
+               1. ✅ Cylindrées min & max (legacy)
+               2. ✅ Temps de vol
+         8. ✅ Maquettes
+            1. ✅ Caractéristiques techniques
+               1. ✨ Référence produit
+               2. ✨ Echelle
+               3. ✅ Niveau
+               4. 🧩 Nombre de pièces
+            2. ✨ Descriptions supplémentaires
+               1. ✨ Description
+            3. ✅ Onglets
+               1. 🌱 Peintures principales > Requête complexe
+               2. ✅ Colles > Afficher produits de la catégorie "colle maquettes"
+                  1. ✅🔍 Récupérer les produits d'une catégorie
+                     1. ✅ [doc 1](https://github.com/woocommerce/woocommerce/wiki/wc_get_products-and-WC_Product_Query)
+                     2. ✅ [doc 2](https://woocommerce.github.io/code-reference/files/woocommerce-includes-wc-product-functions.html)
+                     3. Mon exemple `Maquettes > onglet colle`
+               3. 🌱 Produits de finitions > Requête complexe
+               4. ⚰️ Outillage conseillé
+               5. ✅ Aérographes / Compresseurs > Afficher produits de la catégorie "aero & compresseurs"
+               6. ✅ Evergreen > Afficher produits de la catégorie "evergreen"
+            4. ✨ Champs manquants des caractéristiques techniques legacy
+         9. ✅ Matériaux
+            1. ✅ Caractéristiques techniques
+               1. ✨ Référence produit
+               2. ✨ Dimensions
+               3. ✅ Diamétre extérieur
+               4. ✅ Diamétre intérieur
+               5. ✨ Marque
+            2. ✨ Descriptions supplémentaires
+            3. ✅ Onglets
+               1. 🌱 Colles conseillées
+               2. ✨ Produits similaires > Requête même catégorie
+                  1. Déjà fourni par woocommerce après le produit
+               3. ⚰️ Articles compatibles
+            4. ✨ Champs manquants des caractéristiques techniques legacy
+         10. ✅ Moteurs electrique
+             1. ✅ Caractéristiques techniques
+                1. ✨ Référence produit
+                2. ✅ Type
+                3. ✅ KV
+                4. ✨ Poids
+                5. ✅ Tension nominale
+                6. ✅ Plage de tension > Regrouper moteur_electrique_plage_alimentation_min_en_volts & max
+                7. ✅ Courant > Regrouper moteur_electrique_courant_continu_en_a & courant_en_pointe_en_a
+                8. ✅ Cellules LiPo > Regrouper nombre_cellules_lipo_min & max
+                9. ✅ Eléments NiMh > Regrouper nombre_elements_nimh_min & max
+                10. ✨ Dimensions (ØxL)
+                11. ✅ Axe moteur > Regrouper axe_diametre_en_mm & axe_longueur_en_mm
+                12. ✅ Equivalence thermique
+                13. ✅ Cylindrée équivalente
+                14. ✅ Rendement
+                15. ✅ Nombre de pôles
+                16. ✅ Resistance interne
+                17. ✅ Coeff réduction
+             2. ✅ Descriptions supplémentaires
+                1. ✅ "Moteur pour" devient "Compatibilité" > Récupérer sous catégories
+                   1. 🚚 Déplacé dans les Caractéristiques techniques
+             3. ✅ Onglets
+                1. ✨ Description
+                2. ✨ Notice
+                3. ⚰️ Produits compatible
+                4. ✅ Hélices conseillées & Contrôleurs conseillés & Accus conseillés
+                   1. ✅ Faire un seul onglet avec ces catégories recommandées
+                   2. cf. `/templates/product/maquettes/onglet--aerographes-compresseurs---02-contenu.php`
+                5. ✨ Produits associés
+             4. ✅ Champs manquants des caractéristiques techniques legacy
+                1. ✅ Hélices conseillées
+                   1. ✅ Diamètre min & max
+                   2. ✅ Pas min & max
+                   3. ❓❓❓ en mm ou en pouces (cf. moteurs thermiques)
+         11. ✅💥⚡️ Optimiser gestion des onglets catégories
+             1. ✅ Un seul chargement
+                1. ✅ cf. `/templates/product/moteurs-electriques/onglets-de-cette-categorie-chargement.php`
+                2. ✅ Faire des boilerplates
+                   1. ✅ chargement
+                   2. ✅ contenu
+                      1. ✅ Charger les produits d'une catégorie spécifique
+                      2. ✅ Charger les produits d'un champ Relation ACF
+                   3. ✅📌 Valider via moteurs électriques
+             2. ✅♻️ Revoir onglets chargés dans `/templates/product/functions.php`
+                1. ✅ 🙍‍♂️🔌 Chargeurs : Ajout d'un onglet "Produits compatibles"
+                2. ✅ 🙍‍♂️🖼️ Maquettes
+                   1. ✅ Ajout d'un onglet "Colles"
+                   2. ✅ Ajout d'un onglet "Aérographes / Compresseurs"
+                   3. ✅ Ajout d'un onglet "EverGreen"
+         12. ✅💥📝 Maintenir la doc > un produit
+             1. ✅ Modifier les caractéristiques techniques
+             2. ✅ Modifier la description longue
+             3. ✅ Ajout d'onglets, et de leur contenuS
+                1. ✅ Charger les produits d'une catégorie spécifique
+                2. ✅ Charger les produits d'un champ Relation ACF
+         13. 🚀 Moteurs thermique
+             1. Caractéristiques techniques
+                1. ✅ Type > Regrouper
+                   1. moteurs_thermiques_nombre_temps
+                   2. & fuel_type
+                   3. & cylindree_en_cm3
+                2. ✅ Puissance > Regrouper
+                   1. puissance_thermique_en_cv
+                   2. & puissance_en_watts
+                   3. & plage_regime_max_en_tours_par_minute
+                3. ✅ Piston
+                4. ✨ Poids
+                5. ✅ Alésage
+                6. ✅ Course
+                7. ✅ réservoir conseillé
+                8. ✅ Livré avec silencieux
+                9. ✅ Plage de régime > Regrouper plage_regime_min_en_tours_par_minute & max
+                10. ✅ Hélices conseillées > Regrouper
+                    1. helice_diametre_min_en_mm
+                    2. helice_diametre_max_en_mm
+                    3. helice_pas_min_en_mm
+                    4. helice_pas_max_en_mm
+                       1. ❓❓❓ en mm ou en pouces
+                11. ✨ Contenu de la boite
+                12. ✅ Utilisation conseillée (devient "Compatibilité") > Récupérer sous catégorie
+             2. ✨ Descriptions supplémentaires
+             3. ✅ Onglets
+                1. ✨ Description
+                2. ✨ Notice
+                3. ✅ Carburants Conseillés > ACF Relation
+                4. ✅ Bougies Conseillées > ACF Relation
+                5. ⚰️ Hélices conseillées
+                6. ⚰️ Avions compatibles
+                7. 🌱 Piéces détachées
+                8. ✅ Indispensables > plusieurs liens * vers les catégories suivantes
+                   1. ✅ clef à bougie
+                   2. ✅ durites
+                   3. ✅ filtre
+                   4. ✅ Glow starter
+                   5. ✅ réservoir
+                   6. ❓ Valider que ce sont les bonnes catégories, il y a quelques homonymes / catégories similaires
+             4. ✨ Champs manquants des caractéristiques techniques legacy
+         14. 🚀💥♻️⚡️ L'alpha et l'omega putain de refacto > Optimiser > Créer des fonctions de rendu
+             1. ✅ ACF > Relation > Affichage de miniatures de produits
+                1. ✅ Créer la fonction
+                2. ✅ Appliquer aux endroits existants
+             2. ✅ ACF > Relation > Affichage d'une liste de liens de produit
+                1. ✅ Créer la fonction
+                2. ✅ Appliquer aux endroits existants
+             3. ✅ Afficher les miniatures & le lien vers une catégorie de produits
+                1. ✅ Créer la fonction
+                2. ✅ Appliquer aux endroits existants
+             4. ✅ Afficher une liste de liens vers des catégories de produits
+                1. ✅ Créer la fonction
+                2. ✅ Appliquer aux endroits existants
+             5. Champs ACF > Créer ssi plus de 2 utilisations
+                1. Boolean `_communs-et-vehicules/en-dessous-du-prix.php`
+                2. WYSIWYG (2 paragraphes) > `_communs-et-vehicules/onglet-description---03-descriptions-supplementaires.php`
+                3. Attribut WP `_communs-et-vehicules/onglet-description---04-caracteristiques-techniques.php`
+             6. ✅ ACF > Champ simple > dans un paragraphe
+                1. ✅ Créer la fonction
+                2. ✅ Appliquer aux endroits existants
+
 ## 02/12/2022
 
 ML Architecture
