@@ -16,6 +16,51 @@
    5. Process rituels vie courante
    6. Bilans service > [process de réparation](https://github.com/youpiwaza/26Digital/tree/main/bilans%20service/ancien-intranet/users/intranet)
 
+## 12/2022
+
+Manipulation des noms de domaines sous ovh, multisite & autre
+
+- DNS & zone
+  - A, AAAA, CNAME, TXT pour validation
+  - Respect de la patience : Onglet "Tâches en cours", propagation des DNS
+  - Vérification avant bascule
+    - Fichier hosts & logiciel hostsman pour validation
+    - cache DNS local & commande `ipconfig /flushdns`
+  - Activation du HTTPS
+  - Si DNS ailleurs, bien respecter recos multisite sinon zob après 30mn
+- Multisite, dossiers racine
+  - 🚨 PHP 8.1, multisite & WordPress > Installation à la mano
+  - 🚨 Ne pas mettre le dossier racine, maix plutôt `www` ou mieux un dossier personnalisé
+- Sécuriser son site avec nouveaux identifiants
+- Hébergement performance et serveur BDD dédié
+- Logs
+- Manipulation (bien plus) rapide de fichiers via SSH
+
+## Vieux
+
+Ressources [AE](https://mail.google.com/mail/u/0/#search/portfolio/KtbxLwgpsCzbhqkJxbCChHPxQDcHCFqffL)
+
+Proba mails ALD & Ophé également + Liste de liens
+
+---
+
+1. Faire article mise en place/réparation/optimisation de pc
+    1. [hey](https://www.drivereasy.com/knowledge/100-disk-usage-windows-10-fixed/)
+    2. [hoy](https://www.makeuseof.com/tips-fix-100-disk-usage-improve-windows-performance/)
+    3. Faire article optimiser pc famille
+       1. DD plein
+          1. Reco SSD/Nvme
+       2. windows update
+       3. Conflits anti virus
+       4. Si HDD > Defrag
+       5. chkdsk
+2. Faire article maintenance PC
+3. Faire article découverte ansible
+
+---
+
+Faire une [bonne présentation](https://drive.google.com/drive/folders/15YddNn8BHNk9_sZCZVDDKC-_scGXTLOY?usp=share_link)
+
 ## 11/2022
 
 ### Préparer son entretien d'embauche
@@ -30,6 +75,48 @@ Réviser les questions fréquentes d'entretien (pas mal de github de dispo) et s
 pas fumer avant l'entretien, faire une bonne nuit de sommeil
 être propre
 CV & portfolio à jour
+
+#### Conversation linked in 12/2022
+
+```ini
+Heya,
+
+Pas de sushis :)
+Euh bah au niveau des conseils,
+
+1. si tu as un CV tu peux me l'envoyer et je ferai une repasse dessus pour te dire ce qui va, ce qui va pas et si il y a des points éliminatoires.
+
+2. En attendant de trouver un taf, je te recommande de t'auto-former (grafikart ou autres cours gratuits en ligne) et surtout de tout sauvegarder en public sur github ou gitlab. Sur les profil il y a a la fois un indicateur d'activité, mais également cela permet aux recruteurs de voir la qualité de ton code (commentaires, bonne indentation, bon nommage)
+
+2bis. Pas hésitez à bosser au moins une heure/jour sur un langage ; pas forcément le plus bankable ; mais sur lequel tu es à l'aise. Perso je recommande javascript qui est assez passe partout, ou PHP un peu plus rigoureux.
+
+3. Être à l'aise avec git et avec le terminal également.
+Je te recommande "terminus" de mémoire, petit jeu en ligne
+
+J'ai une "liste de liens" de ouf ici : https://docs.google.com/spreadsheets/d/1COXPrsJgAJyfXOT7aNZULCDMOYhctlzI5kXOxw7vE64/edit#gid=1235748832
+
+N'hésite pas à chercher "git" et "terminal" dedans (recherche sur toutes les feuilles haha)
+
+Ca reste un très gros plus à l'embauche ; dans le sens ou tu pourris pas une semaine à un dev senior pour t'apprendre ça
+
+4. Faire un tour du côté des designs patterns pour savoir de quoi ça parle, et pour en citer 28 quand on t'en demande 3 en entretien : https://refactoring.guru/fr/design-patterns
+
+5. Au cas ou, bien bosser l'anglais > netflix > sous titre, puis sans sous titres
+
+6. Et enfin, le premier et seul point que je voulais te recommander mais comme d'hab je m'étale : Chercher (souvent sur github) les repos "developper interview questions" avec le nom du taf que tu souhaites (par exemple front : https://github.com/h5bp/Front-end-Developer-Interview-Questions )
+
+En gros ça te file une liste de questions que tu peux avoir en entretien d'embauche > 2 possibilités : soit tu connais déjà un peu & ça renforce ta connaissance ; soit tu connais pas > tu cherches sur gougeul + tu testes + tu balances sur github + tout benef
+
+Par exemple "C'est quoi le FOUC ?" :D
+
+28. Si t'as pas de site internet > en faire un. Si t'en a un > l'analyser et l'amliorer via google pagespeed insight https://pagespeed.web.dev/?hl=fr
+
+qui te dit à la fois ou tu as fait de la merde, et surtout pourquoi et comment résoudre (et après tu peux balancer "SEO" dans tes compétences lol)
+
+BREF
+
+Bonne putain de lecture de ce pavé, si t'as des questions n'hésite pas
+```
 
 ### Régime hyper protéiné / Low carb / keto
 

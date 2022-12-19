@@ -2,6 +2,218 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 16/12/2022
+
+AE
+
+1. ✅ Payer impôts CFE
+   1. ✅ 2022 ~280€ le 15 décembre 2022
+      1. ✅🚨 Valider mandat
+      2. ✅📌 Vérifier prélèvement
+2. ✅ Cleaner google drive > Virer ce qui sert à rien
+
+PB Modelisme
+
+1. 🚀 Affichage front ACF
+   1. 🚀 Affichage final pour chaque categorie
+      1. 🚀 Reprendre l'affichage de l'ancien site, un fichier par catégorie
+         1. ✅💥♻️⚡️ L'alpha et l'omega putain de refacto > Optimiser > Créer des fonctions de rendu
+             1. 🌱 Champs ACF > Créer ssi plus d'une utilisation
+                1. Boolean `_communs-et-vehicules/en-dessous-du-prix.php`
+                2. WYSIWYG (2 paragraphes) > `_communs-et-vehicules/onglet-description---03-descriptions-supplementaires.php`
+                3. Attribut WP `_communs-et-vehicules/onglet-description---04-caracteristiques-techniques.php`
+                4. ACF > Répéteur
+                    1. Sous types
+                5. ACF > Fichier `/templates/product/_communs-et-vehicules/onglet-documents---02-contenu.php`
+             2. ✅ ACF > Champ simple > dans une cellule de tableau
+                1. ✅ Créer la fonction
+                2. ✅ Appliquer aux endroits existants
+                3. ✅ Ajout textes préfixes / suffixes (libelle ET valeur)
+                   1. ✅ Modifier la fonction
+                      1. ✅ Pas besoin sur le libellé, on ajoute directe dans le paramètre lors de l'appel à la fonction
+                   2. ✅ Appliquer aux endroits existants
+             3. ✅ ACF > Groupe de boutons
+                1. ✅ Créer la fonction
+                2. ✅ Appliquer aux endroits existants
+             4. ✅ ACF > Champs simples, multiples (dépendances d'affichage)
+                1. ✅🧠 Passer un tableau de tableaux ? Possibilité d'appeler des fonctions d'affichage ?
+                   1. ✅ yeah & & yeah via case sur isset prop
+                2. ✅ Créer la fonction
+                3. ✅ Appliquer aux endroits existants
+             5. ✅ WP Récupérer les sous catégories
+                1. ✅ Créer la fonction
+                2. ✅ Appliquer aux endroits existants
+         2. ✅ Pièces hélicoptères
+             1. ✅ Caractéristiques techniques
+                1. ✨ Référence produit
+                2. ✅ Type de pièce
+             2. ✨ Descriptions supplémentaires
+             3. 🌱 Onglets
+                1. ✨ Description
+                2. 🌱 Machines compatibles
+             4. ✨ Champs manquants des caractéristiques techniques legacy
+         3. ✨ Pièces moteurs thermiques
+             1. Affichage page KO
+         4. ✅ Pièces voitures
+             1. Affichage page KO
+             2. ✅ Caractéristiques techniques
+                1. ✅ Type de pièce
+             3. ✨ Descriptions supplémentaires
+             4. 🌱 Onglets
+                1. 🌱 🔗 Table "construite"
+             5. ✨ Champs manquants des caractéristiques techniques legacy
+         5. ✅ Quartz
+             1. Affichage page KO
+             2. ✅ Caractéristiques techniques
+                1. ✅ Fréquence
+                2. ✅ Est compatible ?
+                3. ✅ Type de quartz
+             3. ✨ Descriptions supplémentaires
+             4. ✨ Onglets
+             5. ✨ Champs manquants des caractéristiques techniques legacy
+         6. ✅ Radios
+             1. ✅ Caractéristiques techniques
+                1. ✅ Nombre de voies
+                2. ✅ Plage de la fréquence
+                3. ✨ Codage
+                   1. Ajouté à la description longue lors de l'export sous "Technologie"
+                4. ✅ Télémétrie
+                5. ✅ Consommation
+                6. ✨ Dimensions
+                7. ✨ Poids
+             2. ✅ Descriptions supplémentaires
+                1. "La CR2S V2 avec 2 recepteurs est une radio 2 voies,non programmable à synthèse de fréquence émettant en 2,4 Ghz"
+                2. Regrouper
+                   1. Nom du produit
+                   2. ✨ Nombre de recepteurs, d'ou provient t'il ?
+                      1. site legacy > `/site actuel pb modelisme/Telecommande/detail_TX.php`
+                      2. `Concat("La ",NOMEMETTEUR," est une radio ",NBVOIEEMETTEUR," voies",IF(PROGEMETTEUR=2,", programmable",",non programmable"),IF(SYNTHESETX=2," à synthèse de fréquence"," à quartz")," émettant en ",IF(PLAGEFREQEMETTEUR!=2400,CONCAT(PLAGEFREQEMETTEUR," Mhz ",BANDFREQEMETTEUR),"2,4 Ghz")) as miniblabla,`
+                      3. Inclus dans le nom produit
+                   3. radios_nombre_voies
+                   4. is_programmable
+                   5. is_real_quartz (synthèse)
+                   6. radios_frequence_plage_en_hertz
+             3. ❓ Onglets
+                1. ✨ Description
+                2. ✨ Photos
+                3. ✨ Documentation
+                4. ❓ Produits associés > a voir pour les requêtes ou si on rajoute un champ perso relation
+                5. ❓ Récepteurs compatibles > a voir pour les requêtes ou si on rajoute un champ perso relation
+             4. ✅ Champs manquants des caractéristiques techniques legacy
+                1. ✅ Fréquence de la bande
+                2. ✅ En quartz véritable ?
+                3. ✅ Est programmable ?
+                4. ✅ Référence au servo récepteur
+                5. ✅ Référence émetteur
+         7. ✅ Recepteurs
+             1. ✅ Caractéristiques techniques
+                1. ✨ Référence
+                2. ✅ Nombre de voies
+                3. ✅ Plage de la fréquence
+                4. ✨ Poids
+                5. ✅ Portée
+                6. ✅ Possède un fail safe ?
+                7. ✅ Longeur antenne
+                8. ✨ Dimensions
+                9. ✅ Est cumulable ?
+             2. ✅ Descriptions supplémentaires
+                1. "Récepteur Konect analogique 2,4 gHz utilisant la technologie FHSS"
+                2. site legacy > `/site actuel pb modelisme/Recepteur/detail_Recepteur.php`
+                3. `CONCAT("Récepteur ",NOMMARQUE,IF(FAIL_SAFE=1," analogique"," digital")," ",IF(PLAGE_FREQ!=2400 && PLAGE_FREQ!=5800,concat(PLAGE_FREQ," mHz ",BANDEFREQU),IF(PLAGE_FREQ=2400,"2,4 gHz","5,8 gHz"))," utilisant la technologie ",NOMTECHRECEP) as miniblabla`
+                4. Regrouper
+                   1. "Récepteur "
+                   2. NOMMARQUE
+                   3. has_fail_safe
+                   4. 🚨 recepteurs_frequence_plage_en_hertz / recepteurs_frequence_bande
+                   5. " utilisant la technologie "
+                   6. ✨ NOMTECHRECEP > Déjà ajouté à la description longue lors de l'import dans "Technologie"
+             3. Onglets
+                1. 🌱 Utilisation conseillée/s > 🔗 table "categorieavion", 🔗 table "utilise"
+                2. ✨ Description
+                3. ✨ Notice
+                4. 💩 Quartz compatible > 💩 KO
+                5. 🌱 Produits compatibles
+             4. ✅ Champs manquants des caractéristiques techniques legacy
+                1. ✅ Fréquence de la bande
+                2. ✅ Est compatible télémétrie ?
+         8. ✅ Servos
+             1. ✅ Caractéristiques techniques
+                1. ✨ Référence
+                2. ✅ Pignon
+                3. ✅ Tension d'alimentation > Regrouper min & max
+                4. ✅ Couple > Regrouper min & max
+                5. ✅ Vitesse > Regrouper VitMinServo, VitMaxServo, Angle
+                6. ✅ Categorie
+                7. ✨ poids
+                8. ✨ dimensions
+                9. ✅ Roulement
+                10. ✅ Electronique (Tehcnologie)
+                11. ✨ 2eme image doc
+             2. ✨ Descriptions supplémentaires
+             3. Onglets
+                1. ✨ Description
+                2. 🌱 Piéces détachées
+                3. ⚰️ Produits compatibles
+                4. ⚰️ Eléments de commandes
+             4. ✨ Champs manquants des caractéristiques techniques legacy
+         9. ✅ Voitures
+             1. ✅ Caractéristiques techniques
+                1. ✨ Constructeur / Marque
+                2. ✨ Référence
+                3. ✅ Catégorie > Regrouper sous catégorie & echelle
+                4. ✅ Motorisation > Regrouper moteur_type & moteur_type_infos
+                5. ✨ Dimensions
+                6. ✨ Poids
+                7. ✅ Empatement
+                8. ✅ Garde au sol
+                9. ✅ Voie avant
+                10. ✅ Voie arrière
+                11. ✅ Diamètre de la roue
+                12. ✅ Largeur de la roue
+                13. ✨ Version (ARTF)
+                14. ✨ Contenu de la boite
+                15. ✨ Equipements à prévoir
+             2. ✨ Descriptions supplémentaires
+             3. ✅ Onglets
+                1. ✨ Description
+                2. ✨ Photos
+                3. ✅ Accessoires Camions > Cédric : On remplace par un lien* vers tous les accessoires camion
+                4. ⚰️ Roues
+                5. 🌱 Pièces détachées
+                6. 🌱 Pièces Options
+                7. ✅ Indispensables > Cédric : On remplace par des liens * vers les rubriques suivantes : Huile diff & Amorto / Pignon moteur / Clip carrosserie / Filtre à air /
+             4. ✨ Champs manquants des caractéristiques techniques legacy
+      2. ✅ Refacto/ranger
+         1. ✅ `functions_product.php` > découper en fichiers par cat et ranger dans bon dossier cat + require dans `functions.php`
+            1. ✅ ~`/templates/product/chargeurs/functions.php`
+         2. ✅ ranger ça dans communs `/templates/product/__all-products-description-tab.php` et renommer
+         3. ✅ idem `/templates/product/modifications/`, ce sont des modifs/ajouts communes
+      3. ✅🐛 Corriger multiples champs > affichage conditionnel des champs : au moins un si non remplis ou vides
+         1. [yay](https://dev.pb-modelisme.com/produit/un-produit-avec-lensemble-des-champs-personnalises-non-remplis/)
+         2. ✅🐛 FIX Voitures > Catégories > Si il n'y a pas de sous catégories
+      4. ✅ Affichage conditionnel par catégorie pour les intitulés debug (if au moins un champ de la cat)
+      5. 🚀 Affichage conditionnel onglet documents si rieng
+      6. ✅ Repasse champs vrai/faux pour afficher les libellés corrects, cf. drive "Structure de données"
+      7. 🚀 Onglets supplémentaires
+          1. 🏎️ Véhicules & maquettes
+             1. 👴🎨 Liste de peintures legacy > Faire une requête : ~récupérer les accessoires via ID legacy
+                1. ✅ Créer l'onglet
+                2. Contenu
+          2. Accessoires
+             1. Produits Similaires
+                1. ✅ Créer l'onglet
+                2. Contenu
+          3. Avions
+             1. Pièces détachées / Plan
+                1. ✅ Créer l'onglet
+                2. Contenu
+             2. Articles conseillés
+                1. ✅ Créer l'onglet
+                2. Contenu
+          4. Bateaux
+             1. Pièces détachées
+                1. 🚀 Créer l'onglet
+
 ## 09/12/2022
 
 PB Modelisme

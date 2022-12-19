@@ -35,6 +35,7 @@ Remettre patreon Boris, YMS, Bloodywood
   - [koji paste](https://www.google.com/search?q=koji+paste)
 - [Mad dog hot sauce](https://www.google.com/search?q=mad+dog+hot+sauce)
 - [Mama Joyce Peppa Sauce](https://www.peppasauce.love/)
+- [Matos de qualitay may chayr](https://www.youtube.com/watch?v=y4dgl5Lv-Iw)
 - Meilleure sauce soja du monde [site ref](https://kinbue.jp/en_product) [ecommerce ?](https://www.nishikidori.com/en/25-soy-sauce) << retrouver les différentes sauces
   - [video](https://www.youtube.com/watch?v=P6bk_AGu5mw&feature=emb_logo)
   - [+ smoke](https://www.nishikidori.com/en/soy-sauce/383-smoked-soy-sauce-3701184001902.html)
