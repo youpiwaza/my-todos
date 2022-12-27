@@ -2,6 +2,282 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 23/12/2022
+
+Perso
+
+1. ✅ Maj github wallpapers
+
+PB Modelisme
+
+1. ♻️ Retour clients prioritaires
+   1. ⏳ Mail 2 du 12/11/2022 [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqRZcqsRzxwbhFWDZWMNzBxgCW)
+      1. Ajouter moyen de paiement Mandat administratif
+      2. ⏳ Trop petit, texte illisible ?
+   2. ⏳ Mail du 13/12/22 / Retours intégration champs personnalisés, [hey](https://mail.google.com/mail/u/0/#inbox/KtbxLwGrVHxBXxQPHsRjdBPbfPLdgwjhZg)
+      1. ✅ Avions > Hélices > Diamètres min & max > C'est en pouces
+         1. ✅ Maj la doc
+         2. ✅ Maj la doc champs persos
+         3. ✅ WP ACF > Maj les champs persos
+         4. ✅ Maj RequeteS import
+         5. ✅ Exporter jeu de tests
+         6. ✅ Maj affichage front (champ ACF & unités)
+         7. ✅📌 Tests
+            1. [~Partenavia](https://dev.pb-modelisme.com/produit/rr-partenavia-p69/)
+         8. ✅ Réimporter & majs produits actuels
+      2. ✅ Avions > Dans le champs "motorisation thermique" il apparait 2 fois "minimum" au lieu de "minimum / maximum"
+      3. ✅ Bateaux > "Type de bateau" : ce n'est pas "plastique ou statique", mais "naviguant ou statique"
+      4. ✅ Contrôleurs, rubrique "est ce une pièce upgrade" ? Il n'y a pas de pièce upgrade sur un contrôleur  / variateur
+         1. ✅ Libellé corrigé pour "Possède un contrôleur OPTO"
+      5. ✅ Moteurs électriques > Equivalence cylindrée > en cm3
+      6. ⏳ Avions > Nombre de voies
+         1. planeurs de vol libre (non RC) > Forcer à 0
+         2. Si le modèle est en motorisation thermique ou mixte alors le nombre de servos présent dans la base correspond à la version thermique.
+         3. Le nombre de servos nécessaire pour la version électrique sera donc "valeur du champs dans la base-1"
+         4. Si le modèle est uniquement en motorisation électrique, alors il suffit d'afficher la valeur présente dans la base.
+         5. ⏳ Quand on part de l'avion, comment détermine t'on le type de motorisation ?
+2. ⏳🐛 Réductions de prix réduit en cas de commande de multiples éléments
+   1. 📝 Nom du dossier dans /plugins : `wholesale-pricing-woocommerce`
+   2. 🐛 Prix différents entre panier menu (quad) & page panier
+      1. 🐛 Quad menu affiche le prix sans TVA
+   3. ⏳🐛 Correction des bugs
+      1. ⏳📧 Contact support > [Topic créé](https://wpfactory.com/?post_type=topic&p=93873) le 21/10/2022
+      2. Admin
+         1. Champ prix > Ajouter des nombres derrière la virgule, limité à 4 actuellement, passer à 10
+      3. Panier
+         1. Avec réduction
+            1. Ligne produit
+               1. Prix réduit à l'unité affiché en HT
+               2. Vérifier % de réduction
+   4. 🐛 Traduction (fichiers pot po mo) non pris en compte
+      1. ⏳ Topic créé sur le [forum](https://wpfactory.com/support/topic/bug-translations-not-working/)
+   5. 🌱 Reste à passer les opérations manuelles
+3. ✅ Poursuite front ACF
+   1. ✅ Affichage conditionnel onglet documents si rieng
+   2. ⏳🐛 Corriger typo import
+      1. 🐛 Attributs > [Version](https://dev.pb-modelisme.com/wp-admin/edit-tags.php?taxonomy=pa_version_boite&post_type=product)
+         1. 2 espaces -_-"
+         2. kit tout bois à  construire
+         3. kit à  monter
+         4. ⏳ Attente retour cédric pour maj en bdd pb actuelle, virer les doubles espaces
+         5. Réimporter pour maj / corriger
+      2. ✅🐛 Moteurs électriques > Sous catégorie compatibilité
+         1. Certains termes sont passés à travers les mailles
+            1. 💩 Nope, c'est moi qui ai fait de la merde dans la hiérarchie
+            2. `Accessoires > Moteurs électriques > avions` > catégories "avions" créée
+            3. Au lieu de `.. > Moteurs électriques pour avions`
+         2. ✅ Corriger requêteS
+         3. ✅ Réimporter, vérifier si maj auto des catégories avec diff
+         4. ✅ Virer catégories superflues
+      3. ✨ Pignon moteurs [cf.](https://dev.pb-modelisme.com/wp-admin/edit-tags.php?taxonomy=product_cat&post_type=product&s=Pignon+moteur)
+         1. Probablement juste une catégorie vide
+   3. ✅ Champs relation > meilleure gestion des images > utiliser placeholder woocommerce si rieng
+      1. ✅ communs
+         1. 🧰 Matériel à prévoir
+         2. 🔗 Produits associés
+   4. ✅ Gestion des champs complexes > Voir avec Cédric
+   5. ⏳ Onglets supplémentaires
+       1. ✅ 🏎️ Véhicules & maquettes
+          1. ✅ 👴🎨 Liste de peintures legacy > Faire une requête : ~récupérer les accessoires via ID legacy
+             1. ✅ Créer l'onglet
+             2. ✅🧠 Logique
+                1. 📝 Champs uniquement dans maquette de mémoire > osef ça sera pour l'ensemble des véhicules, homogénéisation
+                2. Trouver une maquette possédant ces champs remplis
+                   1. [AMX-13/75](https://dev.pb-modelisme.com/wp-admin/post.php?post=49037&action=edit)
+                3. Récupérer un accessoire à la mano (a partir de la ref ça semble plus simple)
+                   1. Produits > Accessoires > Rechercher "86514" (UGS)
+                      1. ✅ [AS14 VERT OLIVE](https://dev.pb-modelisme.com/wp-admin/post.php?post=16184&action=edit)
+                      2. Pas si pire grâce à Cédric <3
+             3. ✅ Contenu
+                1. ✅ Explode la chaîne legacy sur `;`
+                2. ✅ Faire une requête WP avec `$args > UGS ==`
+                3. ✅ Affichage
+       2. ✅ Accessoires
+          1. ✅ Produits Similaires
+             1. ✅ Créer l'onglet
+             2. ✅ Contenu > Affichage des produits de la même **sous** catégorie
+             3. ✅ En faire une fonction parce que cela surement réutilisé pour les autres onglets
+             4. ✅🐛FIX: Front > Onglets > Accessoires > Produits similaires > Si pas de sous catégorie afficher les derniers accessoires
+       3. ⏳ Avions
+          1. ⏳ Pièces détachées / Plan
+             1. 💥 Trop le bordel actuellement pour faire un truc propre & rapide avec les données actuelles
+             2. ✅ Créer l'onglet
+             3. ✅🧠 Logique
+                1. 🔗 Lien avec la table accessoires
+                   1. `accessoires.REFLIENACC LIKE % avions.REFAVION %`
+                   2. `REFLIENACC` peut contenir une ou plusieurs entrées ~
+                      1. 54209
+                      2. ,214211,
+                      3. ,214211,PB8100,PB8000,HRR503,HRR504,HRR508,HRR510,HRR505
+                      4. NULL
+                2. Ajouter le champ `REFLIENACC` à l'import des accessoires, yay fun
+                3. 💩 Front > Explode + Query sur champs perso
+                   1. NON, on a la ref de l'avion, que l'on doit retrouver dans le champ d'accessoires via ~like %%
+             4. ✅📌 Vérifier si on peut WP Query sur du champ personnalisé
+                1. cf. `README-craft.md`
+             5. Ajouter le champ `REFLIENACC` à l'import des accessoires, yay fun
+                1. ✅ Maj la doc
+                2. ✅ Maj la doc champs persos
+                3. ✅ WP ACF > Maj les champs persos
+                4. ✅ Maj RequeteS import
+                5. ✅ Exporter jeu de tests
+                6. 🌱 Réimporter & 🌱 majs produits actuels
+                7. ✅ Maj affichage front (champ ACF)
+                8. 📌 Tests
+                    1. [~Partenavia](https://dev.pb-modelisme.com/produit/rr-partenavia-p69/)
+             6. Contenu
+                1. 💩✅ Récupérer le champ
+                2. 💩 ExplodeS du cancer
+                3. Récupérer la ref de l'avion
+                4. Query ~like %% sur accessoires.REFLIENACC
+                   1. [doc](https://rudrastyh.com/wordpress/meta_query.html) > "like", plutôt ["in"](https://rudrastyh.com/wordpress/meta_query.html#multiple_values)
+                   2. 💥 Faux positifs si prefixes ou suffixes egaux
+                      1. 💥 Tous les champs ne sont pas suffixés afin de délimiter la fin de la chaîne, c'trop la merde
+                      2. Solutions proposées
+                           1. On crée un nouveau champ de type Relation mais il faudra se refader les correspondances à la main
+                           2. Tu nettoies la BDD actuelle (un séparateur unique, & délimiteurs de chaînes de caractères ex: '"1235";"2345";"3456"') pour l'ensemble des valeurs du champ, mais il y aura probablement des changements à faire derrière
+                5. Affichage
+                6. Profit
+          2. ⏳ Articles conseillés
+             1. ✅ Créer l'onglet
+             2. ⏳ Contenu > Lien avec la table accessoires ?
+       4. ⏳ Bateaux
+          1. ⏳ Pièces détachées
+             1. ✅ Créer l'onglet
+             2. ⏳ Contenu `REFLIENACC`
+       5. ⏳ Batteries
+          1. ⏳ Produits compatibles
+             1. ✅ Créer l'onglet
+             2. ⏳ Contenu
+          2. ⏳ Chargeurs compatibles
+             1. ✅ Créer l'onglet
+             2. ⏳ Contenu
+       6. ⏳ Controleurs
+          1. ⏳ Produits compatibles > Requête à récupérer / convertir
+             1. ✅ Créer l'onglet
+             2. Contenu
+       7. ⏳ Helices avions
+          1. ⏳ Piéces détachées > Requête complexe
+             1. ✅ Créer l'onglet
+             2. Contenu `REFLIENACC`
+          2. ⏳ Accessoires conseillés > Requête à récupérer / convertir
+             1. ✅ Créer l'onglet
+             2. ⏳ Contenu > Même requête que Controleurs > Produits compatibles
+       8. ⏳ Helicos
+          1. ⏳ Piéces détachées > Requête à récupérer / convertir > `site actuel pb modelisme\Helico\prodassoc.php` > lol nope
+             1. ✅ Créer l'onglet
+             2. Contenu
+          2. ⏳ Piéces Upgrade > Requête complexe > idem
+             1. ✅ Créer l'onglet
+             2. Contenu
+       9. ⏳ Maquettes
+          1. ⏳ Produits de finitions > Récupérer requête complexe (plusieurs catégories)
+             1. ✅ Créer l'onglet
+             2. Contenu
+                1. `site actuel pb modelisme/Maquette/detailprod.php?shw=4`
+                   1. `site actuel pb modelisme/Maquette/prodassoc.php` > `switch case '4'`
+                   2. Même requête que Helicos > Piéces détachées en plus complexe
+       10. ⏳ Matériaux
+           1. ⏳ Colles conseillées > Requête complexe en fonction de la sous catégorie
+              1. ✅ Créer l'onglet
+              2. Contenu
+       11. ⏳ Moteurs thermique
+           1. ⏳ Piéces détachées > Requête complexe table constitue ?
+              1. ✅ Créer l'onglet
+              2. Contenu > Le mieux serait de créer un champ avec les ref concaténées
+       12. ⏳ Pièces hélicoptères
+           1. Machines compatibles > 🔗 Table "compose"
+              1. ✅ Créer l'onglet
+              2. Contenu
+       13. ⏳ Pièces voitures
+           1. ? > 🔗 Table "construite"
+              1. ✅ Créer l'onglet
+              2. Contenu
+       14. ⏳ Recepteurs
+           1. Utilisation conseillée/s > 🔗 table "categorieavion", 🔗 table "utilise"
+              1. ✅ Créer l'onglet
+              2. Contenu
+           2. Produits compatibles
+              1. ✅ Créer l'onglet
+              2. Contenu
+       15. ⏳ Servos
+           1. Piéces détachées
+              1. ✅ Créer l'onglet
+              2. Contenu
+       16. ⏳ Voitures
+           1. Pièces détachées > Récupérer requête ancien site
+              1. ✅ Créer l'onglet
+              2. Contenu
+           2. Pièces Options > Pieces voitures avec champs OPT à 2 (pièces pour upgrade)
+              1. Note max : Ref à la catégorie pièces détachées pour voitures
+              2. ✅ Créer l'onglet
+              3. Contenu
+   6. ✅ Vérifier l'ensemble des champs de catégorie sur un ensemble de produits réels / importés
+      1. ✅ Maj sur la doc en ligne & dans readme de chaque produit sur le front
+         1. ✅ Structures
+      2. ✅ Faire des références pour chaque catégorie
+         1. ✅ un produit réel
+            1. ✅🙍‍♂️ accessoires
+            2. ✅🙍‍♂️ acctx
+            3. ✅🙍‍♂️✈️ avions
+            4. ✅🙍‍♂️🛥️ bateaux
+            5. ✅🙍‍♂️🔋 batteries
+            6. ✅🙍‍♂️🕯️ bougies
+            7. ✅🙍‍♂️⛽ carburants
+            8. ✅🙍‍♂️🔌 chargeurs
+            9. ✅🙍‍♂️🛂 contrôleurs
+            10. ✅🙍‍♂️🛩️ hélices avions
+            11. ✅🙍‍♂️🚁 hélicos
+            12. ✅🙍‍♂️🖼️ maquettes
+            13. ✅🙍‍♂️🌿 matériaux
+            14. ✅🙍‍♂️⚙️⚡️ moteurs électriques
+            15. ✅🙍‍♂️⚙️🔥 moteurs thermiques
+            16. ✅🙍‍♂️⚒️🚁 pièces helicos
+            17. ✅🙍‍♂️⚒️⚙️🔥 pièces moteurs thermiques
+            18. ✅🙍‍♂️⚒️🚗 pièces voitures
+            19. ✅🙍‍♂️📻 quartz
+            20. ✅🙍‍♂️🎮📻 radios
+            21. ✅🙍‍♂️📡 recepteurs
+            22. ✅🙍‍♂️⛭ servos
+            23. ✅🙍‍♂️🚔 voitures
+         2. ✅ un produit test complètement rempli
+             1. ✅🧠 L'ensemble des champs
+             2. ✅🧠 Aucun des champs
+             3. ✅🙍‍♂️ accessoires
+             4. ✅🙍‍♂️ acctx
+             5. ✅🙍‍♂️✈️ avions
+             6. ✅🙍‍♂️🛥️ bateaux
+             7. ✅🙍‍♂️🔋 batteries
+             8. ✅🙍‍♂️🕯️ bougies
+             9. ✅🙍‍♂️⛽ carburants
+             10. ✅🙍‍♂️🔌 chargeurs
+             11. ✅🙍‍♂️🛂 contrôleurs
+             12. ✅🙍‍♂️🛩️ hélices avions
+             13. ✅🙍‍♂️🚁 hélicos
+             14. ✅🙍‍♂️🖼️ maquettes
+             15. ✅🙍‍♂️🌿 matériaux
+             16. ✅🙍‍♂️⚙️⚡️ moteurs électriques
+             17. ✅🙍‍♂️⚙️🔥 moteurs thermiques
+             18. ✅🙍‍♂️⚒️🚁 pièces helicos
+             19. ✅🙍‍♂️⚒️⚙️🔥 pièces moteurs thermiques
+             20. ✅🙍‍♂️⚒️🚗 pièces voitures
+             21. ✅🙍‍♂️📻 quartz
+             22. ✅🙍‍♂️🎮📻 radios
+             23. ✅🙍‍♂️📡 recepteurs
+             24. ✅🙍‍♂️⛭ servos
+             25. ✅🙍‍♂️🚔 voitures
+      3. ✅ Faires images réalistes avec TEST écrit dessus & remplacer
+4. ✅ Désactiver le debug afin de faciliter le recettage
+   1. ✅ DEBUG Conditionnel page pun produit
+5. ✅📧 Mail clientS avec liste de liens de recettage
+6. ✅💄 Repasse sur le style de la page 1 produit
+   1. ✅ Réglage de plein de petites pétouilles
+   2. ✅ Remplacer les trucs basiques par du jôli bootstrap
+      1. ✅ Liste a puces alakon
+      2. ✅ Miniatures produits > cards
+   3. ✅ [Produits similaires](https://wordpress.stackexchange.com/questions/358034/wc-get-template-part-content-product-where-is-this-file-located)
+   4. Traduire plugin marques
+
 ## 16/12/2022
 
 AE

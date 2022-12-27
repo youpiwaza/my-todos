@@ -67,7 +67,6 @@ Remettre patreon Boris, YMS, Bloodywood
 - [Bloodywood](https://linktr.ee/BloodywoodOfficial) et ou [store](https://bloodywoodstore.com/)
 - blue ray robot chicken
 - [Bureau de ouf](https://www.autonomous.ai/standing-desks/smartdesk-2-home)
-- Cable usbc
 - Casque buyers dynamic D 330
 - Housse en cuir pour couteau, demander a Alexis
 - Mitaines de contention, cf. dus
@@ -156,6 +155,11 @@ Remettre patreon Boris, YMS, Bloodywood
 - [GSW pinceaux kolinsky gold set](https://www.greenstuffworld.com/fr/pinceaux/1572-set-premium-gold-series.html)
 - scale 75
   - black ardents green
+  - Bustes / figs (promos a nowel)
+    - [ZHOOR THE LORD OF HAVOC](https://scale75.com/en/outlet/875-zhoor-the-lord-of-havoc.html)
+    - [Dark Elf](https://scale75.com/en/outlet/44-dark-elf.html)
+    - [The Drow](https://scale75.com/en/outlet/47-the-drow.html)
+    - [Cliffs Guard](https://scale75.com/en/outlet/51-cliffs-guard.html)
   - Peintures à l' huile / [FLOWW FULL SET](https://scale75.com/en/floww-range/1084-scalecolor-floww-full-set.html)
 - [Slaanesh](https://www.youtube.com/watch?v=RofGU4ewrR8)
 - [Tamiya : Tools Range : Product Reviews](https://www.youtube.com/watch?v=K7KzJpM1gNY)

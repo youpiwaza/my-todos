@@ -97,31 +97,30 @@ Perso
       1. `sudo apt install npm`
       2. `sudo apt install yarn`
       3. `sudo apt install gulp`
-3. Maj github wallpapers
-4. Github dédoublonner default-config-files-for-github-repository & base-repository-github
-5. Réserver concerts
+3. Github dédoublonner default-config-files-for-github-repository & base-repository-github
+4. Réserver concerts
     1. Sabaton
        1. Agenda
-6. Rhum hellfest
-7. 🚀♻️ Acheter flotte > magnésium
-8. MSG maison
+5. Rhum hellfest
+6. 🚀♻️ Acheter flotte > magnésium
+7. MSG maison
     1. [Recette](https://www.youtube.com/watch?v=sE3dYCphy2M)
-9. 🔍 Régime
+8. 🔍 Régime
     1. PORK PANKO low carb !
     2. [Low carb](https://www.dietdoctor.com/low-carb) / keto
        1. Most fruits and fruit juice / **Although low-sugar berries — such as blackberries, raspberries, and strawberries — are ok in small to moderate amounts.**
     3. Keto wheat flour > farine avec prot ? [hey](https://www.youtube.com/watch?v=g2fTYDftlCg)
     4. Non fat ricotta cheese / provolone cheese
-10. gochujang
+9. gochujang
     1. [amazon](https://www.amazon.fr/s?k=gochujang+jebiwon)
     2. [idem](https://www.amazon.fr/s?k=doenjang)
-11. 🔍 Champignon Lingzhi contre la fatigue & insomnie
-12. [Figs Claymore](https://figurama-collectors.com/collections/claymore/products/claymore-teresa-vs-priscilla-elite-exclusive-statue?variant=38322217484463) si le site fonctionne un putain de jour
-13. Réserver saut en parachute
-14. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg)
+10. 🔍 Champignon Lingzhi contre la fatigue & insomnie
+11. [Figs Claymore](https://figurama-collectors.com/collections/claymore/products/claymore-teresa-vs-priscilla-elite-exclusive-statue?variant=38322217484463) si le site fonctionne un putain de jour
+12. Réserver saut en parachute
+13. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg)
     1. Carte liberté valable juqu'au 19/10/22
     2. Promo carte 50% en ce moment
-15. 🌱 Orga anniv pougnoutte mars 2023
+14. 🌱 Orga anniv pougnoutte mars 2023
     1. Idées cadeaux
        1. Vélo, a voir en revenant de vacances
        2. Robe style médiéval, demander à Mélanie
@@ -133,15 +132,21 @@ Perso
     4. Demander si logement déjà vu
     5. Voir pour cagnotte permis moto
     6. Medieval tents
-16. [Resto reims](https://www.google.com/maps/place/LA+GRILLADI%C3%88RE+REIMS)
+15. [Resto reims](https://www.google.com/maps/place/LA+GRILLADI%C3%88RE+REIMS)
 
 PB Modelisme
 
-1. ⏩♻️ Retour clients prioritaires
+1. ♻️ Retour clients prioritaires
    1. ⏳ Mail 2 du 12/11/2022 [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqRZcqsRzxwbhFWDZWMNzBxgCW)
       1. Ajouter moyen de paiement Mandat administratif
       2. ⏳ Trop petit, texte illisible ?
-   2. Retour intégration champs personnalisés, [hey](https://mail.google.com/mail/u/0/#inbox/KtbxLwGrVHxBXxQPHsRjdBPbfPLdgwjhZg)
+   2. ⏳ Mail du 13/12/22 / Retours intégration champs personnalisés, [hey](https://mail.google.com/mail/u/0/#inbox/KtbxLwGrVHxBXxQPHsRjdBPbfPLdgwjhZg)
+      1. ⏳ Avions > Nombre de voies
+         1. planeurs de vol libre (non RC) > Forcer à 0
+         2. Si le modèle est en motorisation thermique ou mixte alors le nombre de servos présent dans la base correspond à la version thermique.
+         3. Le nombre de servos nécessaire pour la version électrique sera donc "valeur du champs dans la base-1"
+         4. Si le modèle est uniquement en motorisation électrique, alors il suffit d'afficher la valeur présente dans la base.
+         5. ⏳ Quand on part de l'avion, comment détermine t'on le type de motorisation ?
 2. ⏳🐛 Réductions de prix réduit en cas de commande de multiples éléments
    1. 📝 Nom du dossier dans /plugins : `wholesale-pricing-woocommerce`
    2. 🐛 Prix différents entre panier menu (quad) & page panier
@@ -159,125 +164,19 @@ PB Modelisme
       1. ⏳ Topic créé sur le [forum](https://wpfactory.com/support/topic/bug-translations-not-working/)
    5. 🌱 Reste à passer les opérations manuelles
 3. Poursuite front ACF
-   1. Affichage conditionnel onglet documents si rieng
-   2. Gestion organisation ordonnancement onglets auto
-      1. Ajouter a un tableau alakon > nom onglet > réorodo alpha > afficher > fonctions renvoyer html et pas echo
-   3. 🐛 Corriger typo import
-      1. Attributs > [Version](https://dev.pb-modelisme.com/wp-admin/edit-tags.php?taxonomy=pa_version_boite&post_type=product)
+   1. ⏳🐛 Corriger typo import
+      1. 🐛 Attributs > [Version](https://dev.pb-modelisme.com/wp-admin/edit-tags.php?taxonomy=pa_version_boite&post_type=product)
          1. 2 espaces -_-"
          2. kit tout bois à  construire
          3. kit à  monter
-         4. Réimporter pour maj / corriger
-      2. Moteurs électriques > Sous catégorie compatibilité
-         1. Certains termes sont passés à travers les mailles
-      3. Pignon moteurs [cf.](https://dev.pb-modelisme.com/wp-admin/edit-tags.php?taxonomy=product_cat&post_type=product&s=Pignon+moteur)
-   4. Champs relation > meilleure gestion des images > utiliser placeholder woocommerce si rieng
-      1. communs
-         1. 🧰 Matériel à prévoir
-         2. 🔗 Produits associés
-   5. Vérifier avec Cédric si les champs complexes & onglet sont indispensables
-       1. 🧠 Produits des champs affichés dans les onglets > Afficher des favoris par catégorie (ex: evergreen c'naze)
-   6. Champs plus complexes
-       1. Bougies
-          1. Carburant (Table "allume" lien entre bougie et moteur_thermique)
-          2. Compatibilité (bordel lel)
-       2. Carburants
-          1. Utilisable sur
-       3. Chargeurs
-          1. 🌱 Capacité de charge (🔗 Lien table "charge" qui renvoie vers table "typebat")
-   7. 🚀 Onglets supplémentaires
-       1. 🏎️ Véhicules & maquettes
-          1. 👴🎨 Liste de peintures legacy > Faire une requête : ~récupérer les accessoires via ID legacy
-             1. ✅ Créer l'onglet
-             2. Contenu
-       2. Accessoires
-          1. Produits Similaires
-             1. ✅ Créer l'onglet
-             2. Contenu
-       3. Avions
-          1. Pièces détachées / Plan
-             1. ✅ Créer l'onglet
-             2. Contenu
-          2. Articles conseillés
-             1. ✅ Créer l'onglet
-             2. Contenu
-       4. Bateaux
-          1. Pièces détachées
-             1. 🚀 Créer l'onglet
-             2. Contenu
-       5. Batteries
-          1. Produits compatibles
-             1. Créer l'onglet
-             2. Contenu
-          2. Chargeurs compatibles
-             1. Créer l'onglet
-             2. Contenu
-       6. Controleurs
-          1. Produits compatibles > Requête à récupérer / convertir
-             1. Créer l'onglet
-             2. Contenu
-       7. Helices avions
-          1. Piéces détachées > Requête complexe
-             1. Créer l'onglet
-             2. Contenu
-          2. Accessoires conseillés > Requête à récupérer / convertir
-             1. Créer l'onglet
-             2. Contenu
-       8. Helicos
-          1. Piéces détachées > Requête à récupérer / convertir
-             1. Créer l'onglet
-             2. Contenu
-          2. Piéces Upgrade > Requête complexe
-             1. Créer l'onglet
-             2. Contenu
-       9. Maquettes
-          1. Colles > Requête en dur : afficher tout dans catégorie "colle maquettes"
-             1. Créer l'onglet
-             2. Contenu
-          2. Produits de finitions > Récupérer requête complexe (plusieurs catégories)
-             1. Créer l'onglet
-             2. Contenu
-       10. Matériaux
-           1. Colles conseillées > Requête complexe en fonction de la sous catégorie
-              1. Créer l'onglet
-              2. Contenu
-       11. Moteurs thermique
-           1. Piéces détachées > Requête complexe table constitue ?
-              1. Créer l'onglet
-              2. Contenu
-       12. Pièces hélicoptères
-           1. Machines compatibles > 🔗 Table "compose"
-              1. Créer l'onglet
-              2. Contenu
-       13. Pièces voitures
-           1. ? > 🔗 Table "construite"
-              1. Créer l'onglet
-              2. Contenu
-       14. Recepteurs
-           1. Utilisation conseillée/s > 🔗 table "categorieavion", 🔗 table "utilise"
-              1. Créer l'onglet
-              2. Contenu
-           2. Produits compatibles
-              1. Créer l'onglet
-              2. Contenu
-       15. Servos
-           1. Piéces détachées
-              1. Créer l'onglet
-              2. Contenu
-       16. Voitures
-           1. Pièces détachées > Récupérer requête ancien site
-              1. Créer l'onglet
-              2. Contenu
-           2. Pièces Options > Pieces voitures avec champs OPT à 2 (pièces pour upgrade)
-              1. Note max : Ref à la catégorie pièces détachées pour voitures
-              2. Créer l'onglet
-              3. Contenu
-   8. Vérifier l'ensemble des champs de catégorie sur un ensemble de produits réels / importés
-   9. Mail Cédric
-      1. Champs manquants ?
-      2. Affichage spécifiques de champs rentrés dans WordPress / WooCommerce (ex: références produit) ?
-      3. Vérifier la ou y'a symboles ❓
-4. Tâches relatives au RDV client du jeudi 01/09/22
+         4. ⏳ Attente retour cédric pour maj en bdd pb actuelle, virer les doubles espaces
+         5. Réimporter pour maj / corriger
+      2. ✨ Pignon moteurs [cf.](https://dev.pb-modelisme.com/wp-admin/edit-tags.php?taxonomy=product_cat&post_type=product&s=Pignon+moteur)
+         1. Probablement juste une catégorie vide
+   2. ⏳ Onglets supplémentaires
+   3. Traduire plugin marques
+4. Inspi pa : [gog](https://www.gog.com/fr)
+5. Tâches relatives au RDV client du jeudi 01/09/22
     1. Gestion des ventes caisses
        1. 🔍 Moyens de paiements
           1. Paypal
@@ -308,35 +207,35 @@ PB Modelisme
            2. Affichage automatique des produits dont la commande a été passée avec l'état "en réapprovisionnement" afin de pouvoir honorer la fin de commande des la reception
               1. Avec impression auto également, mais avec nom client et n° commande en plus
               2. Faire un test de parcours utilisateur qui passe une commande avec un produit en reapprovisionnement, puis maj le stock et voir comment cela marche + impriessions ecrans et retours Cédric
-5. Tâches relatives au RDV client du jeudi 20/10/2022
-   1. Front > Autoriser les commandes en réapprovisionnement ?
-      1. 💩🔍 plugin > "stock status" > Ajout un type de status de stock "sur commande"
-         1. Pas de plugin lorsque la gestion du stock est activée (Type de stock != #produits en stock + type réapprovisionnement) > Ca sera géré en front à l'aide des champs custom
-      2. Adapter le front
-         1. AFF___ Etat 2 & 📝 Sur commande VRAI
-            1. > Front > "En réapprovisionnement"
-         2. AFF___ Etat 2 & 📝 Sur commande FAUX
-            1. > Front > "Sur commande"
-6. Tâches relatives au RDV client du jeudi 04/11/2022
+6. Tâches relatives au RDV client du jeudi 20/10/2022
+    1. Front > Autoriser les commandes en réapprovisionnement ?
+       1. 💩🔍 plugin > "stock status" > Ajout un type de status de stock "sur commande"
+          1. Pas de plugin lorsque la gestion du stock est activée (Type de stock != #produits en stock +  type réapprovisionnement) > Ca sera géré en front à l'aide des champs custom
+       2. Adapter le front
+          1. AFF___ Etat 2 & 📝 Sur commande VRAI
+             1. > Front > "En réapprovisionnement"
+          2. AFF___ Etat 2 & 📝 Sur commande FAUX
+             1. > Front > "Sur commande"
+7. Tâches relatives au RDV client du jeudi 04/11/2022
     1. Page reliquats clients > - Créer un nouveau statut de commande "Article/s en attente"
        1. Commande partiellement honorée (produit pas en stock en attente, articles sur commande uniquement, problème stock)
-7. Autoriser la recherche par SKU/UGS, & par les autres refs
-8. 👪 Poser RDV PB & nonore, photos avec Reflex de la boutique afin d'illustrer le site
-9. 🌱 Importer les anciens comptes clients ?
+8. Autoriser la recherche par SKU/UGS, & par les autres refs
+9. 👪 Poser RDV PB & nonore, photos avec Reflex de la boutique afin d'illustrer le site
+10. 🌱 Importer les anciens comptes clients ?
     1. Besoin des articles
-10. 🌱 Importer les commandes
+11. 🌱 Importer les commandes
     1. Besoin des articles & des comptes clients
     2. Plugin [Product Import Export for WooCommerce](https://wordpress.org/plugins/product-import-export-for-woo/) ?
        1. The Order Export & Order Import for WooCommerce Add-On is required to export WooCommerce Orders.
-11. Plugin de bundle en freemium, [prix pas déconnant](https://wpclever.net/downloads/product-bundles/)
-12. Apparence > Personnaliser > WooCommerce (pages profondes & générées automatiquement)
-13. 📧 Repasse catégories > Notes pour clients
+12. Plugin de bundle en freemium, [prix pas déconnant](https://wpclever.net/downloads/product-bundles/)
+13. Apparence > Personnaliser > WooCommerce (pages profondes & générées automatiquement)
+14. 📧 Repasse catégories > Notes pour clients
     1. Il y a énormément de catégorie redondantes / inutiles, ex matériaux > plaques
        1. Ptet voir pour faire une grosse repasse et faire des catégorie générales, avec des taxonomies
           1. Ex: plutôt que "plaque lisse blanche" "plaque lisse noire" "plaque pavage" > plaque avec attributs couleur & texture...
           2. "Tube carré" "Tube rond" >> Tubes > forme
-14. Devis > Bouton client, passer à état "commande en cours"
-15. Fin de site
+15. Devis > Bouton client, passer à état "commande en cours"
+16. Fin de site
     1. Politiques RGPD cookies + Maj page, footer
     2. Mentions & CGV > Mettre à jour la date de changement
     3. ACF > Ranger champs en onglets ptet ? [doc](https://www.advancedcustomfields.com/resources/tab/)
@@ -348,7 +247,7 @@ PB Modelisme
        1. cf. export cat `/_docs/craft-and-tests/18-requetes-import-completes-pour-chaque-categorie_secret/crafts/_liste-libelles-categories-pour-wc/03-export-wc-categories-lint-et-alpha.md`
     9. Catégories "divers ET ..." > Faire une catégorie "divers" et une catégorie "..."
     10. 404
-16. 🌱 Plus tard
+17. 🌱 Plus tard
     1. Expéditions > génération des borderaux ? En fonction des prestas ?
     2. Homologation logiciel de caisse
        1. Sauvegardes extérieures immuables
