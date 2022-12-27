@@ -278,6 +278,86 @@ PB Modelisme
    3. ✅ [Produits similaires](https://wordpress.stackexchange.com/questions/358034/wc-get-template-part-content-product-where-is-this-file-located)
    4. Traduire plugin marques
 
+Maj CVay
+
+1. ✅ Maj `etudes-employeurs-realisations`
+   1. ✅ Benner l'ancien truc
+   2. ✅ Faire juste du putain de html css js simple sans putain de rien autour et nique les dépendances npm
+2. ✅ Maj `competences`
+   1. ✅ Benner l'ancien truc
+   2. ✅ Faire juste du putain de html css js simple sans putain de rien autour et nique les dépendances npm
+3. ✅ Rapatrier le seo fallback dans le projet commun
+4. 🚀 Rapatrier les images / Ranger ~ assets/portfolio/YYMMfin--employeur--projet, tout à la racine
+   1. ✅ masamune / champagne-bonnevie-bocart
+   2. ✅ eggs / mattel / hotwheels-adrenaline
+   3. ✅ eggs / refonte-site
+   4. ✅ eggs / kenzo / flowertag
+   5. ✅ eggs / areva / patchwork
+   6. ✅ eggs / clairefontaine / mini-jeux
+   7. ✅ eggs / voyage / mois-saveur
+   8. ✅ eggs / la poste / intégration
+   9. ✅ eggs / topicrem / appli-facebook
+   10. ✅ eggs / nestle fondation / cartes
+   11. ✅ eggs / groupemarck / basile boli
+   12. ✅ eggs / sofinco / café étoile
+   13. ✅ champagne-didier-lapie
+   14. ✅ acgm
+   15. ✅ vibrant-design
+   16. ~✅ private-golf-key
+   17. ✅ thibault ludwig
+   18. ✅ gmf
+   19. ✅ free tennis
+   20. ✅ masamune blog
+   21. ✅ vinci immobilier
+   22. ✅ medialist
+   23. ✅ creperie framboise
+   24. 💩 la fabrique a jeux et a buzz / M6 mozaic 100% aventure
+   25. 💩 la fabrique a jeux et a buzz / figaro visit britain
+   26. 💩 la fabrique a jeux et a buzz / M6 mozaic visa pour le monde
+   27. 💩 la fabrique a jeux et a buzz / leclerc fete drive
+   28. 💩 la fabrique a jeux et a buzz / saint james mojito
+   29. ✅🔗 la fabrique a jeux et a buzz / M6 mozaic rock
+   30. 💩 la fabrique a jeux et a buzz / Le club figaro golf
+   31. ✅ ml architecture
+   32. ✅ argus
+   33. 💩 Social shaker
+   34. 💩 Eptica
+   35. ✅ bagel road
+   36. ✅ kernix / mad lords     🚨🚨🚨 Y'a des lisez wam
+   37. ✅ kernix / cado          🚨🚨🚨 Y'a des lisez wam
+   38. ✅ kernix / prestashop    🚨🚨🚨 Y'a des lisez wam
+   39. 💩 Ergelis
+   40. 💩🔗 Trait tendance
+   41. 💩 BTP Consultants
+   42. ✅ Champagne pascal picard
+   43. ⏩ 3wa
+       1. Articles de blog
+       2. Photos élèves
+   44. ⏩ Champagne didier Lapie
+   45. 💩 Oclock
+   46. ⏩ La passerelle
+       1. Articles de blog
+       2. Photos élèves
+   47. 💩 Bilans service
+   48. ⏩ Refonte serveur
+       1. Réutilisation sur autres projets
+       2. Pas de captures je pense, chaud de refaire tourner en local sur un conteneur ssh ok ?
+   49. ⏩ Effy art tattoo
+   50. 🌱 PB Modélisme
+5. 🚀 Manque masse de gras
+   1. 💩 Github
+   2. 💩 Mails
+   3. ✅ Drive
+      1. ✅ Moi du passay
+      2. ✅ Archives client
+   4. 🚨 HDDs
+      1. Check les anciens et tout nettoyer / recentraliser sur le rouge en fonction de la taille, osef
+      2. Sinon rouge taf, noir perso
+   5. 🔗 Volay sur le net lel
+      1. ✅ Site des boites
+      2. ✅ Google image
+      3. 🚀 Reprendre des images de la marque direct ça sera moins crade lel
+
 ## 16/12/2022
 
 AE
