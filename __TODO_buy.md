@@ -78,6 +78,7 @@ Remettre patreon Boris, YMS, Bloodywood
 ## Fringues
 
 - DJ Blyatman | [T-shirt](https://teespring.com/fr/djblyatman?view_as=EUR&currency=EUR&country=FR&tsmac=google&tsmic=youtube&pid=389&cid=100029&utm_term=UCnWnuHHjG-__QxuoZgjBgIg&utm_medium=product_shelf&utm_source=youtube&utm_content=YT-ACRcEUqECQLU3PsY5kojm7y0zxToBuVgKR0qIMyvsDRToFCOE9c3ThbV-YPV8wwbxWt3k4LOuxht5QBNai_c-rc920WQweC4QDxO8HfZ3abGIs_tGRyhHgeZ5OBBJB9a0lknxaqwX3E2aogxNWvEMPYuPFO3GTiw6hyctWKJF8wBXYwG9txLi5bj00aNfWgw2vNkvegsst_0MynOeqa55RfVJfKkSVWaOZqqnw%3D%3D)
+- [electric callboy pump it tshirt](https://www.google.com/search?q=electric+callboy+pump+it+tshirt)
 - idéee tshirt / Je veux monter un groupe de rap ou on sera expert dans l'art de se tromper dans les mots, verso > Il s'appellera les pro-lapsus
 - [Tshirt hardc orner](https://hardcorner.myspreadshop.fr/hard+corner+z+yellow-A62a9f67cbff8282d5fd8b8e3?productType=812&sellable=kaNeeoy0krTqRMbXE9nx-812-7&appearance=2)
 - [Oh My Zsh merch](https://shop.planetargon.com/collections/oh-my-zsh?utm_source=github)
@@ -115,9 +116,18 @@ Remettre patreon Boris, YMS, Bloodywood
 - Warhammer 40k Horus heresy
   - [hey](http://wh40k.lexicanum.com/wiki/Horus_Heresy_Series) / nouvelles aaron > aurelian, prince of crows, Heart of the Conqueror
 
+## PC
+
+- Air comprimé nettoyage
+- Pates thermiques
+  - Noctua NT-H1 3.5g, Pâte Thermique (3,5 g)
+  - ARCTIC MX-4
+- [Tableau blanc magnétique](https://www.amazon.fr/s?k=tableau+blanc+aimant%C3%A9+carr%C3%A9s) pour fixer les vis lors des démontages
+
 ## Warhammers
 
 - 😍 Vallejo ~contrast [XPRESS colors](https://www.youtube.com/watch?v=hu-LOws7suU)
+- [AK Metallic paints set](https://geni.us/z9lJ) / Sponso miniac
 - Amazon > [3eme main](https://www.amazon.fr/support-troisi%C3%A8me-flexibles-r%C3%A9glages-r%C3%A9glables/dp/B08QZ4PMHR/ref=mp_s_a_1_2_sspa)
 - Amazon > acheter pinceaux de maquillages (5 pour 20) pour soft drybrush
 - Amazon > [Lampe de ouf](https://www.amazon.com/PHIVE-Architect-Bright-Drafting-Brightness/dp/B07MHH9Q7B?fbclid=IwAR3yZ7rxo3Ixdioa081crMmAUL-sjxurbUhC6aW0Fqo92vMMiqEjOWiKYCQ)
@@ -139,6 +149,7 @@ Remettre patreon Boris, YMS, Bloodywood
   - [Liquid pigments](https://www.greenstuffworld.com/fr/261-pigments-liquides)
   - [Mélangeur peinture](https://www.greenstuffworld.com/fr/peinture/2382-melangeur-rotatif-de-peinture.html)
   - !! Metal pigments !
+  - [Molotov chrome](https://www.amazon.fr/dp/B01MR2KER3?tag=miniac01-21&keywords=molotow%20chrome&geniuslink=true)
   - Rangements !
     - [Support vertical en MDF avec tiroirs](https://www.greenstuffworld.com/fr/expositeur-de-peinture/1768-support-vertical-en-mdf-avec-tiroirs.html)
     - [Présentoir Modulaire pour Peinture - FRONTAL](https://www.greenstuffworld.com/fr/expositeur-de-peinture/1083-presentoir-modulaire-pour-peinture-frontal.html)
@@ -177,13 +188,16 @@ Squidmar amazon affiliate in description : [hey](https://www.youtube.com/watch?v
 
 ### Vitrine
 
+- Amazon
+  - [Recherche](https://www.amazon.fr/s?k=vitrine+noire+verre+collectionneurs&s=price-asc-rank&__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=17JCQTP4R5CVG&qid=1673004918&sprefix=vitrine+noire+verre+collectionneurs+%2Caps%2C82&ref=sr_st_price-asc-rank&ds=v1%3AHLJgQrYF50mJRwGb9KrOZIAiQuvhsEFDRVHJs%2BAZTrE)
+  - [une](https://www.amazon.fr/Markenlos-Vitrine-Serrure-Miroir-argent%C3%A9/dp/B01N21DXWI/ref=sr_1_17?keywords=vitrine+exposition&qid=1651427227&sr=8-17&th=1)
+- But
+  - [Vitrine 2 portes/ 4 tiroirs TOLEDO décor chêne sonoma/gris](https://www.but.fr/produits/4251182708093/Vitrine-2-portes-4-tiroirs-TOLEDO-decor-chene-sonoma-gris.html)
+- Conforama
+  - [PAROS III coloris noir](https://www.conforama.fr/canape-salon-sejour/sejour/bibliotheque-et-vitrine/vitrine-paros-iii-coloris-noir/p/486514?queryID=7e8dbe69c3d10127f59c7bce47bd7deb&objectID=8798571986945)
+  - [Vitrine Etagère Murale COLLECTY 5 Niches Noir Et Blanc](https://www.conforama.fr/canape-salon-sejour/sejour/bibliotheque-et-vitrine/vitrine-etagere-murale-collecty-5-niches-noir-et-blanc-99800800/p/C17187957?queryID=7e8dbe69c3d10127f59c7bce47bd7deb&objectID=8826472693761#descriptionAncre)
 - Home24
-  - [Armoire vitrine Exhibit IV / 259,99 €](https://www.home24.fr/vitrines/?qv_parent=000000008000016270&qv_child=000000001000121906)
-  - [Vitrine Exhibit](https://www.home24.fr/article/vitrine-exhibit-eclairage-inclus-noir-largeur-58-cm)
   - [Armoire vitrine Exhibit III](https://www.home24.fr/article/armoire-vitrine-exhibit-iii-noir)
   - [Armoire vitrine Exhibit IV](https://www.home24.fr/article/armoire-vitrine-exhibit-iv-noir)
-  - [Vitrine d'angle Amalia II](https://www.home24.fr/article/vitrine-d-angle-amalia-ii-eclairage-inclus-imitation-frene-fonce-blanc)
-- [Amazon > Vitrine Blanc (176x67x33 cm) avec 4 étagères en verre ESG réglables en hauteur ; LED ;](https://www.amazon.fr/Markenlos-Vitrine-Serrure-Miroir-argent%C3%A9/dp/B01N21DXWI/ref=sr_1_17?keywords=vitrine%2Bexposition&qid=1651427227&sr=8-17&th=1)
-- Rouxel
-  - [Vitrine colonne en verre trempé / L 60 x P 40 x H 180 cm / 300€](https://www.rouxel.com/article-18659-247-18659.aspx)
-  - [Vitrine colonne en verre trempé / L 80 x P 40 x H 180 cm / 300€](https://www.rouxel.com/article-18660-247-18660.aspx)
+- Leroy
+  - [Vitrine murale pour miniature en panneaux de particules Blanc et noir, L80 x P9,5 x H60 cm](https://www.leroymerlin.fr/produits/meuble/meuble-de-cuisine/buffet/vitrine-murale-pour-miniature-en-panneaux-de-particules-blanc-et-noir-l80-x-p9-5-x-h60-cm-84665246.html?src=clk)

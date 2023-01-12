@@ -2,6 +2,92 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 06/01/2023
+
+AE
+
+1. ✅ Déclaration AE décembre 2022
+2. 🚀 Refaire CV > `/cv-portfolio-tout`
+   1. 🚀 Regrouper l'ensemble des ressources
+      1. ✅ Images
+
+Perso
+
+1. ✅ Payer sundic
+2. ✅ Ceinture abdos
+   1. ✅ Retour moisie
+      1. ✅ Renvoyé le 04/01/2023, en attente remboursement
+   2. ✅ Acheter nouvelle
+      1. ✅ Attente livraison ~06/01/2023
+3. ✅ Ranger déco noel & jeter sapin (point de largage)
+4. Changer filtres hottes
+5. ✅ Gérer déclaration AE 12/2022
+6. ✅ Mettre en vente LBC
+   1. ✅ Poeles
+   2. ✅ Cocotte minute
+7. ✅ Virer putain de 100K onglets
+
+PB Modelisme
+
+1. ✅♻️ Corrections de pétouilles sur le front à la volée
+2. ✅👷🎞️ Faire tutos vidéos sur bases du site
+   1. ♻️ Doc tutos vidéos + sujets couverts dans les vidéos + timestamps
+   2. ✅ Intro / `01---1h---introduction--doc--ressources--conversion.mkv`
+      1. ✅ Documentation
+      2. ✅ Markdown
+      3. ✅ Identifiants
+      4. ✅ Emplacement des ressources
+      5. ✅ Ressources en ligne
+   3. ✅ Export / Import avec le SQL/csv
+      1. ✅ Récupération des images, attention au nombre de connexions max
+      2. ✅ Requêtes sql
+         1. ✅ Import rapide `02---5mn---export-import-resume.mkv`
+         2. ✅ Finales `03---40mn---export-csv--partie-1.mkv`
+         3. ✅ Craft
+            1. ✅ Details SQL `04---20mn---exports-details-requetes-sql-completes.mkv`
+            2. ✅ Syntaxe
+            3. ✅ Caractéristiques des exports `05---23mn---export-sql-fabrication-requetes.mkv`
+            4. ✅ diff crafts
+            5. ✅ Vérifications csv
+      3. ✅ Bilan import via WordPress `06---13mn---bilan-export-et-debug-sql.mkv`
+         1. ✅ Debug imports / requêtes sql
+      4. (A voir après vidéos ACF) Récupération de l'identifiant interne à ACF pour les exports SQL vers CSV `12---12mn---acf-recuperer-identifiant-cache-pour-requete-sql.mkv`
+   4. ✅ WordPress, mise à jours, maintenance du site, export/import/deplacement hébergement
+   5. ✅ WordPress `08---14mn---wordpress-theme-et-ressources-classiques.mkv`
+      1. ✅ Plugins
+      2. ✅ Thème divi
+      3. ✅ Thème enfant
+         1. ✅ Ouské tout
+         2. ✅ Cas particulier woocommerce `09--3mn---surcharge-woocommerce.mkv`
+         3. ✅ Front `10---16mn---front.mkv`
+   6. ✅ ACF / Advanced Custom Fields
+      1. ✅ Kwaksé / administration `11---14mn---acf-advanced-custom-fields-intro.mkv`
+      2. ✅ Documentation
+      3. ✅ Note boilerplates, helper dans vidéo après "page un seul produit"
+      4. ✅ Export csv & ajustements/créations de requêtes SQL
+         1. ✅ Récupération de l'identifiant interne à ACF pour les exports SQL vers CSV `12---12mn---acf-recuperer-identifiant-cache-pour-requete-sql.mkv`
+   7. ✅ Champs personnalisés / Page "Un seul produit"
+      1. ✅ Modification de template woocommerce
+      2. ✅ Gestion d'une catégorie (descriptions longues & caractéristiques techniques)
+      3. ✅ Boilerplates
+         1. ✅ Ajout des templates pour une nouvelle catégorie `13---23mn---page-un-produit--structure-categorie.mkv`
+            1. ✅ Description supplémentaire
+            2. ✅ Caractéristiques techniques `14---34min---un-produit--carac-techniques--et--ACF-de-A-a-Z.mkv`
+               1. ✅ Ajout via ACF
+                  1. ✅ Administration WP > Structure
+                  2. ✅ Administration WP > Ajout du contenu
+                  3. ✅ Front > Ajout des données
+            3. ✅ Ajout des onglets
+         2. ✅ Fonctions max `16---51mn---admin-acf-et-fonctions-template-max.mkv`
+   8. ✅⬆️ Vidéos en ligne
+   9. ✅📝 Doc liste de liens tutos vidéos en ligne
+3. ✅👪 Préparer RDV client Mardi 10/01/23
+   1. ✅ Maj avancement dans doc en ligne
+   2. ✅ Faire un jôli doc.md
+      1. ✅ Reste à faire
+      2. ✅ Suggestions de priorités
+      3. ✅ Recos / suggestions
+
 ## 23/12/2022
 
 Perso
