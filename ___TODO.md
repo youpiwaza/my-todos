@@ -40,6 +40,7 @@ AE
    1. Avis en mai 2023, 473€, [à payer en juin](https://mail.google.com/mail/u/0/#inbox/KtbxLvhVcWmcxbbZhnsRMnQSnbSMnkJCGq)
 2. 🚀 Refaire CV > `/cv-portfolio-tout`
    1. 🚀 Regrouper l'ensemble des ressources
+      1. 🚀 Textes
    2. Sauvegarde github
    3. Sauvegarde sur DD sites web
 3. Refaire site masamune.fr
@@ -47,6 +48,8 @@ AE
    2. Sauvegarde sur DD sites web
    3. 🌱 Maj liens cv expériences pro
       1. Pas oublier le https
+   4. Yootoob > Ajouter écrans de fin / liens vers le site masamune.fr une fois terminé
+   5. Service > Retour sur CV > 50€
 4. Refaire site blog.masamune.fr
    1. Sauvegarde github
    2. Sauvegarde sur DD sites web
@@ -68,8 +71,45 @@ AE
 
 Perso
 
-1. 31/01/23 Concert [BFMV & Jinjer](https://www.songkick.com/concerts/40452239-bullet-for-my-valentine-at-lolympia)
-2. 💥 Maj > Installation de l'environnement de dev
+Liste budget priorisée, faire devis, répartir
+
+1. ✨ Reste 1530€
+2. ✅💸 Syndic 300€
+3. ✅ Réserver concerts ~~100€~~
+    1. ✅ Sabaton 114€
+       1. ✅ Agenda
+4. ✅💸 Max AR Paris ? 10€
+5. ✅💸 ~~Cours ski vigi 208€~~
+6. ~~Activité reims 430€~~
+   1. ~~Vigi équitation 300€~~
+   2. ~~Vigi piscine 30€~~
+   3. ~~Atelier en couple 100€~~
+   4. ✅💸 Badminton 45€
+7. ~~Vacances 200€~~
+8. Pas/moins cher
+   1. Cuisine > Barre épices 50€
+   2. Bureau vigi dans le salon 40€ 2 pieds + planche 20€ = 60€
+   3. ✅💸 ~~Etagères restantes 8 x 10€ équerres 80€~~ > 62€
+      1. salon (Rétro projecteur)
+      2. salon, autres
+      3. Cuisine
+      4. Chambre
+   4. Table salon
+   5. ✅💸 Ceinture abdos 70€ > ⏳ Remb ancienne ~50€
+9. ✅💸 ~~Vitrine warhammers 200€~~ > 170€
+10. Porte galandage chambre    200€ // sans le canapé ~2100 € > + 400€ frais courants ?
+11. Bureau   500€ ?
+12. Canapé salon   800€
+13. Festivals cet été
+14. Rhum hellfest
+15. Pare douche
+16. Verrière cuisine
+
+---
+
+1. Changer filtres hottes
+2. Aiguiser nouveaux couteaux
+3. 💥 Maj > Installation de l'environnement de dev
    1. Update to latest [Node.js](https://nodejs.org/en/) pour windows
    2. Update to latest [Node.js](https://nodejs.org/en/) pour WSL
       1. [Doc](https://learn.microsoft.com/fr-fr/windows/dev-environment/javascript/nodejs-on-wsl)
@@ -97,11 +137,8 @@ Perso
       1. `sudo apt install npm`
       2. `sudo apt install yarn`
       3. `sudo apt install gulp`
-3. Github dédoublonner default-config-files-for-github-repository & base-repository-github
-4. Réserver concerts
-    1. Sabaton
-       1. Agenda
-5. Rhum hellfest
+4. Environnement de dev local > [Move Mountains With Next.js and Compose](https://www.youtube.com/watch?v=-iaLmOGZuD4)
+5. Github dédoublonner default-config-files-for-github-repository & base-repository-github
 6. 🚀♻️ Acheter flotte > magnésium
 7. MSG maison
     1. [Recette](https://www.youtube.com/watch?v=sE3dYCphy2M)
@@ -114,13 +151,10 @@ Perso
 9. gochujang
     1. [amazon](https://www.amazon.fr/s?k=gochujang+jebiwon)
     2. [idem](https://www.amazon.fr/s?k=doenjang)
-10. 🔍 Champignon Lingzhi contre la fatigue & insomnie
+10. 🔍 Champignon Lingzhi contre la fatigue & insomnie > Y'en a à grand frais !
 11. [Figs Claymore](https://figurama-collectors.com/collections/claymore/products/claymore-teresa-vs-priscilla-elite-exclusive-statue?variant=38322217484463) si le site fonctionne un putain de jour
 12. Réserver saut en parachute
-13. Renouveler SNCF [carte liberté](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpGTHLtBRvZFhznpZbcwdGBzTg)
-    1. Carte liberté valable juqu'au 19/10/22
-    2. Promo carte 50% en ce moment
-14. 🌱 Orga anniv pougnoutte mars 2023
+13. 🌱 Orga anniv pougnoutte mars 2023
     1. Idées cadeaux
        1. Vélo, a voir en revenant de vacances
        2. Robe style médiéval, demander à Mélanie
@@ -132,126 +166,120 @@ Perso
     4. Demander si logement déjà vu
     5. Voir pour cagnotte permis moto
     6. Medieval tents
-15. [Resto reims](https://www.google.com/maps/place/LA+GRILLADI%C3%88RE+REIMS)
+14. [Resto reims](https://www.google.com/maps/place/LA+GRILLADI%C3%88RE+REIMS)
+    1. Inviter parents
+
+ML Architecture
+
+1. Versionner
+2. Admin > Image de fond non prise en charge ?
 
 PB Modelisme
 
-1. ♻️ Retour clients prioritaires
-   1. ⏳ Mail 2 du 12/11/2022 [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqRZcqsRzxwbhFWDZWMNzBxgCW)
-      1. Ajouter moyen de paiement Mandat administratif
-      2. ⏳ Trop petit, texte illisible ?
-   2. ⏳ Mail du 13/12/22 / Retours intégration champs personnalisés, [hey](https://mail.google.com/mail/u/0/#inbox/KtbxLwGrVHxBXxQPHsRjdBPbfPLdgwjhZg)
-      1. ⏳ Avions > Nombre de voies
-         1. planeurs de vol libre (non RC) > Forcer à 0
-         2. Si le modèle est en motorisation thermique ou mixte alors le nombre de servos présent dans la base correspond à la version thermique.
-         3. Le nombre de servos nécessaire pour la version électrique sera donc "valeur du champs dans la base-1"
-         4. Si le modèle est uniquement en motorisation électrique, alors il suffit d'afficher la valeur présente dans la base.
-         5. ⏳ Quand on part de l'avion, comment détermine t'on le type de motorisation ?
-2. ⏳🐛 Réductions de prix réduit en cas de commande de multiples éléments
-   1. 📝 Nom du dossier dans /plugins : `wholesale-pricing-woocommerce`
-   2. 🐛 Prix différents entre panier menu (quad) & page panier
+1. ✅💥🐛 Erreur 500 > admin site ko pendant le weekend sans absolument aucune putain de raison yay fun
+   1. 💩 Activer debug PHP > erreurs non pertinentes (ou maj de php dans le weekend sur ovh !? > non toujours 8.1)
+      1. Rien de pertinent, certaines 500 prennent encore le dessus ?
+   2. 💩 OVH > logs > errors
+      1. `[Tue Jan 03 23:28:56 2023] [error] [client 170.64.146.92] [host dev.pb-modelisme.com] AH01630: client denied by server configuration: /homez.927/xeqdtpv/dev/wordpress/server-status`
+      2. `[Fri Jan 06 10:40:28 2023] [error] [client 78.118.161.207] [host dev.pb-modelisme.com] AH00524: Handler for fastcgi-script returned invalid result code 1, referer: https://dev.pb-modelisme.com/wp-admin/update-core.php?action=do-plugin-upgrade`
+         1. Ptet une maj auto (plugin) qui s'est mal passée
+   3. ✅ Plugins
+      1. ✅ Captures écran plugins activés
+      2. ✅ Désactiver les plugins
+         1. 💩 Depuis l'admin
+            1. 💩 Tous d'un coup
+            2. 💩 Un seul à la fois, wtf
+         2. ✅ A l'ancienne > ftp > renommer `/wp-content/plugins/`
+            1. ✅ Le site est reparti et est beaucoup plus rapide lel
+            2. ✅ Discriminer plugin qui met le site KO, et remplacer par ancienne version en local
+               1. 💩 Complianz gpdr
+                  1. ✅ Renvoi ancienne version
+               2. 💩🔥 wp-force-sells `L’extension wpc-force-sells/wpc-force-sells.php a été désactivée en raison d’une erreur : Cette extension ne dispose pas d’un en-tête valide.`
+               3. ✅⬆️ Mises à jour à repasser
+                  1. ✅ All in one wp migration
+                  2. ✅ Complianz
+            3. ✅⚡️ Tester plugins incriminant les performances (may a mon avis c'est woocommerce)
+               1. Woocommerce qui ralentit un poil mais le site va mieux lol
+               2. 🔥 Les autres plugins inactifs ont étés supprimés
+2. ✅💥 500 lors de Maj produit > 💩🔥 Complianz
+   1. ✅🔍 Analyse des merdes dans la console
+      1. ✅ Google maps ? > 💩🔥 WP Go Maps (formerly WP Google Maps)
+         1. ✅🧹 Virer bdd associées
+      2. ✅🧹 WP-optimize > Cleaner bdd en général
+      3. 💩 Googlemaps toujours chargé dans l'admin wp ? wtf
+         1. 💩 Désactiver tous les plugins
+         2. ✅ Voir si ça vient du theme Divi
+            1. ✅ Options dans les réglages -_-
+   2. ✅📌 Tests alakon
+      1. ✅ Modification produit
+      2. ✅ Ajout plugin
+      3. ✅⚡️ Gain massif de performances dans l'admin et le front : ~2sec > 0.5sec
+3. ⏳💥 Gestion spam (comptes clients / commentaires)
+   1. ✅💩 Ajout d'un plugin anti spam > Akismet > 500 > ... (lié aux merdes ci-dessus)
+      1. ⏳(PB) A configurer avec le mail PB
+   2. ✅ Site plus indéxé par SE
+   3. ✅ Inscription ouvertes désactivées
+   4. ✅ Commentaires désactivés
+4. ⏳♻️ Retour clients prioritaires
+   1. ✅ Mail 2 du 12/11/2022 [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqRZcqsRzxwbhFWDZWMNzBxgCW)
+      1. ✅ Ajouter moyen de paiement Mandat administratif
+         1. Trop petit, texte illisible ? > Pas de retour
+         2. ✅Ajout à la légende & au title de l'image
+      2. ✅Sauvegarde dans drive
+5. ⏳🐛 Réductions de prix réduit en cas de commande de multiples éléments
+   1. 💩 Contact support > ils ont répondus mais problèmes non réglés > à corriger a la mano
+      1. ⚡️ ou plugin payant, ça devient ridicule
+   2. 📝 Nom du dossier dans /plugins : `Product Price by Quantity for WooCommerce` / `wholesale-pricing-woocommerce`
+   3. 🐛 Prix différents entre panier menu (quad) & page panier
       1. 🐛 Quad menu affiche le prix sans TVA
-   3. ⏳🐛 Correction des bugs
-      1. ⏳📧 Contact support > [Topic créé](https://wpfactory.com/?post_type=topic&p=93873) le 21/10/2022
-      2. Admin
+   4. ⏳🐛 Correction des bugs
+      1. Admin
          1. Champ prix > Ajouter des nombres derrière la virgule, limité à 4 actuellement, passer à 10
-      3. Panier
+      2. Panier
          1. Avec réduction
             1. Ligne produit
                1. Prix réduit à l'unité affiché en HT
                2. Vérifier % de réduction
-   4. 🐛 Traduction (fichiers pot po mo) non pris en compte
-      1. ⏳ Topic créé sur le [forum](https://wpfactory.com/support/topic/bug-translations-not-working/)
-   5. 🌱 Reste à passer les opérations manuelles
-3. Poursuite front ACF
+   5. 🐛 Traduction (fichiers pot po mo) non pris en compte
+6. ✅ Poursuite front ACF
    1. ⏳🐛 Corriger typo import
       1. 🐛 Attributs > [Version](https://dev.pb-modelisme.com/wp-admin/edit-tags.php?taxonomy=pa_version_boite&post_type=product)
          1. 2 espaces -_-"
          2. kit tout bois à  construire
          3. kit à  monter
-         4. ⏳ Attente retour cédric pour maj en bdd pb actuelle, virer les doubles espaces
+         4. ⏳(PB) Attente retour cédric pour maj en bdd pb actuelle, virer les doubles espaces
+            1. Relance le 09/01/23
+               1. ✅ kit à monter
+               2. 💩 kit tout bois à  construire
+               3. 💩 kit  RTF ~ok à l'import mais je reco de corriger
+                  1. ✨✨✨✨✨ Corrigé en lvoe rdv client > relancer moulinette
          5. Réimporter pour maj / corriger
-      2. ✨ Pignon moteurs [cf.](https://dev.pb-modelisme.com/wp-admin/edit-tags.php?taxonomy=product_cat&post_type=product&s=Pignon+moteur)
-         1. Probablement juste une catégorie vide
-   2. ⏳ Onglets supplémentaires
-   3. Traduire plugin marques
-4. Inspi pa : [gog](https://www.gog.com/fr)
-5. Tâches relatives au RDV client du jeudi 01/09/22
-    1. Gestion des ventes caisses
-       1. 🔍 Moyens de paiements
-          1. Paypal
-          2. Espèces
-    2. Clients hors UE & dom tom > pas de TTC
-       1. Voir pour utiliser plugin ~membre club > assigner classe taxe ?
-    3. Installer [WPC Frequently Bought Together for WooCommerce](https://fr.wordpress.org/plugins/woo-bought-together/) / Produits fréquemment achetés ensemble
-    4. ⚡️💄 Menu principal
-       1. Faire une proposition de menu amélioré (images / onglets, etc.)
-       2. Faire une proposition de rubriques optimisées
-       3. Voir avec Nonore
-    5. Générer Code barre PB ? Revoir avec cedric
-    6. Page [Contact](https://dev.pb-modelisme.com/contact/)
-       1. Vérifier cookies machins (carte)
-       2. Rajouter Captcha
-       3. Formulaire > Peut importe le service, envoyer à la meme adresse mail
-    7. Page [Marques](https://dev.pb-modelisme.com/marques-partenaires/) > Revoir le contenu de la page
-       1. Première partie colonnage par type de véhicules
-          1. Chaque colonne contient 3 à 5 marques choisies pour ce type de véhicules
-       2. En 2eme partie - broder du contenu on a plein de marque
-       3. 3eme partie > liste de A a Z
-    8. Marques > Possibilité d'affichage front conditionnel, toutes les marques "attention", ~chinoiseries
-    9. Réception des commandes, gros blocs à traiter en priorité après les imports de produits
-        1. Se remettre dans le jus, cf. cahier des charges
-        2. 👪 Tout remettre au clair avec Cédric
-        3. Tâches
-           1. Faire ressortir le différentiel entre le nombre de produits en stocks, ainsi que la nouvelle quantité de stocks, afin d'imprimer le bon nombre d'étiquettes (pour les nouveaux produits)
-           2. Affichage automatique des produits dont la commande a été passée avec l'état "en réapprovisionnement" afin de pouvoir honorer la fin de commande des la reception
-              1. Avec impression auto également, mais avec nom client et n° commande en plus
-              2. Faire un test de parcours utilisateur qui passe une commande avec un produit en reapprovisionnement, puis maj le stock et voir comment cela marche + impriessions ecrans et retours Cédric
-6. Tâches relatives au RDV client du jeudi 20/10/2022
-    1. Front > Autoriser les commandes en réapprovisionnement ?
-       1. 💩🔍 plugin > "stock status" > Ajout un type de status de stock "sur commande"
-          1. Pas de plugin lorsque la gestion du stock est activée (Type de stock != #produits en stock +  type réapprovisionnement) > Ca sera géré en front à l'aide des champs custom
-       2. Adapter le front
-          1. AFF___ Etat 2 & 📝 Sur commande VRAI
-             1. > Front > "En réapprovisionnement"
-          2. AFF___ Etat 2 & 📝 Sur commande FAUX
-             1. > Front > "Sur commande"
-7. Tâches relatives au RDV client du jeudi 04/11/2022
-    1. Page reliquats clients > - Créer un nouveau statut de commande "Article/s en attente"
-       1. Commande partiellement honorée (produit pas en stock en attente, articles sur commande uniquement, problème stock)
-8. Autoriser la recherche par SKU/UGS, & par les autres refs
-9. 👪 Poser RDV PB & nonore, photos avec Reflex de la boutique afin d'illustrer le site
-10. 🌱 Importer les anciens comptes clients ?
-    1. Besoin des articles
-11. 🌱 Importer les commandes
-    1. Besoin des articles & des comptes clients
-    2. Plugin [Product Import Export for WooCommerce](https://wordpress.org/plugins/product-import-export-for-woo/) ?
-       1. The Order Export & Order Import for WooCommerce Add-On is required to export WooCommerce Orders.
-12. Plugin de bundle en freemium, [prix pas déconnant](https://wpclever.net/downloads/product-bundles/)
-13. Apparence > Personnaliser > WooCommerce (pages profondes & générées automatiquement)
-14. 📧 Repasse catégories > Notes pour clients
-    1. Il y a énormément de catégorie redondantes / inutiles, ex matériaux > plaques
-       1. Ptet voir pour faire une grosse repasse et faire des catégorie générales, avec des taxonomies
-          1. Ex: plutôt que "plaque lisse blanche" "plaque lisse noire" "plaque pavage" > plaque avec attributs couleur & texture...
-          2. "Tube carré" "Tube rond" >> Tubes > forme
-15. Devis > Bouton client, passer à état "commande en cours"
-16. Fin de site
-    1. Politiques RGPD cookies + Maj page, footer
-    2. Mentions & CGV > Mettre à jour la date de changement
-    3. ACF > Ranger champs en onglets ptet ? [doc](https://www.advancedcustomfields.com/resources/tab/)
-    4. wp-config > DEBUG true > & cleaner un  peu si possible
-    5. Liens menus > virer liens persos "#" & remplacer par le bon contenu dynamique
-    6. Doc : css custom des menus : Admin wp > quad menu > options > [customize](https://dev.pb-modelisme.com/wp-admin/admin.php?page=quadmenu_options)
-    7. Installer plugin wishlist [mais pas celui la (KO)](https://fr.wordpress.org/plugins/woo-smart-wishlist/)
-    8. Après import complet & vérifié (plus d'imports de produits à faire), harmoniser les noms de catégories
-       1. cf. export cat `/_docs/craft-and-tests/18-requetes-import-completes-pour-chaque-categorie_secret/crafts/_liste-libelles-categories-pour-wc/03-export-wc-categories-lint-et-alpha.md`
-    9. Catégories "divers ET ..." > Faire une catégorie "divers" et une catégorie "..."
-    10. 404
-17. 🌱 Plus tard
-    1. Expéditions > génération des borderaux ? En fonction des prestas ?
-    2. Homologation logiciel de caisse
-       1. Sauvegardes extérieures immuables
-       2. 🔍 Homologation
+      2. ✅ Pignon moteurs [cf.](https://dev.pb-modelisme.com/wp-admin/edit-tags.php?taxonomy=product_cat&post_type=product&s=Pignon+moteur)
+7. ✅📝 Doc : Référencer à quoi correspond chaque plugin
+   1. ✅ Titre
+   2. ✅ Nom du dossier dans `/plugins`
+   3. ✅ Utilité
+8. ⏳ Page toolbox
+   1. ✅ [Elements basiques](https://dev.pb-modelisme.com/toolbox/)
+   2. ✅ [Démos éléments & modules](https://dev.pb-modelisme.com/toolbox-2/)
+   3. ✅📧 Mail Nonore
+      1. ⏳(ALD) Faire une repasse sur les toolboxs afin de fixer les styles
+      2. ⏳(ALD) Faire une doc couleurs charte graphique et recos marges, à voir avec Nonore
+      3. Call aprem 12/01/23
+9. 🚀👪 Compte rendu du RDV client du 10/01/23
+   1. ✅ Cleaner le fichier texte
+   2. ✅ Mettre à jour le doc statut
+   3. 📧 Envoyer CR par mail
+   4. ✅ Cleaner / Mettre à jour TODO max en fonction des nouvelles priorités
+      1. ✅ Regrouper et minifier les retours clients
+      2. ✅ Grouper les restes à faire par catégories > Faire des fichiers TODO dédiés afin de ne pas polluer le fichier principal
+         1. ✅✅ Retours clients
+         2. ✅✅ Back (~import des données)
+         3. ✅✅ WordPress > Administration (plugins, confort gestion PB)
+         4. ✅✅ WordPress > Données (contenus, pages statiques)
+         5. ✅✅ Front > Intégration (structure, styles, blocs)
+         6. ✅✅ Front > Avancé (plugins, comportements, tris)
+         7. ✅✅ Fin du site (tâches avant mise en ligne)
 
 Arrêter dev serveur & hebergement
 
