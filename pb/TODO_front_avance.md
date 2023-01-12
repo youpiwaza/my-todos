@@ -2,6 +2,16 @@
 
 Reste à faire concernant les plugins, comportements, tris
 
+## Réduction des prix des produits en fonction de la quantité commandée
+
+Passer par un plugin payant, l'autre merde toujours et plus de réponse du support
+
+1. Doit pouvoir gérer correctement HT & TVA, sur l'ensemble du site, panier, commandes, histo commandes
+2. Doit pouvoir gérer TVA désactivée (comptes spéciaux)
+3. Doit pouvoir être importé, cf. ancien plugin
+
+Prendre les 3 plus connus > bench > contacter pour voir tps de réponse
+
 ## Menu principal
 
 1. Faire une proposition de menu amélioré (images / onglets, etc.)
@@ -33,18 +43,42 @@ Page [Marques](https://dev.pb-modelisme.com/marques-partenaires/) > Revoir le co
 2. AFF___ Etat 2 & 📝 Sur commande FAUX
    1. > Front > "Sur commande"
 
+---
+
 ## Moteur de recherche
 
 Autoriser la recherche par SKU/UGS, & par les autres refs
 
-## Tris
+### Tris
 
 1. Faire l'inventaire des tris existants
 2. Voir si il y a des choses à rajouter/supprimer
 
-## Devis client
+---
+
+## Clients
+
+### Devis
 
 1. ✅ Ajouter un statut à la commande "Devis"
 2. Page dédiée sur l'interface client
    1. Faire apparaître les devis
    2. Bouton client, passer à état "commande en cours"
+
+### Possibilité imprimer/dl factures en pdf, etc
+
+yup
+
+---
+
+## Pages d'affichage des catégories
+
+yup
+
+## Multilinguisme
+
+via plugin Google translate
+
+## Plugin "liste de souhaits"
+
+yup

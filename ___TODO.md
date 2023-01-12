@@ -269,17 +269,23 @@ PB Modelisme
 9. 🚀👪 Compte rendu du RDV client du 10/01/23
    1. ✅ Cleaner le fichier texte
    2. ✅ Mettre à jour le doc statut
-   3. 📧 Envoyer CR par mail
+   3. 🚀🚀🚀📧 Envoyer CR par mail
    4. ✅ Cleaner / Mettre à jour TODO max en fonction des nouvelles priorités
       1. ✅ Regrouper et minifier les retours clients
       2. ✅ Grouper les restes à faire par catégories > Faire des fichiers TODO dédiés afin de ne pas polluer le fichier principal
-         1. ✅✅ Retours clients
-         2. ✅✅ Back (~import des données)
-         3. ✅✅ WordPress > Administration (plugins, confort gestion PB)
-         4. ✅✅ WordPress > Données (contenus, pages statiques)
-         5. ✅✅ Front > Intégration (structure, styles, blocs)
-         6. ✅✅ Front > Avancé (plugins, comportements, tris)
-         7. ✅✅ Fin du site (tâches avant mise en ligne)
+         1. ✅ Créer fichier ✅ Migrer TODO actuelle ✅ Migrer doc Statut ✅ Migrer RAF RDV PB 10/01/23
+         2. ---
+         3. ✅✅✅X Retours clients
+         4. ✅✅✅X Back (~import des données)
+         5. ✅✅✅X WordPress > Administration (plugins, confort gestion PB)
+         6. ✅✅✅X WordPress > Données (contenus, pages statiques)
+         7. ✅✅✅X Front > Intégration (structure, styles, blocs)
+         8. ✅✅✅X Front > Avancé (plugins, comportements, tris)
+         9. ✅✅✅X Fin du site (tâches avant mise en ligne)
+10. Plugin prix multiples > Plugin payant
+11. Faire la TODO Back
+12. Faire la TODO Front > integration
+13. Faire la TODO WordPress Admin
 
 Arrêter dev serveur & hebergement
 
