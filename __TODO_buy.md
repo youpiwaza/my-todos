@@ -146,6 +146,7 @@ Remettre patreon Boris, YMS, Bloodywood
       - [d](https://www.games-workshop.com/fr-FR/soulblight-gravelords-cado-ezechiar-the-hollow-king-2022)
       - [start collecting](https://www.games-workshop.com/fr-FR/Start-Collecting-Soulblight-Gravelords-2021)
 - green stuff world
+  - [Etagères complètes peintures](https://www.greenstuffworld.com/fr/215-metal)
   - [Liquid pigments](https://www.greenstuffworld.com/fr/261-pigments-liquides)
   - [Mélangeur peinture](https://www.greenstuffworld.com/fr/peinture/2382-melangeur-rotatif-de-peinture.html)
   - !! Metal pigments !
@@ -156,6 +157,7 @@ Remettre patreon Boris, YMS, Bloodywood
     - [Ensemble modulaire 2x tiroirs MDF](https://www.greenstuffworld.com/fr/expositeur-de-peinture/1141-ensemble-modulaire-2x-tiroirs-mdf.html)
     - [Ensemble modulaire 3x tiroirs MDF](https://www.greenstuffworld.com/fr/expositeur-de-peinture/1143-ensemble-modulaire-3x-tiroirs-mdf.html)
   - [Plaques texturées](https://www.greenstuffworld.com/fr/92-plaques-texturees)
+  - [Pochoirs aérographe](https://www.greenstuffworld.com/fr/280-pochoirs-aerographe)
   - [Têtes de femmes](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQmSFCrjFchxGPrcMrgBSVlKr)
 - [Lampe arceau](https://www.greenstuffworld.com/fr/inicio/2516-lampe-led-hobby-arch-darth-black.html)
 - [LED GSW / Mini lighting Set With switch and CR927 Battery](https://www.greenstuffworld.com/en/led-lights/1568-mini-lighting-set-with-switch-and-cr927-battery.html)
@@ -185,19 +187,3 @@ Remettre patreon Boris, YMS, Bloodywood
   - flow improver
 
 Squidmar amazon affiliate in description : [hey](https://www.youtube.com/watch?v=-7q_hLmX1Mw)
-
-### Vitrine
-
-- Amazon
-  - [Recherche](https://www.amazon.fr/s?k=vitrine+noire+verre+collectionneurs&s=price-asc-rank&__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=17JCQTP4R5CVG&qid=1673004918&sprefix=vitrine+noire+verre+collectionneurs+%2Caps%2C82&ref=sr_st_price-asc-rank&ds=v1%3AHLJgQrYF50mJRwGb9KrOZIAiQuvhsEFDRVHJs%2BAZTrE)
-  - [une](https://www.amazon.fr/Markenlos-Vitrine-Serrure-Miroir-argent%C3%A9/dp/B01N21DXWI/ref=sr_1_17?keywords=vitrine+exposition&qid=1651427227&sr=8-17&th=1)
-- But
-  - [Vitrine 2 portes/ 4 tiroirs TOLEDO décor chêne sonoma/gris](https://www.but.fr/produits/4251182708093/Vitrine-2-portes-4-tiroirs-TOLEDO-decor-chene-sonoma-gris.html)
-- Conforama
-  - [PAROS III coloris noir](https://www.conforama.fr/canape-salon-sejour/sejour/bibliotheque-et-vitrine/vitrine-paros-iii-coloris-noir/p/486514?queryID=7e8dbe69c3d10127f59c7bce47bd7deb&objectID=8798571986945)
-  - [Vitrine Etagère Murale COLLECTY 5 Niches Noir Et Blanc](https://www.conforama.fr/canape-salon-sejour/sejour/bibliotheque-et-vitrine/vitrine-etagere-murale-collecty-5-niches-noir-et-blanc-99800800/p/C17187957?queryID=7e8dbe69c3d10127f59c7bce47bd7deb&objectID=8826472693761#descriptionAncre)
-- Home24
-  - [Armoire vitrine Exhibit III](https://www.home24.fr/article/armoire-vitrine-exhibit-iii-noir)
-  - [Armoire vitrine Exhibit IV](https://www.home24.fr/article/armoire-vitrine-exhibit-iv-noir)
-- Leroy
-  - [Vitrine murale pour miniature en panneaux de particules Blanc et noir, L80 x P9,5 x H60 cm](https://www.leroymerlin.fr/produits/meuble/meuble-de-cuisine/buffet/vitrine-murale-pour-miniature-en-panneaux-de-particules-blanc-et-noir-l80-x-p9-5-x-h60-cm-84665246.html?src=clk)

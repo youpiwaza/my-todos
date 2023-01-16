@@ -73,20 +73,22 @@ Perso
 
 Liste budget priorisée, faire devis, répartir
 
-1. ✨ Reste 1530€
-2. ✅💸 Syndic 300€
-3. ✅ Réserver concerts ~~100€~~
+1. ✨ Reste 1150€
+2. 💸 100 balles impots max debut fevrier
+3. ✅💸 Syndic 300€
+4. ✅ Réserver concerts ~~100€~~
     1. ✅ Sabaton 114€
        1. ✅ Agenda
-4. ✅💸 Max AR Paris ? 10€
-5. ✅💸 ~~Cours ski vigi 208€~~
-6. ~~Activité reims 430€~~
+       2. ✅💸 65€ guy
+5. ✅💸 Max AR Paris ? 10€
+6. ✅💸 ~~Cours ski vigi 208€~~
+7. ~~Activité reims 430€~~
    1. ~~Vigi équitation 300€~~
    2. ~~Vigi piscine 30€~~
    3. ~~Atelier en couple 100€~~
    4. ✅💸 Badminton 45€
-7. ~~Vacances 200€~~
-8. Pas/moins cher
+8. ~~Vacances 200€~~
+9. Pas/moins cher
    1. Cuisine > Barre épices 50€
    2. Bureau vigi dans le salon 40€ 2 pieds + planche 20€ = 60€
    3. ✅💸 ~~Etagères restantes 8 x 10€ équerres 80€~~ > 62€
@@ -96,14 +98,14 @@ Liste budget priorisée, faire devis, répartir
       4. Chambre
    4. Table salon
    5. ✅💸 Ceinture abdos 70€ > ⏳ Remb ancienne ~50€
-9. ✅💸 ~~Vitrine warhammers 200€~~ > 170€
-10. Porte galandage chambre    200€ // sans le canapé ~2100 € > + 400€ frais courants ?
-11. Bureau   500€ ?
-12. Canapé salon   800€
-13. Festivals cet été
-14. Rhum hellfest
-15. Pare douche
-16. Verrière cuisine
+10. ✅💸 ~~Vitrine warhammers 200€~~ > 170€
+11. Porte galandage chambre    200€ // sans le canapé ~2100 € > + 400€ frais courants ?
+12. Bureau   500€ ?
+13. Canapé salon   800€
+14. Festivals cet été
+15. Rhum hellfest
+16. Pare douche
+17. Verrière cuisine
 
 ---
 
@@ -176,116 +178,61 @@ ML Architecture
 
 PB Modelisme
 
-1. ✅💥🐛 Erreur 500 > admin site ko pendant le weekend sans absolument aucune putain de raison yay fun
-   1. 💩 Activer debug PHP > erreurs non pertinentes (ou maj de php dans le weekend sur ovh !? > non toujours 8.1)
-      1. Rien de pertinent, certaines 500 prennent encore le dessus ?
-   2. 💩 OVH > logs > errors
-      1. `[Tue Jan 03 23:28:56 2023] [error] [client 170.64.146.92] [host dev.pb-modelisme.com] AH01630: client denied by server configuration: /homez.927/xeqdtpv/dev/wordpress/server-status`
-      2. `[Fri Jan 06 10:40:28 2023] [error] [client 78.118.161.207] [host dev.pb-modelisme.com] AH00524: Handler for fastcgi-script returned invalid result code 1, referer: https://dev.pb-modelisme.com/wp-admin/update-core.php?action=do-plugin-upgrade`
-         1. Ptet une maj auto (plugin) qui s'est mal passée
-   3. ✅ Plugins
-      1. ✅ Captures écran plugins activés
-      2. ✅ Désactiver les plugins
-         1. 💩 Depuis l'admin
-            1. 💩 Tous d'un coup
-            2. 💩 Un seul à la fois, wtf
-         2. ✅ A l'ancienne > ftp > renommer `/wp-content/plugins/`
-            1. ✅ Le site est reparti et est beaucoup plus rapide lel
-            2. ✅ Discriminer plugin qui met le site KO, et remplacer par ancienne version en local
-               1. 💩 Complianz gpdr
-                  1. ✅ Renvoi ancienne version
-               2. 💩🔥 wp-force-sells `L’extension wpc-force-sells/wpc-force-sells.php a été désactivée en raison d’une erreur : Cette extension ne dispose pas d’un en-tête valide.`
-               3. ✅⬆️ Mises à jour à repasser
-                  1. ✅ All in one wp migration
-                  2. ✅ Complianz
-            3. ✅⚡️ Tester plugins incriminant les performances (may a mon avis c'est woocommerce)
-               1. Woocommerce qui ralentit un poil mais le site va mieux lol
-               2. 🔥 Les autres plugins inactifs ont étés supprimés
-2. ✅💥 500 lors de Maj produit > 💩🔥 Complianz
-   1. ✅🔍 Analyse des merdes dans la console
-      1. ✅ Google maps ? > 💩🔥 WP Go Maps (formerly WP Google Maps)
-         1. ✅🧹 Virer bdd associées
-      2. ✅🧹 WP-optimize > Cleaner bdd en général
-      3. 💩 Googlemaps toujours chargé dans l'admin wp ? wtf
-         1. 💩 Désactiver tous les plugins
-         2. ✅ Voir si ça vient du theme Divi
-            1. ✅ Options dans les réglages -_-
-   2. ✅📌 Tests alakon
-      1. ✅ Modification produit
-      2. ✅ Ajout plugin
-      3. ✅⚡️ Gain massif de performances dans l'admin et le front : ~2sec > 0.5sec
-3. ⏳💥 Gestion spam (comptes clients / commentaires)
-   1. ✅💩 Ajout d'un plugin anti spam > Akismet > 500 > ... (lié aux merdes ci-dessus)
+1. ⏳💥 Gestion spam (comptes clients / commentaires)
       1. ⏳(PB) A configurer avec le mail PB
-   2. ✅ Site plus indéxé par SE
-   3. ✅ Inscription ouvertes désactivées
-   4. ✅ Commentaires désactivés
-4. ⏳♻️ Retour clients prioritaires
-   1. ✅ Mail 2 du 12/11/2022 [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqRZcqsRzxwbhFWDZWMNzBxgCW)
-      1. ✅ Ajouter moyen de paiement Mandat administratif
-         1. Trop petit, texte illisible ? > Pas de retour
-         2. ✅Ajout à la légende & au title de l'image
-      2. ✅Sauvegarde dans drive
-5. ⏳🐛 Réductions de prix réduit en cas de commande de multiples éléments
-   1. 💩 Contact support > ils ont répondus mais problèmes non réglés > à corriger a la mano
-      1. ⚡️ ou plugin payant, ça devient ridicule
-   2. 📝 Nom du dossier dans /plugins : `Product Price by Quantity for WooCommerce` / `wholesale-pricing-woocommerce`
-   3. 🐛 Prix différents entre panier menu (quad) & page panier
-      1. 🐛 Quad menu affiche le prix sans TVA
-   4. ⏳🐛 Correction des bugs
-      1. Admin
-         1. Champ prix > Ajouter des nombres derrière la virgule, limité à 4 actuellement, passer à 10
-      2. Panier
-         1. Avec réduction
-            1. Ligne produit
-               1. Prix réduit à l'unité affiché en HT
-               2. Vérifier % de réduction
-   5. 🐛 Traduction (fichiers pot po mo) non pris en compte
-6. ✅ Poursuite front ACF
-   1. ⏳🐛 Corriger typo import
-      1. 🐛 Attributs > [Version](https://dev.pb-modelisme.com/wp-admin/edit-tags.php?taxonomy=pa_version_boite&post_type=product)
+2. Plugin prix multiples > Plugin payant
+   1. Il y a eu une maj > vérifier avant
+3. ✅ Poursuite front ACF
+   1. ✅🐛 Corriger typo import
+      1. ✅🐛 Corriger Attributs > [Version](https://dev.pb-modelisme.com/wp-admin/edit-tags.php?taxonomy=pa_version_boite&post_type=product)
          1. 2 espaces -_-"
          2. kit tout bois à  construire
          3. kit à  monter
-         4. ⏳(PB) Attente retour cédric pour maj en bdd pb actuelle, virer les doubles espaces
+         4. ✅(PB) Attente retour cédric pour maj en bdd pb actuelle, virer les doubles espaces
             1. Relance le 09/01/23
-               1. ✅ kit à monter
-               2. 💩 kit tout bois à  construire
-               3. 💩 kit  RTF ~ok à l'import mais je reco de corriger
-                  1. ✨✨✨✨✨ Corrigé en lvoe rdv client > relancer moulinette
-         5. Réimporter pour maj / corriger
-      2. ✅ Pignon moteurs [cf.](https://dev.pb-modelisme.com/wp-admin/edit-tags.php?taxonomy=product_cat&post_type=product&s=Pignon+moteur)
-7. ✅📝 Doc : Référencer à quoi correspond chaque plugin
-   1. ✅ Titre
-   2. ✅ Nom du dossier dans `/plugins`
-   3. ✅ Utilité
-8. ⏳ Page toolbox
-   1. ✅ [Elements basiques](https://dev.pb-modelisme.com/toolbox/)
-   2. ✅ [Démos éléments & modules](https://dev.pb-modelisme.com/toolbox-2/)
-   3. ✅📧 Mail Nonore
-      1. ⏳(ALD) Faire une repasse sur les toolboxs afin de fixer les styles
-      2. ⏳(ALD) Faire une doc couleurs charte graphique et recos marges, à voir avec Nonore
-      3. Call aprem 12/01/23
-9. 🚀👪 Compte rendu du RDV client du 10/01/23
-   1. ✅ Cleaner le fichier texte
-   2. ✅ Mettre à jour le doc statut
-   3. 🚀🚀🚀📧 Envoyer CR par mail
-   4. ✅ Cleaner / Mettre à jour TODO max en fonction des nouvelles priorités
-      1. ✅ Regrouper et minifier les retours clients
-      2. ✅ Grouper les restes à faire par catégories > Faire des fichiers TODO dédiés afin de ne pas polluer le fichier principal
-         1. ✅ Créer fichier ✅ Migrer TODO actuelle ✅ Migrer doc Statut ✅ Migrer RAF RDV PB 10/01/23
-         2. ---
-         3. ✅✅✅X Retours clients
-         4. ✅✅✅X Back (~import des données)
-         5. ✅✅✅X WordPress > Administration (plugins, confort gestion PB)
-         6. ✅✅✅X WordPress > Données (contenus, pages statiques)
-         7. ✅✅✅X Front > Intégration (structure, styles, blocs)
-         8. ✅✅✅X Front > Avancé (plugins, comportements, tris)
-         9. ✅✅✅X Fin du site (tâches avant mise en ligne)
-10. Plugin prix multiples > Plugin payant
-11. Faire la TODO Back
-12. Faire la TODO Front > integration
-13. Faire la TODO WordPress Admin
+               1. kit à monter
+               2. kit tout bois à  construire
+               3. kit  RTF ~ok à l'import mais je reco de corriger
+                  1. ✅ Corrigé en live rdv client
+      2. ✅ Corriger dans l'admin wp afin d'éviter une moulinette, pas besoin de réimporter
+4. ✅ Page toolbox
+   1. ✅ Validation PB
+5. ⏳(ALD) Faire une doc couleurs charte graphique et recos marges, à voir avec Nonore
+6. 🚀 Faire la TODO Back
+    1. 📝 Import des clients & commandes
+       1. ✅ Import des comptes clients
+          1. ✅ Base en place, en attente de complétion / validation
+          2. ✅ (Cédric) 📝 Documenter la BDD actuelle
+          3. ✅ Repasse Maxime
+       2. ⏳ Import des commandes
+          1. ⏳(Cédric) 📝 Documenter la BDD actuelle
+             1. ✅ Base en place, en attente de complétion / validation
+       3. ⏳ Import des articles
+          1. ⏳(Cédric) 📝 Documenter la BDD actuelle
+             1. ✅ Base en place, en attente de complétion / validation
+    2. 🚀🔍 Recherches & tests
+       1. ✅ Champs persos clients > OK avec ACF
+       2. ✅ Champs persos commandes > OK avec ACF
+          1. 🚀🧹 Ranger captures écrans sur bureau + documenter ACF
+       3. Importer des clients
+       4. Importer des commandes
+       5. Lier clients & commandes
+    3. Importer
+7. ✅ Faire la TODO Front > integration
+    1. ✅ Validation toolbox
+8. ⏳ Faire la TODO Front > avancé
+    1. ⏳ Menu principal
+       1. ⏳ Analyse de la concurrence / inspiration
+          1. ✅ Analyser
+          2. ✅ Captures d'écrans
+          3. ✅ Conclusion
+          4. ⏳ Faire valider par PB avant de passer à la refonte
+       2. Lister la nouvelle arborescence
+       3. Faire une proposition de menu amélioré (images / onglets, etc.)
+       4. Faire une proposition de rubriques optimisées
+       5. Recettage Nonore
+       6. Recettage PB
+9. Faire la TODO WordPress Admin
 
 Arrêter dev serveur & hebergement
 

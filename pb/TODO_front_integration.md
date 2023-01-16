@@ -8,6 +8,7 @@ Apparence > Personnaliser > WooCommerce (pages profondes & générées automatiq
 
 Styles supplémentaires à la maing
 
-1. Faire valider les pages Toolbox 1 & 2
-    1. Par Nonore
-    2. Par PB
+1. ⏳ Faire valider les pages Toolbox 1 & 2
+    1. ✅ Par Nonore
+       1. ✅ Retours
+    2. ⏳ Par PB

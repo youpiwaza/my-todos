@@ -2,6 +2,148 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 13/01/2023
+
+Buy
+
+### ✅ Vitrine
+
+- Amazon
+  - [Recherche](https://www.amazon.fr/s?k=vitrine+noire+verre+collectionneurs&s=price-asc-rank&__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=17JCQTP4R5CVG&qid=1673004918&sprefix=vitrine+noire+verre+collectionneurs+%2Caps%2C82&ref=sr_st_price-asc-rank&ds=v1%3AHLJgQrYF50mJRwGb9KrOZIAiQuvhsEFDRVHJs%2BAZTrE)
+  - [une](https://www.amazon.fr/Markenlos-Vitrine-Serrure-Miroir-argent%C3%A9/dp/B01N21DXWI/ref=sr_1_17?keywords=vitrine+exposition&qid=1651427227&sr=8-17&th=1)
+- But
+  - [Vitrine 2 portes/ 4 tiroirs TOLEDO décor chêne sonoma/gris](https://www.but.fr/produits/4251182708093/Vitrine-2-portes-4-tiroirs-TOLEDO-decor-chene-sonoma-gris.html)
+- Conforama
+  - [PAROS III coloris noir](https://www.conforama.fr/canape-salon-sejour/sejour/bibliotheque-et-vitrine/vitrine-paros-iii-coloris-noir/p/486514?queryID=7e8dbe69c3d10127f59c7bce47bd7deb&objectID=8798571986945)
+  - [Vitrine Etagère Murale COLLECTY 5 Niches Noir Et Blanc](https://www.conforama.fr/canape-salon-sejour/sejour/bibliotheque-et-vitrine/vitrine-etagere-murale-collecty-5-niches-noir-et-blanc-99800800/p/C17187957?queryID=7e8dbe69c3d10127f59c7bce47bd7deb&objectID=8826472693761#descriptionAncre)
+- Home24
+  - [Armoire vitrine Exhibit III](https://www.home24.fr/article/armoire-vitrine-exhibit-iii-noir)
+  - [Armoire vitrine Exhibit IV](https://www.home24.fr/article/armoire-vitrine-exhibit-iv-noir)
+- Leroy
+  - [Vitrine murale pour miniature en panneaux de particules Blanc et noir, L80 x P9,5 x H60 cm](https://www.leroymerlin.fr/produits/meuble/meuble-de-cuisine/buffet/vitrine-murale-pour-miniature-en-panneaux-de-particules-blanc-et-noir-l80-x-p9-5-x-h60-cm-84665246.html?src=clk)
+
+PB Modelisme
+
+1. ✅💥🐛 Erreur 500 > admin site ko pendant le weekend sans absolument aucune putain de raison yay fun
+   1. 💩 Activer debug PHP > erreurs non pertinentes (ou maj de php dans le weekend sur ovh !? > non toujours 8.1)
+      1. Rien de pertinent, certaines 500 prennent encore le dessus ?
+   2. 💩 OVH > logs > errors
+      1. `[Tue Jan 03 23:28:56 2023] [error] [client 170.64.146.92] [host dev.pb-modelisme.com] AH01630: client denied by server configuration: /homez.927/xeqdtpv/dev/wordpress/server-status`
+      2. `[Fri Jan 06 10:40:28 2023] [error] [client 78.118.161.207] [host dev.pb-modelisme.com] AH00524: Handler for fastcgi-script returned invalid result code 1, referer: https://dev.pb-modelisme.com/wp-admin/update-core.php?action=do-plugin-upgrade`
+         1. Ptet une maj auto (plugin) qui s'est mal passée
+   3. ✅ Plugins
+      1. ✅ Captures écran plugins activés
+      2. ✅ Désactiver les plugins
+         1. 💩 Depuis l'admin
+            1. 💩 Tous d'un coup
+            2. 💩 Un seul à la fois, wtf
+         2. ✅ A l'ancienne > ftp > renommer `/wp-content/plugins/`
+            1. ✅ Le site est reparti et est beaucoup plus rapide lel
+            2. ✅ Discriminer plugin qui met le site KO, et remplacer par ancienne version en local
+               1. 💩 Complianz gpdr
+                  1. ✅ Renvoi ancienne version
+               2. 💩🔥 wp-force-sells `L’extension wpc-force-sells/wpc-force-sells.php a été désactivée en raison d’une erreur : Cette extension ne dispose pas d’un en-tête valide.`
+               3. ✅⬆️ Mises à jour à repasser
+                  1. ✅ All in one wp migration
+                  2. ✅ Complianz
+            3. ✅⚡️ Tester plugins incriminant les performances (may a mon avis c'est woocommerce)
+               1. Woocommerce qui ralentit un poil mais le site va mieux lol
+               2. 🔥 Les autres plugins inactifs ont étés supprimés
+2. ✅💥 500 lors de Maj produit > 💩🔥 Complianz
+   1. ✅🔍 Analyse des merdes dans la console
+      1. ✅ Google maps ? > 💩🔥 WP Go Maps (formerly WP Google Maps)
+         1. ✅🧹 Virer bdd associées
+      2. ✅🧹 WP-optimize > Cleaner bdd en général
+      3. 💩 Googlemaps toujours chargé dans l'admin wp ? wtf
+         1. 💩 Désactiver tous les plugins
+         2. ✅ Voir si ça vient du theme Divi
+            1. ✅ Options dans les réglages -_-
+   2. ✅📌 Tests alakon
+      1. ✅ Modification produit
+      2. ✅ Ajout plugin
+      3. ✅⚡️ Gain massif de performances dans l'admin et le front : ~2sec > 0.5sec
+3. ⏳💥 Gestion spam (comptes clients / commentaires)
+   1. ✅💩 Ajout d'un plugin anti spam > Akismet > 500 > ... (lié aux merdes ci-dessus)
+      1. ⏳(PB) A configurer avec le mail PB
+   2. ✅ Site plus indéxé par SE
+   3. ✅ Inscription ouvertes désactivées
+   4. ✅ Commentaires désactivés
+4. ⏳♻️ Retour clients prioritaires
+   1. ✅ Mail 2 du 12/11/2022 [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqRZcqsRzxwbhFWDZWMNzBxgCW)
+      1. ✅ Ajouter moyen de paiement Mandat administratif
+         1. Trop petit, texte illisible ? > Pas de retour
+         2. ✅Ajout à la légende & au title de l'image
+      2. ✅Sauvegarde dans drive
+5. ✅ Poursuite front ACF
+   1. ⏳🐛 Corriger typo import
+      1. 🐛 Attributs > [Version](https://dev.pb-modelisme.com/wp-admin/edit-tags.php?taxonomy=pa_version_boite&post_type=product)
+         1. 2 espaces -_-"
+         2. kit tout bois à  construire
+         3. kit à  monter
+         4. ⏳(PB) Attente retour cédric pour maj en bdd pb actuelle, virer les doubles espaces
+            1. Relance le 09/01/23
+               1. ✅ kit à monter
+               2. 💩 kit tout bois à  construire
+               3. 💩 kit  RTF ~ok à l'import mais je reco de corriger
+                  1. ✨✨✨✨✨ Corrigé en lvoe rdv client > relancer moulinette
+         5. Réimporter pour maj / corriger
+      2. ✅ Pignon moteurs [cf.](https://dev.pb-modelisme.com/wp-admin/edit-tags.php?taxonomy=product_cat&post_type=product&s=Pignon+moteur)
+6. ✅📝 Doc : Référencer à quoi correspond chaque plugin
+   1. ✅ Titre
+   2. ✅ Nom du dossier dans `/plugins`
+   3. ✅ Utilité
+7. ⏳ Page toolbox
+   1. ✅ [Elements basiques](https://dev.pb-modelisme.com/toolbox/)
+   2. ✅ [Démos éléments & modules](https://dev.pb-modelisme.com/toolbox-2/)
+   3. ✅📧 Mail Nonore
+      1. ✅ (ALD) Faire une repasse sur les toolboxs afin de fixer les styles
+      2. ✅ Call aprem 12/01/23
+         1. ✅ Corrections cf. TODO_retours_clients
+      3. ✅ 📧 Mail PB pour recettage & validation
+8. ✅👪 Compte rendu du RDV client du 10/01/23
+    1. ✅ Cleaner le fichier texte
+    2. ✅ Mettre à jour le doc statut
+    3. ✅📧 Envoyer CR par mail
+    4. ✅ Cleaner / Mettre à jour TODO max en fonction des nouvelles priorités
+       1. ✅ Regrouper et minifier les retours clients
+       2. ✅ Grouper les restes à faire par catégories > Faire des fichiers TODO dédiés afin de ne pas polluer le fichier principal
+          1. ✅ Créer fichier ✅ Migrer TODO actuelle ✅ Migrer doc Statut ✅ Migrer RAF RDV PB 10/01/23
+          2. ---
+          3. ✅✅✅X Retours clients
+          4. ✅✅✅X Back (~import des données)
+          5. ✅✅✅X WordPress > Administration (plugins, confort gestion PB)
+          6. ✅✅✅X WordPress > Données (contenus, pages statiques)
+          7. ✅✅✅X Front > Intégration (structure, styles, blocs)
+          8. ✅✅✅X Front > Avancé (plugins, comportements, tris)
+          9. ✅✅✅X Fin du site (tâches avant mise en ligne)
+9. ⏳ Faire la TODO Back
+    1. Import des clients & commandes
+       1. ⏳ Import des comptes clients
+          1. ⏳(Cédric) 📝 Documenter la BDD actuelle
+             1. ✅ Base en place, en attente de complétion / validation
+       2. ⏳ Import des commandes
+          1. ⏳(Cédric) 📝 Documenter la BDD actuelle
+             1. ✅ Base en place, en attente de complétion / validation
+       3. ⏳ Import des articles
+          1. ⏳(Cédric) 📝 Documenter la BDD actuelle
+             1. ✅ Base en place, en attente de complétion / validation
+    2. 🔍 Recherches & tests
+       1. Importer des clients
+       2. Importer des commandes
+       3. Lier clients & commandes
+10. ⏳ Faire la TODO Front > integration
+    1. ⏳ Validation toolbox
+11. 🚀 Faire la TODO Front > avancé
+    1. 🚀 Menu principal
+       1. ✅ Eclater l'ancien menu bordélique, tout reset, virer barre supérieure
+       2. ✅ Liste l'arborescence du menu
+       3. 🚀 Analyse de la concurrence / inspiration
+       4. Lister la nouvelle arborescence
+       5. Faire une proposition de menu amélioré (images / onglets, etc.)
+       6. Faire une proposition de rubriques optimisées
+       7. Recettage Nonore
+       8. Recettage PB
+
 ## 06/01/2023
 
 AE
