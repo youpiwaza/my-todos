@@ -2,14 +2,6 @@
 
 Reste à faire concernant les plugins, le confort de gestion PB
 
-## Gérer le spam
-
-Activation du plugin akismet
-
-En attente de retour de Cédric
-
----
-
 ## Réception des commandes
 
 1. Faire ressortir le différentiel entre le nombre de produits en stocks, ainsi que la nouvelle quantité de stocks, afin d'imprimer le bon nombre d'étiquettes (pour les nouveaux produits)
@@ -93,3 +85,12 @@ yup
 ## SAV
 
 yup
+
+---
+
+## Done
+
+### ✅ Done / Gérer le spam
+
+- ✅ Activation du plugin akismet
+- ✅ En attente de retour de Cédric

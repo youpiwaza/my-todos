@@ -21,6 +21,7 @@ Parce que j'en ouvre toujours 100k, je les fout dans des dossiers, et le pc est 
 - [Des frites croustillantes simples à mille couches ! Recettes de chips de pommes de terre 👍](https://www.youtube.com/watch?v=KO0J08gpwtg)
 - [Eggs Benedict and the Secret to Quicker Better Hollandaise](https://www.youtube.com/watch?v=6bDoFO7NgI8)
 - [Flower-shaped Custard Bread Roll Recipe](https://www.youtube.com/watch?v=I3fGmPoJtyQ)
+- [guga sidedish](https://www.youtube.com/watch?v=z1ymUzX9uhk)
 - [For Better Browned Meat and Veggies, Just Add Water | Techniquely With Lan Lam](https://www.youtube.com/watch?v=rzL07v6w8AA)
 - [I used the ASIAN secret on $1 steaks and this happened!](https://www.youtube.com/watch?v=A_5TdCny_F0)
 - [L'ENTRÉE ULTIME POUR VOS REPAS DE FÊTES -- FOOD IS LOVE](https://www.youtube.com/watch?v=3z69buzmLfw)
@@ -38,6 +39,10 @@ Parce que j'en ouvre toujours 100k, je les fout dans des dossiers, et le pc est 
 - [We all tried the UMAMI Egg Yolk burger!](https://www.youtube.com/watch?v=XiQl0wWp_cQ)
 
 ## Musiques à récupérer
+
+### Janvier 2023
+
+- [Electro - Nitro Fun - Final Boss Monstercat Release](https://www.youtube.com/watch?v=VGh5DV0D3wk&list=RDGMEMYH9CUrFO7CfLJpaD7UR85w&index=5)
 
 ### Novembre 2022
 

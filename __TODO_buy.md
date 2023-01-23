@@ -150,7 +150,7 @@ Remettre patreon Boris, YMS, Bloodywood
   - [Liquid pigments](https://www.greenstuffworld.com/fr/261-pigments-liquides)
   - [Mélangeur peinture](https://www.greenstuffworld.com/fr/peinture/2382-melangeur-rotatif-de-peinture.html)
   - !! Metal pigments !
-  - [Molotov chrome](https://www.amazon.fr/dp/B01MR2KER3?tag=miniac01-21&keywords=molotow%20chrome&geniuslink=true)
+  - 🚀🚀🚀 [Molotov chrome](https://www.amazon.fr/dp/B01MR2KER3?tag=miniac01-21&keywords=molotow%20chrome&geniuslink=true)
   - Rangements !
     - [Support vertical en MDF avec tiroirs](https://www.greenstuffworld.com/fr/expositeur-de-peinture/1768-support-vertical-en-mdf-avec-tiroirs.html)
     - [Présentoir Modulaire pour Peinture - FRONTAL](https://www.greenstuffworld.com/fr/expositeur-de-peinture/1083-presentoir-modulaire-pour-peinture-frontal.html)

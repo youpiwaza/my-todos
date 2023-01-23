@@ -12,20 +12,20 @@ Passer par un plugin payant, l'autre merde toujours et plus de réponse du suppo
 
 Prendre les 3 plus connus > bench > contacter pour voir tps de réponse
 
-## 🚀 Menu principal, cf. `/_docs/craft-and-tests/19-menu-principal/README.md`
+## ⏳ Menu principal, cf. `/_docs/craft-and-tests/19-menu-principal/README.md`
 
-1. ✅ Eclater l'ancien menu bordélique, tout reset, virer barre supérieure
-2. ✅ Liste l'arborescence du menu
-3. 🚀 Analyse de la concurrence / inspiration
-4. Lister la nouvelle arborescence
+1. ⏳✅ Analyse de la concurrence / inspiration
+   1. ⏳ Faire valider par PB avant de passer à la refonte
+       1. Attente de retour & validation sur le type de menu choisi (à l'ancienne ou refonte)
+2. Lister la nouvelle arborescence
    1. Anciens contenus conservés
    2. Nouveaux contenus à mettre en avant
    3. Suggestions suite à l'analyse de la concurrence
    4. Page intermédiares, cf. leroy merlin
-5. Faire une proposition de menu amélioré (images / onglets, etc.)
-6. Faire une proposition de rubriques optimisées
-7. Recettage Nonore
-8. Recettage PB
+3. Faire une proposition de menu amélioré (images / onglets, etc.)
+4. Faire une proposition de rubriques optimisées
+5. Recettage Nonore
+6. Recettage PB
 
 ## Page Contact
 
@@ -91,3 +91,12 @@ via plugin Google translate
 ## Plugin "liste de souhaits"
 
 yup
+
+---
+
+## Done
+
+## Done / Menu principal, cf. `/_docs/craft-and-tests/19-menu-principal/README.md`
+
+1. ✅ Eclater l'ancien menu bordélique, tout reset, virer barre supérieure
+2. ✅ Liste l'arborescence du menu

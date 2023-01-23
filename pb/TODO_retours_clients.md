@@ -8,7 +8,11 @@ Retours intégration champs personnalisés, [hey](https://mail.google.com/mail/u
 
 ⏳ Avions > Nombre de voies
 
-## Nonore 12/01/23
+---
+
+## Done
+
+### ✅ Done / Nonore 12/01/23
 
 1. ✅ Footer > Rajouter logo youtube
 2. ✅ Rajouter tite phrase "PB Modélisme, depuis 1979 le choix le service le prix !"

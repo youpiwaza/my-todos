@@ -2,6 +2,138 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 20/01/2023
+
+PB Modelisme
+
+1. ✅💥 Gestion spam (comptes clients / commentaires)
+      1. ✅ (Cédric) A configurer avec le mail PB
+2. ⏳ Plugin prix multiples > Plugin payant
+   1. cf. `_docs/20-prix-par-quantite/README.md`
+   2. ⏳ 4 demandes envoyées le 18/01/23
+   3. 🤏 Réponse 2/4
+3. ✅ Poursuite front ACF
+   1. ✅🐛 Corriger typo import
+      1. ✅🐛 Corriger Attributs > [Version](https://dev.pb-modelisme.com/wp-admin/edit-tags.php?taxonomy=pa_version_boite&post_type=product)
+         1. 2 espaces -_-"
+         2. kit tout bois à  construire
+         3. kit à  monter
+         4. ✅(PB) Attente retour cédric pour maj en bdd pb actuelle, virer les doubles espaces
+            1. Relance le 09/01/23
+               1. kit à monter
+               2. kit tout bois à  construire
+               3. kit  RTF ~ok à l'import mais je reco de corriger
+                  1. ✅ Corrigé en live rdv client
+      2. ✅ Corriger dans l'admin wp afin d'éviter une moulinette, pas besoin de réimporter
+4. ✅ Page toolbox
+   1. ✅ Validation PB
+5. ⏳(ALD) Faire une doc couleurs charte graphique et recos marges, à voir avec Nonore
+6. 🚀 Faire la TODO Back
+    1. Import des clients & commandes
+       1. ✅📝 Doc
+          1. ✅ Import des comptes clients
+             1. ✅ Base en place, en attente de complétion / validation
+             2. ✅ (Cédric) 📝 Documenter la BDD actuelle
+             3. ✅ Repasse Maxime
+          2. ✅ Import des commandes
+             1. ✅ (Cédric) 📝 Documenter la BDD actuelle
+                1. ✅ Base en place, en attente de complétion / validation
+          3. ✅ Import des articles
+             1. ✅ (Cédric) 📝 Documenter la BDD actuelle
+                1. ✅ Base en place, en attente de complétion / validation
+       2. 🚀🔍 Recherches & tests
+          1. ✅ Champs persos clients > OK avec ACF
+          2. ✅ Champs persos commandes > OK avec ACF
+          3. 🚀 Importer les clients
+             1. 📌 Recherche de plugins relatifs & tests, note prix éventuels, gestion champs persos
+                1. `codection > Import and export users and customers`
+                   1. ✅📌 Export
+                   2. 📌 Imports
+                      1. 📌✅ Client alakon à partir de l'export
+                      2. 📌✅ Imports de l'ensemble champs WooCommerce de base + test champs persos
+             2. ✅📝 Documenter les champs WC vanilla
+                1. ✅ Virer les champs WP/WC non utilisés à l'import
+                2. ✅📝 Rajouter les champs à populer en dur non présent dans legacy (ex: rôles)
+                3. ✅📌 Tester import avec champs en moins, voir comportement remplissage automatique
+             3. ✅ ACF créer les champs persos utilisateurs
+                1. 💥🙈 Discriminer champs publiques & internes
+                   2. 🌱🌱🌱🌱🔍📌 [Affichage front](https://www.advancedcustomfields.com/resources/create-a-front-end-form/) sur compte client ~`/my-account/modifier-compte/`
+             4. ✅ Prise en charge des champs personnalisés pour l'import
+             5. ✅📌 Vérification gestion des doublons/réimports
+                1. discriminant de l'existant `username`
+                2. select lors de l'import pour add ou update
+             6. ✅📌 Gestion du portage des mots de passe
+                1. On peut envoyer les hash legacy directement
+             7. ✅ Création de la requête SQL
+             8. ✅ Importer les 30 derniers clients
+             9. ✅📧 Mail Recettage Cédric + liens + fichiers
+             10. ⏳📌 Recettage Cédric
+          4. 🚀 Importer les commandes
+          5. Lier clients & commandes
+       3. Importer
+    2. ✅ Contenus complexes ~ onglets
+       1. ✅ Ajustements Page Un produit
+          1. ✅ Liste de peintures > Virer de la description, onglet uniquement
+          2. ✅ Liste de peintures > Clean affichage conditionnel new / legacy
+          3. ✅ Pièces détachées > passer en onglet + Utiliser l'affichage de "Peintures conseillées"
+7. ✅ Faire la TODO Front > integration
+    1. ✅ Validation toolbox
+8. ⏳ Faire la TODO Front > avancé
+    1. ⏳ Menu principal
+       1. ⏳ Analyse de la concurrence / inspiration
+          1. ✅ Analyser
+          2. ✅ Captures d'écrans
+          3. ✅ Conclusion
+          4. ⏳ Faire valider par PB avant de passer à la refonte
+             1. Attente de retour & validation sur le type de menu choisi (à l'ancienne ou refonte)
+       2. Lister la nouvelle arborescence
+       3. Faire une proposition de menu amélioré (images / onglets, etc.)
+       4. Faire une proposition de rubriques optimisées
+       5. Recettage Nonore
+       6. Recettage PB
+9. ♻️ Gestion des retours mails
+   1. ✅ MailS du 17/01 sur les imports clients/commandes & refonte du menu principal
+10. ✅ Mail de la fin de semaine
+11. Faire la TODO WordPress Admin
+
+✅ ML Architecture
+
+1. ✅ Versionner
+2. ✅ Admin > Image de fond non prise en charge ?
+
+Perso
+
+1. ✅ Aiguiser nouveaux couteaux
+
+Liste budget priorisée, faire devis, répartir
+
+1. 💸 100 balles impots max debut fevrier
+2. ✅💸 Syndic 300€
+3. ✅ Réserver concerts ~~100€~~
+    1. ✅ Sabaton 114€
+       1. ✅ Agenda
+       2. ✅💸 65€ guy
+4. ✅💸 Max AR Paris ? 10€
+5. ✅💸 ~~Cours ski vigi 208€~~
+6. ~~Activité reims 430€~~
+   1. ~~Vigi équitation 300€~~
+   2. ~~Vigi piscine 30€~~
+   3. ~~Atelier en couple 100€~~
+   4. ✅💸 Badminton 45€
+7. ~~Vacances 200€~~
+8. Pas/moins cher
+   1. Cuisine > Barre épices 50€
+   2. Bureau vigi dans le salon 40€ 2 pieds + planche 20€ = 60€
+   3. ✅💸 ~~Etagères restantes 8 x 10€ équerres 80€~~ > 62€
+      1. salon (Rétro projecteur)
+      2. salon, autres
+      3. Cuisine
+      4. Chambre
+   4. Table salon
+   5. ✅💸 Ceinture abdos 70€ > ⏳ Remb ancienne ~50€
+9. ✅💸 ~~Vitrine warhammers 200€~~ > 170€
+10. ✅💸 Canapé salon 800€ étalay
+
 ## 13/01/2023
 
 Buy

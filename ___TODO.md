@@ -73,45 +73,15 @@ Perso
 
 Liste budget priorisée, faire devis, répartir
 
-1. ✨ Reste 1150€
-2. 💸 100 balles impots max debut fevrier
-3. ✅💸 Syndic 300€
-4. ✅ Réserver concerts ~~100€~~
-    1. ✅ Sabaton 114€
-       1. ✅ Agenda
-       2. ✅💸 65€ guy
-5. ✅💸 Max AR Paris ? 10€
-6. ✅💸 ~~Cours ski vigi 208€~~
-7. ~~Activité reims 430€~~
-   1. ~~Vigi équitation 300€~~
-   2. ~~Vigi piscine 30€~~
-   3. ~~Atelier en couple 100€~~
-   4. ✅💸 Badminton 45€
-8. ~~Vacances 200€~~
-9. Pas/moins cher
-   1. Cuisine > Barre épices 50€
-   2. Bureau vigi dans le salon 40€ 2 pieds + planche 20€ = 60€
-   3. ✅💸 ~~Etagères restantes 8 x 10€ équerres 80€~~ > 62€
-      1. salon (Rétro projecteur)
-      2. salon, autres
-      3. Cuisine
-      4. Chambre
-   4. Table salon
-   5. ✅💸 Ceinture abdos 70€ > ⏳ Remb ancienne ~50€
-10. ✅💸 ~~Vitrine warhammers 200€~~ > 170€
-11. Porte galandage chambre    200€ // sans le canapé ~2100 € > + 400€ frais courants ?
-12. Bureau   500€ ?
-13. Canapé salon   800€
-14. Festivals cet été
-15. Rhum hellfest
-16. Pare douche
-17. Verrière cuisine
+1. 💸 100 balles impots max debut fevrier
+2. 💸 Max AR Paris multiples concerts
+3. Cuisine > Barre épices 50€
+4. Caisses pr rangement chaussures > leroy > 8 pieds
 
 ---
 
-1. Changer filtres hottes
-2. Aiguiser nouveaux couteaux
-3. 💥 Maj > Installation de l'environnement de dev
+1. 💥💥💥 Changer filtres hottes
+2. 💥 Maj > Installation de l'environnement de dev
    1. Update to latest [Node.js](https://nodejs.org/en/) pour windows
    2. Update to latest [Node.js](https://nodejs.org/en/) pour WSL
       1. [Doc](https://learn.microsoft.com/fr-fr/windows/dev-environment/javascript/nodejs-on-wsl)
@@ -139,24 +109,24 @@ Liste budget priorisée, faire devis, répartir
       1. `sudo apt install npm`
       2. `sudo apt install yarn`
       3. `sudo apt install gulp`
-4. Environnement de dev local > [Move Mountains With Next.js and Compose](https://www.youtube.com/watch?v=-iaLmOGZuD4)
-5. Github dédoublonner default-config-files-for-github-repository & base-repository-github
-6. 🚀♻️ Acheter flotte > magnésium
-7. MSG maison
+3. Environnement de dev local > [Move Mountains With Next.js and Compose](https://www.youtube.com/watch?v=-iaLmOGZuD4)
+4. Github dédoublonner default-config-files-for-github-repository & base-repository-github
+5. 🚀♻️ Acheter flotte > magnésium
+6. MSG maison
     1. [Recette](https://www.youtube.com/watch?v=sE3dYCphy2M)
-8. 🔍 Régime
+7. 🔍 Régime
     1. PORK PANKO low carb !
     2. [Low carb](https://www.dietdoctor.com/low-carb) / keto
        1. Most fruits and fruit juice / **Although low-sugar berries — such as blackberries, raspberries, and strawberries — are ok in small to moderate amounts.**
     3. Keto wheat flour > farine avec prot ? [hey](https://www.youtube.com/watch?v=g2fTYDftlCg)
     4. Non fat ricotta cheese / provolone cheese
-9. gochujang
+8. gochujang
     1. [amazon](https://www.amazon.fr/s?k=gochujang+jebiwon)
     2. [idem](https://www.amazon.fr/s?k=doenjang)
-10. 🔍 Champignon Lingzhi contre la fatigue & insomnie > Y'en a à grand frais !
-11. [Figs Claymore](https://figurama-collectors.com/collections/claymore/products/claymore-teresa-vs-priscilla-elite-exclusive-statue?variant=38322217484463) si le site fonctionne un putain de jour
-12. Réserver saut en parachute
-13. 🌱 Orga anniv pougnoutte mars 2023
+9. 🔍 Champignon Lingzhi contre la fatigue & insomnie > Y'en a à grand frais !
+10. [Figs Claymore](https://figurama-collectors.com/collections/claymore/products/claymore-teresa-vs-priscilla-elite-exclusive-statue?variant=38322217484463) si le site fonctionne un putain de jour
+11. Réserver saut en parachute
+12. 🌱 Orga anniv pougnoutte mars 2023
     1. Idées cadeaux
        1. Vélo, a voir en revenant de vacances
        2. Robe style médiéval, demander à Mélanie
@@ -168,71 +138,35 @@ Liste budget priorisée, faire devis, répartir
     4. Demander si logement déjà vu
     5. Voir pour cagnotte permis moto
     6. Medieval tents
-14. [Resto reims](https://www.google.com/maps/place/LA+GRILLADI%C3%88RE+REIMS)
+13. [Resto reims](https://www.google.com/maps/place/LA+GRILLADI%C3%88RE+REIMS)
     1. Inviter parents
-
-ML Architecture
-
-1. Versionner
-2. Admin > Image de fond non prise en charge ?
 
 PB Modelisme
 
-1. ⏳💥 Gestion spam (comptes clients / commentaires)
-      1. ⏳(PB) A configurer avec le mail PB
-2. Plugin prix multiples > Plugin payant
-   1. Il y a eu une maj > vérifier avant
-3. ✅ Poursuite front ACF
-   1. ✅🐛 Corriger typo import
-      1. ✅🐛 Corriger Attributs > [Version](https://dev.pb-modelisme.com/wp-admin/edit-tags.php?taxonomy=pa_version_boite&post_type=product)
-         1. 2 espaces -_-"
-         2. kit tout bois à  construire
-         3. kit à  monter
-         4. ✅(PB) Attente retour cédric pour maj en bdd pb actuelle, virer les doubles espaces
-            1. Relance le 09/01/23
-               1. kit à monter
-               2. kit tout bois à  construire
-               3. kit  RTF ~ok à l'import mais je reco de corriger
-                  1. ✅ Corrigé en live rdv client
-      2. ✅ Corriger dans l'admin wp afin d'éviter une moulinette, pas besoin de réimporter
-4. ✅ Page toolbox
-   1. ✅ Validation PB
-5. ⏳(ALD) Faire une doc couleurs charte graphique et recos marges, à voir avec Nonore
-6. 🚀 Faire la TODO Back
-    1. 📝 Import des clients & commandes
-       1. ✅ Import des comptes clients
-          1. ✅ Base en place, en attente de complétion / validation
-          2. ✅ (Cédric) 📝 Documenter la BDD actuelle
-          3. ✅ Repasse Maxime
-       2. ⏳ Import des commandes
-          1. ⏳(Cédric) 📝 Documenter la BDD actuelle
-             1. ✅ Base en place, en attente de complétion / validation
-       3. ⏳ Import des articles
-          1. ⏳(Cédric) 📝 Documenter la BDD actuelle
-             1. ✅ Base en place, en attente de complétion / validation
-    2. 🚀🔍 Recherches & tests
-       1. ✅ Champs persos clients > OK avec ACF
-       2. ✅ Champs persos commandes > OK avec ACF
-          1. 🚀🧹 Ranger captures écrans sur bureau + documenter ACF
-       3. Importer des clients
-       4. Importer des commandes
-       5. Lier clients & commandes
-    3. Importer
-7. ✅ Faire la TODO Front > integration
-    1. ✅ Validation toolbox
-8. ⏳ Faire la TODO Front > avancé
+1. ⏳ Plugin prix multiples > Plugin payant
+   1. cf. `_docs/20-prix-par-quantite/README.md`
+   2. ⏳ 4 demandes envoyées le 18/01/23
+   3. 🤏 Réponse 2/4
+2. ⏳(ALD) Faire une doc couleurs charte graphique et recos marges, à voir avec Nonore
+3. 🚀 Faire la TODO Back
+    1. Import des clients & commandes
+       1. Import des clients
+          1. ⏳📌 Recettage Cédric échantillons
+          2. Importer l'ensemble des clients
+       2. 🚀 Importer les commandes
+       3. Lier clients & commandes
+4. ⏳ Faire la TODO Front > avancé
     1. ⏳ Menu principal
        1. ⏳ Analyse de la concurrence / inspiration
-          1. ✅ Analyser
-          2. ✅ Captures d'écrans
-          3. ✅ Conclusion
-          4. ⏳ Faire valider par PB avant de passer à la refonte
+          1. ⏳ Faire valider par PB avant de passer à la refonte
+             1. Attente de retour & validation sur le type de menu choisi (à l'ancienne ou refonte)
        2. Lister la nouvelle arborescence
        3. Faire une proposition de menu amélioré (images / onglets, etc.)
        4. Faire une proposition de rubriques optimisées
        5. Recettage Nonore
        6. Recettage PB
-9. Faire la TODO WordPress Admin
+5. ♻️ Gestion des retours mails
+6. Faire la TODO WordPress Admin
 
 Arrêter dev serveur & hebergement
 
@@ -448,6 +382,7 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
   - ⏳ Doc > vitamine D tous les 6 mois
   - ⏳ Miel gelée royale
 - ⏳ Tout est versionné, pas de WIP qui traîne
+- Dashlane > Surveillance dark web > changer mots de passe
 
 ---
 
