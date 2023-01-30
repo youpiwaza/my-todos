@@ -80,8 +80,11 @@ Liste budget priorisée, faire devis, répartir
 
 ---
 
-1. 💥💥💥 Changer filtres hottes
-2. 💥 Maj > Installation de l'environnement de dev
+1. Cadeau anniv 6 ans pougnoutte en mars
+   1. Le cadeau de pougnoutte est a paris
+2. 💥💥💥 Changer filtres hottes
+3. Appli radiateurs et config
+4. 💥 Maj > Installation de l'environnement de dev
    1. Update to latest [Node.js](https://nodejs.org/en/) pour windows
    2. Update to latest [Node.js](https://nodejs.org/en/) pour WSL
       1. [Doc](https://learn.microsoft.com/fr-fr/windows/dev-environment/javascript/nodejs-on-wsl)
@@ -105,28 +108,28 @@ Liste budget priorisée, faire devis, répartir
          7. Fermer et relancer terminal
          8. ♻️ Recommencer 2-3 fois parce que linux
       3. `sudo apt upgrade`
-   4. WSL > Installer npm / yarn / gulp en global
+   4. WSL > Installer npm / yarn / gulp **en global**
       1. `sudo apt install npm`
       2. `sudo apt install yarn`
       3. `sudo apt install gulp`
-3. Environnement de dev local > [Move Mountains With Next.js and Compose](https://www.youtube.com/watch?v=-iaLmOGZuD4)
-4. Github dédoublonner default-config-files-for-github-repository & base-repository-github
-5. 🚀♻️ Acheter flotte > magnésium
-6. MSG maison
+5. Environnement de dev local > [Move Mountains With Next.js and Compose](https://www.youtube.com/watch?v=-iaLmOGZuD4)
+6. Github dédoublonner default-config-files-for-github-repository & base-repository-github
+7. 🚀♻️ Acheter flotte > magnésium
+8. MSG maison
     1. [Recette](https://www.youtube.com/watch?v=sE3dYCphy2M)
-7. 🔍 Régime
+9. 🔍 Régime
     1. PORK PANKO low carb !
     2. [Low carb](https://www.dietdoctor.com/low-carb) / keto
        1. Most fruits and fruit juice / **Although low-sugar berries — such as blackberries, raspberries, and strawberries — are ok in small to moderate amounts.**
     3. Keto wheat flour > farine avec prot ? [hey](https://www.youtube.com/watch?v=g2fTYDftlCg)
     4. Non fat ricotta cheese / provolone cheese
-8. gochujang
+10. gochujang
     1. [amazon](https://www.amazon.fr/s?k=gochujang+jebiwon)
     2. [idem](https://www.amazon.fr/s?k=doenjang)
-9. 🔍 Champignon Lingzhi contre la fatigue & insomnie > Y'en a à grand frais !
-10. [Figs Claymore](https://figurama-collectors.com/collections/claymore/products/claymore-teresa-vs-priscilla-elite-exclusive-statue?variant=38322217484463) si le site fonctionne un putain de jour
-11. Réserver saut en parachute
-12. 🌱 Orga anniv pougnoutte mars 2023
+11. 🔍 Champignon Lingzhi contre la fatigue & insomnie > Y'en a à grand frais !
+12. [Figs Claymore](https://figurama-collectors.com/collections/claymore/products/claymore-teresa-vs-priscilla-elite-exclusive-statue?variant=38322217484463) si le site fonctionne un putain de jour
+13. Réserver saut en parachute
+14. 🌱 Orga anniv pougnoutte mars 2023
     1. Idées cadeaux
        1. Vélo, a voir en revenant de vacances
        2. Robe style médiéval, demander à Mélanie
@@ -138,35 +141,44 @@ Liste budget priorisée, faire devis, répartir
     4. Demander si logement déjà vu
     5. Voir pour cagnotte permis moto
     6. Medieval tents
-13. [Resto reims](https://www.google.com/maps/place/LA+GRILLADI%C3%88RE+REIMS)
+15. [Resto reims](https://www.google.com/maps/place/LA+GRILLADI%C3%88RE+REIMS)
     1. Inviter parents
 
 PB Modelisme
 
-1. ⏳ Plugin prix multiples > Plugin payant
+1. ✅ Maj les TODOs back & front avancé pour Un produit > contenus  complexes (onglets)
+2. Plugin prix multiples > Plugin payant
    1. cf. `_docs/20-prix-par-quantite/README.md`
-   2. ⏳ 4 demandes envoyées le 18/01/23
-   3. 🤏 Réponse 2/4
-2. ⏳(ALD) Faire une doc couleurs charte graphique et recos marges, à voir avec Nonore
-3. 🚀 Faire la TODO Back
+      1. Woosuite > dynamic-pricing-discount-rules
+         1. Réponse par mail tardive mais a priori tous les pré-requis remplis
+         2. ⏳ Attente validation PB
+         3. 📌 Go test
+3. ⏳(ALD) Faire une doc couleurs charte graphique et recos marges, à voir avec Nonore
+4. 🚀 Faire la TODO Back
     1. Import des clients & commandes
        1. Import des clients
-          1. ⏳📌 Recettage Cédric échantillons
-          2. Importer l'ensemble des clients
+          1. ⏳ Importer l'ensemble des clients > Attente de validation côté PB
+          2. Docs > Vidéo import utilisateurs
        2. 🚀 Importer les commandes
-       3. Lier clients & commandes
-4. ⏳ Faire la TODO Front > avancé
-    1. ⏳ Menu principal
-       1. ⏳ Analyse de la concurrence / inspiration
-          1. ⏳ Faire valider par PB avant de passer à la refonte
-             1. Attente de retour & validation sur le type de menu choisi (à l'ancienne ou refonte)
-       2. Lister la nouvelle arborescence
-       3. Faire une proposition de menu amélioré (images / onglets, etc.)
-       4. Faire une proposition de rubriques optimisées
-       5. Recettage Nonore
-       6. Recettage PB
-5. ♻️ Gestion des retours mails
-6. Faire la TODO WordPress Admin
+          1. cf. `TODO_back.md`
+          2. 🚀 Création de la requête
+       3. Docs > Vidéo import utilisateurs
+       4. Lier clients & commandes
+5. Faire la TODO Front > avancé
+    1. Menu principal
+       1. Lister la nouvelle arborescence
+       2. Faire une proposition de menu amélioré (images / onglets, etc.)
+       3. Faire une proposition de rubriques optimisées
+       4. Recettage Nonore
+       5. Recettage PB
+    2. Page statiques
+       1. Lister les pages à réaliser & arborescence
+       2. Prioriser
+       3. Yapuka
+6. 🚀♻️ Gestion des retours mails
+   1. 25/01/23 > Petite relance sur la TODO PB Modélisme
+      1. Cédric : Fait > champs REFLIENACC, et REFINTERNE, tout à cleané et formaté selon le modèle ,xxx,xxx,xxx. La totalité des liens du champs HLIENACC ont été controlés et mis à jour.
+7. Faire la TODO WordPress Admin
 
 Arrêter dev serveur & hebergement
 

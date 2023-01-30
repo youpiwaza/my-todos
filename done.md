@@ -2,6 +2,49 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 27/01/2023
+
+PB Modelisme
+
+1. Plugin prix multiples > Plugin payant
+   1. cf. `_docs/20-prix-par-quantite/README.md`
+   2. ✅ 4 demandes envoyées le 18/01/23
+      1. ✅ Réponse 3/4, plus de 1 semaine
+   3. ✅📧 Go retours à PB
+2. 🚀 Faire la TODO Back
+    1. Import des clients & commandes
+       1. Import des clients
+          1. ✅📌 Recettage Cédric échantillons, cf [mail](https://mail.google.com/mail/u/0/#sent/KtbxLxghlWjbJPLLwXQVlshcMGHwNrRbhg)
+             1. ✅ Import des téléphones, ne pas remplacer les "." par des espaces. Uniquement numéros & formattage en front
+             2. ✅ `CDPAYS` > correspondances dans table `pays`
+          2. ⏳ Importer l'ensemble des clients > Attente de validation côté PB
+          3. Docs > Vidéo import utilisateurs
+       2. 🚀 Importer les commandes
+          1. cf. `TODO_back.md`
+          2. ✅🔍📌 R&D&T
+          3. ✅📝 Maj le doc structure > Correspondances Legacy/WC
+          4. 🚀 Création de la requête
+       3. ✅📝 Maj la liste des plugins dans la doc
+3. Faire la TODO Front > avancé
+    1. ✅ Retours menu principal & contenus pages statiques
+       1. ✅ Analyse de la concurrence / inspiration
+          1. ✅ Faire valider par PB avant de passer à la refonte
+          2. ✅ Je suis décideur & je fais au mieux, cf. [mail du 25/01/23](https://mail.google.com/mail/u/0/#inbox/KtbxLzGLlqFwflnkMgjQWGCgcRHSqpBjJq)
+4. ♻️ Gestion des retours mails
+   1. ✅ 24/01/23 Petite relance sur la TODO PB Modélisme
+      1. ✅ Avions et nombre de voies : j'ai mis les choses à jours dans la base de donnée, il suffit d'importer et d'afficher la valeur sans ce poser de question.
+         1. ✅ Réimport des avions & Maj de l'existant
+         2. ✅ Vérification de l'affichage côté front > On affiche simplement la valeur
+         3. ✅📧📌 Mail Cédric pour vérification
+   2. ✅ 24/01/23 Imports clients > Recettage
+   3. ✅ 24/01/23 Export des commandes > plugin > Par date & par statut
+   4. ✅ 24/01/23 Export des commandes > yay
+   5. ✅ 25/01/23 > Petite relance sur la TODO PB Modélisme
+      1. Cédric : Fait > champs REFLIENACC, et REFINTERNE, tout à cleané et formaté selon le modèle ,xxx,xxx,xxx. La totalité des liens du champs HLIENACC ont été controlés et mis à jour.
+5. ✅📧 Recap semaine
+   1. ✅ malade jeudi
+   2. ✅ ski
+
 ## 20/01/2023
 
 PB Modelisme
