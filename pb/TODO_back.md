@@ -12,7 +12,11 @@ Cédric > Produits > Imports manuels > Ne ré-importer que ce qui est visible > 
 
 ## ⏳ Contenus complexes ~ onglets
 
-Cédric me renvoie tous les champs normalisés comme liste de peinture
+✅ Cédric me renvoie tous les champs normalisés comme liste de peinture
+
+1. ✅ Mail Cédric du 25/01/23
+   1. dans les choses faites egalement que tu avais demandés, ce sont les champs REFLIENACC, et REFINTERNE, tout à cleané et formaté selon le modèle ,xxx,xxx,xxx,
+   2. La totalité des liens du champs HLIENACC ont été controlé et mis à jour.
 
 ✅📝 Règles d'affichage front pour les champs contenant du nouveau (Relation) & legacy :
 

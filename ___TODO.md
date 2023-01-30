@@ -162,22 +162,31 @@ PB Modelisme
        2. 🚀 Importer les commandes
           1. cf. `TODO_back.md`
           2. 🚀 Création de la requête
-       3. Docs > Vidéo import utilisateurs
-       4. Lier clients & commandes
+       3. Lier clients & commandes
+       4. Docs > Vidéo import commandes & clients
 5. Faire la TODO Front > avancé
-    1. Menu principal
+    1. 🚀🚀 Traiter retours "Un produit > Retours à traiter"
+    2. Menu principal
        1. Lister la nouvelle arborescence
        2. Faire une proposition de menu amélioré (images / onglets, etc.)
        3. Faire une proposition de rubriques optimisées
        4. Recettage Nonore
        5. Recettage PB
-    2. Page statiques
+    3. Page statiques
        1. Lister les pages à réaliser & arborescence
        2. Prioriser
        3. Yapuka
-6. 🚀♻️ Gestion des retours mails
+6. ✅♻️ Gestion des retours mails
    1. 25/01/23 > Petite relance sur la TODO PB Modélisme
       1. Cédric : Fait > champs REFLIENACC, et REFINTERNE, tout à cleané et formaté selon le modèle ,xxx,xxx,xxx. La totalité des liens du champs HLIENACC ont été controlés et mis à jour.
+   2. ✅ 28/01/23 > Import des commandes & articles > demandes infos
+      1. ✅📝 Précisions sur les champs de la part de Cédric, mise à jour de la doc
+      2. ✅📝 PDF annoté > Maj docs
+   3. ✅ 28/01/23 > Petite relance sur la TODO PB Modélisme
+      1. ✅📝 TODO mise à jour
+   4. ✅ 28/01/23 > pages statique
+   5. ✅ 28/01/23 > retour page un produit et test des différents types de produits
+      1. ✅📝 Rajouté à TODO front avancé > "Un produit > Retours à traiter"
 7. Faire la TODO WordPress Admin
 
 Arrêter dev serveur & hebergement
