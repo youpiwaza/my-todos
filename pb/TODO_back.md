@@ -112,50 +112,15 @@ Tables concernées "usr", "commande" & "article".
 Besoin des articles & des comptes clients
 
 1. 🚀 Import des commandes
-   1. ✅ 🔍 R&D&T
-      1. ✅ Créer 2 commandes de test
-         1. ✅ 1 seul article
-         2. ✅ Articles multiples
-      2. 📌 Trouver un plugin
-         1. ✅ Tester export
-            1. ✅ Commande ok
-            2. ✅ Produits ok
-            3. 💸 Champs persos ok / version payante / 129$ / an
-         2. ✅ Tester import
-         3. ✅ Linter export champs complexes
-         4. ✅📌 Tester les options d'import
-            1. ✅ Produits sans id wordpress > via SKU
-            2. ✅ Utilisateur sans id wordpress > via mail/nom ? mais osef ça marche
-         5. ✅ Maj doc structure
-            1. ✅ Se servir de l'export articles multiples, du csv d'exemple, des champs complexes éclatés
-            2. ✅ Documenter les champs du plugin
-               1. [Plugin](https://www.webtoffee.com/category/documentation/order-import-export-plugin-for-woocommerce/)
-               2. [Import > Filter datas](https://www.webtoffee.com/export-woocommerce-order-coupons/#Step_3_Fil_3)
-                  1. Ptet aider si batch
-               3. ✅ `/_docs/craft-and-tests/22-wc-import-commandes/Liste-des-champs-a-l-import.md`
-                  1. ✅ Rajouter les champs lors de l'export par cols & rows
-            3. ✅ Maj doc structure > Correspondances Legacy/WC
-         6. ✅ Discriminer champs WC de champs persos
-   2. 🚀 Création de la requête
+   1. 🚀 Création de la requête
       1. ✅📧 Mail demande d'infos
-         1. Pas mal de champs ambigus pour moi (je suis pas dans la vente/livraison), notamment sur les taxes/réductions/frais/frais expédition, etc.
-            1. Besoin de repasser sur la doc Structure > onglets commande & article
-            2. Et comparer avec les tableaux de `/22-wc-import-commandes/Liste-des-champs-a-l-import.md`
-         2. `commande`.`ETATCMD` différence entre "Livr" & "Livrée"
-         3. `commande`.`ETATCMD` différence entre "Livrée" & "Reçue"
-         4. `commande`.`ETATCMD` > Certains états ne correspondent pas aux champs par défaut WC, on fait des status personnalisés ?
-            1. "dispo en magasin"
-            2. "Livr"
-         5. `commande`.`PORTCMD` (Expédition > Total de l'envoi) peut être négatif ou NULL ou 0.01 ?
-         6. WC > `Expédition > Total de la taxe sur l'envoi`
-            1. Y a t-il une taxe à calculer sur l'envoi ? Ex: C'est en TTC et il faut faire ressortir la TVA ?
-            2. Sur `commande`.`PORTCMD` TTC ?
-         7. WC > Commande > Devise. L'intégralité des transactions sont-elles en euros ?
-         8. `commande`.`TYPEPAIMENTCMD` > Pas sûr que l'on puisse indiquer plusieurs méthodes de paiement pour une seule commande sur WC...
-         9. `commande`.`PORTCMD` & `TYPELIVRAISON` > Parfois il y a des frais de livraison sans transporteurs, parfois des transporteurs sans frais de livraison...
-         10. Table `pays` > Il manque le `CDPAYS` 201
-   3. 📌 Tests
-   4. Validation PB
+         1. ✅📝 Cédric à répondu, les résultats ont étés ajoutés aux différentes documentations
+      2. ✅📌📝 Gestion de la TVA lors de l'import
+      3. 🚀 Mise à jour de la requête avec les précisions de Cédric
+         1. ✅ Ajout des 'items' complexes, `shipping_items`, `fee_items`, `tax_items`.
+         2. 🔍 Check/révisions en vue de faire les `line_items`
+   2. 📌 Tests
+   3. Validation PB
 2. Association des commandes aux clients / ventes caisses
 
 Plugin [Product Import Export for WooCommerce](https://wordpress.org/plugins/product-import-export-for-woo/) ?
@@ -181,6 +146,30 @@ Plugin [Product Import Export for WooCommerce](https://wordpress.org/plugins/pro
 1. `commande`
    1. ✅(Cédric) 📝 Documenter la BDD actuelle
       1. ✅ Base en place, en attente de complétion / validation
+   2. ✅ 🔍 R&D&T
+      1. ✅ Créer 2 commandes de test
+         1. ✅ 1 seul article
+         2. ✅ Articles multiples
+      2. 📌 Trouver un plugin
+         1. ✅ Tester export
+            1. ✅ Commande ok
+            2. ✅ Produits ok
+            3. 💸 Champs persos ok / version payante / 129$ / an
+         2. ✅ Tester import
+         3. ✅ Linter export champs complexes
+         4. ✅📌 Tester les options d'import
+            1. ✅ Produits sans id wordpress > via SKU
+            2. ✅ Utilisateur sans id wordpress > via mail/nom ? mais osef ça marche
+         5. ✅ Maj doc structure
+            1. ✅ Se servir de l'export articles multiples, du csv d'exemple, des champs complexes éclatés
+            2. ✅ Documenter les champs du plugin
+               1. [Plugin](https://www.webtoffee.com/category/documentation/order-import-export-plugin-for-woocommerce/)
+               2. [Import > Filter datas](https://www.webtoffee.com/export-woocommerce-order-coupons/#Step_3_Fil_3)
+                  1. Ptet aider si batch
+               3. ✅ `/_docs/craft-and-tests/22-wc-import-commandes/Liste-des-champs-a-l-import.md`
+                  1. ✅ Rajouter les champs lors de l'export par cols & rows
+            3. ✅ Maj doc structure > Correspondances Legacy/WC
+         6. ✅ Discriminer champs WC de champs persos
 2. `article`
    1. ✅(Cédric) 📝 Documenter la BDD actuelle
       1. ✅ Base en place, en attente de complétion / validation

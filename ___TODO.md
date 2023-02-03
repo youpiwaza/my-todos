@@ -154,18 +154,19 @@ PB Modelisme
          2. ⏳ Attente validation PB
          3. 📌 Go test
 3. ⏳(ALD) Faire une doc couleurs charte graphique et recos marges, à voir avec Nonore
-4. 🚀 Faire la TODO Back
+4. Faire la TODO Back
     1. Import des clients & commandes
        1. Import des clients
           1. ⏳ Importer l'ensemble des clients > Attente de validation côté PB
           2. Docs > Vidéo import utilisateurs
-       2. 🚀 Importer les commandes
+       2. Importer les commandes
           1. cf. `TODO_back.md`
-          2. 🚀 Création de la requête
+          2. Création de la requête
        3. Lier clients & commandes
        4. Docs > Vidéo import commandes & clients
 5. Faire la TODO Front > avancé
-    1. 🚀🚀 Traiter retours "Un produit > Retours à traiter"
+    1. ✅ Traiter retours "Un produit > Retours à traiter"
+        1. 🚀📌 Tester maj matériaux
     2. Menu principal
        1. Lister la nouvelle arborescence
        2. Faire une proposition de menu amélioré (images / onglets, etc.)
@@ -177,16 +178,24 @@ PB Modelisme
        2. Prioriser
        3. Yapuka
 6. ✅♻️ Gestion des retours mails
-   1. 25/01/23 > Petite relance sur la TODO PB Modélisme
+   1. 25/01/23 > **Petite relance sur la TODO PB Modélisme**
       1. Cédric : Fait > champs REFLIENACC, et REFINTERNE, tout à cleané et formaté selon le modèle ,xxx,xxx,xxx. La totalité des liens du champs HLIENACC ont été controlés et mis à jour.
-   2. ✅ 28/01/23 > Import des commandes & articles > demandes infos
+   2. ✅ 28/01/23 > **Import des commandes & articles > demandes infos**
       1. ✅📝 Précisions sur les champs de la part de Cédric, mise à jour de la doc
       2. ✅📝 PDF annoté > Maj docs
-   3. ✅ 28/01/23 > Petite relance sur la TODO PB Modélisme
+      3. ✅ 30/01/23
+         1. ✅ Doc structure mis à jour
+         2. ✅ Doc import des commandes mis à jour
+   3. ✅ 28/01/23 > **Petite relance sur la TODO PB Modélisme**
       1. ✅📝 TODO mise à jour
-   4. ✅ 28/01/23 > pages statique
-   5. ✅ 28/01/23 > retour page un produit et test des différents types de produits
+   4. ✅ 28/01/23 > **pages statique**
+      1. ✅ 31/01/23
+   5. ✅ 28/01/23 > **retour page un produit et test des différents types de produits**
       1. ✅📝 Rajouté à TODO front avancé > "Un produit > Retours à traiter"
+      2. 31/01/23
+         1. Front > Un produit > Supprimer l'onglet "Brand"
+         2. Front > Un produit > Bouton acheter plus coloré, mieux mis en avant
+   6. ✅ 02/02/23 **commande**
 7. Faire la TODO WordPress Admin
 
 Arrêter dev serveur & hebergement
