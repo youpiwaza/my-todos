@@ -146,7 +146,9 @@ Liste budget priorisée, faire devis, répartir
 
 PB Modelisme
 
-1. ✅ Maj les TODOs back & front avancé pour Un produit > contenus  complexes (onglets)
+1. ✅👪 (ALD) RDV prestataire
+   1. ✅ Point sur l'avancement
+   2. ✅ Point graphismes
 2. Plugin prix multiples > Plugin payant
    1. cf. `_docs/20-prix-par-quantite/README.md`
       1. Woosuite > dynamic-pricing-discount-rules
@@ -177,25 +179,14 @@ PB Modelisme
        1. Lister les pages à réaliser & arborescence
        2. Prioriser
        3. Yapuka
-6. ✅♻️ Gestion des retours mails
+6. ♻️ Gestion des retours mails
    1. 25/01/23 > **Petite relance sur la TODO PB Modélisme**
       1. Cédric : Fait > champs REFLIENACC, et REFINTERNE, tout à cleané et formaté selon le modèle ,xxx,xxx,xxx. La totalité des liens du champs HLIENACC ont été controlés et mis à jour.
-   2. ✅ 28/01/23 > **Import des commandes & articles > demandes infos**
-      1. ✅📝 Précisions sur les champs de la part de Cédric, mise à jour de la doc
-      2. ✅📝 PDF annoté > Maj docs
-      3. ✅ 30/01/23
-         1. ✅ Doc structure mis à jour
-         2. ✅ Doc import des commandes mis à jour
-   3. ✅ 28/01/23 > **Petite relance sur la TODO PB Modélisme**
-      1. ✅📝 TODO mise à jour
-   4. ✅ 28/01/23 > **pages statique**
-      1. ✅ 31/01/23
-   5. ✅ 28/01/23 > **retour page un produit et test des différents types de produits**
-      1. ✅📝 Rajouté à TODO front avancé > "Un produit > Retours à traiter"
+   2. 28/01/23 > **retour page un produit et test des différents types de produits**
+      1. 📝 Rajouté à TODO front avancé > "Un produit > Retours à traiter"
       2. 31/01/23
          1. Front > Un produit > Supprimer l'onglet "Brand"
          2. Front > Un produit > Bouton acheter plus coloré, mieux mis en avant
-   6. ✅ 02/02/23 **commande**
 7. Faire la TODO WordPress Admin
 
 Arrêter dev serveur & hebergement

@@ -2,6 +2,28 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 03/02/2023
+
+PB Modelisme
+
+1. ✅ Maj les TODOs back & front avancé pour Un produit > contenus  complexes (onglets)
+2. TODO Front > avancé
+    1. ✅ Traiter retours "Un produit > Retours à traiter"
+3. ✅♻️ Gestion des retours mails
+   1. ✅ 28/01/23 > **Import des commandes & articles > demandes infos**
+      1. ✅📝 Précisions sur les champs de la part de Cédric, mise à jour de la doc
+      2. ✅📝 PDF annoté > Maj docs
+      3. ✅ 30/01/23
+         1. ✅ Doc structure mis à jour
+         2. ✅ Doc import des commandes mis à jour
+   2. ✅ 28/01/23 > **Petite relance sur la TODO PB Modélisme**
+      1. ✅📝 TODO mise à jour
+   3. ✅ 28/01/23 > **pages statique**
+      1. ✅ 31/01/23
+   4. ✅ 28/01/23 > **retour page un produit et test des différents types de produits**
+      1. ✅📝 Rajouté à TODO front avancé > "Un produit > Retours à traiter"
+   5. ✅ 02/02/23 **commande**
+
 ## 27/01/2023
 
 PB Modelisme
