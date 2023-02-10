@@ -4,7 +4,13 @@ Reste à faire concernant les structures, styles, blocs
 
 ## Liste des pages
 
+TODO
+
 Intégration
+
+## Footer
+
+Repasse responsive
 
 ---
 

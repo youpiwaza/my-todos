@@ -14,86 +14,42 @@ Passer par un plugin payant, l'autre merde toujours et plus de réponse du suppo
 
 ⏳💸 Attente achat plugin
 
-## Un produit > Contenus complexes ~ onglets
+## Page intermédiaires
 
-Cédric me renvoie tous les champs normalisés comme liste de peinture
+Création des pages intermédiaires
 
-✅📝 Règles d'affichage front pour les champs contenant du nouveau (Relation) & legacy :
+Rouge PB / #941210
 
-- Si il y a des peintures ajoutée via le nouveau champ relation, on n'affiche que elles
-- Si il n'y en a pas mais qu'il y a des peintures dans le champ légacy
-  - on les affiche
-- 🚨 Pas de mix des deux.
-
-1. Onglets supplémentaires
-    1. Avions
-       1. Pièces détachées / Plan
-       2. Articles conseillés
-    2. Bateaux
-       1. Pièces détachées
-    3. Batteries
-       1. Produits compatibles
-          1. Contenu
-       2. Chargeurs compatibles
-          1. Contenu
-    4. Controleurs
-       1. Produits compatibles > Requête à récupérer / convertir
-          1. Contenu
-    5. Helices avions
-       1. Piéces détachées > Requête complexe
-       2. Accessoires conseillés > Requête à récupérer / convertir
-    6. Helicos
-       1. Piéces détachées > Requête à récupérer / convertir > `site actuel pb modelisme\Helico\prodassoc.php` > lol nope
-       2. Piéces Upgrade > Requête complexe > idem
-    7. Maquettes
-       1. Produits de finitions > Récupérer requête complexe (plusieurs catégories)
-    8. Matériaux
-        1. Colles conseillées
-           1. cf. Mail du [28/01/23](https://mail.google.com/mail/u/0/#inbox/FMfcgzGrcPHMWNbGMQcvcNqQHlnJkXnC)
-           2. Renommer "Colles"
-           3. Contenu > Affichage de la catégorie colles
-    9. Moteurs thermique
-        1. Piéces détachées > Requête complexe table constitue ?
-    10. Pièces hélicoptères
-        1. Machines compatibles > 🔗 Table "compose"
-    11. Pièces voitures
-        1. ? > 🔗 Table "construite"
-    12. Recepteurs
-        1. Utilisation conseillée/s > 🔗 table "categorieavion", 🔗 table "utilise"
-        2. Produits compatibles
-    13. Servos
-        1. Piéces détachées
-    14. Voitures
-        1. Pièces détachées > Récupérer requête ancien site
-        2. Pièces Options > Pieces voitures avec champs OPT à 2 (pièces pour upgrade)
-           1. Note max : Ref à la catégorie pièces détachées pour voitures
+1. 🚀 Nouveautés
+2. Produits phares
+3. Inspiration
+4. Promotions catégories
+5. Promotions
+6. Catégories principales
+   1. Avions
+   2. Drones
+   3. Voitures
+   4. Bateaux
+   5. Maquettes
+   6. Matériaux
+   7. Accessoires
+   8. Aerogtaphes
+   9. Outillages
+   10. Moteurs
+   11. Carburants
+   12. RadioS
+   13. Pièces détachées
+   14. Accessoires véhicules
+         1. Toutes les sous cat
+7. Détaillants
+8. Accueil FAQs
 
 ## Menu principal, cf. `/_docs/craft-and-tests/19-menu-principal/README.md`
 
-1. Menu principal
-   1. Lister la nouvelle arborescence
-   2. Anciens contenus conservés
-   3. Nouveaux contenus à mettre en avant
-   4. Suggestions suite à l'analyse de la concurrence
-   5. Page intermédiares, cf. leroy merlin
-2. Faire une proposition de menu amélioré (images / onglets, etc.)
-3. Faire une proposition de rubriques optimisées
-4. Recettage Nonore
-5. Recettage PB
-
-## Pages statiques
-
-1. Lister les pages à réaliser & arborescence
-   1. Services > Se baser sur les pages services du site actuel
-      1. réparations et la découpe
-      2. [Services](https://pb-modelisme.com/Accessoires/listeprod.php?cat=35)
-      3. Cookies et confidentialité
-      4. Plan du site
-   2. Mail Cédric du [28/01/23](https://mail.google.com/mail/u/0/#inbox/FMfcgzGrcPHMMxrqFCqSCKtvsjfZCcXw)
-      1. Mentions légales : ok
-      2. CGV : OK
-2. Prioriser
-3. Yapuka
+1. Faire une ébauche bootstrap custom, en local afin de ne pas péter un plomb
+2. Remplacer sur site actuel
+3. Recettage Nonore
+4. Recettage PB
 
 ## Page Contact
 
@@ -279,3 +235,101 @@ Mail du [28/01/23](https://mail.google.com/mail/u/0/#inbox/FMfcgzGrcPHMWNbGMQcvc
 1. ✅ Analyse de la concurrence / inspiration
     1. ✅ Faire valider par PB avant de passer à la refonte
     2. ✅ Je suis décideur & je fais au mieux, cf. [mail du 25/01/23](https://mail.google.com/mail/u/0/#inbox/KtbxLzGLlqFwflnkMgjQWGCgcRHSqpBjJq)
+
+## ✅ Done / Un produit > Retours à traiter
+
+Mail du 31/01/23.
+
+1. ✅ Front > Un produit > Supprimer l'onglet "Brand"
+2. ✅ Front > Un produit > Bouton acheter plus coloré, mieux mis en avant
+
+## Done / Page d'accueil
+
+1. ✅ Nouvelle page afin de regrouper les pages d'illustration de thème
+2. 📌 Associer des blocs Divi aux contenus retenus
+   1. (Manque du gras niveau template > go [divi online store](https://www.elegantthemes.com/layouts/category/online-store))
+      1. 5 blocs > [Travel Agency Home Page](https://www.elegantthemes.com/layouts/business/travel-agency-home-page)
+      2. Grille produits > [Boutique Landing Page](https://www.elegantthemes.com/layouts/business/boutique-landing-page)
+      3. Grille Panaché > [Jeweler Landing Page](https://www.elegantthemes.com/layouts/art-design/jeweler-landing-page)
+   2. ✅ Produits / Carousel / Divi [slider](https://www.elegantthemes.com/preview/Divi/slider/)
+      1. Produits récents avec mise en avant
+      2. Produits phares avec mise en avant
+      3. Inspiration, catégorie mise en avant
+      4. Marques populaires
+   3. ✅ Promotions / **brs-boutique > Popular Products**
+      1. Catégories ou produits
+      2. Offres du moment : promotions temporaires
+   4. ✅ Boutique, 2 lignes de textes + lien vers à propos / **Hardware Store Shop Page All tools**
+      1. Kwaksé, engagements, nombre de produits & marques, expertise
+   5. ✅ Catégories principales ~Véhicules / **Hardware Store Landing Page Shop categories**
+   6. ✅ Services / **brs-accueil > Services**
+   7. ✅ Incontournables : 2 blocs, carousels ? ou 2 lignes 1 titre 4 produits carousel / **Hardware Store Home Page giving back environnement** c'un carousel en faire 2
+      1. Nouvelles sorties
+      2. Recommandations
+   8. ✅ Inspiration / **hs-accueil triple bloc GET UP TO 65% OFF**
+      1. A découvrir
+         1. Maquettes **(bloc fixe de gauche)**
+         2. Tunnels d'intérêts sur sous page : Peinture, sculpture, matériaux, décors, collections **Carousel à droite**
+      2. Tendances (~en fonction de la saison) **Bloc du bas**
+   9. ✅ Bandeau avantages / **brs-boutique > Bandeau Free Shipping** OU **hs-accueil weekly savings**
+      1. 4 colonnes, Picto + 1 titre et c'est tout (~livraison, expertise, disponibilité, pièces détachées rares)
+   10. ✅ Tunnels utilisateurs catégories profondes (~sous catégories accessoires) / **hs-a-propos 3 images Giving Back to the Environment**
+       1. Matériaux (Bois, flocages)
+       2. Outillage (Aero, tournevis, colles, peintures, etc.)
+       3. Pièces détachées
+   11. ✅ Actualités, 2 blocs, 1 carousel, 1 fixe **Hardware Store Home Page giving back environnement**
+       1. Actualités du site (articles)
+       2. Cross média (youtube)
+   12. ✅ Mise en avant de pages profondes / **hs-accueil Popular Brands > Faire 5 colonnes**
+       1. Produits phares
+       2. Bonnes affaires
+       3. Destockage
+       4. Espace sociétés (détaillants)
+       5. Aide
+          1. FAQs / **hs-contact faq**
+          2. Contact
+3. ✅ Mise en place des blocs
+   1. ✅ Produits / Carousel / Divi [slider](https://www.elegantthemes.com/preview/Divi/slider/)
+      1. ✅ Produits récents avec mise en avant
+      2. ✅ Produits phares avec mise en avant
+      3. ✅ Inspiration, catégorie mise en avant
+      4. ✅ Marques populaires
+   2. ✅ Promotions / **brs-boutique > Popular Products**
+      1. ✅ Catégories ou produits
+      2. ✅ Offres du moment : promotions temporaires
+   3. ✅ Boutique, 2 lignes de textes + lien vers à propos / **Hardware Store Shop Page All tools**
+      1. ✅ Kwaksé, engagements, nombre de produits & marques, expertise
+   4. ✅ Catégories principales ~Véhicules / **Hardware Store Landing Page Shop categories**
+   5. ✅ Services / **brs-accueil > Services**
+   6. ✅ Incontournables : 2 blocs, carousels ? ou 2 lignes 1 titre 4 produits carousel
+      1. ✅ Nouvelles sorties
+      2. ✅ Recommandations
+   7. ✅ Inspiration / **hs-accueil triple bloc GET UP TO 65% OFF**
+      1. ✅ À découvrir
+         1. ✅ Maquettes **(bloc fixe de gauche)**
+         2. ✅ Tendances (~en fonction de la saison) **Bloc du bas**
+      2. ✅ Tunnels d'intérêts sur sous page : Peinture, sculpture, décors, collections, matériaux **Carousel à droite**
+   8. ✅ Bandeau avantages / **brs-boutique > Bandeau Free Shipping** OU **hs-accueil weekly savings**
+      1. 4 colonnes, Picto + 1 titre et c'est tout (~livraison, expertise, disponibilité, pièces détachées rares)
+   9. ✅ Tunnels utilisateurs catégories profondes (~sous catégories accessoires) / **Bike repair > landing > Services**
+       1. ✅ Accessoires en général
+       2. ✅ Outillage (✅ Aero, ✅ tournevis, colles & produits, carburants, etc.)
+       3. ✅ Pièces détachées
+       4. ✅ Batteries
+   10. ✅ Actualités, 2 blocs, 1 carousel, 1 fixe **Hardware Store Home Page giving back environnement**
+       1. Actualités du site (articles)
+       2. Cross média (youtube)
+   11. ✅ Mise en avant de pages profondes / **hs-accueil Popular Brands > Faire 5 colonnes**
+       1. Produits phares
+       2. Destockage
+       3. Espace sociétés (détaillants)
+       4. Aide
+          1. FAQs / **hs-contact faq**
+          2. Contact
+4. ✅ Mettre en place les liens vers les pages existantes
+   1. ✅ & référencer les pages à créer
+5. ✅ Check le responsive
+   1. ✅ Tablette
+      1. 🌱 Pas parfait, forcer quelques colonnages
+   2. ✅ Mobile
+6. ✅📧 Envoi à Nonore pour recettage graphismes

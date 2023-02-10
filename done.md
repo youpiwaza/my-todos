@@ -2,6 +2,64 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 10/02/2023
+
+PB Modelisme
+
+1. ✅👪 (ALD) RDV prestataire
+   1. ✅ Point sur l'avancement
+   2. ✅ Point graphismes
+2. Plugin prix multiples > Plugin payant
+   1. cf. `_docs/20-prix-par-quantite/README.md`
+      1. Woosuite > dynamic-pricing-discount-rules
+         1. Réponse par mail tardive mais a priori tous les pré-requis remplis
+         2. ⏳ Attente validation PB
+         3. 📌 Go test
+3. ⏳⏳⏳ Faire la TODO Back
+    1. ⏳ Terminer import des produits > onglets restants "champs complexes"
+       1. ✅ Analyse & remise dans le bain, inventaire des requêtes
+       2. ⏳ Attente retour Cédric, il y a des onglets dont je ne sais pas comment est créé le contenu
+    2. ⏳ Imports produits > manuels
+       1. ⏳ Attente retour cédric liste des produits à réimporter
+    3. ⏳ Import des clients & commandes
+       1. Import des clients
+          1. ⏳ Importer l'ensemble des clients > Attente de validation côté PB
+          2. Docs > Vidéo import utilisateurs
+       2. ⏳ Importer les commandes
+          1. cf. `TODO_back.md`
+          2. ⏳ Création de la requête > Blocage, en attente de retour de Cédric
+       3. Lier clients & commandes
+       4. Docs > Vidéo import commandes & clients
+4. ✅ Faire la TODO wordpress > contenus
+    1. ✅ cf. TODO `TODO_wordpress_contenus.md` & [drive](https://docs.google.com/spreadsheets/d/1BVaJ9OWgSaJrmA8YppKAr0bYSlIEi6oIKLds_PLZZ5o/edit#gid=1498654959)
+    2. ✅ Lister pages
+    3. ✅ Page d'accueil
+       1. ✅ Analyse concurrence x2
+       2. ✅ Contenus provisoires, priorisés
+    4. ✅ Menu principal
+       1. ✅ Regrouper, factoriser, prioriser, suggestion
+5. ✅ Faire la TODO Front > avancé
+    1. ✅ Traiter retours "Un produit > Retours à traiter"
+        1. ✅📌 Tester maj matériaux
+    2. ✅ Page d'accueil
+       1. ✅ Associer des blocs Divi aux contenus retenus
+       2. ✅ Mise en place des blocs
+       3. ✅ Adapter les contenus
+       4. ✅ Mail nonore
+       5. ⏳ Attente retours nonore
+6. ♻️ Gestion des retours mails
+   1. ✅ 25/01/23 > **Petite relance sur la TODO PB Modélisme**
+      1. ✅ Cédric : Fait > champs REFLIENACC, et REFINTERNE, tout à cleané et formaté selon le modèle ,xxx,xxx,xxx. La totalité des liens du champs HLIENACC ont été controlés et mis à jour.
+         1. ✅ Pour chaque onglet, déterminer la requête pour faire ressortir le contenu
+   2. ✅ 28/01/23 > **retour page un produit et test des différents types de produits**
+      1. ✅📝 Rajouté à TODO front avancé > "Un produit > Retours à traiter"
+         1. ✅ Retours traités
+      2. ✅ 31/01/23
+         1. ✅ Front > Un produit > Supprimer l'onglet "Brand"
+         2. ✅ Front > Un produit > Bouton acheter plus coloré, mieux mis en avant
+   3. ✅ Retours mails x 3, du 08/02/23
+7. Faire la TODO WordPress Admin
+
 ## 03/02/2023
 
 PB Modelisme

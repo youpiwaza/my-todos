@@ -36,38 +36,43 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 AE
 
-1. 🌱 Payer impôts CFE rattrapage 2020
+1. Postuler partout
+   1. Leroy merlin
+   2. IUT de Reims
+   3. [Ecole du bas de la rue](https://www.wildcodeschool.com/fr-FR/campus/reims)
+   4. Sinon McDo
+2. 🌱 Payer impôts CFE rattrapage 2020
    1. Avis en mai 2023, 473€, [à payer en juin](https://mail.google.com/mail/u/0/#inbox/KtbxLvhVcWmcxbbZhnsRMnQSnbSMnkJCGq)
-2. 🚀 Refaire CV > `/cv-portfolio-tout`
+3. 🚀 Refaire CV > `/cv-portfolio-tout`
    1. 🚀 Regrouper l'ensemble des ressources
       1. 🚀 Textes
    2. Sauvegarde github
    3. Sauvegarde sur DD sites web
-3. Refaire site masamune.fr
+4. Refaire site masamune.fr
    1. Sauvegarde github
    2. Sauvegarde sur DD sites web
    3. 🌱 Maj liens cv expériences pro
       1. Pas oublier le https
    4. Yootoob > Ajouter écrans de fin / liens vers le site masamune.fr une fois terminé
    5. Service > Retour sur CV > 50€
-4. Refaire site blog.masamune.fr
+5. Refaire site blog.masamune.fr
    1. Sauvegarde github
    2. Sauvegarde sur DD sites web
-5. Cleaner projet alakon github
+6. Cleaner projet alakon github
    1. Renommer préfixer technos
    2. Voir faire un projet liste de liens vers les projets regroupés en catégories
-6. Inscription EAN
+7. Inscription EAN
    1. Inscription [crème de la crème](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQmNcddHDMfMMGTKJmgzNsvbd)
    2. Inscription Jean-Paul.io
    3. [odoo](https://www.odoo.com/fr_FR/jobs)
    4. [capgemini](https://www.linkedin.com/safety/go?url=https%3A%2F%2Ffr.capgemini.talentnet.community%2F&trk=flagship-messaging-web&messageThreadUrn=urn%3Ali%3AmessagingThread%3A2-MjdmZGZlYjgtZjIxNy00ZDM0LTg2ODYtMzIyYzMwNzcxMzUzXzAxMg%3D%3D&lipi=urn%3Ali%3Apage%3Amessaging_thread%3B984fd009-b4db-44e3-b159-e504a3614444)
-7. [Malt PER](https://resources.malt.com/fr/freelances/articles-freelance/reduction-dimpots-avez-vous-pense-a-cette-solution/)
-8. Ajouter clause devis possibilité évolution de tarifs si sous estimation
-9. Prévenir client évolution tarifaire
+8. [Malt PER](https://resources.malt.com/fr/freelances/articles-freelance/reduction-dimpots-avez-vous-pense-a-cette-solution/)
+9. Ajouter clause devis possibilité évolution de tarifs si sous estimation
+10. Prévenir client évolution tarifaire
     1. [Mail](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQSTcnMwFvNhbJVwWdplCQVrL)
-10. Maj doc Malt
+11. Maj doc Malt
     1. [Mail](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQcnlCmhgkWnWjbfPCPQXNRQW)
-11. Veille > tester wp optimize pour réduire la taille des images & pour le cache
+12. Veille > tester wp optimize pour réduire la taille des images & pour le cache
 
 Perso
 
@@ -80,9 +85,12 @@ Liste budget priorisée, faire devis, répartir
 
 ---
 
-1. Cadeau anniv 6 ans pougnoutte en mars
+1. ⏳ Check offres d'emplois postulées, envoyé le ~06/02/2023? Si plus de 2 semaines appeler
+   1. Leroy
+   2. Wild school
+   3. IUT Reims
+2. Cadeau anniv 6 ans pougnoutte en mars
    1. Le cadeau de pougnoutte est a paris
-2. 💥💥💥 Changer filtres hottes
 3. Appli radiateurs et config
 4. 💥 Maj > Installation de l'environnement de dev
    1. Update to latest [Node.js](https://nodejs.org/en/) pour windows
@@ -146,48 +154,33 @@ Liste budget priorisée, faire devis, répartir
 
 PB Modelisme
 
-1. ✅👪 (ALD) RDV prestataire
-   1. ✅ Point sur l'avancement
-   2. ✅ Point graphismes
-2. Plugin prix multiples > Plugin payant
+1. Plugin prix multiples > Plugin payant
    1. cf. `_docs/20-prix-par-quantite/README.md`
       1. Woosuite > dynamic-pricing-discount-rules
          1. Réponse par mail tardive mais a priori tous les pré-requis remplis
          2. ⏳ Attente validation PB
          3. 📌 Go test
-3. ⏳(ALD) Faire une doc couleurs charte graphique et recos marges, à voir avec Nonore
-4. Faire la TODO Back
-    1. Import des clients & commandes
+2. ⏳⏳⏳ Faire la TODO Back
+    1. ⏳ Terminer import des produits > onglets restants "champs complexes"
+       1. ✅ Analyse & remise dans le bain, inventaire des requêtes
+       2. ⏳ Attente retour Cédric, il y a des onglets dont je ne sais pas comment est créé le contenu
+    2. ⏳ Imports produits > manuels
+       1. ⏳ Attente retour cédric liste des produits à réimporter
+    3. ⏳ Import des clients & commandes
        1. Import des clients
           1. ⏳ Importer l'ensemble des clients > Attente de validation côté PB
           2. Docs > Vidéo import utilisateurs
-       2. Importer les commandes
+       2. ⏳ Importer les commandes
           1. cf. `TODO_back.md`
-          2. Création de la requête
+          2. ⏳ Création de la requête > Blocage, en attente de retour de Cédric
        3. Lier clients & commandes
        4. Docs > Vidéo import commandes & clients
-5. Faire la TODO Front > avancé
-    1. ✅ Traiter retours "Un produit > Retours à traiter"
-        1. 🚀📌 Tester maj matériaux
-    2. Menu principal
-       1. Lister la nouvelle arborescence
-       2. Faire une proposition de menu amélioré (images / onglets, etc.)
-       3. Faire une proposition de rubriques optimisées
-       4. Recettage Nonore
-       5. Recettage PB
-    3. Page statiques
-       1. Lister les pages à réaliser & arborescence
-       2. Prioriser
-       3. Yapuka
-6. ♻️ Gestion des retours mails
-   1. 25/01/23 > **Petite relance sur la TODO PB Modélisme**
-      1. Cédric : Fait > champs REFLIENACC, et REFINTERNE, tout à cleané et formaté selon le modèle ,xxx,xxx,xxx. La totalité des liens du champs HLIENACC ont été controlés et mis à jour.
-   2. 28/01/23 > **retour page un produit et test des différents types de produits**
-      1. 📝 Rajouté à TODO front avancé > "Un produit > Retours à traiter"
-      2. 31/01/23
-         1. Front > Un produit > Supprimer l'onglet "Brand"
-         2. Front > Un produit > Bouton acheter plus coloré, mieux mis en avant
-7. Faire la TODO WordPress Admin
+3. 🚀 Faire la TODO Front > avancé
+    1. ⏳ Page d'accueil
+       1. ⏳ Attente retours nonore
+    2. 🚀 Pages intermédiaires
+4. ♻️ Gestion des retours mails
+5. Faire la TODO WordPress Admin
 
 Arrêter dev serveur & hebergement
 
