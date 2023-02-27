@@ -2,6 +2,118 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 24/02/2023
+
+Evogue
+
+1. ✅ Présentation
+2. ✅ Boilerplate JS
+   1. ✅ Versionné
+
+PB Modelisme
+
+1. ✅ 💥⚡️ Checker dans `Inspecteur > Network` si goulot d'étranglement pour admin aussi longue -_-
+   1. 🌱 "Waiting for server response" souvent sur le PHP
+      1. 🌱 A voir si il s'git de l'hébergement à la peine ou d'un problème de configuration
+      2. 💩 Plugin BDD REDIS
+         1. 💩 Voir si moyen d'installer REDIS, le serveur est un linux > Pas la main (OVH et pas bare metal)
+      3. ✅ Plugin de cache
+         1. ✅ W3 Total Cache
+            1. ✅ Config
+            2. 💩 Activation des extensions php
+               1. La modification de la version de PHP via un fichier « .htaccess » nest plus possible sur les dernières offres dhébergement web OVHcloud.
+                  Pour cela, vous devrez obligatoirement utiliser le fichier .ovhconfig en vous aidant de notre documentation « Configurer le fichie[r .ovhconfig de mon hébergement web](https://docs.ovh.com/fr/hosting/configurer-fichier-ovhconfig/) ».
+               2. Plus possible avec .ovhconfig à la place de .htaccess
+               3. Pas la main sur le cache php, géré par ovh
+   2. ✅⚡️ Accelerer admin wordpress
+      1. ✅📌😍 Désactiver woocommerce le temps de patcher / créer les pages secondaires ?
+      2. ♻️ Mettre à jour la liste des plugins
+      3. ✅ Supprimer thème inactifs
+      4. ✅🔍 [doc 1](https://www.youdemus.fr/services/maintenance-wordpress/comment-accelerer-vitesse-votre-interface-administration-wordpress/)
+         1. ✅ W3 total cache > Désactivez le cache objet et de bases de données
+         2. ✅😍 Installez et configurez [WP Disable Plugin](https://fr.wordpress.org/plugins/wp-disable/)
+         3. ✅ Essayez P3 Profiler To Find pour optimiser lutilisation de vos plugins
+            1. Pas trouvé, [alternative](https://fr.wordpress.org/plugins/code-profiler/)
+            2. Plugins ralentissants : WC payments & WC & ACF & Colissimo
+         4. ✅ Supprimer les plugins et thèmes inutilisés
+         5. ✅✨ WP-Optimize
+      5. ✅🔍 [doc 2](https://www.mister-wp.com/tutos/wp-admin-lent/)
+         1. ✅✨ Vérifier et diagnostiquer tout problème de connectivité avec le serveur
+         2. 🌱 Choisir un meilleur hébergeur ou changer de plan d'hébergement
+            1. à voir en fonction des performances
+         3. ✨ Thème & cache
+         4. ✅ Augmenter la mémoire allouée à WordPress
+            1. ✅🔍 [doc wp](https://fr.wordpress.org/support/article/editing-wp-config-php/)
+            2. ✅ Vérifier RAM dispo sur le serveur
+               1. `grep MemTotal /proc/meminfo` > MemTotal: 32831788 kB > ~31,310 Gb
+            3. ✅ Maj wp-config
+            4. ✅📌 Vérifier prise en charge > Admin > Outils > Santé > Serveur
+         5. ✅ Pousser la config de wp-config.php
+            1. ✅ Autoriser la mise en cache
+            2. ✅ Désactiver les révisions
+            3. ✅ Réparation automatique de la base de données
+            4. ✅ Stockage des éditions des images
+         6. ✨ Supprimer thèmes & plugins inutiles
+         7. ✨ Majs wp
+         8. 💩 Supprimer les plugins consommateurs de ressources
+         9. ✨ Utiliser le plugin Heartbeat Control
+            1. Redondant WP Disable
+         10. ✨ Opti BDD
+         11. ✅ Supprimer les Transients WooCommerce
+             1. 💩 Via plugin WP-Transients > Site KO
+             2. phpMyAdmin > SQL > `DELETE FROM XXX_options WHERE option_name LIKE ('%\_transient\_%');`
+         12. ✅ Renvoyer une version propre de wp-admin et wp-includes
+         13. ✨ Désactiver le cache « database » et « l'object cache » de W3 Total Cache
+      6. ✨🔍 [doc](https://www.opportunites-digitales.com/comment-ameliorer-administration-wordpress-lente/)
+      7. 🔍 [doc](https://kinsta.com/fr/apprendre/accelerer-wordpress/)
+         1. ✅ Changer url page de login afin d'éviter spam robots
+            1. WPS Hide Login
+            2. Maj secrets
+         2. ✅ Limiter tentative logins
+            1. Limit Login Attempts Reloaded
+         3. 💩 Désactiver ou modifier les mises à jour des plugins et des thèmes
+            1. Contraignant à la maing
+         4. ✨ Ajouter l'index MySQL à la table wp_options
+         5. ✅ Opti WP_Query & recherche > ElasticPress
+      8. ✅ (fin) WP-Optimize
+      9. ✅ (fin) Vider cacheS
+      10. ✅ Maj permaliens ça fait pas de mal
+2. 🌱 Voir pour ajouter un REDIS au cul du bousin (grosse BDD)
+3. Plugin prix multiples > Plugin payant
+   1. cf. `_docs/20-prix-par-quantite/README.md`
+      1. Woosuite > dynamic-pricing-discount-rules
+         1. Réponse par mail tardive mais a priori tous les pré-requis remplis
+         2. ⏳ Attente validation PB
+         3. 📌 Go test
+4. ⏳⏳⏳ Faire la TODO Back
+    1. ⏳ Terminer import des produits > onglets restants "champs complexes"
+       1. ✅ Analyse & remise dans le bain, inventaire des requêtes
+       2. ⏳ Attente retour Cédric, il y a des onglets dont je ne sais pas comment est créé le contenu
+    2. ⏳ Imports produits > manuels
+       1. ⏳ Attente retour cédric liste des produits à réimporter
+    3. ⏳ Import des clients & commandes
+       1. Import des clients
+          1. ⏳ Importer l'ensemble des clients > Attente de validation côté PB
+          2. Docs > Vidéo import utilisateurs
+       2. ⏳ Importer les commandes
+          1. cf. `TODO_back.md`
+          2. ⏳ Création de la requête > Blocage, en attente de retour de Cédric
+       3. Lier clients & commandes
+       4. Docs > Vidéo import commandes & clients
+5. 🚀 Faire la TODO Front > avancé
+    1. ⏳ Page d'accueil
+       1. ⏳ Attente retours nonore
+    2. 🚀 Pages intermédiaires
+    3. ✅🐛 Réparer pétouille fin de page visual builder `Warning/home/xeqdtpv/dev/wordpress/wp-content/themes/Divi-child-for-pb/templates/product/_communs-et-vehicules/chargement-des-onglets-vehicules.php : 27`
+    4. ✨🐛 Décalage en haut de page > `Divi Warning: Undefined array key "wc-add-to-cart" in Divi/includes/builder/feature/JQueryBody.php`
+       1. Widget non trouvé lorsque woocommerce est désactivé
+    5. ♻️👌 Compléter les logos de marques lorsqu'ils sont absents
+       1. ✅ Format carré
+       1. ✅ Format bannière
+       1. ✅ Format 150 x 80
+6. ♻️ Gestion des retours mails
+7. Faire la TODO WordPress Admin
+
 ## 10/02/2023
 
 PB Modelisme

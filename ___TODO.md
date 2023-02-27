@@ -154,16 +154,16 @@ Liste budget priorisée, faire devis, répartir
 
 PB Modelisme
 
-1. Plugin prix multiples > Plugin payant
+1. 🌱 Voir pour ajouter un REDIS au cul du bousin (grosse BDD)
+2. Plugin prix multiples > Plugin payant
    1. cf. `_docs/20-prix-par-quantite/README.md`
       1. Woosuite > dynamic-pricing-discount-rules
          1. Réponse par mail tardive mais a priori tous les pré-requis remplis
          2. ⏳ Attente validation PB
          3. 📌 Go test
-2. ⏳⏳⏳ Faire la TODO Back
+3. ⏳⏳⏳ Faire la TODO Back
     1. ⏳ Terminer import des produits > onglets restants "champs complexes"
-       1. ✅ Analyse & remise dans le bain, inventaire des requêtes
-       2. ⏳ Attente retour Cédric, il y a des onglets dont je ne sais pas comment est créé le contenu
+       1. ⏳ Attente retour Cédric, il y a des onglets dont je ne sais pas comment est créé le contenu
     2. ⏳ Imports produits > manuels
        1. ⏳ Attente retour cédric liste des produits à réimporter
     3. ⏳ Import des clients & commandes
@@ -175,12 +175,13 @@ PB Modelisme
           2. ⏳ Création de la requête > Blocage, en attente de retour de Cédric
        3. Lier clients & commandes
        4. Docs > Vidéo import commandes & clients
-3. 🚀 Faire la TODO Front > avancé
+4. 🚀 Faire la TODO Front > avancé
     1. ⏳ Page d'accueil
        1. ⏳ Attente retours nonore
     2. 🚀 Pages intermédiaires
-4. ♻️ Gestion des retours mails
-5. Faire la TODO WordPress Admin
+    3. ♻️👌 Compléter les logos de marques lorsqu'ils sont absents
+5. ♻️ Gestion des retours mails
+6. Faire la TODO WordPress Admin
 
 Arrêter dev serveur & hebergement
 

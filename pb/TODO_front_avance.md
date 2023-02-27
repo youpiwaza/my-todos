@@ -20,29 +20,36 @@ Création des pages intermédiaires
 
 Rouge PB / #941210
 
-1. 🚀 Nouveautés
-2. Produits phares
-3. Inspiration
-4. Promotions catégories
-5. Promotions
-6. Catégories principales
-   1. Avions
-   2. Drones
-   3. Voitures
-   4. Bateaux
-   5. Maquettes
-   6. Matériaux
-   7. Accessoires
-   8. Aerogtaphes
-   9. Outillages
-   10. Moteurs
-   11. Carburants
-   12. RadioS
-   13. Pièces détachées
-   14. Accessoires véhicules
-         1. Toutes les sous cat
-7. Détaillants
-8. Accueil FAQs
+🐛 WooCommerce pète les fonctions de chargement du thème divi (modèle & cloner page)
+
+1. 🚀 Catégories principales
+   1. 🚀 [Maquettes](https://dev.pb-modelisme.com/guides/maquettes/)
+      1. Catégories
+      2. Rubriques associées
+      3. Maquettes bois
+         1. Plus de détails
+      4. Plus de détails > images + description
+         1. Lien rappel "catégories" ci-dessus
+      5. Marques
+   2. Matériaux
+   3. Accessoires
+   4. Aerogtaphes
+   5. Outillages
+   6. Moteurs
+   7. Carburants
+   8. RadioS
+   9. Pièces détachées
+   10. Accessoires véhicules
+       1. Toutes les sous cat
+   11. [Nos guides](https://dev.pb-modelisme.com/guides/)
+       1. Page récapitulative de toutes les catégories majeures
+       2. Liens dans inspiration
+2. Détaillants
+3. Accueil FAQs
+4. Ajouter les liens
+    1. 🌱 Champs personnalisés ~
+        1. Type
+        2. Niveau
 
 ## Menu principal, cf. `/_docs/craft-and-tests/19-menu-principal/README.md`
 
@@ -333,3 +340,63 @@ Mail du 31/01/23.
       1. 🌱 Pas parfait, forcer quelques colonnages
    2. ✅ Mobile
 6. ✅📧 Envoi à Nonore pour recettage graphismes
+
+## Done / Page intermédiaires
+
+Création des pages intermédiaires
+
+Rouge PB / #941210
+
+🐛 WooCommerce pète les fonctions de chargement du thème divi (modèle & cloner page)
+
+1. ✅ [Nouveautés](https://dev.pb-modelisme.com/nouveautes/)
+2. ✅ [Produits phares](https://dev.pb-modelisme.com/produits-phares/)
+3. ✅ [Inspiration](https://dev.pb-modelisme.com/inspiration/)
+4. ✅ [Actualités du hobby](https://dev.pb-modelisme.com/actualites-modelisme/)
+5. ✅ [Marques populaires](https://dev.pb-modelisme.com/marques-populaires/)
+6. ✅ [Promotions : catégories](https://dev.pb-modelisme.com/categories-en-promotion/)
+7. ✅ [Article promotion maquettes en folies](https://dev.pb-modelisme.com/promotions/maquettes-en-folies/)
+8. ✅ [Promotions : produits](https://dev.pb-modelisme.com/produits-en-promotion/)
+9. 🚀 Catégories principales
+   1. ✅ [Avions](https://dev.pb-modelisme.com/guides/avions/)
+      1. ✅ Catégories
+      2. ✅ Type
+      3. ✅ Niveau
+      4. ✅ Marques
+      5. ✅ Rubriques associées
+      6. ✅ Accastillage, pièces, plan
+      7. ✅ Propulsion
+      8. ✅ Besoin d'aide
+         1. ✅ Services
+         2. ✅ Déstockage
+         3. ✅ Conseils > contact ou passage boutique
+      9. ✅ Ajouter les liens
+         1. ✅ Basiques
+         2. 🌱 Champs personnalisés
+            1. Type
+            2. Niveau
+   2. ✅ [Drones](https://dev.pb-modelisme.com/guides/drones-helicopteres/)
+      1. ✅ Type
+      2. ✅ Niveau
+      3. ✅ Divers
+      4. ✅ Marques
+      5. ✅ Ajouter les liens
+         1. 🌱 Niveau
+   3. [Voitures](https://dev.pb-modelisme.com/guides/voitures/)
+      1. ✅ Catégories
+      2. ✅ Types
+      3. ✅ Niveaux
+      4. ✅ Rubriques associées
+      5. ✅ Marques
+      6. ✅ Ajouter les liens
+         1. 🌱 Motorisation
+         2. 🌱 Niveau
+   4. ✅ [Bateaux](https://dev.pb-modelisme.com/guides/bateaux/)
+      1. ✅ Catégories
+      2. ✅ Types
+      3. ✅ Niveaux
+      4. ✅ Rubriques associées
+      5. ✅ Marques
+      6. ✅ Ajouter les liens
+         1. 🌱 Type
+         2. 🌱 Niveau
