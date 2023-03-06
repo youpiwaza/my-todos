@@ -23,30 +23,27 @@ Rouge PB / #941210
 🐛 WooCommerce pète les fonctions de chargement du thème divi (modèle & cloner page)
 
 1. 🚀 Catégories principales
-   1. 🚀 [Maquettes](https://dev.pb-modelisme.com/guides/maquettes/)
-      1. Catégories
-      2. Rubriques associées
-      3. Maquettes bois
-         1. Plus de détails
-      4. Plus de détails > images + description
-         1. Lien rappel "catégories" ci-dessus
-      5. Marques
-   2. Matériaux
+   1. 👷 Matériaux
+      1. 👷 Corinne est dessus
+   2. 🚀 🎥 Tutoriels vidéos
+      1. 🚀 Création d'une page de catégorie d'un bout à l'autre (aérographe)
    3. Accessoires
-   4. Aerogtaphes
-   5. Outillages
-   6. Moteurs
-   7. Carburants
-   8. RadioS
-   9. Pièces détachées
-   10. Accessoires véhicules
-       1. Toutes les sous cat
-   11. [Nos guides](https://dev.pb-modelisme.com/guides/)
+      1. Page de base
+      2. Autres pages plus profondes pour les sous catégories
+         1. 🚀 Aérographes
+            1. Rajouter lien vers le guide dans la page guide maquette
+            2. Ajouter peintures / encres recommandées >_>
+         2. Pièces détachées
+         3. ✨ Recomandations : a faire PAR PB
+            1. Outillages
+            2. Accessoires véhicules
+            3. Hors produits > Détaillants
+   4. [Nos guides](https://dev.pb-modelisme.com/guides/)
        1. Page récapitulative de toutes les catégories majeures
        2. Liens dans inspiration
-2. Détaillants
-3. Accueil FAQs
-4. Ajouter les liens
+       3. Thématique (star wars etc.) > liens vers maquettes
+2. Accueil FAQs
+3. Ajouter les liens
     1. 🌱 Champs personnalisés ~
         1. Type
         2. Niveau
@@ -400,3 +397,46 @@ Rouge PB / #941210
       6. ✅ Ajouter les liens
          1. 🌱 Type
          2. 🌱 Niveau
+   5. ✅ [Maquettes](https://dev.pb-modelisme.com/guides/maquettes/)
+      1. ✅ Catégories
+      2. ✅ Niveaux
+      3. ✅ Rubriques associées
+         1. ✅ Maquettes bois
+         2. ✅ Plus de détails / images + description
+         3. ✅ Peintures
+         4. ✅ Outils & Materiaux
+         5. ✅ Aérographes
+      4. ✅ Marques
+         1. 💥 Beaucoup trop de marques (~90+)
+            1. ✅👥 Ecrémer : Note : J'ai retiré DE LA LISTE (+90) les marques n'ayant pas ou qu'un seul produit
+               1. Possibilité de voir l'ensemble des marques via un bouton + texte
+            2. ✅ Regrouper par grosses catégories
+               1. ✅ max 9 marques principales + description succinte
+               2. ✅ Affichage de mise en valeur pour chacune des catégories, mais pas prendre trop de place
+                  1. ✅ Surtout pour marques recommandées
+                  2. ✅ Description succinte afin de s'y retrouver
+      5. 💩⏳ La page a pris 3 plombes le temps de tout ranger prioriser + beaucoup de logos de marques manquants complétés
+   6. 🎥 Tutoriels vidéos
+      1. ✅ Prise en main de L'éditeur Divi visual builder
+         1. Introduction --- 2mn
+         2. ✅ Niveaux & colonnages, éléments de base --- 22mn
+         3. ✅ Contenus --- 19mn
+            1. ✅ Liens
+            2. ✅ Fonds
+         4. ✅ Images --- 24mn
+            1. ✅ Comprendre les ratios
+            2. ✅ Adapter les images aux conteneurs
+            3. ✅ Marques & Logos
+         5. ✅ Styles --- 13mn
+            1. ✅ Différents onglets, dimensionnement, espacements, bordures, textes, separateurs
+            2. ✅ Responsive --- 14mn
+            3. ✅ Icônes ou Emoji --- 7mn
+         6. ✅ Thèmes utilisés --- 13mn
+            1. ✅ Bike repair & Hardware store
+            2. ✅ Recommandations copier pages existantes déjà re-brandée PB Modélisme
+            3. ✅ Charger des éléments existants depuis les thèmes de base
+            4. ✅ Modifier
+               1. ✅ Styles alakon
+      2. ✅ Rajouter les temps de videos
+      3. ✅ Rajouter fichier README de recap
+      4. ✅ Uploader

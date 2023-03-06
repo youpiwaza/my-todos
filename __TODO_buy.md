@@ -11,6 +11,7 @@ Remettre patreon Boris, YMS, Bloodywood
 - Assiettes carrées, pour cuisiner c'est beaucoup mieux
 - Bar la maison du saké
 - [BBQ putain de cher](https://www.biggreenegg.co.uk/build-your-egg)
+- [chili crisp szechuan chili oil / wuju](https://www.amazon.com/WUJU-Chinese-Texture-Natural-Ingredients/dp/B09XHQGD7N)
 - Cire d'abeille, pour rendre la pâte des raviolis moins collante
 - Déshydratateur
   - [hey](https://www.youtube.com/watch?v=-IIZmIu17wY)

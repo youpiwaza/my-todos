@@ -2,6 +2,86 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 03/03/2023
+
+AE
+
+1. ✅ Urssaf > Mettre à jour coordonnées bancaires
+2. ✅ Urssaf > Demande d'aides
+   1. ✅ Via messagerie du site de l'urssaf - 01/03/2023
+   2. ✅ Différentes aides recommandées par le chat bot - [Avantages du statut > action sociale](https://www.autoentrepreneur.urssaf.fr/portail/accueil/sinformer-sur-le-statut/lessentiel-du-statut.html#laction-sociale-du-cpsti-conseil)
+      1. [CPSTI - Faire une demande](https://www.secu-independants.fr/action-sociale/)
+      2. ~💩 [Aide aux cotisants en difficulté (ACED)](https://www.secu-independants.fr/action-sociale/demander-une-aide/aide-aux-cotisants-en-difficulte/)
+         1. Santé, conjoncture économique, sinistre
+      3. ✅ [Aide financière exceptionnelle (AFE)](https://www.secu-independants.fr/action-sociale/demander-une-aide/aide-financiere-exceptionnelle/)
+         1. ✅ Documents à fournir
+            1. ✅ RIB personnel
+            2. ✅ Dernier avis d'imposition
+            3. ✅ Devis PB Modélisme
+            4. ✅ Captures ecran estimations (départ, novembre)
+            5. ✅ TODOs actuelles
+         2. ⏳ Demande envoyée le 01/03/2023
+      4. 💩 Accompagnement au départ à la retraite (ADR)
+      5. 💩 Fonds catastrophe et intempéries (FCI)
+3. ✅ Postuler partout
+   1. ✅ Leroy merlin
+      1. envoyé le ~06/02/2023 ? Si plus de 2 semaines appeler
+   2. ✅ IUT de Reims
+      1. envoyé le ~06/02/2023 ? Si plus de 2 semaines appeler
+   3. ✅ [Ecole du bas de la rue](https://www.wildcodeschool.com/fr-FR/campus/reims)
+      1. envoyé le ~06/02/2023 ? Si plus de 2 semaines appeler
+   4. ✅ [CHU de Reims](https://www.chu-reims.fr/carrieres/politique-recrutement/offres-demploi/developpeur-web-full-stack-hf)
+      1. ⏳ Demande envoyée via le formulaire du site le 01/03/2023
+   5. Sinon McDo
+
+Perso
+
+Liste budget priorisée, faire devis, répartir
+
+1. ✅💸 100 balles impots max debut fevrier
+2. ✅ Cuisine > Barre épices 50€
+3. ✅ Caisses pr rangement chaussures > leroy > 8 pieds
+4. ✅ Virer 200 balles sur compte commun parce que c'est la merde
+5. ✅ Cadeau anniv 6 ans pougnoutte en mars
+   1. ✅ Organisation concert avatar
+      1. ✅ Chieng
+      2. ✅ AR Paris
+      3. ✅ Dodo
+
+Evogue
+
+1. ✅ Test technique
+   1. ✅ Le faire
+   2. ✅ Renvoyer
+   3. ✅ Linter
+      1. ✅ Messages trop long passent plus à la ligne
+      2. ✅ Virer bouton edition
+      3. ✅ Cleaner code JS
+   4. ✅ Remettre à la racine du github dans repo dédié aux tests techniques
+      1. ✅ Retirer branding
+      2. ✅ Refaire aperçu sans branding
+      3. ✅ Ajouter Aperçu au README
+   5. ✅ Mettre à jour la version en ligne
+2. 📧✅ Envoyer les documents
+   1. ✅ Immatriculation Insee et/ou Kbis.
+      1. Pas de KBis, dispensé d'inscription au RCS (création de l'AE lors de la mise place du statut, en tant que prestataire de services)
+   2. ✅ Carte d'identité recto/verso
+   3. ✅ Cv
+   4. ✅ Diplôme (si existant)
+      1. Pas scannés mais je peux les ressortir si nécessaire
+      2. Bac S - Sciences de l'ingénieur
+      3. Bac +2 - DUT Informatique
+      4. ✅ Bac +5 - Licence & Master Produits & Services Multimédia
+   5. ✅ Iban/Rib (à inclure également sur les futures factures).
+   6. ✅ Attestation de vigilance (si votre activité à + de 6 mois).
+   7. ✅ N° de SIRET : 52986215300036
+      1. Potentiellement différent des anciens documents suite au déménagement
+
+PB Modelisme
+
+1. ✅👷 Répondre à Corinne pour coup de maing
+2. ✅🎞️ Tutoriaux vidéos prise en main éditeur wordpress / divi & création d'une page
+
 ## 24/02/2023
 
 Evogue

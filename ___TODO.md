@@ -36,63 +36,51 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 AE
 
-1. Postuler partout
-   1. Leroy merlin
-   2. IUT de Reims
-   3. [Ecole du bas de la rue](https://www.wildcodeschool.com/fr-FR/campus/reims)
-   4. Sinon McDo
+1. ⏳ Urssaf > Demande d'aides
+      1. ⏳ [Aide financière exceptionnelle (AFE)](https://www.secu-independants.fr/action-sociale/demander-une-aide/aide-financiere-exceptionnelle/)
+         1. ⏳ Demande envoyée le 01/03/2023
 2. 🌱 Payer impôts CFE rattrapage 2020
    1. Avis en mai 2023, 473€, [à payer en juin](https://mail.google.com/mail/u/0/#inbox/KtbxLvhVcWmcxbbZhnsRMnQSnbSMnkJCGq)
 3. 🚀 Refaire CV > `/cv-portfolio-tout`
+Rajouter le liens vers les [tests techniques](https://github.com/youpiwaza/tests-techniques/)
    1. 🚀 Regrouper l'ensemble des ressources
       1. 🚀 Textes
    2. Sauvegarde github
    3. Sauvegarde sur DD sites web
-4. Refaire site masamune.fr
+
+---
+
+1. Refaire site masamune.fr
    1. Sauvegarde github
    2. Sauvegarde sur DD sites web
    3. 🌱 Maj liens cv expériences pro
       1. Pas oublier le https
    4. Yootoob > Ajouter écrans de fin / liens vers le site masamune.fr une fois terminé
    5. Service > Retour sur CV > 50€
-5. Refaire site blog.masamune.fr
+2. Refaire site blog.masamune.fr
    1. Sauvegarde github
    2. Sauvegarde sur DD sites web
-6. Cleaner projet alakon github
+3. Cleaner projet alakon github
    1. Renommer préfixer technos
    2. Voir faire un projet liste de liens vers les projets regroupés en catégories
-7. Inscription EAN
+4. Inscription EAN
    1. Inscription [crème de la crème](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQmNcddHDMfMMGTKJmgzNsvbd)
    2. Inscription Jean-Paul.io
    3. [odoo](https://www.odoo.com/fr_FR/jobs)
    4. [capgemini](https://www.linkedin.com/safety/go?url=https%3A%2F%2Ffr.capgemini.talentnet.community%2F&trk=flagship-messaging-web&messageThreadUrn=urn%3Ali%3AmessagingThread%3A2-MjdmZGZlYjgtZjIxNy00ZDM0LTg2ODYtMzIyYzMwNzcxMzUzXzAxMg%3D%3D&lipi=urn%3Ali%3Apage%3Amessaging_thread%3B984fd009-b4db-44e3-b159-e504a3614444)
-8. [Malt PER](https://resources.malt.com/fr/freelances/articles-freelance/reduction-dimpots-avez-vous-pense-a-cette-solution/)
-9. Ajouter clause devis possibilité évolution de tarifs si sous estimation
-10. Prévenir client évolution tarifaire
+5. [Malt PER](https://resources.malt.com/fr/freelances/articles-freelance/reduction-dimpots-avez-vous-pense-a-cette-solution/)
+6. Ajouter clause devis possibilité évolution de tarifs si sous estimation
+7. Prévenir client évolution tarifaire
     1. [Mail](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQSTcnMwFvNhbJVwWdplCQVrL)
-11. Maj doc Malt
+8. Maj doc Malt
     1. [Mail](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQcnlCmhgkWnWjbfPCPQXNRQW)
-12. Veille > tester wp optimize pour réduire la taille des images & pour le cache
+9. Veille > tester wp optimize pour réduire la taille des images & pour le cache
 
 Perso
 
-Liste budget priorisée, faire devis, répartir
-
-1. 💸 100 balles impots max debut fevrier
-2. 💸 Max AR Paris multiples concerts
-3. Cuisine > Barre épices 50€
-4. Caisses pr rangement chaussures > leroy > 8 pieds
-
----
-
-1. ⏳ Check offres d'emplois postulées, envoyé le ~06/02/2023? Si plus de 2 semaines appeler
-   1. Leroy
-   2. Wild school
-   3. IUT Reims
-2. Cadeau anniv 6 ans pougnoutte en mars
-   1. Le cadeau de pougnoutte est a paris
-3. Appli radiateurs et config
-4. 💥 Maj > Installation de l'environnement de dev
+1. 💸 Max AR Paris multiples concerts
+2. Appli radiateurs et config
+3. 💥 Maj > Installation de l'environnement de dev
    1. Update to latest [Node.js](https://nodejs.org/en/) pour windows
    2. Update to latest [Node.js](https://nodejs.org/en/) pour WSL
       1. [Doc](https://learn.microsoft.com/fr-fr/windows/dev-environment/javascript/nodejs-on-wsl)
@@ -120,24 +108,24 @@ Liste budget priorisée, faire devis, répartir
       1. `sudo apt install npm`
       2. `sudo apt install yarn`
       3. `sudo apt install gulp`
-5. Environnement de dev local > [Move Mountains With Next.js and Compose](https://www.youtube.com/watch?v=-iaLmOGZuD4)
-6. Github dédoublonner default-config-files-for-github-repository & base-repository-github
-7. 🚀♻️ Acheter flotte > magnésium
-8. MSG maison
+4. Environnement de dev local > [Move Mountains With Next.js and Compose](https://www.youtube.com/watch?v=-iaLmOGZuD4)
+5. Github dédoublonner default-config-files-for-github-repository & base-repository-github
+6. ♻️ Acheter flotte > magnésium
+7. MSG maison
     1. [Recette](https://www.youtube.com/watch?v=sE3dYCphy2M)
-9. 🔍 Régime
+8. 🔍 Régime
     1. PORK PANKO low carb !
     2. [Low carb](https://www.dietdoctor.com/low-carb) / keto
        1. Most fruits and fruit juice / **Although low-sugar berries — such as blackberries, raspberries, and strawberries — are ok in small to moderate amounts.**
     3. Keto wheat flour > farine avec prot ? [hey](https://www.youtube.com/watch?v=g2fTYDftlCg)
     4. Non fat ricotta cheese / provolone cheese
-10. gochujang
+9. gochujang
     1. [amazon](https://www.amazon.fr/s?k=gochujang+jebiwon)
     2. [idem](https://www.amazon.fr/s?k=doenjang)
-11. 🔍 Champignon Lingzhi contre la fatigue & insomnie > Y'en a à grand frais !
-12. [Figs Claymore](https://figurama-collectors.com/collections/claymore/products/claymore-teresa-vs-priscilla-elite-exclusive-statue?variant=38322217484463) si le site fonctionne un putain de jour
-13. Réserver saut en parachute
-14. 🌱 Orga anniv pougnoutte mars 2023
+10. 🔍 Champignon Lingzhi contre la fatigue & insomnie > Y'en a à grand frais !
+11. [Figs Claymore](https://figurama-collectors.com/collections/claymore/products/claymore-teresa-vs-priscilla-elite-exclusive-statue?variant=38322217484463) si le site fonctionne un putain de jour
+12. Réserver saut en parachute
+13. 🌱 Orga anniv pougnoutte mars 2023
     1. Idées cadeaux
        1. Vélo, a voir en revenant de vacances
        2. Robe style médiéval, demander à Mélanie
@@ -149,7 +137,7 @@ Liste budget priorisée, faire devis, répartir
     4. Demander si logement déjà vu
     5. Voir pour cagnotte permis moto
     6. Medieval tents
-15. [Resto reims](https://www.google.com/maps/place/LA+GRILLADI%C3%88RE+REIMS)
+14. [Resto reims](https://www.google.com/maps/place/LA+GRILLADI%C3%88RE+REIMS)
     1. Inviter parents
 
 PB Modelisme
