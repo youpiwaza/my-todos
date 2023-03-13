@@ -167,18 +167,37 @@ PB Modelisme
     1. ⏳ Page d'accueil
        1. ⏳ Attente retours nonore
     2. 🚀 Pages intermédiaires
+       1. 🚀 Finir matériaux
+       2. Catégories de produits > Rajouter une image à chacune, pour l'affichage des grilles de sous catégories
+       3. Nos guides
     3. ♻️👌 Compléter les logos de marques lorsqu'ils sont absents
+    4. Page [presse](https://aioseo.com/press/)
 5. ♻️ Gestion des retours mails
 6. Faire la TODO WordPress Admin
 
+---
+
 Arrêter dev serveur & hebergement
 
-1. Ancien serveur, tous les mois le 1er 38€40, ne reste que les sites masamune
-   1. 🔑 Identifiants
-      1. ftp > Enregistré dans winscp
-      2. [mysql](http://94.23.208.218/phpMyAdmin-NEW/) > Enregistré dans dashlane
-   2. 🤏 Virer la merde de _dev/
-   3. masamune
+1. 🚀 blog.masamune.fr > Repartir d'un WP clean & copier coller articles
+   1. Copie des articles ~10/62 -- Certains vont sauter donc osef
+      1. Reprise sur `Première journée en tant qu'élève dans une école de dev` > Faire image paint
+   2. Refonte / Copie des pages
+2. Fin
+   1. Vérifier https
+   2. Réindexer site
+   3. robots.txt
+   4. Mise en cache
+
+3. masamune.fr > prod-old
+
+4. Résilier ancien serveur
+
+---
+
+1. Maj tout masamune
+   1. 🤏 Virer la merde de _dev/
+   2. masamune
       1. clean secrets ids ffs
       2. cv
       3. blog--masamune--fr
@@ -201,96 +220,19 @@ Arrêter dev serveur & hebergement
       5. Github > projet dédié checklist fin de site, à partir de [chaos](https://github.com/youpiwaza/chaos-boilerplate-front)
       6. Remettre tous les anciens trucs max dans un seul dossier sur un seul dd (~bureau ancien pc)
          1. & dossier Bureau/shame
-   4. Résilier ancien serveur
-2. Proposition les clients commandent leur propre hébergement (promo black friday)
-   1. ⏳ com--aldinfographie
-   2. 🚀 com--champagne-didier-lapie
-      1. ✅ Serveur reçu
-         1. ✅ Passer en PHP 8.1
-      2. ✅ Mettre à jour
-         1. ✅📌 Tester
-      3. ✅ Maj identifiants
-         1. ✅ Créer mot de passe utilisateur ftp
-            1. ✅ Autoriser SFTP
-            2. ✅📌 Tester
-         2. ✅ Créer BDD
-            1. ✅📌 Tester
-         3. ✅ Cleaner fichier de sauvegarde github
-            1. ✅ Export pdf
-      4. ✅ Fichiers
-         1. ✅ Récuperer sur l'ancien serveur
-         2. ✅ Modifier wp-config
-         3. ✅ Envoyer sur le nouveau serveur
-         4. 📌 Tester
-         5. ✅ Sauvegarde sur HDD
-      5. ✅ BDD
-         1. ✅ Récuperer sur l'ancien serveur
-         2. ✨ Modifier urls dans bdds / L'url ne change pas
-         3. ✨ Sauvegarde sur HDD
-         4. ✅ Envoyer sur le nouveau serveur
-         5. 📌 Tester
-         6. ✅ Sauvegarde plugin import export wordpress All in one wp migration
-         7. ✅ Sauvegardes sur HDD
-      6. ✅📌 Tester sur url de test
-      7. Modifier DNS
-          1. OVH Manager > Multisite
-             1. ✅ Supprimer sur l'ancien serveur
-             2. ✅ Ajouter sur le nouveau serveur
-             3. 💩💩💩💩💩 marche pas lolilol
-                1. Activer les options (Firewall, SSL)
-          2. ✅ Modifier zone DNS
-          3. 📌 Tester
-      8. Activer HTTPS sur nouveau serveur
-      9. 📌 Tester
-      10. 📧 Notification client
-          1. Envoyer nouveaux identifiants
-          2. Faire valider site
-          3. Faire valider paiement en ligne
-      11. Résilier serveur Masamune
-   3. ⏳ com--sophieberberian
-   4. 🚀 com--champagne-pascal-picard
-      1. ✅ Serveur reçu
-         1. Passer en PHP 8.1
-      2. ✅ Mettre à jour
-         1. ✅📌 Tester
-      3. Maj identifiants
-         1. Créer mot de passe utilisateur ftp
-            1. Autoriser SFTP
-            2. 📌 Tester
-         2. Créer BDD
-            1. 📌 Tester
-         3. Cleaner fichier de sauvegarde github
-            1. Export pdf
-      4. Fichiers
-         1. ✅ Récuperer sur l'ancien serveur
-         2. Modifier wp-config (Maj sur HDD et renvoyer sur serveur du coup)
-         3. Envoyer sur le nouveau serveur
-         4. 📌 Tester
-         5. ✅ Sauvegarde sur HDD
-      5. BDD
-         1. ✅ Récuperer sur l'ancien serveur
-         2. ✨ Modifier urls dans bdds / L'url ne change pas
-         3. ✨ Sauvegarde sur HDD
-         4. Envoyer sur le nouveau serveur
-         5. 📌 Tester
-         6. ✅ Sauvegarde plugin import export wordpress All in one wp migration
-         7. ✅ Sauvegardes sur HDD
-      6. 📌 Tester sur url de test
-      7. Modifier DNS
-          1. Modifier zone DNS 🚨 AVANT en suivant recos multisite
-          2. OVH Manager > Multisite
-             1. Supprimer sur l'ancien serveur
-             2. Ajouter sur le nouveau serveur
-                1. Activer les options (Firewall, SSL)
-          3. 📌 Tester
-      8. Activer HTTPS sur nouveau serveur
-      9. 📌 Tester
-      10. 📧 Notification client
-          1. Envoyer nouveaux identifiants
-          2. Faire valider site
-          3. Faire valider paiement en ligne
-      11. Résilier serveur Masamune
-   5. ⏳ com--margot-kasza
+   3. Résilier ancien serveur
+
+---
+
+Déplacer sites clients
+
+1. com--aldinfographie
+2. com--champagne-didier-lapie
+3. com--sophieberberian
+4. com--champagne-pascal-picard
+5. com--margot-kasza
+
+---
 
 Environnement de dev local clean
 
@@ -451,20 +393,11 @@ Rieng
 
 1. Musiques taf & portable
 2. Blog groupe metal que j'aime bieng ou pas en concert
-3. Films
-    1. Ciné
-       1. Nick cage
-       2. Everything everywhere all at once
-    2. death of dick long
-4. Export photos tel & maj drive
-5. Peinture Chtulu
+3. Export photos tel & maj drive
+4. Peinture Chtulu
     1. [How to paint Extreme Light Sources - OSL tutorial](https://www.youtube.com/watch?v=c48UiPSBfcg)
     2. [INDESTRUCTIBLE Gaming Bases - Quick & Easy](https://www.youtube.com/watch?v=tRFfsAG-Yf8)
     3. Green gold pour le [grand ancien](https://www.youtube.com/watch?v=AgJqjIMd6k8)
-6. [Patinoire](https://mail.google.com/mail/u/0/#inbox/FMfcgzGmvLQjSdlzHqNgpnCFgHjXWZlW)
-7. DL vidéos WTF youtoob
-8. CPF > Langage des signes / Amazon AWS / Jenkins git hooks
-9. [Boeuf ethique](https://www.leboeufethique.fr/)
 
 ## 💩 Shame
 

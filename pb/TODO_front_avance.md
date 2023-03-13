@@ -23,27 +23,18 @@ Rouge PB / #941210
 🐛 WooCommerce pète les fonctions de chargement du thème divi (modèle & cloner page)
 
 1. 🚀 Catégories principales
-   1. 👷 Matériaux
-      1. 👷 Corinne est dessus
-   2. 🚀 🎥 Tutoriels vidéos
-      1. 🚀 Création d'une page de catégorie d'un bout à l'autre (aérographe)
-   3. Accessoires
-      1. Page de base
-      2. Autres pages plus profondes pour les sous catégories
-         1. 🚀 Aérographes
-            1. Rajouter lien vers le guide dans la page guide maquette
-            2. Ajouter peintures / encres recommandées >_>
-         2. Pièces détachées
-         3. ✨ Recomandations : a faire PAR PB
-            1. Outillages
-            2. Accessoires véhicules
-            3. Hors produits > Détaillants
-   4. [Nos guides](https://dev.pb-modelisme.com/guides/)
+   1. 🚀 Matériaux
+      1. 👷 Corinne est dessus / **ou pas lol**
+   2. 🚀🚀 Catégories de produits
+      1. Rajouter une image à chacune, pour l'affichage des grilles de sous catégories
+   3. 🚀🚀🚀 [Nos guides](https://dev.pb-modelisme.com/guides/)
        1. Page récapitulative de toutes les catégories majeures
+          1. Véhicule > mise en avant des autres véhicules (planeurs, camions, chars, sous marins, aéroglisseurs, voiliers)
        2. Liens dans inspiration
        3. Thématique (star wars etc.) > liens vers maquettes
 2. Accueil FAQs
-3. Ajouter les liens
+3. Vérifier pages annoncées dans l'accueil & compléter
+4. Ajouter les liens
     1. 🌱 Champs personnalisés ~
         1. Type
         2. Niveau
@@ -440,3 +431,89 @@ Rouge PB / #941210
       2. ✅ Rajouter les temps de videos
       3. ✅ Rajouter fichier README de recap
       4. ✅ Uploader
+
+---
+
+10/03/2023
+
+1. 🚀 Catégories principales
+   1. 🚀 Matériaux
+      1. 👷 Corinne est dessus / **ou pas lol**
+   2. ✅🎥 Tutoriels vidéos
+      1. ✅ Création d'une page de catégorie d'un bout à l'autre (aérographe)
+         1. ✅ Introduction & sommaire
+         2. ✅ Ajouter les temps
+         3. ✅ Uploader
+         4. ✅ Documentation
+         5. ✅ Envoyer à PB & Corinne
+      2. ✅ Cleaner tutoriels back > nom dossier, reupload & doc
+   3. ✅ Accessoires
+      1. ✅⏳ Récupérer infos oh mon dieu comment ça prend 10 ans
+         1. Recommandations rangements, dédoublonnages, etc.
+         2. Regrouper, optimiser, prioriser
+         3. ~5h -_-"
+      2. ✅ Page de base
+         1. ✅ Sommaire
+         2. ✅ Courant
+            1. ✅ Outillage
+            2. ✅ Peintures
+            3. ✅ Consommables
+         3. ✅ Autour du hobby
+            1. ✅ Finitions
+            2. ✅ Rangements
+            3. ✅ Transport
+            4. ✅ Inclassable
+         4. ✅ Avancé
+            1. ✅ Mécanique
+            2. ✅ Electronique
+            3. ✅ Propulsion thermique
+            4. ✅ Propulsion Electrique
+         5. ✅ Pièces détachées
+            1. ✅ Avions / planeurs
+            2. ✅ Voitures
+            3. ✅ Bateaux
+            4. ✅ Hélicos
+         6. ✅ Outro
+      3. ✅ Ajouter les liens
+         1. ✅ Y compris liens internes à la page (sommaire)
+         2. ✅ reprendre à avancé
+      4. ✅📝 BIEN RANGER la documentation accessoires, contient les recommandations
+      5. ✅ Accessoires pour véhicules > Rajouter les liens dans les pages véhicules concernées
+         1. ✅📝 Cela comprendra également les pièces détachées
+         2. ✅ Avions
+            1. ✅ Planeurs
+         3. ✅ Bateaux
+         4. ✅ Voitures
+         5. ✅ Hélicos
+            1. Note : a voir pour récupérer le système spécial (par marque > modèles) mis en place
+      6. ✅ Recomandations max :
+         1. ✅ Possibilité d'ajouter des marques recommandées également, en fonction du grand catalogue de produits dispos (ex : peintures > Tamiya)
+         2. ✅ J'ai rajouté quelques exemples
+   4. ✅ Autres pages plus profondes pour les sous catégories
+      1. ✅ [Aérographes](https://dev.pb-modelisme.com/guides/aerographie/)
+         1. ✅Introduction & sommaire vidéo tuto - `01-introduction-et-sommaire---3-mn` - 3 mn
+         2. ✅ Récupérer infos à partir du site actuel - `02-recuperer-infos-site-actuel---15-mn` - 15 mn
+            1. ✅ Ecremer si besoin
+            2. ✅ Regrouper
+            3. ✅ Prioriser
+            4. ✅📝 Reco max : Faire des sous catégories
+         3. ✅ Création de la page via wordpress / divi, puis cloner - `03-creation-de-la-page-via-wordpress-et-divi-puis-cloner---10-mn.mkv` - 10 mn
+         4. ✅ Bloc d'intro - `04-creation-du-bloc-d-intro---12-mn.mkv` - 12 mn
+         5. ✅ Catégories
+            1. ✅ Principales - `05-categories-principales---32-mn.mkv` - 32 mn
+               1. ✅ Aérographes
+               2. ✅ Compresseurs
+               3. ✅ Package aérographe & compresseur
+            2. ✅ Pièces aérographes - `06-categories-secondaires---36-mn.mkv` - 36 mn
+               1. ✅ Raccord Aérographe
+               2. ✅ Godet Aérographe
+               3. ✅ Tuyaux Aérographe
+            3. ✅ Outillages aérographes
+               1. ✅ Bombes Air Comprimé
+               2. ✅ Nettoyant Aérographe
+         6. ✅ Marques - `07-marques-et-logos---22-mn.mkv` - 22 mn
+         7. ✅ Outro - `08-outro-services---5-mn.mkv` - 5 mn
+         8. ✅ Ajout des liens - `09-liens-et-images-categories---23-mn.mkv` - 23 mn
+            1. ✅ Images pour les catégories
+         9. ✅ Divers, en plus
+            1. ✅ Rajouter lien vers le guide dans la page guide maquette

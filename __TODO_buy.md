@@ -34,6 +34,7 @@ Remettre patreon Boris, YMS, Bloodywood
 - [Huile de sésame](https://www.rizetco.com/taebaek-agricultural)
 - [koji](https://www.google.com/search?q=koji)
   - [koji paste](https://www.google.com/search?q=koji+paste)
+- 💥 Kombu [(pour vinaigrer riz sushi)](https://www.youtube.com/watch?v=nIoOv6lWYnk)
 - [Mad dog hot sauce](https://www.google.com/search?q=mad+dog+hot+sauce)
 - [Mama Joyce Peppa Sauce](https://www.peppasauce.love/)
 - [Matos de qualitay may chayr](https://www.youtube.com/watch?v=y4dgl5Lv-Iw)

@@ -2,6 +2,34 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 10/03/2023
+
+PB Modelisme
+
+1. 🚀 Faire la TODO Front > avancé
+    1. 🚀 Pages intermédiaires
+       1. ✅ Aerographes
+       2. ✅ Accessoires
+
+Arrêter dev serveur & hebergement
+
+1. ✅ stockage.masamune.fr
+
+2. 🚀 blog.masamune.fr > Repartir d'un WP clean & copier coller articles
+   1. ✅ Mettre en place la base
+      1. ✅ OVH manager
+      2. ✅ Reset identifiants ancien site
+      3. ✅ Envoyer base WP
+      4. ✅ Cleaner BDD
+      5. ✅ Maj wp-config
+      6. ✅ Installation WP
+      7. ✅ Virer indexation pendant WIP
+      8. ✅ Regen permaliens + dl .htaccess
+      9. ✅ Santé du site
+      10. ✅ Utilisateur
+      11. ✅ Médias
+   2. ✅ Nouvelles catégories d'articles, mieux ranger
+
 ## 03/03/2023
 
 AE
