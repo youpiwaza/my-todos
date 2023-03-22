@@ -2,6 +2,59 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 17/03/2023
+
+## 🔥 PB Modelisme
+
+1. ✅ RDV PB Modélisme du 17/03/2023 - Rupture de contrat à l'amiable & passation
+   1. ✅ Préparer RDV
+   2. ✅ RDV
+   3. ✅ CR
+2. ✅ Doc rupture
+   1. ✅ Max : signé & envoyé
+   2. ✅ Signature Sylvie le 21/03/2023
+   3. ✅ Doc "Avoir" pour la compta créé & envoyé le 21/03/2023
+3. ✅🔥 Retirer accès
+   1. ✅ Drive
+   2. ✅ Github
+   3. ✅ Site
+4. 💾 Backup + folio
+   1. Faire des screens du site
+   2. Faire des screens du code + stats
+   3. Faire des screens de la documentation crée
+   4. Contenus textes du folio
+   5. Dump code, pas besoin de la BDD osef
+      1. Sauvegarde HDD
+5. 🔥 Benner
+   1. Résilier serveur
+6. ⏳🏥 AFE
+   1. ✅ Demande faite le 01/03
+   2. ✅ Retour mail le 17/03
+      1. ✅ Compléter dossier
+         1. ✅ Message envoyé le 17/03/2023
+      2. ⏳ Commission dans ~1 mois
+   3. ✅📝 Rappeler
+      1. 36 98
+         1. Taper pour avoir un conseiller
+         2. 51
+         3. 2
+         4. 1
+         5. 1
+      2. ✅📝 En bas du site > Nous contacter > Prendre rendez-vous
+7. ⏳🏥 Demande de RDV à l'URSSAF de Reims
+   1. ✅ Faite le 17/03/2023
+   2. ⏳ En attente de retour
+8. Demande de remboursement des impots à l'URSSAF, suite au remboursement PB
+   1. ✅ Retour par tel le 20/03/2023
+   2. ✅ Message via urssaf avec détails nouvelles déclarations le 20/03/2023
+   3. ⏳ En attente de retour & remboursements
+   4. Maj [Paiements AE](https://docs.google.com/spreadsheets/d/1A_TqOQnmzq6xWCgo1wQAJDJZJHzmXre_WNpPy23vIQ4/edit#gid=1999333802)
+   5. Maj impots sur le revenu 2022
+
+Perso
+
+1. ✅ Max AR Paris multiples concerts
+
 ## 10/03/2023
 
 PB Modelisme

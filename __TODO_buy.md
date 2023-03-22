@@ -148,6 +148,7 @@ Remettre patreon Boris, YMS, Bloodywood
       - [d](https://www.games-workshop.com/fr-FR/soulblight-gravelords-cado-ezechiar-the-hollow-king-2022)
       - [start collecting](https://www.games-workshop.com/fr-FR/Start-Collecting-Soulblight-Gravelords-2021)
 - green stuff world
+  - [Basings sets par environnements](https://newsletter.greenstuffworld.com/web_version/03g170e/wafzlkfi)
   - [Etagères complètes peintures](https://www.greenstuffworld.com/fr/215-metal)
   - [Liquid pigments](https://www.greenstuffworld.com/fr/261-pigments-liquides)
   - [Mélangeur peinture](https://www.greenstuffworld.com/fr/peinture/2382-melangeur-rotatif-de-peinture.html)
@@ -176,6 +177,7 @@ Remettre patreon Boris, YMS, Bloodywood
     - [The Drow](https://scale75.com/en/outlet/47-the-drow.html)
     - [Cliffs Guard](https://scale75.com/en/outlet/51-cliffs-guard.html)
   - Peintures à l' huile / [FLOWW FULL SET](https://scale75.com/en/floww-range/1084-scalecolor-floww-full-set.html)
+- SharpenAir, redresser aiguilles airbrush. [hey](https://www.google.com/search?q=sharpenair), [hoy](https://www.youtube.com/watch?v=BJcgf31v5RU)
 - [Slaanesh](https://www.youtube.com/watch?v=RofGU4ewrR8)
 - [Tamiya : Tools Range : Product Reviews](https://www.youtube.com/watch?v=K7KzJpM1gNY)
 - [Tout / liste spikeybits](https://spikeybits.com/besthobbysupplies)

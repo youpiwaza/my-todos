@@ -56,6 +56,7 @@ Proba mails ALD & Ophé également + Liste de liens
        5. chkdsk
 2. Faire article maintenance PC
 3. Faire article découverte ansible
+4. Comment sécuriser les données lors de l'envoi d'un formulaire
 
 ---
 
@@ -185,6 +186,39 @@ Bonne putain de lecture de ce pavé, si t'as des questions n'hésite pas
 
 - [Remotely Back Up Your WordPress Database and Media With WP Migrate CLI](https://deliciousbrains.com/remotely-backup-wordpress-database-media-wp-migrate-db-pro-cli)
 - [How to Use Schema Markup to Boost Your SEO](https://aioseo.com/how-to-use-schema-markup-to-boost-your-seo/)
+- Plugins wordpress
+  - Bien choisir ses plugins wordpress
+    - Analyse de vos besoins
+    - Compatibilité
+    - Nombre de téléchargement
+    - Date de dernière maj
+    - Testay
+      - Console
+      - Compatibilité thèmes & autres plugins
+      - Code profiler
+  - En cas de soucis
+    - Désactiver
+    - Renommer le dossier dans le ftp (désactivation auto)
+  - Eviter plugins inutiles, opérations possibles à la main
+    - Thème enfant
+      - SEO qui modifient les tags html
+      - Installation de polices, bootstrap, jquery (via thème & ou functions.php)
+  - Maintenance
+    - WP-Optimize après désinstallation
+  - Liste de plugins recommandés
+    - ACF, version pro
+    - Akismet Anti-Spam
+    - All in one wp migration
+    - ElasticPress
+    - User role editor
+    - WP-Optimize
+    - WP Disable
+    - WPS Hide Login / ou donner à wp son propre dossier
+    - Divers
+      - Cache / Dépendant config serveur
+      - Optimisation images
+      - Génération de sitemap / robots.txt
+      - RGPD
 
 ## Vrac
 
