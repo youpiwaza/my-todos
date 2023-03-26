@@ -35,7 +35,11 @@ Indiquer ici les *tâches à effectuer en priorité*
 - Ne pas tout fourrer ici, *respecter la priorisation*, sinon tout est fait à l'arrache
 
 1. ~💩 Cleaner TODO en vrai
-2. 🚀 Prio Evogue
+2. ✅ Prio Evogue
+3. 🌱 Evogue > Préparer cours JS
+4. 🚀 Clôturer PB (Folio)
+5. Déplacer Blog
+6. Margot > site https
 
 ---
 
@@ -161,27 +165,75 @@ Rieng
 
 ### 🚀 Evogue
 
-1. Créer dossier client dans drive
-2. Cleaner boilerplate
-3. Mission fin mars 2023
-   1. Signature contrat + drive
-   2. Gestion transports
-      1. Prévisions
-         1. TGV
-            1. ~90€
-         2. Metro
-            1. recharge semaine 30€
-      2. Validation
-      3. Réserver
-      4. Factures
-      5. PHP deja installé, os windows/mac
-   3. Préparation ressources
-      1. Présentation
-      2. Cours
-      3. Codes
-         1. Solutions qui marche
+1. ✅ Créer dossierS client dans drive
+   1. ✅ Informations entreprise
+2. ✅ Signature 2 contrats + ✅ drive
+3. ✅ Mission fin mars 2023
+   1. ⏳ Gestion transports
+      1. ✅ Validation > Call Darren du 22/03/2023
+         1. ✅📝 Prévisions
+            1. TGV > ~90€
+            2. Metro > recharge semaine 30€
+            3. Note : sur contrat "Frais remboursable : Non" > Le TJM est à la base de 180€, ajusté à 211.30€ afin de couvrir les frais
+      2. ⏳ Réserver
+         1. ✅ TGV > 42€
+         2. ⏳ Métro > à faire
+      3. ⏳ Envoi factures
+         1. ✅ TGV
+         2. ⏳ Métro
+   2. ✅ Ajout précis à l'emploi du temps
+   3. ✅ Préparation ressources
+      1. ✅ Cleaner boilerplates 📝 Slides sur drive, codes sur github, pas de doublons
+         1. ✅ BP présentation
+         2. ✅ Présentation max
+         3. ✅ Packs débutants
+            1. ✅ Boilerplate
+            2. ✅ PHP
+               1. ✅ renvoyer htdocs vers github
+      2. ✨ Présentation (bp)
+      3. ✅ Cours
+         1. ✅ Plan (+ annonce pré-requis PHP/SQL/phpMyAdmin deja installés)
+            1. ✅ PHP
+            2. ✅ phpMyAdmin
+            3. ✅ SQL
+            4. ✨ Communication php > sql // Que du code
+         2. ✅ TP / Codes finaux
+            1. ✅ PHP
+            2. ✅ phpMyAdmin
+            3. ✅ SQL
+            4. ✅ Communication php > sql
+      4. ✅ Vérifier sommaires des presentation
+   4. ✅👪 Visio 23/03/23 à 17h voir si tout est ok
+   5. ✅ Archives pour BP & corrections & envoi sur stockage masamune
+   6. ✅ Tinyurl du dossier drive présentations + ajout dans presentation
+   7. ✅ Les présentations contiennent l'ensemble des liens utiles
+      1. ✅ Faire une présentation pour les corrections > Dossier pas public
+   8. ✅ Facture
+      1. ✅ Editée
+      2. ✅ Envoyée
+      3. ✅ Maj Paiement & impôts
 4. Mission Fin avril debut mai 2023
-   1. Signature contrat + drive
+   1. ✨ Pas de transport, en visio
+   2. Ajout précis à l'emploi du temps
+   3. Préparation ressources
+      1. ✨ Présentation (bp)
+      2. ✅ Packs débutants
+            1. ✅ JS
+      3. Cours
+         1. Pré-requis
+         2. Plans
+         3. Exos
+      4. Corrections
+         1. Exos
+         2. Faire une présentation pour les corrections > Dossier pas public
+      5. Vérifier sommaires des presentation
+      6. Archives pour BP & corrections & envoi sur stockage masamune
+      7. Les présentations contiennent l'ensemble des liens utiles
+      8. Tinyurl du dossier drive présentations + ajout dans presentation
+   4. Facture
+      1. Editée
+      2. Envoyée
+      3. Maj Paiement & impôts
 
 ---
 
@@ -276,6 +328,7 @@ Branding, CV & sites
    2. Voir faire un projet liste de liens vers les projets regroupés en catégories
    3. dédoublonner default-config-files-for-github-repository & base-repository-github
    4. Repo dédié checklist fin de site
+      1. [Base](https://docs.google.com/spreadsheets/d/1RHnaEn4WmYvjrAjmFAq8tfbINpSEE5XwtTZ3cJkn88g/edit?usp=share_link)
 6. Inscription EAN
    1. Inscription [crème de la crème](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQmNcddHDMfMMGTKJmgzNsvbd)
    2. Inscription Jean-Paul.io
@@ -390,6 +443,7 @@ Déplacer sites clients
 3. com--sophieberberian
 4. com--champagne-pascal-picard
 5. com--margot-kasza
+   1. Stocké sur ancien so you start !
 
 ---
 
@@ -425,6 +479,8 @@ Environnement de dev local clean
    3. Factures
    4. Statut
    5. Etc.
+
+Slurp [cours 3WA](https://e.3wa.fr/user/profile.php?id=2257)
 
 ---
 

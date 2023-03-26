@@ -16,6 +16,11 @@
    5. Process rituels vie courante
    6. Bilans service > [process de réparation](https://github.com/youpiwaza/26Digital/tree/main/bilans%20service/ancien-intranet/users/intranet)
 
+## 03/2023
+
+- [livres recos](https://blog-new.masamune.fr/wp-admin/post.php?post=199&action=edit)
+  - Extraire et faire un article dédié au référencement
+
 ## 12/2022
 
 Manipulation des noms de domaines sous ovh, multisite & autre
@@ -536,6 +541,7 @@ Réinstaller le package défectueux :
 
 ## Vérifications de fin de site
 
+- http://frontendchecklist.com/
 - Gestion des images : `<picture>` avec fallback avif > webp > jpg, cf. [LDL](https://docs.google.com/spreadsheets/d/1COXPrsJgAJyfXOT7aNZULCDMOYhctlzI5kXOxw7vE64/edit#gid=757921254)
 - [I Got a Perfect Lighthouse Score on My First Portfolio Website!](https://dev.to/prnvbirajdar/my-first-portfolio-website-using-next-tailwind-and-typescript-4lg3)
 - [Site bio / Opti / WDD / 3 EFFECTIVE WAYS TO IMPROVE YOUR SITE’S CARBON FOOTPRINT](https://www.webdesignerdepot.com/2021/04/3-effective-ways-to-improve-your-sites-carbon-footprint/)
