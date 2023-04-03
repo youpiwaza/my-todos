@@ -2,6 +2,330 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 07/04/2023
+
+Taf
+
+1. ✅ Terminer déplacer site Margot
+   1. ✅ Une fois terminé > mail recap
+2. ✅ 🎓 Prof ESGI Campus Educative Reims
+   1. ✅ Nouveau client
+   2. ✅ Edt provisoire
+   3. ✅ Vérifier compte "MyGes"
+      1. ✅ Remplir compte
+      2. 💩 Espace inofmrations de facturation > KO
+   4. ✅ MyGes
+      1. ✅ Voir guides
+      2. ✅ Voir livret intervenant du Campus de Reims
+   5. ✅ Répondre aux mails
+      1. 🚨 Pièces à fournir au format PDF, un document PAR pdf
+      2. 🚨 Dédoublonner
+      3. ✅ Attestation de vigilance URSSAF
+      4. ✅ Livret intervenant
+         1. ✅ Pour tous
+            1. ✅ Fiche de renseignements complétée et signée par l'intervenant
+            2. ✅ Adresse mail
+            3. ✅ Adresse postale
+            4. ✅ Numéro de téléphone
+            5. ✅ L'intervenant est-il salarié de l'Éducation nationale ?
+            6. ✅ Photocopie carte d'identité ou passeport ou titre de séjour
+            7. ✅ Date et lieu de naissance
+            8. ✅ Numéro de sécurité sociale
+            9. ✅ Extrait casier judiciaire
+            10. ✅ CV actualisé
+            11. ✅ copie des diplômes
+            12. ✅ RIB
+         2. ✅ Presta
+            1. ✅ Numéro de Siret (et nom de l'entreprise si l'intervenant passe par une société)
+            2. ✅ Attestation d'affiliation URSSAF
+            3. ~~Attestation de vigilance URSSAF (à fournir tous les 6 mois)~~
+            4. 💩 Extrait KBIS pour les sociétés
+            5. ✅ Avis d'inscription au répertoire SIRENE
+      5. ✅ Fiche renseignement Presta
+         1. ✅ Me concernant
+            1. ~~Une copie recto/verso de votre pièce d'identité en cours de validité~~
+            2. ~~Votre CV à jour~~
+            3. ~~Une copie du plus haut diplôme obtenu~~
+            4. ~~Un extrait de casier judiciaire n°3~~
+         2. ✅ L'entreprise
+            1. ~~Un avis d'inscription au [répertoire SIRENE](https://avis-situation-sirene.insee.fr/)~~
+            2. ~~[Une attestation d'affiliation à l'URSSAF](https://www.autoentrepreneur.urssaf.fr/portail/accueil/une-question/toutes-les-fiches-pratiques/telecharger-mes-attestations.html)~~
+            3. ~~attestation de vigilance délivrée par les services de l'URSSAF~~
+            4. ~~relevé d'Identité Bancaire / IBAN professionnel~~
+            5. attestation de régularité fiscale > Pas de TVA (auto-entrepreneur)
+3. ✅♻️ Faire un [pack documents pour proffer](https://drive.google.com/drive/folders/1kikvHk6Pm1ciTcUgGpR4hJBnUDBtYmCs)
+
+Perso
+
+1. ✅ Extraire edt tel
+2. ✅ OVH MAnager > Vérifier logs si séparés > séparer tout
+3. ✅ Cleaner TODO
+
+## 31/03/2023
+
+Priorisation, simple
+
+1. ✅ Compte épargne, provisionner
+   1. ✅ Anticipation remboursement PB
+   2. ✅ CFE 2020
+   3. ✅ Impôts mars 2023
+2. ✅ Payer syndic
+3. ✅ Maj P&I AE
+   1. ✅ -PB
+   2. ✅ -I
+4. ✅ Déclaration AE 01/04/2023
+5. ✅ Jus Mundi / Javier
+   1. ✅ Confirmer tous les comptes
+6. 🚀 Taf prof Reims "Reims éducative"
+   1. ✅ Réponse de courtoisie en attendant clean
+7. ✅ Evogue
+   1. ✅ Mail paiement bien reçu
+
+Déplacer site Masa
+
+1. 🚀 blog.masamune.fr
+   1. ✅ Copie des articles ~10/62 -- Certains vont sauter donc osef
+   2. ✅ Maj les identifiants dashlane
+   3. ✅ Vérifier galeries > lien vers fichier média
+   4. ✅ Faire une repasse sur les commentaires
+   5. ✅ Vérifier les liens des articles
+   6. ✅ Rapatrier les medias (zip boilerplates)
+      1. ✅ Migrer liens vers https / github
+      2. ✅ [Débrander](http://blog.masamune.fr/jcQpjm9NxDpQydRi/wp-admin/post.php?post=1162&action=edit)
+   7. ✅ Screens blog v3 avant KO
+   8. ✅ Screens masa.fr avant KO
+   9. ✅ Catégoriser pages
+   10. 🌱 Récupérer pages
+       1. Principales ref nat "kwaksé ce blog"
+          1. Accueil > Expliquer refonte > Moins de temps donc plus d'articles et plus regulier > Plein d'articles en attente + live coding prof
+          2. De nombreux tutoriaux
+             1. Revoir contenus
+                1. Dev & prauf & soft skillz
+             2. Image alakon
+             3. Public
+          3. Moultes recettes de cuisine
+             1. Revoir contenus
+             2. Image alakon
+             3. Public
+          4. Peinture de miniatures
+             1. Revoir contenus
+             2. Image alakon
+             3. Public
+       2. Pages secondaires
+          1. Renvoi vers masa.fr + publique + image alakon > plus simple juste un lien vers masa & "copiay collay flemme"
+             1. 🔥 Contact > bouton sur accueil
+             2. Crédits
+             3. Débogage
+             4. Mentions légales
+             5. RGPD
+   11. [Ajuster templates](https://blog-new.masamune.fr/wp-admin/site-editor.php?postType=wp_template)
+       1. [Tuto YT clean 25mn](https://www.youtube.com/watch?v=O4ZzuYTj9tw)
+       2. Menus
+          1. Pages
+          2. Catégories
+       3. Footer > Masamune copyright
+       4. 💄 Voir largeur max toutes les pages
+       5. 404
+       6. Plan du site
+   12. ✅ Repasser sur l'ensemble des média ~2013 y'a des pépites
+   13. Fin
+       1. ✅ Mettre favicon, [cancer](https://blog-new.masamune.fr/wp-admin/customize.php?autofocus[section]=title_tagline)
+       2. ✅ robots.txt > base
+   14. Basculer DNS
+       1. Vérifier https
+       2. Réindexer site
+   15. Plugins alakon ?
+       1. 🌱🔧 Akismet, après MeL
+       2. 🌱🔧 Mise en cache, après MeL
+       3. 🔧 Sécuritay
+       4. 🌱 Plan du site > Ancien site template de theme, voir si moyen de générer liste avec thème pour éviter plugin
+       5. ✅ Migration
+       6. All in One SEO
+             1. sitemap.xml
+                1. Maj robots.txt
+             2. SEO meta title
+             3. SEO meta description
+             4. SEO keywords
+             5. Open Graph SEO Knowledge Panel information
+             6. social media integration
+             7. SEO search console (Google Search Console) / webmaster tool connections
+             8. local SEO
+             9. schema markup for SEO
+       7. Tester erreurs
+          1. [Google search console](https://search.google.com/search-console)
+             1. 📌 robots.txt
+          2. Pagespeed insights
+          3. W3C
+          4. Autres conneries & mettre à jour repo git
+          5. En faire un article putain
+2. ✅⏳ Résilier ancien serveur avant le début du mois > Résiliation effective le 30 avril 2023 babaye
+
+Déplacer site Margot
+
+1. ✅ Margot > site https > Passer sur nouvel heberg max
+   1. ✅ Recup
+      1. ✅ dump fichier
+      2. ✅ dump sql
+      3. ✅ Test export all in one wp migration
+      4. 📝 Plugins installés : Acunetix WP Security & Akismet Anti-Spam
+   2. ✅ Nouveau site
+      1. ✅ DNS dev
+      2. ✅ Multisite
+      3. ✅ BDD
+   3. ✅ Reinjecter
+      1. 💩 BDD > KO, trop vieux
+      2. ✅ fichiers
+      3. Erreur 500
+         1. 💩 Maj wp-config
+         2. 💩 Virer htaccess
+         3. ✅ Test avec fichiers alakon index.html & .pjp
+         4. 💩 Go check logs, attention logs séparés, accès via ovh manager > heberg masa > multisite > domaine > ... > accéder aux logs
+            1. Rien -_- alors que ca chie de la 500
+   4. ~~⏳ Maj l'ancien site et rééssayer ? may risque de tout pétay~~
+   5. ✅ Repartir d'une base WP actuelle
+      1. ✅ wp config
+      2. ✅ Installer
+      3. ✅ Injecter theme + thème enfant
+      4. ✅ Injecter wp-uploads
+      5. ✅🎉 importer avec all in one wp migration dump bdd
+   6. ✅ Vérifier console
+      1. ✅🐛 2 x 404
+      2. ✅🐛 1 x warning
+   7. ✅ Remettre plugins usuels
+      1. ✅ Akismet anti spam
+      2. ✅ WordFence > install & config & scan
+      3. 💩 ~~W3 total cache~~ > Toujours buggé pas ouf
+      4. ✅ WP Fastest Cache
+   8. ✅ Santé du site
+   9. ✅🐛 Fixer API REST > [url de test](http://dev.margot-kasza.com/wp-json)
+      1. ✅ Compatibilité plugins > Tout désactivé > Tout réactiver > is ok > wtf > wtv
+      2. ✅ Reset .htaccess également, probablement lié à la config W3 Total cache
+   10. ✅📌🕐 Vérifier perfs > google pagespeed insights
+       1. [Ancien serveur](https://pagespeed.web.dev/analysis/http-margot-kasza-com/g78n32yvfr?form_factor=mobile)
+          1. Mobile 66/100
+          2. Bureau 72/100
+       2. Nouveau serveur
+          1. Mobile 71/100
+          2. Bureau 85/100
+       3. ✅ Appliquer recommandations
+          1. ✅ Images au nouveaux formats
+             1. Conversion images webp > Plugin "performance-lab" > seulement nouvelles images uploadées
+             2. Conversion existant > Converter for Media > nice
+          2. 💩 Critical css > "Reduce Unused CSS Solution with Critical CSS For WP" > eclate le style du menu
+          3. ✅ Différer chargement ressources > "Hummingbird – Optimize Speed, Enable Cache, Minify CSS & Defer Critical JS"
+          4. ✅ Defer JS
+          5. ✅ Pré-charger polices gougeul
+          6. ✅ CSS > font-display > maj url google font dans theme &display=swap
+       4. ✅ Nouveau score
+          1. Mobile ~72-80/100
+          2. Bureau 93/100
+       5. ✋ Reco SEO > Images attributs alternatifs (accessibilité)
+   11. ✅ Deplacay
+       1. ✅ Changer url wordpress
+       2. ✅ Virer anciens DNS
+       3. ✅ Config multisite + nouveau DNS
+       4. ✅ Régénérer certificat SSL pour https
+       5. ✅🐛 Cleaner url ~"dev." en BDD
+       6. ✅🐛 Cleaner urls sans https dans theme
+       7. ~✅🐛 Scripts HS (jquery de base chargé depuis un CDN alakon version cheloue ?)
+          1. Patch alakon > Récupération de l'ancien jquery + ajout a la zob de jquery ui
+          2. A priori l'ancienne version http le comportait, mais pas celle en https, wtf
+   12. ✅📌 Testay
+       1. 💩 Thème options > Thème outdated (~PHP ?), version 1.2.1
+          1. Voir si nouvelle version > 3.1.0 (fin 2019 ~good ?)
+          2. Fonctionne MAY perte des contenus (pas de "theme options")
+       2. ✅ Contact à sauté
+          1. ✅ Refaire menu
+             1. ✅ Ancienne page contact > Fait sauter le footer
+             2. ✅ Nouvelle page > ok
+       3. ✅ Ptet logo du site également ?
+          1. ✅ Revoir thème enfant
+             1. ✅ Logo
+             2. ✅ Titre
+             3. ✅ Menu contact
+   13. ✅ Vérifier config plugins après déplacement
+       1. ✅ Sécuritay > tite repasse > good
+       2. ✅ Images webP > relance > good
+       3. ✅ Cache > re-config > good
+   14. ✅🐛 Bug alakon timthumb.php KO
+       1. Si image miniature pas au bon format > recadrage > mais ancien PHP > balle dans la bouche
+       2. Désactiver sur les 2 templates concernés (home & single folio)
+   15. ✅📌🕐 [Vérifier perfs](https://pagespeed.web.dev/analysis/https-margot-kasza-com/royfegnic0?form_factor=mobile)
+       1. ✅ Mobile 78/100
+       2. ✅ Bureau 98/100
+   16. ✅ Dumps
+       1. ✅ fichiers
+       2. ✅ bdd
+
+Perso
+
+1. ✅ Check message Alan & répondre
+2. ✅ Mail reims espaces verts clairmarais
+
+Prauf
+
+1. 👨‍🏫 Evogue
+   1. ✅ Créer dossierS client dans drive
+   2. ✅ Informations entreprise
+2. ✅ Signature 2 contrats + ✅ drive
+3. ✅ Mission fin mars 2023
+   1. ✅ Gestion transports
+      1. ✅ Validation > Call Darren du 22/03/2023
+         1. ✅📝 Prévisions
+            1. TGV > ~90€
+            2. Metro > recharge semaine 30€
+            3. Note : sur contrat "Frais remboursable : Non" > Le TJM est à la base de 180€, ajusté à 211.30€ afin de couvrir les frais
+      2. ✅ Réserver
+         1. ✅ TGV > 42€
+         2. ✅ Métro > à faire
+      3. ✅ Envoi factures
+         1. ✅ TGV
+         2. ✅ Métro
+   2. ✅ Ajout précis à l'emploi du temps
+   3. ✅ Préparation ressources
+      1. ✅ Cleaner boilerplates 📝 Slides sur drive, codes sur github, pas de doublons
+         1. ✅ BP présentation
+         2. ✅ Présentation max
+         3. ✅ Packs débutants
+            1. ✅ Boilerplate
+            2. ✅ PHP
+               1. ✅ renvoyer htdocs vers github
+      2. ✨ Présentation (bp)
+      3. ✅ Cours
+         1. ✅ Plan (+ annonce pré-requis PHP/SQL/phpMyAdmin deja installés)
+            1. ✅ PHP
+            2. ✅ phpMyAdmin
+            3. ✅ SQL
+            4. ✨ Communication php > sql // Que du code
+         2. ✅ TP / Codes finaux
+            1. ✅ PHP
+            2. ✅ phpMyAdmin
+            3. ✅ SQL
+            4. ✅ Communication php > sql
+      4. ✅ Vérifier sommaires des presentation
+   4. ✅👪 Visio 23/03/23 à 17h voir si tout est ok
+   5. ✅ Archives pour BP & corrections & envoi sur stockage masamune
+   6. ✅ Tinyurl du dossier drive présentations + ajout dans presentation
+   7. ✅ Les présentations contiennent l'ensemble des liens utiles
+      1. ✅ Faire une présentation pour les corrections > Dossier pas public
+   8. ✅ Facture
+      1. ✅ Editée
+      2. ✅ Envoyée
+      3. ✅ Maj Paiement & impôts
+   9. ✅ Clôturer mission
+      1. ✅ CR
+      2. ✅ Mail récap
+      3. ✅ Evaluations & notes élèves
+         1. ✅ Lien vers le fichier excel d'évaluation ajouté à la plateforme evogue le 30/03/2023
+
+🔥 PB Modelisme
+
+1. ✅ 💸 Remboursement avoir
+   1. ✅ Premier Virement bonne foi
+   2. ✅ mail
+   3. ✅ historique drive
+   4. ✅ Captures ecrans mail & site banque
+
 ## 17/03/2023
 
 ## 🔥 PB Modelisme
