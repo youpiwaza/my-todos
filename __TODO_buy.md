@@ -83,6 +83,7 @@ Remettre patreon Boris, YMS, Bloodywood
 - [electric callboy pump it tshirt](https://www.google.com/search?q=electric+callboy+pump+it+tshirt)
 - idéee tshirt / Je veux monter un groupe de rap ou on sera expert dans l'art de se tromper dans les mots, verso > Il s'appellera les pro-lapsus
 - [Tshirt hardc orner](https://hardcorner.myspreadshop.fr/hard+corner+z+yellow-A62a9f67cbff8282d5fd8b8e3?productType=812&sellable=kaNeeoy0krTqRMbXE9nx-812-7&appearance=2)
+  - [2023](https://hardcorner.myspreadshop.fr/)
 - [Oh My Zsh merch](https://shop.planetargon.com/collections/oh-my-zsh?utm_source=github)
 - Pull scissor seven / piaf
 - [Tshirt / 2 girls 1 up](https://www.google.com/search?newwindow=1&sxsrf=ALeKk01xN3MAkpt86HyV3YEUVgVG_W12kg%3A1608110006334&ei=ts_ZX4nrE8G4aZTboegN&q=tshirt+%222+girls+1+up%22&oq=tshirt+%222+girls+1+up%22&gs_lcp=CgZwc3ktYWIQA1DrsJYCWKy1lgJgjb6WAmgAcAB4AIABWogBiQKSAQE0mAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwiJnr_NlNLtAhVBXBoKHZRtCN0Q4dUDCA0&uact=5)

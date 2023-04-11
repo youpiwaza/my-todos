@@ -20,7 +20,7 @@ Légende :
 
 ## 🧠⏫ Raccourcis & process à intégrer au flow
 
-- Plugin VSCode pour WSL 🤯
+- 💥🤯 Plugin VSCode pour WSL
 - Dactylo le midi > [typing study](https://www.typingstudy.com/fr/lesson/3/part/8)
 - Tétrachiée de nouveaux plugins VSCode
   - TO DO Tree
@@ -50,7 +50,7 @@ Indiquer ici les *tâches à effectuer en priorité*
          3. Foutage de gueule
    3. 💥 Maj impots sur le revenu 2022
    4. ⚡️ Ekwateur > virer prix fixe 0.3 au lieu de 0.18 ?
-   5. 💸 Sofia > FB > RIB > Payer hébergement
+   5. ⏳ Relance syndic > clé qui n'ouvre pas le local à poubelle > Mail le 11/04/23
 
 ---
 
@@ -182,22 +182,20 @@ Bug clients majeurs, interruptions de service, etc.
 
 ### 💼💼💼 Jus Mundi
 
-1. ✅ Ranger CR call
-2. 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Créer feuille excel compter heures
-3. ✅ Extraire TODO depuis CR
-4. Cette semaine
+1. Cette semaine
    1. 🎯 Objectifs en gros
-      1. Faire tourner le projet, y compris storybook
-      2. Institution header, (la première institution)
-         1. 🚨 screenshot header > pas le bon screen, prendre celui nouveau design, voir Pika
-   2. Mise en place de l'environnement de dev côté max
-      1. 👷 En cas de soucis go Javier
-   3. Tests commits & tout, flux de prod
-   4. 👶 Composants simples pour démarrer
-   5. Intégration à storybook ~nuxt storybook
-   6. 📱 Responsive : breakpoints fixés
-   7. Faire recetter travail fourni & ajuster au plus tôt, afin de produire au mieux sans trop d'AR
-5. 👪 Call début de semaine pro lundi ou mardi
+      1. à définir
+   2. 🌱💼 Institution > profile header
+      1. 🌱♻️ Refacto icônes, la balise SVG est ~toujours pareille
+         1. 📱 Voir pour faire le responsive des icônes, pas de style vu que dimension passée en props
+      2. 🌱 Migrer l'ensemble des icônes
+      3. 📌 Probablement des ajustements à faire (Placement du badge, du titre, etc.), pas toutes les relations/dimensions dans le figma
+   3. 📱 Responsive : breakpoints fixés > cf. tailwind.css
+      1. Configurer storybook afin qu'il corresponde
+   4. 🌱 Vérifier console
+   5. ⚖️ Posser des conventions pour les props, quand est-ce qu'on en utilise ? plutôt que le style
+2. 👪 Call Javier faire un point mardi 11h
+3. 👪 Réunion retours sur première livraison
 
 ---
 
@@ -381,13 +379,7 @@ Branding, CV & sites
 
 ### ⏳ 👨‍🏫 Reims éducative
 
-1. ✅ Checker [le site](https://reims.eductive.fr/)
-2. ✅ Process nouveau client
-3. ✅ Noter les contacts
-4. ✅ Renvoyer documents demandés
-5. ✅ Checker la mission
-   1. ✅ edt
-6. ⏳ En attente de retour que tout est good
+1. ⏳ En attente de retour que tout est good
    1. 🚨 Attention pour fixer les dates, certaines je suis pas dispo
 
 ---
@@ -435,14 +427,10 @@ Branding, CV & sites
     2. [INDESTRUCTIBLE Gaming Bases - Quick & Easy](https://www.youtube.com/watch?v=tRFfsAG-Yf8)
     3. Green gold pour le [grand ancien](https://www.youtube.com/watch?v=AgJqjIMd6k8)
 3. Bouffe mayzon
-    1. Acheter Kombu pour sushi
-    2. gochujang
-       1. [Gochuan mayson](https://www.youtube.com/watch?v=GyzWB5wh4Yw)
-       2. [amazon](https://www.amazon.fr/s?k=gochujang+jebiwon)
-       3. [idem](https://www.amazon.fr/s?k=doenjang)
-    3. [Vinaigres](https://www.youtube.com/watch?v=V9nfVu9zGxk)
-    4. [Pickles](https://www.youtube.com/watch?v=LBvr0K-6NIY)
-    5. [4 recettes](https://www.youtube.com/watch?v=WZS07jU4U50) Moutarde fermentée / Huile origan / Sésame tahini / Cashew miso
+    1. [Gochuan mayson](https://www.youtube.com/watch?v=GyzWB5wh4Yw)
+    2. [Vinaigres](https://www.youtube.com/watch?v=V9nfVu9zGxk)
+    3. [Pickles](https://www.youtube.com/watch?v=LBvr0K-6NIY)
+    4. [4 recettes](https://www.youtube.com/watch?v=WZS07jU4U50) Moutarde fermentée / Huile origan / Sésame tahini / Cashew miso
 4. Appli radiateurs et config
 5. ♻️ Acheter flotte > magnésium
 6. MSG maison

@@ -2,12 +2,23 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 14/04/2023
+
+Taf
+
+Jus Mundi
+
+1. ✅ CRA Lundi 10/04/2023
+
 ## 07/04/2023
 
 Taf
 
 1. ✅ Terminer déplacer site Margot
    1. ✅ Une fois terminé > mail recap
+   2. ✅💾 Sauvegardes
+      1. ✅ git
+      2. ✅ stockage.masamune.fr
 2. ✅ 🎓 Prof ESGI Campus Educative Reims
    1. ✅ Nouveau client
    2. ✅ Edt provisoire
@@ -54,12 +65,24 @@ Taf
             4. ~~relevé d'Identité Bancaire / IBAN professionnel~~
             5. attestation de régularité fiscale > Pas de TVA (auto-entrepreneur)
 3. ✅♻️ Faire un [pack documents pour proffer](https://drive.google.com/drive/folders/1kikvHk6Pm1ciTcUgGpR4hJBnUDBtYmCs)
+4. 👨‍🏫 Reims éducative
+   1. ✅ Checker [le site](https://reims.eductive.fr/)
+   2. ✅ Process nouveau client
+   3. ✅ Noter les contacts
+   4. ✅ Renvoyer documents demandés
+   5. ✅ Checker la mission
+      1. ✅ edt
 
 Perso
 
 1. ✅ Extraire edt tel
 2. ✅ OVH MAnager > Vérifier logs si séparés > séparer tout
 3. ✅ Cleaner TODO
+4. ✅💸 Sofia > FB > RIB > Payer hébergement
+5. ✅ Bouffe mayzon
+    1. ✅ Acheter Kombu pour sushi
+    2. ✅ gochujang
+       1. ✅ Achetay
 
 ## 31/03/2023
 

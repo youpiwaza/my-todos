@@ -596,6 +596,7 @@ Réinstaller le package défectueux :
   - Saumon au miso blanc
   - [gateau de ouf](https://www.youtube.com/watch?v=v-W900siMxQ)
 - [beurre clarifié](http://cuisinemoiunmouton.com/ghee-beurre-clarifie/) [vidéo](https://www.youtube.com/watch?v=GqryhdhnQGI)
+- [Crevettes saumurées](https://www.youtube.com/watch?v=scSYUGIiOek)
 
 Restau
 

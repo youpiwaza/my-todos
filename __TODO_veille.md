@@ -167,6 +167,7 @@ Essayer de faire un crash test par semaine, genre le vendredi.
 - [matmoto alternative a GA](https://matomo.org/home/)
 - [Résolution de problèmes Web Vitals courants](https://www.youtube.com/watch?v=IB3e8SAdBaE)
 - [Core Web Vitals et optimisation pour les moteurs de recherche (SEO)](https://www.youtube.com/watch?v=ggpZA5U2rZk)
+- [AISEO Broken link checker](https://aioseo.com/announcing-broken-link-checker-plugin/)
 
 ### Compatibilité
 
