@@ -10,6 +10,61 @@ Jus Mundi
 
 1. ✅ CRA Lundi 10/04/2023
 
+ICCA Reims
+
+1. ✅ Renommer partout ICCA Reims
+
+Prof
+
+1. ✅ Faire un point sur les cours prof, voir les dates et ce qu'il y a a preparer
+
+AE
+
+1. ✅ Repo [github dédié checklist fin de site](https://github.com/youpiwaza/checklist-fin-de-site)
+   1. ✅ Checklist vérifications de fin de site une bonne fois pour toute
+      1. ✅ Proba github commencé / a cleaner [chaos](https://github.com/youpiwaza/chaos-boilerplate-front)
+      2. ✅ XP Margot pour le WordPress
+      3. ✅ ______TODO_Serveur.md
+
+Perso
+
+1. ✅ Rap poltron & sofa
+2. ✅ SMS pougnoutte poltron & sofa, et ciné
+3. ✅ Noter recette sofia sms
+4. ✅ RDV doc > vitamine D & prise de sang checkup annuel
+5. ✅ Vinted > pack
+6. ✅ Règles northgard discord ju
+7. ✅ Réserver train/bus pour chez julie week end qui vient
+8. ✅👨‍⚕️ RDV véto > chien verrue oeil call mercredi midi
+9. ✅🚨 Maj impots sur le revenu 2022
+
+## 🔥 PB Modelisme 2
+
+1. 🚀💾 Backup + folio
+   1. ✅ Changer couleur
+   2. ✅ Global
+      1. ✅ Menu principal
+      2. ✅ Menu footer
+   3. ✅ Pages
+      1. [Accueil](https://dev.pb-modelisme.com/)
+      2. [Actualités](https://dev.pb-modelisme.com/actualites-modelisme/)
+      3. [Contactez-nous](https://dev.pb-modelisme.com/contact/)
+      4. [Inspiration](https://dev.pb-modelisme.com/inspiration/)
+      5. [Guide Aérographie](https://dev.pb-modelisme.com/guides/aerographie/)
+      6. [Services](https://dev.pb-modelisme.com/services/)
+      7. [Un service](https://dev.pb-modelisme.com/services/reparations/)
+      8. [Article promo](https://dev.pb-modelisme.com/promotions/maquettes-en-folies/)
+      9. [Toolbox](https://dev.pb-modelisme.com/toolbox/)
+      10. [Toolbox options thèmes](https://dev.pb-modelisme.com/toolbox-2/)
+   4. ✅ Cleaner articles
+   5. ✅ Vérifier ctrl f présence nom pb ou autres infos
+   6. ✅ Changer images
+   7. Dump
+       1. ✅ Fichiers
+       2. BDD
+       3. A1WPM
+       4. Sauvegarde HDD
+
 ## 07/04/2023
 
 Taf

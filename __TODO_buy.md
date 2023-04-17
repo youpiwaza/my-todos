@@ -29,6 +29,7 @@ Remettre patreon Boris, YMS, Bloodywood
   - Improvement of cognitive function by Gochujan [hey](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6595085/)
 - 🔍 Graine de caroube
 - gros méga bouquin sur la cuisine / poele coupées en deux et tt
+- Guga > bouquin
 - Huile de laquier (netflix flavorfull origins)
 - Huile de lin pour viande agneau, cf. [origines des saveurs s3e4](https://www.netflix.com/browse?jbv=80991060)
 - [Huile de sésame](https://www.rizetco.com/taebaek-agricultural)

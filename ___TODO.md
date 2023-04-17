@@ -34,42 +34,39 @@ Indiquer ici les *tâches à effectuer en priorité*
 - Ne pas tout fourrer ici, *respecter la priorisation*, sinon tout est fait à l'arrache
 
 1. 🚀 Jus Mundi
-2. Portfolio / CV
-   1. Clôturer PB
+2. 🚀 Portfolio / CV
+   1. 🚀 Clôturer PB
    2. Evogue > Cours fin mars 2023
+   3. Article de blog dédiay
 3. Terminer de déplacer sites masamune.fr
 4. 🌱 Evogue > Préparer cours JS/React ?
 5. Perso
-   1. 💥 Réserver train/bus pour chez julie week end qui vient
-      1. ⏳ Vendredi ou samedi ?
-   2. Extraire photos du week end sofia/thomas
-      1. Kevein gif indiana jones avec fouet puis clip francis boule
-   3. 👨‍⚕️ Alan > Faire exos pour le dos
-   4. 📱 Appeler BRED, cf. edt tel
-      1. Remboursement ACEF 6€
-      2. Intérêts forfaitaires janvier 2023, 3€
-      3. Changer de conseiller
-         1. Tous les frais injustifiés non toujours pas étés remboursés
-         2. Ne nous a pas rappelé plusieurs fois
-         3. Foutage de gueule
-   5. 💥 Maj impots sur le revenu 2022
-   6. ⚡️ Ekwateur > virer prix fixe 0.3 au lieu de 0.18 ?
-   7. ⏳ Relance syndic > clé qui n'ouvre pas le local à poubelle > Mail le 11/04/23
-   8. Musique groupe "3 days grace"
-   9. Anime "Redo of healer"
+   1. Rdv prise de sang
+   2. Concert Nosfell ?
+   3. Extraire photos du week end sofia/thomas
+      1. Kevin gif indiana jones avec fouet puis clip francis boule
+   4. 👨‍⚕️ Alan > Répondre truc sommeil > Pas sur le site internet, appli seulement :/
+   5. 👨‍⚕️ Alan > Faire exos pour le dos > Pas sur le site internet, appli seulement :/
+   6. 📱 Appeler BRED, cf. edt tel
+       1. Remboursement ACEF 6€
+       2. Intérêts forfaitaires janvier 2023, 3€
+       3. Changer de conseiller
+          1. Tous les frais injustifiés non toujours pas étés remboursés
+          2. Ne nous a pas rappelé plusieurs fois
+          3. Foutage de gueule
+       4. Cela concernera la déclaration de 2023 pour le montant 2022, simplement faire attention
+   7. ⚡️ Ekwateur > virer prix fixe 0.3 au lieu de 0.18 ?
+   8. ⏳ Relance syndic > clé qui n'ouvre pas le local à poubelle
+       1. ⏳ Mail envoyé le 11/04/23
 
 ---
 
 1. ~🚀 Déplacer Blog
-   1. Checklist vérifications de fin de site une bonne fois pour toute
-      1. Proba github commencé / a cleaner [chaos](https://github.com/youpiwaza/chaos-boilerplate-front)
-      2. XP Margot pour le WordPress
-      3. ______TODO_Serveur.md
-   2. Derniers contenus
-   3. Ajuster thème
-   4. Mise en ligne
-   5. Plugins & config
-   6. Opti site & SEO
+   1. Derniers contenus
+   2. Ajuster thème
+   3. Mise en ligne
+   4. Plugins & config
+   5. Opti site & SEO
 2. Déplacer site vitrine
    1. prod-old ??
 
@@ -90,55 +87,55 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel plus tard/exponentiel
 
-- ✅ Déplacer les terminés ✅ à chaque début de semaine dans done.md
+- ⏳ Déplacer les terminés ✅ à chaque début de semaine dans done.md
 - 💩 Déplacer les TODO 🌱 dans _TODO_shame.md
-- ✅ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ⏳ mails, ⏳ edt portable, ⏳ favoris, ⏳ bureau. Si possible description + lien.
-- ✅ Nettoyer le fichier __TODO
-  - ✅ Status
-  - ✅💥 Ce fichier > ### Shame 💥 Cleaner pour vrai les trucs ou je ne passe jamais
-    - ✅ Ranger dans fichiers TODO correspondant
-      - ✅ Prioriser
-- ✅ Virer ce qui traine
-  - ✅ sur le bureau
+- ⏳ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ⏳ mails, ⏳ edt portable, ⏳ favoris, ⏳ bureau. Si possible description + lien.
+- ⏳ Nettoyer le fichier __TODO
+  - ⏳ Status
+  - ⏳💥 Ce fichier > ### Shame 💥 Cleaner pour vrai les trucs ou je ne passe jamais
+    - ⏳ Ranger dans fichiers TODO correspondant
+      - ⏳ Prioriser
+- ⏳ Virer ce qui traine
+  - ⏳ sur le bureau
   - 💩 dans le dossier _shame du bureau
   - 💩 Lel ~(local)/_dev/_shame
-  - ✅ Vider corbeille
-  - ✅ Vider téléchargements
-  - ✅ Dans les mails
+  - ⏳ Vider corbeille
+  - ⏳ Vider téléchargements
+  - ⏳ Dans les mails
 - ⏳ Déplacer veille onglets dans TODO_veille
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
 - ⏳ Déclaration Auto entrepreneur
-- ✅ Vérifier impôts sur espace
-  - ✅ Perso  / 11/04/2022
-  - ✅ Pro    / 11/04/2022
-- ✅ Vérifier messages [Ameli](https://assure.ameli.fr/)
+- ⏳ Vérifier impôts sur espace
+  - ⏳ Perso  / 11/04/2022
+  - ⏳ Pro    / 11/04/2022
+- ⏳ Vérifier messages [Ameli](https://assure.ameli.fr/)
 - ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21
-  - ✅ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk), `/r` également
+  - ⏳ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk), `/r` également
     1. Invite de commande ou Powershell **en admin**
     2. `chkdsk c: /f /r` (et en fonction de vos disques.. && `chkdsk d: /f /r`, etc.)
     3. `>Blah blah besoin de redémarrer O/n` >> `O`
     4. Redémarrer / Attendre 5 ans et demi sauf si t'as un SSD/Nvme
-  - ✅ Windaube
-    - ✅ Update alakon
-    - ✅ [.net](https://dotnet.microsoft.com/download) > Runtime
-    - ✅ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
-  - ✅ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
-  - ✅ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
-    - ✅ Dell support assist
-    - ✅ Alienware update
-  - ✅ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
-  - ✅ Logiciels alakon
-    - ✅ Ouvrir VScode > Auto update plugins etc.
-    - ~~Filezilla~~ ✅ WinSCP, ✅ OBS, ✅ VLC, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
+  - ⏳ Windaube
+    - ⏳ Update alakon
+    - ⏳ [.net](https://dotnet.microsoft.com/download) > Runtime
+    - ⏳ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
+  - ⏳ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
+  - ⏳ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
+    - ⏳ Dell support assist
+    - ⏳ Alienware update
+  - ⏳ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
+  - ⏳ Logiciels alakon
+    - ⏳ Ouvrir VScode > Auto update plugins etc.
+    - ~~Filezilla~~ ⏳ WinSCP, ⏳ OBS, ⏳ VLC, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
     - ~~Powershell~~ Pris en compte par Windows update
       - [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
       - ( [Doc](https://docs.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) )
-    - ✅ Nvidia driver
-  - ✅ Supprimer les fichiers temporaires
+    - ⏳ Nvidia driver
+  - ⏳ Supprimer les fichiers temporaires
     - Exec > `temp` // Devrait ouvrir `~c:Windows\Temp`
     - Supprimer tout, Ignorer ceux utilisés
-  - ✅ WSL 2
+  - ⏳ WSL 2
     - Version Ubuntu
       - Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
     - Packages & terminal
@@ -170,7 +167,14 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
 
 ## ⏳ En attente
 
-Rieng
+### ⏳ ICCA Reims
+
+ 1. ⏳ Contrat dans mail
+    1. ⏳ Attente de retour sur
+       1. mes disponibilités qui ne correspondent pas
+       2. leur contrat qui est déconnant de ouf
+       3. l'ajout de mes CGV
+ 2. Récupérer infos de la boite pour factures
 
 ---
 
@@ -190,17 +194,18 @@ Bug clients majeurs, interruptions de service, etc.
 1. Cette semaine
    1. 🎯 Objectifs en gros
       1. à définir
-   2. 🌱💼 Institution > profile header
+   2. 🚀 Terminer passer corrections Merge Request
+      1. Supprimer les passages a la lignes en trop
+      2. Plus d'indentation verticale :'(
+      3. cf. Slack Sindhu
+      4. Maj la doc
+   3. 🌱💼 Institution > profile header
       1. 🌱♻️ Refacto icônes, la balise SVG est ~toujours pareille
          1. 📱 Voir pour faire le responsive des icônes, pas de style vu que dimension passée en props
       2. 🌱 Migrer l'ensemble des icônes
-      3. 📌 Probablement des ajustements à faire (Placement du badge, du titre, etc.), pas toutes les relations/dimensions dans le figma
-   3. 📱 Responsive : breakpoints fixés > cf. tailwind.css
+   4. 📱 Responsive : breakpoints fixés > cf. tailwind.css
       1. Configurer storybook afin qu'il corresponde
-   4. 🌱 Vérifier console
-   5. ⚖️ Posser des conventions pour les props, quand est-ce qu'on en utilise ? plutôt que le style
-2. 👪 Call Javier faire un point mardi 11h
-3. 👪 Réunion retours sur première livraison
+   5. 🌱 Vérifier console
 
 ---
 
@@ -224,17 +229,36 @@ Rieng
 
 ### 🔥 PB Modelisme
 
-1. 💾 Backup + folio
-   1. Faire des screens du site
-   2. Faire des screens du code + stats
-   3. Faire des screens de la documentation crée
-   4. Contenus textes du folio
-   5. Dump code, pas besoin de la BDD osef
-      1. Sauvegarde HDD
+1. 🚀💾 Backup + folio
+   1. ✅ Pages
+      1. [Accueil](https://dev.pb-modelisme.com/)
+      2. [Actualités](https://dev.pb-modelisme.com/actualites-modelisme/)
+      3. [Contactez-nous](https://dev.pb-modelisme.com/contact/)
+      4. [Inspiration](https://dev.pb-modelisme.com/inspiration/)
+      5. [Guide Aérographie](https://dev.pb-modelisme.com/guides/aerographie/)
+      6. [Services](https://dev.pb-modelisme.com/services/)
+      7. [Un service](https://dev.pb-modelisme.com/services/reparations/)
+      8. [Article promo](https://dev.pb-modelisme.com/promotions/maquettes-en-folies/)
+      9. [Toolbox](https://dev.pb-modelisme.com/toolbox/)
+      10. [Toolbox options thèmes](https://dev.pb-modelisme.com/toolbox-2/)
+   2. El behemoth
+   3. Faire des screens du site
+      1. 🚨 Certains boutons sont bleu sur bleu
+      2. Quelques minis ajustements à faire
+      3. Si il reste des images produit à remplacer à la volée sous toshop
+      4. Note : pas de vidéos, plus facile de flinguer les images non prop
+   4. Faire des screens du code + stats
+   5. Faire des screens de la documentation crée
+   6. Contenus textes du folio
+   7. Dump
+       1. ✅ Fichiers
+       2. BDD
+       3. A1WPM
+       4. Sauvegarde HDD
 2. 🔥 Benner
    1. Résilier serveur
 3. ⏳🏥 AFE
-      2. ⏳ Commission dans ~1 mois
+      1. ⏳ Commission dans ~1 mois
 
 ---
 
@@ -322,8 +346,6 @@ Branding, CV & sites
    1. Renommer préfixer technos
    2. Voir faire un projet liste de liens vers les projets regroupés en catégories
    3. dédoublonner default-config-files-for-github-repository & base-repository-github
-   4. Repo dédié checklist fin de site
-      1. [Base](https://docs.google.com/spreadsheets/d/1RHnaEn4WmYvjrAjmFAq8tfbINpSEE5XwtTZ3cJkn88g/edit?usp=share_link)
 
 ---
 
@@ -437,7 +459,7 @@ Branding, CV & sites
     3. [Pickles](https://www.youtube.com/watch?v=LBvr0K-6NIY)
     4. [4 recettes](https://www.youtube.com/watch?v=WZS07jU4U50) Moutarde fermentée / Huile origan / Sésame tahini / Cashew miso
 4. Appli radiateurs et config
-5. ♻️ Acheter flotte > magnésium
+5. ✅♻️ Acheter flotte > magnésium
 6. MSG maison
     1. [Recette](https://www.youtube.com/watch?v=sE3dYCphy2M)
 7. 🔍 Régime
@@ -459,6 +481,8 @@ Branding, CV & sites
     4. Demander si logement déjà vu
     5. Voir pour cagnotte permis moto
     6. Medieval tents
+10. Musique groupe "3 days grace"
+11. Anime "Redo of healer"
 
 ---
 

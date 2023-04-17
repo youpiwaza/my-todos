@@ -26,6 +26,10 @@ hosts
 
 hostsman
 
+### Recette Sofia œuf mollet à la japonaise
+
+Tiens tu voulais la recette nan? mes oeufs ont manifestement fait sensation 🤣🤣  Tu en trouveras facilement differentes versions sur le net, mais moi je cuis les oeufs 6mn15/30(eau avec un peu de vinaigre) ensuite je les fais mariner sans leur coquille 24 à 48h voire plus dans une marinade sauce soja salée (un peu)sauce soja sucrée, saké japonais, sauce mirin et de l'arôme de fumée que tu trouves sur internet. Faire chauffer la marinade d abord 2mn au micro ondes pour enlever un peu de l'alcool du saké. Faut goûter pour vérifier le goût, et tu peux ajouter d autres sauces dedans, faut expérimenter ! Marinade réutilisable plusieurs fois, quand les oeufs n'ont plus assez de goût bah faut la changer. Tu me diras si t'as tenté d'en faire !!
+
 ## 03/2023
 
 - [livres recos](https://blog-new.masamune.fr/wp-admin/post.php?post=199&action=edit)
