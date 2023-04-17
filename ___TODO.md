@@ -87,25 +87,25 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel plus tard/exponentiel
 
-- ⏳ Déplacer les terminés ✅ à chaque début de semaine dans done.md
+- ✅ Déplacer les terminés ✅ à chaque début de semaine dans done.md
 - 💩 Déplacer les TODO 🌱 dans _TODO_shame.md
-- ⏳ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ⏳ mails, ⏳ edt portable, ⏳ favoris, ⏳ bureau. Si possible description + lien.
-- ⏳ Nettoyer le fichier __TODO
-  - ⏳ Status
-  - ⏳💥 Ce fichier > ### Shame 💥 Cleaner pour vrai les trucs ou je ne passe jamais
-    - ⏳ Ranger dans fichiers TODO correspondant
-      - ⏳ Prioriser
+- ⏳ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ✅ mails, ✅ edt portable, ✅ favoris, ✅ bureau. Si possible description + lien.
+- ✅ Nettoyer le fichier __TODO
+  - ✅ Status
+  - ✅💥 Ce fichier > ### Shame 💥 Cleaner pour vrai les trucs ou je ne passe jamais
+    - ✅ Ranger dans fichiers TODO correspondant
+      - ✅ Prioriser
 - ⏳ Virer ce qui traine
-  - ⏳ sur le bureau
+  - ✅ sur le bureau
   - 💩 dans le dossier _shame du bureau
   - 💩 Lel ~(local)/_dev/_shame
-  - ⏳ Vider corbeille
-  - ⏳ Vider téléchargements
-  - ⏳ Dans les mails
-- ⏳ Déplacer veille onglets dans TODO_veille
+  - ✅ Vider corbeille
+  - ✅ Vider téléchargements
+  - ✅ Dans les mails
+- ✅ Déplacer veille onglets dans TODO_veille
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
-- ⏳ Déclaration Auto entrepreneur
+- ✅ Déclaration Auto entrepreneur
 - ⏳ Vérifier impôts sur espace
   - ⏳ Perso  / 11/04/2022
   - ⏳ Pro    / 11/04/2022
@@ -116,18 +116,18 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
     2. `chkdsk c: /f /r` (et en fonction de vos disques.. && `chkdsk d: /f /r`, etc.)
     3. `>Blah blah besoin de redémarrer O/n` >> `O`
     4. Redémarrer / Attendre 5 ans et demi sauf si t'as un SSD/Nvme
-  - ⏳ Windaube
-    - ⏳ Update alakon
-    - ⏳ [.net](https://dotnet.microsoft.com/download) > Runtime
-    - ⏳ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
-  - ⏳ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
-  - ⏳ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
-    - ⏳ Dell support assist
-    - ⏳ Alienware update
+  - ✅ Windaube
+    - ✅ Update alakon
+    - ✅ [.net](https://dotnet.microsoft.com/download) > Runtime
+    - ✅ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
+  - ✅ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
+  - ✅ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
+    - ✅ Dell support assist
+    - ✅ Alienware update
   - ⏳ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
-  - ⏳ Logiciels alakon
-    - ⏳ Ouvrir VScode > Auto update plugins etc.
-    - ~~Filezilla~~ ⏳ WinSCP, ⏳ OBS, ⏳ VLC, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
+  - ✅ Logiciels alakon
+    - ✅ Ouvrir VScode > Auto update plugins etc.
+    - ~~Filezilla~~ ✅ WinSCP, ✅ OBS, ✅ VLC, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
     - ~~Powershell~~ Pris en compte par Windows update
       - [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
       - ( [Doc](https://docs.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) )
@@ -135,7 +135,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
   - ⏳ Supprimer les fichiers temporaires
     - Exec > `temp` // Devrait ouvrir `~c:Windows\Temp`
     - Supprimer tout, Ignorer ceux utilisés
-  - ⏳ WSL 2
+  - ✅ WSL 2
     - Version Ubuntu
       - Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
     - Packages & terminal
@@ -145,21 +145,21 @@ omz update
 git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade && sudo apt -y clean && sudo apt -y autoremove && docker system prune -af
 ```
 
-- ⏳ Téléphone
-  - ⏳ Maj de la base
-  - ⏳ Maj des applications
-  - ⏳ Tous les 6 mois > reset usine
-- ⏳ Compléments alimentaires
+- ✅ Téléphone
+  - ✅ Maj de la base
+  - ✅ Maj des applications
+  - ✅ Tous les 6 mois > reset usine
+- ~✅ Compléments alimentaires
   - ⏳ Anaca3
     - ⏳ Attente livraison
-      - Pas les clés de la BAL lelelelelelelelelel omégadrole putain QU'EST CE QU'ON S'ESCLAFFE
-  - ⏳ Huile de foie de morue
-  - ⏳ Choline Inositol
+  - ✅ Huile de foie de morue
+  - ✅ Choline Inositol
   - ⏳ Trucs foie/reins
   - ⏳ Ginseng / "Super ginko"
   - ⏳ Mix vitamine
-  - ⏳ Doc > vitamine D tous les 6 mois
-  - ⏳ Miel gelée royale
+  - ✅ Doc > vitamine D tous les 6 mois
+  - ✅ Miel gelée royale
+  - ✅♻️ Acheter flotte > magnésium
 - ⏳ Tout est versionné, pas de WIP qui traîne
 - Dashlane > Surveillance dark web > changer mots de passe
 
@@ -459,17 +459,16 @@ Branding, CV & sites
     3. [Pickles](https://www.youtube.com/watch?v=LBvr0K-6NIY)
     4. [4 recettes](https://www.youtube.com/watch?v=WZS07jU4U50) Moutarde fermentée / Huile origan / Sésame tahini / Cashew miso
 4. Appli radiateurs et config
-5. ✅♻️ Acheter flotte > magnésium
-6. MSG maison
+5. MSG maison
     1. [Recette](https://www.youtube.com/watch?v=sE3dYCphy2M)
-7. 🔍 Régime
+6. 🔍 Régime
     1. PORK PANKO low carb !
     2. [Low carb](https://www.dietdoctor.com/low-carb) / keto
        1. Most fruits and fruit juice / **Although low-sugar berries — such as blackberries, raspberries, and strawberries — are ok in small to moderate amounts.**
     3. Keto wheat flour > farine avec prot ? [hey](https://www.youtube.com/watch?v=g2fTYDftlCg)
     4. Non fat ricotta cheese / provolone cheese
-8. 🔍 Champignon Lingzhi contre la fatigue & insomnie > Y'en a à grand frais !
-9. 🌱 Orga anniv pougnoutte mars 2023
+7. 🔍 Champignon Lingzhi contre la fatigue & insomnie > Y'en a à grand frais !
+8. 🌱 Orga anniv pougnoutte mars 2023
     1. Idées cadeaux
        1. Vélo, a voir en revenant de vacances
        2. Robe style médiéval, demander à Mélanie
@@ -481,8 +480,8 @@ Branding, CV & sites
     4. Demander si logement déjà vu
     5. Voir pour cagnotte permis moto
     6. Medieval tents
-10. Musique groupe "3 days grace"
-11. Anime "Redo of healer"
+9.  Musique groupe "3 days grace"
+10. Anime "Redo of healer"
 
 ---
 
