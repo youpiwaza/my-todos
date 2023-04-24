@@ -34,25 +34,27 @@ Indiquer ici les *tâches à effectuer en priorité*
 - Si besoin de focus, mettre une ou 2 tâches ici.
 - Ne pas tout fourrer ici, *respecter la priorisation*, sinon tout est fait à l'arrache
 
-1. Check PHP 8.2
-2. ⏳📌 Picard > spam
-3. 🚚 Déplacer sites clients
-4. Evogue
+1. 🚀 Evogue
    1. Tester identifiants connexion blah
    2. Préparer cours JS/React
-5. Fin de site / Liste outils
+2. 🚚 Déplacer sites clients
+3. Fin de site / Liste outils
    1. Check DNS reco par OVH [zonemaster](https://www.zonemaster.net/fr/run-test)
-6. Masamune > Déplacer anciens sites
-7. Portfolio / CV
-8. ⏳📌 Jus Mundi
+4. Masamune > Déplacer anciens sites
+5. Jus Mundi
+6. Portfolio / CV
+7. ⏳📌 Picard > spam
+8. Check PHP 8.2
 9. Perso
-   1. 👨‍⚕️ Envoyer feuille de soins
-   2. Concert Nosfell ?
-   3. Extraire photos du week end sofia/thomas
+   1. 💸 Check paiement exact canapé pour mettre sur compte epargne et sortir ça de la tête
+   2. 👨‍⚕️ Envoyer feuille de soins
+   3. Concert Nosfell ?
+   4. 💸 Paiement darons skis quand jus mundi payay
+   5. Extraire photos du week end sofia/thomas
       1. Kevin gif indiana jones avec fouet puis clip francis boule
-   4. 👨‍⚕️ Alan > Répondre truc sommeil > Pas sur le site internet, appli seulement :/
-   5. 👨‍⚕️ Alan > Faire exos pour le dos > Pas sur le site internet, appli seulement :/
-   6. 📱 Appeler BRED, cf. edt tel
+   6. 👨‍⚕️ Alan > Répondre truc sommeil > Pas sur le site internet, appli seulement :/
+   7. 👨‍⚕️ Alan > Faire exos pour le dos > Pas sur le site internet, appli seulement :/
+   8. 📱 Appeler BRED, cf. edt tel
        1. Remboursement ACEF 6€
        2. Intérêts forfaitaires janvier 2023, 3€
        3. Changer de conseiller
@@ -60,9 +62,9 @@ Indiquer ici les *tâches à effectuer en priorité*
           2. Ne nous a pas rappelé plusieurs fois
           3. Foutage de gueule
        4. Cela concernera la déclaration de 2023 pour le montant 2022, simplement faire attention
-   7. Pizza++
+   9. Pizza++
        1. [diastatic malt powder](https://www.joshuaweissman.com/post/dominos-pizza)
-   8. ⚡️ Ekwateur > virer prix fixe 0.3 au lieu de 0.18 ?
+   10. ⚡️ Ekwateur > virer prix fixe 0.3 au lieu de 0.18 ?
 
 ---
 
@@ -168,6 +170,8 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
        1. mes disponibilités qui ne correspondent pas
        2. leur contrat qui est déconnant de ouf
        3. l'ajout de mes CGV
+    2. 👪 Call le 24/04/23
+       1. ⏳ Retour "dans la semaine"
  2. Récupérer infos de la boite pour factures
 
 ### Perso
@@ -311,27 +315,87 @@ Rieng
 
 ### ⏳👨‍🏫 Evogue
 
-1. Mission Fin avril debut mai 2023
-   1. ✨ Pas de transport, en visio
-   2. Ajout précis à l'emploi du temps
-   3. Préparation ressources
-      1. ✨ Présentation (bp)
-      2. Cours
-         1. Pré-requis
-         2. Plans
-         3. Exos
-      3. Corrections
-         1. Exos
-         2. Faire une présentation pour les corrections > Dossier pas public
-      4. Vérifier sommaires des presentation
-      5. Archives pour BP & corrections & envoi sur stockage masamune
-      6. Les présentations contiennent l'ensemble des liens utiles
-      7. Tinyurl du dossier drive présentations + ajout dans presentation
-   4. Facture
-      1. Editée
-      2. Envoyée
-      3. Maj Paiement & impôts
-2. Mission JS Juin 2023 ?
+1. ✅ [Contrat](https://drive.google.com/drive/folders/1k9z6Zrg-wl8HFop2nK7-3kwVInaxQQZ5)
+   1. 💩 Il n'y a que 2 jours ?
+      1. ✅ Contrat en 2 parties Avril & mai
+      2. ✅ Signer mai
+      3. ✅ Ranger
+2. ✅ Boilerplate TODO list mission
+3. ✅🐛 [Github corrections](https://github.com/youpiwaza/evogue/tree/main/ressources/corrections)
+   1. ✅ Dossiers parents nom de technologies (clean php)
+4. 📧 Mission JS Juin 2023 ?
+
+#### 🎓 `2304 - Mission fin avril 2023 - 4 jours - ReactJs`
+
+1. ✅📝 Informations
+   1. 🚨 Site evogue down sur Brave > Passer par Chrome
+   2. ✅💬 Nommer mission correctement `2304 - Mission fin avril 2023 - 4 jours - ReactJs`
+   3. 📂 DossierS drive publique [Dupliquer BP](https://drive.google.com/drive/folders/1ZkcPSB0OTSOW64HA2mO_ayqoAtZbIUpL)
+2. ✅ Administration
+   1. ✅💼 Contrat signé sur le site evogue
+      1. ✅ Récupérer contrat/s
+         1. ✅🚨 Si mission à cheval sur plusieurs mois > un contrat par mois
+      2. ✅ Parapher, Signer 1ère 🚨 & dernière page
+      3. ✅ Renvoyer sur site Evogue
+      4. ✅ Ajout au [drive](https://drive.google.com/drive/folders/1HbdFkhxNmNFAzo3BcMbmf4l-bYOYYhkX)
+   2. ✅ [Facture/s](https://drive.google.com/drive/folders/1cMgHqCLoBZPZb9nkJzn7mXevOZTOfeCA)
+      1. 🚨 Si mission à cheval sur plusieurs mois > un contrat par mois
+      2. 🚨 Reprendre dates, horaires, sujet, 🚨🚨🚨 nombre d'heures du **contrat**
+      3. ✅ Editée
+      4. ✅ Envoyée @ `Envoi factures evogue <equipe@evogue.fr>`
+      5. ✅ Ajout au [drive](https://drive.google.com/drive/folders/1cMgHqCLoBZPZb9nkJzn7mXevOZTOfeCA)
+      6. ✅ Maj Paiement & impôts
+   3. ✅🎥 Visio
+      1. ✅🔒️📌 Noter & [tester identifiants](https://mail.google.com/mail/u/0/#inbox/FMfcgzGsmDsXzdPGwtSSRdjPRtlcZRZB)
+         1. Zoom
+            1. ID de Réunion personnelle `PMI`
+            2. ID : `formation8@alt-rh.com`
+            3. MP : `2023aLTRH`
+   4. ✅📅 Ajout précis à l'emploi du temps
+   5. ✅⏰ Ajout réveils portable
+      1. ✅🎥 Si visio > connecté 15 minutes avant le début des cours
+   6. 💩✨ Vérifier si cours existants sur [Github](https://github.com/youpiwaza/evogue/tree/main/ressources)
+   7. ✅❤️ Favoris > Dossier
+   8. ✅📧 Voir si recommandations dans mail
+3. 🚀 Préparation ressources
+   1. 💩 Vérifier la présence de cours/ressources sur le [site evogue](https://evogue.fr/formateur/login)
+      1. Rien par écrit, ~moultes heures de vidéos
+   2. ✅ Dossier drive mission, [exemple](https://drive.google.com/drive/folders/1_dWCgqM8mkKUdJl7wyJ1Go31KX7ngr1O)
+      1. ✅ Maj BP
+   3. 🚀✨ [Présentation (bp)](https://drive.google.com/drive/folders/1OidiH-jyd4mu5hdgTLX-foFiCDgIPdHI)
+      1. Se présenter en tant que "formateur consultant pour ALT RH CONSULTING"
+      2. Se présenter
+      3. Faire un tour de table des stagiaires leur en permettre éventuellement de se présenter
+   4. Cours
+      1. Pré-requis
+      2. Plans
+      3. Exos
+   5. Corrections
+      1. Exos
+      2. Faire une présentation pour les corrections > Dossier pas public
+   6. Evalutation : TP ou Quizz
+   7. Vérifier sommaires des presentation
+   8. 💾 Ajout sur le github
+   9. 💾 Archives pour BP & corrections & envoi sur stockage masamune
+   10. Les présentations contiennent l'ensemble des liens utiles
+   11. Tinyurl du dossier drive présentations + ajout dans presentation
+   12. Ajout liens au dossier favoris
+   13. Ajouter cours au [drive dédié boite SUPPORT COURS](https://drive.google.com/drive/folders/1hw7lvWzXb25eTnLRPuc7OSqggZ5BR458)
+4. ♻️ Tous les jours
+   1. Vérifier présence
+      1. Les captures d'écrans matin et soir pour chaque jour avec l'affichage du jour et de l'heure de votre écran apparent
+      2. puis envoyer sur drive
+         1. [semaine du 24/04](https://drive.google.com/drive/folders/19tl2vx8tJC_Cv0QI92j2YUI3JgjL5fJ7)
+         2. [semaine du 01/05](https://drive.google.com/drive/folders/1dcRN17sGhJc4SdOWqNBIV0rHR5AqEQPA)
+      3. Remplir emargement
+         1. [semaine du 24/04](https://docs.google.com/spreadsheets/d/1ZGc0dPFvfsYI0tqPdya9PJUIV5ivE4x-/edit#gid=1105340602)
+         2. [semaine du 01/05](https://docs.google.com/spreadsheets/d/19zAMNwYhEeBFW0JsmewdCURG0ryd4B1Q/edit#gid=1105340602)
+5. 👋 Fin de formation
+   1. Ajouter le lien vers les corrections dans les présentations
+   2. Remplir [fiche de suivi étudiants](https://docs.google.com/document/d/1A-PEmVYV8dtTM13jTy7xvIxcLadfElXltI6aoaAnTVY/edit)
+   3. Remplir les [notes étudiants](https://docs.google.com/spreadsheets/d/1NxDo6PZf6vviiDWyK3-UiKPZB1bD9ZG-/edit#gid=886766735)
+   4. Demander aux stagiaires de remplir le fichier : questionnaires de satisfaction de satisfaction
+   5. 💾 Rapatrier l'ensemble des fichiers fournis sur mon drive
 
 ---
 
