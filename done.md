@@ -2,6 +2,154 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 21/04/2023
+
+Masamune
+
+1. ✅ Portfolio / CV
+   1. ✅ Procédure ajout
+      1. ✅📌👌 PB Modelisme
+         1. ✅ Images
+         2. ✅ Projet > MD
+            1. ✅ 🧠 Pour CV > XP Pro
+            2. ✅ Pour site vitrine > Portfolio
+         3. ✅ Maj /xp
+         4. ✅ Maj /competences
+         5. ✅ Upload sur masamune.fr/cv
+            1. ✅🐛 cv/competences
+
+🔥 PB Modélisme > Backup + folio
+
+1. ✅🖼️ Screenshots
+   1. ✅ Pages
+      1. ✅🖼️👌 [Accueil](https://dev.pb-modelisme.com/)
+      2. ✅🖼️👌 [Actualités](https://dev.pb-modelisme.com/actualites-modelisme/)
+      3. ✅🖼️👌 [Contactez-nous](https://dev.pb-modelisme.com/contact/)
+      4. ✅🖼️👌 [Inspiration](https://dev.pb-modelisme.com/inspiration/)
+      5. ✅🖼️👌 [Guide Aérographie](https://dev.pb-modelisme.com/guides/aerographie/)
+      6. ✅🖼️👌 [Services](https://dev.pb-modelisme.com/services/)
+      7. ✅🖼️👌 [Un service](https://dev.pb-modelisme.com/services/reparations/)
+      8. ✅🖼️👌 [Article promo](https://dev.pb-modelisme.com/promotions/maquettes-en-folies/)
+      9. ✅🖼️👌 [Toolbox](https://dev.pb-modelisme.com/toolbox/)
+      10. ✅🖼️👌 [Toolbox options thèmes](https://dev.pb-modelisme.com/toolbox-2/)
+   2. ✅🖼️👌 [El behemoth](https://dev.pb-modelisme.com/produit/test-tous-les-champs-personnalises-remplis/)
+      1. ✅🖼️👌 [Admin](https://dev.pb-modelisme.com/wp-admin/post.php?post=67068&action=edit)
+   3. ✅🖼️👌 Un produit normal [~voiture](https://dev.pb-modelisme.com/produit/test-voiture-completement-rempli/)
+   4. ✅`/pb-modelisme--com/___masamune-portfolio/screenshots/`
+   5. ✅ Faire des screens du site 🖼️👌
+      1. ✅Quelques minis ajustements à faire
+         1. 🚨 Certains boutons sont bleu sur bleu
+         2. ~Si colonnage même hauteur
+         3. Si il reste des images produit à remplacer à la volée
+         4. Noms de produits & EAN
+2. ✅💬 Contenus textes du folio
+   1. ✅ Tout a été anonymisé
+   2. ✅ Kwakjéfé > crafts n' tests
+   3. ✅ Stats
+   4. `/pb-modelisme--com/___masamune-portfolio/README.md`
+3. ✅💾 Dump
+    1. ✅ Fichiers
+       1. ce projay > `/pb-modelisme--com/wordpress`
+    2. ✅ BDD
+       1. ✅ Depuis phpMyAdmin
+          1. ✅ Avec posts & postsmeta a part
+          2. 👥 Users pas importés anonymat blah blah bizoux
+          3. 💥 Sinon export se suicide dans la bouche
+       2. ✅ Plugin A1WPM > Base de données uniquement
+       3. 💥 De toutes manières le mieux reste de repartir d'une base propre et de procéder à l'intégralité
+          1. Des imports via l'ancien site (export de CSV via ancien phpmyadmin, puis import dans plugin alakon nouveaux WP)
+    3. ✅ Sauvegarde HDD
+4. ✅👥 Anonymat
+   1. ✅🔥 Virer copie locale "site actuel pb modelisme"
+5. ✅ Folio normalisé avec repo folio
+6. ✅🔥 Benner
+   1. ✅ Résilier serveur
+   2. ✅ Cleaner sacrets
+
+💼 Jus Mundi
+
+1. ⏳📌 Terminer passer corrections Merge Request
+   1. ✅ Supprimer les passages a la lignes en trop
+   2. ✅ Plus d'indentation verticale :'(
+   3. ✅ cf. Slack Sindhu
+   4. ✅ Maj la doc
+2. ✅📌 Terminer passer corrections Merge Request
+   1. ✅📌 Recettage Sindhu & dev team
+   2. ✅ Rebase
+3. ✅👪 Réunion Javier 21/04/2023 > Retours sur première livraison, Futurs objectifs, Facturation
+   1. ✅ CR
+
+Champ picard
+
+1. ✅⬆️ Passer les majs
+   1. ✅ WordPress 6.2
+   2. ✅ Thèmes
+   3. ✨ Plugins (déjà à jour)
+2. ✅🔒️ Sécurité > prévenir les spam via formulaire contact / mail
+   1. ✅📦️🔒️🔧 Plugins > Akismet anti-spam > Configuration
+   2. ✅📦️🔒️🔧 Ajout & configuration d'un plugin de sécurité `WordFence`
+      1. ✅ Inscription
+      2. ✅🛡️🔥 Config firewall
+      3. ✅📡 Scan
+         1. ✅💩🔥 Ancien plugin de sécurité `Acunetix Secure WordPress` pas maintenu > On vire
+            1. 💩 KO à la désinstallation via l'admin > Virer les fichiers du serveur
+   3. ✅📦️🧹 Installation du plugin `WP-Optimize` > Nettoyage de la base de données
+   4. ✅👌 Page de contact > Virer l'adresse mail
+      1. ✅ Suppression de l'adresse mail visible
+      2. ✅ Ajout d'une petite phrase pour les visiteurs
+      3. ✅🔧 Formulaire de contact > Configuration de l'antispam en suivant les recommandations (thème divi)
+         1. ✅🤖 Captcha de base (test pour humains)
+3. Round 2
+   1. ✅ Check mail fourni
+   2. ✅📝 Formulaire de contact > Divi par defaut > Le captcha de base ne fonctionne pas
+      1. 💩 Voir dans les options de divi ? Rieng
+   3. ✅ Mettre en place google re-captcha v3 ? [Lieng tuto alakon](https://divitheme.net/stop-divi-contact-form-spam/)
+      1. ✅ Création du compte google recaptcha v3
+      2. ✅🔧 Configuration du formulaire divi
+         1. Niveau de vérification entre 0 et 1, je suis la reco et je le pose à 0.7.
+         2. Possibilité de le passer à 1 (au max) si cela ne fait pas le taf
+      3. ~✅👌 Vérification que l'[intégration recommandée par google](https://www.google.com/recaptcha/admin/site/631432665/setup) soir bien complète de la part de Divi
+         1. ✅ Chargez l'API JavaScript
+         2. ~✅ Fonction de rappel
+         3. ~✅ Attributs HTML
+            1. Intégration propre au thème Divi
+
+🚚 Déplacer sites clients
+
+1. ✅📝 com--champagne-pascal-picard
+   1. Il y a un serveur sur mon OVH
+   2. J'ai leS NDD
+   3. Le site est bien hébergé sur mon serveur ovh pour le moment
+   4. Nouveau serveur fourni par les clients
+   5. ✅ Vérifier les identifiants
+      1. ✅ Anciens
+      2. ✅ Nouveaux
+   6. ✅ Dumps anciens
+      1. ✅ Fichiers
+      2. ✅ BDD
+      3. ✅ A1WPM
+   7. ✅ Injection nouveaux
+      1. ✅ Fichiers
+      2. ✅ BDD
+      3. (A1WPM)
+   8. ✅ PHP > 8.2
+   9. ✅ Maj wp-config
+   10. ✅ Test sans changements de DNS [cluster http](http://vcggggz.cluster031.hosting.ovh.net/)
+       1. ✅ Regen permaliens
+   11. ✅ Maj wp-config > virer site home url
+2. ✅⚡️ com--aldinfographie
+   1. Il y a un serveur sur mon OVH
+      1. Le site est dessus
+   2. J'ai le NDD
+   3. ✅⚡️ Paiement en direct osef ?
+      1. NDD
+      2. Hébergement
+
+Perso
+
+1. ✅ Vinted
+2. ✅👨‍⚕️ RDV prise de sang
+
 ## 14/04/2023
 
 Taf

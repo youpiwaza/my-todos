@@ -30,18 +30,23 @@ Légende :
 
 Indiquer ici les *tâches à effectuer en priorité*
 
+- Sert de sommaire > Ctrl + F vers détails plus bas
 - Si besoin de focus, mettre une ou 2 tâches ici.
 - Ne pas tout fourrer ici, *respecter la priorisation*, sinon tout est fait à l'arrache
 
-1. 🚀 Jus Mundi
-2. 🚀 Portfolio / CV
-   1. 🚀 Clôturer PB
-   2. Evogue > Cours fin mars 2023
-   3. Article de blog dédiay
-3. Terminer de déplacer sites masamune.fr
-4. 🌱 Evogue > Préparer cours JS/React ?
-5. Perso
-   1. Rdv prise de sang
+1. Check PHP 8.2
+2. ⏳📌 Picard > spam
+3. 🚚 Déplacer sites clients
+4. Evogue
+   1. Tester identifiants connexion blah
+   2. Préparer cours JS/React
+5. Fin de site / Liste outils
+   1. Check DNS reco par OVH [zonemaster](https://www.zonemaster.net/fr/run-test)
+6. Masamune > Déplacer anciens sites
+7. Portfolio / CV
+8. ⏳📌 Jus Mundi
+9. Perso
+   1. 👨‍⚕️ Envoyer feuille de soins
    2. Concert Nosfell ?
    3. Extraire photos du week end sofia/thomas
       1. Kevin gif indiana jones avec fouet puis clip francis boule
@@ -55,20 +60,9 @@ Indiquer ici les *tâches à effectuer en priorité*
           2. Ne nous a pas rappelé plusieurs fois
           3. Foutage de gueule
        4. Cela concernera la déclaration de 2023 pour le montant 2022, simplement faire attention
-   7. ⚡️ Ekwateur > virer prix fixe 0.3 au lieu de 0.18 ?
-   8. ⏳ Relance syndic > clé qui n'ouvre pas le local à poubelle
-       1. ⏳ Mail envoyé le 11/04/23
-
----
-
-1. ~🚀 Déplacer Blog
-   1. Derniers contenus
-   2. Ajuster thème
-   3. Mise en ligne
-   4. Plugins & config
-   5. Opti site & SEO
-2. Déplacer site vitrine
-   1. prod-old ??
+   7. Pizza++
+       1. [diastatic malt powder](https://www.joshuaweissman.com/post/dominos-pizza)
+   8. ⚡️ Ekwateur > virer prix fixe 0.3 au lieu de 0.18 ?
 
 ---
 
@@ -87,27 +81,27 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel plus tard/exponentiel
 
-- ✅ Déplacer les terminés ✅ à chaque début de semaine dans done.md
+- ⏳ Déplacer les terminés ✅ à chaque début de semaine dans done.md
 - 💩 Déplacer les TODO 🌱 dans _TODO_shame.md
-- ⏳ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ✅ mails, ✅ edt portable, ✅ favoris, ✅ bureau. Si possible description + lien.
-- ✅ Nettoyer le fichier __TODO
-  - ✅ Status
-  - ✅💥 Ce fichier > ### Shame 💥 Cleaner pour vrai les trucs ou je ne passe jamais
-    - ✅ Ranger dans fichiers TODO correspondant
-      - ✅ Prioriser
+- ⏳ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ⏳ mails, ⏳ edt portable, ⏳ favoris, ⏳ bureau. Si possible description + lien.
+- ⏳ Nettoyer le fichier __TODO
+  - ⏳ Status
+  - ⏳💥 Ce fichier > ### Shame 💥 Cleaner pour vrai les trucs ou je ne passe jamais
+    - ⏳ Ranger dans fichiers TODO correspondant
+      - ⏳ Prioriser
 - ⏳ Virer ce qui traine
-  - ✅ sur le bureau
+  - ⏳ sur le bureau
   - 💩 dans le dossier _shame du bureau
   - 💩 Lel ~(local)/_dev/_shame
-  - ✅ Vider corbeille
-  - ✅ Vider téléchargements
-  - ✅ Dans les mails
-- ✅ Déplacer veille onglets dans TODO_veille
+  - ⏳ Vider corbeille
+  - ⏳ Vider téléchargements
+  - ⏳ Dans les mails
+- ⏳ Déplacer veille onglets dans TODO_veille
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
-- ✅ Déclaration Auto entrepreneur
+- ⏳ Déclaration Auto entrepreneur
 - ⏳ Vérifier impôts sur espace
-  - ⏳ Perso  / 11/04/2022
+  - 💥 Perso  / Revenus 2022
   - ⏳ Pro    / 11/04/2022
 - ⏳ Vérifier messages [Ameli](https://assure.ameli.fr/)
 - ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21
@@ -116,18 +110,18 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
     2. `chkdsk c: /f /r` (et en fonction de vos disques.. && `chkdsk d: /f /r`, etc.)
     3. `>Blah blah besoin de redémarrer O/n` >> `O`
     4. Redémarrer / Attendre 5 ans et demi sauf si t'as un SSD/Nvme
-  - ✅ Windaube
-    - ✅ Update alakon
-    - ✅ [.net](https://dotnet.microsoft.com/download) > Runtime
-    - ✅ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
-  - ✅ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
-  - ✅ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
-    - ✅ Dell support assist
-    - ✅ Alienware update
+  - ⏳ Windaube
+    - ⏳ Update alakon
+    - ⏳ [.net](https://dotnet.microsoft.com/download) > Runtime
+    - ⏳ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
+  - ⏳ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
+  - ⏳ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
+    - ⏳ Dell support assist
+    - ⏳ Alienware update
   - ⏳ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
-  - ✅ Logiciels alakon
-    - ✅ Ouvrir VScode > Auto update plugins etc.
-    - ~~Filezilla~~ ✅ WinSCP, ✅ OBS, ✅ VLC, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
+  - ⏳ Logiciels alakon
+    - ⏳ Ouvrir VScode > Auto update plugins etc.
+    - ~~Filezilla~~ ⏳ WinSCP, ⏳ OBS, ⏳ VLC, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
     - ~~Powershell~~ Pris en compte par Windows update
       - [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
       - ( [Doc](https://docs.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) )
@@ -135,7 +129,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
   - ⏳ Supprimer les fichiers temporaires
     - Exec > `temp` // Devrait ouvrir `~c:Windows\Temp`
     - Supprimer tout, Ignorer ceux utilisés
-  - ✅ WSL 2
+  - ⏳ WSL 2
     - Version Ubuntu
       - Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
     - Packages & terminal
@@ -145,11 +139,11 @@ omz update
 git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade && sudo apt -y clean && sudo apt -y autoremove && docker system prune -af
 ```
 
-- ✅ Téléphone
-  - ✅ Maj de la base
-  - ✅ Maj des applications
-  - ✅ Tous les 6 mois > reset usine
-- ~✅ Compléments alimentaires
+- ⏳ Téléphone
+  - ⏳ Maj de la base
+  - ⏳ Maj des applications
+  - ⏳ Tous les 6 mois > reset usine
+- ~⏳ Compléments alimentaires
   - ⏳ Anaca3
     - ⏳ Attente livraison
   - ✅ Huile de foie de morue
@@ -157,7 +151,7 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
   - ⏳ Trucs foie/reins
   - ⏳ Ginseng / "Super ginko"
   - ⏳ Mix vitamine
-  - ✅ Doc > vitamine D tous les 6 mois
+  - ⏳ Doc > vitamine D tous les 6 mois
   - ✅ Miel gelée royale
   - ✅♻️ Acheter flotte > magnésium
 - ⏳ Tout est versionné, pas de WIP qui traîne
@@ -176,12 +170,19 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
        3. l'ajout de mes CGV
  2. Récupérer infos de la boite pour factures
 
+### Perso
+
+1. ⏳ Relance syndic > clé qui n'ouvre pas le local à poubelle
+   1. ⏳ Mail envoyé le 11/04/23
+
 ---
 
 ### ⏳🌱 Vérifications sur la longueur
 
 1. AE > 🌱 Payer impôts CFE rattrapage 2020
    1. Avis en mai 2023, 473€, [à payer en juin](https://mail.google.com/mail/u/0/#inbox/KtbxLvhVcWmcxbbZhnsRMnQSnbSMnkJCGq)
+   2. ⏳🏥 AFE
+      1. ⏳ Commission dans ~1 mois, ptet lel
 
 ---
 
@@ -189,23 +190,7 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
 
 Bug clients majeurs, interruptions de service, etc.
 
-### 💼💼💼 Jus Mundi
-
-1. Cette semaine
-   1. 🎯 Objectifs en gros
-      1. à définir
-   2. 🚀 Terminer passer corrections Merge Request
-      1. Supprimer les passages a la lignes en trop
-      2. Plus d'indentation verticale :'(
-      3. cf. Slack Sindhu
-      4. Maj la doc
-   3. 🌱💼 Institution > profile header
-      1. 🌱♻️ Refacto icônes, la balise SVG est ~toujours pareille
-         1. 📱 Voir pour faire le responsive des icônes, pas de style vu que dimension passée en props
-      2. 🌱 Migrer l'ensemble des icônes
-   4. 📱 Responsive : breakpoints fixés > cf. tailwind.css
-      1. Configurer storybook afin qu'il corresponde
-   5. 🌱 Vérifier console
+Rieng
 
 ---
 
@@ -227,51 +212,146 @@ Rieng
 
 ## 💼 Taf 💼
 
-### 🔥 PB Modelisme
+### ⏳📌🍾 Picard > spam
 
-1. 🚀💾 Backup + folio
-   1. ✅ Pages
-      1. [Accueil](https://dev.pb-modelisme.com/)
-      2. [Actualités](https://dev.pb-modelisme.com/actualites-modelisme/)
-      3. [Contactez-nous](https://dev.pb-modelisme.com/contact/)
-      4. [Inspiration](https://dev.pb-modelisme.com/inspiration/)
-      5. [Guide Aérographie](https://dev.pb-modelisme.com/guides/aerographie/)
-      6. [Services](https://dev.pb-modelisme.com/services/)
-      7. [Un service](https://dev.pb-modelisme.com/services/reparations/)
-      8. [Article promo](https://dev.pb-modelisme.com/promotions/maquettes-en-folies/)
-      9. [Toolbox](https://dev.pb-modelisme.com/toolbox/)
-      10. [Toolbox options thèmes](https://dev.pb-modelisme.com/toolbox-2/)
-   2. El behemoth
-   3. Faire des screens du site
-      1. 🚨 Certains boutons sont bleu sur bleu
-      2. Quelques minis ajustements à faire
-      3. Si il reste des images produit à remplacer à la volée sous toshop
-      4. Note : pas de vidéos, plus facile de flinguer les images non prop
-   4. Faire des screens du code + stats
-   5. Faire des screens de la documentation crée
-   6. Contenus textes du folio
-   7. Dump
-       1. ✅ Fichiers
-       2. BDD
-       3. A1WPM
-       4. Sauvegarde HDD
-2. 🔥 Benner
-   1. Résilier serveur
-3. ⏳🏥 AFE
-      1. ⏳ Commission dans ~1 mois
+1. ⏳📌 Tester
+   1. ⏳📌 Est-ce que les vériatbles e-mails partent toujours ?
+   2. ⏳📌 Est-ce que le spam s'est arrété ?
+
+### 💼 Jus Mundi
+
+1. Cette semaine
+   1. 🎯 Objectifs en gros
+      1. à définir
+      2. 💥 Rétablir nuxt.config en local
+   2. 🌱💼 Institution > profile header
+   3. 🌱♻️ Refacto icônes, la balise SVG est ~toujours pareille
+      1. 📱 Voir pour faire le responsive des icônes, pas de style vu que dimension passée en props
+      2. 🌱 Migrer l'ensemble des icônes
+   4. 📱 Responsive : breakpoints fixés > cf. tailwind.css
+      1. Configurer storybook afin qu'il corresponde
+   5. 🌱 Vérifier console
+
+---
+
+### 🚚 Déplacer sites clients
+
+1. 💸 Passer les hébergements en par mois > Pas possible
+   1. com--champagne-pascal-picard > Résiliation 2 mai 2023
+      1. ⏳ Changer DNS > Attendre d'avoir le temps de vérifier
+   2. 🚀 com--champagne-didier-lapie > Résiliation 10 juin 2023
+
+---
+
+1. 📝 com--champagne-pascal-picard
+2. ⏳ Changer DNS > Attendre d'avoir le temps de vérifier
+    1. Admin WP > Regen permaliens
+    2. Activer https
+    3. Activer firewall
+    4. Activer logs dédiés
+3. ovh manager > php en prod
+4. Maj identifiants
+    1. Benner anciens
+5. Mail picard > "Maj" > Tester commande
+6. Benner ancien serveur
+
+---
+
+1. ✅📝 com--champagne-didier-lapie
+   1. Il y a un serveur sur mon OVH
+   2. J'ai le NDD
+   3. Hébergé sur mon serveur ovh ?
+      1. 🐛 Ptet un problème de config dans la zone DNS
+         1. ipv6 ok `2001:41d0:301::31`
+         2. ipv4 wtf
+            1. 🐛 Zone DNS `46.105.204.31` > correspond à rien ?
+            2. Serveur chez wam `146.59.209.152`
+            3. Serveur fourni par les lapie `146.59.209.152` Le même > sur le même cluster, idem picard
+   4. Nouveau serveur fourni par les clients
+2. 🚀🚀🚀 Vérifier les identifiants
+   1. Anciens
+   2. Nouveaux
+3. Dumps anciens
+   1. Fichiers
+   2. BDD
+   3. A1WPM
+4. Injection nouveaux
+   1. Fichiers
+   2. BDD
+   3. (A1WPM)
+5. PHP > 8.2
+6. Maj wp-config
+7. Test sans changements de DNS [cluster http](http://vcggggz.cluster031.hosting.ovh.net/)
+   1. Regen permaliens
+8. Maj wp-config > virer site home url
+9. ⏳ Changer DNS > Attendre d'avoir le temps de vérifier
+    1. Admin WP > Regen permaliens
+    2. Activer https
+    3. Activer firewall
+    4. Activer logs dédiés
+10. ovh manager > php en prod
+11. Maj identifiants
+    1. Benner anciens
+12. Mail picard > "Maj" > Tester commande
+13. Benner ancien serveur
+
+---
+
+1. Mettre au propre renouvellement NDD & herberg
+   1. Sortir factures
+   2. 📧 Email a tlm avec dates de renouvellements + tarifs si on les as sur le manager ovh
+2. ⏳⚡️ com--sophieberberian
+   1. Il y a un serveur sur mon OVH
+      1. Le site est dessus
+   2. J'ai PAS le NDD
+   3. ⏳⚡️ Paiement en direct osef ?
+      1. Hébergement
+
+---
+
+### ⏳👨‍🏫 Evogue
+
+1. Mission Fin avril debut mai 2023
+   1. ✨ Pas de transport, en visio
+   2. Ajout précis à l'emploi du temps
+   3. Préparation ressources
+      1. ✨ Présentation (bp)
+      2. Cours
+         1. Pré-requis
+         2. Plans
+         3. Exos
+      3. Corrections
+         1. Exos
+         2. Faire une présentation pour les corrections > Dossier pas public
+      4. Vérifier sommaires des presentation
+      5. Archives pour BP & corrections & envoi sur stockage masamune
+      6. Les présentations contiennent l'ensemble des liens utiles
+      7. Tinyurl du dossier drive présentations + ajout dans presentation
+   4. Facture
+      1. Editée
+      2. Envoyée
+      3. Maj Paiement & impôts
+2. Mission JS Juin 2023 ?
 
 ---
 
 ### Masamune
 
-Branding, CV & sites
+#### Masamune > Déplacer anciens sites
 
-1. CV > `/cv-portfolio-tout`
-   1. Rajouter le liens vers les [tests techniques](https://github.com/youpiwaza/tests-techniques/)
-   2. Regrouper l'ensemble des textes
-   3. Sauvegarde github
-   4. Sauvegarde sur DD sites web
-2. blog.masamune.fr
+1. 👥 Dédoublonner la TODO
+2. Déplacer Blog
+   1. Derniers contenus
+   2. Ajuster thème
+   3. Mise en ligne
+   4. Plugins & config
+   5. Opti site & SEO
+3. Déplacer site vitrine
+   1. prod-old ??
+
+---
+
+1. blog.masamune.fr
    1. 🌱 Récupérer pages
        1. Principales ref nat "kwaksé ce blog"
           1. Accueil > Expliquer refonte > Moins de temps donc plus d'articles et plus regulier > Plein d'articles en attente + live coding prof
@@ -331,18 +411,18 @@ Branding, CV & sites
           4. Autres conneries & mettre à jour repo git
           5. En faire un article putain
    5. Dumps & save hdd
-3. masamune.fr > prod-old
+2. masamune.fr > prod-old
    1. Sauvegarde github
    2. Sauvegarde sur DD sites web
    3. 🌱 Maj liens cv expériences pro
       1. Pas oublier le https
    4. Yootoob > Ajouter écrans de fin / liens vers le site masamune.fr une fois terminé
    5. Service > Retour sur CV > 50€
-4. 🌱 Sites masamune apray 🌱
+3. 🌱 Sites masamune apray 🌱
    1. Rajouter ancien folio
    2. Rajouter screens siteS v3
    3. Blog > articles en TODO
-5. github > cleaner
+4. github > cleaner
    1. Renommer préfixer technos
    2. Voir faire un projet liste de liens vers les projets regroupés en catégories
    3. dédoublonner default-config-files-for-github-repository & base-repository-github
@@ -404,48 +484,6 @@ Branding, CV & sites
 
 ---
 
-### ⏳ 👨‍🏫 Reims éducative
-
-1. ⏳ En attente de retour que tout est good
-   1. 🚨 Attention pour fixer les dates, certaines je suis pas dispo
-
----
-
-### ⏳ 👨‍🏫 Evogue
-
-1. Mission Fin avril debut mai 2023
-   1. ✨ Pas de transport, en visio
-   2. Ajout précis à l'emploi du temps
-   3. Préparation ressources
-      1. ✨ Présentation (bp)
-      2. Cours
-         1. Pré-requis
-         2. Plans
-         3. Exos
-      3. Corrections
-         1. Exos
-         2. Faire une présentation pour les corrections > Dossier pas public
-      4. Vérifier sommaires des presentation
-      5. Archives pour BP & corrections & envoi sur stockage masamune
-      6. Les présentations contiennent l'ensemble des liens utiles
-      7. Tinyurl du dossier drive présentations + ajout dans presentation
-   4. Facture
-      1. Editée
-      2. Envoyée
-      3. Maj Paiement & impôts
-2. Mission JS Juin 2023 ?
-
----
-
-### 🚚 Déplacer sites clients
-
-1. com--aldinfographie
-2. com--champagne-didier-lapie
-3. com--sophieberberian
-4. com--champagne-pascal-picard
-
----
-
 ## 💪 Perso
 
 1. Musiques taf & portable
@@ -480,7 +518,7 @@ Branding, CV & sites
     4. Demander si logement déjà vu
     5. Voir pour cagnotte permis moto
     6. Medieval tents
-9.  Musique groupe "3 days grace"
+9. Musique groupe "3 days grace"
 10. Anime "Redo of healer"
 
 ---
