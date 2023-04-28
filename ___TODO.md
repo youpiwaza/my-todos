@@ -17,6 +17,7 @@ Légende :
 - 📝 Doc
 - 📧 email envoyé/à envoyer
 - ✨ Rien à toucher, déjà en place
+- 👪 Réunion ou call
 
 ## 🧠⏫ Raccourcis & process à intégrer au flow
 
@@ -34,27 +35,31 @@ Indiquer ici les *tâches à effectuer en priorité*
 - Si besoin de focus, mettre une ou 2 tâches ici.
 - Ne pas tout fourrer ici, *respecter la priorisation*, sinon tout est fait à l'arrache
 
-1. 🚀 Evogue
-   1. Tester identifiants connexion blah
-   2. Préparer cours JS/React
-2. 🚚 Déplacer sites clients
-3. Fin de site / Liste outils
-   1. Check DNS reco par OVH [zonemaster](https://www.zonemaster.net/fr/run-test)
-4. Masamune > Déplacer anciens sites
-5. Jus Mundi
+1. Evogue
+2. 🚀🚚 Déplacer sites clients
+3. Mettre au propre renouvellement NDD & herberg
+4. Fin de site / Liste outils > Check DNS reco par OVH [zonemaster](https://www.zonemaster.net/fr/run-test)
+5. Masamune > Déplacer anciens sites
 6. Portfolio / CV
-7. ⏳📌 Picard > spam
-8. Check PHP 8.2
+   1. 230426-01-mercredi-matin---2-absents
+7. Jus Mundi
+8. ⬆️ Check PHP 8.2
 9. Perso
    1. 💸 Check paiement exact canapé pour mettre sur compte epargne et sortir ça de la tête
-   2. 👨‍⚕️ Envoyer feuille de soins
-   3. Concert Nosfell ?
-   4. 💸 Paiement darons skis quand jus mundi payay
-   5. Extraire photos du week end sofia/thomas
+   2. ✅👨‍⚕️ Envoyer feuille de soins
+   3. ⏳👨‍⚕️ Prise de sang
+      1. ✅ Fay
+      2. ✅ Sauvegarder document
+      3. ⏳ RDV doc bilang
+   4. Concert Nosfell ?
+   5. 💸 Paiement darons skis quand jus mundi payay
+   6. Extraire photos du week end sofia/thomas
       1. Kevin gif indiana jones avec fouet puis clip francis boule
-   6. 👨‍⚕️ Alan > Répondre truc sommeil > Pas sur le site internet, appli seulement :/
-   7. 👨‍⚕️ Alan > Faire exos pour le dos > Pas sur le site internet, appli seulement :/
-   8. 📱 Appeler BRED, cf. edt tel
+   7. ✅👨‍⚕️ Alan > Répondre truc sommeil > Pas sur le site internet, appli seulement :/
+      1. ✅ Répondu
+      2. 🚀 A tester
+   8. 👨‍⚕️ Alan > Faire exos pour le dos > Pas sur le site internet, appli seulement :/
+   9. 📱 Appeler BRED, cf. edt tel
        1. Remboursement ACEF 6€
        2. Intérêts forfaitaires janvier 2023, 3€
        3. Changer de conseiller
@@ -62,9 +67,11 @@ Indiquer ici les *tâches à effectuer en priorité*
           2. Ne nous a pas rappelé plusieurs fois
           3. Foutage de gueule
        4. Cela concernera la déclaration de 2023 pour le montant 2022, simplement faire attention
-   9. Pizza++
+   10. Pizza++
        1. [diastatic malt powder](https://www.joshuaweissman.com/post/dominos-pizza)
-   10. ⚡️ Ekwateur > virer prix fixe 0.3 au lieu de 0.18 ?
+   11. ✅👪⚡️ Ekwateur > virer prix fixe 0.3 au lieu de 0.18 ?
+       1. ✅ Vigi s'en occupe
+   12. ✅ Re-payer gitkraken parce que fuck
 
 ---
 
@@ -138,7 +145,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 
 ```bash
 omz update
-git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade && sudo apt -y clean && sudo apt -y autoremove && docker system prune -af
+git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade && sudo apt -y clean && sudo apt -y autoremove && docker system prune -af && npm install -g npm@latest
 ```
 
 - ⏳ Téléphone
@@ -216,48 +223,80 @@ Rieng
 
 ## 💼 Taf 💼
 
-### ⏳📌🍾 Picard > spam
+### ✅📌🍾 Picard > spam
 
-1. ⏳📌 Tester
-   1. ⏳📌 Est-ce que les vériatbles e-mails partent toujours ?
-   2. ⏳📌 Est-ce que le spam s'est arrété ?
+1. ✅📌 Tester, mail envoyé le 21/04
+   1. ✅📌 Est-ce que les vériatbles e-mails partent toujours ?
+   2. ✅📌 Est-ce que le spam s'est arrété ?
+2. ✅ Pas de retours
 
 ### 💼 Jus Mundi
 
 1. Cette semaine
    1. 🎯 Objectifs en gros
-      1. à définir
+      1. à reprendre de la réunion objectifs & estimations
+         1. Jav slack
+            1. As discussed for this template:
+            2. We'll integrate as is today in the template on general
+            3. We'll use the current defined Typography
+            4. we'll use the current defined Color
+            5. Max will see if we can re-use the current component, if rework is needed we'll go to a total redo instead.
       2. 💥 Rétablir nuxt.config en local
-   2. 🌱💼 Institution > profile header
-   3. 🌱♻️ Refacto icônes, la balise SVG est ~toujours pareille
+   2. ✅👪 Réunion objectifs & estimations
+      1. ✅ avec CR
+   3. Facture
+   4. 🌱♻️ Refacto icônes, la balise SVG est ~toujours pareille
       1. 📱 Voir pour faire le responsive des icônes, pas de style vu que dimension passée en props
       2. 🌱 Migrer l'ensemble des icônes
-   4. 📱 Responsive : breakpoints fixés > cf. tailwind.css
+   5. 📱 Responsive : breakpoints fixés > cf. tailwind.css
       1. Configurer storybook afin qu'il corresponde
-   5. 🌱 Vérifier console
+   6. 🌱 Vérifier console
 
 ---
 
 ### 🚚 Déplacer sites clients
 
 1. 💸 Passer les hébergements en par mois > Pas possible
-   1. com--champagne-pascal-picard > Résiliation 2 mai 2023
-      1. ⏳ Changer DNS > Attendre d'avoir le temps de vérifier
-   2. 🚀 com--champagne-didier-lapie > Résiliation 10 juin 2023
+2. ✅ com--champagne-pascal-picard > Résiliation 2 mai 2023
+3. 🚀 com--champagne-didier-lapie > Résiliation 10 juin 2023
 
 ---
 
-1. 📝 com--champagne-pascal-picard
-2. ⏳ Changer DNS > Attendre d'avoir le temps de vérifier
-    1. Admin WP > Regen permaliens
-    2. Activer https
-    3. Activer firewall
-    4. Activer logs dédiés
-3. ovh manager > php en prod
-4. Maj identifiants
-    1. Benner anciens
-5. Mail picard > "Maj" > Tester commande
-6. Benner ancien serveur
+1. ✅📝 com--champagne-pascal-picard
+2. ✅ Changer DNS
+   1. ✅ Ovh masa > DNS > Maj
+   2. ✅⏳ ATTENDRE 30 PUTAINS DE MINUTES
+   3. ✅ Ovh masa > multisite > Virer
+   4. ✅ Ovh picard > multisite > Ajouter
+   5. ✅ Vérifier
+      1. ✅ Pas d'url forcée dans wp-config
+      2. ✅ Export BDD > Changer toutes les urls
+      3. ✅ Export BDD > Changer tous les emplacements de ressources serveur
+3. ✅ Après
+    1. ✅ Admin WP > Regen permaliens
+    2. ✅ OVH Manager > Activer https
+    3. ✅ OVH Manager > Activer firewall
+    4. ✅ OVH Manager > Activer logs dédiés
+    5. ✅ WP > Regen wordfence > .user.ini
+       1. ✅ Config firewall
+       2. ✅ Scan
+    6. ✅ WP > Tous les plugins > Maj auto
+    7. ✅ WP > Complianz sur Chrome
+    8. ✅ WP > Wp-Optimize
+    9. ✅ WP > Akismet
+    10. ✅ WP > Santé du site
+        1. ✅⏳ Laisser le temps de charger
+    11. ✅ WP > Cache
+    12. ✅ WP > Converter for Media
+        1. ✅ Configurer
+        2. ✅⏳ Executer conversion de masse
+        3. ✅ Vider cache
+4. ✅ ovh manager > php en prod + pare feu
+5. ✅ Maj identifiants
+    1. ✅ Benner anciens
+    2. Maj WinSCP
+6. ✅ Mail picard > "Maj" > Tester commande en vrai
+7. ✅ Benner ancien serveur > résiliation effective au 2 mai
 
 ---
 
@@ -272,32 +311,53 @@ Rieng
             2. Serveur chez wam `146.59.209.152`
             3. Serveur fourni par les lapie `146.59.209.152` Le même > sur le même cluster, idem picard
    4. Nouveau serveur fourni par les clients
-2. 🚀🚀🚀 Vérifier les identifiants
-   1. Anciens
-   2. Nouveaux
-3. Dumps anciens
-   1. Fichiers
-   2. BDD
-   3. A1WPM
-4. Injection nouveaux
-   1. Fichiers
-   2. BDD
+2. ✅ Vérifier les identifiants
+3. ✅ Dumps anciens
+   1. ✅ Fichiers
+   2. ✅ BDD
+   3. ✅ A1WPM
+4. ✅ Injection nouveaux
+   1. ✅ Fichiers
+   2. ✅ BDD
    3. (A1WPM)
-5. PHP > 8.2
-6. Maj wp-config
-7. Test sans changements de DNS [cluster http](http://vcggggz.cluster031.hosting.ovh.net/)
-   1. Regen permaliens
-8. Maj wp-config > virer site home url
-9. ⏳ Changer DNS > Attendre d'avoir le temps de vérifier
-    1. Admin WP > Regen permaliens
-    2. Activer https
-    3. Activer firewall
-    4. Activer logs dédiés
-10. ovh manager > php en prod
-11. Maj identifiants
-    1. Benner anciens
-12. Mail picard > "Maj" > Tester commande
-13. Benner ancien serveur
+5. ✅ PHP > 8.2 + cgi + DEVELOPPEMENT POUR LES LOGS PUTAIN + sans pare feu
+6. ✅ Maj wp-config
+7. ✅ Test sans changements de DNS [cluster http](http://efijgfe.cluster031.hosting.ovh.net/)
+   1. ✅ Renvoyer /wp-admin & wp-includes/
+      1. ✅ Recup ancien
+      2. ✅ Renvoi nouveau
+   2. Regen permaliens
+8. ✅ Changer DNS
+   1. ✅ Ovh masa > DNS > Maj
+   2. ✅⏳ ATTENDRE 30 PUTAINS DE MINUTES > Modif faite à **18h48**
+   3. ✅ Ovh masa > multisite > Virer
+   4. ✅ Ovh lapie > multisite > Ajouter
+      1. ✅Tout activer
+   5. ✅ Vérifier
+      1. ✅ Pas d'url forcée dans wp-config
+      2. ✅ Export BDD > Changer toutes les urls
+      3. ✅ Export BDD > Changer tous les emplacements de ressources serveur
+9. Après
+    1. ✅ WC > HMAC
+    2. ✅ Admin WP > Regen permaliens
+    3. ✅ OVH Manager > Activer https
+    4. ✅ OVH Manager > Activer firewall
+    5. ✅ OVH Manager > Activer logs dédiés
+    6. ✅ WP > Regen wordfence > .user.ini
+       1. ✅ Config firewall
+       2. ✅ Scan
+    7. ✅ WP > Tous les plugins > Maj auto
+    8. ✅ WP > Complianz sur Chrome
+    9. ✅ WP > Wp-Optimize
+    10. ✅ WP > Akismet
+    11. ✅ WP > Santé du site
+        1. ✅⏳ Laisser le temps de charger
+    12. ✅ Remettre age gate
+10. ✅ ovh manager > php en prod + pare feu
+11. ✅ Maj identifiants
+    1. ✅ Benner anciens
+    2. ✅ Maj WinSCP
+12. ✅ Mail lapie > "Maj" > Tester commande en vrai
 
 ---
 
@@ -323,14 +383,17 @@ Rieng
 2. ✅ Boilerplate TODO list mission
 3. ✅🐛 [Github corrections](https://github.com/youpiwaza/evogue/tree/main/ressources/corrections)
    1. ✅ Dossiers parents nom de technologies (clean php)
-4. 📧 Mission JS Juin 2023 ?
+4. Mettre dans mes cours > debrander
+   1. Discord
+   2. Blog
+5. 📧 Mission JS Juin 2023 ?
 
 #### 🎓 `2304 - Mission fin avril 2023 - 4 jours - ReactJs`
 
 1. ✅📝 Informations
    1. 🚨 Site evogue down sur Brave > Passer par Chrome
    2. ✅💬 Nommer mission correctement `2304 - Mission fin avril 2023 - 4 jours - ReactJs`
-   3. 📂 DossierS drive publique [Dupliquer BP](https://drive.google.com/drive/folders/1ZkcPSB0OTSOW64HA2mO_ayqoAtZbIUpL)
+   3. 📂 DossierS drive publique [Dupliquer BP](https://drive.google.com/drive/folders/18xqLGqmPkGqhSIuAFlM_DOz_CIfkJFwM)
 2. ✅ Administration
    1. ✅💼 Contrat signé sur le site evogue
       1. ✅ Récupérer contrat/s
@@ -362,25 +425,32 @@ Rieng
       1. Rien par écrit, ~moultes heures de vidéos
    2. ✅ Dossier drive mission, [exemple](https://drive.google.com/drive/folders/1_dWCgqM8mkKUdJl7wyJ1Go31KX7ngr1O)
       1. ✅ Maj BP
-   3. 🚀✨ [Présentation (bp)](https://drive.google.com/drive/folders/1OidiH-jyd4mu5hdgTLX-foFiCDgIPdHI)
-      1. Se présenter en tant que "formateur consultant pour ALT RH CONSULTING"
-      2. Se présenter
-      3. Faire un tour de table des stagiaires leur en permettre éventuellement de se présenter
-   4. Cours
-      1. Pré-requis
-      2. Plans
-      3. Exos
+   3. ✅✨ [Présentation (bp)](https://drive.google.com/drive/folders/1OidiH-jyd4mu5hdgTLX-foFiCDgIPdHI)
+      1. ✅ Se présenter en tant que "formateur consultant pour ALT RH CONSULTING"
+      2. ✅ Se présenter
+      3. ✅ Faire un tour de table des stagiaires leur en permettre éventuellement de se présenter
+   4. ✅ Cours
+      1. ✅🏭📝 "2 / Présentation des cours PHP SQL"
+         1. Dupliquer [ça](https://docs.google.com/presentation/d/114-bWJ9Tmi7E0ArVQ84is7ipUlOD1WXZxgWHmeHB_Eo/edit#slide=id.g1f9aecfdd77_0_14)
+            1. Vider
+            2. Rajouter titres
+               1. 🧠 Objectifs Théoriques
+               2. 💪 Objectifs Pratiques
+               3. 👷 Pré-requis
+               4. 🌱 Suggestions de projets
+            3. Ajouter au BP
+      2. ✅ Supports de cours
    5. Corrections
       1. Exos
       2. Faire une présentation pour les corrections > Dossier pas public
    6. Evalutation : TP ou Quizz
-   7. Vérifier sommaires des presentation
+   7. ✅ Vérifier sommaires des presentation
    8. 💾 Ajout sur le github
    9. 💾 Archives pour BP & corrections & envoi sur stockage masamune
    10. Les présentations contiennent l'ensemble des liens utiles
-   11. Tinyurl du dossier drive présentations + ajout dans presentation
-   12. Ajout liens au dossier favoris
-   13. Ajouter cours au [drive dédié boite SUPPORT COURS](https://drive.google.com/drive/folders/1hw7lvWzXb25eTnLRPuc7OSqggZ5BR458)
+   11. ✅ Tinyurl du dossier drive présentations + ajout dans presentation
+   12. ✅ Ajout liens au dossier favoris
+   13. ✅ Ajouter cours au [drive dédié boite SUPPORT COURS](https://drive.google.com/drive/folders/1hw7lvWzXb25eTnLRPuc7OSqggZ5BR458)
 4. ♻️ Tous les jours
    1. Vérifier présence
       1. Les captures d'écrans matin et soir pour chaque jour avec l'affichage du jour et de l'heure de votre écran apparent
@@ -390,12 +460,13 @@ Rieng
       3. Remplir emargement
          1. [semaine du 24/04](https://docs.google.com/spreadsheets/d/1ZGc0dPFvfsYI0tqPdya9PJUIV5ivE4x-/edit#gid=1105340602)
          2. [semaine du 01/05](https://docs.google.com/spreadsheets/d/19zAMNwYhEeBFW0JsmewdCURG0ryd4B1Q/edit#gid=1105340602)
+   2. 🚨 Ajouter cours **actualisés** au [drive dédié boite SUPPORT COURS](https://drive.google.com/drive/folders/1hw7lvWzXb25eTnLRPuc7OSqggZ5BR458)
 5. 👋 Fin de formation
    1. Ajouter le lien vers les corrections dans les présentations
    2. Remplir [fiche de suivi étudiants](https://docs.google.com/document/d/1A-PEmVYV8dtTM13jTy7xvIxcLadfElXltI6aoaAnTVY/edit)
    3. Remplir les [notes étudiants](https://docs.google.com/spreadsheets/d/1NxDo6PZf6vviiDWyK3-UiKPZB1bD9ZG-/edit#gid=886766735)
    4. Demander aux stagiaires de remplir le fichier : questionnaires de satisfaction de satisfaction
-   5. 💾 Rapatrier l'ensemble des fichiers fournis sur mon drive
+   5. 💾 Rapatrier l'ensemble des fichiers fournis sur mon drive (emargement, captures, exos, etc.)
 
 ---
 
@@ -411,7 +482,17 @@ Rieng
    4. Plugins & config
    5. Opti site & SEO
 3. Déplacer site vitrine
-   1. prod-old ??
+   1. prod-old > l'ancien site masamune.fr
+   2. prod > nouveau wp > prod.masamune.fr
+      1. ✅ 500 > OVH Manager > php > dev
+      2. ✅ Virer le tas de merde bdd > WP-optimize
+   3. 🐛 Admin > Projet ? Wtf +  Il y a des restes de woocommerce
+   4. ✅🔥 Tout benner repartir d'une installation clean
+      1. Récupérer les contenu déjà créés des nouvelles pages [nique tout](https://docs.google.com/document/d/1w88CIdw7LNbKpmFHZbWhWxXU2kAeXVSHKGaAcSUJyfg/edit#)
+   5. 📝 WordPress Projets > Catégories & tags > Utiliser pour... les projets
+   6. Divi > Choisir un thème
+      1. Template alakon pour projets
+      2. [Déglinguer](http://masamune.fr/Ag4Jm8iTlx5nu4/wp-admin/edit.php)
 
 ---
 
@@ -550,27 +631,28 @@ Rieng
 
 ## 💪 Perso
 
-1. Musiques taf & portable
-2. Peinture Chtulu
+1. [Bible Dry age](https://www.fumoir.net/accessoires-maturation/403-la-bible-dry-ager-de-la-maturation-de-viande-version-anglaise.html)
+2. Musiques taf & portable
+3. Peinture Chtulu
     1. [How to paint Extreme Light Sources - OSL tutorial](https://www.youtube.com/watch?v=c48UiPSBfcg)
     2. [INDESTRUCTIBLE Gaming Bases - Quick & Easy](https://www.youtube.com/watch?v=tRFfsAG-Yf8)
     3. Green gold pour le [grand ancien](https://www.youtube.com/watch?v=AgJqjIMd6k8)
-3. Bouffe mayzon
+4. Bouffe mayzon
     1. [Gochuan mayson](https://www.youtube.com/watch?v=GyzWB5wh4Yw)
     2. [Vinaigres](https://www.youtube.com/watch?v=V9nfVu9zGxk)
     3. [Pickles](https://www.youtube.com/watch?v=LBvr0K-6NIY)
     4. [4 recettes](https://www.youtube.com/watch?v=WZS07jU4U50) Moutarde fermentée / Huile origan / Sésame tahini / Cashew miso
-4. Appli radiateurs et config
-5. MSG maison
+5. Appli radiateurs et config
+6. MSG maison
     1. [Recette](https://www.youtube.com/watch?v=sE3dYCphy2M)
-6. 🔍 Régime
+7. 🔍 Régime
     1. PORK PANKO low carb !
     2. [Low carb](https://www.dietdoctor.com/low-carb) / keto
        1. Most fruits and fruit juice / **Although low-sugar berries — such as blackberries, raspberries, and strawberries — are ok in small to moderate amounts.**
     3. Keto wheat flour > farine avec prot ? [hey](https://www.youtube.com/watch?v=g2fTYDftlCg)
     4. Non fat ricotta cheese / provolone cheese
-7. 🔍 Champignon Lingzhi contre la fatigue & insomnie > Y'en a à grand frais !
-8. 🌱 Orga anniv pougnoutte mars 2023
+8. 🔍 Champignon Lingzhi contre la fatigue & insomnie > Y'en a à grand frais !
+9. 🌱 Orga anniv pougnoutte mars 2023
     1. Idées cadeaux
        1. Vélo, a voir en revenant de vacances
        2. Robe style médiéval, demander à Mélanie
@@ -582,8 +664,8 @@ Rieng
     4. Demander si logement déjà vu
     5. Voir pour cagnotte permis moto
     6. Medieval tents
-9. Musique groupe "3 days grace"
-10. Anime "Redo of healer"
+10. Musique groupe "3 days grace"
+11. Anime "Redo of healer"
 
 ---
 

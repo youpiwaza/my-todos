@@ -18,6 +18,8 @@ Remettre patreon Boris, YMS, Bloodywood
   - [hey](https://brodandtaylor.com/products/sahara-folding-dehydrator?variant=37376502956188)
   - [hey](https://brodandtaylor.com/collections/coffee-tea/products/spice-and-coffee-grinder)
   - [hey](https://brodandtaylor.com/pages/fermentation-culturing)
+- Dry ager book, [original cher may voir dessous](https://dryager.com.au/product/dry-ager-book/)
+  - [Bible Dry age importé FR 74€](https://www.fumoir.net/accessoires-maturation/403-la-bible-dry-ager-de-la-maturation-de-viande-version-anglaise.html)
 - [Épices](https://www.epices-roellinger.com/fr/taxons/melanges-epices)
 - [Four a pizza maison](https://www.youtube.com/watch?v=w3f8-bHPYWk)
 - [gin piger henricus](https://www.youtube.com/watch?v=7X-3DF_CbU0)
