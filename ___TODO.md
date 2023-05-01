@@ -35,31 +35,22 @@ Indiquer ici les *tâches à effectuer en priorité*
 - Si besoin de focus, mettre une ou 2 tâches ici.
 - Ne pas tout fourrer ici, *respecter la priorisation*, sinon tout est fait à l'arrache
 
-1. Evogue
-2. 🚀🚚 Déplacer sites clients
-3. Mettre au propre renouvellement NDD & herberg
-4. Fin de site / Liste outils > Check DNS reco par OVH [zonemaster](https://www.zonemaster.net/fr/run-test)
-5. Masamune > Déplacer anciens sites
-6. Portfolio / CV
+1. Mettre au propre renouvellement NDD & herberg
+2. Evogue
+3. Fin de site / Liste outils > Check DNS reco par OVH [zonemaster](https://www.zonemaster.net/fr/run-test)
+4. Masamune > Déplacer anciens sites
+   1. Re-résilier serveur, attention avant le 19
+5. Portfolio / CV
    1. 230426-01-mercredi-matin---2-absents
-7. Jus Mundi
-8. ⬆️ Check PHP 8.2
-9. Perso
-   1. 💸 Check paiement exact canapé pour mettre sur compte epargne et sortir ça de la tête
-   2. ✅👨‍⚕️ Envoyer feuille de soins
-   3. ⏳👨‍⚕️ Prise de sang
-      1. ✅ Fay
-      2. ✅ Sauvegarder document
-      3. ⏳ RDV doc bilang
-   4. Concert Nosfell ?
-   5. 💸 Paiement darons skis quand jus mundi payay
-   6. Extraire photos du week end sofia/thomas
-      1. Kevin gif indiana jones avec fouet puis clip francis boule
-   7. ✅👨‍⚕️ Alan > Répondre truc sommeil > Pas sur le site internet, appli seulement :/
-      1. ✅ Répondu
-      2. 🚀 A tester
-   8. 👨‍⚕️ Alan > Faire exos pour le dos > Pas sur le site internet, appli seulement :/
-   9. 📱 Appeler BRED, cf. edt tel
+6. Jus Mundi
+7. ⬆️ Check PHP 8.2
+8. Perso
+   1. ⏳♻️💸 Check paiement exact canapé pour mettre sur compte epargne et sortir ça de la tête
+      1. ⏳📌 Prélevé
+   2. ⏳👨‍⚕️ Prise de sang > ⏳ RDV doc bilang
+   3. ⏳ Concert Nosfell ?
+   4. 👨‍⚕️ Alan > Faire exos pour le dos > Pas sur le site internet, appli seulement :/
+   5. 📱 Appeler BRED, cf. edt tel
        1. Remboursement ACEF 6€
        2. Intérêts forfaitaires janvier 2023, 3€
        3. Changer de conseiller
@@ -67,11 +58,8 @@ Indiquer ici les *tâches à effectuer en priorité*
           2. Ne nous a pas rappelé plusieurs fois
           3. Foutage de gueule
        4. Cela concernera la déclaration de 2023 pour le montant 2022, simplement faire attention
-   10. Pizza++
+   6. Pizza++
        1. [diastatic malt powder](https://www.joshuaweissman.com/post/dominos-pizza)
-   11. ✅👪⚡️ Ekwateur > virer prix fixe 0.3 au lieu de 0.18 ?
-       1. ✅ Vigi s'en occupe
-   12. ✅ Re-payer gitkraken parce que fuck
 
 ---
 
@@ -108,10 +96,10 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 - ⏳ Déplacer veille onglets dans TODO_veille
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
-- ⏳ Déclaration Auto entrepreneur
+- ✅ Déclaration Auto entrepreneur / Avril 2023
 - ⏳ Vérifier impôts sur espace
   - 💥 Perso  / Revenus 2022
-  - ⏳ Pro    / 11/04/2022
+  - 💥 Pro    / 11/04/2022
 - ⏳ Vérifier messages [Ameli](https://assure.ameli.fr/)
 - ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21
   - ⏳ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk), `/r` également
@@ -223,13 +211,6 @@ Rieng
 
 ## 💼 Taf 💼
 
-### ✅📌🍾 Picard > spam
-
-1. ✅📌 Tester, mail envoyé le 21/04
-   1. ✅📌 Est-ce que les vériatbles e-mails partent toujours ?
-   2. ✅📌 Est-ce que le spam s'est arrété ?
-2. ✅ Pas de retours
-
 ### 💼 Jus Mundi
 
 1. Cette semaine
@@ -242,122 +223,12 @@ Rieng
             4. we'll use the current defined Color
             5. Max will see if we can re-use the current component, if rework is needed we'll go to a total redo instead.
       2. 💥 Rétablir nuxt.config en local
-   2. ✅👪 Réunion objectifs & estimations
-      1. ✅ avec CR
-   3. Facture
-   4. 🌱♻️ Refacto icônes, la balise SVG est ~toujours pareille
+   2. 🌱♻️ Refacto icônes, la balise SVG est ~toujours pareille
       1. 📱 Voir pour faire le responsive des icônes, pas de style vu que dimension passée en props
       2. 🌱 Migrer l'ensemble des icônes
-   5. 📱 Responsive : breakpoints fixés > cf. tailwind.css
+   3. 📱 Responsive : breakpoints fixés > cf. tailwind.css
       1. Configurer storybook afin qu'il corresponde
-   6. 🌱 Vérifier console
-
----
-
-### 🚚 Déplacer sites clients
-
-1. 💸 Passer les hébergements en par mois > Pas possible
-2. ✅ com--champagne-pascal-picard > Résiliation 2 mai 2023
-3. 🚀 com--champagne-didier-lapie > Résiliation 10 juin 2023
-
----
-
-1. ✅📝 com--champagne-pascal-picard
-2. ✅ Changer DNS
-   1. ✅ Ovh masa > DNS > Maj
-   2. ✅⏳ ATTENDRE 30 PUTAINS DE MINUTES
-   3. ✅ Ovh masa > multisite > Virer
-   4. ✅ Ovh picard > multisite > Ajouter
-   5. ✅ Vérifier
-      1. ✅ Pas d'url forcée dans wp-config
-      2. ✅ Export BDD > Changer toutes les urls
-      3. ✅ Export BDD > Changer tous les emplacements de ressources serveur
-3. ✅ Après
-    1. ✅ Admin WP > Regen permaliens
-    2. ✅ OVH Manager > Activer https
-    3. ✅ OVH Manager > Activer firewall
-    4. ✅ OVH Manager > Activer logs dédiés
-    5. ✅ WP > Regen wordfence > .user.ini
-       1. ✅ Config firewall
-       2. ✅ Scan
-    6. ✅ WP > Tous les plugins > Maj auto
-    7. ✅ WP > Complianz sur Chrome
-    8. ✅ WP > Wp-Optimize
-    9. ✅ WP > Akismet
-    10. ✅ WP > Santé du site
-        1. ✅⏳ Laisser le temps de charger
-    11. ✅ WP > Cache
-    12. ✅ WP > Converter for Media
-        1. ✅ Configurer
-        2. ✅⏳ Executer conversion de masse
-        3. ✅ Vider cache
-4. ✅ ovh manager > php en prod + pare feu
-5. ✅ Maj identifiants
-    1. ✅ Benner anciens
-    2. Maj WinSCP
-6. ✅ Mail picard > "Maj" > Tester commande en vrai
-7. ✅ Benner ancien serveur > résiliation effective au 2 mai
-
----
-
-1. ✅📝 com--champagne-didier-lapie
-   1. Il y a un serveur sur mon OVH
-   2. J'ai le NDD
-   3. Hébergé sur mon serveur ovh ?
-      1. 🐛 Ptet un problème de config dans la zone DNS
-         1. ipv6 ok `2001:41d0:301::31`
-         2. ipv4 wtf
-            1. 🐛 Zone DNS `46.105.204.31` > correspond à rien ?
-            2. Serveur chez wam `146.59.209.152`
-            3. Serveur fourni par les lapie `146.59.209.152` Le même > sur le même cluster, idem picard
-   4. Nouveau serveur fourni par les clients
-2. ✅ Vérifier les identifiants
-3. ✅ Dumps anciens
-   1. ✅ Fichiers
-   2. ✅ BDD
-   3. ✅ A1WPM
-4. ✅ Injection nouveaux
-   1. ✅ Fichiers
-   2. ✅ BDD
-   3. (A1WPM)
-5. ✅ PHP > 8.2 + cgi + DEVELOPPEMENT POUR LES LOGS PUTAIN + sans pare feu
-6. ✅ Maj wp-config
-7. ✅ Test sans changements de DNS [cluster http](http://efijgfe.cluster031.hosting.ovh.net/)
-   1. ✅ Renvoyer /wp-admin & wp-includes/
-      1. ✅ Recup ancien
-      2. ✅ Renvoi nouveau
-   2. Regen permaliens
-8. ✅ Changer DNS
-   1. ✅ Ovh masa > DNS > Maj
-   2. ✅⏳ ATTENDRE 30 PUTAINS DE MINUTES > Modif faite à **18h48**
-   3. ✅ Ovh masa > multisite > Virer
-   4. ✅ Ovh lapie > multisite > Ajouter
-      1. ✅Tout activer
-   5. ✅ Vérifier
-      1. ✅ Pas d'url forcée dans wp-config
-      2. ✅ Export BDD > Changer toutes les urls
-      3. ✅ Export BDD > Changer tous les emplacements de ressources serveur
-9. Après
-    1. ✅ WC > HMAC
-    2. ✅ Admin WP > Regen permaliens
-    3. ✅ OVH Manager > Activer https
-    4. ✅ OVH Manager > Activer firewall
-    5. ✅ OVH Manager > Activer logs dédiés
-    6. ✅ WP > Regen wordfence > .user.ini
-       1. ✅ Config firewall
-       2. ✅ Scan
-    7. ✅ WP > Tous les plugins > Maj auto
-    8. ✅ WP > Complianz sur Chrome
-    9. ✅ WP > Wp-Optimize
-    10. ✅ WP > Akismet
-    11. ✅ WP > Santé du site
-        1. ✅⏳ Laisser le temps de charger
-    12. ✅ Remettre age gate
-10. ✅ ovh manager > php en prod + pare feu
-11. ✅ Maj identifiants
-    1. ✅ Benner anciens
-    2. ✅ Maj WinSCP
-12. ✅ Mail lapie > "Maj" > Tester commande en vrai
+   4. 🌱 Vérifier console
 
 ---
 
@@ -375,18 +246,10 @@ Rieng
 
 ### ⏳👨‍🏫 Evogue
 
-1. ✅ [Contrat](https://drive.google.com/drive/folders/1k9z6Zrg-wl8HFop2nK7-3kwVInaxQQZ5)
-   1. 💩 Il n'y a que 2 jours ?
-      1. ✅ Contrat en 2 parties Avril & mai
-      2. ✅ Signer mai
-      3. ✅ Ranger
-2. ✅ Boilerplate TODO list mission
-3. ✅🐛 [Github corrections](https://github.com/youpiwaza/evogue/tree/main/ressources/corrections)
-   1. ✅ Dossiers parents nom de technologies (clean php)
-4. Mettre dans mes cours > debrander
+1. Mettre dans mes cours > debrander
    1. Discord
    2. Blog
-5. 📧 Mission JS Juin 2023 ?
+2. 📧 Mission JS Juin 2023 ?
 
 #### 🎓 `2304 - Mission fin avril 2023 - 4 jours - ReactJs`
 
@@ -484,13 +347,10 @@ Rieng
 3. Déplacer site vitrine
    1. prod-old > l'ancien site masamune.fr
    2. prod > nouveau wp > prod.masamune.fr
-      1. ✅ 500 > OVH Manager > php > dev
-      2. ✅ Virer le tas de merde bdd > WP-optimize
-   3. 🐛 Admin > Projet ? Wtf +  Il y a des restes de woocommerce
-   4. ✅🔥 Tout benner repartir d'une installation clean
+   3. ✅🔥 Tout benner repartir d'une installation clean
       1. Récupérer les contenu déjà créés des nouvelles pages [nique tout](https://docs.google.com/document/d/1w88CIdw7LNbKpmFHZbWhWxXU2kAeXVSHKGaAcSUJyfg/edit#)
-   5. 📝 WordPress Projets > Catégories & tags > Utiliser pour... les projets
-   6. Divi > Choisir un thème
+   4. 📝 WordPress Projets > Catégories & tags > Utiliser pour... les projets
+   5. Divi > Choisir un thème
       1. Template alakon pour projets
       2. [Déglinguer](http://masamune.fr/Ag4Jm8iTlx5nu4/wp-admin/edit.php)
 

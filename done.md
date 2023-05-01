@@ -2,6 +2,173 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 28/04/2023
+
+Perso
+
+1. ✅♻️💸 Check paiement exact canapé pour mettre sur compte epargne et sortir ça de la tête
+   1. ✅ 10 x 80 €, à priori à partir de mai 2023
+   2. ✅ Virement pour Mai 2023 sur compte courant
+2. ✅👨‍⚕️ Envoyer feuille de soins
+3. 👨‍⚕️ Prise de sang
+   1. ✅ Fay
+   2. ✅ Sauvegarder document
+4. ✅💸 Paiement darons skis quand jus mundi payay
+5. ✅ Extraire photos du week end sofia/thomas
+6. ✅👨‍⚕️ Alan > Répondre truc sommeil > Pas sur le site internet, appli seulement :/
+   1. ✅ Répondu
+   2. ✅ A tester
+7. ✅👪⚡️ Ekwateur > virer prix fixe 0.3 au lieu de 0.18 ?
+   1. ✅ Vigi s'en occupe
+8. ✅ Re-payer gitkraken parce que fuck
+
+✅📌🍾 Picard > spam
+
+1. ✅📌 Tester, mail envoyé le 21/04
+   1. ✅📌 Est-ce que les vériatbles e-mails partent toujours ?
+   2. ✅📌 Est-ce que le spam s'est arrété ?
+2. ✅ ok
+
+💼 Jus Mundi
+
+1. ✅👪 Réunion objectifs & estimations
+   1. ✅ avec CR
+2. ✅ Facture
+
+🚚 Déplacer sites clients
+
+1. 💸 Passer les hébergements en par mois > Pas possible
+2. ✅ com--champagne-pascal-picard > Résiliation 2 mai 2023
+3. ✅ com--champagne-didier-lapie > Résiliation 10 juin 2023
+
+---
+
+1. ✅📝 com--champagne-pascal-picard
+2. ✅ Changer DNS
+   1. ✅ Ovh masa > DNS > Maj
+   2. ✅⏳ ATTENDRE 30 PUTAINS DE MINUTES
+   3. ✅ Ovh masa > multisite > Virer
+   4. ✅ Ovh picard > multisite > Ajouter
+   5. ✅ Vérifier
+      1. ✅ Pas d'url forcée dans wp-config
+      2. ✅ Export BDD > Changer toutes les urls
+      3. ✅ Export BDD > Changer tous les emplacements de ressources serveur
+3. ✅ Après
+    1. ✅ Admin WP > Regen permaliens
+    2. ✅ OVH Manager > Activer https
+    3. ✅ OVH Manager > Activer firewall
+    4. ✅ OVH Manager > Activer logs dédiés
+    5. ✅ WP > Regen wordfence > .user.ini
+       1. ✅ Config firewall
+       2. ✅ Scan
+    6. ✅ WP > Tous les plugins > Maj auto
+    7. ✅ WP > Complianz sur Chrome
+    8. ✅ WP > Wp-Optimize
+    9. ✅ WP > Akismet
+    10. ✅ WP > Santé du site
+        1. ✅⏳ Laisser le temps de charger
+    11. ✅ WP > Cache
+    12. ✅ WP > Converter for Media
+        1. ✅ Configurer
+        2. ✅⏳ Executer conversion de masse
+        3. ✅ Vider cache
+4. ✅ ovh manager > php en prod + pare feu
+5. ✅ Maj identifiants
+    1. ✅ Benner anciens
+    2. Maj WinSCP
+6. ✅ Mail picard > "Maj" > Tester commande en vrai
+7. ✅ Benner ancien serveur > résiliation effective au 2 mai
+
+---
+
+1. ✅📝 com--champagne-didier-lapie
+   1. Il y a un serveur sur mon OVH
+   2. J'ai le NDD
+   3. Hébergé sur mon serveur ovh ?
+      1. 🐛 Ptet un problème de config dans la zone DNS
+         1. ipv6 ok `2001:41d0:301::31`
+         2. ipv4 wtf
+            1. 🐛 Zone DNS `46.105.204.31` > correspond à rien ?
+            2. Serveur chez wam `146.59.209.152`
+            3. Serveur fourni par les lapie `146.59.209.152` Le même > sur le même cluster, idem picard
+   4. Nouveau serveur fourni par les clients
+2. ✅ Vérifier les identifiants
+3. ✅ Dumps anciens
+   1. ✅ Fichiers
+   2. ✅ BDD
+   3. ✅ A1WPM
+4. ✅ Injection nouveaux
+   1. ✅ Fichiers
+   2. ✅ BDD
+   3. (A1WPM)
+5. ✅ PHP > 8.2 + cgi + DEVELOPPEMENT POUR LES LOGS PUTAIN + sans pare feu
+6. ✅ Maj wp-config
+7. ✅ Test sans changements de DNS [cluster http](http://efijgfe.cluster031.hosting.ovh.net/)
+   1. ✅ Renvoyer /wp-admin & wp-includes/
+      1. ✅ Recup ancien
+      2. ✅ Renvoi nouveau
+   2. Regen permaliens
+8. ✅ Changer DNS
+   1. ✅ Ovh masa > DNS > Maj
+   2. ✅⏳ ATTENDRE 30 PUTAINS DE MINUTES > Modif faite à **18h48**
+   3. ✅ Ovh masa > multisite > Virer
+   4. ✅ Ovh lapie > multisite > Ajouter
+      1. ✅Tout activer
+   5. ✅ Vérifier
+      1. ✅ Pas d'url forcée dans wp-config
+      2. ✅ Export BDD > Changer toutes les urls
+      3. ✅ Export BDD > Changer tous les emplacements de ressources serveur
+9. ✅ Après
+    1. ✅ WC > HMAC
+    2. ✅ Admin WP > Regen permaliens
+    3. ✅ OVH Manager > Activer https
+    4. ✅ OVH Manager > Activer firewall
+    5. ✅ OVH Manager > Activer logs dédiés
+    6. ✅ WP > Regen wordfence > .user.ini
+       1. ✅ Config firewall
+       2. ✅ Scan
+    7. ✅ WP > Tous les plugins > Maj auto
+    8. ✅ WP > Complianz sur Chrome
+    9. ✅ WP > Wp-Optimize
+    10. ✅ WP > Akismet
+    11. ✅ WP > Santé du site
+        1. ✅⏳ Laisser le temps de charger
+    12. ✅ Remettre age gate
+10. ✅ ovh manager > php en prod + pare feu
+11. ✅ Maj identifiants
+    1. ✅ Benner anciens
+    2. ✅ Maj WinSCP
+12. ✅ Mail lapie > "Maj" > Tester commande en vrai
+
+✅ Résoudre le tas de merde
+
+1. 🐛 Conflit entre les anciens & nouveaux serveur (même adresse IP)
+2. ✅⏳ Ecrire au support OVH > 2clater les anciens serveurs avant date résiliation
+   1. ⏳⏳⏳ TicketS ouverts le 29/04/23
+3. ✅ Informer clients
+4. ✅Cay good
+
+👨‍🏫 Evogue
+
+1. ✅ [Contrat](https://drive.google.com/drive/folders/1k9z6Zrg-wl8HFop2nK7-3kwVInaxQQZ5)
+   1. 💩 Il n'y a que 2 jours ?
+      1. ✅ Contrat en 2 parties Avril & mai
+      2. ✅ Signer mai
+      3. ✅ Ranger
+2. ✅ Boilerplate TODO list mission
+3. ✅🐛 [Github corrections](https://github.com/youpiwaza/evogue/tree/main/ressources/corrections)
+   1. ✅ Dossiers parents nom de technologies (clean php)
+
+Masamune > Déplacer anciens sites
+
+1. Déplacer site vitrine
+   1. prod-old > l'ancien site masamune.fr
+   2. prod > nouveau wp > prod.masamune.fr
+      1. ✅ 500 > OVH Manager > php > dev
+      2. ✅ Virer le tas de merde bdd > WP-optimize
+   3. 🐛 Admin > Projet ? Wtf +  Il y a des restes de woocommerce
+   4. ✅🔥 Tout benner repartir d'une installation clean
+
 ## 21/04/2023
 
 Masamune
