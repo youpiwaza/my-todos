@@ -2,6 +2,109 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 05/05/2023
+
+Taf
+
+1. Perso
+   1. ✅⬆️ Veille > Check PHP 8.2
+   2. ✅🐛FIX: Script modification auto des couleurs solarized pour WSL2
+2. AE
+   1. ✅🏥 AFE
+   2. ✅ Commission dans ~1 mois, ptet lel
+   3. ✅ Vérifier paiement
+3. 👨‍🏫 Evogue
+   1. 🎓 `2304 - Mission fin avril 2023 - 4 jours - ReactJs`
+      1. ✅📝 Informations
+      2. 🚨 Site evogue down sur Brave > Passer par Chrome
+      3. ✅💬 Nommer mission correctement `2304 - Mission fin avril 2023 - 4 jours - ReactJs`
+      4. 📂 DossierS drive publique [Dupliquer BP](https://drive.google.com/drive/folders/18xqLGqmPkGqhSIuAFlM_DOz_CIfkJFwM)
+   2. ✅ Administration
+      1. ✅💼 Contrat signé sur le site evogue
+         1. ✅ Récupérer contrat/s
+            1. ✅🚨 Si mission à cheval sur plusieurs mois > un contrat par mois
+         2. ✅ Parapher, Signer 1ère 🚨 & dernière page
+         3. ✅ Renvoyer sur site Evogue
+         4. ✅ Ajout au [drive](https://drive.google.com/drive/folders/1HbdFkhxNmNFAzo3BcMbmf4l-bYOYYhkX)
+      2. ✅ [Facture/s](https://drive.google.com/drive/folders/1cMgHqCLoBZPZb9nkJzn7mXevOZTOfeCA)
+         1. 🚨 Si mission à cheval sur plusieurs mois > un contrat par mois
+         2. 🚨 Reprendre dates, horaires, sujet, 🚨🚨🚨 nombre d'heures du **contrat**
+         3. ✅ Editée
+         4. ✅ Envoyée @ `Envoi factures evogue <equipe@evogue.fr>`
+         5. ✅ Ajout au [drive](https://drive.google.com/drive/folders/1cMgHqCLoBZPZb9nkJzn7mXevOZTOfeCA)
+         6. ✅ Maj Paiement & impôts
+      3. ✅🎥 Visio
+         1. ✅🔒️📌 Noter & [tester identifiants](https://mail.google.com/mail/u/0/#inbox/FMfcgzGsmDsXzdPGwtSSRdjPRtlcZRZB)
+            1. Zoom
+               1. ID de Réunion personnelle `PMI`
+               2. ID : `formation8@alt-rh.com`
+               3. MP : `2023aLTRH`
+      4. ✅📅 Ajout précis à l'emploi du temps
+      5. ✅⏰ Ajout réveils portable
+         1. ✅🎥 Si visio > connecté 15 minutes avant le début des cours
+      6. 💩✨ Vérifier si cours existants sur [Github](https://github.com/youpiwaza/evogue/tree/main/ressources)
+      7. ✅❤️ Favoris > Dossier
+      8. ✅📧 Voir si recommandations dans mail
+   3. ✅ Préparation ressources
+      1. 💩 Vérifier la présence de cours/ressources sur le [site evogue](https://evogue.fr/formateur/login)
+         1. Rien par écrit, ~moultes heures de vidéos
+      2. ✅ Dossier drive mission, [exemple](https://drive.google.com/drive/folders/1_dWCgqM8mkKUdJl7wyJ1Go31KX7ngr1O)
+         1. ✅ Maj BP
+      3. ✅✨ [Présentation (bp)](https://drive.google.com/drive/folders/1OidiH-jyd4mu5hdgTLX-foFiCDgIPdHI)
+         1. ✅ Se présenter en tant que "formateur consultant pour ALT RH CONSULTING"
+         2. ✅ Se présenter
+         3. ✅ Faire un tour de table des stagiaires leur en permettre éventuellement de se présenter
+      4. ✅ Cours
+         1. ✅🏭📝 "2 / Présentation des cours PHP SQL"
+            1. Dupliquer [ça](https://docs.google.com/presentation/d/114-bWJ9Tmi7E0ArVQ84is7ipUlOD1WXZxgWHmeHB_Eo/edit#slide=id.g1f9aecfdd77_0_14)
+               1. Vider
+               2. Rajouter titres
+                  1. 🧠 Objectifs Théoriques
+                  2. 💪 Objectifs Pratiques
+                  3. 👷 Pré-requis
+                  4. 🌱 Suggestions de projets
+               3. Ajouter au BP
+         2. ✅ Supports de cours
+         3. ✅ Poursuite > notes react > fin du fichier
+      5. ✅ Corrections
+         1. ✅ Exos
+      6. ✅ Evalutation : TP ou Quizz
+      7. ✅ Vérifier sommaires des presentation
+      8. ✅💾 Ajout sur le github
+      9. ✅💾 Ajout a la liste de liens
+      10. ✅ Les présentations contiennent l'ensemble des liens utiles
+      11. ✅ Tinyurl du dossier drive présentations + ajout dans presentation
+      12. ✅ Ajout liens au dossier favoris
+      13. ✅ Ajouter cours au [drive dédié boite SUPPORT COURS](https://drive.google.com/drive/folders/1hw7lvWzXb25eTnLRPuc7OSqggZ5BR458)
+   4. ✅♻️ Tous les jours
+      1. ✅ Vérifier présence
+         1. ✅ Les captures d'écrans matin et soir pour chaque jour avec l'affichage du jour et de l'heure de votre écran apparent
+         2. ✅ puis envoyer sur drive
+            1. ✅ [semaine du 24/04](https://drive.google.com/drive/folders/19tl2vx8tJC_Cv0QI92j2YUI3JgjL5fJ7)
+            2. ✅ [semaine du 01/05](https://drive.google.com/drive/folders/1dcRN17sGhJc4SdOWqNBIV0rHR5AqEQPA)
+            3. ✅ [Evogue emargement](https://evogue.fr/formateur/evaluations)
+         3. ✅ Remplir emargement
+            1. ✅ [semaine du 24/04](https://docs.google.com/spreadsheets/d/1ZGc0dPFvfsYI0tqPdya9PJUIV5ivE4x-/edit#gid=1105340602)
+            2. ✅ [semaine du 01/05](https://docs.google.com/spreadsheets/d/19zAMNwYhEeBFW0JsmewdCURG0ryd4B1Q/edit#gid=1105340602)
+      2. ✅ Ajouter cours **actualisés** au [drive dédié boite SUPPORT COURS](https://drive.google.com/drive/folders/1hw7lvWzXb25eTnLRPuc7OSqggZ5BR458)
+   5. ✅👋 Fin de formation
+      1. ✅ Eleves
+         1. ✅ Doc Poursuivre avec React
+         2. ✅ Démo installation en local
+         3. ✅ Correction projay
+         4. 💩 (oups) Demander aux stagiaires de remplir le fichier : questionnaires de satisfaction de satisfaction
+      2. ✅ Wam
+         1. ✅ Remplir [fiche de suivi étudiants](https://docs.google.com/document/d/1A-PEmVYV8dtTM13jTy7xvIxcLadfElXltI6aoaAnTVY/edit)
+         2. ✅ Remplir les [notes étudiants](https://docs.google.com/spreadsheets/d/1NxDo6PZf6vviiDWyK3-UiKPZB1bD9ZG-/edit#gid=886766735)
+         3. ✅ ~[Drive evogue à remplir](https://evogue.fr/formateur/evaluations)
+         4. ✅ ♻️💾 Rapatrier l'ensemble des fichiers fournis sur mon drive (emargement, captures, exos, etc.)
+
+Perso
+
+1. ✅♻️💸 Paiement canapé 80/mois
+   1. ✅📌 Prélevé
+2. ✅👨‍⚕️ Prise de sang > RDV doc bilang
+
 ## 28/04/2023
 
 Perso

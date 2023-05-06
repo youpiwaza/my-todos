@@ -21,11 +21,10 @@ Légende :
 
 ## 🧠⏫ Raccourcis & process à intégrer au flow
 
-- 💥🤯 Plugin VSCode pour WSL
+- 🤯 Plugin VSCode pour WSL
 - Dactylo le midi > [typing study](https://www.typingstudy.com/fr/lesson/3/part/8)
 - Tétrachiée de nouveaux plugins VSCode
   - TO DO Tree
-- [Toolbox de ouf](https://geekflare.com/tools/toolbox)
 
 ## 🚀 Priorisation, simple ⏩
 
@@ -35,22 +34,32 @@ Indiquer ici les *tâches à effectuer en priorité*
 - Si besoin de focus, mettre une ou 2 tâches ici.
 - Ne pas tout fourrer ici, *respecter la priorisation*, sinon tout est fait à l'arrache
 
-1. Mettre au propre renouvellement NDD & herberg
-2. Evogue
-3. Fin de site / Liste outils > Check DNS reco par OVH [zonemaster](https://www.zonemaster.net/fr/run-test)
-4. Masamune > Déplacer anciens sites
-   1. Re-résilier serveur, attention avant le 19
-5. Portfolio / CV
-   1. 230426-01-mercredi-matin---2-absents
-6. Jus Mundi
-7. ⬆️ Check PHP 8.2
+1. 🚀 Masamune > Déplacer anciens sites
+    1. 🔥 Re-résilier serveur, attention avant le 19
+    2. ⚡️ Terminer blog avant de passer au site vitrine
+    3. 🚀 Déplacer blog
+    4. Déplacer site vitrine
+    5. CV tout est good
+2. ⏳💸 à garder sur le compte courant
+   1. 473€ CFE, 16 juin 2023
+   2. 720€ Canap, ~5 juin 2023
+3. Déclaration impôtS
+4. Jus Mundi
+5. Sofinco > Canap > Après le 05/05 > Modifier mensualité > Rembourser d'un coup
+   1. Montant prochaine mensualité monté à 720€ afin de rembourser le reste d'un coup ; le 06/05/23
+   2. 💥 Pas affiché sur le site
+6. ⏳💸 Evogue > Vérifier paiement mission avril/mai
+7. ⏳ AE > Payer impôts CFE rattrapage 2020 > Prélèvement le 16/06/2023
 8. Perso
-   1. ⏳♻️💸 Check paiement exact canapé pour mettre sur compte epargne et sortir ça de la tête
-      1. ⏳📌 Prélevé
-   2. ⏳👨‍⚕️ Prise de sang > ⏳ RDV doc bilang
-   3. ⏳ Concert Nosfell ?
-   4. 👨‍⚕️ Alan > Faire exos pour le dos > Pas sur le site internet, appli seulement :/
-   5. 📱 Appeler BRED, cf. edt tel
+    1. Rappeler Gauthier
+    2. Rappeler Anouk
+    3. 👨‍⚕️ RDV dermato >Obligé d'appeler
+       1. Julie Plee / 03 26 85 42 88
+       2. Ziad Reguaï / 03 52 15 08 08
+    4. ⏳ Concert Nosfell ?
+    5. Concert little big 21 octobre strasbourg
+    6. 👨‍⚕️ Alan > Faire exos pour le dos > Pas sur le site internet, appli seulement :/
+    7. 📱 Appeler BRED, cf. edt tel
        1. Remboursement ACEF 6€
        2. Intérêts forfaitaires janvier 2023, 3€
        3. Changer de conseiller
@@ -58,8 +67,8 @@ Indiquer ici les *tâches à effectuer en priorité*
           2. Ne nous a pas rappelé plusieurs fois
           3. Foutage de gueule
        4. Cela concernera la déclaration de 2023 pour le montant 2022, simplement faire attention
-   6. Pizza++
-       1. [diastatic malt powder](https://www.joshuaweissman.com/post/dominos-pizza)
+    8. Pizza++
+        1. [diastatic malt powder](https://www.joshuaweissman.com/post/dominos-pizza)
 
 ---
 
@@ -96,8 +105,8 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 - ⏳ Déplacer veille onglets dans TODO_veille
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
-- ✅ Déclaration Auto entrepreneur / Avril 2023
-- ⏳ Vérifier impôts sur espace
+- ⏳ Déclaration Auto entrepreneur / Avril 2023
+- 💥 Vérifier impôts sur espace
   - 💥 Perso  / Revenus 2022
   - 💥 Pro    / 11/04/2022
 - ⏳ Vérifier messages [Ameli](https://assure.ameli.fr/)
@@ -143,20 +152,26 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
 - ~⏳ Compléments alimentaires
   - ⏳ Anaca3
     - ⏳ Attente livraison
-  - ✅ Huile de foie de morue
-  - ✅ Choline Inositol
+  - ⏳ Huile de foie de morue
+  - ⏳ Choline Inositol
   - ⏳ Trucs foie/reins
   - ⏳ Ginseng / "Super ginko"
   - ⏳ Mix vitamine
   - ⏳ Doc > vitamine D tous les 6 mois
-  - ✅ Miel gelée royale
-  - ✅♻️ Acheter flotte > magnésium
+  - ⏳ Miel gelée royale
+  - ⏳♻️ Acheter flotte > magnésium
 - ⏳ Tout est versionné, pas de WIP qui traîne
 - Dashlane > Surveillance dark web > changer mots de passe
 
 ---
 
 ## ⏳ En attente
+
+### AE
+
+1. ⏳ AE > Payer impôts CFE rattrapage 2020
+   1. Avis en mai 2023, 473€, [à payer en juin](https://mail.google.com/mail/u/0/#inbox/KtbxLvhVcWmcxbbZhnsRMnQSnbSMnkJCGq)
+   2. Le prélèvement interviendra à compter du 16/06/2023 sous la Référence Unique de Mandat (RUM) n°NNFR46ZZZ0050022351000131145R250898.
 
 ### ⏳ ICCA Reims
 
@@ -178,10 +193,7 @@ git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo 
 
 ### ⏳🌱 Vérifications sur la longueur
 
-1. AE > 🌱 Payer impôts CFE rattrapage 2020
-   1. Avis en mai 2023, 473€, [à payer en juin](https://mail.google.com/mail/u/0/#inbox/KtbxLvhVcWmcxbbZhnsRMnQSnbSMnkJCGq)
-   2. ⏳🏥 AFE
-      1. ⏳ Commission dans ~1 mois, ptet lel
+rieng
 
 ---
 
@@ -216,218 +228,157 @@ Rieng
 1. Cette semaine
    1. 🎯 Objectifs en gros
       1. à reprendre de la réunion objectifs & estimations
-         1. Jav slack
-            1. As discussed for this template:
-            2. We'll integrate as is today in the template on general
-            3. We'll use the current defined Typography
-            4. we'll use the current defined Color
-            5. Max will see if we can re-use the current component, if rework is needed we'll go to a total redo instead.
-      2. 💥 Rétablir nuxt.config en local
-   2. 🌱♻️ Refacto icônes, la balise SVG est ~toujours pareille
+         1. Objectifs fin de semaine : (~About) Titre + 3 de lignes ; ce qu'il y a en dessous du header.
+         2. Jav slack
+            1. next Template: Institutions Overview
+            2. As discussed for this template:
+            3. We'll integrate as is today in the template on general
+            4. We'll use the current defined Typography
+            5. we'll use the current defined Color
+            6. Max will see if we can re-use the current component, if rework is needed we'll go to a total redo instead.
+         3. Partir sur [l'exemple](https://jusmundi.com/en/d/profile/institution/en-aaa-american-arbitration-association)
+         4. Notes : jus-mundi-notes-max\meetings\2340425 Reunion sur la suite et estimations.md
+            1. le faire très bête & méchant la tout de suite
+            2. toujours 3 lignes, bête & méchant, toujours structuré de la même manière.
+      2. ✅👌 Pluriel conditionnel
+      3. ✅🐛 Weird stuff on existing components
+         1. `components/atoms/Button/ButtonAsLink.vue`
+            1. prop `btnText`
+               1. Why not use children ? To enforce Atom behavior ? `<slot>`
+               2. Rename to either `label`, `buttonText` or `text`
+         2. `components/atoms/Link/LinkAsText.vue`
+            1. Why so complicated ?
+               1. `linkData` is an Object
+                  1. Must contain `name` & `href` props, but not enforced in component
+                     1. Why naming `name` if it's the text / html content ?
+                  2. `components/molecules/Card/BookCard.vue` uses it and has a validator ?
+                  3. Must use `computed()` ?
+                  4. Why not 2 props ?
+               2. Why having a span, and not using a `<slot>`
+                  1. If using inline  tags ~`<strong>` we must use it in `computed()` ?
+                  2. I'm so confused
+            2. Why not just name it `Link` ?
+         3. `components/atoms/Text/Paragraph.vue`
+            1. Why both have `text` props and children `<slot>` ?
+   2. ♻️ Rétablir nuxt.config en local
+   3. 🌱♻️ Refacto icônes, la balise SVG est ~toujours pareille
       1. 📱 Voir pour faire le responsive des icônes, pas de style vu que dimension passée en props
       2. 🌱 Migrer l'ensemble des icônes
-   3. 📱 Responsive : breakpoints fixés > cf. tailwind.css
-      1. Configurer storybook afin qu'il corresponde
-   4. 🌱 Vérifier console
-
----
-
-1. Mettre au propre renouvellement NDD & herberg
-   1. Sortir factures
-   2. 📧 Email a tlm avec dates de renouvellements + tarifs si on les as sur le manager ovh
-2. ⏳⚡️ com--sophieberberian
-   1. Il y a un serveur sur mon OVH
-      1. Le site est dessus
-   2. J'ai PAS le NDD
-   3. ⏳⚡️ Paiement en direct osef ?
-      1. Hébergement
+   4. 📱 Responsive : Configurer storybook afin qu'il corresponde
+   5. 🌱 Vérifier console
 
 ---
 
 ### ⏳👨‍🏫 Evogue
 
 1. Mettre dans mes cours > debrander
-   1. Discord
-   2. Blog
+   1. ✅ Cleaner + drive + github + process
+   2. Discord
+   3. Blog
 2. 📧 Mission JS Juin 2023 ?
 
-#### 🎓 `2304 - Mission fin avril 2023 - 4 jours - ReactJs`
-
-1. ✅📝 Informations
-   1. 🚨 Site evogue down sur Brave > Passer par Chrome
-   2. ✅💬 Nommer mission correctement `2304 - Mission fin avril 2023 - 4 jours - ReactJs`
-   3. 📂 DossierS drive publique [Dupliquer BP](https://drive.google.com/drive/folders/18xqLGqmPkGqhSIuAFlM_DOz_CIfkJFwM)
-2. ✅ Administration
-   1. ✅💼 Contrat signé sur le site evogue
-      1. ✅ Récupérer contrat/s
-         1. ✅🚨 Si mission à cheval sur plusieurs mois > un contrat par mois
-      2. ✅ Parapher, Signer 1ère 🚨 & dernière page
-      3. ✅ Renvoyer sur site Evogue
-      4. ✅ Ajout au [drive](https://drive.google.com/drive/folders/1HbdFkhxNmNFAzo3BcMbmf4l-bYOYYhkX)
-   2. ✅ [Facture/s](https://drive.google.com/drive/folders/1cMgHqCLoBZPZb9nkJzn7mXevOZTOfeCA)
-      1. 🚨 Si mission à cheval sur plusieurs mois > un contrat par mois
-      2. 🚨 Reprendre dates, horaires, sujet, 🚨🚨🚨 nombre d'heures du **contrat**
-      3. ✅ Editée
-      4. ✅ Envoyée @ `Envoi factures evogue <equipe@evogue.fr>`
-      5. ✅ Ajout au [drive](https://drive.google.com/drive/folders/1cMgHqCLoBZPZb9nkJzn7mXevOZTOfeCA)
-      6. ✅ Maj Paiement & impôts
-   3. ✅🎥 Visio
-      1. ✅🔒️📌 Noter & [tester identifiants](https://mail.google.com/mail/u/0/#inbox/FMfcgzGsmDsXzdPGwtSSRdjPRtlcZRZB)
-         1. Zoom
-            1. ID de Réunion personnelle `PMI`
-            2. ID : `formation8@alt-rh.com`
-            3. MP : `2023aLTRH`
-   4. ✅📅 Ajout précis à l'emploi du temps
-   5. ✅⏰ Ajout réveils portable
-      1. ✅🎥 Si visio > connecté 15 minutes avant le début des cours
-   6. 💩✨ Vérifier si cours existants sur [Github](https://github.com/youpiwaza/evogue/tree/main/ressources)
-   7. ✅❤️ Favoris > Dossier
-   8. ✅📧 Voir si recommandations dans mail
-3. 🚀 Préparation ressources
-   1. 💩 Vérifier la présence de cours/ressources sur le [site evogue](https://evogue.fr/formateur/login)
-      1. Rien par écrit, ~moultes heures de vidéos
-   2. ✅ Dossier drive mission, [exemple](https://drive.google.com/drive/folders/1_dWCgqM8mkKUdJl7wyJ1Go31KX7ngr1O)
-      1. ✅ Maj BP
-   3. ✅✨ [Présentation (bp)](https://drive.google.com/drive/folders/1OidiH-jyd4mu5hdgTLX-foFiCDgIPdHI)
-      1. ✅ Se présenter en tant que "formateur consultant pour ALT RH CONSULTING"
-      2. ✅ Se présenter
-      3. ✅ Faire un tour de table des stagiaires leur en permettre éventuellement de se présenter
-   4. ✅ Cours
-      1. ✅🏭📝 "2 / Présentation des cours PHP SQL"
-         1. Dupliquer [ça](https://docs.google.com/presentation/d/114-bWJ9Tmi7E0ArVQ84is7ipUlOD1WXZxgWHmeHB_Eo/edit#slide=id.g1f9aecfdd77_0_14)
-            1. Vider
-            2. Rajouter titres
-               1. 🧠 Objectifs Théoriques
-               2. 💪 Objectifs Pratiques
-               3. 👷 Pré-requis
-               4. 🌱 Suggestions de projets
-            3. Ajouter au BP
-      2. ✅ Supports de cours
-   5. Corrections
-      1. Exos
-      2. Faire une présentation pour les corrections > Dossier pas public
-   6. Evalutation : TP ou Quizz
-   7. ✅ Vérifier sommaires des presentation
-   8. 💾 Ajout sur le github
-   9. 💾 Archives pour BP & corrections & envoi sur stockage masamune
-   10. Les présentations contiennent l'ensemble des liens utiles
-   11. ✅ Tinyurl du dossier drive présentations + ajout dans presentation
-   12. ✅ Ajout liens au dossier favoris
-   13. ✅ Ajouter cours au [drive dédié boite SUPPORT COURS](https://drive.google.com/drive/folders/1hw7lvWzXb25eTnLRPuc7OSqggZ5BR458)
-4. ♻️ Tous les jours
-   1. Vérifier présence
-      1. Les captures d'écrans matin et soir pour chaque jour avec l'affichage du jour et de l'heure de votre écran apparent
-      2. puis envoyer sur drive
-         1. [semaine du 24/04](https://drive.google.com/drive/folders/19tl2vx8tJC_Cv0QI92j2YUI3JgjL5fJ7)
-         2. [semaine du 01/05](https://drive.google.com/drive/folders/1dcRN17sGhJc4SdOWqNBIV0rHR5AqEQPA)
-      3. Remplir emargement
-         1. [semaine du 24/04](https://docs.google.com/spreadsheets/d/1ZGc0dPFvfsYI0tqPdya9PJUIV5ivE4x-/edit#gid=1105340602)
-         2. [semaine du 01/05](https://docs.google.com/spreadsheets/d/19zAMNwYhEeBFW0JsmewdCURG0ryd4B1Q/edit#gid=1105340602)
-   2. 🚨 Ajouter cours **actualisés** au [drive dédié boite SUPPORT COURS](https://drive.google.com/drive/folders/1hw7lvWzXb25eTnLRPuc7OSqggZ5BR458)
-5. 👋 Fin de formation
-   1. Ajouter le lien vers les corrections dans les présentations
-   2. Remplir [fiche de suivi étudiants](https://docs.google.com/document/d/1A-PEmVYV8dtTM13jTy7xvIxcLadfElXltI6aoaAnTVY/edit)
-   3. Remplir les [notes étudiants](https://docs.google.com/spreadsheets/d/1NxDo6PZf6vviiDWyK3-UiKPZB1bD9ZG-/edit#gid=886766735)
-   4. Demander aux stagiaires de remplir le fichier : questionnaires de satisfaction de satisfaction
-   5. 💾 Rapatrier l'ensemble des fichiers fournis sur mon drive (emargement, captures, exos, etc.)
-
 ---
 
-### Masamune
-
-#### Masamune > Déplacer anciens sites
+## Masamune
 
 1. 👥 Dédoublonner la TODO
-2. Déplacer Blog
-   1. Derniers contenus
-   2. Ajuster thème
-   3. Mise en ligne
-   4. Plugins & config
-   5. Opti site & SEO
-3. Déplacer site vitrine
-   1. prod-old > l'ancien site masamune.fr
-   2. prod > nouveau wp > prod.masamune.fr
-   3. ✅🔥 Tout benner repartir d'une installation clean
-      1. Récupérer les contenu déjà créés des nouvelles pages [nique tout](https://docs.google.com/document/d/1w88CIdw7LNbKpmFHZbWhWxXU2kAeXVSHKGaAcSUJyfg/edit#)
-   4. 📝 WordPress Projets > Catégories & tags > Utiliser pour... les projets
-   5. Divi > Choisir un thème
-      1. Template alakon pour projets
-      2. [Déglinguer](http://masamune.fr/Ag4Jm8iTlx5nu4/wp-admin/edit.php)
+2. Vérifier si des screens des anciens sites ont bien été pris
+
+### Déplacer blog
+
+1. Derniers contenus
+2. Ajuster thème
+3. Mise en ligne
+4. Plugins & config
+5. Opti site & SEO
 
 ---
 
-1. blog.masamune.fr
-   1. 🌱 Récupérer pages
-       1. Principales ref nat "kwaksé ce blog"
-          1. Accueil > Expliquer refonte > Moins de temps donc plus d'articles et plus regulier > Plein d'articles en attente + live coding prof
-          2. De nombreux tutoriaux
-             1. Revoir contenus
-                1. Dev & prauf & soft skillz
-             2. Image alakon
-             3. Public
-          3. Moultes recettes de cuisine
-             1. Revoir contenus
-             2. Image alakon
-             3. Public
-          4. Peinture de miniatures
-             1. Revoir contenus
-             2. Image alakon
-             3. Public
-       2. Pages secondaires
-          1. Renvoi vers masa.fr + publique + image alakon > plus simple juste un lien vers masa & "copiay collay flemme"
-             1. 🔥 Contact > bouton sur accueil
-             2. Crédits
-             3. Débogage
-             4. Mentions légales
-             5. RGPD
-   2. [Ajuster templates](https://blog-new.masamune.fr/wp-admin/site-editor.php?postType=wp_template)
-       1. [Tuto YT clean 25mn](https://www.youtube.com/watch?v=O4ZzuYTj9tw)
-       2. Menus
-          1. Pages
-          2. Catégories
-       3. Footer > Masamune copyright
-       4. 💄 Voir largeur max toutes les pages
-       5. 404
-       6. Plan du site
-   3. Basculer DNS
-       1. Vérifier https
-       2. Réindexer site
-   4. Plugins alakon ?
-       1. 🌱🔧 Akismet, après MeL
-       2. 🌱🔧 Mise en cache, après MeL
-       3. 🔧 Sécuritay
-       4. 🌱 Plan du site > Ancien site template de theme, voir si moyen de générer liste avec thème pour éviter plugin
-       5. All in One SEO
-             1. sitemap.xml
-                1. Maj robots.txt
-             2. SEO meta title
-             3. SEO meta description
-             4. SEO keywords
-             5. Open Graph SEO Knowledge Panel information
-             6. social media integration
-             7. SEO search console (Google Search Console) / webmaster tool connections
-             8. local SEO
-             9. schema markup for SEO
-       6. Tester erreurs
-          1. [Google search console](https://search.google.com/search-console)
-             1. 📌 robots.txt
-          2. Pagespeed insights
-          3. W3C
-          4. Autres conneries & mettre à jour repo git
-          5. En faire un article putain
-   5. Dumps & save hdd
-2. masamune.fr > prod-old
+1. 🌱 Récupérer pages
+   1. Principales ref nat "kwaksé ce blog"
+       1. Accueil > Expliquer refonte > Moins de temps donc plus d'articles et plus regulier > Plein d'articles en attente + live coding prof
+       2. De nombreux tutoriaux
+          1. Revoir contenus
+             1. Dev & prauf & soft skillz
+          2. Image alakon
+          3. Public
+       3. Moultes recettes de cuisine
+          1. Revoir contenus
+          2. Image alakon
+          3. Public
+       4. Peinture de miniatures
+          1. Revoir contenus
+          2. Image alakon
+          3. Public
+   2. Pages secondaires
+       1. Renvoi vers masa.fr + publique + image alakon > plus simple juste un lien vers masa & "copiay collay flemme"
+          1. 🔥 Contact > bouton sur accueil
+          2. Crédits
+          3. Débogage
+          4. Mentions légales
+          5. RGPD
+   3. [Ajuster templates](https://blog-new.masamune.fr/wp-admin/site-editor.php?postType=wp_template)
+   4. [Tuto YT clean 25mn](https://www.youtube.com/watch?v=O4ZzuYTj9tw)
+   5. Menus
+       1. Pages
+       2. Catégories
+   6. Footer > Masamune copyright
+   7. 💄 Voir largeur max toutes les pages
+   8. 404
+   9. Plan du site
+   10. Basculer DNS
+   11. Vérifier https
+   12. Réindexer site
+   13. Plugins alakon ?
+   14. 🌱🔧 Akismet, après MeL
+   15. 🌱🔧 Mise en cache, après MeL
+   16. 🔧 Sécuritay
+   17. 🌱 Plan du site > Ancien site template de theme, voir si moyen de générer liste avec thème pour éviter plugin
+   18. All in One SEO
+          1. sitemap.xml
+             1. Maj robots.txt
+          2. SEO meta title
+          3. SEO meta description
+          4. SEO keywords
+          5. Open Graph SEO Knowledge Panel information
+          6. social media integration
+          7. SEO search console (Google Search Console) / webmaster tool connections
+          8. local SEO
+          9. schema markup for SEO
+   19. Tester erreurs
+       1. [Google search console](https://search.google.com/search-console)
+          1. 📌 robots.txt
+       2. Pagespeed insights
+       3. W3C
+       4. Autres conneries & mettre à jour repo git
+       5. En faire un article putain
+   20. Dumps & save hdd
+
+### Déplacer site vitrine
+
+1. prod-old > l'ancien site masamune.fr
+2. prod > nouveau wp > prod.masamune.fr
+3. ✅🔥 Tout benner repartir d'une installation clean
+   1. Récupérer les contenu déjà créés des nouvelles pages [nique tout](https://docs.google.com/document/d/1w88CIdw7LNbKpmFHZbWhWxXU2kAeXVSHKGaAcSUJyfg/edit#)
+4. 📝 WordPress Projets > Catégories & tags > Utiliser pour... les projets
+5. Divi > Choisir un thème
+   1. Template alakon pour projets
+   2. [Déglinguer](http://masamune.fr/Ag4Jm8iTlx5nu4/wp-admin/edit.php)
+
+---
+
+1. masamune.fr > prod-old
    1. Sauvegarde github
    2. Sauvegarde sur DD sites web
    3. 🌱 Maj liens cv expériences pro
       1. Pas oublier le https
    4. Yootoob > Ajouter écrans de fin / liens vers le site masamune.fr une fois terminé
    5. Service > Retour sur CV > 50€
-3. 🌱 Sites masamune apray 🌱
+2. 🌱 Sites masamune apray 🌱
    1. Rajouter ancien folio
    2. Rajouter screens siteS v3
    3. Blog > articles en TODO
-4. github > cleaner
+3. github > cleaner
    1. Renommer préfixer technos
    2. Voir faire un projet liste de liens vers les projets regroupés en catégories
    3. dédoublonner default-config-files-for-github-repository & base-repository-github
@@ -519,6 +470,7 @@ Rieng
        3. Machine pour frapper sa propre monnaie (étain), initiales VL (Vigi & Lucifer)
        4. Bouclier armoiries normandie viking (VL)
        5. Machine à coudre
+       6. Table air hockey
     2. Redemander date a pougnoutte > mars...
     3. Demander contact & liste invités
     4. Demander si logement déjà vu

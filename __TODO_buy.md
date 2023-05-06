@@ -75,6 +75,7 @@ Remettre patreon Boris, YMS, Bloodywood
 - Casque buyers dynamic D 330
 - Housse en cuir pour couteau, demander a Alexis
 - Mitaines de contention, cf. dus
+- Set pour lancer des dés (et vis pc quand démontage) sur amazon ~4 balles, repliables + pressions (serge)
 - [Shampoing Magiforet](https://www.google.com/search?q=magiforet)
 - [SS](https://sexysushi.bandcamp.com/)
 - [Suport mural guitare](https://www.musicpromusic.com/fr/1495-support-guitare-mural-noir.html) ou voir plutôt thomman
