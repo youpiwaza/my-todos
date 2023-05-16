@@ -16,6 +16,19 @@
    5. Process rituels vie courante
    6. Bilans service > [process de réparation](https://github.com/youpiwaza/26Digital/tree/main/bilans%20service/ancien-intranet/users/intranet)
 
+## 05/2023
+
+- Tips n' tricks prof
+  - Sondages
+  - Correction par émève avec demo exo/projet
+- [Tips gestion team feedback](https://css-tricks.com/mistakes-ive-made-as-an-engineering-manager/)
+- [AE > perso branding](https://andela.com/insights/personal-branding-for-technology-professionals)
+- Champignons ketchup
+  - [Recette condensée](https://mail.google.com/mail/u/0/#sent/QgrcJHsHnNtsbbWNMngmBLdRftQxLrFrtBl)
+  - [Food That Time Forgot: Mushroom Ketchup](https://www.youtube.com/watch?v=cnRl40c5NSs)
+  - [Autre vidéo](https://www.youtube.com/watch?v=29u_FejNuks&pp=ygUQbXVzaHJvb20ga2V0Y2h1cA%3D%3D)
+  - [Recette](https://geowatkins.com/product/geo-watkins-mushroom-ketchup-190ml/)
+
 ## 04/2023
 
 Gestion des dns

@@ -34,41 +34,46 @@ Indiquer ici les *tâches à effectuer en priorité*
 - Si besoin de focus, mettre une ou 2 tâches ici.
 - Ne pas tout fourrer ici, *respecter la priorisation*, sinon tout est fait à l'arrache
 
-1. 🚀 Masamune > Déplacer anciens sites
+1. OVH Manager > desactiver protection transfert domaine
+2. ⏳ Jus Mundi
+3. ⏳ Evogue
+   1. Mission NodeJs Juin 2 jours
+4. 🚀 Masamune > Déplacer anciens sites
     1. 🔥 Re-résilier serveur, attention avant le 19
     2. ⚡️ Terminer blog avant de passer au site vitrine
     3. 🚀 Déplacer blog
     4. Déplacer site vitrine
     5. CV tout est good
-2. ⏳💸 à garder sur le compte courant
+5. Gérer [évolution google analytics](https://mail.google.com/mail/u/0/#inbox/FMfcgzGsmWwnjMCCzPJJrGwvqRmTkVrP)
+6. ⏳💸 à garder sur le compte courant / 1193 €
    1. 473€ CFE, 16 juin 2023
    2. 720€ Canap, ~5 juin 2023
-3. Déclaration impôtS
-4. Jus Mundi
-5. Sofinco > Canap > Après le 05/05 > Modifier mensualité > Rembourser d'un coup
-   1. Montant prochaine mensualité monté à 720€ afin de rembourser le reste d'un coup ; le 06/05/23
-   2. 💥 Pas affiché sur le site
-6. ⏳💸 Evogue > Vérifier paiement mission avril/mai
-7. ⏳ AE > Payer impôts CFE rattrapage 2020 > Prélèvement le 16/06/2023
-8. Perso
-    1. Rappeler Gauthier
-    2. Rappeler Anouk
-    3. 👨‍⚕️ RDV dermato >Obligé d'appeler
+   3. Dentiste
+7. ⏳ Sofinco > Canap > Après le 05/05 > Modifier mensualité > Rembourser d'un coup
+   1. ✅ Virement en direct le 11/05/2023, effectué sous 1 à 3 jours ouvrés
+   2. ✅ Vérifier confirmation prise en compte
+   3. ⏳ Demande de résiliation envoyée le 16/05/23
+8. ⏳💸 Evogue > Vérifier paiement mission mai (2 jours)
+9. Perso
+    1. ⏳⚡️ Ekwateur, vérifier remboursement (avant le 18/05)
+    2. ⏳💸 Appeler BRED, cf. edt tel
+       1. Changer de conseiller
+       2. Remboursement des frais injustifiés
+       3. Résiliation de "BPCE Assurances IARD"
+       4. Call & mails envoyés le [11/05/2023](https://drive.google.com/drive/folders/1bqIpMlzVT7OYL9FkUdm9h6LbAFJCG4q7)
+    3. 👨‍⚕️ Racheter
+       1. gellules huile de foie de morue
+       2. 🍔 Pizza++ > [diastatic malt powder](https://www.joshuaweissman.com/post/dominos-pizza)
+    4. Meuble bar > cleaner éclats de la réparation
+    5. 🍔 [Croissants high hydration dow](https://www.youtube.com/watch?v=GSlBVCbgFhE)
+    6. Rappeler Gauthier
+    7. Rappeler Anouk
+    8. 👨‍⚕️ RDV dermato > Obligé d'appeler
        1. Julie Plee / 03 26 85 42 88
        2. Ziad Reguaï / 03 52 15 08 08
-    4. ⏳ Concert Nosfell ?
-    5. Concert little big 21 octobre strasbourg
-    6. 👨‍⚕️ Alan > Faire exos pour le dos > Pas sur le site internet, appli seulement :/
-    7. 📱 Appeler BRED, cf. edt tel
-       1. Remboursement ACEF 6€
-       2. Intérêts forfaitaires janvier 2023, 3€
-       3. Changer de conseiller
-          1. Tous les frais injustifiés non toujours pas étés remboursés
-          2. Ne nous a pas rappelé plusieurs fois
-          3. Foutage de gueule
-       4. Cela concernera la déclaration de 2023 pour le montant 2022, simplement faire attention
-    8. Pizza++
-        1. [diastatic malt powder](https://www.joshuaweissman.com/post/dominos-pizza)
+    9. 🎵 Concert Nosfell ?
+    10. 🎵 Concert little big 21 octobre strasbourg
+    11. 👨‍⚕️ Alan > Faire exos pour le dos > Pas sur le site internet, appli seulement :/
 
 ---
 
@@ -225,57 +230,22 @@ Rieng
 
 ### 💼 Jus Mundi
 
-1. Cette semaine
-   1. 🎯 Objectifs en gros
-      1. à reprendre de la réunion objectifs & estimations
-         1. Objectifs fin de semaine : (~About) Titre + 3 de lignes ; ce qu'il y a en dessous du header.
-         2. Jav slack
-            1. next Template: Institutions Overview
-            2. As discussed for this template:
-            3. We'll integrate as is today in the template on general
-            4. We'll use the current defined Typography
-            5. we'll use the current defined Color
-            6. Max will see if we can re-use the current component, if rework is needed we'll go to a total redo instead.
-         3. Partir sur [l'exemple](https://jusmundi.com/en/d/profile/institution/en-aaa-american-arbitration-association)
-         4. Notes : jus-mundi-notes-max\meetings\2340425 Reunion sur la suite et estimations.md
-            1. le faire très bête & méchant la tout de suite
-            2. toujours 3 lignes, bête & méchant, toujours structuré de la même manière.
-      2. ✅👌 Pluriel conditionnel
-      3. ✅🐛 Weird stuff on existing components
-         1. `components/atoms/Button/ButtonAsLink.vue`
-            1. prop `btnText`
-               1. Why not use children ? To enforce Atom behavior ? `<slot>`
-               2. Rename to either `label`, `buttonText` or `text`
-         2. `components/atoms/Link/LinkAsText.vue`
-            1. Why so complicated ?
-               1. `linkData` is an Object
-                  1. Must contain `name` & `href` props, but not enforced in component
-                     1. Why naming `name` if it's the text / html content ?
-                  2. `components/molecules/Card/BookCard.vue` uses it and has a validator ?
-                  3. Must use `computed()` ?
-                  4. Why not 2 props ?
-               2. Why having a span, and not using a `<slot>`
-                  1. If using inline  tags ~`<strong>` we must use it in `computed()` ?
-                  2. I'm so confused
-            2. Why not just name it `Link` ?
-         3. `components/atoms/Text/Paragraph.vue`
-            1. Why both have `text` props and children `<slot>` ?
-   2. ♻️ Rétablir nuxt.config en local
-   3. 🌱♻️ Refacto icônes, la balise SVG est ~toujours pareille
-      1. 📱 Voir pour faire le responsive des icônes, pas de style vu que dimension passée en props
-      2. 🌱 Migrer l'ensemble des icônes
-   4. 📱 Responsive : Configurer storybook afin qu'il corresponde
-   5. 🌱 Vérifier console
+1. 🎯 Objectifs en gros > Institutions Overview
+   1. Attendre Validation MR
+2. ♻️ CRA
+3. 🤯 Sur notion il y a les screenshots, filtre JC uniquement, pas JM
 
 ---
 
-### ⏳👨‍🏫 Evogue
+### 👨‍🏫 Evogue
 
 1. Mettre dans mes cours > debrander
-   1. ✅ Cleaner + drive + github + process
-   2. Discord
-   3. Blog
-2. 📧 Mission JS Juin 2023 ?
+   1. Blog
+2. 📧 Mission JS Juin 2023
+   1. Faire les cours (JS + PHP > 3 jours ?)
+3. Mission NodeJs Juin 2 jours
+   1. Finalement c'est en visio
+   2. Signer contrat
 
 ---
 
@@ -286,81 +256,109 @@ Rieng
 
 ### Déplacer blog
 
-1. Derniers contenus
-2. Ajuster thème
-3. Mise en ligne
-4. Plugins & config
-5. Opti site & SEO
-
----
-
-1. 🌱 Récupérer pages
-   1. Principales ref nat "kwaksé ce blog"
-       1. Accueil > Expliquer refonte > Moins de temps donc plus d'articles et plus regulier > Plein d'articles en attente + live coding prof
-       2. De nombreux tutoriaux
-          1. Revoir contenus
-             1. Dev & prauf & soft skillz
-          2. Image alakon
-          3. Public
-       3. Moultes recettes de cuisine
-          1. Revoir contenus
-          2. Image alakon
-          3. Public
-       4. Peinture de miniatures
-          1. Revoir contenus
-          2. Image alakon
-          3. Public
-   2. Pages secondaires
-       1. Renvoi vers masa.fr + publique + image alakon > plus simple juste un lien vers masa & "copiay collay flemme"
-          1. 🔥 Contact > bouton sur accueil
-          2. Crédits
-          3. Débogage
-          4. Mentions légales
-          5. RGPD
-   3. [Ajuster templates](https://blog-new.masamune.fr/wp-admin/site-editor.php?postType=wp_template)
-   4. [Tuto YT clean 25mn](https://www.youtube.com/watch?v=O4ZzuYTj9tw)
-   5. Menus
-       1. Pages
-       2. Catégories
-   6. Footer > Masamune copyright
-   7. 💄 Voir largeur max toutes les pages
-   8. 404
-   9. Plan du site
-   10. Basculer DNS
-   11. Vérifier https
-   12. Réindexer site
-   13. Plugins alakon ?
-   14. 🌱🔧 Akismet, après MeL
-   15. 🌱🔧 Mise en cache, après MeL
-   16. 🔧 Sécuritay
-   17. 🌱 Plan du site > Ancien site template de theme, voir si moyen de générer liste avec thème pour éviter plugin
-   18. All in One SEO
-          1. sitemap.xml
-             1. Maj robots.txt
-          2. SEO meta title
-          3. SEO meta description
-          4. SEO keywords
-          5. Open Graph SEO Knowledge Panel information
-          6. social media integration
-          7. SEO search console (Google Search Console) / webmaster tool connections
-          8. local SEO
-          9. schema markup for SEO
-   19. Tester erreurs
-       1. [Google search console](https://search.google.com/search-console)
-          1. 📌 robots.txt
-       2. Pagespeed insights
-       3. W3C
-       4. Autres conneries & mettre à jour repo git
-       5. En faire un article putain
-   20. Dumps & save hdd
+1. 🚀 Process ajout article > MD en dehors de www
+    1. Prévoir des images pour l'intérieur de l'article (3+), pour le SEO
+       1. title & alt
+    2. Sur chaque article > Ai1SEO > Partage > FB > Image à la une
+    3. Forcer création du cache de page `/?action=wpfastestcache&type=preload`
+2. 📌 Check retours mails DMARC
+3. Guthib
+4. Nouveaux articles + diffusion sur la durée
+    1. Film MAD GODS
+    2. PHP 8.2
+    3. Cours
+    4. Article de blog déplacer ce putain de wordpress
+    5. [Lien vers la doc ~htaccess ovh](https://help.ovhcloud.com/csm/fr-documentation-web-cloud-hosting?id=kb_browse_cat&kb_id=e17b4f25551974502d4c6e78b7421955&kb_category=98441955f49801102d4ca4d466a7fdb2)
+    6. Mushroom ketchup
+       1. Ajout bout de vigne
+          1. Micro onde 2 min + image unreal tournament chambre a pression fig1 avant (gonflay) fig2 apres (explosé) avec paint crade tête de fourmi à la place de celle du mec
+          2. Fumé > chalumeau
+       2. Si trop salé > Ajouter des poterres coupées en 2, en plus ça épaissit, nice
+    7. Emails SPF DKIM DMARC avec ressources du site checklist + ce que mwa j'ai rajouté
+       1. Attente retour ticket OVH
+    8. Corrections "rapides" afin d'optimiser le référencement du blog
+       1. Validateurs
+       2. images > title & alt & h & w
+5. [Et merde](http://recup-blog.masamune.fr/)
+6. 📌⏳ Vérifier [Google analytics](https://analytics.google.com/analytics/web/#/report-home/a26782507w69814287p71948494)
+7. 📌⏳ [Google search console](https://search.google.com/search-console?resource_id=sc-domain%3Ablog.masamune.fr)
+    1. [Insight](https://search.google.com/search-console/insights/?resource_id=sc-domain%3Ablog.masamune.fr&hl=fr&ga_view_id=71948494)
+    2. 📝 [Tuto](https://support.google.com/webmasters/answer/6258314?hl=fr)
+8. ⚡️🔌💸 Fastest cache premium quand il y aura une promo
+9. 🌱 Changer de theme le 2023 est vraiment moisi aucun controle
+    1. 🐛 F.FIX images du theme > pas d'attribut title -_- > dans le nouveau wp "title" correspond au nom de la page dédiée au média
+       1. Vérifier qu'aucune des anciennes image ne fait plus de 50ko, cf. wagyu qui était a 200ko > Flemme en vrai
+       2. Les grilles d'articles n'utilisent pas les miniatures d'images mais les grandes ? wtf
+       3. Toutes les images > Attributs `height` & `width`
+    2. Pas de defer/async sur les ressources (css/js/fonts surtout)
+    3. Cleaner pour [accessibe](https://accessibe.com/accessscan)
+10. 🌱 Faire une newsletter
+    1. GA > search console > conversion
 
 ### Déplacer site vitrine
 
 1. prod-old > l'ancien site masamune.fr
 2. prod > nouveau wp > prod.masamune.fr
 3. ✅🔥 Tout benner repartir d'une installation clean
-   1. Récupérer les contenu déjà créés des nouvelles pages [nique tout](https://docs.google.com/document/d/1w88CIdw7LNbKpmFHZbWhWxXU2kAeXVSHKGaAcSUJyfg/edit#)
+   1. Récupérer les contenus déjà créés des nouvelles pages [nique tout](https://docs.google.com/document/d/1w88CIdw7LNbKpmFHZbWhWxXU2kAeXVSHKGaAcSUJyfg/edit#)
 4. 📝 WordPress Projets > Catégories & tags > Utiliser pour... les projets
+   1. 🏭 BP Projet afin de cloner pour l'ensemble des projets
+      1. Modifier styles globaux EN PREMIER
+         1. Polices
+         2. Tailles de polices
+         3. Couleurs fond, textes, etc.
+      2. Ajouter des descriptions aux [catégories (de projet)](https://prod.masamune.fr/wp-admin/term.php?taxonomy=project_category&tag_ID=3&post_type=project&wp_http_referer=%2Fwp-admin%2Fedit-tags.php%3Ftaxonomy%3Dproject_category%26post_type%3Dproject)
+      3. Essayer d'automatiser (récup titre, catégories, etc.) ????????????????
+         1. Si pas automatisé, ne pas se faire chier avec tous les champs wordpress et tout
+         2. May mieux pour les recherches, etc. (ou au pire réafficher en fin d'article en mode oseb)
+      4. Récupérer +- le format du CV
+         1. Inventorier l'ensemble des champs, et voir comment les répartir
+            1. Nom du client
+            2. Nom du projet
+            3. Type de projet
+            4. Période &
+            5. durée
+            6. Poste
+            7. Missions
+            8. Technologies
+            9. Liens
+         2. Rassembler par client/entreprise/expérience pro : une seule page
+            1. Une page client et plusieurs projets en dessous (~recipeS ?)
+            2. FAIRE UN DEUXIEME GABARIT
+   2. Process nouveau projet
+      1. Titre du projet : Uniquement CLIENT / NOM_PROJET / ANNEE
+      2. Date de publication : Date dans CV & Premier du mois & 12:00
+      3. Poste
+         1. Full stack
+      4. Catégories
+         1. Type de projet
+            1. Site Vitrine
+         2. Nature des travaux
+            1. Design & graphisme
+            2. Développement web
+            3. Gestion de projet
+         3. Poste
+            1. Développemeur web
+               1. Full stack
+            2. Chef de projet
+            3. Prof
+         4. Technologies
+            1. HTML
+            2. etc.
+      5. Tags
+         1. Client PME || Client SS2I || Client Entreprise
+         2. Renfort d'entreprise
+         3. Activité du client (~architecture)
+         4. Thème/Ambiance du projet (~minimaliste)
+      6. Image mise en avant > `masamune--CLIENT--PROJET--TYPE_PROJET--banniere.png` > 1200 x 300, PNG, Tiny Panda
+      7. Extrait
+         1. `Réalisation d'un site vitrine pour un architecte, qui souhaitait un design minimaliste, et une administration simple à prendre en main.`
+         2. Type de projet, type de client, objectifs du projet.
+      8. Désactiver commentaires
+      9. Publier
+      10. Revoir URL
+      11. Utiliser Divi
+      12. Cloner page existante "BP Projet"
 5. Divi > Choisir un thème
    1. Template alakon pour projets
    2. [Déglinguer](http://masamune.fr/Ag4Jm8iTlx5nu4/wp-admin/edit.php)
@@ -388,7 +386,11 @@ Rieng
 1. Maj tout masamune
    1. Voir logs séparés, problème htaccess stockage.masamune.fr
    2. 🤏 Virer la merde de _dev/
-   3. masamune
+   3. [Perso branding](https://andela.com/insights/personal-branding-for-technology-professionals)
+   4. Maj liste de liens
+      1. 1 colonne intemporel
+      2. 1 colonne par année decroissante (récent)
+   5. masamune
       1. clean secrets ids ffs
       2. masamune--fr
          1. Refonte complète du site
@@ -408,6 +410,7 @@ Rieng
       3. Remettre tous les anciens trucs max dans un seul dossier sur un seul dd (~bureau ancien pc)
          1. & dossier Bureau/shame
 2. Migration avant 2023 [google analytics 4](https://mail.google.com/mail/u/0/#inbox/FMfcgzGpFWSCZKSSbnBjmgLtgpFfLWxC)
+3. Dashlane > virer tous les identifiants merdiques
 
 ---
 
@@ -425,13 +428,16 @@ Rieng
 2. Renvoi doc AE décla 0€ années passées [hey](https://mail.google.com/mail/u/0/#inbox/FMfcgxmXKmkCGqSQkpPRbBrSKWcsbCpr)
 3. CPF > Non périssable > ~2k€
 4. Inscription EAN
-   1. [hey](https://www.cominjob.com/candidat/)
-   2. [hoy](https://www.ouiboss.com/)
-   3. [prout](https://www.freelance-informatique.fr/)
-   4. Inscription [crème de la crème](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQmNcddHDMfMMGTKJmgzNsvbd)
-   5. Inscription Jean-Paul.io
-   6. [odoo](https://www.odoo.com/fr_FR/jobs)
-   7. [capgemini](https://www.linkedin.com/safety/go?url=https%3A%2F%2Ffr.capgemini.talentnet.community%2F&trk=flagship-messaging-web&messageThreadUrn=urn%3Ali%3AmessagingThread%3A2-MjdmZGZlYjgtZjIxNy00ZDM0LTg2ODYtMzIyYzMwNzcxMzUzXzAxMg%3D%3D&lipi=urn%3Ali%3Apage%3Amessaging_thread%3B984fd009-b4db-44e3-b159-e504a3614444)
+   1. Maj linked in
+   2. [hey](https://www.cominjob.com/candidat/)
+   3. [hoy](https://www.ouiboss.com/)
+   4. [prout](https://www.freelance-informatique.fr/)
+   5. Inscription [crème de la crème](https://mail.google.com/mail/u/0/#inbox/FMfcgzGqQmNcddHDMfMMGTKJmgzNsvbd)
+   6. Inscription Jean-Paul.io
+   7. [odoo](https://www.odoo.com/fr_FR/jobs)
+   8. [capgemini](https://www.linkedin.com/safety/go?url=https%3A%2F%2Ffr.capgemini.talentnet.community%2F&trk=flagship-messaging-web&messageThreadUrn=urn%3Ali%3AmessagingThread%3A2-MjdmZGZlYjgtZjIxNy00ZDM0LTg2ODYtMzIyYzMwNzcxMzUzXzAxMg%3D%3D&lipi=urn%3Ali%3Apage%3Amessaging_thread%3B984fd009-b4db-44e3-b159-e504a3614444)
+   9. [Andela](https://client.andela.com/)
+   10. [JS / Easypartner](https://forms.easypartner.fr/t/rpxghfLTNFus?firstname=Maxime&lastname=CHEVASSON&email=masamune.code@gmail.com)
 5. [Malt PER](https://resources.malt.com/fr/freelances/articles-freelance/reduction-dimpots-avez-vous-pense-a-cette-solution/)
 6. Veille
    1. [Arrêt maladie : les démarches du travailleur indépendant](https://www.ameli.fr/assure/droits-demarches/maladie-accident-hospitalisation/arret-travail-maladie/arret-travail-maladie-independants)

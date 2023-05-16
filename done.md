@@ -2,6 +2,213 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 12/05/2023
+
+Taf
+
+1. ✅ Retour evogue
+2. 💼 Jus Mundi
+   1. ✅ Prévenir pala NBF & HF
+   2. ✅ 🎯 Objectifs en gros
+   3. ✅ à reprendre de la réunion objectifs & estimations
+      1. Objectifs fin de semaine : (~About) Titre + 3 de lignes ; ce qu'il y a en dessous du header.
+      2. Jav slack
+         1. next Template: Institutions Overview
+         2. As discussed for this template:
+         3. We'll integrate as is today in the template on general
+         4. We'll use the current defined Typography
+         5. we'll use the current defined Color
+         6. Max will see if we can re-use the current component, if rework is needed we'll go to a total redo instead.
+      3. Partir sur [l'exemple](https://jusmundi.com/en/d/profile/institution/en-aaa-american-arbitration-association)
+         1. Pika > [global "template"](https://www.figma.com/file/8vjwMa31aeMbLFGTS3rC77/Organisms-JC?type=design&node-id=130-24739&t=TM03mVAjCjAwdVZv-0) here in organisms, but you can use the firms template as well, since nothing is fixed yet for institutions
+            1. We dont have any designs in figma for institutions profiles as we dont know yet the content or anything, but using the template for about for firms is ok for now :+1:
+      4. ✅ Notes : jus-mundi-notes-max\meetings\2340425 Reunion sur la suite et estimations.md
+         1. le faire très bête & méchant la tout de suite
+         2. toujours 3 lignes, bête & méchant, toujours structuré de la même manière.
+   4. ✅👌 Pluriel conditionnel
+   5. ✅🐛 Weird stuff on existing components
+      1. `components/atoms/Button/ButtonAsLink.vue`
+         1. prop `btnText`
+            1. ✨ Why not use children ? To enforce Atom behavior ? `<slot>`
+            2. Rename to either `label`, `buttonText` or `text`
+            3. Update all dependencies
+      2. ~✨ `components/atoms/Link/LinkAsText.vue`
+         1. My returns
+            1. Why so complicated ?
+               1. `linkData` is an Object
+                  1. Must contain `name` & `href` props, but not enforced in component
+                     1. Why naming `name` if it's the text / html content ?
+                  2. `components/molecules/Card/BookCard.vue` uses it and has a validator ?
+                  3. Must use `computed()` ?
+                  4. Why not 2 props ?
+               2. Why having a span, and not using a `<slot>`
+                  1. If using inline  tags ~`<strong>` we must use it in `computed()` ?
+                  2. I'm so confused
+            2. Why not just name it `Link` ?
+      3. ✨ `components/atoms/Text/Paragraph.vue`
+         1. Why both have `text` props and children `<slot>` ?
+      4. ✅🧹 FIXs
+         1. ✅ `components/atoms/Button/ButtonAsLink.vue`
+            1. ✅ Rename prop `btnText` to `buttonText`
+            2. ✅ Update all dependencies
+         2. 💩 `components/atoms/Link/LinkAsText.vue`
+            1. 💩 Simplify it
+               1. ♻️ props `linkData` is an Object that must contain `name` & `href`
+               2. Replace with 2 props `linkText` & `href`
+                  1. Enforce
+                  2. Validate, cf. `components/molecules/Card/BookCard.vue`
+               3. Replace `<span v-html=""` with `<slot>`
+               4. 📝 Keeping both `linkText` & `<slot>` for versatility, but I'd recommand keeping only `<slot>`
+            2. 💩 Update all dependencies
+            3. 💥 props `linkData` is used by the routing mixin > some weird stuff injected around the website
+               1. Too much time consuming
+      5. ✅ Attention lors du PR
+         1. ✅ A vérifier > toutes les instances ou `ButtonAsLink` est utilisé
+      6. ✅👪 Réunion avec Sindhu & Paul, le 11/05/23 à 15h, sur les Traductions, pluriels, et le MR
+         1. ✅ CR traduit
+         2. ✅ Envoi CR & drive
+      7. ✅ Passer les retours
+         1. ✅📌 Tester les traductions & pluriels
+            1. ✅📝 Boilerplate
+         2. ✅📝 Doc
+         3. ✅🖼️ Maj screenshots (doc et MR)
+         4. ✅ Appliquer sur Institutions > Overview
+         5. ✅ Appliquer la méthode demandée sur les retours du MR
+         6. ✅ Maj le MR (images ET edit ajouts 12/05/23) + notifier
+      8. ✅ Faire les CRAs
+
+Perso
+
+1. ✅ Couper poulay + ballotines
+2. ✅ Déclaration impôtS
+   1. a voir avec vigi
+      1. 💩 Max : 17400 € > 5TB Micro-entrepreneur thx pb & cryptor pour cette bonne année de merde
+      2. 💩 Voir pour déduire les frais réels de transports TGV et tout
+         1. Récupérer et ranger drive cazou controle
+         2. Additionner et déclarer dans "1AK"
+         3. 💥 AE pas de frais réels > a facturer aux clients + imposition wtf -_-
+   2. ✅ Déclaration d occupation et de loyer
+3. Sofinco
+   1. ✅ Montant prochaine mensualité monté à 720€ afin de rembourser le reste d'un coup ; le 06/05/23
+   2. ✅ Pas affiché sur le site > Demande via **formulaire contact le 11/05**, retour sous 1 jour ouvré > Rappeler > c'est fait
+   3. ✅ Virement en direct le 11/05/2023, effectué sous 1 à 3 jours ouvrés
+
+Masamune
+
+Déplacer blog
+
+1. ✅ Ajuster templates
+   1. ✅🔍 [Tuto YT clean 25mn](https://www.youtube.com/watch?v=O4ZzuYTj9tw)
+      1. ✅ Create front page template
+   2. ✅ [Ajuster templates](https://blog-new.masamune.fr/wp-admin/site-editor.php?postType=wp_template)
+      1. ✅ 404
+      2. ✨ Archive
+      3. ✨ Vide
+      4. ✅ Blog (Alt)
+      5. ✅ Page d'Accueil
+      6. ✅ Accueil QUI CORRESPOND A ARCHIVES
+      7. 💩 Index / Non c'est de la connerie c'est "Page" le template de page
+      8. ✅ Page
+      9. ✅ Recherche
+      10. ✅ Publication
+      11. (A rajouter)
+          1. ✅ Page d'accueil, La homepage
+          2. ✅Catégorie, Les derniers posts d'une catégorie
+             1. ✨ Toutes / Par défaut > Reprend archives
+      12. ✅ Etiquette, Les derniers posts avec un tag
+          1. ✨ Toutes / Par défaut > Reprend archives
+   3. ✅ Terminer pages
+      1. ✅ Ajouter une page avec la liste des catégories, des tags
+      2. ✅ Catégories principales afficher liste des articles concernés au dessus
+      3. ✅ Secondaires alakon
+   4. ✅ Médias okay
+2. ✅ Récupérer pages
+   1. ✅ Principales ref nat "kwaksé ce blog"
+       1. ✅ Accueil > Expliquer refonte > Moins de temps donc plus d'articles et plus regulier > Plein d'articles en attente + live coding prof
+       2. ✅ De nombreux tutoriaux
+          1. ✅ Revoir contenus
+             1. ✅ Dev & prauf & soft skillz
+          2. ✅ Image alakon
+       3. ✅ Moultes recettes de cuisine
+          1. ✅ Revoir contenus
+          2. ✅ Image alakon
+       4. ✅ Peinture de miniatures
+          1. ✅ Revoir contenus
+          2. ✅ Image alakon
+   2. ✅ Pages secondaires
+       1. ✅ Renvoi vers masa.fr + publique + image alakon > plus simple juste un lien vers masa & "copiay collay flemme"
+          1. 🔥 Contact > bouton sur accueil
+          2. ✅ Crédits
+          3. ✅ Débogage
+          4. ✅ Mentions légales
+          5. ✅ RGPD
+   3. ✅ Menus
+       1. ✅ Pages
+       2. ✅ Catégories
+   4. ✅ Footer > Masamune copyright
+   5. ✅ 💄 Voir largeur max toutes les pages
+   6. ✅ Plan du site
+3. 🌱🐛🖼️ Cleaner codes images
+      1. 🌱 Yeah le thème wp 2023 c'est vraiment de la merde afin de faire de l'édition propre dedans, a voir plus tard
+      2. ✅ Icône likorne > height & width
+      3. Vérifier qu'aucune des anciennes image ne fait plus de 50ko, cf. wagyu qui était a 200ko > Flemme en vrai
+      4. Les grilles d'articles n'utilisent pas les miniatures d'images mais les grandes ? wtf
+      5. Toutes les images > Attributs `height` & `width`
+4. ✅ Plugins
+   1. ✅ Install ceux reco dans checklist
+   2. ✅ All in One SEO
+       1. ✅📌 sitemap.xml
+       2. ✅📌 robots.txt > Généré dynamiquement
+       3. ✅ le reste
+5. ✅ Ai1SEO > [Article guide ref nat](https://aioseo.com/ultimate-wordpress-seo-guide/)
+   1. ✅ Finir Sur chaque article > Partage > FB > Image à la une quand firewall OVH fera plus chier
+6. ✅ Validateurs > cf. checklist fin de site `fr--masamune--blog\checklist-fin-de-site\README.md`
+7. ✅ Screens avant de benner blog v3
+8. ✅ Tester erreurs/validateurs
+    1. [Google search console](https://search.google.com/search-console)
+       1. 📌 robots.txt
+    2. Pagespeed insights
+       1. Pas oublier les merdes tout en bas en gris
+    3. W3C
+    4. En faire un article putain
+9. ✅ Refaire un tour à tête reposée avant bascule
+10. 📌⏳🚀 Basculer DNS
+    1. Vérifier https
+    2. ✅ Réindexer site
+    3. ⏳ Site en ligne
+11. ✅ Reconf Plugins (nouvelle url/htaccess/etc)
+    1. ✅ Fastest cache > `/?action=wpfastestcache&type=preload`
+12. ✅ htaccess > bloquer accès sous répertoires
+13. ✅ Tester envoi mail quand commentaire
+    1. OVH Manager > Possibilité d'ajouter SPF DKIM DMARC maintenant
+    2. SPF
+       1. 📝 [Doc](https://dmarcadvisor.com/fr/creer-un-enregistrement-spf/)
+       2. `blog IN TXT "v=spf1 a mx ip4:145.239.37.162 ip6:2001:41d0:301::30 -all"`
+       3. sous domaine, autoriser ip associée au domaine + spécifier ip en dur & empécher tout le reste
+    3. ⏳ DKIM > Demande envoyée au support
+    4. ✅ DMARC
+14. ✅ Refaire les checklists de fin de site, en entier
+    1. ✅ Base
+    2. ✅ WP
+15. ✅ Tester erreurs/validateurs
+    1. ✅ [Google search console](https://search.google.com/search-console)
+       1. ✅📌 robots.txt
+    2. ✅ Pagespeed insights
+    3. ✅ W3C
+16. ✅ Flinguer www/ local & re-télécharger pour être au cordeau
+17. ✅ Dumps & save hdd
+18. ✅ Revoir "responsive"
+    1. ✅ Images alignées au milieu
+    2. ✅ Réduire les marges du contenu texte
+
+👨‍🏫 Evogue
+
+1. Mettre dans mes cours > debrander
+   1. ✅ Cleaner + drive + github + process
+   2. ✅ Discord
+2. ✅📧 Mission JS Juin 2023
+   1. ✅ Contrat signé + facture envoyée
+
 ## 05/05/2023
 
 Taf

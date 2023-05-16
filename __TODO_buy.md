@@ -32,6 +32,7 @@ Remettre patreon Boris, YMS, Bloodywood
 - 🔍 Graine de caroube
 - gros méga bouquin sur la cuisine / poele coupées en deux et tt
 - Guga > bouquin
+  - [Thermomètres sans fil recommandés](https://www.amazon.com/iQ-Thermometer-Unlimited-Ultra-Thin-Monitoring/dp/B0B14D4B8M/?maas=maas_adg_40B98BCBFC730B4A3E0863006C738A27_afap_abs&ref_=aa_maas&th=1)
 - Huile de laquier (netflix flavorfull origins)
 - Huile de lin pour viande agneau, cf. [origines des saveurs s3e4](https://www.netflix.com/browse?jbv=80991060)
 - [Huile de sésame](https://www.rizetco.com/taebaek-agricultural)
@@ -194,5 +195,9 @@ Remettre patreon Boris, YMS, Bloodywood
 - War color
   - retarder
   - flow improver
+- GW Warcry
+  - [Warcry: Purelames Askurgans / 50 €](https://www.games-workshop.com/fr-FR/warcry-askurgan-trueblades-2023)
+  - [Warcry: Chasseurs de Huanchi / 50 €](https://www.games-workshop.com/fr-FR/warcry-hunters-of-huanchi-2023)
+  - [Warcry: L'Obélisque de Jade / 50 €](https://www.games-workshop.com/fr-FR/warcry-the-jade-obelisk-2023)
 
 Squidmar amazon affiliate in description : [hey](https://www.youtube.com/watch?v=-7q_hLmX1Mw)
