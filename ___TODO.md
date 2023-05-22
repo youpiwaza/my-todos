@@ -36,8 +36,9 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 1. OVH Manager > desactiver protection transfert domaine
 2. ⏳ Jus Mundi
-3. ⏳ Evogue
+3. Evogue
    1. Mission NodeJs Juin 2 jours
+      1. à gérer
 4. 🚀 Masamune > Déplacer anciens sites
     1. 🔥 Re-résilier serveur, attention avant le 19
     2. ⚡️ Terminer blog avant de passer au site vitrine
@@ -45,35 +46,32 @@ Indiquer ici les *tâches à effectuer en priorité*
     4. Déplacer site vitrine
     5. CV tout est good
 5. Gérer [évolution google analytics](https://mail.google.com/mail/u/0/#inbox/FMfcgzGsmWwnjMCCzPJJrGwvqRmTkVrP)
-6. ⏳💸 à garder sur le compte courant / 1193 €
+6. ⏳💸 à garder sur le compte courant / 473 €
    1. 473€ CFE, 16 juin 2023
-   2. 720€ Canap, ~5 juin 2023
-   3. Dentiste
-7. ⏳ Sofinco > Canap > Après le 05/05 > Modifier mensualité > Rembourser d'un coup
-   1. ✅ Virement en direct le 11/05/2023, effectué sous 1 à 3 jours ouvrés
-   2. ✅ Vérifier confirmation prise en compte
-   3. ⏳ Demande de résiliation envoyée le 16/05/23
-8. ⏳💸 Evogue > Vérifier paiement mission mai (2 jours)
-9. Perso
-    1. ⏳⚡️ Ekwateur, vérifier remboursement (avant le 18/05)
-    2. ⏳💸 Appeler BRED, cf. edt tel
+   2. ⏳💸 Dentiste 292€
+      1. Vérifier double remboursement secu & mutuelle
+         1. ✅ ~154€ par alan
+         2. ⏳ 110€ secu ~23/05/23
+7. ⏳💸 Evogue > Vérifier paiement mission mai (2 jours)
+   1. Toujours rien au 22/05/23
+8. Perso
+    1. ⏳💸 Appeler BRED, cf. edt tel
        1. Changer de conseiller
        2. Remboursement des frais injustifiés
        3. Résiliation de "BPCE Assurances IARD"
        4. Call & mails envoyés le [11/05/2023](https://drive.google.com/drive/folders/1bqIpMlzVT7OYL9FkUdm9h6LbAFJCG4q7)
-    3. 👨‍⚕️ Racheter
+    2. 👨‍⚕️ Racheter
        1. gellules huile de foie de morue
        2. 🍔 Pizza++ > [diastatic malt powder](https://www.joshuaweissman.com/post/dominos-pizza)
-    4. Meuble bar > cleaner éclats de la réparation
-    5. 🍔 [Croissants high hydration dow](https://www.youtube.com/watch?v=GSlBVCbgFhE)
-    6. Rappeler Gauthier
-    7. Rappeler Anouk
-    8. 👨‍⚕️ RDV dermato > Obligé d'appeler
+    3. Meuble bar > cleaner éclats de la réparation
+    4. 🍔 [Croissants high hydration dow](https://www.youtube.com/watch?v=GSlBVCbgFhE)
+    5. Rappeler Gauthier
+    6. Rappeler Anouk
+    7. 👨‍⚕️ RDV dermato > Obligé d'appeler
        1. Julie Plee / 03 26 85 42 88
        2. Ziad Reguaï / 03 52 15 08 08
-    9. 🎵 Concert Nosfell ?
-    10. 🎵 Concert little big 21 octobre strasbourg
-    11. 👨‍⚕️ Alan > Faire exos pour le dos > Pas sur le site internet, appli seulement :/
+    8. 🎵 Concert little big 21 octobre strasbourg
+    9. 👨‍⚕️ Alan > Faire exos pour le dos > Pas sur le site internet, appli seulement :/
 
 ---
 
@@ -261,25 +259,32 @@ Rieng
        1. title & alt
     2. Sur chaque article > Ai1SEO > Partage > FB > Image à la une
     3. Forcer création du cache de page `/?action=wpfastestcache&type=preload`
-2. 📌 Check retours mails DMARC
-3. Guthib
-4. Nouveaux articles + diffusion sur la durée
+2. 🚨🔥 [Et merde](http://recup-blog.masamune.fr/)
+   1. 📝 Sur ancien serveur
+   2. ✅ Images déja dans `/Desktop/tas de merde now/medias blog v2`
+   3. ✅ Doc c/c `/Desktop/tas de merde now/recup blog/tg.md`
+   4. Ranger et ressortir articles
+3. 📌 Check retours mails DMARC
+4. Guthib
+5. Nouveaux articles + diffusion sur la durée
     1. Film MAD GODS
     2. PHP 8.2
     3. Cours
     4. Article de blog déplacer ce putain de wordpress
     5. [Lien vers la doc ~htaccess ovh](https://help.ovhcloud.com/csm/fr-documentation-web-cloud-hosting?id=kb_browse_cat&kb_id=e17b4f25551974502d4c6e78b7421955&kb_category=98441955f49801102d4ca4d466a7fdb2)
     6. Mushroom ketchup
-       1. Ajout bout de vigne
+       1. Pas faire au gros sel, sel fin, moins de 5% du poids
+       2. Ajout bout de vigne
           1. Micro onde 2 min + image unreal tournament chambre a pression fig1 avant (gonflay) fig2 apres (explosé) avec paint crade tête de fourmi à la place de celle du mec
           2. Fumé > chalumeau
-       2. Si trop salé > Ajouter des poterres coupées en 2, en plus ça épaissit, nice
+       3. Si trop salé > Ajouter des poterres émincées à la mandoline, et cuire 10-15mn
+          1. ça épaissit, nice
+          2. Après filet d'huile d'olive > four > Chips
     7. Emails SPF DKIM DMARC avec ressources du site checklist + ce que mwa j'ai rajouté
        1. Attente retour ticket OVH
     8. Corrections "rapides" afin d'optimiser le référencement du blog
        1. Validateurs
        2. images > title & alt & h & w
-5. [Et merde](http://recup-blog.masamune.fr/)
 6. 📌⏳ Vérifier [Google analytics](https://analytics.google.com/analytics/web/#/report-home/a26782507w69814287p71948494)
 7. 📌⏳ [Google search console](https://search.google.com/search-console?resource_id=sc-domain%3Ablog.masamune.fr)
     1. [Insight](https://search.google.com/search-console/insights/?resource_id=sc-domain%3Ablog.masamune.fr&hl=fr&ga_view_id=71948494)
@@ -297,71 +302,52 @@ Rieng
 
 ### Déplacer site vitrine
 
-1. prod-old > l'ancien site masamune.fr
-2. prod > nouveau wp > prod.masamune.fr
-3. ✅🔥 Tout benner repartir d'une installation clean
-   1. Récupérer les contenus déjà créés des nouvelles pages [nique tout](https://docs.google.com/document/d/1w88CIdw7LNbKpmFHZbWhWxXU2kAeXVSHKGaAcSUJyfg/edit#)
-4. 📝 WordPress Projets > Catégories & tags > Utiliser pour... les projets
-   1. 🏭 BP Projet afin de cloner pour l'ensemble des projets
-      1. Modifier styles globaux EN PREMIER
-         1. Polices
-         2. Tailles de polices
-         3. Couleurs fond, textes, etc.
-      2. Ajouter des descriptions aux [catégories (de projet)](https://prod.masamune.fr/wp-admin/term.php?taxonomy=project_category&tag_ID=3&post_type=project&wp_http_referer=%2Fwp-admin%2Fedit-tags.php%3Ftaxonomy%3Dproject_category%26post_type%3Dproject)
-      3. Essayer d'automatiser (récup titre, catégories, etc.) ????????????????
-         1. Si pas automatisé, ne pas se faire chier avec tous les champs wordpress et tout
-         2. May mieux pour les recherches, etc. (ou au pire réafficher en fin d'article en mode oseb)
-      4. Récupérer +- le format du CV
-         1. Inventorier l'ensemble des champs, et voir comment les répartir
-            1. Nom du client
-            2. Nom du projet
-            3. Type de projet
-            4. Période &
-            5. durée
-            6. Poste
-            7. Missions
-            8. Technologies
-            9. Liens
-         2. Rassembler par client/entreprise/expérience pro : une seule page
-            1. Une page client et plusieurs projets en dessous (~recipeS ?)
-            2. FAIRE UN DEUXIEME GABARIT
-   2. Process nouveau projet
-      1. Titre du projet : Uniquement CLIENT / NOM_PROJET / ANNEE
+1. Bleu masa osef #43a8d3, plus clair #49cced, Rouze #9b000e
+2. 🏭 BP Entreprise qui a plusieurs projets
+   1. 📌 Ou pas, réutiliser et juste rajouter des images alakon à gauche ?
+   2. Rassembler par client/entreprise/expérience pro : une seule page
+   3. Une page client et plusieurs projets en dessous (~recipeS ?)
+3. 📌 Tester nouveau projet + import du BP enregistré
+   1. 🚀 Finir effy art tattoo
+4. Ajouter des descriptions aux [catégories (de projet)](https://prod.masamune.fr/wp-admin/term.php?taxonomy=project_category&tag_ID=3&post_type=project&wp_http_referer=%2Fwp-admin%2Fedit-tags.php%3Ftaxonomy%3Dproject_category%26post_type%3Dproject)
+5. Process nouveau projet
+   1. Cloner `cv-portfolio-tout/portfolio/projets/_BP_README.md`
+   2. Rapatrier images si c'pas déjà fait et clean
+      1. Process `cv-portfolio-tout/README.md`
+         1. Récupérer depuis `/Desktop/tas de merde now/masamune.fr dump fichiers/uploads`
+         2. A bouger dans `cv-portfolio-tout/portfolio`
+      2. Ajouter aux médias
+      3. Ajouter textes title & alt, & rapatrier textes dans portfolio
+   3. Page WordPress
+      1. Titre du projet : NOM_PROJET
       2. Date de publication : Date dans CV & Premier du mois & 12:00
-      3. Poste
-         1. Full stack
-      4. Catégories
-         1. Type de projet
-            1. Site Vitrine
-         2. Nature des travaux
-            1. Design & graphisme
-            2. Développement web
-            3. Gestion de projet
-         3. Poste
-            1. Développemeur web
-               1. Full stack
-            2. Chef de projet
-            3. Prof
-         4. Technologies
-            1. HTML
-            2. etc.
-      5. Tags
-         1. Client PME || Client SS2I || Client Entreprise
-         2. Renfort d'entreprise
-         3. Activité du client (~architecture)
-         4. Thème/Ambiance du projet (~minimaliste)
-      6. Image mise en avant > `masamune--CLIENT--PROJET--TYPE_PROJET--banniere.png` > 1200 x 300, PNG, Tiny Panda
+      3. Publier > Vérifier Url
+      4. Catégories > Ajouter uniquement enfants
+      5. Tags > Pluriel uniquement
+         1. Sujets du site
+         2. Styles/Ambiance minimaliste / moderne / luxe / classique / one page
+      6. Image en avant > Carré ( 512 x 512, TinyPNG )
+         1. Title `Masamune / PROJET / CLIENT / TYPE_PROJET`
       7. Extrait
          1. `Réalisation d'un site vitrine pour un architecte, qui souhaitait un design minimaliste, et une administration simple à prendre en main.`
          2. Type de projet, type de client, objectifs du projet.
+         3. 2 lignes max
       8. Désactiver commentaires
-      9. Publier
-      10. Revoir URL
-      11. Utiliser Divi
-      12. Cloner page existante "BP Projet"
-5. Divi > Choisir un thème
-   1. Template alakon pour projets
-   2. [Déglinguer](http://masamune.fr/Ag4Jm8iTlx5nu4/wp-admin/edit.php)
+   4. 💾 Rapatrier textes dans portfolio `cv-portfolio-tout/portfolio/projets/CLIENT/README.md`
+   5. 🚀 Utiliser Divi
+      1. Choisir la mise en page
+      2. Télécharger le modèle
+      3. Charger à partir de la bibliothèque "Template Projet / Masa"
+      4. Remplacer les contenus lel
+         1. Pas oublier logo client à la place de celui masamune
+   6. a
+   7. a
+   8. a
+   9. a
+   10. Portefeuille (autres projets) > Ajuster catégories similaires
+   11. Responsive
+   12. (plus tard) Rapatrier textes dans md portfolio
+6. 🌱 Ajuster Portefeuille (autres projets) quand 3+
 
 ---
 

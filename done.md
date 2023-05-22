@@ -2,6 +2,49 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 19/05/2023
+
+Evogue
+
+1. ✅ Julien Sorel <ce.julsirel@gmail.com> > Problème notation (0 au lieu de 13) [mail du 16/05/23](https://mail.google.com/mail/u/0/#inbox/FMfcgzGslkqSvvTwgzvZLxxhBSXMBkDz)
+   1. ✅ [Mail correctif le 16/05/23](https://mail.google.com/mail/u/0/#sent/FFNDWNFRqqQGwxRfTrwcScjpRJBkpMxH)
+
+Perso
+
+1. ✅ Sofinco > Canap > Après le 05/05 > Modifier mensualité > Rembourser d'un coup
+   1. ✅ Demande de résiliation envoyée le 16/05/23
+   2. ✅ Mail de [confirmation de résiliation le 16/05/2023](https://mail.google.com/mail/u/0/#inbox/FMfcgzGsmhSGRzVSXVXcSwPmXjQJqgSL)
+2. ✅⚡️ Ekwateur, vérifier remboursement (avant le 18/05)
+
+Déplacer site vitrine
+
+1. ✅🔥 Tout benner repartir d'une installation clean
+   1. Récupérer les contenus déjà créés des nouvelles pages [nique tout](https://docs.google.com/document/d/1w88CIdw7LNbKpmFHZbWhWxXU2kAeXVSHKGaAcSUJyfg/edit#)
+2. ✅ 🏭 BP Projet afin de cloner pour l'ensemble des projets
+      1. ✅ Modifier styles globaux EN PREMIER
+         1. ✅ Polices
+         2. ✅ Tailles de polices
+         3. ✅ Couleurs fond, textes, etc.
+      2. ✅ Remplir Admin > Divi
+      3. ✅ Ajouter des descriptions aux [catégories (de projet)](https://prod.masamune.fr/wp-admin/term.php?taxonomy=project_category&tag_ID=3&post_type=project&wp_http_referer=%2Fwp-admin%2Fedit-tags.php%3Ftaxonomy%3Dproject_category%26post_type%3Dproject)
+      4. ✅ Essayer d'automatiser (récup titre, catégories, etc.) ????????????????
+      5. ✅ Récupérer +- le format du CV
+         1. ✅ Inventorier l'ensemble des champs, et voir comment les répartir
+            1. ✅ Nom du client
+            2. ✅ Nom du projet
+            3. ✅ Type de projet
+            4. ✅ Période &
+            5. ✅ Durée
+            6. ✅ Poste
+            7. ✅ Nature des travaux
+            8. ✅ Missions
+            9. ✅ Technologies
+            10. ✅ Liens
+      6. ✅📱 Responsive viteuf
+      7. ✅ WP & référencement
+         1. ✅ Rajouter catégories & tags générés automatiquement
+3. ✅ Re-résilier serveurh
+
 ## 12/05/2023
 
 Taf
@@ -92,6 +135,8 @@ Perso
    1. ✅ Montant prochaine mensualité monté à 720€ afin de rembourser le reste d'un coup ; le 06/05/23
    2. ✅ Pas affiché sur le site > Demande via **formulaire contact le 11/05**, retour sous 1 jour ouvré > Rappeler > c'est fait
    3. ✅ Virement en direct le 11/05/2023, effectué sous 1 à 3 jours ouvrés
+   4. ✅ Virement en direct le 11/05/2023, effectué sous 1 à 3 jours ouvrés
+   5. ✅ Vérifier confirmation prise en compte
 
 Masamune
 
