@@ -2,6 +2,42 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 26/05/2023
+
+Perso
+
+1. 💸 Thunes
+   1. ✅ 250 camping cet été > virement à vigi
+   2. ✅ Dentiste 292€
+      1. ✅ Vérifier double remboursement secu & mutuelle
+         1. ✅ ~154€ par alan
+         2. ✅ 110€ secu ~23/05/23
+   3. ✅💸 Résa nanarland 2 x 20
+   4. ✅💸 2 x 50 balles francis HF
+2. 👨‍⚕️ Dentiste > Envoyer nouveau devis
+   1. ✅ Alan
+   2. ✅ Drive
+
+Masamune > Déplacer anciens sites
+
+1. ✅🔥 Re-résilier serveur, attention avant le 19
+2. ✅⚡️ Terminer blog avant de passer au site vitrine
+3. ✅ Déplacer blog
+   1. ✅ WP fastest cache premium
+   2. Nouveaux articles + diffusion sur la durée
+      1. ✅ Film MAD GODS
+      2. ✅ Que faire quand site hackay / sera publié le 02 / 06
+4. Déplacer site vitrine
+   1. ✅ Finir effy art tattoo
+   2. ✅ Refonte serveur d'hébergement
+   3. ✅ Bilans service
+   4. ✅ O'clock professorat
+   5. ✅ Champagne didier lapie
+   6. ✅ La passerelle
+   7. ✅ Champagne Pascal Picard
+   8. ✅ ~Recup contenus textes ancien site avant qu'il soit trop tard -_-
+   9. ✅ Cours particuliers
+
 ## 19/05/2023
 
 Evogue

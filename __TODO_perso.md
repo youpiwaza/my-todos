@@ -171,7 +171,6 @@ Sites > crunchyroll / otakufr . co
 - Exchange students
 - Ex Machina
 - Exit Through the Gift Shop
-- Fist of jesus
 - ✅ First love le dernier yakuza / 4/5
 - freaks land ~1930
 - Fright night
@@ -327,6 +326,7 @@ Sites > crunchyroll / otakufr . co
 - Deathgasm
 - Dogma
 - ✅ Frankenhooker / 4/5 / Un peu long mais très bon nanard
+- Fist of jesus // zombies
 - German Angst
 - hamburger film sandwich / voies redoublées
 - Horror cannibal 2, et puis le 1 tant qu'à faire

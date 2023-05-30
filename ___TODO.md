@@ -34,44 +34,59 @@ Indiquer ici les *tâches à effectuer en priorité*
 - Si besoin de focus, mettre une ou 2 tâches ici.
 - Ne pas tout fourrer ici, *respecter la priorisation*, sinon tout est fait à l'arrache
 
-1. OVH Manager > desactiver protection transfert domaine
-2. ⏳ Jus Mundi
-3. Evogue
-   1. Mission NodeJs Juin 2 jours
-      1. à gérer
-4. 🚀 Masamune > Déplacer anciens sites
-    1. 🔥 Re-résilier serveur, attention avant le 19
-    2. ⚡️ Terminer blog avant de passer au site vitrine
-    3. 🚀 Déplacer blog
-    4. Déplacer site vitrine
-    5. CV tout est good
-5. Gérer [évolution google analytics](https://mail.google.com/mail/u/0/#inbox/FMfcgzGsmWwnjMCCzPJJrGwvqRmTkVrP)
-6. ⏳💸 à garder sur le compte courant / 473 €
+1. ⏳📣 Blog / Que faire quand site hackay / sera publié le 02 / 06
+2. OVH Manager > desactiver protection transfert domaine
+3. 💥 Jus Mundi
+   1. 💥 Facture Mai 2023
+4. Evogue
+   1. ⏳💸 Vérifier paiement mission mai (2 jours), Toujours rien au 30/05/23, relancé par mail le 30/05/23
+   2. Mission 2, 26, 27 juin / 3 jours / JS PHP
+      1. ✅ Contrat signé
+      2. Cours à préparer
+   3. 💥 Mission 5 & 12 Juin / 2 jours / NodeJs
+      1. 💥 En attente de contrat, et en présentiel ?
+   4. ⏳ Mission du 31 juillet au 4 aout / 5 jours / DevOps
+      1. ⏳ En attente de contrat, et en présentiel
+         1. Trouver logement
+5. 🚀 Masamune > Déplacer anciens sites
+    1. 🌱 Finaliser blog
+    2. 🚀 Déplacer site vitrine
+       1. 💥 Ptet faire les pages "classiques", basculer, puis terminer les projets après
+    3. CV tout est good
+6. Gérer [évolution google analytics](https://mail.google.com/mail/u/0/#inbox/FMfcgzGsmWwnjMCCzPJJrGwvqRmTkVrP)
+7. ⏳💸 à garder sur le compte courant / 473 €
    1. 473€ CFE, 16 juin 2023
-   2. ⏳💸 Dentiste 292€
-      1. Vérifier double remboursement secu & mutuelle
-         1. ✅ ~154€ par alan
-         2. ⏳ 110€ secu ~23/05/23
-7. ⏳💸 Evogue > Vérifier paiement mission mai (2 jours)
-   1. Toujours rien au 22/05/23
-8. Perso
-    1. ⏳💸 Appeler BRED, cf. edt tel
+   2. 500 provisions hellfest
+8. Hébergement > Vérifier paiements
+   1. ALDehu, Facture envoyée le 26 mai 2023, vu avec nonore en live le virement arrive bientôt
+9. Perso
+    1. 🎂 Orga anniv pougnoutte
+       1. 🚀 Liste des invités
+       2. Dates
+       3. Lieux
+       4. Activités
+       5. Dépenses
+       6. Images
+       7. Espace de discussion
+    2. Eplucher docs AG Reims
+    3. 👨‍⚕️ Dentiste > Envoyer nouveau devis > Renvoyer retour Alan
+    4. ⏳💸 Appeler BRED, cf. edt tel
        1. Changer de conseiller
        2. Remboursement des frais injustifiés
        3. Résiliation de "BPCE Assurances IARD"
        4. Call & mails envoyés le [11/05/2023](https://drive.google.com/drive/folders/1bqIpMlzVT7OYL9FkUdm9h6LbAFJCG4q7)
-    2. 👨‍⚕️ Racheter
+    5. 👨‍⚕️ Racheter
        1. gellules huile de foie de morue
        2. 🍔 Pizza++ > [diastatic malt powder](https://www.joshuaweissman.com/post/dominos-pizza)
-    3. Meuble bar > cleaner éclats de la réparation
-    4. 🍔 [Croissants high hydration dow](https://www.youtube.com/watch?v=GSlBVCbgFhE)
-    5. Rappeler Gauthier
-    6. Rappeler Anouk
-    7. 👨‍⚕️ RDV dermato > Obligé d'appeler
-       1. Julie Plee / 03 26 85 42 88
-       2. Ziad Reguaï / 03 52 15 08 08
-    8. 🎵 Concert little big 21 octobre strasbourg
-    9. 👨‍⚕️ Alan > Faire exos pour le dos > Pas sur le site internet, appli seulement :/
+    6. Meuble bar > cleaner éclats de la réparation
+    7. 🍔 [Croissants high hydration dow](https://www.youtube.com/watch?v=GSlBVCbgFhE)
+    8. Rappeler Gauthier
+    9. Rappeler Anouk
+    10. 👨‍⚕️ RDV dermato > Obligé d'appeler
+        1. Julie Plee / 03 26 85 42 88
+        2. Ziad Reguaï / 03 52 15 08 08
+    11. 🎵 Concert little big 21 octobre strasbourg
+    12. 👨‍⚕️ Alan > Faire exos pour le dos > Pas sur le site internet, appli seulement :/
 
 ---
 
@@ -113,7 +128,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
   - 💥 Perso  / Revenus 2022
   - 💥 Pro    / 11/04/2022
 - ⏳ Vérifier messages [Ameli](https://assure.ameli.fr/)
-- ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21
+- ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21 / lel
   - ⏳ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk), `/r` également
     1. Invite de commande ou Powershell **en admin**
     2. `chkdsk c: /f /r` (et en fonction de vos disques.. && `chkdsk d: /f /r`, etc.)
@@ -127,6 +142,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
   - ⏳ Firmware SSDs / Dépend du constructeur > Voir site officiel, avec un peu de chance logiciel auto alakon
     - ⏳ Dell support assist
     - ⏳ Alienware update
+    - ⏳💸 System mechanic
   - ⏳ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
   - ⏳ Logiciels alakon
     - ⏳ Ouvrir VScode > Auto update plugins etc.
@@ -229,9 +245,17 @@ Rieng
 ### 💼 Jus Mundi
 
 1. 🎯 Objectifs en gros > Institutions Overview
-   1. Attendre Validation MR
-2. ♻️ CRA
-3. 🤯 Sur notion il y a les screenshots, filtre JC uniquement, pas JM
+2. ♻️👌 Clean / Prevent unnecessary feedbacks
+   1. Add translations
+   2. Add plural / none
+   3. Add max number of documents displayed
+   4. Reponsive > styles from figma > ~Redesign to act
+   5. Remove comments
+   6. Remove lines if empty > 1
+   7. If a component hasn't content, auto-close it
+   8. ♻️ Refacto duplicate code to `computed` or `method`
+3. ♻️ CRA
+4. 🤯 Sur notion il y a les screenshots, filtre JC uniquement, pas JM
 
 ---
 
@@ -254,25 +278,29 @@ Rieng
 
 ### Déplacer blog
 
-1. 🚀 Process ajout article > MD en dehors de www
+1. Appliquer les recommandations de la google search console, onglets déjà ouverts
+   1. 🚨 Problème indexation des pages
+      1. /dev-et-prog/gestion-de-l-encodage-utf-8-via-excel/
+      2. /dev-et-prog/mysql-bonnes-pratiques-creer-un-utilisateur/
+      3. les deux `<meta name="robots" content="noindex, nofollow`
+      4. 💩💩 Cela se passe lorsqu'un 🚨 **COMMENTAIRE** 🚨 est rajouté ???
+2. [30 SEO hacks](https://aioseo.com/seo-hacks-to-grow-your-traffic/)
+   1. & liste fin de site
+3. 🚀 Process ajout article > MD en dehors de www
     1. Prévoir des images pour l'intérieur de l'article (3+), pour le SEO
        1. title & alt
     2. Sur chaque article > Ai1SEO > Partage > FB > Image à la une
     3. Forcer création du cache de page `/?action=wpfastestcache&type=preload`
-2. 🚨🔥 [Et merde](http://recup-blog.masamune.fr/)
-   1. 📝 Sur ancien serveur
-   2. ✅ Images déja dans `/Desktop/tas de merde now/medias blog v2`
-   3. ✅ Doc c/c `/Desktop/tas de merde now/recup blog/tg.md`
-   4. Ranger et ressortir articles
-3. 📌 Check retours mails DMARC
-4. Guthib
-5. Nouveaux articles + diffusion sur la durée
-    1. Film MAD GODS
-    2. PHP 8.2
-    3. Cours
-    4. Article de blog déplacer ce putain de wordpress
-    5. [Lien vers la doc ~htaccess ovh](https://help.ovhcloud.com/csm/fr-documentation-web-cloud-hosting?id=kb_browse_cat&kb_id=e17b4f25551974502d4c6e78b7421955&kb_category=98441955f49801102d4ca4d466a7fdb2)
-    6. Mushroom ketchup
+4. 🚨🔥 [Et merde](http://recup-blog.masamune.fr/)
+   1. Rapatrié de mémoire
+5. 📌 Check retours mails DMARC
+6. Guthib
+7. Nouveaux articles + diffusion sur la durée
+    1. PHP 8.2
+    2. Cours
+    3. Article de blog déplacer ce putain de wordpress
+    4. [Lien vers la doc ~htaccess ovh](https://help.ovhcloud.com/csm/fr-documentation-web-cloud-hosting?id=kb_browse_cat&kb_id=e17b4f25551974502d4c6e78b7421955&kb_category=98441955f49801102d4ca4d466a7fdb2)
+    5. Mushroom ketchup
        1. Pas faire au gros sel, sel fin, moins de 5% du poids
        2. Ajout bout de vigne
           1. Micro onde 2 min + image unreal tournament chambre a pression fig1 avant (gonflay) fig2 apres (explosé) avec paint crade tête de fourmi à la place de celle du mec
@@ -280,49 +308,53 @@ Rieng
        3. Si trop salé > Ajouter des poterres émincées à la mandoline, et cuire 10-15mn
           1. ça épaissit, nice
           2. Après filet d'huile d'olive > four > Chips
-    7. Emails SPF DKIM DMARC avec ressources du site checklist + ce que mwa j'ai rajouté
+    6. Emails SPF DKIM DMARC avec ressources du site checklist + ce que mwa j'ai rajouté
        1. Attente retour ticket OVH
-    8. Corrections "rapides" afin d'optimiser le référencement du blog
+    7. Corrections "rapides" afin d'optimiser le référencement du blog
        1. Validateurs
        2. images > title & alt & h & w
-6. 📌⏳ Vérifier [Google analytics](https://analytics.google.com/analytics/web/#/report-home/a26782507w69814287p71948494)
-7. 📌⏳ [Google search console](https://search.google.com/search-console?resource_id=sc-domain%3Ablog.masamune.fr)
+8. 📌⏳ Vérifier [Google analytics](https://analytics.google.com/analytics/web/#/report-home/a26782507w69814287p71948494)
+9. 📌⏳ [Google search console](https://search.google.com/search-console?resource_id=sc-domain%3Ablog.masamune.fr)
     1. [Insight](https://search.google.com/search-console/insights/?resource_id=sc-domain%3Ablog.masamune.fr&hl=fr&ga_view_id=71948494)
     2. 📝 [Tuto](https://support.google.com/webmasters/answer/6258314?hl=fr)
-8. ⚡️🔌💸 Fastest cache premium quand il y aura une promo
-9. 🌱 Changer de theme le 2023 est vraiment moisi aucun controle
+10. ⚡️🔌💸 Fastest cache premium quand il y aura une promo
+11. 🌱 Changer de theme le 2023 est vraiment moisi aucun controle
     1. 🐛 F.FIX images du theme > pas d'attribut title -_- > dans le nouveau wp "title" correspond au nom de la page dédiée au média
        1. Vérifier qu'aucune des anciennes image ne fait plus de 50ko, cf. wagyu qui était a 200ko > Flemme en vrai
        2. Les grilles d'articles n'utilisent pas les miniatures d'images mais les grandes ? wtf
        3. Toutes les images > Attributs `height` & `width`
     2. Pas de defer/async sur les ressources (css/js/fonts surtout)
     3. Cleaner pour [accessibe](https://accessibe.com/accessscan)
-10. 🌱 Faire une newsletter
+12. 🌱 Faire une newsletter
     1. GA > search console > conversion
 
 ### Déplacer site vitrine
 
-1. Bleu masa osef #43a8d3, plus clair #49cced, Rouze #9b000e
+1. Bleu masa osef #43a8d3, plus clair #49cced, Rouze #9b000e, Rauz #ff00ff
 2. 🏭 BP Entreprise qui a plusieurs projets
    1. 📌 Ou pas, réutiliser et juste rajouter des images alakon à gauche ?
    2. Rassembler par client/entreprise/expérience pro : une seule page
    3. Une page client et plusieurs projets en dessous (~recipeS ?)
 3. 📌 Tester nouveau projet + import du BP enregistré
-   1. 🚀 Finir effy art tattoo
-4. Ajouter des descriptions aux [catégories (de projet)](https://prod.masamune.fr/wp-admin/term.php?taxonomy=project_category&tag_ID=3&post_type=project&wp_http_referer=%2Fwp-admin%2Fedit-tags.php%3Ftaxonomy%3Dproject_category%26post_type%3Dproject)
-5. Process nouveau projet
+   1. 🚀 3WAcademy
+   2. Nayxt
+4. 📋 Process nouveau projet
    1. Cloner `cv-portfolio-tout/portfolio/projets/_BP_README.md`
-   2. Rapatrier images si c'pas déjà fait et clean
+   2. Remplir les informations de base
+   3. Rapatrier images si c'pas déjà fait et clean
       1. Process `cv-portfolio-tout/README.md`
          1. Récupérer depuis `/Desktop/tas de merde now/masamune.fr dump fichiers/uploads`
          2. A bouger dans `cv-portfolio-tout/portfolio`
-      2. Ajouter aux médias
-      3. Ajouter textes title & alt, & rapatrier textes dans portfolio
-   3. Page WordPress
+         3. 🔥 Infos sensibles > noms projets, noms clients, identifiants
+      2. Vérifier si logo entreprise dans le dossier
+      3. `README.md` portfolio > textes title & alt
+      4. WP > Ajouter aux médias
+   4. 🚀 Page WordPress
       1. Titre du projet : NOM_PROJET
       2. Date de publication : Date dans CV & Premier du mois & 12:00
       3. Publier > Vérifier Url
       4. Catégories > Ajouter uniquement enfants
+         1. Si nouvelles catégories ajouter au BP
       5. Tags > Pluriel uniquement
          1. Sujets du site
          2. Styles/Ambiance minimaliste / moderne / luxe / classique / one page
@@ -333,21 +365,28 @@ Rieng
          2. Type de projet, type de client, objectifs du projet.
          3. 2 lignes max
       8. Désactiver commentaires
-   4. 💾 Rapatrier textes dans portfolio `cv-portfolio-tout/portfolio/projets/CLIENT/README.md`
-   5. 🚀 Utiliser Divi
+   5. 💾 Rapatrier textes dans portfolio `cv-portfolio-tout/portfolio/projets/CLIENT/README.md`
+   6. Utiliser Divi
       1. Choisir la mise en page
       2. Télécharger le modèle
-      3. Charger à partir de la bibliothèque "Template Projet / Masa"
-      4. Remplacer les contenus lel
-         1. Pas oublier logo client à la place de celui masamune
-   6. a
-   7. a
-   8. a
-   9. a
-   10. Portefeuille (autres projets) > Ajuster catégories similaires
-   11. Responsive
-   12. (plus tard) Rapatrier textes dans md portfolio
-6. 🌱 Ajuster Portefeuille (autres projets) quand 3+
+      3. Charger à partir de la bibliothèque "YYMMDD (latest) Projet"
+      4. Remplacer les contenus
+         1. Si pas d'image > Fond > Motif > Cube + #49CCED
+         2. Vérifier si vidéo youtube
+      5. 🚨 Pas oublier
+         1. Liens > Ajouter liens
+         2. Images > Visionneuse ou lien fichier direct
+            1. CSS perso `max-height: 300px; overflow: hidden; width: 100%;`
+            2. Styles > Espacement > Marge externe basse > 2em
+         3. Missions > logo client à la place de celui masamune
+         4. Vérifier en mode texte à la fin qu'il n'y a pas d'ajout de balises alakon `<div><span>&nbsp;`
+         5. 📱 Responsive
+   7. 💾 Github
+5. 🌱 Check contenus ancien site avant bennage, notemment pour les anciens projets
+6. 🌱 Ajouter des descriptions aux [catégories (de projet)](https://prod.masamune.fr/wp-admin/term.php?taxonomy=project_category&tag_ID=3&post_type=project&wp_http_referer=%2Fwp-admin%2Fedit-tags.php%3Ftaxonomy%3Dproject_category%26post_type%3Dproject)
+7. 🌱 Portefeuille (autres projets) > Ajuster catégories similaires
+8. 🌱 Ajuster Portefeuille (autres projets) quand 3+
+9. 🌱 WP fastest cache premium > Après bascule DNS
 
 ---
 
