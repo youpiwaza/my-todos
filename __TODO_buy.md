@@ -50,11 +50,13 @@ Remettre patreon Boris, YMS, Bloodywood
 - [Perilla_oil](https://en.wikipedia.org/wiki/Perilla_oil)
 - [Sauce otafuku](https://www.otafukusauce.com/e/)
 - [Sel d'icelande](https://www.amazon.fr/Saltverk-Pure-Flaky-Sea-salt/dp/B06XKSFW4P) / [Vidéo](https://www.youtube.com/watch?v=dgzwxRSJyfw)
+- [Sel Jakobs](https://www.youtube.com/watch?v=7FuEpgUGhVY)
 - Skyr / ~Yaourt light
 - Sucre muscovado
 - "The noma guide to fermentation" livre
 - [Un peu de tout, couteaux, poeles, etc.](https://fr-dalstrong.glopalstore.com/pages/GUGA-subscribe-page?utm_campaign=oth_r&utm_source=https://dalstrong.com&utm_medium=wi_proxy&utm_content=en_US&utm_term=c)
 - Vinaigre fumé
+- Vinaigre de sapin
 - [Vodka rammstein](https://shop.rammstein.de/en/catalog/Menu/rammstein-vodka-feuer-wasser.html)
 - Vrai ginseng
 - Vrai wasabi > [hon wasabi](https://www.google.com/search?q=hon+wasabi)

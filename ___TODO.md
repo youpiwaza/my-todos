@@ -34,32 +34,23 @@ Indiquer ici les *tâches à effectuer en priorité*
 - Si besoin de focus, mettre une ou 2 tâches ici.
 - Ne pas tout fourrer ici, *respecter la priorisation*, sinon tout est fait à l'arrache
 
-1. ⏳📣 Blog / Que faire quand site hackay / sera publié le 02 / 06
-2. OVH Manager > desactiver protection transfert domaine
-3. 💥 Jus Mundi
-   1. 💥 Facture Mai 2023
-4. Evogue
-   1. ⏳💸 Vérifier paiement mission mai (2 jours), Toujours rien au 30/05/23, relancé par mail le 30/05/23
-   2. Mission 2, 26, 27 juin / 3 jours / JS PHP
-      1. ✅ Contrat signé
-      2. Cours à préparer
-   3. 💥 Mission 5 & 12 Juin / 2 jours / NodeJs
-      1. 💥 En attente de contrat, et en présentiel ?
-   4. ⏳ Mission du 31 juillet au 4 aout / 5 jours / DevOps
-      1. ⏳ En attente de contrat, et en présentiel
-         1. Trouver logement
-5. 🚀 Masamune > Déplacer anciens sites
+1. OVH Manager > desactiver protection transfert domaine et re-test
+2. ⏳ Jus Mundi
+   1. ⏳ Facture Mai 2023 envoyée > En attente de règlement
+3. 🚀 Evogue
+   1. ⏳💸 Vérifier paiement mission mai (2 jours), Toujours rien au 01/06/23, relancé par mail le 30/05/23
+   2. 🚀 Préparer les cours
+4. Masamune > Déplacer anciens sites
     1. 🌱 Finaliser blog
-    2. 🚀 Déplacer site vitrine
-       1. 💥 Ptet faire les pages "classiques", basculer, puis terminer les projets après
+    2. Finir Déplacer site vitrine
     3. CV tout est good
-6. Gérer [évolution google analytics](https://mail.google.com/mail/u/0/#inbox/FMfcgzGsmWwnjMCCzPJJrGwvqRmTkVrP)
-7. ⏳💸 à garder sur le compte courant / 473 €
+5. Gérer [évolution google analytics](https://mail.google.com/mail/u/0/#inbox/FMfcgzGsmWwnjMCCzPJJrGwvqRmTkVrP)
+6. ⏳💸 à garder sur le compte courant / 473 €
    1. 473€ CFE, 16 juin 2023
    2. 500 provisions hellfest
-8. Hébergement > Vérifier paiements
-   1. ALDehu, Facture envoyée le 26 mai 2023, vu avec nonore en live le virement arrive bientôt
-9. Perso
+7. 💸 Hébergement > Vérifier paiements
+    1. Fof > Hebergement > 23 € > Envoyé le 01/06/23
+8. Perso
     1. 🎂 Orga anniv pougnoutte
        1. 🚀 Liste des invités
        2. Dates
@@ -261,13 +252,27 @@ Rieng
 
 ### 👨‍🏫 Evogue
 
-1. Mettre dans mes cours > debrander
+pres ajout masa.fr première page
+
+indispensables : identifiants, nom classes, test mirco cam mini reu, enplacement lei ET classes, qui se charge de l'appel, modalités d'évaluation, faire un excel partagé
+
+1. 🚀 Préparer les prochaines missions
+   1. 2306 - Mission juin 2023 - 3 jours - JS PHP - Visio🎥
+      1. Cours à préparer
+         1. Préparer "PHP et Mysql, installer et tester"
+         2. PHP / SQL > Checker cours du 27 au 29 mars > 3 DJ PHP SQL
+   2. 🚀 Mission 5 & 12 Juin / 2 jours / NodeJs
+      1. Cours à préparer
+   3. Mission 7 au 9 Juin / 3 jours / Frameworks JS
+      1. Cours à préparer
+   4. Mission du 31 juillet au 4 aout / 5 jours / DevOps
+      1. 🏭 Appliquer BP
+      2. ⏳ En attente de contrat, 1ère partie 1 jour juillet ok, manque 4 jours août
+         1. Réserver trains
+         2. Trouver logement
+2. 🏭 Pré-requis PHP / Mysql installation etc.
+3. Mettre dans mes cours > debrander
    1. Blog
-2. 📧 Mission JS Juin 2023
-   1. Faire les cours (JS + PHP > 3 jours ?)
-3. Mission NodeJs Juin 2 jours
-   1. Finalement c'est en visio
-   2. Signer contrat
 
 ---
 
@@ -286,19 +291,22 @@ Rieng
       4. 💩💩 Cela se passe lorsqu'un 🚨 **COMMENTAIRE** 🚨 est rajouté ???
 2. [30 SEO hacks](https://aioseo.com/seo-hacks-to-grow-your-traffic/)
    1. & liste fin de site
-3. 🚀 Process ajout article > MD en dehors de www
+3. Recherche `?s=Truc` > `/recherche/` ? si c'possible
+4. Process ajout article > MD en dehors de www
     1. Prévoir des images pour l'intérieur de l'article (3+), pour le SEO
        1. title & alt
     2. Sur chaque article > Ai1SEO > Partage > FB > Image à la une
     3. Forcer création du cache de page `/?action=wpfastestcache&type=preload`
-4. 🚨🔥 [Et merde](http://recup-blog.masamune.fr/)
+5. 🚨🔥 [Et merde](http://recup-blog.masamune.fr/)
    1. Rapatrié de mémoire
-5. 📌 Check retours mails DMARC
-6. Guthib
-7. Nouveaux articles + diffusion sur la durée
+6. 📌 Check retours mails DMARC
+7. Guthib
+8. Nouveaux articles + diffusion sur la durée
     1. PHP 8.2
     2. Cours
     3. Article de blog déplacer ce putain de wordpress
+       1. Permaliens
+       2. Enregistrer divi afin de finir de basculer les urls
     4. [Lien vers la doc ~htaccess ovh](https://help.ovhcloud.com/csm/fr-documentation-web-cloud-hosting?id=kb_browse_cat&kb_id=e17b4f25551974502d4c6e78b7421955&kb_category=98441955f49801102d4ca4d466a7fdb2)
     5. Mushroom ketchup
        1. Pas faire au gros sel, sel fin, moins de 5% du poids
@@ -313,80 +321,94 @@ Rieng
     7. Corrections "rapides" afin d'optimiser le référencement du blog
        1. Validateurs
        2. images > title & alt & h & w
-8. 📌⏳ Vérifier [Google analytics](https://analytics.google.com/analytics/web/#/report-home/a26782507w69814287p71948494)
-9. 📌⏳ [Google search console](https://search.google.com/search-console?resource_id=sc-domain%3Ablog.masamune.fr)
+9. 📌⏳ Vérifier [Google analytics](https://analytics.google.com/analytics/web/#/report-home/a26782507w69814287p71948494)
+10. 📌⏳ [Google search console](https://search.google.com/search-console?resource_id=sc-domain%3Ablog.masamune.fr)
     1. [Insight](https://search.google.com/search-console/insights/?resource_id=sc-domain%3Ablog.masamune.fr&hl=fr&ga_view_id=71948494)
     2. 📝 [Tuto](https://support.google.com/webmasters/answer/6258314?hl=fr)
-10. ⚡️🔌💸 Fastest cache premium quand il y aura une promo
-11. 🌱 Changer de theme le 2023 est vraiment moisi aucun controle
+11. ⚡️🔌💸 Fastest cache premium quand il y aura une promo
+12. 🌱 Changer de theme le 2023 est vraiment moisi aucun controle
     1. 🐛 F.FIX images du theme > pas d'attribut title -_- > dans le nouveau wp "title" correspond au nom de la page dédiée au média
        1. Vérifier qu'aucune des anciennes image ne fait plus de 50ko, cf. wagyu qui était a 200ko > Flemme en vrai
        2. Les grilles d'articles n'utilisent pas les miniatures d'images mais les grandes ? wtf
        3. Toutes les images > Attributs `height` & `width`
     2. Pas de defer/async sur les ressources (css/js/fonts surtout)
     3. Cleaner pour [accessibe](https://accessibe.com/accessscan)
-12. 🌱 Faire une newsletter
+13. 🌱 Faire une newsletter
     1. GA > search console > conversion
 
 ### Déplacer site vitrine
 
 1. Bleu masa osef #43a8d3, plus clair #49cced, Rouze #9b000e, Rauz #ff00ff
-2. 🏭 BP Entreprise qui a plusieurs projets
-   1. 📌 Ou pas, réutiliser et juste rajouter des images alakon à gauche ?
-   2. Rassembler par client/entreprise/expérience pro : une seule page
-   3. Une page client et plusieurs projets en dessous (~recipeS ?)
-3. 📌 Tester nouveau projet + import du BP enregistré
-   1. 🚀 3WAcademy
-   2. Nayxt
-4. 📋 Process nouveau projet
-   1. Cloner `cv-portfolio-tout/portfolio/projets/_BP_README.md`
-   2. Remplir les informations de base
-   3. Rapatrier images si c'pas déjà fait et clean
-      1. Process `cv-portfolio-tout/README.md`
-         1. Récupérer depuis `/Desktop/tas de merde now/masamune.fr dump fichiers/uploads`
-         2. A bouger dans `cv-portfolio-tout/portfolio`
-         3. 🔥 Infos sensibles > noms projets, noms clients, identifiants
-      2. Vérifier si logo entreprise dans le dossier
-      3. `README.md` portfolio > textes title & alt
-      4. WP > Ajouter aux médias
-   4. 🚀 Page WordPress
-      1. Titre du projet : NOM_PROJET
-      2. Date de publication : Date dans CV & Premier du mois & 12:00
-      3. Publier > Vérifier Url
-      4. Catégories > Ajouter uniquement enfants
-         1. Si nouvelles catégories ajouter au BP
-      5. Tags > Pluriel uniquement
-         1. Sujets du site
-         2. Styles/Ambiance minimaliste / moderne / luxe / classique / one page
-      6. Image en avant > Carré ( 512 x 512, TinyPNG )
-         1. Title `Masamune / PROJET / CLIENT / TYPE_PROJET`
-      7. Extrait
-         1. `Réalisation d'un site vitrine pour un architecte, qui souhaitait un design minimaliste, et une administration simple à prendre en main.`
-         2. Type de projet, type de client, objectifs du projet.
-         3. 2 lignes max
-      8. Désactiver commentaires
-   5. 💾 Rapatrier textes dans portfolio `cv-portfolio-tout/portfolio/projets/CLIENT/README.md`
-   6. Utiliser Divi
-      1. Choisir la mise en page
-      2. Télécharger le modèle
-      3. Charger à partir de la bibliothèque "YYMMDD (latest) Projet"
-      4. Remplacer les contenus
-         1. Si pas d'image > Fond > Motif > Cube + #49CCED
-         2. Vérifier si vidéo youtube
-      5. 🚨 Pas oublier
-         1. Liens > Ajouter liens
-         2. Images > Visionneuse ou lien fichier direct
-            1. CSS perso `max-height: 300px; overflow: hidden; width: 100%;`
-            2. Styles > Espacement > Marge externe basse > 2em
-         3. Missions > logo client à la place de celui masamune
-         4. Vérifier en mode texte à la fin qu'il n'y a pas d'ajout de balises alakon `<div><span>&nbsp;`
-         5. 📱 Responsive
-   7. 💾 Github
-5. 🌱 Check contenus ancien site avant bennage, notemment pour les anciens projets
-6. 🌱 Ajouter des descriptions aux [catégories (de projet)](https://prod.masamune.fr/wp-admin/term.php?taxonomy=project_category&tag_ID=3&post_type=project&wp_http_referer=%2Fwp-admin%2Fedit-tags.php%3Ftaxonomy%3Dproject_category%26post_type%3Dproject)
-7. 🌱 Portefeuille (autres projets) > Ajuster catégories similaires
-8. 🌱 Ajuster Portefeuille (autres projets) quand 3+
-9. 🌱 WP fastest cache premium > Après bascule DNS
+2. ~Types de clients > PME / Renfort d'équipe / gros clients ?
+3. 🚀 Pages de bases
+   1. Accueil
+      1. Projets > 2 autres carousel
+      2. 🌱 Images profil > Photo
+      3. Changer images de fond
+   2. Contact
+   3. A propos
+   4. ~~🌱 Prestations / Services~~
+   5. Portfolio > affichage des principales catégories
+4. Pages secondaires
+   1. CGV
+   2. Crédits
+   3. Mentions légales
+   4. RGPD
+5. Menus
+6. Header
+7. Footer
+8. 🍻 Passer en ligne
+    1. 🚀 Maj accès benner ancien
+    2. 🌱 SPF SI besoin (ptet pour tout masamune ?)
+9. 📋 Process nouveau projet
+    1. Cloner `cv-portfolio-tout/portfolio/projets/_BP_README.md`
+    2. Remplir les informations de base
+    3. Rapatrier images si c'pas déjà fait et clean
+       1. Process `cv-portfolio-tout/README.md`
+          1. Récupérer depuis `/Desktop/tas de merde now/masamune.fr dump fichiers/uploads`
+          2. A bouger dans `cv-portfolio-tout/portfolio`
+          3. 🔥 Infos sensibles > noms projets, noms clients, identifiants
+       2. Vérifier si logo entreprise dans le dossier
+       3. `README.md` portfolio > textes title & alt
+       4. WP > Ajouter aux médias
+    4. 🚀 Page WordPress
+       1. Titre du projet : NOM_PROJET
+       2. Date de publication : Date dans CV & Premier du mois & 12:00
+       3. Publier > Vérifier Url
+       4. Catégories > Ajouter uniquement enfants
+          1. Si nouvelles catégories ajouter au BP
+       5. Tags > Pluriel uniquement
+          1. Sujets du site
+          2. Styles/Ambiance minimaliste / moderne / luxe / classique / one page
+       6. Image en avant > Carré ( 512 x 512, TinyPNG )
+          1. Title `Masamune / PROJET / CLIENT / TYPE_PROJET`
+       7. Extrait
+          1. `Réalisation d'un site vitrine pour un architecte, qui souhaitait un design minimaliste, et une administration simple à prendre en main.`
+          2. Type de projet, type de client, objectifs du projet.
+          3. 2 lignes max
+       8. Désactiver commentaires
+    5. 💾 Rapatrier textes dans portfolio `cv-portfolio-tout/portfolio/projets/CLIENT/README.md`
+    6. Utiliser Divi
+       1. Choisir la mise en page
+       2. Télécharger le modèle
+       3. Charger à partir de la bibliothèque "YYMMDD (latest) Projet"
+       4. Remplacer les contenus
+          1. Si pas d'image > Fond > Motif > Cube + #49CCED
+          2. Vérifier si vidéo youtube
+       5. 🚨 Pas oublier
+          1. Liens > Ajouter liens
+          2. Images > Visionneuse ou lien fichier direct
+             1. CSS perso `max-height: 300px; overflow: hidden; width: 100%;`
+             2. Styles > Espacement > Marge externe basse > 2em
+          3. Missions > logo client à la place de celui masamune
+          4. Vérifier en mode texte à la fin qu'il n'y a pas d'ajout de balises alakon `<div><span>&nbsp;`
+          5. 📱 Responsive
+    7. 💾 Github
+10. 🌱 Check contenus ancien site avant bennage, notemment pour les anciens projets
+11. 🌱 Ajouter des descriptions aux [catégories (de projet)](https://prod.masamune.fr/wp-admin/term.php?taxonomy=project_category&tag_ID=3&post_type=project&wp_http_referer=%2Fwp-admin%2Fedit-tags.php%3Ftaxonomy%3Dproject_category%26post_type%3Dproject)
+12. 🌱 Portefeuille (autres projets) > Ajuster catégories similaires
+13. 🌱 Ajuster Portefeuille (autres projets) quand 3+
+14. Test plugin SiteGround Optimizer
 
 ---
 
@@ -522,7 +544,7 @@ Extraire ici puis ranger & prioriser. Doit rester vide.
 
 ---
 
-Tout est extrait :)
+- [heberg wp](https://wpmudev.com/hosting/#dev-plans)
 
 ---
 

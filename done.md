@@ -2,6 +2,63 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 02/06/2023
+
+AE
+
+1. ✅ Décalaration AE
+2. ✅ Cours > Débrander & ranger 1 à 2 journées initiation Javascript
+   1. ✅ Debrand
+   2. ✅ Ajouter url masamune.fr à toutes les slides
+   3. ✅ Githuber
+3. Hébergement > Vérifier paiements
+   1. ✅ ALDehu
+      1. ✅ Hebergement 44€ > Facture envoyée le 26 mai 2023, vu avec nonore en live le virement arrive bientôt
+      2. ✅ NDD > 8,3€ > Enovyé le 01/06/23
+4. Déplacer site vitrine
+   1. ✅ Admin slow AF > Analyser
+   2. ✅ Console
+      1. ✅ Problème https ? > adresse favicon pas en https
+   3. ✅ [Statistiques](https://docs.google.com/spreadsheets/d/1PRnekwnyb4MZHagqTLvMCuVENYs8-7VIgpYGB4pyqIg/edit#gid=0) > Excel
+   4. 🍻 Passer en ligne
+      1. ✅ Activer moteurs de recherche
+      2. ✅ Sauvegarde ai1wpm avant changement url
+      3. ✅ Sauvegarde phpMyAdmin avant changement url
+      4. ✅ Sauvegarde phpMyAdmin après changement url dans admin
+      5. ✅ Sauvegarde phpMyAdmin après repasse alamaing + fix date alakon
+      6. ✅ Ré-import dans phpMyAdmin du sql
+      7. ✅ OVH Manager > NDDs > Virer anciens
+      8. ✅ OVH Manager > Nouveaux > Multisite
+         1. ✅ Dossier racine `prod`
+         2. ✅ `www.masamune.fr`
+      9. ✅ OVH Manager > Regen certificats SSL
+      10. ✅ OVH Manager > Nouveaux > NDDs // 145.239.37.162
+          1. ✅ `masamune.fr` // 145.239.37.162
+          2. ✅ `www.masamune.fr` // 145.239.37.162
+          3. ✅ ipv6 / `masamune.fr` // 2001:41d0:301::30
+          4. ✅ ipv6 / `www.masamune.fr` // 2001:41d0:301::30
+      11. ✅ Changer [wp fastest cache premium](https://www.wpfastestcache.com/wp-admin/admin.php?page=license)
+          1. ✅ Changer nom sur site
+          2. ✅ DL + extraire
+          3. ✅ Supprimer ancien
+          4. ✅ Reup
+          5. ✅ Relancay
+      12. ✅ Regen permaliens
+      13. ✅ Enregistrer Admin > Divi > pour finir de changer les urls
+      14. 🍻✅ Pas si pire
+      15. ✅ Attendre https pour les ressources avant de peter un plomb
+      16. ✅ Sauvegarde bdd après migration
+
+Perso
+
+1. ✅📣 Blog / Que faire quand site hackay / sera publié le 02 / 06
+
+👨‍🏫 Evogue
+
+1. ✅💥💩 Regrouper l'ensemble des factures de Juin 2023 en une seule
+2. ✅ Préparer les prochaines missions
+3. ✅🏭 Process nouvelle mission
+
 ## 26/05/2023
 
 Perso
