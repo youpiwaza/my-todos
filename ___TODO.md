@@ -34,50 +34,12 @@ Indiquer ici les *tâches à effectuer en priorité*
 - Si besoin de focus, mettre une ou 2 tâches ici.
 - Ne pas tout fourrer ici, *respecter la priorisation*, sinon tout est fait à l'arrache
 
-1. OVH Manager > desactiver protection transfert domaine et re-test
-2. ⏳ Jus Mundi
-   1. ⏳ Facture Mai 2023 envoyée > En attente de règlement
-3. 🚀 Evogue
-   1. ⏳💸 Vérifier paiement mission mai (2 jours), Toujours rien au 01/06/23, relancé par mail le 30/05/23
-   2. 🚀 Préparer les cours
-4. Masamune > Déplacer anciens sites
-    1. 🌱 Finaliser blog
-    2. Finir Déplacer site vitrine
-    3. CV tout est good
-5. Gérer [évolution google analytics](https://mail.google.com/mail/u/0/#inbox/FMfcgzGsmWwnjMCCzPJJrGwvqRmTkVrP)
-6. ⏳💸 à garder sur le compte courant / 473 €
-   1. 473€ CFE, 16 juin 2023
-   2. 500 provisions hellfest
-7. 💸 Hébergement > Vérifier paiements
-    1. Fof > Hebergement > 23 € > Envoyé le 01/06/23
-8. Perso
-    1. 🎂 Orga anniv pougnoutte
-       1. 🚀 Liste des invités
-       2. Dates
-       3. Lieux
-       4. Activités
-       5. Dépenses
-       6. Images
-       7. Espace de discussion
-    2. Eplucher docs AG Reims
-    3. 👨‍⚕️ Dentiste > Envoyer nouveau devis > Renvoyer retour Alan
-    4. ⏳💸 Appeler BRED, cf. edt tel
-       1. Changer de conseiller
-       2. Remboursement des frais injustifiés
-       3. Résiliation de "BPCE Assurances IARD"
-       4. Call & mails envoyés le [11/05/2023](https://drive.google.com/drive/folders/1bqIpMlzVT7OYL9FkUdm9h6LbAFJCG4q7)
-    5. 👨‍⚕️ Racheter
-       1. gellules huile de foie de morue
-       2. 🍔 Pizza++ > [diastatic malt powder](https://www.joshuaweissman.com/post/dominos-pizza)
-    6. Meuble bar > cleaner éclats de la réparation
-    7. 🍔 [Croissants high hydration dow](https://www.youtube.com/watch?v=GSlBVCbgFhE)
-    8. Rappeler Gauthier
-    9. Rappeler Anouk
-    10. 👨‍⚕️ RDV dermato > Obligé d'appeler
-        1. Julie Plee / 03 26 85 42 88
-        2. Ziad Reguaï / 03 52 15 08 08
-    11. 🎵 Concert little big 21 octobre strasbourg
-    12. 👨‍⚕️ Alan > Faire exos pour le dos > Pas sur le site internet, appli seulement :/
+1. Trier
+   1. En premier les trucs éclatables en quelques minutes, virer tt ce qui parasite
+   2. Prioriser
+      1. Rangement HF
+      2. Urgent
+      3. Avec dédoublonnage
 
 ---
 
@@ -96,28 +58,28 @@ Indiquer ici les *tâches à effectuer en priorité*
 
 Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel plus tard/exponentiel
 
-- ⏳ Déplacer les terminés ✅ à chaque début de semaine dans done.md
+- ✅ Déplacer les terminés ✅ à chaque début de semaine dans done.md
 - 💩 Déplacer les TODO 🌱 dans _TODO_shame.md
-- ⏳ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ⏳ mails, ⏳ edt portable, ⏳ favoris, ⏳ bureau. Si possible description + lien.
-- ⏳ Nettoyer le fichier __TODO
-  - ⏳ Status
+- ✅ Shame TODOs : Extraire ici (### Shame) les emplois du temps stockés sur ✅ mails, ✅ edt portable, ✅ favoris, ✅ bureau. Si possible description + lien.
+- ✅ Nettoyer le fichier __TODO
+  - ✅ Status
   - ⏳💥 Ce fichier > ### Shame 💥 Cleaner pour vrai les trucs ou je ne passe jamais
     - ⏳ Ranger dans fichiers TODO correspondant
       - ⏳ Prioriser
-- ⏳ Virer ce qui traine
-  - ⏳ sur le bureau
+- ✅ Virer ce qui traine
+  - ✅ sur le bureau
   - 💩 dans le dossier _shame du bureau
   - 💩 Lel ~(local)/_dev/_shame
-  - ⏳ Vider corbeille
-  - ⏳ Vider téléchargements
-  - ⏳ Dans les mails
-- ⏳ Déplacer veille onglets dans TODO_veille
+  - ✅ Vider corbeille
+  - ✅ Vider téléchargements
+  - ✅ Dans les mails
+- ✅ Déplacer veille onglets dans TODO_veille
 - 💩 Ranger DD boulot
 - 💩 Lel Veille / Un truc par semaine, genre le vendredi aprem, a githuber
 - ⏳ Déclaration Auto entrepreneur / Avril 2023
-- 💥 Vérifier impôts sur espace
-  - 💥 Perso  / Revenus 2022
-  - 💥 Pro    / 11/04/2022
+- ⏳ Vérifier impôts sur espace
+  - ⏳ Perso  / Revenus 2022
+  - ⏳ Pro    / 11/04/2022
 - ⏳ Vérifier messages [Ameli](https://assure.ameli.fr/)
 - ⏳ Maj locales / Environnement de dev / Dernière maj le 01/06/21 / lel
   - ⏳ CHKDSK / Besoin de param `/f` ou [ne répare pas](https://docs.microsoft.com/fr-fr/windows-server/administration/windows-commands/chkdsk), `/r` également
@@ -126,7 +88,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
     3. `>Blah blah besoin de redémarrer O/n` >> `O`
     4. Redémarrer / Attendre 5 ans et demi sauf si t'as un SSD/Nvme
   - ⏳ Windaube
-    - ⏳ Update alakon
+    - ✅ Update alakon
     - ⏳ [.net](https://dotnet.microsoft.com/download) > Runtime
     - ⏳ Panneau de conf > "Fichiers temporaires" > "Fichiers temporaires" (dans les catégories) > Supprimer
   - ⏳ Drivers > [detection auto](https://www.touslesdrivers.com/index.php?v_page=29) > Lancer éxécutable, ça ouvre une page recap, et suivre liens dl
@@ -136,16 +98,16 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
     - ⏳💸 System mechanic
   - ⏳ Docker desktop (tray > icône > RC > Check for updates) / Attention, besoin de redémarrer a la main pour installation
   - ⏳ Logiciels alakon
-    - ⏳ Ouvrir VScode > Auto update plugins etc.
-    - ~~Filezilla~~ ⏳ WinSCP, ⏳ OBS, ⏳ VLC, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
+    - ✅ Ouvrir VScode > Auto update plugins etc.
+    - ~~Filezilla~~ ✅ WinSCP, ✅ OBS, ✅ VLC, [Xnview classic (Pas MP)](https://www.xnview.com/fr/xnview/#downloads)
     - ~~Powershell~~ Pris en compte par Windows update
       - [sans prise de tête](https://aka.ms/powershell-release?tag=stable) > ~`PowerShell-VERSION-win-x64.msi`.
       - ( [Doc](https://docs.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) )
-    - ⏳ Nvidia driver
+    - ✅ Nvidia driver
   - ⏳ Supprimer les fichiers temporaires
     - Exec > `temp` // Devrait ouvrir `~c:Windows\Temp`
     - Supprimer tout, Ignorer ceux utilisés
-  - ⏳ WSL 2
+  - ✅ WSL 2
     - Version Ubuntu
       - Si majeure, ré-effectuer [install-dev-env](https://github.com/youpiwaza/install-dev-env)
     - Packages & terminal
@@ -155,49 +117,33 @@ omz update
 git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade && sudo apt -y clean && sudo apt -y autoremove && docker system prune -af && npm install -g npm@latest
 ```
 
-- ⏳ Téléphone
-  - ⏳ Maj de la base
-  - ⏳ Maj des applications
+- ✅ Téléphone
+  - ✅ Maj de la base
+  - ✅ Maj des applications
   - ⏳ Tous les 6 mois > reset usine
 - ~⏳ Compléments alimentaires
   - ⏳ Anaca3
-    - ⏳ Attente livraison
   - ⏳ Huile de foie de morue
   - ⏳ Choline Inositol
   - ⏳ Trucs foie/reins
   - ⏳ Ginseng / "Super ginko"
   - ⏳ Mix vitamine
   - ⏳ Doc > vitamine D tous les 6 mois
-  - ⏳ Miel gelée royale
+  - ✅ Miel gelée royale
   - ⏳♻️ Acheter flotte > magnésium
 - ⏳ Tout est versionné, pas de WIP qui traîne
+- ♻️ majs tous les wordpress
+- ♻️ Article blog
 - Dashlane > Surveillance dark web > changer mots de passe
 
 ---
 
 ## ⏳ En attente
 
-### AE
-
-1. ⏳ AE > Payer impôts CFE rattrapage 2020
-   1. Avis en mai 2023, 473€, [à payer en juin](https://mail.google.com/mail/u/0/#inbox/KtbxLvhVcWmcxbbZhnsRMnQSnbSMnkJCGq)
-   2. Le prélèvement interviendra à compter du 16/06/2023 sous la Référence Unique de Mandat (RUM) n°NNFR46ZZZ0050022351000131145R250898.
-
-### ⏳ ICCA Reims
-
- 1. ⏳ Contrat dans mail
-    1. ⏳ Attente de retour sur
-       1. mes disponibilités qui ne correspondent pas
-       2. leur contrat qui est déconnant de ouf
-       3. l'ajout de mes CGV
-    2. 👪 Call le 24/04/23
-       1. ⏳ Retour "dans la semaine"
- 2. Récupérer infos de la boite pour factures
-
 ### Perso
 
 1. ⏳ Relance syndic > clé qui n'ouvre pas le local à poubelle
-   1. ⏳ Mail envoyé le 11/04/23
+   1. ⏳ Mail envoyé le 11/04/23 > Vu lors de l'AG > Changement de serrurier ?
 
 ---
 
@@ -245,6 +191,7 @@ Rieng
    6. Remove lines if empty > 1
    7. If a component hasn't content, auto-close it
    8. ♻️ Refacto duplicate code to `computed` or `method`
+   9. Jeter un oeil au linter
 3. ♻️ CRA
 4. 🤯 Sur notion il y a les screenshots, filtre JC uniquement, pas JM
 
@@ -252,20 +199,12 @@ Rieng
 
 ### 👨‍🏫 Evogue
 
-pres ajout masa.fr première page
-
-indispensables : identifiants, nom classes, test mirco cam mini reu, enplacement lei ET classes, qui se charge de l'appel, modalités d'évaluation, faire un excel partagé
-
-1. 🚀 Préparer les prochaines missions
-   1. 2306 - Mission juin 2023 - 3 jours - JS PHP - Visio🎥
-      1. Cours à préparer
-         1. Préparer "PHP et Mysql, installer et tester"
-         2. PHP / SQL > Checker cours du 27 au 29 mars > 3 DJ PHP SQL
-   2. 🚀 Mission 5 & 12 Juin / 2 jours / NodeJs
-      1. Cours à préparer
-   3. Mission 7 au 9 Juin / 3 jours / Frameworks JS
-      1. Cours à préparer
-   4. Mission du 31 juillet au 4 aout / 5 jours / DevOps
+1. ⏳ Préparer les prochaines missions
+   1. ⏳ 2306 - Mission juin 2023 - 3 jours - JS PHP - Visio🎥
+      1. ⏳ Cours à préparer
+         1. ⏳ Projet API / Pokédex > Lier à JS avec bouton qui call et met à jour en live
+            1. A voir en fonction de l'avancement fin de la 2eme journée
+   2. Mission du 31 juillet au 4 aout / 5 jours / DevOps
       1. 🏭 Appliquer BP
       2. ⏳ En attente de contrat, 1ère partie 1 jour juillet ok, manque 4 jours août
          1. Réserver trains
@@ -544,7 +483,107 @@ Extraire ici puis ranger & prioriser. Doit rester vide.
 
 ---
 
-- [heberg wp](https://wpmudev.com/hosting/#dev-plans)
+1. ⚡️ Rapide
+   1. ✅ Envoyer RIB à [Antouin](https://www.facebook.com/messages/t/1374335482651102)
+      1. ⏳💸 Vérifier remboursement, tétine 10€, et un body bébay 6 mois 18€, donc 28 € en tout :)
+   2. ✅ Cashless HF 2023 > Remboursement
+      1. ✅ Puce Vigi `JLOXXX`, billet `66 40 XXX`, `masaXXX@gmail.com` > Demandé le 20/06/23
+         1. ⏳💸 Vérifier remboursement, 269,45€ balles
+      2. ✅ Puce Max `OYJXXX`, billet `66 40 XXX`, `hebXXX@gmail.com` > Demandé le 20/06/23
+         1. ⏳💸 Vérifier remboursement, ~20 balles
+   3. Prendre les places pour le festival ketfest à gisord
+   4. 473€ CFE, 16 juin 2023 > Garder trace paiement, il y a un mail également
+   5. FB/Mail Bérangère organisation vacances : Du 23 juillet au soir jusqu'au 26 ~matin
+   6. Sauce piquante.fr > Lien vers sauce pour darons > Renvoyer par [mail](https://www.sauce-piquante.fr/3-sauce-barbecue)
+   7. Rappels badminton + ajouter emplois du temps tel : mercredi et vendredi
+   8. Partage fb nouvel article blog
+   9. Vérification [changement flixbus ?](https://mail.google.com/mail/u/0/#inbox/FMfcgzGsnBlBrVpFBvdVljFsgTdhFmQV)
+   10. 🎵 Concert little big 21 octobre strasbourg
+   11. ⏳ Gérer [évolution google analytics](https://mail.google.com/mail/u/0/#inbox/FMfcgzGsmWwnjMCCzPJJrGwvqRmTkVrP) / Cleaner tout
+       1. ⏳ Attendre 48h et vérifier présence de données pour chacun
+
+---
+
+1. 🔨 Normal / Chop chop
+   1. Ranger hellfest
+      1. Préparer/regrouper t-shirts javier (2 anciens & 3 nouveaux)
+      2. Mes darons
+      3. Récupérer photos & vidéos, compresser, drive, partager // Egalement dans 2eme groupe FB métalleux
+   2. 🧽 Cleaner bordel ambiant appartement
+      1. Truc cafay dans vinaigre blanc
+      2. Nettoyer frigo
+      3. Cuisine
+      4. Poubelles
+      5. Verre
+      6. Aspi
+      7. Brita
+      8. Jardin > Récolter, cleaner
+         1. Aller racheter des pots > Fraisiers replanter truc de dinde au milieu
+   3. 🏃 Aller chercher colis amazon > gélules huile de foie de morue, cf. sms
+   4. 🏃 Aller récupérer une fig qui attend au GW de reims [depuis 2022](https://mail.google.com/mail/u/0/#inbox/FMfcgzGsnBfQZmhMMmRJJQVMGsqWDKdH)
+   5. 🏃 Acheter flotte > magnésium
+   6. Anniv vigi
+   7. ⏳💸 Attente retour francis pour payay le Hellfest
+
+---
+
+1. 🌱 Moins urgent
+   1. Retrouver le correcteur de posture
+   2. 👨‍⚕️ Alan > évolution offres > [baisser tarifs ?](https://mail.google.com/mail/u/0/#inbox/FMfcgzGsnBhjwhRxzJXXKQRLjbNbRPML)
+   3. Préparer prochaine séance de tatoo
+   4. 🏃 Magazine "science des épices" > Voir si toujours dispo ou pdf en ligne
+   5. OST Ghost in the shell le film
+      1. Choper des images d'inspi
+      2. Toshop de proposition combler le blanc ?
+   6. Musiques Hellfest
+      1. 1 earth
+      2. Architects
+      3. Crisix
+      4. In flames > dernier album
+      5. Pantera
+      6. Skynd
+   7. Checker taf > micro frontend 1500 -2500 / journée
+
+---
+
+1. Site vitrine
+   1. Page catégories avec les projets existants
+   2. Site en construction
+2. ⚡️ [heberg wp](https://wpmudev.com/hosting/#dev-plans)
+3. Maj CV
+   1. Maj age
+   2. Process maj cv > maj fr--masamune & reup
+4. Evogue
+    1. Donner les cours > Projet API / Pokédex
+5. OVH Manager > desactiver protection transfert domaine et re-test
+6. ⏳ Jus Mundi
+    1. ⏳ En attente de retour de Javier pour la dernière mini-intégration avant de passer aux choses sérieuses
+7. Masamune > Déplacer anciens sites
+    1. 🌱 Finaliser blog
+    2. Finir Déplacer site vitrine
+    3. CV tout est good
+8. Perso
+    1. 🎂 [Orga anniv pougnoutte](https://drive.google.com/drive/folders/1gjOfZsH-a8l7yWM7sCDSziNkCIQbeWbY?usp=drive_link)
+       1. 🚀 Liste des invités
+       2. Dates
+       3. Lieux
+       4. Activités
+       5. Dépenses
+       6. Images
+       7. Espace de discussion
+    2. ⏳💸 Appeler BRED, cf. edt tel
+       1. Changer de conseiller
+       2. Remboursement des frais injustifiés
+       3. Résiliation de "BPCE Assurances IARD"
+       4. Call & mails envoyés le [11/05/2023](https://drive.google.com/drive/folders/1bqIpMlzVT7OYL9FkUdm9h6LbAFJCG4q7)
+    3. Meuble bar > cleaner éclats de la réparation
+    4. 🍔 [Croissants high hydration dow](https://www.youtube.com/watch?v=GSlBVCbgFhE)
+    5. Rappeler Gauthier
+    6. Rappeler Anouk
+    7. 👨‍⚕️ RDV dermato > Obligé d'appeler
+        1. Julie Plee / 03 26 85 42 88
+        2. Ziad Reguaï / 03 52 15 08 08
+    8. 👨‍⚕️ Alan > Faire exos pour le dos > Pas sur le site internet, appli seulement :/
 
 ---
 

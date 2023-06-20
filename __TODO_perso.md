@@ -90,6 +90,7 @@ Sites > crunchyroll / otakufr . co
 
 ## Comics
 
+- Frank miller batman
 - Mad max
 - Star wars empire – Manque un numéro ( 9 ? )
 - The preacher
@@ -179,6 +180,7 @@ Sites > crunchyroll / otakufr . co
 - Funny game
 - Futari
 - 📌 Galaxy Quest
+- Game Night
 - garden state
 - gaspard noé > tout
 - Gattaca
@@ -347,6 +349,7 @@ Sites > crunchyroll / otakufr . co
 - Le sexe qui chante
 - Les ewoks 2 la bataille d'endors
 - Légion
+- 💥 Mad Heidi
 - MECHANIC : RESURRECTION / Jason statham film alakon
 - Ninja Eliminator 4 : The French Connection
 - Ninja scroll
@@ -407,6 +410,7 @@ Sites > crunchyroll / otakufr . co
 - sunless seas
 - Tactical ogre
 - Transistor
+- What the golf
 - Witchers
 - wolfenstein new order
 
@@ -446,6 +450,7 @@ Sites > crunchyroll / otakufr . co
 ## Miam / Bouffe
 
 - [Chicken wings in nems wraps](https://www.youtube.com/watch?v=SrrYN_m-3Zw)
+- [Cooking tree / Délicieux sandwich! Recette de sandwich mayonnaise aux œufs et au concombre](https://www.youtube.com/watch?v=oIPu60K1SmQ)
 - [How to Make the Best Roasted Garlic Pork Roast](https://www.youtube.com/watch?v=iweMlDYxx_c)
 - [I soaked steaks in BUTTERMILK and this happened!](https://www.youtube.com/watch?v=Q3yiVgzmnnI)
 - [Patates ecrasées](https://www.youtube.com/watch?v=0iJ_cqeivZ8)

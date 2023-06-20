@@ -2,6 +2,84 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 16/06/2023
+
+👨‍🏫 Evogue
+
+1. ✅ Préparer les prochaines missions
+   1. ⏳ 2306 - Mission juin 2023 - 3 jours - JS PHP - Visio🎥
+      1. ✅ Cours à préparer
+         1. ✅ Récupérer 3 DJ PHP SQL
+         2. ⏳ Projet API / Pokédex > Lier à JS avec bouton qui call et met à jour en live
+            1. A voir en fonction de l'avancement fin de la 2eme journée
+   2. ✅ Mission 5 & 12 Juin / 2 jours / NodeJs
+      1. ✅ Cours à préparer
+         1. ✅ 12 juin fin Node Js & Express JS
+            1. ✅ Serveur minimaliste avec HTML, CSS, Images `pipe()`, gestion 404
+            2. ✅ ExpressJS
+   3. ✅ Mission 7 au 9 Juin / 3 jours / Frameworks JS
+      1. ✅ Cours à préparer
+         1. ✅✨ React
+         2. ✅ Angular
+            1. cf. `evogue/missions/230607 - Mission juin 2023 - 3 jours - Frameworks JS - Visio/notes.md`
+         3. ✅✨ Node
+
+🔥 ICCA Reims
+
+ 1. ⏳ Contrat dans mail
+    1. ⏳ Attente de retour sur
+       1. mes disponibilités qui ne correspondent pas
+       2. leur contrat qui est déconnant de ouf
+       3. l'ajout de mes CGV
+    2. 👪 Call le 24/04/23
+       1. ⏳ Retour "dans la semaine"
+ 2. Récupérer infos de la boite pour factures
+
+Perso
+
+1. ✅ Racheter Crème tattoo Hustle Butter Deluxe
+2. ⏳ Gérer [évolution google analytics](https://mail.google.com/mail/u/0/#inbox/FMfcgzGsmWwnjMCCzPJJrGwvqRmTkVrP) / Cleaner tout
+   1. ✅🔥 Virer les vieilles merdes qui trainent
+   2. ✅ Champagne pascal picard
+   3. ✨ Effy art tattoo
+   4. ✅ Masamune > Champagne Didier lapie
+   5. ✅ Masamune blog
+   6. ✅ Masamune site
+   7. 🔥 ACGM
+   8. 🔥 Vibrant Design
+   9. 🔥 Preprod ?
+   10. 🔥 Thibault ludwig
+   11. ✅ Vérifier les https dans la def des props
+3. ✅ Articles blog
+4. 💥 Maj CV
+   1. ✅ masamune.fr/cv > c'est l'ancien
+   2. Maj age
+   3. ✅ Créer cv.png au cas ou
+   4. ✅ Créer cv.pdf au cas ou
+   5. Process maj cv > maj fr--masamune & reup
+5. ✅ CV > Ajouter dernières version React, Node JS + express, Angular
+6. ✅ Rapatrier Cours d'Angular JS
+   1. ✅ Avec process
+7. ✅ Evogue
+   1. ✅💸 Vérifier paiement mission mai (2 jours), Toujours rien au 01/06/23, relancé par mail le 30/05/23 > Relancé Darren le 05/06/23
+   2. ✅ Préparer les cours
+   3. Donner les cours
+   4. ✅ Mission juin 2023 - 3 jours - Frameworks JS - Visio🎥
+   5. ✅ Vérifier Paiement juin
+8. ⏳ Jus Mundi
+    1. ✅ Facture Mai 2023 envoyée > En attente de règlement
+9. ✅💸 à garder sur le compte courant / 473 €
+    1. ✅⏳ 473€ CFE, 16 juin 2023
+    2. ✅ 500+ provisions hellfest
+10. ✅💸 Hébergement > Vérifier paiements
+    1. ✅Fof > Hebergement > 23 € > Envoyé le 01/06/23 > Virement lancé le 09/06, devrais arriver début de semaine pro
+11. Perso
+    1. ✅ Eplucher docs AG Reims
+    2. ✅👨‍⚕️ Dentiste > Envoyer nouveau devis > Renvoyer retour Alan
+    3. 👨‍⚕️ Racheter
+       1. ✅ gellules huile de foie de morue
+       2. ✅ 🍔 Pizza++ > [diastatic malt powder](https://www.joshuaweissman.com/post/dominos-pizza)
+
 ## 02/06/2023
 
 AE

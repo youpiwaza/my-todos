@@ -36,6 +36,7 @@ Remettre patreon Boris, YMS, Bloodywood
 - Huile de laquier (netflix flavorfull origins)
 - Huile de lin pour viande agneau, cf. [origines des saveurs s3e4](https://www.netflix.com/browse?jbv=80991060)
 - [Huile de sésame](https://www.rizetco.com/taebaek-agricultural)
+- [Japanese Peppers](https://www.youtube.com/watch?v=buJD9kf7YY0)
 - [koji](https://www.google.com/search?q=koji)
   - [koji paste](https://www.google.com/search?q=koji+paste)
 - 💥 Kombu [(pour vinaigrer riz sushi)](https://www.youtube.com/watch?v=nIoOv6lWYnk)
