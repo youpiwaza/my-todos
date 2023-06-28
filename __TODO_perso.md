@@ -73,6 +73,7 @@ Sites > crunchyroll / otakufr . co
 - Megumi Igarashi AKA Rokudenashiko
 - Nekomonogatari: Kuro
 - Ninja Scroll !!
+- Redo of healer !
 - Rising of the hero shield
 - [Saga of Tanya the Evil](https://www.crunchyroll.com/fr/saga-of-tanya-the-evil)
 - [Saki (mahjong)](https://www.anime-planet.com/anime/saki/videos)
@@ -464,6 +465,7 @@ Sites > crunchyroll / otakufr . co
 - ✅ Tout les favoris /zik/peinture
 - ✅ Liens dans liste wtf
   - 💥 Liste wtf > musiques
+- 3 days grace
 - ✅👴 Alchimist
 - ✅ Alestorm
   1. ✅ Captain Morgan's Revenge

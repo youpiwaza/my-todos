@@ -2,6 +2,115 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 23/06/2023
+
+### 👨‍🏫 Evogue
+
+1. Préparer les prochaines missions
+   1. ⏳ 2306 - Mission juin 2023 - 3 jours - JS PHP - Visio🎥
+      1. ✅ Cours à préparer
+         1. ✅🏭 Pré-requis PHP / Mysql installation etc.
+      2. ✅ Ranger / Maj cours PHP
+      3. ✅ Ranger 2 vidéos expl. php connexion sql & projet
+      4. ✅ Maj les corrections php/sql
+         1. ✅ github
+      5. ✅ Folio > Professorat > Distanciel > Impr. écran de moi avec le partage et le teams
+
+Perso
+
+1. ✅⚡️ "Rapide"
+   1. ✅ Envoyer RIB à [Antouin](https://www.facebook.com/messages/t/1374335482651102)
+   2. ✅ Cashless HF 2023 > Remboursement
+      1. ✅ Puce Vigi `JLOXXX`, billet `66 40 XXX`, `masaXXX@gmail.com` > Demandé le 20/06/23
+         1. ✅💸 Vérifier remboursement, 269,45€ balles
+      2. ✅ Puce Max `OYJXXX`, billet `66 40 XXX`, `hebXXX@gmail.com` > Demandé le 20/06/23
+         1. ✅💸 Vérifier remboursement, ~20 balles
+   3. ✅ Prendre les places (x2) pour le festival [Kave Fest à Gisors](https://my.weezevent.com/kave-fest-2023)
+      1. ✅ Nat' revend sa place, attendre avant d'acheter > Virement fait le 20/06/23
+         1. ✅ Pour le billet de vigi c'est celui de ben & nat hellfest, virement de 29€90 envoyé le 20/06/23.
+      2. ✅ Acheter une place max sur site officiel
+   4. ✅ 473€ CFE, 16 juin 2023 > Garder trace paiement, il y a un mail également
+   5. ✅ FB/Mail Bérangère organisation vacances : Du 23 juillet en fin de journée jusqu'au 26 ~matin
+      1. ✅ Message envoyé sur messenger le 20/06/23
+      2. ✅ En attention de confirmation > Confirmé
+   6. ✅ Sauce piquante.fr > Lien vers sauce pour darons > Renvoyer par [mail](https://www.sauce-piquante.fr/3-sauce-barbecue)
+   7. ✅ Rappels badminton + ajouter emplois du temps tel : mercredi et vendredi
+   8. ✅ Partage fb nouvel article blog
+   9. ✅ Vérification [changement flixbus ?](https://mail.google.com/mail/u/0/#inbox/FMfcgzGsnBlBrVpFBvdVljFsgTdhFmQV)
+      1. ✅ A priori juste attribution des places > Billets majs mail & agenda
+   10. 💩🎵 Concert little big 21 octobre strasbourg
+       1. Billets
+          1. 💥 Pas à strasbourg wtf ? / [site offi](https://littlebig.band/tour)
+             1. 💩 loing / 11 juillet à Nice [site](https://fr.fridayticket.com/ru/nice/little-big-47484.html)
+             2. 💩 vendredi 21 juillet à Aulnoye-Aymeries, pratiquement belgique, festival 50€ ? [site cancer](https://lesnuitssecretes.com/billetterie/)
+             3. 💩 fest 46€ / samedi 29/07/23 / En dessous de bordeaux LUXEY, FR
+       2. ~~Transports~~
+       3. ~~Hébergement~~
+   11. ✅ Deshydrateur Lidl > voir si modèle 3D dispo sur le net et demander à DuS d'imprimer x 3
+       1. ✅ [Plan gratuit ?](https://cults3d.com/fr/mod%C3%A8le-3d/maison/lidl-food-dehydrator)
+       2. ✅ Demander photo à guy
+       3. ✅ Transmettre à DuS
+       4. ✅ Confirmer
+   12. ✅ Gérer [évolution google analytics](https://mail.google.com/mail/u/0/#inbox/FMfcgzGsmWwnjMCCzPJJrGwvqRmTkVrP) / Cleaner tout
+       1. ✅ Attendre 48h et vérifier présence de données pour chacun
+   13. ✅📧 Syndic remboursement ampoules parties communes
+       1. ✅ Relance envoyée le 21/06/23
+       2. ✅ Retour > Renvoi ticket de caisse leroy le 22/06/23 > Renvoi RIB
+       3. ✅ Vérifier paiement
+   14. ✅📧 Retour sofia horaires week end prochain
+   15. ✅💩📧 Message groupe hellfest sac a dos glacière [darons vigi ?](https://www.avis-sportifs.com/14878-sac-a-dos-glaciere-randonnee-forclaz-20-l-bleu-3608439565991.html)
+   16. ✅📧 Relance Javier
+   17. ✅📧 Adresse Pascale
+   18. ✅ Prévoir achat billets Hellfest mardi 27/06
+   19. ✅ Vigi > Re-donner accès à agenda > Pas possible de mon côté c'est à elle de s'abonner au mien
+   20. ✅ Décaler badminton du 12/07 à plus tard
+   21. ✅ Dus > jeudi chez nous
+       1. ✅ Retour confirmation
+
+2. 🔨 Normal / Chop chop
+   1. ✅ Acheter viande filet mignon et faire mariner pour BBQ darons samedi
+   2. ✨🚨 Demander a dus si il peut arroser les plantes pendant nos vacances d'été, et aérer appart'
+       1. Peut être notre première semaine, donc need trouver quelqu'un dautre pour du 24 au 30/07
+       2. Caroline ? Alex / Océane
+          1. ✨ Vigi s'en charge
+   3. ✅💸 Faire un point budget, me reste 2200 > dans paiement ae
+   4. Préparer prochaine séance de tatoo
+   5. ✅ Vacances juillet
+       1. ✅ ~27/07/23 > Choper date pour Ellen & Marc ET Réserver Airbnb qui accepte les chiens
+       2. ✅ Bien noter toutes les dates sur l'agenda afin de pouvoir gérer éventuellement de l'orga
+   6. ✅ Ranger hellfest
+      1. ✅ Préparer/regrouper t-shirts javier (2 anciens & 3 nouveaux)
+      2. ✅ Mes darons
+      3. ✅ Récupérer photos & vidéos, compresser, drive, partager
+   7. ✅🧽 Cleaner bordel ambiant appartement
+      1. ✅ Truc cafay dans vinaigre blanc
+      2. ✅ Nettoyer frigo
+      3. ✅ Cuisine
+      4. ✅ Poubelles
+      5. ✅ Verre
+      6. ✅ Aspi
+      7. ✨ Bâche // vigi
+      8. ✅ Brita
+      9. ✅ Vinaigrer théière
+      10. ✨ Chiottes & SdB // vigi
+   8. ✅🏃 Aller chercher colis amazon > gélules huile de foie de morue, cf. sms
+   9. ✅🏃 Aller récupérer une fig qui attend au GW de reims [depuis 2022](https://mail.google.com/mail/u/0/#inbox/FMfcgzGsnBfQZmhMMmRJJQVMGsqWDKdH)
+   10. ✅🏃 Acheter flotte > magnésium
+   11. ✅💸 Attente retour francis pour payay le camp Hellfest
+       1. ✅ Je dois 5,19€ à francis
+       2. ✅ Je dois 3,85€ à Vigi
+       3. ✅ Je dois 1,62€ à Antoin mais remboursement tétine et body, donc il me doit 25€
+          1. ✅ Vérifier virement, a priori lancé le 20/06/23
+       4. ✨ Je dois 2 centimes à Titi
+       5. ✅ Francis me doit 2 paquets de clopes
+3. ✅ Dédoublonner / Prio TODO
+
+Masamune
+
+1. Site vitrine
+   1. ✅ Page catégories avec les projets existants
+   2. ✅ Site en construction
+
 ## 16/06/2023
 
 👨‍🏫 Evogue
