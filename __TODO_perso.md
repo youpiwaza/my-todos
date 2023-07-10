@@ -452,11 +452,13 @@ Sites > crunchyroll / otakufr . co
 
 - [Chicken wings in nems wraps](https://www.youtube.com/watch?v=SrrYN_m-3Zw)
 - [Cooking tree / Délicieux sandwich! Recette de sandwich mayonnaise aux œufs et au concombre](https://www.youtube.com/watch?v=oIPu60K1SmQ)
+- Fromage le manicamp
 - [How to Make the Best Roasted Garlic Pork Roast](https://www.youtube.com/watch?v=iweMlDYxx_c)
 - [I soaked steaks in BUTTERMILK and this happened!](https://www.youtube.com/watch?v=Q3yiVgzmnnI)
 - [Patates ecrasées](https://www.youtube.com/watch?v=0iJ_cqeivZ8)
 - [The Best Chicken Parm Breaks All the Rules](https://www.youtube.com/watch?v=EX63f-ZHF2Y)
 - [The Perfect Chicken Parmesan > Asiat style](https://www.youtube.com/watch?v=C4X4NdlBY5o)
+- Whisky > !big peat > 12 ans d'age
 
 ## Musiques
 

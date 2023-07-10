@@ -35,10 +35,8 @@ Indiquer ici les *tâches à effectuer en priorité*
 - Ne pas tout fourrer ici, *respecter la priorisation*, sinon tout est fait à l'arrache
 
 1. Blog > 📌🐛 Corriger Indexation
-2. Site vitrine
-3. Perso > Orga anniv pougnoutte
-4. Evogue > Attente rendu projets finaux
-5. Jus
+2. Perso > Orga anniv pougnoutte
+3. Jus
 
 ---
 
@@ -199,14 +197,7 @@ Rieng
 ### 👨‍🏫 Evogue
 
 1. Préparer les prochaines missions
-   1. ✅ 2306 - Mission juin 2023 - 3 jours - JS PHP - Visio🎥
-      1. ✅ Evaluation finales élèves
-         1. ✅ Attente rendu projets finaux / 29/06/23 soir au max
-         2. ✅ Corriger, noter
-      2. ✅ Envoyer sur le teams ou chp, cf md de la mission
-         1. ✅ Le canal de Teams **Formateurs(trices)** contiendra un tableau au nom du module de cours qui permet de saisir tes notes et commentaires en fin de module. Merci de faire cette saisie dans les 5j ouvrés.
-            1. ✅✅ Rien sur le canal, renvoyé par mail au cas où.
-   2. Mission du 31 juillet au 4 aout / 5 jours / DevOps
+   1. Mission du 31 juillet au 4 aout / 5 jours / DevOps
       1. 🏭 Appliquer BP
       2. ⏳ En attente de contrat, 1ère partie 1 jour juillet ok, manque 4 jours août
          1. ⏳ Dispo au 1er juiller
@@ -270,64 +261,18 @@ Rieng
 
 ### Site vitrine
 
-1. ✅ Go écrémer les catégories > ✅ Catégories useless > tags & supprimer
-2. ✅ Finir d'importer les tafs
-3. ✅ Faire une repasse afin d'uniformiser les galeries de photos
-4. ✅ Maj BP pour futurs projets
-5. ✅ Faire une repasse afin de mettre des images liées aux boites (background) + logos à droite
-6. ✅ En bas > "Plus de projets"
-   1. 💩 Le projet en cours ne doit pas être dedans
-   2. ✅ Catégorie affiliées
-7. ✅ Ajouter catégorie type projet > applis facebook, mini sites, Cours
-8. ✅ Maj les liens du cv afin de faire pointer vers les nouvelles pages
-    1. ✅ CV > pb > "modélisme"
-    2. ✅ Ajout Evogue
-    3. ✅ Ajout JM
-9. ✅ Technologies > Faire une grille triable par techno, et par type de projet + menu
-10. ✅ Rapatrier anciens contenus, reprendre à Nestlé fondations > cartes
-    1. ✅ À propos
-       1. ✅ Profil
-          1. ✅ +-
-       2. ✅ Méthodes de travail
-          1. ✅ Reconnaissance & partage
-       3. ✅ Masamune ?
-11. ✅ Pages secondaires
-    1. ✅ Template > Butcher > About > En faire un template plus simple
-    2. ✅ CGV
-       1. ✅ c/c + mise en forme
-    3. ✅ Plan du site
-    4. ✅ Revoir l'ordonnacement des titres h1, h2, etc. // bof
-    5. ✅ À propos > fin de page lien vers la suite
-    6. ✅ Accueil > Lien vers profil
-12. ✅ Maj stats avec JM & Evogue
-13. ✅ Accueil > changer projet bilans services pour un avec des images.
-    1. Dans l'idéal 1 renfort d'équipe, 1 site vitrine, 1 prof
-14. ✅ A propos > Ptet décaler une paire de trucs de la page d'accueil (études, etc.)
-15. ✅ Footer wesh > Ajouter liste des pages secondaires
-16. ✅ Vérifier formulaire de contact
-    1. ✅ Config
-       1. [hey](https://divitheme.net/stop-divi-contact-form-spam/)
-    2. ✅ Anti spam
-    3. ✅ Tayste
-17. 🚀 checklist fin de site wp
-    1. ✅ php
-    2. 🚀 wordpress
-       1. Finir config all in one seo
-       2. ✅ monster insights
-       3. ✅ complianz
-          1. ✅ Lien page politique de cookies
-          2. Finir config (bandeau consentement, etc.), reprendre à bannière de cookies
-    3. classique
-18. Virer warnings PHP
-19. Maj pages secondaires blog ?
-20. CGV
+1. 📱 Vérifier responsive
+2. Virer warnings PHP // Page grille projet
+3. Maj pages secondaires blog ?
+4. CGV
     1. Revoir clause 6 retard de paiement > Cleaner avec celle devis/factures
     2. Rassembler 8 & 13, propriété intelectuelle
     3. Vérifier uniformité et versionner > SST
-21. Vérifier permaliens
-22. Faire un backup texte / Gros cc contenus textes sur word, par page
-    1. images pages
-23. Remplacer images placeholders
+5. Vérifier permaliens
+6. Vérifier console
+7. Faire un backup texte / Gros cc contenus textes sur word, par page
+    1. images pages > fr--masamune/assets
+8. Remplacer images placeholders
     1. Images requises
        1. Accueil
           1. Expertise
@@ -335,10 +280,10 @@ Rieng
           3. Quelques chiffres
           4. Etudes
        2. Contact > En visio
-24. Repasse prestations ? [hey](https://docs.google.com/document/d/1w88CIdw7LNbKpmFHZbWhWxXU2kAeXVSHKGaAcSUJyfg/edit?pli=1)
-25. Toutes les images mises en avant pour les pages
+9. Repasse prestations ? [hey](https://docs.google.com/document/d/1w88CIdw7LNbKpmFHZbWhWxXU2kAeXVSHKGaAcSUJyfg/edit?pli=1)
+10. Toutes les images mises en avant pour les pages
     1. Config partages all in one seo
-26. Pages auto
+11. Pages auto
     1. Page de recherche
     2. Page affichage des résultats de recherche
     3. Page cat projet > [hey](https://masamune.fr/categorie-projet/developpeur-web/) avec liens sur la page d'accueil
@@ -354,24 +299,11 @@ Rieng
    1. Julie Plee / 03 26 85 42 88
    2. Ziad Reguaï / 03 52 15 08 08
 4. 👨‍⚕️ Alan > Faire exos pour le dos > Pas sur le site internet, appli seulement :/
-5. ⏳💸 Appeler BRED, cf. edt tel
-   1. Changer de conseiller
-   2. Remboursement des frais injustifiés
-   3. Résiliation de "BPCE Assurances IARD"
-   4. Call & mails envoyés le [11/05/2023](https://drive.google.com/drive/folders/1bqIpMlzVT7OYL9FkUdm9h6LbAFJCG4q7)
-   5. Vigi gère ?
-6. Jardin > Récolter, cleaner
-    1. Aller racheter des pots > Fraisiers replanter truc de dinde au milieu
-    2. Sable pour piments/poivrons
-    3. Prendre de la sauge, qui protège contre les nuisibles
-    4. Prendre paillage/copeaux de bois > Pour la menthe ~2-3cm pour retenir l'humidité
-    5. Fertilisant kewl, a appliqure après chaque récolte > faire le point sur CEUX qu'il faut
-    6. Sécateur/Ciseaux plastiques pour taille afin d'éviter l'oxydation
-7. Changer les filtres a flotte > Voir si besoin d'en racheter, de mémoire 1
-8. Meuble bar > cleaner éclats de la réparation
-9. 🍔 [Croissants high hydration dow](https://www.youtube.com/watch?v=GSlBVCbgFhE)
-10. Rappeler Gauthier
-11. Rappeler Anouk
+5. Changer les filtres a flotte > Voir si besoin d'en racheter, de mémoire 1
+6. Meuble bar > cleaner éclats de la réparation
+7. 🍔 [Croissants high hydration dow](https://www.youtube.com/watch?v=GSlBVCbgFhE)
+8. Rappeler Gauthier
+9. Rappeler Anouk
 
 ---
 
@@ -379,19 +311,14 @@ Rieng
 
 1. [Drive](https://drive.google.com/drive/folders/1gjOfZsH-a8l7yWM7sCDSziNkCIQbeWbY?usp=drive_link)
 2. ⏳ Liste des invités
-   1. ✅ Newsletter 1 envoyée le 28/06/23
-   2. ✅ Envoi via FB/discord également si pas de mail
-   3. ⏳ Attente confirmations
-3. ✅ Dates
-4. Lieux
-   1. ✅ Valhalla / Message envoyé le 28/06/23 (contact site & mail), ⏳ rappeler à l'occasion
-   2. ⏳ Attente de réponse
-   3. Trouver gros AirBNB
-5. Activités
-6. Dépenses
-7. Images
-8. Espace de discussion
-9. OLD
+   1. ⏳ Attente confirmations
+3. Lieux
+   1. Trouver gros AirBNB
+4. Activités
+5. Dépenses
+6. Images
+7. Espace de discussion
+8. OLD
    1. Idées cadeaux
       1. Zaylda
       2. Vélo, a voir en revenant de vacances

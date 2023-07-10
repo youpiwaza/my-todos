@@ -2,6 +2,95 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 08/07/2023
+
+👨‍🏫 Evogue
+
+1. ✅ 2306 - Mission juin 2023 - 3 jours - JS PHP - Visio🎥
+   1. ✅ Evaluation finales élèves
+      1. ✅ Attente rendu projets finaux / 29/06/23 soir au max
+      2. ✅ Corriger, noter
+   2. ✅ Envoyer sur le teams ou chp, cf md de la mission
+      1. ✅ Le canal de Teams **Formateurs(trices)** contiendra un tableau au nom du module de cours qui permet de saisir tes notes et commentaires en fin de module. Merci de faire cette saisie dans les 5j ouvrés.
+         1. ✅✅ Rien sur le canal, renvoyé par mail au cas où.
+
+Site vitrine
+
+1. ✅ Go écrémer les catégories > ✅ Catégories useless > tags & supprimer
+2. ✅ Finir d'importer les tafs
+3. ✅ Faire une repasse afin d'uniformiser les galeries de photos
+4. ✅ Maj BP pour futurs projets
+5. ✅ Faire une repasse afin de mettre des images liées aux boites (background) + logos à droite
+6. ✅ En bas > "Plus de projets"
+   1. 💩 Le projet en cours ne doit pas être dedans
+   2. ✅ Catégorie affiliées
+7. ✅ Ajouter catégorie type projet > applis facebook, mini sites, Cours
+8. ✅ Maj les liens du cv afin de faire pointer vers les nouvelles pages
+    1. ✅ CV > pb > "modélisme"
+    2. ✅ Ajout Evogue
+    3. ✅ Ajout JM
+9. ✅ Technologies > Faire une grille triable par techno, et par type de projet + menu
+10. ✅ Rapatrier anciens contenus, reprendre à Nestlé fondations > cartes
+    1. ✅ À propos
+       1. ✅ Profil
+          1. ✅ +-
+       2. ✅ Méthodes de travail
+          1. ✅ Reconnaissance & partage
+       3. ✅ Masamune ?
+11. ✅ Pages secondaires
+    1. ✅ Template > Butcher > About > En faire un template plus simple
+    2. ✅ CGV
+       1. ✅ c/c + mise en forme
+    3. ✅ Plan du site
+    4. ✅ Revoir l'ordonnacement des titres h1, h2, etc. // bof
+    5. ✅ À propos > fin de page lien vers la suite
+    6. ✅ Accueil > Lien vers profil
+12. ✅ Maj stats avec JM & Evogue
+13. ✅ Accueil > changer projet bilans services pour un avec des images.
+    1. Dans l'idéal 1 renfort d'équipe, 1 site vitrine, 1 prof
+14. ✅ A propos > Ptet décaler une paire de trucs de la page d'accueil (études, etc.)
+15. ✅ Footer wesh > Ajouter liste des pages secondaires
+16. ✅ Vérifier formulaire de contact
+    1. ✅ Config
+       1. [hey](https://divitheme.net/stop-divi-contact-form-spam/)
+    2. ✅ Anti spam
+    3. ✅ Tayste
+17. 🌱 checklist fin de site wp
+    1. ✅ php
+    2. ✅ wordpress
+       1. ✅ Finir config all in one seo
+          1. ✅ sitemap.xml automatique
+       2. ✅ monster insights
+       3. ✅ complianz
+          1. ✅ Lien page politique de cookies
+          2. ✅ Finir config (bandeau consentement, etc.), reprendre à bannière de cookies
+       4. ✅ terminer check readme
+    3. classique
+18. ✅ .htaccess
+    1. ✅ Virer découverte de l'arborescence
+    2. ✅ Protéger wp-config
+19. ✅ Githuber le projet, maj .gitignore avant
+
+Perso
+
+1. Jardin > Récolter, cleaner
+    1. Aller racheter des pots > Fraisiers replanter truc de dinde au milieu
+    2. Sable pour piments/poivrons
+    3. Prendre de la sauge, qui protège contre les nuisibles
+    4. Prendre paillage/copeaux de bois > Pour la menthe ~2-3cm pour retenir l'humidité
+    5. Fertilisant kewl, a appliqure après chaque récolte > faire le point sur CEUX qu'il faut
+    6. Sécateur/Ciseaux plastiques pour taille afin d'éviter l'oxydation
+
+🎂 Orga anniv pougnoutte
+
+1. ⏳ Liste des invités
+   1. ✅ Newsletter 1 envoyée le 28/06/23
+   2. ✅ Envoi via FB/discord également si pas de mail
+   3. ⏳ Attente confirmations
+2. ✅ Dates
+3. Lieux
+   1. ✅ Valhalla / Message envoyé le 28/06/23 (contact site & mail), ⏳ rappeler à l'occasion
+
 ## 23/06/2023
 
 ### 👨‍🏫 Evogue
