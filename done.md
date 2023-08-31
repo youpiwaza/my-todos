@@ -2,6 +2,42 @@
 
 Les tâches terminées des semaines précédentes :)
 
+## 11/08/2023
+
+👨‍🏫 Evogue
+
+1. Préparer les prochaines missions
+   1. Mission du 31 juillet au 4 aout / 5 jours / DevOps
+      1. 🏭 Appliquer BP
+      2. ✅ En attente de contrat, 1ère partie 1 jour juillet ok, manque 4 jours août
+         1. ✅ Dispo au 1er juiller
+         2. ✅ Réserver trains
+         3. ✅ Trouver logement
+      3. ✅ Préparer les cours
+         1. ✅ clean install dev env
+            1. ✅📌 Tester
+               1. ✅ terminal
+               2. ✅ docker
+               3. ✅ ansible
+               4. ✅ vscode
+         2. ✅ Outils de devops
+         3. ✅ Bonus / Outils de dev
+         4. ✅ SUITE
+         5. ✅ Changer install dev env > .net en premier > windows update
+            1. fonctionnalités windows > virtualisation + bios
+            2. wsl2 > AVANT > ms store > installer ubuntu
+      4. Problème docker read only file system > Plus de place sur le disque dur !
+      5. ✅ QCM > à Terminer
+         1. Ansible citez des collections : reformuler, donner un exemple > builtin.general.file
+      6. Rajouter captures CI CD
+      7. Gitlab CI/CD & Ansible : vraiment mettre l'accent sur les applications concrète, donner 3 grands chemins (pour réponses controle)
+      8. Ansible > Bien différencier du langage YAML
+         1. Prévoir une slide dessus dans le parcours de la semaine, et expliquer dans quels technos il est utilisé
+      9. ✅ Corriger controles
+      10. ✅ Corriger projets
+      11. ✅ Envoyer les notes & évaluations
+      12. 🚀 Cleaner les cours avec les différentes notes
+
 ## 08/07/2023
 
 👨‍🏫 Evogue

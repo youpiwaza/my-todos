@@ -43,7 +43,7 @@ Sites > crunchyroll / otakufr . co
 - Blame
 - DDD
 - demonslayer
-- détroit metal city
+- détroit metal city + live action
 - docteur stone
 - dogs
 - Ebichu
@@ -63,6 +63,7 @@ Sites > crunchyroll / otakufr . co
   - 🌱 S5 Part 6
 - ✅ How not to summon a demon lord / 3/5 / Bon scénar mais trop de boobs
   - 🌱 S3
+- Jujutsu kaizen
 - kaiji
 - [kamen rider X](https://www.youtube.com/watch?v=xBcJTVIxBak)
 - Kawaki wo Ameku
@@ -73,6 +74,8 @@ Sites > crunchyroll / otakufr . co
 - Megumi Igarashi AKA Rokudenashiko
 - Nekomonogatari: Kuro
 - Ninja Scroll !!
+- Oni chichi no ragrets
+- Oshi no ko
 - Redo of healer !
 - Rising of the hero shield
 - [Saga of Tanya the Evil](https://www.crunchyroll.com/fr/saga-of-tanya-the-evil)
@@ -85,7 +88,9 @@ Sites > crunchyroll / otakufr . co
 - Steins gate / Saison 2 !
 - Steins gate films / Shisha no Teikoku
 - Up
-- 🌱 Vinland saga / 5/5
+- Vampire hunter D
+- ✅ Vinland saga / 5/5
+- Youjo senki
 - Zashiki warashi no tatami-chan
 - Zton Jingai Animation: A Beautiful Greed Nulu Nulu
 
@@ -291,6 +296,7 @@ Sites > crunchyroll / otakufr . co
 - ✅ The machinist (christian bale)
 - ✅ The perfection
 - The signal
+- The story of anvil
 - The tattouist
 - They live
 - ✅ Thirst, ceci est mon sang / Park Chan-wook
@@ -318,7 +324,7 @@ Sites > crunchyroll / otakufr . co
 
 ### Nanards
 
-- nanrd film bruce willis hudson hawk
+- 2h moins le quart avant jesus christ
 - Black dynamite
 - beowulf lambert
 - birdemic
@@ -331,9 +337,11 @@ Sites > crunchyroll / otakufr . co
 - ✅ Frankenhooker / 4/5 / Un peu long mais très bon nanard
 - Fist of jesus // zombies
 - German Angst
+- Gentlemen broncos
 - hamburger film sandwich / voies redoublées
 - Horror cannibal 2, et puis le 1 tant qu'à faire
 - Howard the duck
+- Hudson hawk (bruce willis)
 - Humanity bureau (avec n cage)
 - [Jattu Engineer](https://www.nanarland.com/chroniques/comedies-nanardes/comedies-pouet-pouet/jattu-engineer.html)
 - killer beans
@@ -357,12 +365,13 @@ Sites > crunchyroll / otakufr . co
 - [Pac man le film](http://www.allocine.fr/film/fichefilm_gen_cfilm=211257.html)
 - Raw Force
 - Samuraïs
-- Samurai cop / 3/5 / Très long pour ce que c'est mais sympa a voir
+- ✅ Samurai cop
 - Série [Japanese spiderman](https://www.youtube.com/watch?v=d5NCSx5HF8c)
 - sharknado
 - Short circuit (vieux, ui)
 - Squid game
 - Street fighter la série US 1995
+- Street trash
 - Taoist drunkord
 - Tiger blade
 - ✅ The drone / 5/5 / L'esprit du tueur en série passe dans son drone avec un hack en binaire IRL

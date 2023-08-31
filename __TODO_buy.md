@@ -51,6 +51,7 @@ Remettre patreon Boris, YMS, Bloodywood
 - Origine des saveurs (netflix) > gluten
 - [Perilla_oil](https://en.wikipedia.org/wiki/Perilla_oil)
 - [Sauce otafuku](https://www.otafukusauce.com/e/)
+- Sauce soja [Kamebishi](https://www.google.com/search?q=kamebihsi) / [hey](https://www.youtube.com/watch?v=57yJA0_XU_g)
 - [Sel d'icelande](https://www.amazon.fr/Saltverk-Pure-Flaky-Sea-salt/dp/B06XKSFW4P) / [Vidéo](https://www.youtube.com/watch?v=dgzwxRSJyfw)
 - [Sel Jakobs](https://www.youtube.com/watch?v=7FuEpgUGhVY)
 - Skyr / ~Yaourt light
