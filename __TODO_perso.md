@@ -334,7 +334,9 @@ Sites > crunchyroll / otakufr . co
 - Creepies
 - Deathgasm
 - Dogma
+- Epidemia
 - ✅ Frankenhooker / 4/5 / Un peu long mais très bon nanard
+- Fight of fury 2020
 - Fist of jesus // zombies
 - German Angst
 - Gentlemen broncos
@@ -378,10 +380,12 @@ Sites > crunchyroll / otakufr . co
 - The legend of Simon conjurer
 - The mutilator
 - The room
+- The secret dog
 - Turbo Kid
 - Turkish spiderman
 - ✅ Undead sigh/5
 - Velocipastor
+- Villu
 - Violent Shit: The Movie
 - ✅ Virus Shark / 4/5
 - ✅ Who killed captain alex / 1st uganda action movie / sur youtube / 5/5 💖
