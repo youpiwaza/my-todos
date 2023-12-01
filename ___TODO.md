@@ -18,6 +18,7 @@ Légende :
 - 📧 email envoyé/à envoyer
 - ✨ Rien à toucher, déjà en place
 - 👪 Réunion ou call
+- ❌ Nope
 
 ## 🧠⏫ Raccourcis & process à intégrer au flow
 
