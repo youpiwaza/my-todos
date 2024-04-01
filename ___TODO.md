@@ -116,7 +116,7 @@ Tâches à *vérifier au moins une fois par semaine*, afin d'éviter un bordel p
 
 ```bash
 omz update
-git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade && sudo apt -y clean && sudo apt -y autoremove && docker system prune -af && npm install -g npm@latest
+git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade && sudo apt -y clean && sudo apt -y autoremove && docker system prune -af && npm install -g npm@latest && sudo npm install -f --global yarn && pnpm add -g pnpm && bun upgrade --canary
 ```
 
 - ⏳ Téléphone
