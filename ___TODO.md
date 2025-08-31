@@ -119,6 +119,21 @@ omz update
 git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull && sudo apt update && sudo apt --fix-broken install && sudo apt -y upgrade && sudo apt -y clean && sudo apt -y autoremove && docker system prune -af && sudo npm install -g npm@latest && sudo npm install -f --global yarn && pnpm add -g pnpm && bun upgrade --canary && sudo sh -c "/usr/bin/echo 3 > /proc/sys/vm/drop_caches" && swapoff -a && swapon -a && printf '\n%s\n' 'Ram-cache and Swap Cleared'
 ```
 
+- High usage CPU & maintenance > [yay](https://fr.drivereasy.com/connaissances/resolu-wmiprvse-exe-haute-utilisation-cpu-sous-windows-10/)
+
+cmd as admin
+
+```bash
+sfc /scannow
+Dism /Online /Cleanup-Image /CheckHealth
+Dism /Online /Cleanup-Image /ScanHealth
+Dism /Online /Cleanup-Image /RestoreHealth
+```
+
+Restart pc
+
+---
+
 - ⏳ Téléphone
   - ⏳ Maj de la base
   - ⏳ Maj des applications
