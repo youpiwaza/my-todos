@@ -1,6 +1,7 @@
 # Les trucs à acheter
 
-## Hors compétition
+- PC > [Tableau blanc magnétique](https://www.amazon.fr/s?k=tableau+blanc+aimant%C3%A9+carr%C3%A9s) pour fixer les vis lors des démontages
+
 
 Remettre patreon Boris, YMS, Bloodywood
 
@@ -10,26 +11,15 @@ Remettre patreon Boris, YMS, Bloodywood
 
 - Assiettes carrées, pour cuisiner c'est beaucoup mieux
 - Bar la maison du saké
-- [BBQ putain de cher](https://www.biggreenegg.co.uk/build-your-egg)
 - [Bible Dry age](https://www.fumoir.net/accessoires-maturation/403-la-bible-dry-ager-de-la-maturation-de-viande-version-anglaise.html)
 - [chili crisp szechuan chili oil / wuju](https://www.amazon.com/WUJU-Chinese-Texture-Natural-Ingredients/dp/B09XHQGD7N)
 - Cire d'abeille, pour rendre la pâte des raviolis moins collante
 - Déshydratateur
-  - [hey](https://www.youtube.com/watch?v=-IIZmIu17wY)
-  - [hey](https://brodandtaylor.com/products/sahara-folding-dehydrator?variant=37376502956188)
-  - [hey](https://brodandtaylor.com/collections/coffee-tea/products/spice-and-coffee-grinder)
-  - [hey](https://brodandtaylor.com/pages/fermentation-culturing)
 - Dry ager book, [original cher may voir dessous](https://dryager.com.au/product/dry-ager-book/)
   - [Bible Dry age importé FR 74€](https://www.fumoir.net/accessoires-maturation/403-la-bible-dry-ager-de-la-maturation-de-viande-version-anglaise.html)
 - [Épices](https://www.epices-roellinger.com/fr/taxons/melanges-epices)
 - [Four a pizza maison](https://www.youtube.com/watch?v=w3f8-bHPYWk)
 - [gin piger henricus](https://www.youtube.com/watch?v=7X-3DF_CbU0)
-- [gochujang](https://www.youtube.com/watch?v=sJreTj1W6Co)
-  - Qu'est-ce que le Gochujang ? Le Gochujang est un condiment coréen très utilisé en cuisine coréenne. La sauce Gochujang, que l'on peut également traduire par sauce de piment amère, est fabriquée à partir de piments rouges, de farine de riz gluant, de pâte de soja fermenté et de blé.
-  - [Site offi](http://andongjebiwon.co.kr/eng/) mais pas de e-commerce
-    - [amazon](https://www.amazon.fr/s?k=gochujang+jebiwon)
-    - [idem](https://www.amazon.fr/s?k=doenjang)
-  - Improvement of cognitive function by Gochujan [hey](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6595085/)
 - 🔍 Graine de caroube
 - gros méga bouquin sur la cuisine / poele coupées en deux et tt
 - Guga > bouquin
@@ -40,7 +30,6 @@ Remettre patreon Boris, YMS, Bloodywood
 - [Japanese Peppers](https://www.youtube.com/watch?v=buJD9kf7YY0)
 - [koji](https://www.google.com/search?q=koji)
   - [koji paste](https://www.google.com/search?q=koji+paste)
-- 💥 Kombu [(pour vinaigrer riz sushi)](https://www.youtube.com/watch?v=nIoOv6lWYnk)
 - [Mad dog hot sauce](https://www.google.com/search?q=mad+dog+hot+sauce)
 - [Mama Joyce Peppa Sauce](https://www.peppasauce.love/)
 - [Matos de qualitay may chayr](https://www.youtube.com/watch?v=y4dgl5Lv-Iw)
@@ -54,36 +43,22 @@ Remettre patreon Boris, YMS, Bloodywood
 - Sauce soja [Kamebishi](https://www.google.com/search?q=kamebihsi) / [hey](https://www.youtube.com/watch?v=57yJA0_XU_g)
 - [Sel d'icelande](https://www.amazon.fr/Saltverk-Pure-Flaky-Sea-salt/dp/B06XKSFW4P) / [Vidéo](https://www.youtube.com/watch?v=dgzwxRSJyfw)
 - [Sel Jakobs](https://www.youtube.com/watch?v=7FuEpgUGhVY)
-- Skyr / ~Yaourt light
 - Sucre muscovado
 - "The noma guide to fermentation" livre
 - [Un peu de tout, couteaux, poeles, etc.](https://fr-dalstrong.glopalstore.com/pages/GUGA-subscribe-page?utm_campaign=oth_r&utm_source=https://dalstrong.com&utm_medium=wi_proxy&utm_content=en_US&utm_term=c)
 - Vinaigre fumé
 - Vinaigre de sapin
-- [Vodka rammstein](https://shop.rammstein.de/en/catalog/Menu/rammstein-vodka-feuer-wasser.html)
 - Vrai ginseng
 - Vrai wasabi > [hon wasabi](https://www.google.com/search?q=hon+wasabi)
 - Whisky Nikka
 
-## Bureau lustom
-
-- [LM > Catégorie meuble alakon](https://www.leroymerlin.fr/produits/rangement-dressing/etagere/etagere-utilitaire/etagere-metallique-utilitaire/?pedagogicalFilters=%7B%22de-quel-type-detagere-avez-vous-besoin%22%3A%22%C3%89tag%C3%A8re%20HUB%20System%20%C3%A0%20personnaliser%23%7C%C3%89tag%C3%A8re%20Versatile%20%C3%A0%20personnaliser%20%23%7C%C3%89tag%C3%A8re%20en%20kit%20pr%C3%AAt%20%C3%A0%20monter%22%7D&p=1)
-- [Etagère](https://www.leroymerlin.fr/produits/quincaillerie/rangement-utilitaire/etagere-utilitaire/etagere-metallique-utilitaire/etagere-metal-gris-epoxy-spaceo-hubsystem-4-tablettes-l-96xh-180xp-40-69167595.html)
-- [Etabli](https://www.leroymerlin.fr/produits/outillage/materiel-et-amenagement-de-atelier/amenagement-atelier/etablis/etabli-metallique/etabli-gris-hub-system-95-8-x-65-cm-69733895.html)
-- [Panneau porte outil](https://www.leroymerlin.fr/produits/outillage/materiel-et-amenagement-de-atelier/amenagement-atelier/rateliers-et-crochets/panneau-porte-outils-gris-l-960-mm-x-h-40-x-p-0-01-cm-69699035.html)
-- [Crochets](https://www.leroymerlin.fr/produits/quincaillerie/rangement-utilitaire/crochet-de-rangement/crochet-de-rangement-mural/crochet-pour-panneau-perfore-mottez-h-18-x-l-18-x-p-4-cm-63720461.html)
-
 ## Divers
 
-- [Bloodywood](https://linktr.ee/BloodywoodOfficial) et ou [store](https://bloodywoodstore.com/)
 - blue ray robot chicken
 - [Bureau de ouf](https://www.autonomous.ai/standing-desks/smartdesk-2-home)
 - Casque buyers dynamic D 330
-- Housse en cuir pour couteau, demander a Alexis
-- Mitaines de contention, cf. dus
 - Set pour lancer des dés (et vis pc quand démontage) sur amazon ~4 balles, repliables + pressions (serge)
 - [Shampoing Magiforet](https://www.google.com/search?q=magiforet)
-- [SS](https://sexysushi.bandcamp.com/)
 - [Suport mural guitare](https://www.musicpromusic.com/fr/1495-support-guitare-mural-noir.html) ou voir plutôt thomman
 - [Vinyl OST FF7](https://store.eu.square-enix-games.com/fr_FR/product/289692/final-fantasy-vii-vinyl)
 
@@ -92,29 +67,24 @@ Remettre patreon Boris, YMS, Bloodywood
 - DJ Blyatman | [T-shirt](https://teespring.com/fr/djblyatman?view_as=EUR&currency=EUR&country=FR&tsmac=google&tsmic=youtube&pid=389&cid=100029&utm_term=UCnWnuHHjG-__QxuoZgjBgIg&utm_medium=product_shelf&utm_source=youtube&utm_content=YT-ACRcEUqECQLU3PsY5kojm7y0zxToBuVgKR0qIMyvsDRToFCOE9c3ThbV-YPV8wwbxWt3k4LOuxht5QBNai_c-rc920WQweC4QDxO8HfZ3abGIs_tGRyhHgeZ5OBBJB9a0lknxaqwX3E2aogxNWvEMPYuPFO3GTiw6hyctWKJF8wBXYwG9txLi5bj00aNfWgw2vNkvegsst_0MynOeqa55RfVJfKkSVWaOZqqnw%3D%3D)
 - [electric callboy pump it tshirt](https://www.google.com/search?q=electric+callboy+pump+it+tshirt)
 - idéee tshirt / Je veux monter un groupe de rap ou on sera expert dans l'art de se tromper dans les mots, verso > Il s'appellera les pro-lapsus
-- [Tshirt hardc orner](https://hardcorner.myspreadshop.fr/hard+corner+z+yellow-A62a9f67cbff8282d5fd8b8e3?productType=812&sellable=kaNeeoy0krTqRMbXE9nx-812-7&appearance=2)
+- [Tshirt hard corner](https://hardcorner.myspreadshop.fr/hard+corner+z+yellow-A62a9f67cbff8282d5fd8b8e3?productType=812&sellable=kaNeeoy0krTqRMbXE9nx-812-7&appearance=2)
   - [2023](https://hardcorner.myspreadshop.fr/)
-- [Oh My Zsh merch](https://shop.planetargon.com/collections/oh-my-zsh?utm_source=github)
 - Pull scissor seven / piaf
 - [Tshirt / 2 girls 1 up](https://www.google.com/search?newwindow=1&sxsrf=ALeKk01xN3MAkpt86HyV3YEUVgVG_W12kg%3A1608110006334&ei=ts_ZX4nrE8G4aZTboegN&q=tshirt+%222+girls+1+up%22&oq=tshirt+%222+girls+1+up%22&gs_lcp=CgZwc3ktYWIQA1DrsJYCWKy1lgJgjb6WAmgAcAB4AIABWogBiQKSAQE0mAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwiJnr_NlNLtAhVBXBoKHZRtCN0Q4dUDCA0&uact=5)
 - Tshirt / Boire biere bruler village
-- Tshirt / ((meme jesus) my weed fuck)
 - weslav.com
 
 ## Jeux
 
 - Elden ring
+- Clair obscure
 
 ## Livres
 
 - BD kickass
-- Calvin & hobbes
-- Cuisine fallout livre de recettes, choper pdf avant
-- Cuisine FF XIV, choper pdf avant [hey](https://store.eu.square-enix-games.com/fr_FR/product/682065/le-livre-de-cuisine-ultime-de-final-fantasy-xiv?utm_campaign=SEE%20-%20SE%20Store%20-%20FFXIV%20Cookbook%20-%20FINAL%20FANTASY%20XIV&utm_source=Sailthru&utm_medium=email&utm_term=SEE%20-%20SE%20Store%20-%20FFXIV%20Cookbooks%20-%20EFG)
-- Gaston
 - Iruzeli Japanese Tattoing
 - La geste des chevaliers dragons
-- 📌📌📌 La trilogie des souris
+- 📌📌📌 La trilogie des souris ~trucs de la garde
 - Largo winch
 - Le tueur
 - Reiser
@@ -135,7 +105,6 @@ Remettre patreon Boris, YMS, Bloodywood
 - Pates thermiques
   - Noctua NT-H1 3.5g, Pâte Thermique (3,5 g)
   - ARCTIC MX-4
-- [Tableau blanc magnétique](https://www.amazon.fr/s?k=tableau+blanc+aimant%C3%A9+carr%C3%A9s) pour fixer les vis lors des démontages
 
 ## Warhammers
 
@@ -204,5 +173,3 @@ Remettre patreon Boris, YMS, Bloodywood
   - [Warcry: Purelames Askurgans / 50 €](https://www.games-workshop.com/fr-FR/warcry-askurgan-trueblades-2023)
   - [Warcry: Chasseurs de Huanchi / 50 €](https://www.games-workshop.com/fr-FR/warcry-hunters-of-huanchi-2023)
   - [Warcry: L'Obélisque de Jade / 50 €](https://www.games-workshop.com/fr-FR/warcry-the-jade-obelisk-2023)
-
-Squidmar amazon affiliate in description : [hey](https://www.youtube.com/watch?v=-7q_hLmX1Mw)

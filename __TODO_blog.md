@@ -2,25 +2,20 @@
 
 1. Diviser TODO_blog > Garder TODO avec titres priorisés, mais créer un dossier avec un .md par article avec le contenu
 2. Articles
-   1. Bébé développer
-   2. Développeur en fin de formation
-   3. Développeur sur le long terme / dev++
+   1. Développeur sur le long terme / dev++
       1. Culture & curiosité
          1. Hobby
             1. Stages
          2. Lectures
          3. Films
          4. Rencontres & discussions
-   4. Optimisation de la vie
-      1. Bilan compléments alimentaires tous les 3 mois
-   5. Process rituels vie courante
    6. Bilans service > [process de réparation](https://github.com/youpiwaza/26Digital/tree/main/bilans%20service/ancien-intranet/users/intranet)
 
 ## 05/2023
 
 - Tips n' tricks prof
   - Sondages
-  - Correction par émève avec demo exo/projet
+  - Correction par élève avec demo exo/projet
 - [Tips gestion team feedback](https://css-tricks.com/mistakes-ive-made-as-an-engineering-manager/)
 - [AE > perso branding](https://andela.com/insights/personal-branding-for-technology-professionals)
 - Champignons ketchup
@@ -28,6 +23,8 @@
   - [Food That Time Forgot: Mushroom Ketchup](https://www.youtube.com/watch?v=cnRl40c5NSs)
   - [Autre vidéo](https://www.youtube.com/watch?v=29u_FejNuks&pp=ygUQbXVzaHJvb20ga2V0Y2h1cA%3D%3D)
   - [Recette](https://geowatkins.com/product/geo-watkins-mushroom-ketchup-190ml/)
+
+---
 
 ## 04/2023
 
@@ -39,42 +36,20 @@ hosts
 
 hostsman
 
-### Recette Sofia œuf mollet à la japonaise
+### Recette Sofia oeuf mollet à la japonaise
 
 Tiens tu voulais la recette nan? mes oeufs ont manifestement fait sensation 🤣🤣  Tu en trouveras facilement differentes versions sur le net, mais moi je cuis les oeufs 6mn15/30(eau avec un peu de vinaigre) ensuite je les fais mariner sans leur coquille 24 à 48h voire plus dans une marinade sauce soja salée (un peu)sauce soja sucrée, saké japonais, sauce mirin et de l'arôme de fumée que tu trouves sur internet. Faire chauffer la marinade d abord 2mn au micro ondes pour enlever un peu de l'alcool du saké. Faut goûter pour vérifier le goût, et tu peux ajouter d autres sauces dedans, faut expérimenter ! Marinade réutilisable plusieurs fois, quand les oeufs n'ont plus assez de goût bah faut la changer. Tu me diras si t'as tenté d'en faire !!
+
+---
 
 ## 03/2023
 
 - [livres recos](https://blog-new.masamune.fr/wp-admin/post.php?post=199&action=edit)
   - Extraire et faire un article dédié au référencement
 
-## 12/2022
-
-Manipulation des noms de domaines sous ovh, multisite & autre
-
-- DNS & zone
-  - A, AAAA, CNAME, TXT pour validation
-  - Respect de la patience : Onglet "Tâches en cours", propagation des DNS
-  - Vérification avant bascule
-    - Fichier hosts & logiciel hostsman pour validation
-    - cache DNS local & commande `ipconfig /flushdns`
-  - Activation du HTTPS
-  - Si DNS ailleurs, bien respecter recos multisite sinon zob après 30mn
-- Multisite, dossiers racine
-  - 🚨 PHP 8.1, multisite & WordPress > Installation à la mano
-  - 🚨 Ne pas mettre le dossier racine, maix plutôt `www` ou mieux un dossier personnalisé
-- Sécuriser son site avec nouveaux identifiants
-- Hébergement performance et serveur BDD dédié
-- Logs
-- Manipulation (bien plus) rapide de fichiers via SSH
+---
 
 ## Vieux
-
-Ressources [AE](https://mail.google.com/mail/u/0/#search/portfolio/KtbxLwgpsCzbhqkJxbCChHPxQDcHCFqffL)
-
-Proba mails ALD & Ophé également + Liste de liens
-
----
 
 1. Faire article mise en place/réparation/optimisation de pc
     1. [hey](https://www.drivereasy.com/knowledge/100-disk-usage-windows-10-fixed/)
@@ -97,12 +72,6 @@ Faire une [bonne présentation](https://drive.google.com/drive/folders/15YddNn8B
 ## 11/2022
 
 ### Préparer son entretien d'embauche
-
-Scaphy — Hier à 18:17
-
-j'AI UN ENTRETIENT D'EMBAUCHE POUR UN CDI DE DEV WEB A PASSER VOUS AVEZ DES CONSEILS LES COPAINS ?
-
-youpiwaza — Aujourd’hui à 10:29
 
 Réviser les questions fréquentes d'entretien (pas mal de github de dispo) et si tu connais pas tu recherches
 pas fumer avant l'entretien, faire une bonne nuit de sommeil
@@ -163,6 +132,8 @@ Bonne putain de lecture de ce pavé, si t'as des questions n'hésite pas
 - [YT Ethan Chlebowski pate pizza](https://www.youtube.com/watch?v=VtNrfooHl_g)
 - google "soy flour" proteine végétale
 
+---
+
 ## Cicatriser pour tattoo
 
 - google "aliments favorisant guerison peau"
@@ -213,44 +184,6 @@ Bonne putain de lecture de ce pavé, si t'as des questions n'hésite pas
   - Pas good
     - gingembre ou le safran (curcumine)
     - sucre et le lait écrémé
-
-## Veille WordPress
-
-- [Remotely Back Up Your WordPress Database and Media With WP Migrate CLI](https://deliciousbrains.com/remotely-backup-wordpress-database-media-wp-migrate-db-pro-cli)
-- [How to Use Schema Markup to Boost Your SEO](https://aioseo.com/how-to-use-schema-markup-to-boost-your-seo/)
-- Plugins wordpress
-  - Bien choisir ses plugins wordpress
-    - Analyse de vos besoins
-    - Compatibilité
-    - Nombre de téléchargement
-    - Date de dernière maj
-    - Testay
-      - Console
-      - Compatibilité thèmes & autres plugins
-      - Code profiler
-  - En cas de soucis
-    - Désactiver
-    - Renommer le dossier dans le ftp (désactivation auto)
-  - Eviter plugins inutiles, opérations possibles à la main
-    - Thème enfant
-      - SEO qui modifient les tags html
-      - Installation de polices, bootstrap, jquery (via thème & ou functions.php)
-  - Maintenance
-    - WP-Optimize après désinstallation
-  - Liste de plugins recommandés
-    - ACF, version pro
-    - Akismet Anti-Spam
-    - All in one wp migration
-    - ElasticPress
-    - User role editor
-    - WP-Optimize
-    - WP Disable
-    - WPS Hide Login / ou donner à wp son propre dossier
-    - Divers
-      - Cache / Dépendant config serveur
-      - Optimisation images
-      - Génération de sitemap / robots.txt
-      - RGPD
 
 ## Vrac
 
@@ -368,6 +301,7 @@ Vous cherchez Git dans la barre de recherche et vous supprimez les lignes corres
   - [Correcteur posture dos](https://www.amazon.co.uk/Posture-Corrector-Men-Women-PostureFIX/dp/B085LFVBYY/ref=pd_rhf_ee_s_trq_n2gl_1_2/261-5680257-5675703)
   - [Lunettes anti-lumières bleue](https://horus-x.com/products/package-nomade-gaming-horus-x) Horus x (attendre soldes)
   - Blessure mineur a la main > cycatril / crème hydratante / aloe / liquide vaiselle aleo vera mir
+    - HUSTLE BUTTER pour tattoo lel > richie bulldog certified
   - échaufement des doigts > rohan kishibe s1e3
   - [5 aliments bons pour renforcer votre système immunitaire](https://www.cuisineaz.com/articles/5-aliments-bons-pour-renforcer-votre-systeme-immunitaire-1712.aspx)
   - bouffe
@@ -614,12 +548,3 @@ Réinstaller le package défectueux :
   - [gateau de ouf](https://www.youtube.com/watch?v=v-W900siMxQ)
 - [beurre clarifié](http://cuisinemoiunmouton.com/ghee-beurre-clarifie/) [vidéo](https://www.youtube.com/watch?v=GqryhdhnQGI)
 - [Crevettes saumurées](https://www.youtube.com/watch?v=scSYUGIiOek)
-
-Restau
-
-- Paris / L'entrecôte
-- Paris / La maison du saumon / Ruel malmaison
-
-## Warhammers
-
-- [Tuto encres](https://www.youtube.com/watch?v=lk2P7EWvwDw)

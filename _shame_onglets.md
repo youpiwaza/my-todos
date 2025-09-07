@@ -1,5 +1,29 @@
 # Shame / Onglets navigateurs
 
+edit 2025: ptain ca en fini jamais
+
+🚧🚧🚧 Pas repassé dessus vv
+
+---
+---
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Parce que j'en ouvre toujours 100k, je les fout dans des dossiers, et le pc est à genoux
 
 ## Yay
