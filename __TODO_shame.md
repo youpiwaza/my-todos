@@ -95,7 +95,7 @@ sudo docker run \
 
 {"level":"error","msg":"Unable to obtain ACME certificate for domains \"champagne-didier-lapie.com,*.champagne-didier-lapie.com\" : unable to generate a certificate for the domains [*.champagne-didier-lapie.com]: acme: error: 429 :: POST :: https://acme-v02.api.letsencrypt.org/acme/new-order :: urn:ietf:params:acme:
 
-error:rateLimited :: Error creating new order :: 
+error:rateLimited :: Error creating new order ::
 
 too many new orders recently: see https://letsencrypt.org/docs/rate-limits/,
 
